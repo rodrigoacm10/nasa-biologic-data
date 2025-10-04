@@ -1,0 +1,165 @@
+{
+  "article": {
+    "id": "",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8044432/",
+    "title": "NASA GeneLab RNA-seq consensus pipeline: standardized processing of short-read RNA-seq data",
+    "authors": [
+      "Eliah G Overbey",
+      "Amanda M Saravia-Butler",
+      "Zhe Zhang",
+      "Komal S Rathi",
+      "Homer Fogle",
+      "Willian A da Silveira",
+      "Richard J Barker",
+      "Joseph J Bass",
+      "Afshin Beheshti",
+      "Daniel C Berrios",
+      "Elizabeth A Blaber",
+      "Egle Cekanaviciute",
+      "Helio A Costa",
+      "Laurence B Davin",
+      "Kathleen M Fisch",
+      "Samrawit G Gebre",
+      "Matthew Geniza",
+      "Rachel Gilbert",
+      "Simon Gilroy",
+      "Gary Hardiman",
+      "Raúl Herranz",
+      "Yared H Kidane",
+      "Colin PS Kruse",
+      "Michael D Lee",
+      "Ted Liefeld",
+      "Norman G Lewis",
+      "J Tyson McDonald",
+      "Robert Meller",
+      "Tejaswini Mishra",
+      "Imara Y Perera",
+      "Shayoni Ray",
+      "Sigrid S Reinsch",
+      "Sara Brin Rosenthal",
+      "Michael Strong",
+      "Nathaniel J Szewczyk",
+      "Candice GT Tahimic",
+      "Deanne M Taylor",
+      "Joshua P Vandenbrink",
+      "Alicia Villacampa",
+      "Silvio Weging",
+      "Chris Wolverton",
+      "Sarah E Wyatt",
+      "Luis Zea",
+      "Sylvain V Costes",
+      "Jonathan M Galazka"
+    ],
+    "journal": "",
+    "year": "2021",
+    "keywords": [],
+    "funding": [
+      "NASA Space Biology program",
+      "Biotechnology and Biological Sciences Research Council",
+      "MRC Versus Arthritis Centre for Musculoskeletal Ageing Research",
+      "Spanish Research Agency",
+      "National Institute for Health Research Nottingham Biomedical Research Centre"
+    ],
+    "abstract": "",
+    "sections": {
+      "introduction": "Opportunities to perform biological studies in space are rare due to high costs and a limited number of funding sources, rocket launches, and spaceflight crew hours for experimental procedures. In addition, spaceflight research is decentralized and distributed across numerous laboratories in the United States and abroad. As a result, studies performed in different laboratories often utilize different organisms, strains, cell lines, and experimental procedures. Adding to this complexity are variance in spaceflight factors and/or confounders within each study, such as degree of radiation exposure, experiment duration, CO2 concentration, light cycle, and water availability, all of which can have effects on an organism's health and gene expression profiles during spaceflight (Rutter et al., 2020). In order to optimize the integration of data from this diverse array of spaceflight experiments, it is paramount that variations in data processing are minimized.",
+      "methods": "All methods can be found in the accompanying transparent methods supplemental file.",
+      "results": "There are three distinct steps to the RCP, the first of which is data preprocessing (Figure 2A). The pipeline begins with quality control (QC) of raw FASTQ files from a short-read Illumina sequencer using the FastQC software (Andrews, 2010) (Figure 2B). FastQC is one of the most widely used QC programs for short-read sequencing data. It provides information that can be used to assess sample and sequencing quality, including base statistics, per base sequencing quality, per sequence quality scores, per base sequence content, per base GC content, per sequence GC content, per base N content, sequence length distributions, sequence duplication levels, overrepresented sequences, and k-mer content.",
+      "discussion": "The differentially expressed genes calculated by the RCP can be further explored with a variety of tools designed for higher-order analysis. For example, there are tools that can look for enriched pathways, gene ontology terms, or protein and/or metabolite networks. Popular software tools among the GeneLab working group members include WebGestalt (Liao et al., 2019), STRING (Szklarczyk et al., 2019), GSEA (Subramanian et al., 2005), PIANO (Väremo et al. 2013), Reactome (Szklarczyk et al., 2019), and ToppFun (Chen et al., 2009). There is no universal consensus on which tools are the most useful for higher-order analysis (Nguyen et al., 2019). RCP users are encouraged to try multiple tools in order to analyze their data from a variety of perspectives."
+    },
+    "experimental_factors": {
+      "organism": "mouse",
+      "organism_raw": "mouse",
+      "cell_type": "",
+      "cell_type_raw": "",
+      "tissue": "",
+      "tissue_raw": "",
+      "tissue_list": [],
+      "tissue_detail": [],
+      "treatment": "RNA-seq",
+      "treatment_raw": "rna-seq",
+      "treatment_list": [
+        "RNA-seq"
+      ],
+      "treatment_detail": [
+        {
+          "text": "rna-seq",
+          "normalized": "RNA-seq",
+          "ontology": {
+            "id": "",
+            "label": ""
+          }
+        }
+      ],
+      "duration": "",
+      "duration_raw": "",
+      "duration_detail": {
+        "raw": "",
+        "normalized": "",
+        "range": {
+          "min": "",
+          "max": ""
+        }
+      },
+      "sex": "",
+      "sex_raw": "",
+      "sex_list": [],
+      "genotype": "",
+      "genotype_raw": "",
+      "genotype_detail": {
+        "text": "",
+        "normalized": ""
+      },
+      "strain": "",
+      "strain_raw": "",
+      "line_name": "",
+      "line_name_raw": "",
+      "model_type": "",
+      "model_type_raw": "",
+      "age_at_sampling": "",
+      "age_at_sampling_detail": {
+        "raw": "",
+        "normalized": "",
+        "range": {
+          "min": "",
+          "max": ""
+        }
+      },
+      "cell_type_detail": {
+        "text": "",
+        "normalized": "",
+        "ontology": {
+          "id": "",
+          "label": ""
+        }
+      }
+    },
+    "technologies": [
+      "rna-seq",
+      "fastqc",
+      "multiqc",
+      "trimgalore"
+    ],
+    "technologies_detail": [
+      {
+        "text": "rna-seq",
+        "normalized": "rna-seq"
+      },
+      {
+        "text": "fastqc",
+        "normalized": "fastqc"
+      },
+      {
+        "text": "multiqc",
+        "normalized": "multiqc"
+      },
+      {
+        "text": "trimgalore",
+        "normalized": "trimgalore"
+      }
+    ],
+    "insights_summary": "The NASA GeneLab RNA-seq consensus pipeline is a standardized processing pipeline for short-read RNA-seq data from spaceflight-associated experiments. The pipeline includes quality control, read trimming, mapping, and gene quantification steps, culminating in the detection of differentially expressed genes. This data analysis pipeline and the results of its execution using data submitted to...",
+    "acknowledgments": "This work was funded in part by the NASA Space Biology program within the NASA Science Mission Directorate's (SMD) Biological and Physical Sciences (BPS) Division, NASA award numbers NNX15AG56G, 80NSSC19K0132, the Biotechnology and Biological Sciences Research Council (grant number BB/N015894/1), the MRC Versus Arthritis Centre for Musculoskeletal Ageing Research (grant numbers MR/P021220/1 and MR/R502364/1), the Spanish Research Agency (AEI grant number RTI2018-099309-B-I00, co-funded by EU-ERDF), and the National Institute for Health Research Nottingham Biomedical Research Centre.",
+    "references": []
+  }
+}
