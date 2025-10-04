@@ -1,0 +1,397 @@
+{
+  "investigation": {
+    "id": "OSD-809",
+    "title": "Effects of an anaerobic membrane bioreactor upset event on nitrogen speciation and microbial community in a downstream phototrophic membrane bioreactor",
+    "description": "A wastewater treatment architecture with an anaerobic membrane bioreactor and a phototrophic membrane bioreactor was created to close resource loops for use on the Moon and Mars. During an anomaly, an increase of carbon-to-nitrogen ratio led to a shift in the microbial community within PMBR photomembrane bioreactor (PMBR).",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "Simulated_Environmental_Factors",
+      "title": "",
+      "type": "Ground Study",
+      "link": "",
+      "funding": "NASA Mars Campaign Office",
+      "managing_center": "Kennedy Space Center (KSC)"
+    },
+    "protocols": [
+      "growth protocol",
+      "treatment protocol",
+      "sample collection",
+      "Nucleic Acid Extraction",
+      "Library Construction",
+      "Nucleic Acid Sequencing",
+      "human read contaminant filtering",
+      "GeneLab raw data processing protocol"
+    ],
+    "publications": [
+      {
+        "title": "Effects of an anaerobic membrane bioreactor upset event on nitrogen speciation and microbial community in a downstream phototrophic membrane bioreactor",
+        "doi": "",
+        "authors": [
+          "Daniella Saetta",
+          "Jason A. Fischer",
+          "Ashley Triana",
+          "Talon Bullard",
+          "Alexandra Smith",
+          "Cory J. Spern",
+          "Anirudha Dixit",
+          "Christina L. Khodadad",
+          "Daniel H. Yeh",
+          "and Luke B. Roberson."
+        ],
+        "summary": "Effects of an anaerobic membrane bioreactor upset event on nitrogen speciation and microbial community in a downstream phototrophic membrane bioreactor"
+      }
+    ],
+    "factors": [
+      "Time"
+    ],
+    "contacts": [
+      {
+        "first_name": "Daniella",
+        "last_name": "Saetta",
+        "role": "investigation role",
+        "email": "daniella.saetta@nasa.gov"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "PMBR-Biofilm-FeedCorner",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Attached Biofilms"
+        },
+        "factors": {
+          "Time": "101"
+        },
+        "parameters": {
+          "growth environment": "Phototrophic Membrane Bioreactor",
+          "Growth Temperature": "30",
+          "Light Intensity": "450",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Additional Sampling Information": "Feed corner corresponds to the area around the port where AnMBR permeate was introduced into the PMBR."
+        }
+      },
+      {
+        "sample_name": "PMBR-Biofilm-FloatSwitch",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Attached Biofilms"
+        },
+        "factors": {
+          "Time": "101"
+        },
+        "parameters": {
+          "growth environment": "Phototrophic Membrane Bioreactor",
+          "Growth Temperature": "30",
+          "Light Intensity": "450",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Additional Sampling Information": "Float switch corresponds to the biofilms attached to the float switch used to control the liquid level inside the PMBR."
+        }
+      },
+      {
+        "sample_name": "PMBR-Biofilm-RecircCorner",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Attached Biofilms"
+        },
+        "factors": {
+          "Time": "101"
+        },
+        "parameters": {
+          "growth environment": "Phototrophic Membrane Bioreactor",
+          "Growth Temperature": "30",
+          "Light Intensity": "450",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Additional Sampling Information": "Recirculation corner corresponds to the area around the port where the reactor contents were introduced after recirculating through the membrane loop."
+        }
+      },
+      {
+        "sample_name": "PMBR-MotherCulture-A",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Time": "0 (Mother Culture)"
+        },
+        "parameters": {
+          "growth environment": "5 L Fermentator Bottle",
+          "Growth Temperature": "30",
+          "Light Intensity": "400",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Additional Sampling Information": ""
+        }
+      },
+      {
+        "sample_name": "PMBR-MotherCulture-B",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Time": "0 (Mother Culture)"
+        },
+        "parameters": {
+          "growth environment": "5 L Fermentator Bottle",
+          "Growth Temperature": "30",
+          "Light Intensity": "400",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Additional Sampling Information": ""
+        }
+      },
+      {
+        "sample_name": "PMBR-MotherCulture-C",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Time": "0 (Mother Culture)"
+        },
+        "parameters": {
+          "growth environment": "5 L Fermentator Bottle",
+          "Growth Temperature": "30",
+          "Light Intensity": "400",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Additional Sampling Information": ""
+        }
+      },
+      {
+        "sample_name": "PMBR-ReactorContents-Peak-A",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Time": "101"
+        },
+        "parameters": {
+          "growth environment": "Phototrophic Membrane Bioreactor",
+          "Growth Temperature": "30",
+          "Light Intensity": "450",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Additional Sampling Information": "Reactor contents corresponds to the free floating culture in the reactor."
+        }
+      },
+      {
+        "sample_name": "PMBR-ReactorContents-Peak-B",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Time": "101"
+        },
+        "parameters": {
+          "growth environment": "Phototrophic Membrane Bioreactor",
+          "Growth Temperature": "30",
+          "Light Intensity": "450",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Additional Sampling Information": "Reactor contents corresponds to the free floating culture in the reactor."
+        }
+      },
+      {
+        "sample_name": "PMBR-ReactorContents-Peak-C",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Time": "101"
+        },
+        "parameters": {
+          "growth environment": "Phototrophic Membrane Bioreactor",
+          "Growth Temperature": "30",
+          "Light Intensity": "450",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Additional Sampling Information": "Reactor contents corresponds to the free floating culture in the reactor."
+        }
+      },
+      {
+        "sample_name": "PMBR-ReactorContents-Post-A",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Time": "161"
+        },
+        "parameters": {
+          "growth environment": "Phototrophic Membrane Bioreactor",
+          "Growth Temperature": "30",
+          "Light Intensity": "450",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Additional Sampling Information": "Reactor contents corresponds to the free floating culture in the reactor."
+        }
+      },
+      {
+        "sample_name": "PMBR-ReactorContents-Post-B",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Time": "161"
+        },
+        "parameters": {
+          "growth environment": "Phototrophic Membrane Bioreactor",
+          "Growth Temperature": "30",
+          "Light Intensity": "450",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Additional Sampling Information": "Reactor contents corresponds to the free floating culture in the reactor."
+        }
+      },
+      {
+        "sample_name": "PMBR-ReactorContents-Post-C",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Time": "161"
+        },
+        "parameters": {
+          "growth environment": "Phototrophic Membrane Bioreactor",
+          "Growth Temperature": "30",
+          "Light Intensity": "450",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Additional Sampling Information": "Reactor contents corresponds to the free floating culture in the reactor."
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "metagenomic-sequencing",
+      "platform": "Illumina Miseq",
+      "qc": {
+        "Read Depth": "373161"
+      },
+      "library": {
+        "Library Selection": "DNA",
+        "Library Layout": "PAIRED",
+        "Library Kit": "Illumina’s DNA Prep kit"
+      },
+      "files": {
+        "raw": [
+          "GLDS-696_metagenomics_PMBR-Biofilm-FeedCorner_S29_L001_R1_HRremoved_raw.fastq.gz",
+          "GLDS-696_metagenomics_PMBR-Biofilm-FeedCorner_S29_L001_R2_HRremoved_raw.fastq.gz",
+          "GLDS-696_metagenomics_PMBR-Biofilm-FloatSwitch_S27_L001_R1_HRremoved_raw.fastq.gz",
+          "GLDS-696_metagenomics_PMBR-Biofilm-FloatSwitch_S27_L001_R2_HRremoved_raw.fastq.gz",
+          "GLDS-696_metagenomics_PMBR-Biofilm-RecircCorner_S28_L001_R2_HRremoved_raw.fastq.gz",
+          "GLDS-696_metagenomics_PMBR-Biofilm-RecircCorner_S28_L001_R1_HRremoved_raw.fastq.gz",
+          "GLDS-696_metagenomics_PMBR-MotherCulture-A_S5_L001_R2_HRremoved_raw.fastq.gz",
+          "GLDS-696_metagenomics_PMBR-MotherCulture-A_S5_L001_R1_HRremoved_raw.fastq.gz",
+          "GLDS-696_metagenomics_PMBR-MotherCulture-B_S6_L001_R1_HRremoved_raw.fastq.gz",
+          "GLDS-696_metagenomics_PMBR-MotherCulture-B_S6_L001_R2_HRremoved_raw.fastq.gz",
+          "GLDS-696_metagenomics_PMBR-MotherCulture-C_S7_L001_R1_HRremoved_raw.fastq.gz",
+          "GLDS-696_metagenomics_PMBR-MotherCulture-C_S7_L001_R2_HRremoved_raw.fastq.gz",
+          "GLDS-696_metagenomics_PMBR-ReactorContents-A-042222_S11_L001_R1_HRremoved_raw.fastq.gz",
+          "GLDS-696_metagenomics_PMBR-ReactorContents-A-042222_S11_L001_R2_HRremoved_raw.fastq.gz",
+          "GLDS-696_metagenomics_PMBR-ReactorContents-B-042222_S12_L001_R2_HRremoved_raw.fastq.gz",
+          "GLDS-696_metagenomics_PMBR-ReactorContents-B-042222_S12_L001_R1_HRremoved_raw.fastq.gz",
+          "GLDS-696_metagenomics_PMBR-ReactorContents-C_S26_L001_R1_HRremoved_raw.fastq.gz",
+          "GLDS-696_metagenomics_PMBR-ReactorContents-C_S26_L001_R2_HRremoved_raw.fastq.gz",
+          "GLDS-696_metagenomics_PMBR-ReactorContents-A-062122_S8_L001_R1_HRremoved_raw.fastq.gz",
+          "GLDS-696_metagenomics_PMBR-ReactorContents-A-062122_S8_L001_R2_HRremoved_raw.fastq.gz",
+          "GLDS-696_metagenomics_PMBR-ReactorContents-B-062122_S9_L001_R1_HRremoved_raw.fastq.gz",
+          "GLDS-696_metagenomics_PMBR-ReactorContents-B-062122_S9_L001_R2_HRremoved_raw.fastq.gz",
+          "GLDS-696_metagenomics_PMBR-ReactorContents-C-062122_S10_L001_R1_HRremoved_raw.fastq.gz",
+          "GLDS-696_metagenomics_PMBR-ReactorContents-C-062122_S10_L001_R2_HRremoved_raw.fastq.gz"
+        ],
+        "processed": [
+          "PMBR-Biofilm-FeedCorner",
+          "GeneLab raw data processing protocol",
+          "DNA",
+          "PAIRED",
+          "Illumina’s DNA Prep kit",
+          "Illumina Miseq",
+          "35-251",
+          "read",
+          "SO",
+          "http://purl.obolibrary.org/obo/SO_0000150",
+          "metagenomics",
+          "0.35",
+          "373161",
+          "PMBR-Biofilm-FloatSwitch",
+          "0.31",
+          "511419",
+          "PMBR-Biofilm-RecircCorner",
+          "751440",
+          "PMBR-MotherCulture-A",
+          "1.9",
+          "428467",
+          "PMBR-MotherCulture-B",
+          "1.94",
+          "337607",
+          "PMBR-MotherCulture-C",
+          "2.84",
+          "451342",
+          "PMBR-ReactorContents-Peak-A",
+          "0.28",
+          "860658",
+          "PMBR-ReactorContents-Peak-B",
+          "0.53",
+          "458512",
+          "PMBR-ReactorContents-Peak-C",
+          "0.56",
+          "593753",
+          "PMBR-ReactorContents-Post-A",
+          "0.3",
+          "362720",
+          "PMBR-ReactorContents-Post-B",
+          "0.42",
+          "348427",
+          "PMBR-ReactorContents-Post-C",
+          "0.4",
+          "383033"
+        ],
+        "reports": [
+          "GLDS-696_GMetagenomics_raw_multiqc_GLmetagenomics_report.zip"
+        ]
+      }
+    }
+  ]
+}

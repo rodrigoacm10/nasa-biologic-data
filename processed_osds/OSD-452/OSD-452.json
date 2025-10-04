@@ -1,0 +1,2781 @@
+{
+  "investigation": {
+    "id": "GLDS-452",
+    "title": "Accelerated knowledge discovery from omics data by optimal experimental design",
+    "description": "How to design experiments that accelerate knowledge discovery on complex biological landscapes remains a tantalizing question. Here, we present OPEX, an optimal experimental design method to identify informative omics experiments for both experimental space exploration and model training.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "",
+      "title": "",
+      "type": "Ground Study",
+      "link": "",
+      "funding": "This work was supported by NSF ABI award 1743101, NSF OCI award 1516695, and XSEDE award TG-BCS180014 for computational resources, and an unrestricted gift from Mars Inc. to I.T.",
+      "managing_center": ""
+    },
+    "protocols": [
+      "sample collection",
+      "Nucleic Acid Extraction",
+      "Library Construction",
+      "Nucleic Acid Sequencing"
+    ],
+    "publications": [
+      {
+        "title": "Accelerated knowledge discovery from omics data by optimal experimental design.",
+        "doi": "10.1038/s41467-020-18785-y",
+        "authors": [
+          "Wang X",
+          "Rai N",
+          "Merchel Piovesan Pereira B",
+          "Eetemadi A",
+          "Tagkopoulos I."
+        ],
+        "summary": "Accelerated knowledge discovery from omics data by optimal experimental design. — 10.1038/s41467-020-18785-y"
+      }
+    ],
+    "factors": [
+      "Treatment"
+    ],
+    "contacts": [
+      {
+        "first_name": "Ilias",
+        "last_name": "Tagkopoulos",
+        "role": "submitter",
+        "email": "itagkopoulos@ucdavis.edu"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "GSM4291788",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Ampicillin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291789",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Ampicillin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291790",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Ampicillin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291791",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Bezalkonium chloride and Ampicillin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291792",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Bezalkonium chloride and Ampicillin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291793",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Bezalkonium chloride and Ampicillin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291794",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Bezalkonium chloride and Kanamycin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291795",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Bezalkonium chloride and Kanamycin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291796",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Bezalkonium chloride and Kanamycin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291797",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Bezalkonium chloride and Norfloxacin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291798",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Bezalkonium chloride and Norfloxacin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291799",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Bezalkonium chloride and Norfloxacin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291800",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Bezalkonium chloride and Rifampicin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291801",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Bezalkonium chloride and Rifampicin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291802",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Bezalkonium chloride and Rifampicin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291803",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Chlorexidine and Ampicillin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291804",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Chlorexidine and Ampicillin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291805",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Chlorexidine and Ampicillin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291806",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Chlorexidine and Kanamycin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291807",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Chlorexidine and Kanamycin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291808",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Chlorexidine and Kanamycin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291809",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Chlorexidine and Norfloxacin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291810",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Chlorexidine and Norfloxacin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291811",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Chlorexidine and Norfloxacin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291812",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Chlorexidine and Rifampicin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291813",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Chlorexidine and Rifampicin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291814",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Chlorexidine and Rifampicin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291815",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Control"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291816",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Control"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291817",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Control"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291818",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Ethanol and Ampicillin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291819",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Ethanol and Ampicillin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291820",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Ethanol and Ampicillin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291821",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Ethanol and Kanamycin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291822",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Ethanol and Kanamycin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291823",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Ethanol and Kanamycin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291824",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Ethanol and Norfloxacin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291825",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Ethanol and Norfloxacin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291826",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Ethanol and Norfloxacin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291827",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Ethanol and Rifampicin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291828",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Ethanol and Rifampicin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291829",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Ethanol and Rifampicin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291830",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Glutaraldehyde and Ampicillin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291831",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Glutaraldehyde and Ampicillin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291832",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Glutaraldehyde and Ampicillin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291833",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Glutaraldehyde and Kanamycin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291834",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Glutaraldehyde and Kanamycin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291835",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Glutaraldehyde and Kanamycin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291836",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Glutaraldehyde and Norfloxacin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291837",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Glutaraldehyde and Norfloxacin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291838",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Glutaraldehyde and Norfloxacin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291839",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Glutaraldehyde and Rifampicin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291840",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Glutaraldehyde and Rifampicin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291841",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Glutaraldehyde and Rifampicin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291842",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "H2O2 and Ampicillin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291843",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "H2O2 and Ampicillin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291844",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "H2O2 and Ampicillin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291845",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "H2O2 and Kanamycin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291846",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "H2O2 and Kanamycin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291847",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "H2O2 and Kanamycin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291848",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "H2O2 and Norfloxacin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291849",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "H2O2 and Norfloxacin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291850",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "H2O2 and Norfloxacin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291851",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "H2O2 and Rifampicin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291852",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "H2O2 and Rifampicin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291853",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "H2O2 and Rifampicin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291854",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Isopropanol and Ampicillin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291855",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Isopropanol and Ampicillin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291856",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Isopropanol and Ampicillin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291857",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Isopropanol and Kanamycin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291858",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Isopropanol and Kanamycin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291859",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Isopropanol and Kanamycin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291860",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Isopropanol and Norfloxacin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291861",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Isopropanol and Norfloxacin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291862",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Isopropanol and Norfloxacin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291863",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Isopropanol and Rifampicin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291864",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Isopropanol and Rifampicin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291865",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Isopropanol and Rifampicin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291866",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Kanamycin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291867",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Kanamycin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291868",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Kanamycin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291869",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Norfloxacin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291870",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Norfloxacin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291871",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Norfloxacin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291872",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Percetic acid and Ampicillin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291873",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Percetic acid and Ampicillin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291874",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Percetic acid and Ampicillin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291875",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Percetic acid and Kanamycin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291876",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Percetic acid and Kanamycin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291877",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Percetic acid and Kanamycin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291878",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Percetic acid and Norfloxacin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291879",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Percetic acid and Norfloxacin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291880",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Percetic acid and Norfloxacin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291881",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Percetic acid and Rifampicin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291882",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Percetic acid and Rifampicin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291883",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Percetic acid and Rifampicin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291884",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Phenol and Ampicillin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291885",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Phenol and Ampicillin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291886",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Phenol and Ampicillin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291887",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Phenol and Kanamycin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291888",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Phenol and Kanamycin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291889",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Phenol and Kanamycin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291890",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Phenol and Norfloxacin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291891",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Phenol and Norfloxacin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291892",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Phenol and Norfloxacin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291893",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Phenol and Rifampicin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291894",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Phenol and Rifampicin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291895",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Phenol and Rifampicin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291896",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Povidone iodine and Ampicillin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291897",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Povidone iodine and Ampicillin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291898",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Povidone iodine and Ampicillin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291899",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Povidone iodine and Kanamycin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291900",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Povidone iodine and Kanamycin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291901",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Povidone iodine and Kanamycin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291902",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Povidone iodine and Norfloxacin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291903",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Povidone iodine and Norfloxacin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291904",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Povidone iodine and Norfloxacin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291905",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Povidone iodine and Rifampicin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291906",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Povidone iodine and Rifampicin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291907",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Povidone iodine and Rifampicin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291908",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Rifampicin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291909",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Rifampicin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291910",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Rifampicin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291911",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Sodium hypochlorite and Ampicillin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291912",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Sodium hypochlorite and Ampicillin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291913",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Sodium hypochlorite and Ampicillin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291914",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Sodium hypochlorite and Kanamycin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291915",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Sodium hypochlorite and Kanamycin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291916",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Sodium hypochlorite and Kanamycin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291917",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Sodium hypochlorite and Norfloxacin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291918",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Sodium hypochlorite and Norfloxacin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291919",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Sodium hypochlorite and Norfloxacin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291920",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Sodium hypochlorite and Rifampicin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291921",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Sodium hypochlorite and Rifampicin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4291922",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli str. K-12 substr. MG1655",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Treatment": "Sodium hypochlorite and Rifampicin"
+        },
+        "parameters": {
+          "Sample Media Information": "minimal media (M9) with 0.4% w/v glucose",
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "1.5mL of ice-cold Phenol/Ethanol (5% (v/v) phenol in ethanol)",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina HiSeq 4000",
+      "qc": {},
+      "library": {
+        "Library Selection": "cDNA",
+        "Library Layout": "SINGLE",
+        "Stranded": "STRANDED"
+      },
+      "files": {
+        "raw": [
+          "GLDS-452_rna-seq_SRR10994823.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994824.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994825.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994826.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994827.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994828.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994829.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994830.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994831.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994832.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994833.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994834.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994835.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994836.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994837.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994838.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994839.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994840.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994841.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994842.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994843.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994844.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994845.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994846.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994847.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994848.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994849.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994850.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994851.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994852.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994853.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994854.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994855.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994856.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994857.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994858.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994859.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994860.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994861.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994862.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994863.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994864.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994865.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994866.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994867.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994868.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994869.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994870.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994871.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994872.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994873.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994874.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994875.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994876.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994877.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994878.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994879.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994880.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994881.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994882.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994883.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994884.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994885.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994886.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994887.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994888.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994889.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994890.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994891.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994892.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994893.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994894.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994895.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994896.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994897.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994898.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994899.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994900.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994901.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994902.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994903.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994904.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994905.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994906.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994907.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994908.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994909.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994910.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994911.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994912.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994913.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994914.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994915.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994916.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994917.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994918.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994919.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994920.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994921.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994922.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994923.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994924.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994925.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994926.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994927.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994928.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994929.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994930.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994931.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994932.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994933.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994934.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994935.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994936.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994937.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994938.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994939.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994940.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994941.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994942.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994943.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994944.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994945.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994946.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994947.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994948.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994949.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994950.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994951.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994952.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994953.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994954.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994955.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994956.fastq.gz",
+          "GLDS-452_rna-seq_SRR10994957.fastq.gz"
+        ],
+        "processed": [
+          "GSM4291788",
+          "Nucleic Acid Sequencing",
+          "cDNA",
+          "SINGLE",
+          "STRANDED",
+          "Illumina HiSeq 4000",
+          "rna-seq",
+          "GSM4291789",
+          "GSM4291790",
+          "GSM4291791",
+          "GSM4291792",
+          "GSM4291793",
+          "GSM4291794",
+          "GSM4291795",
+          "GSM4291796",
+          "GSM4291797",
+          "GSM4291798",
+          "GSM4291799",
+          "GSM4291800",
+          "GSM4291801",
+          "GSM4291802",
+          "GSM4291803",
+          "GSM4291804",
+          "GSM4291805",
+          "GSM4291806",
+          "GSM4291807",
+          "GSM4291808",
+          "GSM4291809",
+          "GSM4291810",
+          "GSM4291811",
+          "GSM4291812",
+          "GSM4291813",
+          "GSM4291814",
+          "GSM4291815",
+          "GSM4291816",
+          "GSM4291817",
+          "GSM4291818",
+          "GSM4291819",
+          "GSM4291820",
+          "GSM4291821",
+          "GSM4291822",
+          "GSM4291823",
+          "GSM4291824",
+          "GSM4291825",
+          "GSM4291826",
+          "GSM4291827",
+          "GSM4291828",
+          "GSM4291829",
+          "GSM4291830",
+          "GSM4291831",
+          "GSM4291832",
+          "GSM4291833",
+          "GSM4291834",
+          "GSM4291835",
+          "GSM4291836",
+          "GSM4291837",
+          "GSM4291838",
+          "GSM4291839",
+          "GSM4291840",
+          "GSM4291841",
+          "GSM4291842",
+          "GSM4291843",
+          "GSM4291844",
+          "GSM4291845",
+          "GSM4291846",
+          "GSM4291847",
+          "GSM4291848",
+          "GSM4291849",
+          "GSM4291850",
+          "GSM4291851",
+          "GSM4291852",
+          "GSM4291853",
+          "GSM4291854",
+          "GSM4291855",
+          "GSM4291856",
+          "GSM4291857",
+          "GSM4291858",
+          "GSM4291859",
+          "GSM4291860",
+          "GSM4291861",
+          "GSM4291862",
+          "GSM4291863",
+          "GSM4291864",
+          "GSM4291865",
+          "GSM4291866",
+          "GSM4291867",
+          "GSM4291868",
+          "GSM4291869",
+          "GSM4291870",
+          "GSM4291871",
+          "GSM4291872",
+          "GSM4291873",
+          "GSM4291874",
+          "GSM4291875",
+          "GSM4291876",
+          "GSM4291877",
+          "GSM4291878",
+          "GSM4291879",
+          "GSM4291880",
+          "GSM4291881",
+          "GSM4291882",
+          "GSM4291883",
+          "GSM4291884",
+          "GSM4291885",
+          "GSM4291886",
+          "GSM4291887",
+          "GSM4291888",
+          "GSM4291889",
+          "GSM4291890",
+          "GSM4291891",
+          "GSM4291892",
+          "GSM4291893",
+          "GSM4291894",
+          "GSM4291895",
+          "GSM4291896",
+          "GSM4291897",
+          "GSM4291898",
+          "GSM4291899",
+          "GSM4291900",
+          "GSM4291901",
+          "GSM4291902",
+          "GSM4291903",
+          "GSM4291904",
+          "GSM4291905",
+          "GSM4291906",
+          "GSM4291907",
+          "GSM4291908",
+          "GSM4291909",
+          "GSM4291910",
+          "GSM4291911",
+          "GSM4291912",
+          "GSM4291913",
+          "GSM4291914",
+          "GSM4291915",
+          "GSM4291916",
+          "GSM4291917",
+          "GSM4291918",
+          "GSM4291919",
+          "GSM4291920",
+          "GSM4291921",
+          "GSM4291922"
+        ],
+        "reports": []
+      }
+    }
+  ]
+}

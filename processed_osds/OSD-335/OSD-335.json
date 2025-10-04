@@ -1,0 +1,2855 @@
+{
+  "investigation": {
+    "id": "OSD-335",
+    "title": "miRNA signature detection and countermeasures against HZE radiation exposure for tissue degeneration-Liver tissue",
+    "description": "Biological risks associated with space radiation and microgravity are major concerns for long-term space travel. Through a Systems Biology approach, our previous NASA work has shown both TGFβ signaling pathways and miRNAs have a critical impact on defining health risks with and without space irradiation.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "Hindlimb_Unloading, Simplified_Galactic_Cosmic_Ray_Simulation_Irradiation, High_Dose_Irradiation, Heavy_Ion_HZE_Irradiation, Multiple_Radiation_Types, Solar_Particle_Event_Simulation_Irradiation, Gamma_Irradiation, Low_LET_Irradiation",
+      "title": "miRNA signature detection and countermeasures against HZE radiation exposure for tissue degeneration",
+      "type": "Ground Study",
+      "link": "",
+      "funding": "This work was also supported by 15 NASA grant 16-ROSBFP_GL-0005: NNH16ZTT001N-FG Appendix G: Solicitation of Proposals for Flight and Ground Space Biology Research (Award Number: 80NSSC19K0883) and The Translational Research Institute for Space Health through NASA Cooperative Agreement NNX16AO69A (T-0404) awarded to AB.",
+      "managing_center": ""
+    },
+    "protocols": [
+      "nucleic acid extraction",
+      "library construction",
+      "nucleic acid sequencing",
+      "treatment protocol",
+      "irradiation protocol",
+      "sample collection"
+    ],
+    "publications": [
+      {
+        "title": "LET-Dependent Low Dose and Synergistic Inhibition of Human Angiogenesis by Charged Particles: Validation of miRNAs that Drive Inhibition",
+        "doi": "10.1016/j.isci.2020.101771",
+        "authors": [
+          "Yen-Ruh Wuu",
+          "Burong Hu",
+          "Hazeem Okunola",
+          "Amber M. Paul",
+          "Elizabeth A. Blaber",
+          "Margareth Cheng-Campbell",
+          "Afshin Beheshti",
+          "and Peter Grabham"
+        ],
+        "summary": "LET-Dependent Low Dose and Synergistic Inhibition of Human Angiogenesis by Charged Particles: Validation of miRNAs that Drive Inhibition — 10.1016/j.isci.2020.101771"
+      },
+      {
+        "title": "Circulating miRNA Spaceflight Signature Reveals Targets for Countermeasure Development",
+        "doi": "10.1016/j.celrep.2020.108448",
+        "authors": [
+          "Sherina Malkani",
+          "Christopher R. Chin",
+          "Egle Cekanaviciute",
+          "Marie Mortreux",
+          "Hazeem Okinula",
+          "Marcel Tarbier",
+          "Ann-Sofie Schreurs",
+          "Yasaman Shirazi-Fard",
+          "Candice G.T. Tahimic",
+          "Deyra N. Rodriguez",
+          "Brittany S. Sexton",
+          "Daniel Butler",
+          "Akanksha Verma",
+          "Daniela Bezdan",
+          "Ceyda Durmaz",
+          "Matthew MacKay",
+          "Ari Melnick",
+          "Cem Meydan",
+          "Sheng Li",
+          "Francine Garrett-Bakelman",
+          "Bastian Fromm",
+          "Ebrahim Afshinnekoo",
+          "Brad W. Langhorst",
+          "Eileen T. Dimalanta",
+          "Margareth Cheng-Campbell",
+          "Elizabeth Blaber",
+          "Jonathan C. Schisler",
+          "Charles Vanderburg",
+          "Marc R. Friedlander",
+          "J. Tyson McDonald",
+          "Sylvain V. Costes",
+          "Seward Rutkove",
+          "Peter Grabham",
+          "Christopher E. Mason",
+          "Afshin Beheshti"
+        ],
+        "summary": "Circulating miRNA Spaceflight Signature Reveals Targets for Countermeasure Development — 10.1016/j.celrep.2020.108448"
+      }
+    ],
+    "factors": [
+      "Hindlimb Unloading",
+      "Ionizing Radiation",
+      "Particle Charge"
+    ],
+    "contacts": [
+      {
+        "first_name": "Afshin",
+        "last_name": "Beheshti",
+        "role": "principal investigator",
+        "email": "afshin.beheshti@nasa.gov"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "F1-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F2-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F3-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F4-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F5-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F6-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F7-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F8-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F9-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F10-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F11-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F12-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F13-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F14-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F15-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F16-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F17-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F18-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F19-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F20-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F21-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F22-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F23-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F24-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F25-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F26-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F27-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F28-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F29-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F30-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F31-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F32-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F33-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F34-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F35-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F36-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F37-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F38-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F39-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F40-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F41-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F42-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F43-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F44-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F45-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F46-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F47-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F48-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F49-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F50-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F51-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F52-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F53-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F54-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F55-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F56-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F57-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F58-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F59-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F60-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F61-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F62-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F63-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F64-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F65-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F66-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F67-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F68-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F69-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F70-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F71-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F72-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F73-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F74-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F75-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F76-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F77-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F78-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F79-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F80-Liver",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "age": "15",
+          "Material Type": "Liver"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina Hiseq 2500",
+      "qc": {
+        "QA Instrument": "Agilent 2100 Bioanalyzer",
+        "QA Score": "> 7"
+      },
+      "library": {},
+      "files": {
+        "raw": [
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F1-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F2-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F3-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F4-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F5-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F6-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F7-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F8-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F9-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F10-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F11-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F12-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F13-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F14-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F15-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F16-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F17-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F18-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F19-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F20-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F21-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F22-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F23-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F24-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F25-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F26-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F27-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F28-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F29-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F30-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F31-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F32-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F33-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F34-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F35-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F36-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F37-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F38-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F39-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F40-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F41-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F42-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F43-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F44-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F45-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F46-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F47-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F48-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F49-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F50-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F51-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F52-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F53-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F54-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F55-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F56-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F57-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F58-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F59-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F60-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F61-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F62-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F63-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F64-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F65-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F66-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F67-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F68-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F69-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F70-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F71-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F72-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F73-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F74-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F75-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F76-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F77-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F78-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F79-Liver_RawData.fq.gz",
+          "GLDS-335_miRNA-Seq_LCS7565_AB_F80-Liver_RawData.fq.gz"
+        ],
+        "processed": [
+          "F1-Liver",
+          "nucleic acid sequencing",
+          "Agilent 2100 Bioanalyzer",
+          "> 7",
+          "base pair",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000244",
+          "cDNA",
+          "SINGLE",
+          "STRANDED",
+          "Illumina Hiseq 2500",
+          "50",
+          "miRNA-Seq",
+          "F2-Liver",
+          "F3-Liver",
+          "F4-Liver",
+          "F5-Liver",
+          "F6-Liver",
+          "F7-Liver",
+          "F8-Liver",
+          "F9-Liver",
+          "F10-Liver",
+          "F11-Liver",
+          "F12-Liver",
+          "F13-Liver",
+          "F14-Liver",
+          "F15-Liver",
+          "F16-Liver",
+          "F17-Liver",
+          "F18-Liver",
+          "F19-Liver",
+          "F20-Liver",
+          "F21-Liver",
+          "F22-Liver",
+          "F23-Liver",
+          "F24-Liver",
+          "F25-Liver",
+          "F26-Liver",
+          "F27-Liver",
+          "F28-Liver",
+          "F29-Liver",
+          "F30-Liver",
+          "F31-Liver",
+          "F32-Liver",
+          "F33-Liver",
+          "F34-Liver",
+          "F35-Liver",
+          "F36-Liver",
+          "F37-Liver",
+          "F38-Liver",
+          "F39-Liver",
+          "F40-Liver",
+          "F41-Liver",
+          "F42-Liver",
+          "F43-Liver",
+          "F44-Liver",
+          "F45-Liver",
+          "F46-Liver",
+          "F47-Liver",
+          "F48-Liver",
+          "F49-Liver",
+          "F50-Liver",
+          "F51-Liver",
+          "F52-Liver",
+          "F53-Liver",
+          "F54-Liver",
+          "F55-Liver",
+          "F56-Liver",
+          "F57-Liver",
+          "F58-Liver",
+          "F59-Liver",
+          "F60-Liver",
+          "F61-Liver",
+          "F62-Liver",
+          "F63-Liver",
+          "F64-Liver",
+          "F65-Liver",
+          "F66-Liver",
+          "F67-Liver",
+          "F68-Liver",
+          "F69-Liver",
+          "F70-Liver",
+          "F71-Liver",
+          "F72-Liver",
+          "F73-Liver",
+          "F74-Liver",
+          "F75-Liver",
+          "F76-Liver",
+          "F77-Liver",
+          "F78-Liver",
+          "F79-Liver",
+          "F80-Liver"
+        ],
+        "reports": []
+      }
+    }
+  ]
+}

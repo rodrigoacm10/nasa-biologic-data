@@ -1,0 +1,296 @@
+{
+  "investigation": {
+    "id": "OSD-91",
+    "title": "A study of gene expression influenced by simulated microgravity in human lymphoblastoid cells",
+    "description": "Here, in this study we systematically examined the patterns of DNA methylation and hydroxy-methylation with its functional implications in gene regulation for the cultured TK6 lymphoblastoid cells upon exposure to micro-gravity conditions. The results reported here indicate that simulated microgravity alters methylation patterns in a limited way and subsequently the expression of genes involved in stress response like ATF3, FBXO17, MAP3K13 and VCL in TK6 cells.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "Simulated_Microgravity",
+      "title": "",
+      "type": "Ground Study",
+      "link": "",
+      "funding": "The authors would like to acknowledge the following agencies for their support in funding this study: a) NASA (NNX12AN09G); b) NIH, NCI R25CA128770 Cancer Prevention Internship Program; c) Indiana CTSI (TR000006); d) W.M. Keck Foundation; e) Purdue Center for Cancer Research (P30CA023168).",
+      "managing_center": "ARC"
+    },
+    "protocols": [
+      "growth protocol",
+      "treatment protocol",
+      "nucleic acid extraction",
+      "library construction",
+      "nucleic acid sequencing",
+      "GeneLab RNAseq data processing protocol"
+    ],
+    "publications": [
+      {
+        "title": "A Study of Alterations in DNA Epigenetic Modifications (5mC and 5hmC) and Gene Expression Influenced by Simulated Microgravity in Human Lymphoblastoid Cells.",
+        "doi": "10.1371/journal.pone.0147514",
+        "authors": [
+          "Chowdhury B",
+          "Seetharam A",
+          "Wang Z",
+          "Liu Y",
+          "Lossie AC",
+          "Thimmapuram J",
+          "Irudayaraj J."
+        ],
+        "summary": "A Study of Alterations in DNA Epigenetic Modifications (5mC and 5hmC) and Gene Expression Influenced by Simulated Microgravity in Human Lymphoblastoid Cells. — 10.1371/journal.pone.0147514"
+      }
+    ],
+    "factors": [
+      "Microgravity Simulation"
+    ],
+    "contacts": [
+      {
+        "first_name": "Joseph",
+        "last_name": "Irudayaraj",
+        "role": "principal investigator role",
+        "email": "josephi@purdue.edu"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "Hsap_TK6cells_LCL_1G_Rep1",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell line": "TK6 cell",
+          "cell type": "lymphoblastoid cell line",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G on Earth"
+        },
+        "parameters": {
+          "Sample Media Information": "RPMI-1640 medium supplemented with 10% Fetal Bovine Serum and 1% Penicillin/Streptomycin",
+          "Growth Temperature": "37",
+          "duration": "48"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Group-1.Subject-1.Control 1"
+        }
+      },
+      {
+        "sample_name": "Hsap_TK6cells_LCL_1G_Rep2",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell line": "TK6 cell",
+          "cell type": "lymphoblastoid cell line",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G on Earth"
+        },
+        "parameters": {
+          "Sample Media Information": "RPMI-1640 medium supplemented with 10% Fetal Bovine Serum and 1% Penicillin/Streptomycin",
+          "Growth Temperature": "37",
+          "duration": "48"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Group-1.Subject-2.Control 1"
+        }
+      },
+      {
+        "sample_name": "Hsap_TK6cells_LCL_suG_Rep1",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell line": "TK6 cell",
+          "cell type": "lymphoblastoid cell line",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by HARV"
+        },
+        "parameters": {
+          "Sample Media Information": "RPMI-1640 medium supplemented with 10% Fetal Bovine Serum and 1% Penicillin/Streptomycin",
+          "Growth Temperature": "37",
+          "duration": "48"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Group-2.Subject-1.Simulated Microgravity 2"
+        }
+      },
+      {
+        "sample_name": "Hsap_TK6cells_LCL_suG_Rep2",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell line": "TK6 cell",
+          "cell type": "lymphoblastoid cell line",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by HARV"
+        },
+        "parameters": {
+          "Sample Media Information": "RPMI-1640 medium supplemented with 10% Fetal Bovine Serum and 1% Penicillin/Streptomycin",
+          "Growth Temperature": "37",
+          "duration": "48"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Group-2.Subject-2.Simulated Microgravity 2"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "HiSeq2000",
+      "qc": {
+        "Read Depth": "54730309",
+        "rRNA Contamination": "1.5"
+      },
+      "library": {},
+      "files": {
+        "raw": [
+          "GLDS-91_rna-seq_SRR1805693_1.fastq.gz",
+          "GLDS-91_rna-seq_SRR1805693_2.fastq.gz",
+          "GLDS-91_rna-seq_SRR1805694_1.fastq.gz",
+          "GLDS-91_rna-seq_SRR1805694_2.fastq.gz",
+          "GLDS-91_rna-seq_SRR1805691_1.fastq.gz",
+          "GLDS-91_rna-seq_SRR1805691_2.fastq.gz",
+          "GLDS-91_rna-seq_SRR1805692_1.fastq.gz",
+          "GLDS-91_rna-seq_SRR1805692_2.fastq.gz",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep1_SRR1805693_R1_raw.fastq.gz",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep1_SRR1805693_R2_raw.fastq.gz",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep1_SRR1805693_R1_trimmed.fastq.gz",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep1_SRR1805693_R2_trimmed.fastq.gz",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep2_SRR1805694_R1_raw.fastq.gz",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep2_SRR1805694_R2_raw.fastq.gz",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep2_SRR1805694_R1_trimmed.fastq.gz",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep2_SRR1805694_R2_trimmed.fastq.gz",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep1_SRR1805691_R1_raw.fastq.gz",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep1_SRR1805691_R2_raw.fastq.gz",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep1_SRR1805691_R1_trimmed.fastq.gz",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep1_SRR1805691_R2_trimmed.fastq.gz",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep2_SRR1805692_R1_raw.fastq.gz",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep2_SRR1805692_R2_raw.fastq.gz",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep2_SRR1805692_R1_trimmed.fastq.gz",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep2_SRR1805692_R2_trimmed.fastq.gz"
+        ],
+        "processed": [
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep1_SRR1805693_R1_raw.fastq.gz",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep1_SRR1805693_R2_raw.fastq.gz",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep1_SRR1805693_R1_trimmed.fastq.gz",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep1_SRR1805693_R2_trimmed.fastq.gz",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep1_SRR1805693_Aligned.sortedByCoord.out.bam",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep1_SRR1805693_Aligned.toTranscriptome.out.bam",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep1_SRR1805693_SJ.out.tab",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep1_SRR1805693.genes.results",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep1_SRR1805693.isoforms.results",
+          "GLDS-91_rna_seq_Unnormalized_Counts.csv",
+          "GLDS-91_rna_seq_Normalized_Counts.csv",
+          "GLDS-91_rna_seq_contrasts.csv",
+          "GLDS-91_rna_seq_differential_expression.csv",
+          "GLDS-91_rna_seq_ SampleTable.csv",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep2_SRR1805694_R1_raw.fastq.gz",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep2_SRR1805694_R2_raw.fastq.gz",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep2_SRR1805694_R1_trimmed.fastq.gz",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep2_SRR1805694_R2_trimmed.fastq.gz",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep2_SRR1805694_Aligned.sortedByCoord.out.bam",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep2_SRR1805694_Aligned.toTranscriptome.out.bam",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep2_SRR1805694_SJ.out.tab",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep2_SRR1805694.genes.results",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep2_SRR1805694.isoforms.results",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep1_SRR1805691_R1_raw.fastq.gz",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep1_SRR1805691_R2_raw.fastq.gz",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep1_SRR1805691_R1_trimmed.fastq.gz",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep1_SRR1805691_R2_trimmed.fastq.gz",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep1_SRR1805691_Aligned.sortedByCoord.out.bam",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep1_SRR1805691_Aligned.toTranscriptome.out.bam",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep1_SRR1805691_SJ.out.tab",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep1_SRR1805691.genes.results",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep1_SRR1805691.isoforms.results",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep2_SRR1805692_R1_raw.fastq.gz",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep2_SRR1805692_R2_raw.fastq.gz",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep2_SRR1805692_R1_trimmed.fastq.gz",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep2_SRR1805692_R2_trimmed.fastq.gz",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep2_SRR1805692_Aligned.sortedByCoord.out.bam",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep2_SRR1805692_Aligned.toTranscriptome.out.bam",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep2_SRR1805692_SJ.out.tab",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep2_SRR1805692.genes.results",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep2_SRR1805692.isoforms.results",
+          "Hsap_TK6cells_LCL_1G_Rep1",
+          "GeneLab RNAseq data processing protocol",
+          "Group-1.Subject-1.Control 1.Extract-1",
+          "PAIRED",
+          "STRANDED",
+          "HiSeq2000",
+          "rna-seq",
+          "OSD",
+          "https://osdr.nasa.gov/",
+          "1.5",
+          "read",
+          "54730309",
+          "Hsap_TK6cells_LCL_1G_Rep2",
+          "Group-1.Subject-2.Control 1.Extract-1",
+          "1.39",
+          "44709833",
+          "Hsap_TK6cells_LCL_suG_Rep1",
+          "Group-2.Subject-1.Simulated Microgravity 2.Extract-1",
+          "1.24",
+          "52460534",
+          "Hsap_TK6cells_LCL_suG_Rep2",
+          "Group-2.Subject-2.Simulated Microgravity 2.Extract-1",
+          "1.3",
+          "56444234"
+        ],
+        "reports": [
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep1_SRR1805693_R1_raw_fastqc.html",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep1_SRR1805693_R1_raw_fastqc.zip",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep1_SRR1805693_R2_raw_fastqc.html",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep1_SRR1805693_R2_raw_fastqc.zip",
+          "GLDS-91_rna_seq_raw_multiqc_report.html",
+          "GLDS-91_rna_seq_raw_multiqc_data.zip",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep1_SRR1805693_R1_trimmed_fastqc.html",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep1_SRR1805693_R1_trimmed_fastqc.zip",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep1_SRR1805693_R2_trimmed_fastqc.html",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep1_SRR1805693_R2_trimmed_fastqc.zip",
+          "GLDS-91_rna_seq_trimmed_multiqc_report.html",
+          "GLDS-91_rna_seq_trimmed_multiqc_data.zip",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep1_SRR1805693_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep1_SRR1805693_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep1_SRR1805693_Log.final.out",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep2_SRR1805694_R1_raw_fastqc.html",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep2_SRR1805694_R1_raw_fastqc.zip",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep2_SRR1805694_R2_raw_fastqc.html",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep2_SRR1805694_R2_raw_fastqc.zip",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep2_SRR1805694_R1_trimmed_fastqc.html",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep2_SRR1805694_R1_trimmed_fastqc.zip",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep2_SRR1805694_R2_trimmed_fastqc.html",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep2_SRR1805694_R2_trimmed_fastqc.zip",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep2_SRR1805694_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep2_SRR1805694_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_1G_Rep2_SRR1805694_Log.final.out",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep1_SRR1805691_R1_raw_fastqc.html",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep1_SRR1805691_R1_raw_fastqc.zip",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep1_SRR1805691_R2_raw_fastqc.html",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep1_SRR1805691_R2_raw_fastqc.zip",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep1_SRR1805691_R1_trimmed_fastqc.html",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep1_SRR1805691_R1_trimmed_fastqc.zip",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep1_SRR1805691_R2_trimmed_fastqc.html",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep1_SRR1805691_R2_trimmed_fastqc.zip",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep1_SRR1805691_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep1_SRR1805691_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep1_SRR1805691_Log.final.out",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep2_SRR1805692_R1_raw_fastqc.html",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep2_SRR1805692_R1_raw_fastqc.zip",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep2_SRR1805692_R2_raw_fastqc.html",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep2_SRR1805692_R2_raw_fastqc.zip",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep2_SRR1805692_R1_trimmed_fastqc.html",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep2_SRR1805692_R1_trimmed_fastqc.zip",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep2_SRR1805692_R2_trimmed_fastqc.html",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep2_SRR1805692_R2_trimmed_fastqc.zip",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep2_SRR1805692_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep2_SRR1805692_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-91_rna_seq_Hsap_TK6cells_LCL_suG_Rep2_SRR1805692_Log.final.out"
+        ]
+      }
+    }
+  ]
+}

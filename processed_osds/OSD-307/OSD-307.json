@@ -1,0 +1,216 @@
+{
+  "investigation": {
+    "id": "OSD-307",
+    "title": "Evaluating the Lettuce Metatranscriptome with MinION Sequencing for Future Spaceflight Food Production Application",
+    "description": "Healthy plants are vital for successful, long-duration missions in space, as they provide the crew with life support, food production, and psychological benefits. The microorganisms that associate with plant tissues play a critical role in improving plant growth, health, and production.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "Simulated_Environmental_Factors",
+      "title": "",
+      "type": "Ground Study",
+      "link": "",
+      "funding": "This work was supported in part by NASA through the University of Central Florida’s NASA Florida Space Consortium and Space Florida (NX15AI10H) awarded to J.S.F. N.J.S. was supported by a NASA Space Biology Postdoctoral Fellowship (80NSSC19K0520). Part of the research was performed at the Jet Propulsion Laboratory, California Institute of Technology, under a contract with NASA. This research was also in part funded by a 2012 Space Biology NNH12ZTT001N grant no. 19-12829-26 under Task Order NNN13D111T award to K.V.",
+      "managing_center": ""
+    },
+    "protocols": [
+      "growth protocol",
+      "sample collection protocol",
+      "nucleic acid extraction",
+      "library construction",
+      "nucleic acid sequencing",
+      "sequence analysis data transformation"
+    ],
+    "publications": [
+      {
+        "title": "Evaluating the lettuce metatranscriptome with MinION sequencing for future spaceflight food production applications.",
+        "doi": "10.1038/s41526-021-00151-x",
+        "authors": [
+          "Haveman NJ",
+          "Khodadad CLM",
+          "Dixit AR",
+          "Louyakis AS",
+          "Massa GD",
+          "Venkateswaran K",
+          "Foster JS."
+        ],
+        "summary": "Evaluating the lettuce metatranscriptome with MinION sequencing for future spaceflight food production applications. — 10.1038/s41526-021-00151-x"
+      }
+    ],
+    "factors": [
+      "Relative Humidity",
+      "CO2 Concentration",
+      "Temperature"
+    ],
+    "contacts": [
+      {
+        "first_name": "Natasha",
+        "last_name": "Haveman",
+        "role": "submitter",
+        "email": "nsng@ufl.edu"
+      },
+      {
+        "first_name": "Christina",
+        "last_name": "Khodadad",
+        "role": "investigation role",
+        "email": "christina.l.khodadad-1@nasa.gov"
+      },
+      {
+        "first_name": "Anirudha",
+        "last_name": "Dixit",
+        "role": "investigation role",
+        "email": "anirudha.dixit@nasa.gov"
+      },
+      {
+        "first_name": "Artemis",
+        "last_name": "Louyakis",
+        "role": "formal analysis role",
+        "email": "artemis.louyakis@uconn.edu"
+      },
+      {
+        "first_name": "Gioia",
+        "last_name": "Massa",
+        "role": "investigation role",
+        "email": "gioia.massa@nasa.gov"
+      },
+      {
+        "first_name": "Kasthuri",
+        "last_name": "Venkateswaran",
+        "role": "conceptualization role",
+        "email": "kasthuri.j.venkateswaran@jpl.nasa.gov"
+      },
+      {
+        "first_name": "Jamie",
+        "last_name": "Foster",
+        "role": "principal investigator",
+        "email": "jfoster@ufl.edu"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "L93",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Host Strain": "Cv. Outredgeous",
+          "Genotype": "Wild Type",
+          "Material Type": "leaf"
+        },
+        "factors": {},
+        "parameters": {
+          "Light Amount": "200 to 300",
+          "Hardware": "Environmental Controlled Growth Chambers",
+          "Light Cycle": "16h light and 8h dark",
+          "Growth Temperature": "23",
+          "relative humidity": "50",
+          "Age at Harvest": "28",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "L96",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Host Strain": "Cv. Outredgeous",
+          "Genotype": "Wild Type",
+          "Material Type": "leaf"
+        },
+        "factors": {},
+        "parameters": {
+          "Light Amount": "200 to 300",
+          "Hardware": "Environmental Controlled Growth Chambers",
+          "Light Cycle": "16h light and 8h dark",
+          "Growth Temperature": "23",
+          "relative humidity": "50",
+          "Age at Harvest": "28",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "L101",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Host Strain": "Cv. Outredgeous",
+          "Genotype": "Wild Type",
+          "Material Type": "leaf"
+        },
+        "factors": {},
+        "parameters": {
+          "Light Amount": "200 to 300",
+          "Hardware": "Environmental Controlled Growth Chambers",
+          "Light Cycle": "16h light and 8h dark",
+          "Growth Temperature": "23",
+          "relative humidity": "50",
+          "Age at Harvest": "28",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "rna-sequencing-(rna-seq)",
+      "platform": "Nanopore MinION",
+      "qc": {
+        "QA Instrument": "Agilent 2100 Bioanalyzer",
+        "QA Assay": "RNA 6000 Nano Assay"
+      },
+      "library": {},
+      "files": {
+        "raw": [
+          "GLDS-307_metatranscriptomics_L93.all.fastq.gz",
+          "GLDS-307_metatranscriptomics_L96.all.fastq.gz",
+          "GLDS-307_metatranscriptomics_L101.all.fastq.gz"
+        ],
+        "processed": [
+          "GLDS-307_metatranscriptomics_L93.kraken2.report.txt",
+          "GLDS-307_metatranscriptomics_fungi.combined.KEGGmap.evalue0.05.csv",
+          "GLDS-307_metatranscriptomics_bacteria.combined.KEGGmap.evalue0.05.csv",
+          "GLDS-307_metatranscriptomics_L93.fungal.all.merge.data.csv",
+          "GLDS-307_metatranscriptomics_L93.bacteria.all.merge.data.csv",
+          "GLDS-307_metatranscriptomics_L96.kraken2.report.txt",
+          "GLDS-307_metatranscriptomics_L96.fungal.all.merge.data.csv",
+          "GLDS-307_metatranscriptomics_L96.bacteria.all.merge.data.csv",
+          "GLDS-307_metatranscriptomics_L101.kraken2.report.txt",
+          "GLDS-307_metatranscriptomics_L101.fungal.all.merge.data.csv",
+          "GLDS-307_metatranscriptomics_L101.bacterial.all.merge.data.csv",
+          "L93",
+          "sequence analysis data transformation",
+          "Agilent 2100 Bioanalyzer",
+          "RNA 6000 Nano Assay",
+          "ribo-depletion",
+          "SINGLE",
+          "STRANDED",
+          "Nanopore MinION",
+          "MinKNOW",
+          "metatranscriptomics",
+          "GLDS-307_metatranscriptomics_L93.all.fast5.gz",
+          "GLDS-307_metatranscriptomics_Processing_info.txt",
+          "L96",
+          "GLDS-307_metatranscriptomics_L96.all.fast5.gz",
+          "L101",
+          "GLDS-307_metatranscriptomics_L101.all.fast5.gz"
+        ],
+        "reports": [
+          "GLDS-307_metatranscriptomics_L93.kraken2.report.txt",
+          "GLDS-307_metatranscriptomics_L96.kraken2.report.txt",
+          "GLDS-307_metatranscriptomics_L101.kraken2.report.txt"
+        ]
+      }
+    }
+  ]
+}

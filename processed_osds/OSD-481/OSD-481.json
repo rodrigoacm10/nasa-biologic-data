@@ -1,0 +1,210 @@
+{
+  "investigation": {
+    "id": "GLDS-481",
+    "title": "New insights into the role of lncRNA after spaceflight",
+    "description": "We analyzed the transcriptional profile by RNA-sequencing of exosomal content isolated from blood plasma of three astronauts who flew on various ISS missions between 1998-2001. Computational analysis of the transcriptome of these exosomes identified 27 differentially expressed lncRNAs with possible functions and clinical implications.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "",
+      "title": "",
+      "type": "Spaceflight Study",
+      "link": "",
+      "funding": "This work is supported by the Translational Research Institute through NASA Cooperative Agreement NNX16AO69A (to DG), the Translational Research Institute for Space Health funds FIP0005 (to DG.), National Aeronautics and Space Administration grant 80NSSC19K1079 (to DG), American Heart Association Career Development Award 18CDA34110277 and startup funds from the Ohio State University Medical Center (to VG.), National Institutes of Health grant R01 HL133554 and American Heart Association 18IPA34170321 (to LH), NIH 5T32HL007824-22, and the Cardiovascular Medical Research and Education Fund (CMREF) (to LH and MB). Work was also performed under the auspices of the U.S. Department of Energy by Lawrence Livermore National Laboratory under contract DE-AC52-07NA27344",
+      "managing_center": ""
+    },
+    "protocols": [
+      "sample collection",
+      "Nucleic Acid Extraction",
+      "Library Construction",
+      "Nucleic Acid Sequencing"
+    ],
+    "publications": [
+      {
+        "title": "Emerging Role of Exosomal Long Non-coding RNAs in Spaceflight-Associated Risks in Astronauts",
+        "doi": "10.3389/fgene.2021.812188",
+        "authors": [
+          "Bisserier Malik",
+          "Saffran Nathaniel",
+          "Brojakowska Agnieszka",
+          "Sebastian Aimy",
+          "Evans Angela Clare",
+          "Coleman Matthew A.",
+          "Walsh Kenneth",
+          "Mills Paul J.",
+          "Garikipati Venkata Naga Srikanth",
+          "Arakelyan Arsen",
+          "Hadri Lahouaria",
+          "Goukassian David A."
+        ],
+        "summary": "Emerging Role of Exosomal Long Non-coding RNAs in Spaceflight-Associated Risks in Astronauts — 10.3389/fgene.2021.812188"
+      }
+    ],
+    "factors": [
+      "Spaceflight",
+      "Time"
+    ],
+    "contacts": [
+      {
+        "first_name": "Arsen",
+        "last_name": "Arakelyan",
+        "role": "Submitter",
+        "email": "aarakelyan@sci.am"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "GSM5808428",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "C1",
+          "age": "greater or equal to 50",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Time": "Launch minus 10",
+          "Spaceflight": "Pre-flight"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5808429",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "C1",
+          "age": "greater or equal to 50",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Time": "Return plus 3",
+          "Spaceflight": "Post-flight"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5808430",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "C2",
+          "age": "less than 40",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Time": "Launch minus 10",
+          "Spaceflight": "Pre-flight"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5808431",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "C2",
+          "age": "less than 40",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Time": "Return plus 3",
+          "Spaceflight": "Post-flight"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5808432",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "C3",
+          "age": "less than 40",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Time": "Launch minus 10",
+          "Spaceflight": "Pre-flight"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5808433",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "C3",
+          "age": "less than 40",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Time": "Return plus 3",
+          "Spaceflight": "Post-flight"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "NextSeq 500",
+      "qc": {
+        "QA Instrument": "Agilent 2100 BioAnalyzer",
+        "QA Score": "above 7"
+      },
+      "library": {
+        "Library Selection": "cDNA",
+        "Library Layout": "SINGLE"
+      },
+      "files": {
+        "raw": [
+          "GLDS-481_rna-seq_GSM5808428_raw.fastq.gz",
+          "GLDS-481_rna-seq_GSM5808429_raw.fastq.gz",
+          "GLDS-481_rna-seq_GSM5808430_raw.fastq.gz",
+          "GLDS-481_rna-seq_GSM5808431_raw.fastq.gz",
+          "GLDS-481_rna-seq_GSM5808432_raw.fastq.gz",
+          "GLDS-481_rna-seq_GSM5808433_raw.fastq.gz"
+        ],
+        "processed": [
+          "GSM5808428",
+          "Nucleic Acid Sequencing",
+          "Agilent 2100 BioAnalyzer",
+          "above 7",
+          "base pair",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000244",
+          "cDNA",
+          "SINGLE",
+          "NextSeq 500",
+          "75",
+          "RNA-seq",
+          "GSM5808429",
+          "GSM5808430",
+          "GSM5808431",
+          "GSM5808432",
+          "GSM5808433"
+        ],
+        "reports": []
+      }
+    }
+  ]
+}

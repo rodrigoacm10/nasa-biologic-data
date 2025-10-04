@@ -1,0 +1,353 @@
+{
+  "investigation": {
+    "id": "OSD-224",
+    "title": "Whole metagenome profiles of particulates collected from the International Space Station.",
+    "description": "The microbial composition of the International Space Station (ISS) environment is of critical interest due to potential impact of its constituents on human health and operational mission success. This study examined the whole metagenome of ISS microbes at both a species- and gene-level resolution.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "",
+      "title": "",
+      "type": "Spaceflight Study",
+      "link": "",
+      "funding": "Lawrence Livermore National Laboratory Contract (Grant ID DE-AC52-07NA27344, U.S. Department of Energy); 2012 Space Biology NNH12ZTT001N (Grant ID 19-12829-26, National Aeronautics and Space Administration); 2014 Space Biology NNH14ZTT002N (Grant ID NNX15AJ29G, National Aeronautics and Space Administration); JPL subcontract (Grant ID 1506453, Jet Propulsion Laboratory). DE-AC52-07NA27344, 19-12829-26, NNX15AJ29G, 1506453",
+      "managing_center": "Jet Propulsion Laboratory (JPL)"
+    },
+    "protocols": [
+      "sample collection",
+      "Nucleic Acid Extraction",
+      "Library Construction",
+      "Nucleic Acid Sequencing",
+      "GeneLab metagenomics data processing protocol",
+      "human read contaminant filtering"
+    ],
+    "publications": [
+      {
+        "title": "Whole metagenome profiles of particulates collected from the International Space Station.",
+        "doi": "10.1186/s40168-017-0292-4",
+        "authors": [
+          "Be NA",
+          "Avila-Herrera A",
+          "Allen JE",
+          "Singh N",
+          "Checinska Sielaff A",
+          "Jaing C",
+          "Venkateswaran K."
+        ],
+        "summary": "Whole metagenome profiles of particulates collected from the International Space Station. — 10.1186/s40168-017-0292-4"
+      }
+    ],
+    "factors": [
+      "Spaceflight",
+      "Treatment",
+      "Sample Location"
+    ],
+    "contacts": [
+      {
+        "first_name": "Nicholas A",
+        "last_name": "Be",
+        "role": "Author",
+        "email": "kjvenkat@jpl.nasa.gov"
+      },
+      {
+        "first_name": "Aram",
+        "last_name": "Avila-Herrera",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Jonathan E",
+        "last_name": "Allen",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Nitin",
+        "last_name": "Singh",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Aleksandra",
+        "last_name": "Checinska Sielaff",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Crystal",
+        "last_name": "Jaing",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Kasthuri",
+        "last_name": "Venkateswaran",
+        "role": "investigation role",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "SAF Debris no-PMA",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "dust"
+        },
+        "factors": {
+          "Spaceflight": "Ground",
+          "Treatment": "Non-treated",
+          "Sample Location": "dust samples obtained through vacuum collection from a cleanroom where spacecraft are assembled"
+        },
+        "parameters": {},
+        "comments": {}
+      },
+      {
+        "sample_name": "SAF Debris PMA",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "dust"
+        },
+        "factors": {
+          "Spaceflight": "Ground",
+          "Treatment": "PMA treated",
+          "Sample Location": "dust samples obtained through vacuum collection from a cleanroom where spacecraft are assembled"
+        },
+        "parameters": {},
+        "comments": {}
+      },
+      {
+        "sample_name": "ISS HEPA no-PMA",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "filter particles"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Treatment": "Non-treated",
+          "Sample Location": "ISS filter particles obtained from HEPA systems"
+        },
+        "parameters": {},
+        "comments": {}
+      },
+      {
+        "sample_name": "ISS HEPA PMA",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "filter particles"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Treatment": "PMA treated",
+          "Sample Location": "ISS filter particles obtained from HEPA systems"
+        },
+        "parameters": {},
+        "comments": {}
+      },
+      {
+        "sample_name": "ISS Debris no-PMA",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "dust"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Treatment": "Non-treated",
+          "Sample Location": "ISS dust samples obtained through vacuum collection within the cabin"
+        },
+        "parameters": {},
+        "comments": {}
+      },
+      {
+        "sample_name": "ISS Debris PMA",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "dust"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Treatment": "PMA treated",
+          "Sample Location": "ISS dust samples obtained through vacuum collection within the cabin"
+        },
+        "parameters": {},
+        "comments": {}
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "metagenomic-sequencing",
+      "platform": "Illumina NextSeq 500",
+      "qc": {
+        "Read Depth": "28628112"
+      },
+      "library": {
+        "Library Selection": "multiple displacement amplification (MDA)",
+        "Library Layout": "PAIRED"
+      },
+      "files": {
+        "raw": [
+          "GLDS-224_metagenomics_SRR5197507_R1_HRremoved_raw.fastq.gz",
+          "GLDS-224_metagenomics_SRR5197507_R2_HRremoved_raw.fastq.gz",
+          "GLDS-224_GMetagenomics_SRR5197507_R1_filtered.fastq.gz",
+          "GLDS-224_GMetagenomics_SRR5197507_R2_filtered.fastq.gz",
+          "GLDS-224_metagenomics_SRR5220486_R1_HRremoved_raw.fastq.gz",
+          "GLDS-224_metagenomics_SRR5220486_R2_HRremoved_raw.fastq.gz",
+          "GLDS-224_GMetagenomics_SRR5220486_R1_filtered.fastq.gz",
+          "GLDS-224_GMetagenomics_SRR5220486_R2_filtered.fastq.gz",
+          "GLDS-224_metagenomics_SRR5220488_R1_HRremoved_raw.fastq.gz",
+          "GLDS-224_metagenomics_SRR5220488_R2_HRremoved_raw.fastq.gz",
+          "GLDS-224_GMetagenomics_SRR5220488_R1_filtered.fastq.gz",
+          "GLDS-224_GMetagenomics_SRR5220488_R2_filtered.fastq.gz",
+          "GLDS-224_metagenomics_SRR5220487_R1_HRremoved_raw.fastq.gz",
+          "GLDS-224_metagenomics_SRR5220487_R2_HRremoved_raw.fastq.gz",
+          "GLDS-224_GMetagenomics_SRR5220487_R1_filtered.fastq.gz",
+          "GLDS-224_GMetagenomics_SRR5220487_R2_filtered.fastq.gz",
+          "GLDS-224_metagenomics_SRR5197511_R1_HRremoved_raw.fastq.gz",
+          "GLDS-224_metagenomics_SRR5197511_R2_HRremoved_raw.fastq.gz",
+          "GLDS-224_GMetagenomics_SRR5197511_R1_filtered.fastq.gz",
+          "GLDS-224_GMetagenomics_SRR5197511_R2_filtered.fastq.gz",
+          "GLDS-224_metagenomics_SRR5197512_R1_HRremoved_raw.fastq.gz",
+          "GLDS-224_metagenomics_SRR5197512_R2_HRremoved_raw.fastq.gz",
+          "GLDS-224_GMetagenomics_SRR5197512_R1_filtered.fastq.gz",
+          "GLDS-224_GMetagenomics_SRR5197512_R2_filtered.fastq.gz"
+        ],
+        "processed": [
+          "SAF Debris no-PMA",
+          "GeneLab metagenomics data processing protocol",
+          "PAIRED",
+          "multiple displacement amplification (MDA)",
+          "Illumina NextSeq 500",
+          "150",
+          "percent",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000187",
+          "metagenomics",
+          "28628112",
+          "0.08",
+          "GLDS-224_GMetagenomics_README.txt",
+          "GLDS-224_GMetagenomics_Assembly-based-processing-overview.tsv",
+          "GLDS-224_GMetagenomics_SRR5197507-assembly.fasta",
+          "GLDS-224_GMetagenomics_assembly-summaries.tsv",
+          "GLDS-224_GMetagenomics_SRR5197507-genes.faa",
+          "GLDS-224_GMetagenomics_SRR5197507-genes.fasta",
+          "GLDS-224_GMetagenomics_SRR5197507-genes.gff",
+          "GLDS-224_GMetagenomics_SRR5197507-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-224_GMetagenomics_SRR5197507-contig-coverage-and-tax.tsv",
+          "GLDS-224_GMetagenomics_SRR5197507.bam",
+          "GLDS-224_GMetagenomics_SRR5197507-mapping-info.txt",
+          "GLDS-224_GMetagenomics_SRR5197507-metabat-assembly-depth.tsv",
+          "GLDS-224_GMetagenomics_bins-overview.tsv",
+          "GLDS-224_GMetagenomics_SRR5197507-bin.2.fasta",
+          "GLDS-224_GMetagenomics_SRR5197507-bin.3.fasta",
+          "GLDS-224_GMetagenomics_SRR5197507-bin.1.fasta",
+          "GLDS-224_GMetagenomics_SRR5197507-bin.4.fasta",
+          "GLDS-224_GMetagenomics_MAGs-overview.tsv",
+          "GLDS-224_GMetagenomics_MAG-level-KO-annotations.tsv",
+          "GLDS-224_GMetagenomics_MAG-KEGG-Decoder-out.tsv",
+          "GLDS-224_GMetagenomics_Combined-gene-level-KO-function-coverages.tsv",
+          "GLDS-224_GMetagenomics_Combined-gene-level-KO-function-coverages-CPM.tsv",
+          "GLDS-224_GMetagenomics_Combined-gene-level-taxonomy-coverages.tsv",
+          "GLDS-224_GMetagenomics_Combined-gene-level-taxonomy-coverages-CPM.tsv",
+          "GLDS-224_GMetagenomics_Combined-contig-level-taxonomy-coverages.tsv",
+          "GLDS-224_GMetagenomics_Combined-contig-level-taxonomy-coverages-CPM.tsv",
+          "GLDS-224_GMetagenomics_Gene-families.tsv",
+          "GLDS-224_GMetagenomics_Gene-families-grouped-by-taxa.tsv",
+          "GLDS-224_GMetagenomics_Gene-families-cpm.tsv",
+          "GLDS-224_GMetagenomics_Gene-families-KO-cpm.tsv",
+          "GLDS-224_GMetagenomics_Pathway-abundances.tsv",
+          "GLDS-224_GMetagenomics_Pathway-abundances-grouped-by-taxa.tsv",
+          "GLDS-224_GMetagenomics_Pathway-abundances-cpm.tsv",
+          "GLDS-224_GMetagenomics_Pathway-coverages.tsv",
+          "GLDS-224_GMetagenomics_Pathway-coverages-grouped-by-taxa.tsv",
+          "GLDS-224_GMetagenomics_Metaphlan-taxonomy.tsv",
+          "GLDS-224_GMetagenomics_processing_info.zip",
+          "SAF Debris PMA",
+          "19458976",
+          "GLDS-224_GMetagenomics_SRR5220486-assembly.fasta",
+          "GLDS-224_GMetagenomics_SRR5220486-genes.faa",
+          "GLDS-224_GMetagenomics_SRR5220486-genes.fasta",
+          "GLDS-224_GMetagenomics_SRR5220486-genes.gff",
+          "GLDS-224_GMetagenomics_SRR5220486-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-224_GMetagenomics_SRR5220486-contig-coverage-and-tax.tsv",
+          "GLDS-224_GMetagenomics_SRR5220486.bam",
+          "GLDS-224_GMetagenomics_SRR5220486-mapping-info.txt",
+          "GLDS-224_GMetagenomics_SRR5220486-metabat-assembly-depth.tsv",
+          "GLDS-224_GMetagenomics_SRR5220486-bin.1.fasta",
+          "GLDS-224_GMetagenomics_SRR5220486-bin.3.fasta",
+          "GLDS-224_GMetagenomics_SRR5220486-bin.2.fasta",
+          "ISS HEPA no-PMA",
+          "42219230",
+          "14.68",
+          "GLDS-224_GMetagenomics_SRR5220488-assembly.fasta",
+          "GLDS-224_GMetagenomics_SRR5220488-genes.faa",
+          "GLDS-224_GMetagenomics_SRR5220488-genes.fasta",
+          "GLDS-224_GMetagenomics_SRR5220488-genes.gff",
+          "GLDS-224_GMetagenomics_SRR5220488-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-224_GMetagenomics_SRR5220488-contig-coverage-and-tax.tsv",
+          "GLDS-224_GMetagenomics_SRR5220488.bam",
+          "GLDS-224_GMetagenomics_SRR5220488-mapping-info.txt",
+          "GLDS-224_GMetagenomics_SRR5220488-metabat-assembly-depth.tsv",
+          "GLDS-224_GMetagenomics_SRR5220488-bin.3.fasta",
+          "GLDS-224_GMetagenomics_SRR5220488-bin.2.fasta",
+          "GLDS-224_GMetagenomics_SRR5220488-bin.1.fasta",
+          "ISS HEPA PMA",
+          "8440326",
+          "33.05",
+          "GLDS-224_GMetagenomics_SRR5220487-assembly.fasta",
+          "GLDS-224_GMetagenomics_SRR5220487-genes.faa",
+          "GLDS-224_GMetagenomics_SRR5220487-genes.fasta",
+          "GLDS-224_GMetagenomics_SRR5220487-genes.gff",
+          "GLDS-224_GMetagenomics_SRR5220487-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-224_GMetagenomics_SRR5220487-contig-coverage-and-tax.tsv",
+          "GLDS-224_GMetagenomics_SRR5220487.bam",
+          "GLDS-224_GMetagenomics_SRR5220487-mapping-info.txt",
+          "GLDS-224_GMetagenomics_SRR5220487-metabat-assembly-depth.tsv",
+          "ISS Debris no-PMA",
+          "16208169",
+          "13.09",
+          "GLDS-224_GMetagenomics_SRR5197511-assembly.fasta",
+          "GLDS-224_GMetagenomics_SRR5197511-genes.faa",
+          "GLDS-224_GMetagenomics_SRR5197511-genes.fasta",
+          "GLDS-224_GMetagenomics_SRR5197511-genes.gff",
+          "GLDS-224_GMetagenomics_SRR5197511-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-224_GMetagenomics_SRR5197511-contig-coverage-and-tax.tsv",
+          "GLDS-224_GMetagenomics_SRR5197511.bam",
+          "GLDS-224_GMetagenomics_SRR5197511-mapping-info.txt",
+          "GLDS-224_GMetagenomics_SRR5197511-metabat-assembly-depth.tsv",
+          "GLDS-224_GMetagenomics_SRR5197511-bin.1.fasta",
+          "GLDS-224_GMetagenomics_SRR5197511-bin.3.fasta",
+          "GLDS-224_GMetagenomics_SRR5197511-bin.2.fasta",
+          "GLDS-224_GMetagenomics_SRR5197511-bin.4.fasta",
+          "ISS Debris PMA",
+          "13865336",
+          "23.11",
+          "GLDS-224_GMetagenomics_SRR5197512-assembly.fasta",
+          "GLDS-224_GMetagenomics_SRR5197512-genes.faa",
+          "GLDS-224_GMetagenomics_SRR5197512-genes.fasta",
+          "GLDS-224_GMetagenomics_SRR5197512-genes.gff",
+          "GLDS-224_GMetagenomics_SRR5197512-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-224_GMetagenomics_SRR5197512-contig-coverage-and-tax.tsv",
+          "GLDS-224_GMetagenomics_SRR5197512.bam",
+          "GLDS-224_GMetagenomics_SRR5197512-mapping-info.txt",
+          "GLDS-224_GMetagenomics_SRR5197512-metabat-assembly-depth.tsv",
+          "GLDS-224_GMetagenomics_SRR5197512-bin.4.fasta",
+          "GLDS-224_GMetagenomics_SRR5197512-bin.2.fasta",
+          "GLDS-224_GMetagenomics_SRR5197512-bin.3.fasta",
+          "GLDS-224_GMetagenomics_SRR5197512-bin.1.fasta"
+        ],
+        "reports": [
+          "GLDS-224_GMetagenomics_raw_multiqc_data.zip",
+          "GLDS-224_GMetagenomics_raw_multiqc_report.html",
+          "GLDS-224_GMetagenomics_filtered_multiqc_data.zip",
+          "GLDS-224_GMetagenomics_filtered_multiqc_report.html"
+        ]
+      }
+    }
+  ]
+}

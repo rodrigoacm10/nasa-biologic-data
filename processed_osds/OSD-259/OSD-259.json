@@ -1,0 +1,196 @@
+{
+  "investigation": {
+    "id": "OSD-259",
+    "title": "Alteration of Proteomes in First-generation Cultures of Bacillus pumilus Spores Exposed to Outer Space",
+    "description": "Bacillus pumilus SAFR-032 was originally isolated from the Jet Propulsion Lab Spacecraft Assembly Facility and thoroughly characterized for its enhanced resistance to UV irradiation and oxidative stress. This unusual resistance of SAFR-032 is of particular concern in the context of planetary protection and calls for development of novel disinfection techniques to prevent extraterrestrial contamination.",
+    "mission": {
+      "name": "STS-122, STS-128",
+      "start_date": "07-Feb-2008, 28-Aug-2009",
+      "end_date": "20-Feb-2008, 11-Sep-2009",
+      "link": "https://lsda.jsc.nasa.gov/Mission/miss/231, https://lsda.jsc.nasa.gov/Mission/miss/274"
+    },
+    "project": {
+      "identifier": "EXPOSE-E",
+      "title": "EXPOSE",
+      "type": "Spaceflight Study",
+      "link": "",
+      "funding": "The research described in this publication was carried out in part at the Jet Propulsion Laboratory, California Institute of Technology, under a contract with the National Aeronautics and Space Administration. This research was funded by a NASA Research Announcement Research Opportunities in Space and Earth Sciences (NRA ROSES) grant. A.J.C. and M.K. were supported by JPL subcontract no. 1576895. The Mass Spectrometry & Proteomics Core facility of City of Hope was supported in part by the National Cancer Institute of the National Institutes of Health under award no. P30CA033572. Government sponsorship is acknowledged.",
+      "managing_center": "Jet Propulsion Lab (JPL)"
+    },
+    "protocols": [
+      "growth protocol",
+      "extraction",
+      "labeling",
+      "mass spectrometry",
+      "data transformation",
+      "protein extraction"
+    ],
+    "publications": [
+      {
+        "title": "Alteration of Proteomes in First-Generation Cultures of Bacillus pumilus Spores Exposed to Outer Space",
+        "doi": "10.1128/mSystems.00195-19",
+        "authors": [
+          "Chiang AJ",
+          "Malli Mohan GB",
+          "Singh NK",
+          "Vaishampayan PA",
+          "Kalkum M",
+          "Venkateswaran K"
+        ],
+        "summary": "Alteration of Proteomes in First-Generation Cultures of Bacillus pumilus Spores Exposed to Outer Space — 10.1128/mSystems.00195-19"
+      }
+    ],
+    "factors": [
+      "Spaceflight",
+      "Treatment"
+    ],
+    "contacts": [
+      {
+        "first_name": "Abby",
+        "last_name": "Chiang",
+        "role": "",
+        "email": ""
+      },
+      {
+        "first_name": "Markus",
+        "last_name": "Kalkum",
+        "role": "",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "UV-Space (56T2)",
+        "characteristics": {
+          "Organism": "Bacillus pumilus",
+          "Strain": "SAFR-032 var 56T-2",
+          "Material Type": "cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Treatment": "UV-Space"
+        },
+        "parameters": {
+          "Sample Media Information": "Trypticase soy broth medium",
+          "Growth Temperature": "25",
+          "Growth Time": "48",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "UV-Mars (183T1)",
+        "characteristics": {
+          "Organism": "Bacillus pumilus",
+          "Strain": "SAFR-032 var 183T-1",
+          "Material Type": "cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Treatment": "UV-Mars"
+        },
+        "parameters": {
+          "Sample Media Information": "Trypticase soy broth medium",
+          "Growth Temperature": "25",
+          "Growth Time": "48",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Dark-Space (40T5)",
+        "characteristics": {
+          "Organism": "Bacillus pumilus",
+          "Strain": "SAFR-032 var 40T-5",
+          "Material Type": "cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Treatment": "Dark-Space"
+        },
+        "parameters": {
+          "Sample Media Information": "Trypticase soy broth medium",
+          "Growth Temperature": "25",
+          "Growth Time": "48",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Dark-Mars (168T5)",
+        "characteristics": {
+          "Organism": "Bacillus pumilus",
+          "Strain": "SAFR-032 var 168T-5",
+          "Material Type": "cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Treatment": "Dark-Mars"
+        },
+        "parameters": {
+          "Sample Media Information": "Trypticase soy broth medium",
+          "Growth Temperature": "25",
+          "Growth Time": "48",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "ground control",
+        "characteristics": {
+          "Organism": "Bacillus pumilus",
+          "Strain": "SAFR-032",
+          "Material Type": "cells"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Treatment": "untreated"
+        },
+        "parameters": {
+          "Sample Media Information": "Trypticase soy broth medium",
+          "Growth Temperature": "25",
+          "Growth Time": "48",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "protein-expression-profiling",
+      "platform": "Orbitrap Fusion Tribrid",
+      "qc": {},
+      "library": {},
+      "files": {
+        "raw": [],
+        "processed": [
+          "\"UV-Space (56T2)\"",
+          "\"data transformation\"",
+          "\"TMT6-127\"",
+          "\"\"",
+          "\"Orbitrap Fusion Tribrid\"",
+          "\"EASY-nLC 1000 liquid chromatograph\"",
+          "\"Easy-Spray ion source\"",
+          "\"collision-induced dissociation (CID)\"",
+          "\"Proteome Discoverer\"",
+          "\"proteomics\"",
+          "\"GLDS-259_proteomics_Archived.raw.zip\"",
+          "\"GLDS-259_proteomics_B.pumilus_TMT1v2comb.msf.zip\"",
+          "\"GLDS-259_proteomics_Archived.mzML.zip\"",
+          "\"UV-Mars (183T1)\"",
+          "\"TMT6-128\"",
+          "\"Dark-Space (40T5)\"",
+          "\"TMT6-129\"",
+          "\"Dark-Mars (168T5)\"",
+          "\"TMT6-130\"",
+          "\"ground control\"",
+          "\"TMT6-126\""
+        ],
+        "reports": []
+      }
+    }
+  ]
+}

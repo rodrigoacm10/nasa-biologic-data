@@ -1,0 +1,3171 @@
+{
+  "investigation": {
+    "id": "GLDS-372",
+    "title": "Genome sequencing of Staphylococcus, Burkholderia, and Ralstonia bacterial isolates isolated from the ISS",
+    "description": "This repository holds genome assemblies for Staphylococcus, Burkholderia, and Ralstonia bacterial isolates isolated from the ISS between the years of 2006-2015. Information on the overall microbial isolation effort is stored under NASA's Life Science Data Archive experiment 13823 (https://lsda.jsc.nasa.gov/Experiment/exper/13823).",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "",
+      "title": "Microbial Analysis of International Space Station (ISS) Air, Surfaces and Water (ISS_Micro_Analysis)",
+      "type": "Spaceflight Study",
+      "link": "https://lsda.jsc.nasa.gov/Experiment/exper/13823",
+      "funding": "NASA Space Biology, NNH16ZTT001N-MOBE and 80NSSC17K0035",
+      "managing_center": ""
+    },
+    "protocols": [
+      "sample collection",
+      "Nucleic Acid Extraction",
+      "Library Construction",
+      "Nucleic Acid Sequencing",
+      "Sequence Assembly"
+    ],
+    "publications": [
+      {
+        "title": "Reference-guided metagenomics reveals genome-level evidence of potential microbial transmission from the ISS environment to an astronaut's microbiome",
+        "doi": "10.1016/j.isci.2021.102114",
+        "authors": [
+          "Lee Michael D.",
+          "O'Rourke Aubrie",
+          "Lorenzi Hernan",
+          "Bebout Brad M.",
+          "Dupont Chris L.",
+          "Everroad R. Craig"
+        ],
+        "summary": "Reference-guided metagenomics reveals genome-level evidence of potential microbial transmission from the ISS environment to an astronaut's microbiome — 10.1016/j.isci.2021.102114"
+      },
+      {
+        "title": "Genomic and phenotypic characterization of Burkholderia isolates from the potable water system of the International Space Station",
+        "doi": "10.1371/journal.pone.0227152",
+        "authors": [
+          "O'Rourke Aubrie",
+          "Lee Michael D.",
+          "Nierman William C.",
+          "Everroad R. Craig",
+          "Dupont Chris L."
+        ],
+        "summary": "Genomic and phenotypic characterization of Burkholderia isolates from the potable water system of the International Space Station — 10.1371/journal.pone.0227152"
+      }
+    ],
+    "factors": [
+      "Spaceflight",
+      "Collection Date",
+      "Sample Location"
+    ],
+    "contacts": [
+      {
+        "first_name": "Michael",
+        "last_name": "Lee",
+        "role": "Submitter",
+        "email": "Mike.Lee@nasa.gov"
+      },
+      {
+        "first_name": "Aubrie",
+        "last_name": "O'Rourke",
+        "role": "Submitter",
+        "email": "Aubrie.E.ORourke@nasa.gov"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "GCA_016808635.1",
+        "characteristics": {
+          "Organism": "Staphylococcus aureus",
+          "Strain": "s8",
+          "NASA isolate identifier": "101110051-1",
+          "Mission collected": "Expedition 22",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "U.S. LAB",
+          "Collection Date": "5-Mar-10"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016808895.1",
+        "characteristics": {
+          "Organism": "Staphylococcus aureus",
+          "Strain": "s42",
+          "NASA isolate identifier": "150760009-1",
+          "Mission collected": "Expedition 42",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "Node 2",
+          "Collection Date": "9-Mar-15"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016809355.1",
+        "characteristics": {
+          "Organism": "Staphylococcus aureus",
+          "Strain": "s9",
+          "NASA isolate identifier": "101110051-4",
+          "Mission collected": "Expedition 22",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "U.S. LAB",
+          "Collection Date": "5-Mar-10"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016808715.1",
+        "characteristics": {
+          "Organism": "Staphylococcus auricularis",
+          "Strain": "s52",
+          "NASA isolate identifier": "153480033-2",
+          "Mission collected": "Expedition 45",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "Node 2",
+          "Collection Date": "16-Nov-15"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016808695.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s53",
+          "NASA isolate identifier": "153480037-3",
+          "Mission collected": "Expedition 45",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PMM",
+          "Collection Date": "16-Nov-15"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016808675.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s2",
+          "NASA isolate identifier": "062690023-2",
+          "Mission collected": "Expedition 13",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "Node 1",
+          "Collection Date": "14-Aug-06"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016808655.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s4",
+          "NASA isolate identifier": "092160042-1",
+          "Mission collected": "Expedition 20",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "Node 1",
+          "Collection Date": "15-Jul-09"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016808975.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s39",
+          "NASA isolate identifier": "150790064-1",
+          "Mission collected": "Expedition 42",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Hot (bag)",
+          "Collection Date": "31-Dec-14"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016808955.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s40",
+          "NASA isolate identifier": "150790064-2",
+          "Mission collected": "Expedition 42",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Hot (bag)",
+          "Collection Date": "31-Dec-14"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016808925.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s41",
+          "NASA isolate identifier": "150790064-3",
+          "Mission collected": "Expedition 42",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Hot (bag)",
+          "Collection Date": "31-Dec-14"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016808615.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s16",
+          "NASA isolate identifier": "111540043-1",
+          "Mission collected": "Expedition 27",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "Node 3",
+          "Collection Date": "15-Apr-11"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016808595.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s10",
+          "NASA isolate identifier": "101110055-1",
+          "Mission collected": "Expedition 22",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "Node 3",
+          "Collection Date": "5-Mar-10"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016808565.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s14",
+          "NASA isolate identifier": "101110061-3",
+          "Mission collected": "Expedition 22",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "Node 2",
+          "Collection Date": "5-Mar-10"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016808555.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s18",
+          "NASA isolate identifier": "111540051-2",
+          "Mission collected": "Expedition 27",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "Node 1",
+          "Collection Date": "15-Apr-11"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016808535.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s20",
+          "NASA isolate identifier": "112620042-1",
+          "Mission collected": "Expedition 28",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "Node 3",
+          "Collection Date": "12-Aug-11"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016808515.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s26",
+          "NASA isolate identifier": "131360007-1",
+          "Mission collected": "Expedition 35",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "Node 3",
+          "Collection Date": "29-Apr-13"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016808495.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s27",
+          "NASA isolate identifier": "131360007-4",
+          "Mission collected": "Expedition 35",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "Node 3",
+          "Collection Date": "29-Apr-13"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016808475.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s34",
+          "NASA isolate identifier": "140720015-3",
+          "Mission collected": "Expedition 38",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "Node 3",
+          "Collection Date": "19-Feb-14"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016808455.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s25",
+          "NASA isolate identifier": "122620013-1",
+          "Mission collected": "Expedition 32",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "Node 3",
+          "Collection Date": "7-Sep-12"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016808435.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s32",
+          "NASA isolate identifier": "140720013-2",
+          "Mission collected": "Expedition 38",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "Node 3",
+          "Collection Date": "19-Feb-14"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016809325.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s12",
+          "NASA isolate identifier": "101110059-2",
+          "Mission collected": "Expedition 22",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "Node 3",
+          "Collection Date": "5-Mar-10"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016809315.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s15",
+          "NASA isolate identifier": "111540027-1",
+          "Mission collected": "Expedition 27",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "U.S. LAB",
+          "Collection Date": "15-Apr-11"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016809295.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s17",
+          "NASA isolate identifier": "111540049-1",
+          "Mission collected": "Expedition 27",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "Node 1",
+          "Collection Date": "15-Apr-11"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016809275.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s13",
+          "NASA isolate identifier": "101110059-4",
+          "Mission collected": "Expedition 22",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "Node 3",
+          "Collection Date": "5-Mar-10"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016809255.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s21",
+          "NASA isolate identifier": "112620042-2",
+          "Mission collected": "Expedition 28",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "Node 3",
+          "Collection Date": "12-Aug-11"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016809235.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s19",
+          "NASA isolate identifier": "112620034-1",
+          "Mission collected": "Expedition 28",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "U.S. LAB",
+          "Collection Date": "12-Aug-11"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016809195.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s24",
+          "NASA isolate identifier": "122620009-4",
+          "Mission collected": "Expedition 32",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "Node 1",
+          "Collection Date": "7-Sep-12"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016809185.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s22",
+          "NASA isolate identifier": "121210007-2",
+          "Mission collected": "Expedition 30",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "Node 3",
+          "Collection Date": "18-Jan-12"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016809175.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s23",
+          "NASA isolate identifier": "121560037-1",
+          "Mission collected": "Expedition 31",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PMM",
+          "Collection Date": "29-May-12"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016809155.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s28",
+          "NASA isolate identifier": "131360011-3",
+          "Mission collected": "Expedition 35",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "Node 3",
+          "Collection Date": "29-Apr-13"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016809135.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s29",
+          "NASA isolate identifier": "131360011-6",
+          "Mission collected": "Expedition 35",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "Node 3",
+          "Collection Date": "29-Apr-13"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016809105.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s31",
+          "NASA isolate identifier": "133170025-3",
+          "Mission collected": "Expedition 37",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "Node 3",
+          "Collection Date": "19-Oct-13"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016809095.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s30",
+          "NASA isolate identifier": "132550007-3",
+          "Mission collected": "Expedition 36",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "Node 2",
+          "Collection Date": "23-Aug-13"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016809075.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s33",
+          "NASA isolate identifier": "140720001-2",
+          "Mission collected": "Expedition 38",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "Node 1",
+          "Collection Date": "19-Feb-14"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016809055.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s35",
+          "NASA isolate identifier": "140720015-4",
+          "Mission collected": "Expedition 38",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "Node 3",
+          "Collection Date": "19-Feb-14"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016809035.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s36",
+          "NASA isolate identifier": "142550003-2",
+          "Mission collected": "Expedition 40",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "Node 3",
+          "Collection Date": "29-Aug-14"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016809015.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s37",
+          "NASA isolate identifier": "143160011-2",
+          "Mission collected": "Expedition 41",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "Node 3",
+          "Collection Date": "3-Nov-14"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016808875.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s44",
+          "NASA isolate identifier": "150790064-4",
+          "Mission collected": "Expedition 42",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Hot (bag)",
+          "Collection Date": "31-Dec-14"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016808855.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s46",
+          "NASA isolate identifier": "151460026-4",
+          "Mission collected": "Expedition 43",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "U.S. LAB",
+          "Collection Date": "16-Apr-15"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016808825.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s47",
+          "NASA isolate identifier": "151460026-5",
+          "Mission collected": "Expedition 43",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "U.S. LAB",
+          "Collection Date": "16-Apr-15"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016808815.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s45",
+          "NASA isolate identifier": "151460026-2",
+          "Mission collected": "Expedition 43",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "U.S. LAB",
+          "Collection Date": "16-Apr-15"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016808795.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s48",
+          "NASA isolate identifier": "151460030-2",
+          "Mission collected": "Expedition 43",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "Node 2",
+          "Collection Date": "16-Apr-15"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016808775.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s49",
+          "NASA isolate identifier": "151460030-5",
+          "Mission collected": "Expedition 43",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "Node 2",
+          "Collection Date": "16-Apr-15"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016808755.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s51",
+          "NASA isolate identifier": "153480029-5",
+          "Mission collected": "Expedition 45",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "U.S. LAB",
+          "Collection Date": "16-Nov-15"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016808735.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s50",
+          "NASA isolate identifier": "153480029-2",
+          "Mission collected": "Expedition 45",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "U.S. LAB",
+          "Collection Date": "16-Nov-15"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016809475.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s1",
+          "NASA isolate identifier": "062690023-2",
+          "Mission collected": "Expedition 13",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "Node 1",
+          "Collection Date": "14-Aug-06"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016809455.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s6",
+          "NASA isolate identifier": "093350086-1",
+          "Mission collected": "Expedition 21",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "U.S. LAB",
+          "Collection Date": "11-Nov-09"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016809435.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s3",
+          "NASA isolate identifier": "062690027-5",
+          "Mission collected": "Expedition 13",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "U.S. LAB",
+          "Collection Date": "14-Aug-06"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016809415.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s7",
+          "NASA isolate identifier": "101110045-3",
+          "Mission collected": "Expedition 22",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "Node 1",
+          "Collection Date": "5-Mar-10"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016809395.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s5",
+          "NASA isolate identifier": "092160043-2",
+          "Mission collected": "Expedition 20",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "U.S. Airlock",
+          "Collection Date": "15-Jul-09"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016809365.1",
+        "characteristics": {
+          "Organism": "Staphylococcus epidermidis",
+          "Strain": "s11",
+          "NASA isolate identifier": "101110055-2",
+          "Mission collected": "Expedition 22",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "Node 3",
+          "Collection Date": "5-Mar-10"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016808995.1",
+        "characteristics": {
+          "Organism": "Staphylococcus lugdunensis",
+          "Strain": "s38",
+          "NASA isolate identifier": "143160013-2",
+          "Mission collected": "Expedition 41",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "Node 3",
+          "Collection Date": "3-Nov-14"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_016808915.1",
+        "characteristics": {
+          "Organism": "Staphylococcus saprophyticus",
+          "Strain": "s43",
+          "NASA isolate identifier": "150760011-1",
+          "Mission collected": "Expedition 42",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PMM",
+          "Collection Date": "9-Mar-15"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014142395.1",
+        "characteristics": {
+          "Organism": "Burkholderia cepacia",
+          "Strain": "s18",
+          "NASA isolate identifier": "102690007-1",
+          "Mission collected": "Expedition 24",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (bag)",
+          "Collection Date": "15-Sep-10"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014142385.1",
+        "characteristics": {
+          "Organism": "Burkholderia cepacia",
+          "Strain": "s20",
+          "NASA isolate identifier": "110730035-2",
+          "Mission collected": "Expedition 24",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (MCD)",
+          "Collection Date": "14-Jul-10"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014142325.1",
+        "characteristics": {
+          "Organism": "Burkholderia cepacia",
+          "Strain": "s25",
+          "NASA isolate identifier": "110700041-1",
+          "Mission collected": "Expedition 26",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (bag)",
+          "Collection Date": "29-Dec-10"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014142315.1",
+        "characteristics": {
+          "Organism": "Burkholderia cepacia",
+          "Strain": "s23",
+          "NASA isolate identifier": "102690004-1",
+          "Mission collected": "Expedition 24",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Hot (bag)",
+          "Collection Date": "25-Aug-10"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014142305.1",
+        "characteristics": {
+          "Organism": "Burkholderia cepacia",
+          "Strain": "s22",
+          "NASA isolate identifier": "110730038-3",
+          "Mission collected": "Expedition 24",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (MCD)",
+          "Collection Date": "15-Sep-10"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014142285.1",
+        "characteristics": {
+          "Organism": "Burkholderia cepacia",
+          "Strain": "s24",
+          "NASA isolate identifier": "110700039-1",
+          "Mission collected": "Expedition 25",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (bag)",
+          "Collection Date": "19-Oct-10"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014142185.1",
+        "characteristics": {
+          "Organism": "Burkholderia cepacia",
+          "Strain": "s31",
+          "NASA isolate identifier": "112620001-2",
+          "Mission collected": "Expedition 28",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (bag)",
+          "Collection Date": "24-Aug-11"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014142175.1",
+        "characteristics": {
+          "Organism": "Burkholderia cepacia",
+          "Strain": "s28",
+          "NASA isolate identifier": "111460003-1",
+          "Mission collected": "Expedition 27",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (bag)",
+          "Collection Date": "18-May-11"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014142095.1",
+        "characteristics": {
+          "Organism": "Burkholderia cepacia",
+          "Strain": "s33",
+          "NASA isolate identifier": "113330051-1",
+          "Mission collected": "Expedition 29",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (bag)",
+          "Collection Date": "31-Oct-11"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014142065.1",
+        "characteristics": {
+          "Organism": "Burkholderia cepacia",
+          "Strain": "s35",
+          "NASA isolate identifier": "121220009-1",
+          "Mission collected": "Expedition 30",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (bag)",
+          "Collection Date": "19-Mar-12"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014142075.1",
+        "characteristics": {
+          "Organism": "Burkholderia cepacia",
+          "Strain": "s36",
+          "NASA isolate identifier": "121220003-1",
+          "Mission collected": "Expedition 30",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (MCD)",
+          "Collection Date": "19-Mar-12"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014142045.1",
+        "characteristics": {
+          "Organism": "Burkholderia cepacia",
+          "Strain": "s37",
+          "NASA isolate identifier": "121850007-1",
+          "Mission collected": "Expedition 31",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (bag)",
+          "Collection Date": "15-May-12"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014141995.1",
+        "characteristics": {
+          "Organism": "Burkholderia cepacia",
+          "Strain": "s39",
+          "NASA isolate identifier": "121560039-1",
+          "Mission collected": "Expedition 31",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (bag)",
+          "Collection Date": "15-May-12"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014141955.1",
+        "characteristics": {
+          "Organism": "Burkholderia cepacia",
+          "Strain": "s41",
+          "NASA isolate identifier": "122630001-1",
+          "Mission collected": "Expedition 32",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (bag)",
+          "Collection Date": "18-Sep-12"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014141625.1",
+        "characteristics": {
+          "Organism": "Burkholderia cepacia",
+          "Strain": "s57",
+          "NASA isolate identifier": "142550027-1",
+          "Mission collected": "Expedition 40",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (bag)",
+          "Collection Date": "6-Aug-14"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014142595.1",
+        "characteristics": {
+          "Organism": "Burkholderia cepacia",
+          "Strain": "s9",
+          "NASA isolate identifier": "100540015-1",
+          "Mission collected": "Expedition 22",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (bag)",
+          "Collection Date": "6-Jan-10"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014142565.1",
+        "characteristics": {
+          "Organism": "Burkholderia cepacia",
+          "Strain": "s12",
+          "NASA isolate identifier": "101120021-2",
+          "Mission collected": "Expedition 22",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (bag)",
+          "Collection Date": "3-Mar-10"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014142475.1",
+        "characteristics": {
+          "Organism": "Burkholderia cepacia",
+          "Strain": "s16",
+          "NASA isolate identifier": "102690001-1",
+          "Mission collected": "Expedition 24",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (bag)",
+          "Collection Date": "14-Jul-10"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014142465.1",
+        "characteristics": {
+          "Organism": "Burkholderia cepacia",
+          "Strain": "s15",
+          "NASA isolate identifier": "101110067-1",
+          "Mission collected": "Expedition 23",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (MCD)",
+          "Collection Date": "31-Mar-10"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014141685.1",
+        "characteristics": {
+          "Organism": "Burkholderia contaminans",
+          "Strain": "s54",
+          "NASA isolate identifier": "140710038-1",
+          "Mission collected": "Expedition 38",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (MCD)",
+          "Collection Date": "3-Feb-14"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014141665.1",
+        "characteristics": {
+          "Organism": "Burkholderia contaminans",
+          "Strain": "s56",
+          "NASA isolate identifier": "141350019-1",
+          "Mission collected": "Expedition 39",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD ambient (bag)",
+          "Collection Date": "31-Mar-14"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014141755.1",
+        "characteristics": {
+          "Organism": "Burkholderia contaminans",
+          "Strain": "s52",
+          "NASA isolate identifier": "140710050-1",
+          "Mission collected": "Expedition 38",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (bag)",
+          "Collection Date": "3-Feb-14"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014141725.1",
+        "characteristics": {
+          "Organism": "Burkholderia contaminans",
+          "Strain": "s53",
+          "NASA isolate identifier": "140710037-1",
+          "Mission collected": "Expedition 38",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (MCD)",
+          "Collection Date": "6-Jan-14"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014141865.1",
+        "characteristics": {
+          "Organism": "Burkholderia contaminans",
+          "Strain": "s47",
+          "NASA isolate identifier": "132550021-1",
+          "Mission collected": "Expedition 36",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (MCD)",
+          "Collection Date": "2-Jul-13"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014141985.1",
+        "characteristics": {
+          "Organism": "Ralstonia insidiosa",
+          "Strain": "s40",
+          "NASA isolate identifier": "121560039-2",
+          "Mission collected": "Expedition 31",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (bag)",
+          "Collection Date": "15-May-12"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014141945.1",
+        "characteristics": {
+          "Organism": "Ralstonia insidiosa",
+          "Strain": "s42",
+          "NASA isolate identifier": "122630001-2",
+          "Mission collected": "Expedition 32",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (bag)",
+          "Collection Date": "18-Sep-12"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014141855.1",
+        "characteristics": {
+          "Organism": "Ralstonia insidiosa",
+          "Strain": "s45",
+          "NASA isolate identifier": "130770013-1",
+          "Mission collected": "Expedition 34",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (MCD)",
+          "Collection Date": "12-Dec-12"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014141605.1",
+        "characteristics": {
+          "Organism": "Ralstonia insidiosa",
+          "Strain": "s59",
+          "NASA isolate identifier": "142550021-1",
+          "Mission collected": "Expedition 40",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (MCD)",
+          "Collection Date": "6-Aug-14"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014141635.1",
+        "characteristics": {
+          "Organism": "Ralstonia insidiosa",
+          "Strain": "s58",
+          "NASA isolate identifier": "142550027-2",
+          "Mission collected": "Expedition 40",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (bag)",
+          "Collection Date": "6-Aug-14"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014141905.1",
+        "characteristics": {
+          "Organism": "Ralstonia insidiosa",
+          "Strain": "s44",
+          "NASA isolate identifier": "130770001-2",
+          "Mission collected": "Expedition 34",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (bag)",
+          "Collection Date": "11-Feb-13"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014141915.1",
+        "characteristics": {
+          "Organism": "Ralstonia pickettii",
+          "Strain": "s43",
+          "NASA isolate identifier": "123250053-1",
+          "Mission collected": "Expedition 33",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (bag)",
+          "Collection Date": "5-Nov-12"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014141735.1",
+        "characteristics": {
+          "Organism": "Ralstonia pickettii",
+          "Strain": "s51",
+          "NASA isolate identifier": "133170049-4",
+          "Mission collected": "Expedition 37",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (MCD)",
+          "Collection Date": "8-Oct-13"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014141695.1",
+        "characteristics": {
+          "Organism": "Ralstonia pickettii",
+          "Strain": "s55",
+          "NASA isolate identifier": "140710038-2",
+          "Mission collected": "Expedition 38",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (MCD)",
+          "Collection Date": "3-Feb-14"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014141585.1",
+        "characteristics": {
+          "Organism": "Ralstonia pickettii",
+          "Strain": "s64",
+          "NASA isolate identifier": "153490002-2",
+          "Mission collected": "Expedition 45",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (bag)",
+          "Collection Date": "1-Dec-15"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014141555.1",
+        "characteristics": {
+          "Organism": "Ralstonia pickettii",
+          "Strain": "s65",
+          "NASA isolate identifier": "153490002-3",
+          "Mission collected": "Expedition 45",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (bag)",
+          "Collection Date": "1-Dec-15"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014142205.1",
+        "characteristics": {
+          "Organism": "Ralstonia pickettii",
+          "Strain": "s27",
+          "NASA isolate identifier": "110760020-1",
+          "Mission collected": "Expedition 26",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (bag)",
+          "Collection Date": "15-Feb-11"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014141845.1",
+        "characteristics": {
+          "Organism": "Ralstonia pickettii",
+          "Strain": "s46",
+          "NASA isolate identifier": "132550028-1",
+          "Mission collected": "Expedition 36",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (bag)",
+          "Collection Date": "30-Jul-13"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014141825.1",
+        "characteristics": {
+          "Organism": "Ralstonia pickettii",
+          "Strain": "s48",
+          "NASA isolate identifier": "132550021-3",
+          "Mission collected": "Expedition 36",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (MCD)",
+          "Collection Date": "2-Jul-13"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014141805.1",
+        "characteristics": {
+          "Organism": "Ralstonia pickettii",
+          "Strain": "s50",
+          "NASA isolate identifier": "133170049-3",
+          "Mission collected": "Expedition 37",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (MCD)",
+          "Collection Date": "8-Oct-13"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014141745.1",
+        "characteristics": {
+          "Organism": "Ralstonia pickettii",
+          "Strain": "s49",
+          "NASA isolate identifier": "133170061-1",
+          "Mission collected": "Expedition 37",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (bag)",
+          "Collection Date": "8-Oct-13"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014142025.1",
+        "characteristics": {
+          "Organism": "Ralstonia pickettii",
+          "Strain": "s38",
+          "NASA isolate identifier": "121850007-2",
+          "Mission collected": "Expedition 31",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (bag)",
+          "Collection Date": "15-May-12"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014142135.1",
+        "characteristics": {
+          "Organism": "Ralstonia pickettii",
+          "Strain": "s32",
+          "NASA isolate identifier": "112760001-1",
+          "Mission collected": "Expedition 28",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (MCD)",
+          "Collection Date": "27-Jul-11"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014142125.1",
+        "characteristics": {
+          "Organism": "Ralstonia pickettii",
+          "Strain": "s34",
+          "NASA isolate identifier": "113330051-2",
+          "Mission collected": "Expedition 29",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (bag)",
+          "Collection Date": "31-Oct-11"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014142165.1",
+        "characteristics": {
+          "Organism": "Ralstonia pickettii",
+          "Strain": "s30",
+          "NASA isolate identifier": "112620001-1",
+          "Mission collected": "Expedition 28",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (bag)",
+          "Collection Date": "24-Aug-11"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014142545.1",
+        "characteristics": {
+          "Organism": "Ralstonia pickettii",
+          "Strain": "s11",
+          "NASA isolate identifier": "101120021-1",
+          "Mission collected": "Expedition 22",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (bag)",
+          "Collection Date": "3-Mar-10"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014142195.1",
+        "characteristics": {
+          "Organism": "Ralstonia pickettii",
+          "Strain": "s29",
+          "NASA isolate identifier": "112060001-1",
+          "Mission collected": "Expedition 28",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (bag)",
+          "Collection Date": "7-Jul-11"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014142265.1",
+        "characteristics": {
+          "Organism": "Ralstonia pickettii",
+          "Strain": "s26",
+          "NASA isolate identifier": "110700041-2",
+          "Mission collected": "Expedition 26",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (bag)",
+          "Collection Date": "29-Dec-10"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014142365.1",
+        "characteristics": {
+          "Organism": "Ralstonia pickettii",
+          "Strain": "s21",
+          "NASA isolate identifier": "110730038-1",
+          "Mission collected": "Expedition 24",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (MCD)",
+          "Collection Date": "15-Sep-10"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014142505.1",
+        "characteristics": {
+          "Organism": "Ralstonia pickettii",
+          "Strain": "s14",
+          "NASA isolate identifier": "101480038-1",
+          "Mission collected": "Expedition 23",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (bag)",
+          "Collection Date": "18-May-10"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014142515.1",
+        "characteristics": {
+          "Organism": "Ralstonia pickettii",
+          "Strain": "s13",
+          "NASA isolate identifier": "101480035-1",
+          "Mission collected": "Expedition 23",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (bag)",
+          "Collection Date": "26-Apr-10"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014142655.1",
+        "characteristics": {
+          "Organism": "Ralstonia pickettii",
+          "Strain": "s6",
+          "NASA isolate identifier": "092570011-1",
+          "Mission collected": "Expedition 20",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Hot (bag)",
+          "Collection Date": "4-Aug-09"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014142645.1",
+        "characteristics": {
+          "Organism": "Ralstonia pickettii",
+          "Strain": "s7",
+          "NASA isolate identifier": "093490003-1",
+          "Mission collected": "Expedition 21",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (bag)",
+          "Collection Date": "20-Oct-09"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014142625.1",
+        "characteristics": {
+          "Organism": "Ralstonia pickettii",
+          "Strain": "s8",
+          "NASA isolate identifier": "093350054-1",
+          "Mission collected": "Expedition 21",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (bag)",
+          "Collection Date": "10-Nov-09"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014142735.1",
+        "characteristics": {
+          "Organism": "Ralstonia pickettii",
+          "Strain": "s3",
+          "NASA isolate identifier": "092160076-1",
+          "Mission collected": "Expedition 20",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (bag)",
+          "Collection Date": "24-Jul-09"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014142725.1",
+        "characteristics": {
+          "Organism": "Ralstonia pickettii",
+          "Strain": "s1",
+          "NASA isolate identifier": "092160068-1",
+          "Mission collected": "Expedition 20",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (bag)",
+          "Collection Date": "4-May-09"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014142685.1",
+        "characteristics": {
+          "Organism": "Ralstonia pickettii",
+          "Strain": "s4",
+          "NASA isolate identifier": "092570008-1",
+          "Mission collected": "Expedition 20",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (bag)",
+          "Collection Date": "4-Aug-09"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014142695.1",
+        "characteristics": {
+          "Organism": "Ralstonia pickettii",
+          "Strain": "s5",
+          "NASA isolate identifier": "092950004-1",
+          "Mission collected": "Expedition 20",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (bag)",
+          "Collection Date": "22-Sep-09"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014142575.1",
+        "characteristics": {
+          "Organism": "Ralstonia pickettii",
+          "Strain": "s10",
+          "NASA isolate identifier": "100540015-2",
+          "Mission collected": "Expedition 22",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (bag)",
+          "Collection Date": "6-Jan-10"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014142445.1",
+        "characteristics": {
+          "Organism": "Ralstonia pickettii",
+          "Strain": "s17",
+          "NASA isolate identifier": "102690001-2",
+          "Mission collected": "Expedition 24",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (bag)",
+          "Collection Date": "14-Jul-10"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014142405.1",
+        "characteristics": {
+          "Organism": "Ralstonia pickettii",
+          "Strain": "s19",
+          "NASA isolate identifier": "110730035-1",
+          "Mission collected": "Expedition 24",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (MCD)",
+          "Collection Date": "14-Jul-10"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GCA_014142755.1",
+        "characteristics": {
+          "Organism": "Ralstonia pickettii",
+          "Strain": "s2",
+          "NASA isolate identifier": "092160072-1",
+          "Mission collected": "Expedition 20",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Sample Location": "PWD Ambient (bag)",
+          "Collection Date": "16-Jun-09"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "glds-372",
+      "platform": "Illumina NextSeq 500",
+      "qc": {},
+      "library": {
+        "Library Strategy": "WGS",
+        "Library Layout": "PAIRED"
+      },
+      "files": {
+        "raw": [],
+        "processed": [
+          "GLDS-372_wgs_GCA_016808635.1.fa.gz",
+          "GLDS-372_wgs_GCA_016808895.1.fa.gz",
+          "GLDS-372_wgs_GCA_016809355.1.fa.gz",
+          "GLDS-372_wgs_GCA_016808715.1.fa.gz",
+          "GLDS-372_wgs_GCA_016808695.1.fa.gz",
+          "GLDS-372_wgs_GCA_016808675.1.fa.gz",
+          "GLDS-372_wgs_GCA_016808655.1.fa.gz",
+          "GLDS-372_wgs_GCA_016808975.1.fa.gz",
+          "GLDS-372_wgs_GCA_016808955.1.fa.gz",
+          "GLDS-372_wgs_GCA_016808925.1.fa.gz",
+          "GLDS-372_wgs_GCA_016808615.1.fa.gz",
+          "GLDS-372_wgs_GCA_016808595.1.fa.gz",
+          "GLDS-372_wgs_GCA_016808565.1.fa.gz",
+          "GLDS-372_wgs_GCA_016808555.1.fa.gz",
+          "GLDS-372_wgs_GCA_016808535.1.fa.gz",
+          "GLDS-372_wgs_GCA_016808515.1.fa.gz",
+          "GLDS-372_wgs_GCA_016808495.1.fa.gz",
+          "GLDS-372_wgs_GCA_016808475.1.fa.gz",
+          "GLDS-372_wgs_GCA_016808455.1.fa.gz",
+          "GLDS-372_wgs_GCA_016808435.1.fa.gz",
+          "GLDS-372_wgs_GCA_016809325.1.fa.gz",
+          "GLDS-372_wgs_GCA_016809315.1.fa.gz",
+          "GLDS-372_wgs_GCA_016809295.1.fa.gz",
+          "GLDS-372_wgs_GCA_016809275.1.fa.gz",
+          "GLDS-372_wgs_GCA_016809255.1.fa.gz",
+          "GLDS-372_wgs_GCA_016809235.1.fa.gz",
+          "GLDS-372_wgs_GCA_016809195.1.fa.gz",
+          "GLDS-372_wgs_GCA_016809185.1.fa.gz",
+          "GLDS-372_wgs_GCA_016809175.1.fa.gz",
+          "GLDS-372_wgs_GCA_016809155.1.fa.gz",
+          "GLDS-372_wgs_GCA_016809135.1.fa.gz",
+          "GLDS-372_wgs_GCA_016809105.1.fa.gz",
+          "GLDS-372_wgs_GCA_016809095.1.fa.gz",
+          "GLDS-372_wgs_GCA_016809075.1.fa.gz",
+          "GLDS-372_wgs_GCA_016809055.1.fa.gz",
+          "GLDS-372_wgs_GCA_016809035.1.fa.gz",
+          "GLDS-372_wgs_GCA_016809015.1.fa.gz",
+          "GLDS-372_wgs_GCA_016808875.1.fa.gz",
+          "GLDS-372_wgs_GCA_016808855.1.fa.gz",
+          "GLDS-372_wgs_GCA_016808825.1.fa.gz",
+          "GLDS-372_wgs_GCA_016808815.1.fa.gz",
+          "GLDS-372_wgs_GCA_016808795.1.fa.gz",
+          "GLDS-372_wgs_GCA_016808775.1.fa.gz",
+          "GLDS-372_wgs_GCA_016808755.1.fa.gz",
+          "GLDS-372_wgs_GCA_016808735.1.fa.gz",
+          "GLDS-372_wgs_GCA_016809475.1.fa.gz",
+          "GLDS-372_wgs_GCA_016809455.1.fa.gz",
+          "GLDS-372_wgs_GCA_016809435.1.fa.gz",
+          "GLDS-372_wgs_GCA_016809415.1.fa.gz",
+          "GLDS-372_wgs_GCA_016809395.1.fa.gz",
+          "GLDS-372_wgs_GCA_016809365.1.fa.gz",
+          "GLDS-372_wgs_GCA_016808995.1.fa.gz",
+          "GLDS-372_wgs_GCA_016808915.1.fa.gz",
+          "GLDS-372_wgs_GCA_014142395.1.fa.gz",
+          "GLDS-372_wgs_GCA_014142385.1.fa.gz",
+          "GLDS-372_wgs_GCA_014142325.1.fa.gz",
+          "GLDS-372_wgs_GCA_014142315.1.fa.gz",
+          "GLDS-372_wgs_GCA_014142305.1.fa.gz",
+          "GLDS-372_wgs_GCA_014142285.1.fa.gz",
+          "GLDS-372_wgs_GCA_014142185.1.fa.gz",
+          "GLDS-372_wgs_GCA_014142175.1.fa.gz",
+          "GLDS-372_wgs_GCA_014142095.1.fa.gz",
+          "GLDS-372_wgs_GCA_014142065.1.fa.gz",
+          "GLDS-372_wgs_GCA_014142075.1.fa.gz",
+          "GLDS-372_wgs_GCA_014142045.1.fa.gz",
+          "GLDS-372_wgs_GCA_014141995.1.fa.gz",
+          "GLDS-372_wgs_GCA_014141955.1.fa.gz",
+          "GLDS-372_wgs_GCA_014141625.1.fa.gz",
+          "GLDS-372_wgs_GCA_014142595.1.fa.gz",
+          "GLDS-372_wgs_GCA_014142565.1.fa.gz",
+          "GLDS-372_wgs_GCA_014142475.1.fa.gz",
+          "GLDS-372_wgs_GCA_014142465.1.fa.gz",
+          "GLDS-372_wgs_GCA_014141685.1.fa.gz",
+          "GLDS-372_wgs_GCA_014141665.1.fa.gz",
+          "GLDS-372_wgs_GCA_014141755.1.fa.gz",
+          "GLDS-372_wgs_GCA_014141725.1.fa.gz",
+          "GLDS-372_wgs_GCA_014141865.1.fa.gz",
+          "GLDS-372_wgs_GCA_014141985.1.fa.gz",
+          "GLDS-372_wgs_GCA_014141945.1.fa.gz",
+          "GLDS-372_wgs_GCA_014141855.1.fa.gz",
+          "GLDS-372_wgs_GCA_014141605.1.fa.gz",
+          "GLDS-372_wgs_GCA_014141635.1.fa.gz",
+          "GLDS-372_wgs_GCA_014141905.1.fa.gz",
+          "GLDS-372_wgs_GCA_014141915.1.fa.gz",
+          "GLDS-372_wgs_GCA_014141735.1.fa.gz",
+          "GLDS-372_wgs_GCA_014141695.1.fa.gz",
+          "GLDS-372_wgs_GCA_014141585.1.fa.gz",
+          "GLDS-372_wgs_GCA_014141555.1.fa.gz",
+          "GLDS-372_wgs_GCA_014142205.1.fa.gz",
+          "GLDS-372_wgs_GCA_014141845.1.fa.gz",
+          "GLDS-372_wgs_GCA_014141825.1.fa.gz",
+          "GLDS-372_wgs_GCA_014141805.1.fa.gz",
+          "GLDS-372_wgs_GCA_014141745.1.fa.gz",
+          "GLDS-372_wgs_GCA_014142025.1.fa.gz",
+          "GLDS-372_wgs_GCA_014142135.1.fa.gz",
+          "GLDS-372_wgs_GCA_014142125.1.fa.gz",
+          "GLDS-372_wgs_GCA_014142165.1.fa.gz",
+          "GLDS-372_wgs_GCA_014142545.1.fa.gz",
+          "GLDS-372_wgs_GCA_014142195.1.fa.gz",
+          "GLDS-372_wgs_GCA_014142265.1.fa.gz",
+          "GLDS-372_wgs_GCA_014142365.1.fa.gz",
+          "GLDS-372_wgs_GCA_014142505.1.fa.gz",
+          "GLDS-372_wgs_GCA_014142515.1.fa.gz",
+          "GLDS-372_wgs_GCA_014142655.1.fa.gz",
+          "GLDS-372_wgs_GCA_014142645.1.fa.gz",
+          "GLDS-372_wgs_GCA_014142625.1.fa.gz",
+          "GLDS-372_wgs_GCA_014142735.1.fa.gz",
+          "GLDS-372_wgs_GCA_014142725.1.fa.gz",
+          "GLDS-372_wgs_GCA_014142685.1.fa.gz",
+          "GLDS-372_wgs_GCA_014142695.1.fa.gz",
+          "GLDS-372_wgs_GCA_014142575.1.fa.gz",
+          "GLDS-372_wgs_GCA_014142445.1.fa.gz",
+          "GLDS-372_wgs_GCA_014142405.1.fa.gz",
+          "GLDS-372_wgs_GCA_014142755.1.fa.gz",
+          "GCA_016808635.1",
+          "Sequence Assembly",
+          "WGS",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000187",
+          "PAIRED",
+          "150",
+          "percent",
+          "Illumina NextSeq 500",
+          "SPAdes v3.12.0",
+          "2",
+          "744",
+          "264",
+          "33",
+          "874",
+          "32.61",
+          "447",
+          "354",
+          "2503",
+          "189",
+          "408",
+          "5",
+          "99.51",
+          "0.44",
+          "Bacteria",
+          "Firmicutes",
+          "Bacilli",
+          "Staphylococcales",
+          "Staphylococcaceae",
+          "Staphylococcus",
+          "Staphylococcus aureus",
+          "GCA_016808895.1",
+          "757",
+          "620",
+          "25",
+          "579",
+          "32.73",
+          "780",
+          "950",
+          "3122",
+          "193",
+          "004",
+          "4",
+          "99.4",
+          "0.13",
+          "GCA_016809355.1",
+          "729",
+          "220",
+          "26",
+          "573",
+          "32.63",
+          "439",
+          "614",
+          "3121",
+          "199",
+          "587",
+          "0.08",
+          "GCA_016808715.1",
+          "275",
+          "253",
+          "29",
+          "330",
+          "37.12",
+          "739",
+          "686",
+          "2592",
+          "279",
+          "039",
+          "3",
+          "99.45",
+          "0",
+          "Staphylococcus auricularis",
+          "GCA_016808695.1",
+          "450",
+          "921",
+          "41",
+          "196",
+          "31.98",
+          "348",
+          "872",
+          "2809",
+          "101",
+          "814",
+          "6",
+          "99.67",
+          "0.06",
+          "Staphylococcus epidermidis",
+          "GCA_016808675.1",
+          "384",
+          "624",
+          "20",
+          "32.07",
+          "448",
+          "437",
+          "2622",
+          "281",
+          "537",
+          "GCA_016808655.1",
+          "453",
+          "793",
+          "46",
+          "297",
+          "31.9",
+          "263",
+          "716",
+          "3263",
+          "89",
+          "997",
+          "9",
+          "GCA_016808975.1",
+          "484",
+          "859",
+          "294",
+          "31.84",
+          "517",
+          "334",
+          "3165",
+          "207",
+          "895",
+          "GCA_016808955.1",
+          "486",
+          "731",
+          "27",
+          "394",
+          "449",
+          "805",
+          "135",
+          "147",
+          "GCA_016808925.1",
+          "424",
+          "248",
+          "22",
+          "292",
+          "31.92",
+          "574",
+          "385",
+          "244",
+          "168",
+          "GCA_016808615.1",
+          "412",
+          "217",
+          "31.89",
+          "216",
+          "891",
+          "2523",
+          "96",
+          "487",
+          "99.81",
+          "GCA_016808595.1",
+          "325",
+          "157",
+          "42",
+          "31.94",
+          "234",
+          "816",
+          "2780",
+          "102",
+          "8",
+          "98.13",
+          "0.36",
+          "GCA_016808565.1",
+          "459",
+          "155",
+          "56",
+          "32.06",
+          "518",
+          "032",
+          "2506",
+          "82",
+          "839",
+          "0.09",
+          "GCA_016808555.1",
+          "423",
+          "50",
+          "183",
+          "32.05",
+          "210",
+          "783",
+          "3412",
+          "97",
+          "965",
+          "GCA_016808535.1",
+          "770",
+          "44",
+          "1085",
+          "861",
+          "90",
+          "023",
+          "GCA_016808515.1",
+          "543",
+          "488",
+          "65",
+          "490",
+          "31.85",
+          "902",
+          "2534",
+          "81",
+          "698",
+          "10",
+          "0.16",
+          "GCA_016808495.1",
+          "471",
+          "120",
+          "23",
+          "223",
+          "3270",
+          "166",
+          "512",
+          "GCA_016808475.1",
+          "499",
+          "678",
+          "40",
+          "98",
+          "31.91",
+          "307",
+          "419",
+          "2546",
+          "109",
+          "619",
+          "7",
+          "GCA_016808455.1",
+          "468",
+          "993",
+          "61",
+          "833",
+          "31.88",
+          "640",
+          "2511",
+          "87",
+          "652",
+          "0.05",
+          "GCA_016808435.1",
+          "557",
+          "465",
+          "381",
+          "31.82",
+          "572",
+          "296",
+          "165",
+          "GCA_016809325.1",
+          "515",
+          "779",
+          "30",
+          "3191",
+          "126",
+          "883",
+          "0.11",
+          "GCA_016809315.1",
+          "420",
+          "896",
+          "116",
+          "877",
+          "2608",
+          "093",
+          "0.37",
+          "GCA_016809295.1",
+          "569",
+          "393",
+          "36",
+          "724",
+          "332",
+          "984",
+          "2564",
+          "169",
+          "746",
+          "GCA_016809275.1",
+          "435",
+          "114",
+          "47",
+          "31.87",
+          "327",
+          "2925",
+          "255",
+          "GCA_016809255.1",
+          "523",
+          "357",
+          "66",
+          "148",
+          "31.95",
+          "349",
+          "736",
+          "2816",
+          "982",
+          "11",
+          "GCA_016809235.1",
+          "481",
+          "800",
+          "24",
+          "548",
+          "604",
+          "3698",
+          "214",
+          "648",
+          "99.11",
+          "0.71",
+          "GCA_016809195.1",
+          "442",
+          "340",
+          "835",
+          "3289",
+          "317",
+          "0.21",
+          "GCA_016809185.1",
+          "558",
+          "164",
+          "34",
+          "194",
+          "31.86",
+          "000",
+          "2745",
+          "140",
+          "GCA_016809175.1",
+          "464",
+          "761",
+          "197",
+          "946",
+          "841",
+          "0.38",
+          "GCA_016809155.1",
+          "755",
+          "489",
+          "383",
+          "775",
+          "280",
+          "GCA_016809135.1",
+          "497",
+          "623",
+          "93",
+          "301",
+          "742",
+          "2652",
+          "734",
+          "GCA_016809105.1",
+          "405",
+          "45",
+          "95",
+          "944",
+          "3232",
+          "0.28",
+          "GCA_016809095.1",
+          "444",
+          "262",
+          "158",
+          "GCA_016809075.1",
+          "407",
+          "007",
+          "195",
+          "878",
+          "260",
+          "0.56",
+          "GCA_016809055.1",
+          "495",
+          "802",
+          "39",
+          "590",
+          "GCA_016809035.1",
+          "491",
+          "738",
+          "697",
+          "2560",
+          "167",
+          "298",
+          "GCA_016809015.1",
+          "392",
+          "31.93",
+          "860",
+          "3138",
+          "097",
+          "GCA_016808875.1",
+          "644",
+          "979",
+          "186",
+          "GCA_016808855.1",
+          "205",
+          "48",
+          "200",
+          "245",
+          "3224",
+          "353",
+          "GCA_016808825.1",
+          "492",
+          "482",
+          "49",
+          "522",
+          "110",
+          "276",
+          "GCA_016808815.1",
+          "478",
+          "51",
+          "86",
+          "988",
+          "GCA_016808795.1",
+          "397",
+          "284",
+          "958",
+          "2968",
+          "254",
+          "GCA_016808775.1",
+          "399",
+          "617",
+          "31.99",
+          "900",
+          "85",
+          "212",
+          "GCA_016808755.1",
+          "571",
+          "003",
+          "32",
+          "066",
+          "2815",
+          "151",
+          "954",
+          "GCA_016808735.1",
+          "462",
+          "556",
+          "366",
+          "313",
+          "2951",
+          "236",
+          "GCA_016809475.1",
+          "474",
+          "612",
+          "641",
+          "503",
+          "2760",
+          "129",
+          "561",
+          "GCA_016809455.1",
+          "417",
+          "389",
+          "243",
+          "473",
+          "GCA_016809435.1",
+          "43",
+          "551",
+          "679",
+          "2522",
+          "GCA_016809415.1",
+          "043",
+          "55",
+          "314",
+          "213",
+          "843",
+          "3411",
+          "76",
+          "578",
+          "12",
+          "GCA_016809395.1",
+          "461",
+          "918",
+          "391",
+          "GCA_016809365.1",
+          "477",
+          "856",
+          "GCA_016808995.1",
+          "535",
+          "19",
+          "289",
+          "33.65",
+          "463",
+          "341",
+          "3054",
+          "273",
+          "752",
+          "99.61",
+          "Staphylococcus lugdunensis",
+          "GCA_016808915.1",
+          "639",
+          "106",
+          "21",
+          "32.97",
+          "811",
+          "837",
+          "3234",
+          "434",
+          "99.44",
+          "Staphylococcus saprophyticus",
+          "GCA_014142395.1",
+          "247",
+          "146",
+          "390",
+          "66.33",
+          "470",
+          "1041",
+          "142",
+          "388",
+          "100",
+          "0.52",
+          "Proteobacteria",
+          "Gammaproteobacteria",
+          "Burkholderiales",
+          "Burkholderiaceae",
+          "Burkholderia",
+          "Burkholderia cepacia",
+          "GCA_014142385.1",
+          "952",
+          "386",
+          "192",
+          "130",
+          "868",
+          "GCA_014142325.1",
+          "038",
+          "338",
+          "336",
+          "764",
+          "112",
+          "GCA_014142315.1",
+          "955",
+          "691",
+          "160",
+          "176",
+          "401",
+          "773",
+          "912",
+          "GCA_014142305.1",
+          "655",
+          "670",
+          "266",
+          "66.52",
+          "138",
+          "185",
+          "0.18",
+          "GCA_014142285.1",
+          "866",
+          "476",
+          "134",
+          "300",
+          "66.39",
+          "159",
+          "0.34",
+          "GCA_014142185.1",
+          "663",
+          "622",
+          "310",
+          "66.51",
+          "361",
+          "089",
+          "784",
+          "GCA_014142175.1",
+          "GCA_014142095.1",
+          "664",
+          "521",
+          "149",
+          "436",
+          "GCA_014142065.1",
+          "838",
+          "675",
+          "246",
+          "66.32",
+          "456",
+          "GCA_014142075.1",
+          "947",
+          "500",
+          "945",
+          "0.65",
+          "GCA_014142045.1",
+          "956",
+          "290",
+          "372",
+          "923",
+          "122",
+          "GCA_014141995.1",
+          "094",
+          "145",
+          "66.3",
+          "99.6",
+          "GCA_014141955.1",
+          "792",
+          "137",
+          "360",
+          "66.5",
+          "GCA_014141625.1",
+          "957",
+          "533",
+          "430",
+          "969",
+          "GCA_014142595.1",
+          "674",
+          "852",
+          "1006",
+          "128",
+          "261",
+          "0.31",
+          "GCA_014142565.1",
+          "555",
+          "356",
+          "GCA_014142475.1",
+          "018",
+          "316",
+          "121",
+          "575",
+          "GCA_014142465.1",
+          "593",
+          "GCA_014141685.1",
+          "842",
+          "66.1",
+          "683",
+          "087",
+          "1039",
+          "178",
+          "16",
+          "0.33",
+          "Burkholderia contaminans",
+          "GCA_014141665.1",
+          "529",
+          "80",
+          "986",
+          "1042",
+          "222",
+          "GCA_014141755.1",
+          "844",
+          "363",
+          "240",
+          "66.11",
+          "227",
+          "99.75",
+          "GCA_014141725.1",
+          "840",
+          "190",
+          "250",
+          "229",
+          "668",
+          "GCA_014141865.1",
+          "005",
+          "91",
+          "682",
+          "978",
+          "209",
+          "079",
+          "14",
+          "99.95",
+          "GCA_014141985.1",
+          "067",
+          "051",
+          "13304",
+          "60.34",
+          "903",
+          "887",
+          "1000",
+          "13",
+          "99.94",
+          "10.59",
+          "Ralstonia",
+          "Ralstonia sp001078575",
+          "GCA_014141945.1",
+          "376",
+          "375",
+          "63.34",
+          "1",
+          "035",
+          "714",
+          "1239",
+          "302",
+          "1.43",
+          "GCA_014141855.1",
+          "589",
+          "808",
+          "23759",
+          "57.82",
+          "629",
+          "524",
+          "184",
+          "541",
+          "40.56",
+          "GCA_014141605.1",
+          "38",
+          "63.4",
+          "951",
+          "919",
+          "1.91",
+          "GCA_014141635.1",
+          "765",
+          "37",
+          "GCA_014141905.1",
+          "265",
+          "63.38",
+          "GCA_014141915.1",
+          "013",
+          "749",
+          "63.77",
+          "445",
+          "705",
+          "1126",
+          "611",
+          "0.03",
+          "Ralstonia pickettii",
+          "GCA_014141735.1",
+          "696",
+          "886",
+          "63.45",
+          "1124",
+          "552",
+          "0.95",
+          "GCA_014141695.1",
+          "810",
+          "59",
+          "GCA_014141585.1",
+          "815",
+          "661",
+          "74",
+          "63.31",
+          "410",
+          "1139",
+          "181",
+          "GCA_014141555.1",
+          "728",
+          "69",
+          "GCA_014142205.1",
+          "534",
+          "019",
+          "63.71",
+          "539",
+          "198",
+          "1193",
+          "269",
+          "063",
+          "0.54",
+          "Ralstonia pickettii_B",
+          "GCA_014141845.1",
+          "483",
+          "54",
+          "63.32",
+          "GCA_014141825.1",
+          "73",
+          "882",
+          "179",
+          "937",
+          "GCA_014141805.1",
+          "GCA_014141745.1",
+          "813",
+          "208",
+          "68",
+          "GCA_014142025.1",
+          "256",
+          "63.66",
+          "GCA_014142135.1",
+          "172",
+          "70",
+          "GCA_014142125.1",
+          "GCA_014142165.1",
+          "GCA_014142545.1",
+          "820",
+          "63.7",
+          "GCA_014142195.1",
+          "031",
+          "GCA_014142265.1",
+          "494",
+          "331",
+          "63.72",
+          "GCA_014142365.1",
+          "429",
+          "63.56",
+          "GCA_014142505.1",
+          "060",
+          "527",
+          "GCA_014142515.1",
+          "GCA_014142655.1",
+          "782",
+          "63.42",
+          "1.31",
+          "GCA_014142645.1",
+          "343",
+          "083",
+          "58",
+          "63.57",
+          "570",
+          "GCA_014142625.1",
+          "218",
+          "52",
+          "226",
+          "1119",
+          "GCA_014142735.1",
+          "428",
+          "GCA_014142725.1",
+          "1001",
+          "047",
+          "2.04",
+          "GCA_014142685.1",
+          "781",
+          "367",
+          "60",
+          "GCA_014142695.1",
+          "63.58",
+          "GCA_014142575.1",
+          "35",
+          "0.07",
+          "GCA_014142445.1",
+          "351",
+          "63.76",
+          "GCA_014142405.1",
+          "342",
+          "851",
+          "63",
+          "GCA_014142755.1",
+          "538",
+          "224"
+        ],
+        "reports": []
+      }
+    }
+  ]
+}

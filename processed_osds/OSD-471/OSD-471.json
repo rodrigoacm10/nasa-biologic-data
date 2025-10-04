@@ -1,0 +1,171 @@
+{
+  "investigation": {
+    "id": "OSD-471",
+    "title": "Spaceflight-Induced Bone Loss Alters Failure Mode and Reduces Bending Strength in Murine Spinal Segments from Bion-M1",
+    "description": "Intervertebral disc herniation rates are quadrupled in astronauts following spaceflight. While bending motions are main contributors to herniation, the effects of microgravity on the bending properties of spinal discs are unknown.",
+    "mission": {
+      "name": "Bion-M1",
+      "start_date": "19-Apr-2013",
+      "end_date": "19-May-2013",
+      "link": "https://nlsp.nasa.gov/view/lsdapub/lsda_mission/IDP-LSDA_MISSION-0000000000000190"
+    },
+    "project": {
+      "identifier": "Bion M-1",
+      "title": "Rodent spine deconditioning after 30 days of microgravity (ARC00XX57)",
+      "type": "Spaceflight Study",
+      "link": "https://nlsp.nasa.gov/view/lsdapub/lsda_experiment/d1f70a1e-1aa8-563f-aec5-9997881b3a68",
+      "funding": "This work was supported by NASA grants NNX09AP11G, NNX13AM89G, and NNX14AP25G, as well as NSBRI grant NCC 9-58 and an NSF Graduate Research Fellowship. We would like to acknowledge the Russian Federal Space Agency for flying the Bion M1 mission, as well as the staff of the M.V. Lomonosov Moscow State University Institute of Mitoengineering for providing animal facilities. mCT imaging was performed at the Bone Imaging Research Core of the Endocrine Research Unit at the UCSF-affiliated Veterans Affairs Medical Center. We would also like to thank Aaron Fields and Jeannie Bailey for contributing helpful advice for this study. None of the authors have affiliations that are perceived to have biased the presentation.",
+      "managing_center": "Ames Research Center (ARC)"
+    },
+    "protocols": [
+      "sample collection",
+      "Image Scan Acquisition",
+      "Image Processing And Reconstruction",
+      "Data Processing Method",
+      "Animal Husbandry"
+    ],
+    "publications": [
+      {
+        "title": "Spaceflight-induced bone loss alters failure mode and reduces bending strength in murine spinal segments.",
+        "doi": "10.1002/jor.23029",
+        "authors": [
+          "Berg-Johansen B",
+          "Liebenberg EC",
+          "Li A",
+          "Macias BR",
+          "Hargens AR",
+          "Lotz JC."
+        ],
+        "summary": "Spaceflight-induced bone loss alters failure mode and reduces bending strength in murine spinal segments. — 10.1002/jor.23029"
+      }
+    ],
+    "factors": [
+      "Spaceflight"
+    ],
+    "contacts": [
+      {
+        "first_name": "Britta",
+        "last_name": "Berg-Johansen",
+        "role": "Research Personnel",
+        "email": "jeffrey.lotz@ucsf.edu"
+      },
+      {
+        "first_name": "Ellen",
+        "last_name": "Liebenberg",
+        "role": "Research Personnel",
+        "email": ""
+      },
+      {
+        "first_name": "Alfred",
+        "last_name": "Li",
+        "role": "Research Personnel",
+        "email": ""
+      },
+      {
+        "first_name": "Brandon",
+        "last_name": "Macias",
+        "role": "Research Personnel",
+        "email": ""
+      },
+      {
+        "first_name": "Alan",
+        "last_name": "Hargens",
+        "role": "Research Personnel",
+        "email": ""
+      },
+      {
+        "first_name": "Jeffrey",
+        "last_name": "Lotz",
+        "role": "principal investigator",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6N",
+          "Animal Source": "Animal Breeding Facility Branch of Shemyakin and Ovchinnikov Institute of Bioorganic Chemistry, Russia",
+          "Material Type": "Caudal Vertebrae 3-4",
+          "sex": "male",
+          "Age at Launch": "19-20"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "duration": "30",
+          "habitat": "Bion-M1",
+          "Euthanasia Timing": "post-landing 13-15",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Data Pooled from 3 Animals"
+        }
+      },
+      {
+        "sample_name": "2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6N",
+          "Animal Source": "Animal Breeding Facility Branch of Shemyakin and Ovchinnikov Institute of Bioorganic Chemistry, Russia",
+          "Material Type": "Caudal Vertebrae 3-4",
+          "sex": "male",
+          "Age at Launch": "19-20"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "duration": "30",
+          "habitat": "Vivarium Cage",
+          "Euthanasia Timing": "post-landing 13-15",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Data Pooled from 5 Animals"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "bone-microstructure",
+      "platform": "mCT 50, Scanco Medical",
+      "qc": {},
+      "library": {},
+      "files": {
+        "raw": [],
+        "processed": [
+          "1",
+          "Data Processing Method",
+          "mCT 50",
+          "SCANCO Medical",
+          "70% ethanol",
+          "trabecular",
+          "milliampere",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000037",
+          "4",
+          "55",
+          "109",
+          "gaussian",
+          "manual",
+          "irregular; few pixels from endocortical",
+          "2",
+          "0.5",
+          "grayscale",
+          "300",
+          "LSDS-19_microCT_komarovaSUBMITTED.xlsx",
+          "LSDS-19_microCT_bergjohansenTRANSFORMED.csv"
+        ],
+        "reports": []
+      }
+    }
+  ]
+}

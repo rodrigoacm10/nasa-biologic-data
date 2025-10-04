@@ -1,0 +1,670 @@
+{
+  "investigation": {
+    "id": "OSD-119",
+    "title": "Effect of microgravity on an animal-bacteria symbiosis",
+    "description": "Spaceflight imposes numerous adaptive challenges for terrestrial life. The reduction in gravity, or microgravity, represents a novel environment that can disrupt homeostasis of many physiological processes.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "Simulated_Microgravity",
+      "title": "Impact of Microgravity on the Cell-Cell Interactions between a Mutualistic Bacterium and Its Animal Host",
+      "type": "Ground Study",
+      "link": "https://lsda.jsc.nasa.gov/scripts/experiment/exper.aspx?exp_index=13466",
+      "funding": "This study was supported by NASA's Space Biology program grant NNX13AM44G.",
+      "managing_center": "Ames Research Center (ARC)"
+    },
+    "protocols": [
+      "Animal Husbandry",
+      "sample treatment protocol",
+      "sample collection",
+      "nucleic acid extraction",
+      "library construction",
+      "nucleic acid sequencing"
+    ],
+    "publications": [
+      {
+        "title": "Transcriptomic changes in an animal-bacterial symbiosis under modeled microgravity conditions",
+        "doi": "10.1038/srep46318",
+        "authors": [
+          "Giorgio Casaburi",
+          "Irina Goncharenko-Foster",
+          "Alexandrea A. Duscher & Jamie S. Foster"
+        ],
+        "summary": "Transcriptomic changes in an animal-bacterial symbiosis under modeled microgravity conditions — 10.1038/srep46318"
+      }
+    ],
+    "factors": [
+      "Microgravity Simulation",
+      "Treatment",
+      "Time"
+    ],
+    "contacts": [
+      {
+        "first_name": "Giorgio",
+        "last_name": "Casaburi",
+        "role": "Post Doctoral Research Associate",
+        "email": "giorgiocasaburi@gmail.com"
+      },
+      {
+        "first_name": "Jamie",
+        "last_name": "Foster",
+        "role": "Principal Investigator",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "L1_Hatch_1",
+        "characteristics": {
+          "organism": "Euprymna scolopes",
+          "secondary organism": "",
+          "Material Type": "Light organ",
+          "Symbiosis": ""
+        },
+        "factors": {
+          "Treatment": "Not Inoculated",
+          "Microgravity Simulation": "",
+          "Time": "0"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark",
+          "Growth Temperature": "23",
+          "Storage Temperature": "-80"
+        },
+        "comments": {
+          "Source Name Description": "Hatchling- 0 hour"
+        }
+      },
+      {
+        "sample_name": "L2_Hatch_2",
+        "characteristics": {
+          "organism": "Euprymna scolopes",
+          "secondary organism": "",
+          "Material Type": "Light organ",
+          "Symbiosis": ""
+        },
+        "factors": {
+          "Treatment": "Not Inoculated",
+          "Microgravity Simulation": "",
+          "Time": "0"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark",
+          "Growth Temperature": "23",
+          "Storage Temperature": "-80"
+        },
+        "comments": {
+          "Source Name Description": "Hatchling- 0 hour"
+        }
+      },
+      {
+        "sample_name": "L10_12G_A_8",
+        "characteristics": {
+          "organism": "Euprymna scolopes",
+          "secondary organism": "",
+          "Material Type": "Light organ",
+          "Symbiosis": "Aposymbiotic"
+        },
+        "factors": {
+          "Treatment": "Inoculated with filtered sea water",
+          "Microgravity Simulation": "1G by HARV",
+          "Time": "12"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark",
+          "Growth Temperature": "23",
+          "Storage Temperature": "-80"
+        },
+        "comments": {
+          "Source Name Description": "Gravity- Aposymbiotic animals-12 hours"
+        }
+      },
+      {
+        "sample_name": "L11_12G_A_9",
+        "characteristics": {
+          "organism": "Euprymna scolopes",
+          "secondary organism": "",
+          "Material Type": "Light organ",
+          "Symbiosis": "Aposymbiotic"
+        },
+        "factors": {
+          "Treatment": "Inoculated with filtered sea water",
+          "Microgravity Simulation": "1G by HARV",
+          "Time": "12"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark",
+          "Growth Temperature": "23",
+          "Storage Temperature": "-80"
+        },
+        "comments": {
+          "Source Name Description": "Gravity- Aposymbiotic animals-12 hours"
+        }
+      },
+      {
+        "sample_name": "L12_12G_A_10",
+        "characteristics": {
+          "organism": "Euprymna scolopes",
+          "secondary organism": "",
+          "Material Type": "Light organ",
+          "Symbiosis": "Aposymbiotic"
+        },
+        "factors": {
+          "Treatment": "Inoculated with filtered sea water",
+          "Microgravity Simulation": "1G by HARV",
+          "Time": "12"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark",
+          "Growth Temperature": "23",
+          "Storage Temperature": "-80"
+        },
+        "comments": {
+          "Source Name Description": "Gravity- Aposymbiotic animals-12 hours"
+        }
+      },
+      {
+        "sample_name": "L13_12G_S_11",
+        "characteristics": {
+          "organism": "Euprymna scolopes",
+          "secondary organism": "Vibrio fischeri ES114",
+          "Material Type": "Light organ",
+          "Symbiosis": "Symbiotic"
+        },
+        "factors": {
+          "Treatment": "Inoculated with V. fischeri",
+          "Microgravity Simulation": "1G by HARV",
+          "Time": "12"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark",
+          "Growth Temperature": "23",
+          "Storage Temperature": "-80"
+        },
+        "comments": {
+          "Source Name Description": "Gravity- Symbiotic animals- 12 hours"
+        }
+      },
+      {
+        "sample_name": "L14_12G_S_12",
+        "characteristics": {
+          "organism": "Euprymna scolopes",
+          "secondary organism": "Vibrio fischeri ES114",
+          "Material Type": "Light organ",
+          "Symbiosis": "Symbiotic"
+        },
+        "factors": {
+          "Treatment": "Inoculated with V. fischeri",
+          "Microgravity Simulation": "1G by HARV",
+          "Time": "12"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark",
+          "Growth Temperature": "23",
+          "Storage Temperature": "-80"
+        },
+        "comments": {
+          "Source Name Description": "Gravity- Symbiotic animals- 12 hours"
+        }
+      },
+      {
+        "sample_name": "L15_12G_S_13",
+        "characteristics": {
+          "organism": "Euprymna scolopes",
+          "secondary organism": "Vibrio fischeri ES114",
+          "Material Type": "Light organ",
+          "Symbiosis": "Symbiotic"
+        },
+        "factors": {
+          "Treatment": "Inoculated with V. fischeri",
+          "Microgravity Simulation": "1G by HARV",
+          "Time": "12"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark",
+          "Growth Temperature": "23",
+          "Storage Temperature": "-80"
+        },
+        "comments": {
+          "Source Name Description": "Gravity- Symbiotic animals- 12 hours"
+        }
+      },
+      {
+        "sample_name": "L4_12MG_A_3",
+        "characteristics": {
+          "organism": "Euprymna scolopes",
+          "secondary organism": "",
+          "Material Type": "Light organ",
+          "Symbiosis": "Aposymbiotic"
+        },
+        "factors": {
+          "Treatment": "Inoculated with filtered sea water",
+          "Microgravity Simulation": "uG by HARV",
+          "Time": "12"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark",
+          "Growth Temperature": "23",
+          "Storage Temperature": "-80"
+        },
+        "comments": {
+          "Source Name Description": "Low Shear Modeled Microgravity- Aposymbiotic animals- 12 hours"
+        }
+      },
+      {
+        "sample_name": "L5_12MG_A_4",
+        "characteristics": {
+          "organism": "Euprymna scolopes",
+          "secondary organism": "",
+          "Material Type": "Light organ",
+          "Symbiosis": "Aposymbiotic"
+        },
+        "factors": {
+          "Treatment": "Inoculated with filtered sea water",
+          "Microgravity Simulation": "uG by HARV",
+          "Time": "12"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark",
+          "Growth Temperature": "23",
+          "Storage Temperature": "-80"
+        },
+        "comments": {
+          "Source Name Description": "Low Shear Modeled Microgravity- Aposymbiotic animals- 12 hours"
+        }
+      },
+      {
+        "sample_name": "L7_12MG_S_5",
+        "characteristics": {
+          "organism": "Euprymna scolopes",
+          "secondary organism": "Vibrio fischeri ES114",
+          "Material Type": "Light organ",
+          "Symbiosis": "Symbiotic"
+        },
+        "factors": {
+          "Treatment": "Inoculated with V. fischeri",
+          "Microgravity Simulation": "uG by HARV",
+          "Time": "12"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark",
+          "Growth Temperature": "23",
+          "Storage Temperature": "-80"
+        },
+        "comments": {
+          "Source Name Description": "Low Shear Modeled Microgravity- Symbiotic animals- 12 hours"
+        }
+      },
+      {
+        "sample_name": "L8_12MG_S_6",
+        "characteristics": {
+          "organism": "Euprymna scolopes",
+          "secondary organism": "Vibrio fischeri ES114",
+          "Material Type": "Light organ",
+          "Symbiosis": "Symbiotic"
+        },
+        "factors": {
+          "Treatment": "Inoculated with V. fischeri",
+          "Microgravity Simulation": "uG by HARV",
+          "Time": "12"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark",
+          "Growth Temperature": "23",
+          "Storage Temperature": "-80"
+        },
+        "comments": {
+          "Source Name Description": "Low Shear Modeled Microgravity- Symbiotic animals- 12 hours"
+        }
+      },
+      {
+        "sample_name": "L9_12MG_S_7",
+        "characteristics": {
+          "organism": "Euprymna scolopes",
+          "secondary organism": "Vibrio fischeri ES114",
+          "Material Type": "Light organ",
+          "Symbiosis": "Symbiotic"
+        },
+        "factors": {
+          "Treatment": "Inoculated with V. fischeri",
+          "Microgravity Simulation": "uG by HARV",
+          "Time": "12"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark",
+          "Growth Temperature": "23",
+          "Storage Temperature": "-80"
+        },
+        "comments": {
+          "Source Name Description": "Low Shear Modeled Microgravity- Symbiotic animals- 12 hours"
+        }
+      },
+      {
+        "sample_name": "L22_24G_A_21",
+        "characteristics": {
+          "organism": "Euprymna scolopes",
+          "secondary organism": "",
+          "Material Type": "Light organ",
+          "Symbiosis": "Aposymbiotic"
+        },
+        "factors": {
+          "Treatment": "Inoculated with filtered sea water",
+          "Microgravity Simulation": "1G by HARV",
+          "Time": "24"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark",
+          "Growth Temperature": "23",
+          "Storage Temperature": "-80"
+        },
+        "comments": {
+          "Source Name Description": "Gravity- Aposymbiotic animals- 24 hours"
+        }
+      },
+      {
+        "sample_name": "L24_24G_A_22",
+        "characteristics": {
+          "organism": "Euprymna scolopes",
+          "secondary organism": "",
+          "Material Type": "Light organ",
+          "Symbiosis": "Aposymbiotic"
+        },
+        "factors": {
+          "Treatment": "Inoculated with filtered sea water",
+          "Microgravity Simulation": "1G by HARV",
+          "Time": "24"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark",
+          "Growth Temperature": "23",
+          "Storage Temperature": "-80"
+        },
+        "comments": {
+          "Source Name Description": "Gravity- Aposymbiotic animals- 24 hours"
+        }
+      },
+      {
+        "sample_name": "L25_24G_S_23",
+        "characteristics": {
+          "organism": "Euprymna scolopes",
+          "secondary organism": "Vibrio fischeri ES114",
+          "Material Type": "Light organ",
+          "Symbiosis": "Symbiotic"
+        },
+        "factors": {
+          "Treatment": "Inoculated with V. fischeri",
+          "Microgravity Simulation": "1G by HARV",
+          "Time": "24"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark",
+          "Growth Temperature": "23",
+          "Storage Temperature": "-80"
+        },
+        "comments": {
+          "Source Name Description": "Gravity- Symbiotic animals- 24 hours"
+        }
+      },
+      {
+        "sample_name": "L26_24G_S_25",
+        "characteristics": {
+          "organism": "Euprymna scolopes",
+          "secondary organism": "Vibrio fischeri ES114",
+          "Material Type": "Light organ",
+          "Symbiosis": "Symbiotic"
+        },
+        "factors": {
+          "Treatment": "Inoculated with V. fischeri",
+          "Microgravity Simulation": "1G by HARV",
+          "Time": "24"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark",
+          "Growth Temperature": "23",
+          "Storage Temperature": "-80"
+        },
+        "comments": {
+          "Source Name Description": "Gravity- Symbiotic animals- 24 hours"
+        }
+      },
+      {
+        "sample_name": "L16_24MG_A_14",
+        "characteristics": {
+          "organism": "Euprymna scolopes",
+          "secondary organism": "",
+          "Material Type": "Light organ",
+          "Symbiosis": "Aposymbiotic"
+        },
+        "factors": {
+          "Treatment": "Inoculated with filtered sea water",
+          "Microgravity Simulation": "uG by HARV",
+          "Time": "24"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark",
+          "Growth Temperature": "23",
+          "Storage Temperature": "-80"
+        },
+        "comments": {
+          "Source Name Description": "Low Shear Modeled Microgravity- Aposymbiotic animals- 24 hours"
+        }
+      },
+      {
+        "sample_name": "L17_24MG_A_15",
+        "characteristics": {
+          "organism": "Euprymna scolopes",
+          "secondary organism": "",
+          "Material Type": "Light organ",
+          "Symbiosis": "Aposymbiotic"
+        },
+        "factors": {
+          "Treatment": "Inoculated with filtered sea water",
+          "Microgravity Simulation": "uG by HARV",
+          "Time": "24"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark",
+          "Growth Temperature": "23",
+          "Storage Temperature": "-80"
+        },
+        "comments": {
+          "Source Name Description": "Low Shear Modeled Microgravity- Aposymbiotic animals- 24 hours"
+        }
+      },
+      {
+        "sample_name": "L18_24MG_A_16",
+        "characteristics": {
+          "organism": "Euprymna scolopes",
+          "secondary organism": "",
+          "Material Type": "Light organ",
+          "Symbiosis": "Aposymbiotic"
+        },
+        "factors": {
+          "Treatment": "Inoculated with filtered sea water",
+          "Microgravity Simulation": "uG by HARV",
+          "Time": "24"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark",
+          "Growth Temperature": "23",
+          "Storage Temperature": "-80"
+        },
+        "comments": {
+          "Source Name Description": "Low Shear Modeled Microgravity- Aposymbiotic animals- 24 hours"
+        }
+      },
+      {
+        "sample_name": "L19_24MG_S_18",
+        "characteristics": {
+          "organism": "Euprymna scolopes",
+          "secondary organism": "Vibrio fischeri ES114",
+          "Material Type": "Light organ",
+          "Symbiosis": "Symbiotic"
+        },
+        "factors": {
+          "Treatment": "Inoculated with V. fischeri",
+          "Microgravity Simulation": "uG by HARV",
+          "Time": "24"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark",
+          "Growth Temperature": "23",
+          "Storage Temperature": "-80"
+        },
+        "comments": {
+          "Source Name Description": "Low Shear Modeled Microgravity- Symbiotic animals- 24 hours"
+        }
+      },
+      {
+        "sample_name": "L20_24MG_S_19",
+        "characteristics": {
+          "organism": "Euprymna scolopes",
+          "secondary organism": "Vibrio fischeri ES114",
+          "Material Type": "Light organ",
+          "Symbiosis": "Symbiotic"
+        },
+        "factors": {
+          "Treatment": "Inoculated with V. fischeri",
+          "Microgravity Simulation": "uG by HARV",
+          "Time": "24"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark",
+          "Growth Temperature": "23",
+          "Storage Temperature": "-80"
+        },
+        "comments": {
+          "Source Name Description": "Low Shear Modeled Microgravity- Symbiotic animals- 24 hours"
+        }
+      },
+      {
+        "sample_name": "L21_24MG_S_20",
+        "characteristics": {
+          "organism": "Euprymna scolopes",
+          "secondary organism": "Vibrio fischeri ES114",
+          "Material Type": "Light organ",
+          "Symbiosis": "Symbiotic"
+        },
+        "factors": {
+          "Treatment": "Inoculated with V. fischeri",
+          "Microgravity Simulation": "uG by HARV",
+          "Time": "24"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark",
+          "Growth Temperature": "23",
+          "Storage Temperature": "-80"
+        },
+        "comments": {
+          "Source Name Description": "Low Shear Modeled Microgravity- Symbiotic animals- 24 hours"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina NextSeq 500",
+      "qc": {
+        "QA Instrument": "Agilent 2100 Bioanalyzer",
+        "QA Assay": "RNA 6000 Nano Kit"
+      },
+      "library": {},
+      "files": {
+        "raw": [
+          "GLDS-119_rna-seq_L1_Hatch_1.tar.gz",
+          "GLDS-119_rna-seq_L2_Hatch_2.tar.gz",
+          "GLDS-119_rna-seq_L10_12G_A_8.tar.gz",
+          "GLDS-119_rna-seq_L11_12G_A_9.tar.gz",
+          "GLDS-119_rna-seq_L12_12G_A_10.tar.gz",
+          "GLDS-119_rna-seq_L13_12G_S_11.tar.gz",
+          "GLDS-119_rna-seq_L14_12G_S_12.tar.gz",
+          "GLDS-119_rna-seq_L15_12G_S_13.tar.gz",
+          "GLDS-119_rna-seq_L4_12MG_A_3.tar.gz",
+          "GLDS-119_rna-seq_L5_12MG_A_4.tar.gz",
+          "GLDS-119_rna-seq_L7_12MG_S_5.tar.gz",
+          "GLDS-119_rna-seq_L8_12MG_S_6.tar.gz",
+          "GLDS-119_rna-seq_L9_12MG_S_7.tar.gz",
+          "GLDS-119_rna-seq_L22_24G_A_21.tar.gz",
+          "GLDS-119_rna-seq_L24_24G_A_22.tar.gz",
+          "GLDS-119_rna-seq_L25_24G_S_23.tar.gz",
+          "GLDS-119_rna-seq_L26_24G_S_25.tar.gz",
+          "GLDS-119_rna-seq_L16_24MG_A_14.tar.gz",
+          "GLDS-119_rna-seq_L17_24MG_A_15.tar.gz",
+          "GLDS-119_rna-seq_L18_24MG_A_16.tar.gz",
+          "GLDS-119_rna-seq_L19_24MG_S_18.tar.gz",
+          "GLDS-119_rna-seq_L20_24MG_S_19.tar.gz",
+          "GLDS-119_rna-seq_L21_24MG_S_20.tar.gz"
+        ],
+        "processed": [
+          "L1_Hatch_1",
+          "nucleic acid sequencing",
+          "Agilent 2100 Bioanalyzer",
+          "RNA 6000 Nano Kit",
+          "L1_Hatch_1 Extract",
+          "PAIRED",
+          "polyA enrichment",
+          "Illumina NextSeq 500",
+          "BaseSpace software",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000244",
+          "Trimmomatic",
+          "RNAseq",
+          "150",
+          "base pair",
+          "L2_Hatch_2",
+          "L2_Hatch_2 Extract",
+          "L10_12G_A_8",
+          "L10_12G_A_8 Extract",
+          "L11_12G_A_9",
+          "L11_12G_A_9 Extract",
+          "L12_12G_A_10",
+          "L12_12G_A_10 Extract",
+          "L13_12G_S_11",
+          "L13_12G_S_11 Extract",
+          "L14_12G_S_12",
+          "L14_12G_S_12 Extract",
+          "L15_12G_S_13",
+          "L15_12G_S_13 Extract",
+          "L4_12MG_A_3",
+          "L4_12MG_A_3 Extract",
+          "L5_12MG_A_4",
+          "L5_12MG_A_4 Extract",
+          "L7_12MG_S_5",
+          "L7_12MG_S_5 Extract",
+          "L8_12MG_S_6",
+          "L8_12MG_S_6 Extract",
+          "L9_12MG_S_7",
+          "L9_12MG_S_7 Extract",
+          "L22_24G_A_21",
+          "L22_24G_A_21 Extract",
+          "L24_24G_A_22",
+          "L24_24G_A_22 Extract",
+          "L25_24G_S_23",
+          "L25_24G_S_23 Extract",
+          "L26_24G_S_25",
+          "L26_24G_S_25 Extract",
+          "L16_24MG_A_14",
+          "L16_24MG_A_14 Extract",
+          "L17_24MG_A_15",
+          "L17_24MG_A_15 Extract",
+          "L18_24MG_A_16",
+          "L18_24MG_A_16 Extract",
+          "L19_24MG_S_18",
+          "L19_24MG_S_18 Extract",
+          "L20_24MG_S_19",
+          "L20_24MG_S_19 Extract",
+          "L21_24MG_S_20",
+          "L21_24MG_S_20 Extract"
+        ],
+        "reports": []
+      }
+    }
+  ]
+}

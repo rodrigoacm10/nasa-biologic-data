@@ -1,0 +1,507 @@
+{
+  "investigation": {
+    "id": "OSD-78",
+    "title": "Transcription profiling of human MCF10A cells subjected to ionizing radiation and treatment with transforming growth factor beta-1",
+    "description": "Transforming growth factor beta-1 (TGFbeta) is a tumor suppressor during the initial stage of tumorigenesis, but it can switch to a tumor promoter during neoplastic progression. Ionizing radiation (IR), both a carcinogen and a therapeutic agent, induces TGFbeta activation in vivo.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "High_Dose_Irradiation, Low_LET_Irradiation, X-Ray_Irradiation",
+      "title": "NSCOR: Mechanisms of HZE Damage and Repair in Human Epithelial Cells",
+      "type": "Ground Study",
+      "link": "https://lsda.jsc.nasa.gov/scripts/experiment/exper.aspx?exp_index=11364",
+      "funding": "National Aeronautics and Space Administration Specialized Center for Research in Radiation Health Effects; the Low Dose Radiation Program of the U.S. Department of Energy Office of Biological Effects Research; U.S. Department of Defense DAMD17-00-1-0224 (A.C. Erickson); and the Office of Health and Environmental Research, Health Effects Division, U.S. Department of Energy.",
+      "managing_center": ""
+    },
+    "protocols": [
+      "growth protocol",
+      "irradiation protocol",
+      "P-G8240-2",
+      "P-G8240-1",
+      "nucleic acid hybridization",
+      "Array Scanning Protocol",
+      "Derived Array Data File",
+      "GeneLab microarray data processing protocol"
+    ],
+    "publications": [
+      {
+        "title": "Ionizing radiation predisposes nonmalignant human mammary epithelial cells to undergo transforming growth factor beta induced epithelial to mesenchymal transition.",
+        "doi": "10.1158/0008-5472.CAN-07-1294",
+        "authors": [
+          "Andarawewa KL",
+          "Erickson AC",
+          "Chou WS",
+          "Costes SV",
+          "Gascard P",
+          "Mott JD",
+          "Bissell MJ",
+          "Barcellos-Hoff MH"
+        ],
+        "summary": "Ionizing radiation predisposes nonmalignant human mammary epithelial cells to undergo transforming growth factor beta induced epithelial to mesenchymal transition. — 10.1158/0008-5472.CAN-07-1294"
+      }
+    ],
+    "factors": [
+      "Ionizing Radiation",
+      "Treatment"
+    ],
+    "contacts": [
+      {
+        "first_name": "Mary Helen",
+        "last_name": "Barcellos-Hoff",
+        "role": "Principal Investigator",
+        "email": "mhbarcellos-hoff@lbl.gov"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "Hsap_MCF10Acells_TGFB_shamIR_Rep1",
+        "characteristics": {
+          "organism": "Homo sapiens",
+          "Material Type": "human mammary epithelial cells",
+          "passage number": "106-108",
+          "Sample Media Information": "3ml/dish of MGEM serum free medium (Cambrex Inc.)"
+        },
+        "factors": {
+          "Ionizing Radiation": "sham-irradiated",
+          "Treatment": "TGFB treated"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Hsap_MCF10Acells_TGFB_X-ray_Rep1",
+        "characteristics": {
+          "organism": "Homo sapiens",
+          "Material Type": "human mammary epithelial cells",
+          "passage number": "106-108",
+          "Sample Media Information": "3ml/dish of MGEM serum free medium (Cambrex Inc.)"
+        },
+        "factors": {
+          "Ionizing Radiation": "x-ray radiation",
+          "Treatment": "TGFB treated"
+        },
+        "parameters": {
+          "ionizing radiation energy": "160",
+          "absorbed radiation dose": "2",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "X-ray source"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Hsap_MCF10Acells_noTGFB_X-ray_Rep1",
+        "characteristics": {
+          "organism": "Homo sapiens",
+          "Material Type": "human mammary epithelial cells",
+          "passage number": "106-108",
+          "Sample Media Information": "3ml/dish of MGEM serum free medium (Cambrex Inc.)"
+        },
+        "factors": {
+          "Ionizing Radiation": "x-ray radiation",
+          "Treatment": "non TGFB treated control"
+        },
+        "parameters": {
+          "ionizing radiation energy": "160",
+          "absorbed radiation dose": "2",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "X-ray source"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Hsap_MCF10Acells_TGFB_X-ray_Rep2",
+        "characteristics": {
+          "organism": "Homo sapiens",
+          "Material Type": "human mammary epithelial cells",
+          "passage number": "106-108",
+          "Sample Media Information": "3ml/dish of MGEM serum free medium (Cambrex Inc.)"
+        },
+        "factors": {
+          "Ionizing Radiation": "x-ray radiation",
+          "Treatment": "TGFB treated"
+        },
+        "parameters": {
+          "ionizing radiation energy": "160",
+          "absorbed radiation dose": "2",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "X-ray source"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Hsap_MCF10Acells_noTGFB_X-ray_Rep2",
+        "characteristics": {
+          "organism": "Homo sapiens",
+          "Material Type": "human mammary epithelial cells",
+          "passage number": "106-108",
+          "Sample Media Information": "3ml/dish of MGEM serum free medium (Cambrex Inc.)"
+        },
+        "factors": {
+          "Ionizing Radiation": "x-ray radiation",
+          "Treatment": "non TGFB treated control"
+        },
+        "parameters": {
+          "ionizing radiation energy": "160",
+          "absorbed radiation dose": "2",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "X-ray source"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Hsap_MCF10Acells_TGFB_X-ray_Rep3",
+        "characteristics": {
+          "organism": "Homo sapiens",
+          "Material Type": "human mammary epithelial cells",
+          "passage number": "106-108",
+          "Sample Media Information": "3ml/dish of MGEM serum free medium (Cambrex Inc.)"
+        },
+        "factors": {
+          "Ionizing Radiation": "x-ray radiation",
+          "Treatment": "TGFB treated"
+        },
+        "parameters": {
+          "ionizing radiation energy": "160",
+          "absorbed radiation dose": "2",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "X-ray source"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Hsap_MCF10Acells_noTGFB_X-ray_Rep3",
+        "characteristics": {
+          "organism": "Homo sapiens",
+          "Material Type": "human mammary epithelial cells",
+          "passage number": "106-108",
+          "Sample Media Information": "3ml/dish of MGEM serum free medium (Cambrex Inc.)"
+        },
+        "factors": {
+          "Ionizing Radiation": "x-ray radiation",
+          "Treatment": "non TGFB treated control"
+        },
+        "parameters": {
+          "ionizing radiation energy": "160",
+          "absorbed radiation dose": "2",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "X-ray source"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Hsap_MCF10Acells_TGFB_X-ray_Rep4",
+        "characteristics": {
+          "organism": "Homo sapiens",
+          "Material Type": "human mammary epithelial cells",
+          "passage number": "106-108",
+          "Sample Media Information": "3ml/dish of MGEM serum free medium (Cambrex Inc.)"
+        },
+        "factors": {
+          "Ionizing Radiation": "x-ray radiation",
+          "Treatment": "TGFB treated"
+        },
+        "parameters": {
+          "ionizing radiation energy": "160",
+          "absorbed radiation dose": "2",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "X-ray source"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Hsap_MCF10Acells_noTGFB_X-ray_Rep4",
+        "characteristics": {
+          "organism": "Homo sapiens",
+          "Material Type": "human mammary epithelial cells",
+          "passage number": "106-108",
+          "Sample Media Information": "3ml/dish of MGEM serum free medium (Cambrex Inc.)"
+        },
+        "factors": {
+          "Ionizing Radiation": "x-ray radiation",
+          "Treatment": "non TGFB treated control"
+        },
+        "parameters": {
+          "ionizing radiation energy": "160",
+          "absorbed radiation dose": "2",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "X-ray source"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Hsap_MCF10Acells_TGFB_shamIR_Rep2",
+        "characteristics": {
+          "organism": "Homo sapiens",
+          "Material Type": "human mammary epithelial cells",
+          "passage number": "106-108",
+          "Sample Media Information": "3ml/dish of MGEM serum free medium (Cambrex Inc.)"
+        },
+        "factors": {
+          "Ionizing Radiation": "sham-irradiated",
+          "Treatment": "TGFB treated"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Hsap_MCF10Acells_noTGFB_shamIR_Rep1",
+        "characteristics": {
+          "organism": "Homo sapiens",
+          "Material Type": "human mammary epithelial cells",
+          "passage number": "106-108",
+          "Sample Media Information": "3ml/dish of MGEM serum free medium (Cambrex Inc.)"
+        },
+        "factors": {
+          "Ionizing Radiation": "sham-irradiated",
+          "Treatment": "non TGFB treated control"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Hsap_MCF10Acells_TGFB_shamIR_Rep3",
+        "characteristics": {
+          "organism": "Homo sapiens",
+          "Material Type": "human mammary epithelial cells",
+          "passage number": "106-108",
+          "Sample Media Information": "3ml/dish of MGEM serum free medium (Cambrex Inc.)"
+        },
+        "factors": {
+          "Ionizing Radiation": "sham-irradiated",
+          "Treatment": "TGFB treated"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Hsap_MCF10Acells_noTGFB_shamIR_Rep2",
+        "characteristics": {
+          "organism": "Homo sapiens",
+          "Material Type": "human mammary epithelial cells",
+          "passage number": "106-108",
+          "Sample Media Information": "3ml/dish of MGEM serum free medium (Cambrex Inc.)"
+        },
+        "factors": {
+          "Ionizing Radiation": "sham-irradiated",
+          "Treatment": "non TGFB treated control"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Hsap_MCF10Acells_TGFB_shamIR_Rep4",
+        "characteristics": {
+          "organism": "Homo sapiens",
+          "Material Type": "human mammary epithelial cells",
+          "passage number": "106-108",
+          "Sample Media Information": "3ml/dish of MGEM serum free medium (Cambrex Inc.)"
+        },
+        "factors": {
+          "Ionizing Radiation": "sham-irradiated",
+          "Treatment": "TGFB treated"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Hsap_MCF10Acells_noTGFB_shamIR_Rep3",
+        "characteristics": {
+          "organism": "Homo sapiens",
+          "Material Type": "human mammary epithelial cells",
+          "passage number": "106-108",
+          "Sample Media Information": "3ml/dish of MGEM serum free medium (Cambrex Inc.)"
+        },
+        "factors": {
+          "Ionizing Radiation": "sham-irradiated",
+          "Treatment": "non TGFB treated control"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {}
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Affymetrix",
+      "qc": {},
+      "library": {},
+      "files": {
+        "raw": [],
+        "processed": [
+          "Hsap_MCF10Acells_TGFB_shamIR_Rep1",
+          "GeneLab microarray data processing protocol",
+          "GSE8240GSM203978 extract",
+          "GSE8240GSM203978 LE biotin",
+          "biotin",
+          "TGFBd8_12",
+          "AFFY HG U133A 2",
+          "GSM203978.CEL",
+          "GLDS-78_microarray_GSM203978.CEL.gz",
+          "GLDS-78_microarray_GSM203978.CHP.gz",
+          "GLDS-78_array_raw_intensities_probe_GLmicroarray.csv",
+          "GLDS-78_array_normalized_expression_probeset_GLmicroarray.csv",
+          "GLDS-78_array_normalized_intensities_probe_GLmicroarray.csv",
+          "GLDS-78_array_SampleTable_GLmicroarray.csv",
+          "GLDS-78_array_contrasts_GLmicroarray.csv",
+          "GLDS-78_array_differential_expression_GLmicroarray.csv",
+          "Hsap_MCF10Acells_TGFB_X-ray_Rep1",
+          "GSE8240GSM203979 extract",
+          "GSE8240GSM203979 LE biotin",
+          "IRTGFBd8_23",
+          "GSM203979.CEL",
+          "GLDS-78_microarray_GSM203979.CEL.gz",
+          "GLDS-78_microarray_GSM203979.CHP.gz",
+          "Hsap_MCF10Acells_noTGFB_X-ray_Rep1",
+          "GSE8240GSM203980 extract",
+          "GSE8240GSM203980 LE biotin",
+          "IR2Gyd8_22",
+          "GSM203980.CEL",
+          "GLDS-78_microarray_GSM203980.CEL.gz",
+          "GLDS-78_microarray_GSM203980.CHP.gz",
+          "Hsap_MCF10Acells_TGFB_X-ray_Rep2",
+          "GSE8240GSM203981 extract",
+          "GSE8240GSM203981 LE biotin",
+          "IRTGFBd8_21",
+          "GSM203981.CEL",
+          "GLDS-78_microarray_GSM203981.CEL.gz",
+          "GLDS-78_microarray_GSM203981.CHP.gz",
+          "Hsap_MCF10Acells_noTGFB_X-ray_Rep2",
+          "GSE8240GSM203982 extract",
+          "GSE8240GSM203982 LE biotin",
+          "IR2Gyd8_21",
+          "GSM203982.CEL",
+          "GLDS-78_microarray_GSM203982.CEL.gz",
+          "GLDS-78_microarray_GSM203982.CHP.gz",
+          "Hsap_MCF10Acells_TGFB_X-ray_Rep3",
+          "GSE8240GSM203983 extract",
+          "GSE8240GSM203983 LE biotin",
+          "IRTGFBd8_13",
+          "GSM203983.CEL",
+          "GLDS-78_microarray_GSM203983.CEL.gz",
+          "GLDS-78_microarray_GSM203983.CHP.gz",
+          "Hsap_MCF10Acells_noTGFB_X-ray_Rep3",
+          "GSE8240GSM203984 extract",
+          "GSE8240GSM203984 LE biotin",
+          "IR2Gyd8_12",
+          "GSM203984.CEL",
+          "GLDS-78_microarray_GSM203984.CEL.gz",
+          "GLDS-78_microarray_GSM203984.CHP.gz",
+          "Hsap_MCF10Acells_TGFB_X-ray_Rep4",
+          "GSE8240GSM203985 extract",
+          "GSE8240GSM203985 LE biotin",
+          "IRTGFBd8_11",
+          "GSM203985.CEL",
+          "GLDS-78_microarray_GSM203985.CEL.gz",
+          "GLDS-78_microarray_GSM203985.CHP.gz",
+          "Hsap_MCF10Acells_noTGFB_X-ray_Rep4",
+          "GSE8240GSM203986 extract",
+          "GSE8240GSM203986 LE biotin",
+          "IR2Gyd8_11",
+          "GSM203986.CEL",
+          "GLDS-78_microarray_GSM203986.CEL.gz",
+          "GLDS-78_microarray_GSM203986.CHP.gz",
+          "Hsap_MCF10Acells_TGFB_shamIR_Rep2",
+          "GSE8240GSM203987 extract",
+          "GSE8240GSM203987 LE biotin",
+          "TGFBd8_23",
+          "GSM203987.CEL",
+          "GLDS-78_microarray_GSM203987.CEL.gz",
+          "GLDS-78_microarray_GSM203987.CHP.gz",
+          "Hsap_MCF10Acells_noTGFB_shamIR_Rep1",
+          "GSE8240GSM203988 extract",
+          "GSE8240GSM203988 LE biotin",
+          "sham_23",
+          "GSM203988.CEL",
+          "GLDS-78_microarray_GSM203988.CEL.gz",
+          "GLDS-78_microarray_GSM203988.CHP.gz",
+          "Hsap_MCF10Acells_TGFB_shamIR_Rep3",
+          "GSE8240GSM203989 extract",
+          "GSE8240GSM203989 LE biotin",
+          "TGFBd8_22",
+          "GSM203989.CEL",
+          "GLDS-78_microarray_GSM203989.CEL.gz",
+          "GLDS-78_microarray_GSM203989.CHP.gz",
+          "Hsap_MCF10Acells_noTGFB_shamIR_Rep2",
+          "GSE8240GSM203990 extract",
+          "GSE8240GSM203990 LE biotin",
+          "sham_22",
+          "GSM203990.CEL",
+          "GLDS-78_microarray_GSM203990.CEL.gz",
+          "GLDS-78_microarray_GSM203990.CHP.gz",
+          "Hsap_MCF10Acells_TGFB_shamIR_Rep4",
+          "GSE8240GSM203991 extract",
+          "GSE8240GSM203991 LE biotin",
+          "TGFBd8_13",
+          "GSM203991.CEL",
+          "GLDS-78_microarray_GSM203991.CEL.gz",
+          "GLDS-78_microarray_GSM203991.CHP.gz",
+          "Hsap_MCF10Acells_noTGFB_shamIR_Rep3",
+          "GSE8240GSM203992 extract",
+          "GSE8240GSM203992 LE biotin",
+          "sham_21",
+          "GSM203992.CEL",
+          "GLDS-78_microarray_GSM203992.CEL.gz",
+          "GLDS-78_microarray_GSM203992.CHP.gz"
+        ],
+        "reports": []
+      }
+    }
+  ]
+}

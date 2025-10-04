@@ -1,0 +1,188 @@
+{
+  "investigation": {
+    "id": "PRJDB2020",
+    "title": "RNA-Seq transcriptome analysis of reactive oxygen species gene network in Mizuna plants grown in long-term space flight",
+    "description": "\"Space environment is suspected to generate reactive oxygen species (ROS) and induce oxidative stress in plants, however, little is known about the gene expression of ROS gene network in plants grown in long-term space flight. RNA-Seq was used to define the large-scale gene expression profiles of Mizuna harvested after 27 days cultivation in the international space station to understand the molecular response and adaptation to space environment.Results: Total reads of transcripts from the Mizuna grown in the international space station as well as on the ground by RNA-Seq using next generation sequencing technology showed 8,258 and 14,170 transcripts up- and down-regulated in the space-grown Mizuna, respectively, when compared with those from the ground-grown Mizuna.",
+    "mission": {
+      "name": "Expedition 22",
+      "start_date": "30-Nov-09",
+      "end_date": "18-Mar-10",
+      "link": "https://lsda.jsc.nasa.gov/scripts/mission/miss.aspx?mis_index=271"
+    },
+    "project": {
+      "identifier": "Lada-VPU-P3R",
+      "title": "\"Validating Vegetable Production Unit Plants, Protocols, Procedures and Requirements Using Currently Existing Flight Resources\"",
+      "type": "Spaceflight Study",
+      "link": "https://taskbook.nasaprs.com/Publication/index.cfm?action=public_query_taskbook_content&TASKID=8116",
+      "funding": "\"This research was supported in part by the Ohara Foundation of Kurashiki, Japan. NNX09AV53G ; NNJ04HG03G\"",
+      "managing_center": "Kennedy Space Center (KSC)"
+    },
+    "protocols": [
+      "sample collection",
+      "nucleic acid extraction",
+      "library construction",
+      "nucleic acid sequencing",
+      "GeneLab RNAseq data processing protocol"
+    ],
+    "publications": [
+      {
+        "title": "Genome-wide expression analysis of reactive oxygen species gene network in Mizuna plants grown in long-term spaceflight.",
+        "doi": "10.1186/1471-2229-14-4",
+        "authors": [
+          "\"Sugimoto M",
+          "Oono Y",
+          "Gusev O",
+          "Matsumoto T",
+          "Yazawa T",
+          "Levinskikh MA",
+          "Sychev VN",
+          "Bingham GE",
+          "Wheeler R",
+          "Hummerick M.\""
+        ],
+        "summary": "Genome-wide expression analysis of reactive oxygen species gene network in Mizuna plants grown in long-term spaceflight. — 10.1186/1471-2229-14-4"
+      }
+    ],
+    "factors": [
+      "Spaceflight"
+    ],
+    "contacts": [
+      {
+        "first_name": "Manabu",
+        "last_name": "Sugimoto",
+        "role": "Investigator",
+        "email": "manabus@rib.okayama-u.ac.jp"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "Brap_nipp_leaf_FLT_G1S1",
+        "characteristics": {
+          "Organism": "Brassica rapa",
+          "variant": "nipposinica",
+          "Material Type": "leaf"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Hardware": "Lada",
+          "Growth Time": "27",
+          "Sample Storage Method": "MELFI-GLACIER"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Group-1.Subject-1.Sample 1.Pooled"
+        }
+      },
+      {
+        "sample_name": "Brap_nipp_leaf_GC_G2S1",
+        "characteristics": {
+          "Organism": "Brassica rapa",
+          "variant": "nipposinica",
+          "Material Type": "leaf"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Hardware": "Lada",
+          "Growth Time": "27",
+          "Sample Storage Method": "MELFI-GLACIER"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Group-2.Subject-1.Sample 1.Pooled"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "prjdb2020",
+      "platform": "Illumina Genome Analyzer IIx",
+      "qc": {
+        "Read Depth": "37248177",
+        "rRNA Contamination": "0.18"
+      },
+      "library": {},
+      "files": {
+        "raw": [
+          "\"GLDS-59_rna-seq_DRR013834_1.fastq.gz",
+          "GLDS-59_rna-seq_DRR013834_2.fastq.gz\"",
+          "\"GLDS-59_rna-seq_DRR013833_1.fastq.gz",
+          "GLDS-59_rna-seq_DRR013833_2.fastq.gz\"",
+          "\"GLDS-59_rna_seq_Brap_nipp_leaf_FLT_G1S1_R1_raw.fastq.gz",
+          "\"GLDS-59_rna_seq_Brap_nipp_leaf_FLT_G1S1_R1_trimmed.fastq.gz",
+          "\"GLDS-59_rna_seq_Brap_nipp_leaf_GC_G2S1_R1_raw.fastq.gz",
+          "\"GLDS-59_rna_seq_Brap_nipp_leaf_GC_G2S1_R1_trimmed.fastq.gz"
+        ],
+        "processed": [
+          "\"GLDS-59_rna_seq_Brap_nipp_leaf_FLT_G1S1_R1_raw.fastq.gz",
+          "GLDS-59_rna_seq_Brap_nipp_leaf_FLT_G1S1_R2_raw.fastq.gz\"",
+          "\"GLDS-59_rna_seq_Brap_nipp_leaf_FLT_G1S1_R1_trimmed.fastq.gz",
+          "GLDS-59_rna_seq_Brap_nipp_leaf_FLT_G1S1_R2_trimmed.fastq.gz\"",
+          "\"GLDS-59_rna_seq_Brap_nipp_leaf_FLT_G1S1_Aligned.sortedByCoord.out.bam",
+          "GLDS-59_rna_seq_Brap_nipp_leaf_FLT_G1S1_Aligned.toTranscriptome.out.bam",
+          "GLDS-59_rna_seq_Brap_nipp_leaf_FLT_G1S1_SJ.out.tab\"",
+          "\"GLDS-59_rna_seq_Brap_nipp_leaf_FLT_G1S1.genes.results",
+          "GLDS-59_rna_seq_Brap_nipp_leaf_FLT_G1S1.isoforms.results",
+          "GLDS-59_rna_seq_Unnormalized_Counts.csv\"",
+          "\"GLDS-59_rna_seq_Brap_nipp_leaf_GC_G2S1_R1_raw.fastq.gz",
+          "GLDS-59_rna_seq_Brap_nipp_leaf_GC_G2S1_R2_raw.fastq.gz\"",
+          "\"GLDS-59_rna_seq_Brap_nipp_leaf_GC_G2S1_R1_trimmed.fastq.gz",
+          "GLDS-59_rna_seq_Brap_nipp_leaf_GC_G2S1_R2_trimmed.fastq.gz\"",
+          "\"GLDS-59_rna_seq_Brap_nipp_leaf_GC_G2S1_Aligned.sortedByCoord.out.bam",
+          "GLDS-59_rna_seq_Brap_nipp_leaf_GC_G2S1_Aligned.toTranscriptome.out.bam",
+          "GLDS-59_rna_seq_Brap_nipp_leaf_GC_G2S1_SJ.out.tab\"",
+          "\"GLDS-59_rna_seq_Brap_nipp_leaf_GC_G2S1.genes.results",
+          "GLDS-59_rna_seq_Brap_nipp_leaf_GC_G2S1.isoforms.results",
+          "Brap_nipp_leaf_FLT_G1S1",
+          "GeneLab RNAseq data processing protocol",
+          "mRNA enrichment",
+          "PAIRED",
+          "UNSTRANDED",
+          "Illumina Genome Analyzer IIx",
+          "rna-seq",
+          "GLDS-59_rna-seq_DRR013834_2.fastq.gz\"",
+          "0.18",
+          "read",
+          "37248177",
+          "Brap_nipp_leaf_GC_G2S1",
+          "GLDS-59_rna-seq_DRR013833_2.fastq.gz\"",
+          "0.11",
+          "37792960"
+        ],
+        "reports": [
+          "\"GLDS-59_rna_seq_Brap_nipp_leaf_FLT_G1S1_R1_raw_fastqc.html",
+          "GLDS-59_rna_seq_Brap_nipp_leaf_FLT_G1S1_R1_raw_fastqc.zip",
+          "GLDS-59_rna_seq_Brap_nipp_leaf_FLT_G1S1_R2_raw_fastqc.html",
+          "GLDS-59_rna_seq_Brap_nipp_leaf_FLT_G1S1_R2_raw_fastqc.zip\"",
+          "\"GLDS-59_rna_seq_raw_multiqc_report.html",
+          "GLDS-59_rna_seq_raw_multiqc_data.zip\"",
+          "\"GLDS-59_rna_seq_Brap_nipp_leaf_FLT_G1S1_R1_trimmed_fastqc.html",
+          "GLDS-59_rna_seq_Brap_nipp_leaf_FLT_G1S1_R1_trimmed_fastqc.zip",
+          "GLDS-59_rna_seq_Brap_nipp_leaf_FLT_G1S1_R2_trimmed_fastqc.html",
+          "GLDS-59_rna_seq_Brap_nipp_leaf_FLT_G1S1_R2_trimmed_fastqc.zip\"",
+          "\"GLDS-59_rna_seq_trimmed_multiqc_report.html",
+          "GLDS-59_rna_seq_trimmed_multiqc_data.zip\"",
+          "\"GLDS-59_rna_seq_Brap_nipp_leaf_FLT_G1S1_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-59_rna_seq_Brap_nipp_leaf_FLT_G1S1_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-59_rna_seq_Brap_nipp_leaf_FLT_G1S1_Log.final.out",
+          "\"GLDS-59_rna_seq_Brap_nipp_leaf_GC_G2S1_R1_raw_fastqc.html",
+          "GLDS-59_rna_seq_Brap_nipp_leaf_GC_G2S1_R1_raw_fastqc.zip",
+          "GLDS-59_rna_seq_Brap_nipp_leaf_GC_G2S1_R2_raw_fastqc.html",
+          "GLDS-59_rna_seq_Brap_nipp_leaf_GC_G2S1_R2_raw_fastqc.zip\"",
+          "\"GLDS-59_rna_seq_Brap_nipp_leaf_GC_G2S1_R1_trimmed_fastqc.html",
+          "GLDS-59_rna_seq_Brap_nipp_leaf_GC_G2S1_R1_trimmed_fastqc.zip",
+          "GLDS-59_rna_seq_Brap_nipp_leaf_GC_G2S1_R2_trimmed_fastqc.html",
+          "GLDS-59_rna_seq_Brap_nipp_leaf_GC_G2S1_R2_trimmed_fastqc.zip\"",
+          "\"GLDS-59_rna_seq_Brap_nipp_leaf_GC_G2S1_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-59_rna_seq_Brap_nipp_leaf_GC_G2S1_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-59_rna_seq_Brap_nipp_leaf_GC_G2S1_Log.final.out",
+          "GLDS-59_rna_seq_infer_exp_multiqc_report.zip"
+        ]
+      }
+    }
+  ]
+}

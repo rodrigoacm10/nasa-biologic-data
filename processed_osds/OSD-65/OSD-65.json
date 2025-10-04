@@ -1,0 +1,1270 @@
+{
+  "investigation": {
+    "id": "OSD-65",
+    "title": "Microbial Observatory (ISS-MO): Microbial diversity",
+    "description": "The environmental microbiome study was designed to decipher microbial diversity of the International Space Station surfaces in terms of spatial and temporal distributions using 16S and ITS iTag Illumina sequencing. We hypothesized that the microbial population of environmental surfaces changes in time due to astronauts' activity and might be location specific.",
+    "mission": {
+      "name": "SpaceX-5, SpaceX-6",
+      "start_date": "01/10/2015, 04/14/2015",
+      "end_date": "02/11/2015, 05/21/2015",
+      "link": "https://osdr.nasa.gov/bio/repo/data/missions/SpaceX-5, https://osdr.nasa.gov/bio/repo/data/missions/SpaceX-6"
+    },
+    "project": {
+      "identifier": "Microbial Tracking-1A, Microbial Tracking-1B",
+      "title": "ISS-MO",
+      "type": "Spaceflight Study",
+      "link": "https://nlsp.nasa.gov/view/lsdapub/lsda_experiment/c4df82ca-6b22-5b77-9515-722c0ac999c3",
+      "funding": "NASA under NNH12ZTT001N grant no. 19-12829-26",
+      "managing_center": "Jet Propulsion Laboratory (JPL)"
+    },
+    "protocols": [
+      "Nucleic Acid Extraction",
+      "Library Construction",
+      "Nucleic Acid Sequencing",
+      "GeneLab raw data processing protocol",
+      "GeneLab amplicon-seq data processing protocol",
+      "sample collection"
+    ],
+    "publications": [
+      {
+        "title": "Characterization of the total and viable bacterial and fungal communities associated with the International Space Station surfaces",
+        "doi": "10.1186/s40168-019-0666-x",
+        "authors": [
+          "Checinska Sielaff Aleksandra",
+          "Urbaniak Camilla",
+          "Mohan Ganesh Babu Malli",
+          "Stepanov Victor G.",
+          "Tran Quyen",
+          "Wood Jason M.",
+          "Minich Jeremiah",
+          "McDonald Daniel",
+          "Mayer Teresa",
+          "Knight Rob",
+          "Karouia Fathi",
+          "Fox George E.",
+          "Venkateswaran Kasthuri"
+        ],
+        "summary": "Characterization of the total and viable bacterial and fungal communities associated with the International Space Station surfaces — 10.1186/s40168-019-0666-x"
+      }
+    ],
+    "factors": [
+      "Spaceflight"
+    ],
+    "contacts": [
+      {
+        "first_name": "Kasthuri",
+        "last_name": "Venkateswaran",
+        "role": "conceptualization role",
+        "email": "kjvenkat@jpl.nasa.gov"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "1-F4_S2",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "1P-F4P_S1",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "2-F5_S4",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "2P-F5P_S3",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "3-F6_S5",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "3P-F6P_S8",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "4-F7_S6",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "4P-F7P_S9",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "5-F8_S7",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "5P-F7P_S15",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "6-F1P_S12",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "6P_S16",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "7-F2P_S13",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "7P_S17",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "8-F3P_S14",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "8P_S18",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "C_S10",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "CP_S20",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "F1_S22",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "F2_S23",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "F3_S24",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "FGFC2_S21",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GFC_S11",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MC_S19",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "1-F1_S1",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "1P-F1P_S9",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "2-F2_S2",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "2a-F2a_S18",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "2aP-F2aP_S19",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "2P-F2P_S10",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "3-F3_S3",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "3P-F3P_S11",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "4_S21",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "4P-F4P_S12",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "5-F5_S4",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "5P-F5P_S13",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "6-F6_S5",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "6P-F6P_S14",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "7-F7_S6",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "7P-F7P_S15",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "8-F8_S7",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "8P-F8P_S16",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "C-FC_S8",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "CP-FCP_S17",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "F4_S22",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MC_S20",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Collection Dates": "04-MAR-2015 and 15-MAY-2015",
+          "Sample Preservation Method": "sterile zip lock bag",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {}
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "amplicon-sequencing",
+      "platform": "lllumina NextSeq 500",
+      "qc": {
+        "Read Depth": "3966512"
+      },
+      "library": {
+        "Library Selection": "16S",
+        "Library Layout": "SINGLE"
+      },
+      "files": {
+        "raw": [
+          "GLDS-65_Amplicon_1-F4_S2.fastq.gz",
+          "GLDS-65_Amplicon_1P-F4P_S1.fastq.gz",
+          "GLDS-65_Amplicon_2-F5_S4.fastq.gz",
+          "GLDS-65_Amplicon_2P-F5P_S3.fastq.gz",
+          "GLDS-65_Amplicon_3-F6_S5.fastq.gz",
+          "GLDS-65_Amplicon_3P-F6P_S8.fastq.gz",
+          "GLDS-65_Amplicon_4-F7_S6.fastq.gz",
+          "GLDS-65_Amplicon_4P-F7P_S9.fastq.gz",
+          "GLDS-65_Amplicon_5-F8_S7.fastq.gz",
+          "GLDS-65_Amplicon_5P-F7P_S15.fastq.gz",
+          "GLDS-65_Amplicon_6-F1P_S12.fastq.gz",
+          "GLDS-65_Amplicon_6P_S16.fastq.gz",
+          "GLDS-65_Amplicon_7-F2P_S13.fastq.gz",
+          "GLDS-65_Amplicon_7P_S17.fastq.gz",
+          "GLDS-65_Amplicon_8-F3P_S14.fastq.gz",
+          "GLDS-65_Amplicon_8P_S18.fastq.gz",
+          "GLDS-65_Amplicon_C_S10.fastq.gz",
+          "GLDS-65_Amplicon_CP_S20.fastq.gz",
+          "GLDS-65_Amplicon_F1_S22.fastq.gz",
+          "GLDS-65_Amplicon_F2_S23.fastq.gz",
+          "GLDS-65_Amplicon_F3_S24.fastq.gz",
+          "GLDS-65_Amplicon_FGFC2_S21.fastq.gz",
+          "GLDS-65_Amplicon_GFC_S11.fastq.gz",
+          "GLDS-65_Amplicon_MC_S19.fastq.gz",
+          "GLDS-65_Amplicon_1-F1_S1.fastq.gz",
+          "GLDS-65_Amplicon_1P-F1P_S9.fastq.gz",
+          "GLDS-65_Amplicon_2-F2_S2.fastq.gz",
+          "GLDS-65_Amplicon_2a-F2a_S18.fastq.gz",
+          "GLDS-65_Amplicon_2aP-F2aP_S19.fastq.gz",
+          "GLDS-65_Amplicon_2P-F2P_S10.fastq.gz",
+          "GLDS-65_Amplicon_3-F3_S3.fastq.gz",
+          "GLDS-65_Amplicon_3P-F3P_S11.fastq.gz",
+          "GLDS-65_Amplicon_4_S21.fastq.gz",
+          "GLDS-65_Amplicon_4P-F4P_S12.fastq.gz",
+          "GLDS-65_Amplicon_5-F5_S4.fastq.gz",
+          "GLDS-65_Amplicon_5P-F5P_S13.fastq.gz",
+          "GLDS-65_Amplicon_6-F6_S5.fastq.gz",
+          "GLDS-65_Amplicon_6P-F6P_S14.fastq.gz",
+          "GLDS-65_Amplicon_7-F7_S6.fastq.gz",
+          "GLDS-65_Amplicon_7P-F7P_S15.fastq.gz",
+          "GLDS-65_Amplicon_8-F8_S7.fastq.gz",
+          "GLDS-65_Amplicon_8P-F8P_S16.fastq.gz",
+          "GLDS-65_Amplicon_C-FC_S8.fastq.gz",
+          "GLDS-65_Amplicon_CP-FCP_S17.fastq.gz",
+          "GLDS-65_Amplicon_F4_S22.fastq.gz",
+          "GLDS-65_Amplicon_MC_S20.fastq.gz",
+          "GLDS-65_GAmplicon_1-F4_S2_raw.fastq.gz",
+          "GLDS-65_GAmplicon_1-F4_S2_16S_trimmed.fastq.gz",
+          "GLDS-65_GAmplicon_1-F4_S2_16S_filtered.fastq.gz",
+          "GLDS-65_GAmplicon_1P-F4P_S1_raw.fastq.gz",
+          "GLDS-65_GAmplicon_2-F5_S4_raw.fastq.gz",
+          "GLDS-65_GAmplicon_2P-F5P_S3_raw.fastq.gz",
+          "GLDS-65_GAmplicon_3-F6_S5_raw.fastq.gz",
+          "GLDS-65_GAmplicon_3P-F6P_S8_raw.fastq.gz",
+          "GLDS-65_GAmplicon_4-F7_S6_raw.fastq.gz",
+          "GLDS-65_GAmplicon_4P-F7P_S9_raw.fastq.gz",
+          "GLDS-65_GAmplicon_5-F8_S7_raw.fastq.gz",
+          "GLDS-65_GAmplicon_5P-F7P_S15_raw.fastq.gz",
+          "GLDS-65_GAmplicon_6-F1P_S12_raw.fastq.gz",
+          "GLDS-65_GAmplicon_6P_S16_raw.fastq.gz",
+          "GLDS-65_GAmplicon_7-F2P_S13_raw.fastq.gz",
+          "GLDS-65_GAmplicon_7P_S17_raw.fastq.gz",
+          "GLDS-65_GAmplicon_8-F3P_S14_raw.fastq.gz",
+          "GLDS-65_GAmplicon_8P_S18_raw.fastq.gz",
+          "GLDS-65_GAmplicon_C_S10_raw.fastq.gz",
+          "GLDS-65_GAmplicon_CP_S20_raw.fastq.gz",
+          "GLDS-65_GAmplicon_F1_S22_raw.fastq.gz",
+          "GLDS-65_GAmplicon_F2_S23_raw.fastq.gz",
+          "GLDS-65_GAmplicon_F3_S24_raw.fastq.gz",
+          "GLDS-65_GAmplicon_FGFC2_S21_raw.fastq.gz",
+          "GLDS-65_GAmplicon_GFC_S11_raw.fastq.gz",
+          "GLDS-65_GAmplicon_MC_S19_raw.fastq.gz",
+          "GLDS-65_GAmplicon_1-F1_S1_raw.fastq.gz",
+          "GLDS-65_GAmplicon_1P-F1P_S9_raw.fastq.gz",
+          "GLDS-65_GAmplicon_2-F2_S2_raw.fastq.gz",
+          "GLDS-65_GAmplicon_2a-F2a_S18_raw.fastq.gz",
+          "GLDS-65_GAmplicon_2aP-F2aP_S19_raw.fastq.gz",
+          "GLDS-65_GAmplicon_2P-F2P_S10_raw.fastq.gz",
+          "GLDS-65_GAmplicon_3-F3_S3_raw.fastq.gz",
+          "GLDS-65_GAmplicon_3P-F3P_S11_raw.fastq.gz",
+          "GLDS-65_GAmplicon_4_S21_raw.fastq.gz",
+          "GLDS-65_GAmplicon_4P-F4P_S12_raw.fastq.gz",
+          "GLDS-65_GAmplicon_5-F5_S4_raw.fastq.gz",
+          "GLDS-65_GAmplicon_5P-F5P_S13_raw.fastq.gz",
+          "GLDS-65_GAmplicon_6-F6_S5_raw.fastq.gz",
+          "GLDS-65_GAmplicon_6P-F6P_S14_raw.fastq.gz",
+          "GLDS-65_GAmplicon_7-F7_S6_raw.fastq.gz",
+          "GLDS-65_GAmplicon_7P-F7P_S15_raw.fastq.gz",
+          "GLDS-65_GAmplicon_8-F8_S7_raw.fastq.gz",
+          "GLDS-65_GAmplicon_8P-F8P_S16_raw.fastq.gz",
+          "GLDS-65_GAmplicon_C-FC_S8_raw.fastq.gz",
+          "GLDS-65_GAmplicon_CP-FCP_S17_raw.fastq.gz",
+          "GLDS-65_GAmplicon_F4_S22_raw.fastq.gz",
+          "GLDS-65_GAmplicon_MC_S20_raw.fastq.gz"
+        ],
+        "processed": [
+          "GLDS-65_GAmplicon_1-F4_S2_16S_trimmed.fastq.gz",
+          "GLDS-65_GAmplicon_trimmed-read-counts.tsv",
+          "GLDS-65_GAmplicon_cutadapt.log",
+          "1-F4_S2",
+          "GeneLab amplicon-seq data processing protocol",
+          "F",
+          "5'- CAGCMGCCGCGGTAA -3'",
+          "R",
+          "5'- TACNVGGGTATCTAATCC -3'",
+          "SINGLE",
+          "16S",
+          "SO",
+          "http://purl.obolibrary.org/obo/SO_0000150",
+          "lllumina NextSeq 500",
+          "amplicon sequencing",
+          "3966512",
+          "read",
+          "GLDS-65_GAmplicon_README.txt",
+          "GLDS-65_GAmplicon_16S-filtered-read-counts.tsv",
+          "GLDS-65_GAmplicon_16S-ASVs.fasta",
+          "GLDS-65_GAmplicon_16S-counts.tsv",
+          "GLDS-65_GAmplicon_16S-read-count-tracking.tsv",
+          "GLDS-65_GAmplicon_16S-taxonomy-and-counts.biom.zip",
+          "GLDS-65_GAmplicon_16S-taxonomy-and-counts.tsv",
+          "GLDS-65_GAmplicon_16S-taxonomy.tsv",
+          "GLDS-65_GAmplicon_ITS-taxonomy.tsv",
+          "GLDS-65_GAmplicon_processing_info.zip",
+          "1P-F4P_S1",
+          "3746410",
+          "2-F5_S4",
+          "4279018",
+          "2P-F5P_S3",
+          "4848608",
+          "3-F6_S5",
+          "5435516",
+          "3P-F6P_S8",
+          "5359549",
+          "4-F7_S6",
+          "4996025",
+          "4P-F7P_S9",
+          "3591979",
+          "5-F8_S7",
+          "5402983",
+          "5P-F7P_S15",
+          "4948621",
+          "6-F1P_S12",
+          "5032437",
+          "6P_S16",
+          "2194039",
+          "7-F2P_S13",
+          "3689193",
+          "7P_S17",
+          "1839039",
+          "8-F3P_S14",
+          "4673376",
+          "8P_S18",
+          "2629788",
+          "C_S10",
+          "2709476",
+          "CP_S20",
+          "2560105",
+          "F1_S22",
+          "2004604",
+          "F2_S23",
+          "1560705",
+          "F3_S24",
+          "2856370",
+          "FGFC2_S21",
+          "3061406",
+          "GFC_S11",
+          "2317090",
+          "MC_S19",
+          "2871571",
+          "1-F1_S1",
+          "3794166",
+          "1P-F1P_S9",
+          "3899663",
+          "2-F2_S2",
+          "3598204",
+          "2a-F2a_S18",
+          "3254761",
+          "2aP-F2aP_S19",
+          "2742733",
+          "2P-F2P_S10",
+          "2963179",
+          "3-F3_S3",
+          "2766210",
+          "3P-F3P_S11",
+          "3841808",
+          "4_S21",
+          "1841366",
+          "4P-F4P_S12",
+          "3331122",
+          "5-F5_S4",
+          "2731510",
+          "5P-F5P_S13",
+          "2958559",
+          "6-F6_S5",
+          "4116063",
+          "6P-F6P_S14",
+          "4244555",
+          "7-F7_S6",
+          "3091706",
+          "7P-F7P_S15",
+          "3600249",
+          "8-F8_S7",
+          "3175307",
+          "8P-F8P_S16",
+          "2432129",
+          "C-FC_S8",
+          "2773974",
+          "CP-FCP_S17",
+          "2535475",
+          "F4_S22",
+          "1262109",
+          "MC_S20",
+          "1414061"
+        ],
+        "reports": [
+          "GLDS-65_GAmplicon_raw_multiqc_GLAmpSeq_report.zip",
+          "GLDS-65_GAmplicon_16S-raw_multiqc_report.zip",
+          "GLDS-65_GAmplicon_16S-filtered_multiqc_report.zip",
+          "GLDS-65_GAmplicon_cutadapt.log"
+        ]
+      }
+    },
+    {
+      "type": "amplicon-sequencing",
+      "platform": "lllumina NextSeq 500",
+      "qc": {
+        "Read Depth": "3966512"
+      },
+      "library": {
+        "Library Selection": "ITS",
+        "Library Layout": "SINGLE"
+      },
+      "files": {
+        "raw": [
+          "GLDS-65_Amplicon_1-F4_S2.fastq.gz",
+          "GLDS-65_Amplicon_1P-F4P_S1.fastq.gz",
+          "GLDS-65_Amplicon_2-F5_S4.fastq.gz",
+          "GLDS-65_Amplicon_2P-F5P_S3.fastq.gz",
+          "GLDS-65_Amplicon_3-F6_S5.fastq.gz",
+          "GLDS-65_Amplicon_3P-F6P_S8.fastq.gz",
+          "GLDS-65_Amplicon_4-F7_S6.fastq.gz",
+          "GLDS-65_Amplicon_4P-F7P_S9.fastq.gz",
+          "GLDS-65_Amplicon_5-F8_S7.fastq.gz",
+          "GLDS-65_Amplicon_5P-F7P_S15.fastq.gz",
+          "GLDS-65_Amplicon_6-F1P_S12.fastq.gz",
+          "GLDS-65_Amplicon_6P_S16.fastq.gz",
+          "GLDS-65_Amplicon_7-F2P_S13.fastq.gz",
+          "GLDS-65_Amplicon_7P_S17.fastq.gz",
+          "GLDS-65_Amplicon_8-F3P_S14.fastq.gz",
+          "GLDS-65_Amplicon_8P_S18.fastq.gz",
+          "GLDS-65_Amplicon_C_S10.fastq.gz",
+          "GLDS-65_Amplicon_CP_S20.fastq.gz",
+          "GLDS-65_Amplicon_F1_S22.fastq.gz",
+          "GLDS-65_Amplicon_F2_S23.fastq.gz",
+          "GLDS-65_Amplicon_F3_S24.fastq.gz",
+          "GLDS-65_Amplicon_FGFC2_S21.fastq.gz",
+          "GLDS-65_Amplicon_GFC_S11.fastq.gz",
+          "GLDS-65_Amplicon_MC_S19.fastq.gz",
+          "GLDS-65_Amplicon_1-F1_S1.fastq.gz",
+          "GLDS-65_Amplicon_1P-F1P_S9.fastq.gz",
+          "GLDS-65_Amplicon_2-F2_S2.fastq.gz",
+          "GLDS-65_Amplicon_2a-F2a_S18.fastq.gz",
+          "GLDS-65_Amplicon_2aP-F2aP_S19.fastq.gz",
+          "GLDS-65_Amplicon_2P-F2P_S10.fastq.gz",
+          "GLDS-65_Amplicon_3-F3_S3.fastq.gz",
+          "GLDS-65_Amplicon_3P-F3P_S11.fastq.gz",
+          "GLDS-65_Amplicon_4_S21.fastq.gz",
+          "GLDS-65_Amplicon_4P-F4P_S12.fastq.gz",
+          "GLDS-65_Amplicon_5-F5_S4.fastq.gz",
+          "GLDS-65_Amplicon_5P-F5P_S13.fastq.gz",
+          "GLDS-65_Amplicon_6-F6_S5.fastq.gz",
+          "GLDS-65_Amplicon_6P-F6P_S14.fastq.gz",
+          "GLDS-65_Amplicon_7-F7_S6.fastq.gz",
+          "GLDS-65_Amplicon_7P-F7P_S15.fastq.gz",
+          "GLDS-65_Amplicon_8-F8_S7.fastq.gz",
+          "GLDS-65_Amplicon_8P-F8P_S16.fastq.gz",
+          "GLDS-65_Amplicon_C-FC_S8.fastq.gz",
+          "GLDS-65_Amplicon_CP-FCP_S17.fastq.gz",
+          "GLDS-65_Amplicon_F4_S22.fastq.gz",
+          "GLDS-65_Amplicon_MC_S20.fastq.gz",
+          "GLDS-65_GAmplicon_1-F4_S2_raw.fastq.gz",
+          "GLDS-65_GAmplicon_1-F4_S2_ITS_trimmed.fastq.gz",
+          "GLDS-65_GAmplicon_1-F4_S2_ITS_filtered.fastq.gz",
+          "GLDS-65_GAmplicon_1P-F4P_S1_raw.fastq.gz",
+          "GLDS-65_GAmplicon_2-F5_S4_raw.fastq.gz",
+          "GLDS-65_GAmplicon_2P-F5P_S3_raw.fastq.gz",
+          "GLDS-65_GAmplicon_3-F6_S5_raw.fastq.gz",
+          "GLDS-65_GAmplicon_3P-F6P_S8_raw.fastq.gz",
+          "GLDS-65_GAmplicon_4-F7_S6_raw.fastq.gz",
+          "GLDS-65_GAmplicon_4P-F7P_S9_raw.fastq.gz",
+          "GLDS-65_GAmplicon_5-F8_S7_raw.fastq.gz",
+          "GLDS-65_GAmplicon_5P-F7P_S15_raw.fastq.gz",
+          "GLDS-65_GAmplicon_6-F1P_S12_raw.fastq.gz",
+          "GLDS-65_GAmplicon_6P_S16_raw.fastq.gz",
+          "GLDS-65_GAmplicon_7-F2P_S13_raw.fastq.gz",
+          "GLDS-65_GAmplicon_7P_S17_raw.fastq.gz",
+          "GLDS-65_GAmplicon_8-F3P_S14_raw.fastq.gz",
+          "GLDS-65_GAmplicon_8P_S18_raw.fastq.gz",
+          "GLDS-65_GAmplicon_C_S10_raw.fastq.gz",
+          "GLDS-65_GAmplicon_CP_S20_raw.fastq.gz",
+          "GLDS-65_GAmplicon_F1_S22_raw.fastq.gz",
+          "GLDS-65_GAmplicon_F2_S23_raw.fastq.gz",
+          "GLDS-65_GAmplicon_F3_S24_raw.fastq.gz",
+          "GLDS-65_GAmplicon_FGFC2_S21_raw.fastq.gz",
+          "GLDS-65_GAmplicon_GFC_S11_raw.fastq.gz",
+          "GLDS-65_GAmplicon_MC_S19_raw.fastq.gz",
+          "GLDS-65_GAmplicon_1-F1_S1_raw.fastq.gz",
+          "GLDS-65_GAmplicon_1P-F1P_S9_raw.fastq.gz",
+          "GLDS-65_GAmplicon_2-F2_S2_raw.fastq.gz",
+          "GLDS-65_GAmplicon_2a-F2a_S18_raw.fastq.gz",
+          "GLDS-65_GAmplicon_2aP-F2aP_S19_raw.fastq.gz",
+          "GLDS-65_GAmplicon_2P-F2P_S10_raw.fastq.gz",
+          "GLDS-65_GAmplicon_3-F3_S3_raw.fastq.gz",
+          "GLDS-65_GAmplicon_3P-F3P_S11_raw.fastq.gz",
+          "GLDS-65_GAmplicon_4_S21_raw.fastq.gz",
+          "GLDS-65_GAmplicon_4P-F4P_S12_raw.fastq.gz",
+          "GLDS-65_GAmplicon_5-F5_S4_raw.fastq.gz",
+          "GLDS-65_GAmplicon_5P-F5P_S13_raw.fastq.gz",
+          "GLDS-65_GAmplicon_6-F6_S5_raw.fastq.gz",
+          "GLDS-65_GAmplicon_6P-F6P_S14_raw.fastq.gz",
+          "GLDS-65_GAmplicon_7-F7_S6_raw.fastq.gz",
+          "GLDS-65_GAmplicon_7P-F7P_S15_raw.fastq.gz",
+          "GLDS-65_GAmplicon_8-F8_S7_raw.fastq.gz",
+          "GLDS-65_GAmplicon_8P-F8P_S16_raw.fastq.gz",
+          "GLDS-65_GAmplicon_C-FC_S8_raw.fastq.gz",
+          "GLDS-65_GAmplicon_CP-FCP_S17_raw.fastq.gz",
+          "GLDS-65_GAmplicon_F4_S22_raw.fastq.gz",
+          "GLDS-65_GAmplicon_MC_S20_raw.fastq.gz"
+        ],
+        "processed": [
+          "GLDS-65_GAmplicon_1-F4_S2_ITS_trimmed.fastq.gz",
+          "GLDS-65_GAmplicon_trimmed-read-counts.tsv",
+          "GLDS-65_GAmplicon_cutadapt.log",
+          "1-F4_S2",
+          "GeneLab amplicon-seq data processing protocol",
+          "5'- TAGAGGAAGTAAAAGTCGTAA -3'",
+          "R",
+          "5'- TTYRCTRCGTTCTTCATC -3'",
+          "SINGLE",
+          "ITS",
+          "SO",
+          "http://purl.obolibrary.org/obo/SO_0000150",
+          "lllumina NextSeq 500",
+          "amplicon sequencing",
+          "3966512",
+          "read",
+          "GLDS-65_GAmplicon_README.txt",
+          "GLDS-65_GAmplicon_ITS-filtered-read-counts.tsv",
+          "GLDS-65_GAmplicon_ITS-ASVs.fasta",
+          "GLDS-65_GAmplicon_ITS-counts.tsv",
+          "GLDS-65_GAmplicon_ITS-read-count-tracking.tsv",
+          "GLDS-65_GAmplicon_ITS-taxonomy-and-counts.biom.zip",
+          "GLDS-65_GAmplicon_ITS-taxonomy-and-counts.tsv",
+          "GLDS-65_GAmplicon_ITS-taxonomy.tsv",
+          "GLDS-65_GAmplicon_processing_info.zip",
+          "1P-F4P_S1",
+          "3746410",
+          "2-F5_S4",
+          "4279018",
+          "2P-F5P_S3",
+          "4848608",
+          "3-F6_S5",
+          "5435516",
+          "3P-F6P_S8",
+          "5359549",
+          "4-F7_S6",
+          "4996025",
+          "4P-F7P_S9",
+          "3591979",
+          "5-F8_S7",
+          "5402983",
+          "5P-F7P_S15",
+          "4948621",
+          "6-F1P_S12",
+          "5032437",
+          "6P_S16",
+          "2194039",
+          "7-F2P_S13",
+          "3689193",
+          "7P_S17",
+          "1839039",
+          "8-F3P_S14",
+          "4673376",
+          "8P_S18",
+          "2629788",
+          "C_S10",
+          "2709476",
+          "CP_S20",
+          "2560105",
+          "F1_S22",
+          "2004604",
+          "F2_S23",
+          "1560705",
+          "F3_S24",
+          "2856370",
+          "FGFC2_S21",
+          "3061406",
+          "GFC_S11",
+          "2317090",
+          "MC_S19",
+          "2871571",
+          "1-F1_S1",
+          "3794166",
+          "1P-F1P_S9",
+          "3899663",
+          "2-F2_S2",
+          "3598204",
+          "2a-F2a_S18",
+          "3254761",
+          "2aP-F2aP_S19",
+          "2742733",
+          "2P-F2P_S10",
+          "2963179",
+          "3-F3_S3",
+          "2766210",
+          "3P-F3P_S11",
+          "3841808",
+          "4_S21",
+          "1841366",
+          "4P-F4P_S12",
+          "3331122",
+          "5-F5_S4",
+          "2731510",
+          "5P-F5P_S13",
+          "2958559",
+          "6-F6_S5",
+          "4116063",
+          "6P-F6P_S14",
+          "4244555",
+          "7-F7_S6",
+          "3091706",
+          "7P-F7P_S15",
+          "3600249",
+          "8-F8_S7",
+          "3175307",
+          "8P-F8P_S16",
+          "2432129",
+          "C-FC_S8",
+          "2773974",
+          "CP-FCP_S17",
+          "2535475",
+          "F4_S22",
+          "1262109",
+          "MC_S20",
+          "1414061"
+        ],
+        "reports": [
+          "GLDS-65_GAmplicon_raw_multiqc_GLAmpSeq_report.zip",
+          "GLDS-65_GAmplicon_ITS-raw_multiqc_report.zip",
+          "GLDS-65_GAmplicon_ITS-filtered_multiqc_report.zip",
+          "GLDS-65_GAmplicon_cutadapt.log"
+        ]
+      }
+    }
+  ]
+}

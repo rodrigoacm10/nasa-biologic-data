@@ -1,0 +1,2500 @@
+{
+  "investigation": {
+    "id": "OSD-252",
+    "title": "International Space Station - Microbial Observatory of Pathogenic Virus, Bacteria, and Fungi project",
+    "description": "This study investigated the interplay between the microbial community of the International Space Station and its crew. Environmental samples were collected from 8 habitable locations around the ISS.",
+    "mission": {
+      "name": "SpaceX-11",
+      "start_date": "06/03/2017",
+      "end_date": "07/03/2017",
+      "link": ""
+    },
+    "project": {
+      "identifier": "Microbial Tracking-2, ISS-MOP",
+      "title": "International Space Station - Microbial Observatory of Pathogenic Virus Bacteria and Fungi",
+      "type": "Spaceflight Study",
+      "link": "",
+      "funding": "Space Biology NNH14ZTT002N",
+      "managing_center": "Jet Propulsion Laboratory (JPL)"
+    },
+    "protocols": [
+      "sample collection",
+      "nucleic acid extraction",
+      "library construction",
+      "nucleic acid sequencing",
+      "sequence assembly",
+      "human read contaminant filtering",
+      "GeneLab raw data processing protocol",
+      "GeneLab metagenomic data processing protocol"
+    ],
+    "publications": [
+      {
+        "title": "Crewmember microbiome may influence microbial composition of ISS habitable surfaces",
+        "doi": "10.1371/journal.pone.0231838",
+        "authors": [
+          "Avila-Herrera A",
+          "Thissen J",
+          "Urbaniak C",
+          "Be NA",
+          "Smith DJ",
+          "Karouia F",
+          "Mehta S",
+          "Venkateswaran K",
+          "Jaing C"
+        ],
+        "summary": "Crewmember microbiome may influence microbial composition of ISS habitable surfaces — 10.1371/journal.pone.0231838"
+      }
+    ],
+    "factors": [
+      "Spaceflight",
+      "Sample Location",
+      "Time",
+      "Treatment"
+    ],
+    "contacts": [
+      {
+        "first_name": "Crystal",
+        "last_name": "Jaing",
+        "role": "principal investigator",
+        "email": "jaing2@llnl.gov"
+      },
+      {
+        "first_name": "Venkateswaran",
+        "last_name": "Kasthuri",
+        "role": "co-investigator",
+        "email": "kasthuri.j.venkateswaran@jpl.nasa.gov"
+      },
+      {
+        "first_name": "Michael",
+        "last_name": "Morrison",
+        "role": "submitter",
+        "email": "morrison33@llnl.gov"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "F4_S1",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "early flight on Flight 4",
+          "Sample Location": "Port Panel of Cupola",
+          "Treatment": "Non-PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "23-Jun-2017"
+        }
+      },
+      {
+        "sample_name": "F4_S1_P",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "early flight on Flight 4",
+          "Sample Location": "Port Panel of Cupola",
+          "Treatment": "PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "23-Jun-2017"
+        }
+      },
+      {
+        "sample_name": "F4_S2",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "early flight on Flight 4",
+          "Sample Location": "Waste and Hygiene Compartment",
+          "Treatment": "Non-PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "23-Jun-2017"
+        }
+      },
+      {
+        "sample_name": "F4_S2_P",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "early flight on Flight 4",
+          "Sample Location": "Waste and Hygiene Compartment",
+          "Treatment": "PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "23-Jun-2017"
+        }
+      },
+      {
+        "sample_name": "F4_S3",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "early flight on Flight 4",
+          "Sample Location": "Advanced Resistive Exercise Device Foot Platform",
+          "Treatment": "Non-PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "23-Jun-2017"
+        }
+      },
+      {
+        "sample_name": "F4_S3_P",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "early flight on Flight 4",
+          "Sample Location": "Advanced Resistive Exercise Device Foot Platform",
+          "Treatment": "PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "23-Jun-2017"
+        }
+      },
+      {
+        "sample_name": "F4_S4",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "early flight on Flight 4",
+          "Sample Location": "Dining Table",
+          "Treatment": "Non-PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "23-Jun-2017"
+        }
+      },
+      {
+        "sample_name": "F4_S4_P",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "early flight on Flight 4",
+          "Sample Location": "Dining Table",
+          "Treatment": "PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "23-Jun-2017"
+        }
+      },
+      {
+        "sample_name": "F4_S5",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "early flight on Flight 4",
+          "Sample Location": "Overhead 4 Zero-g Storage Rack",
+          "Treatment": "Non-PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "23-Jun-2017"
+        }
+      },
+      {
+        "sample_name": "F4_S5_P",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "early flight on Flight 4",
+          "Sample Location": "Overhead 4 Zero-g Storage Rack",
+          "Treatment": "PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "23-Jun-2017"
+        }
+      },
+      {
+        "sample_name": "F4_S6",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "early flight on Flight 4",
+          "Sample Location": "Permanent Multipurpose Module Port 1",
+          "Treatment": "Non-PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "23-Jun-2017"
+        }
+      },
+      {
+        "sample_name": "F4_S6_P",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "early flight on Flight 4",
+          "Sample Location": "Permanent Multipurpose Module Port 1",
+          "Treatment": "PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "23-Jun-2017"
+        }
+      },
+      {
+        "sample_name": "F4_S7",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "early flight on Flight 4",
+          "Sample Location": "Lab Overhead 3 Panel",
+          "Treatment": "Non-PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "23-Jun-2017"
+        }
+      },
+      {
+        "sample_name": "F4_S7_P",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "early flight on Flight 4",
+          "Sample Location": "Lab Overhead 3 Panel",
+          "Treatment": "PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "23-Jun-2017"
+        }
+      },
+      {
+        "sample_name": "F4_S8",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "early flight on Flight 4",
+          "Sample Location": "Crew Quarters Bump Out",
+          "Treatment": "Non-PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "23-Jun-2017"
+        }
+      },
+      {
+        "sample_name": "F4_S8_P",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "early flight on Flight 4",
+          "Sample Location": "Crew Quarters Bump Out",
+          "Treatment": "PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "23-Jun-2017"
+        }
+      },
+      {
+        "sample_name": "F5_S1",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 5",
+          "Sample Location": "Port Panel of Cupola",
+          "Treatment": "Non-PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "05-Jan-2018"
+        }
+      },
+      {
+        "sample_name": "F5_S1_P",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 5",
+          "Sample Location": "Port Panel of Cupola",
+          "Treatment": "PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "05-Jan-2018"
+        }
+      },
+      {
+        "sample_name": "F5_S2",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 5",
+          "Sample Location": "Waste and Hygiene Compartment",
+          "Treatment": "Non-PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "05-Jan-2018"
+        }
+      },
+      {
+        "sample_name": "F5_S2_P",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 5",
+          "Sample Location": "Waste and Hygiene Compartment",
+          "Treatment": "PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "05-Jan-2018"
+        }
+      },
+      {
+        "sample_name": "F5_S3",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 5",
+          "Sample Location": "Advanced Resistive Exercise Device Foot Platform",
+          "Treatment": "Non-PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "05-Jan-2018"
+        }
+      },
+      {
+        "sample_name": "F5_S3_P",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 5",
+          "Sample Location": "Advanced Resistive Exercise Device Foot Platform",
+          "Treatment": "PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "05-Jan-2018"
+        }
+      },
+      {
+        "sample_name": "F5_S4",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 5",
+          "Sample Location": "Dining Table",
+          "Treatment": "Non-PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "05-Jan-2018"
+        }
+      },
+      {
+        "sample_name": "F5_S4_P",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 5",
+          "Sample Location": "Dining Table",
+          "Treatment": "PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "05-Jan-2018"
+        }
+      },
+      {
+        "sample_name": "F5_S5",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 5",
+          "Sample Location": "Overhead 4 Zero-g Storage Rack",
+          "Treatment": "Non-PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "05-Jan-2018"
+        }
+      },
+      {
+        "sample_name": "F5_S5_P",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 5",
+          "Sample Location": "Overhead 4 Zero-g Storage Rack",
+          "Treatment": "PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "05-Jan-2018"
+        }
+      },
+      {
+        "sample_name": "F5_S6",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 5",
+          "Sample Location": "Permanent Multipurpose Module Port 1",
+          "Treatment": "Non-PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "05-Jan-2018"
+        }
+      },
+      {
+        "sample_name": "F5_S6_P",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 5",
+          "Sample Location": "Permanent Multipurpose Module Port 1",
+          "Treatment": "PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "05-Jan-2018"
+        }
+      },
+      {
+        "sample_name": "F5_S7",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 5",
+          "Sample Location": "Lab Overhead 3 Panel",
+          "Treatment": "Non-PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "05-Jan-2018"
+        }
+      },
+      {
+        "sample_name": "F5_S7_P",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 5",
+          "Sample Location": "Lab Overhead 3 Panel",
+          "Treatment": "PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "05-Jan-2018"
+        }
+      },
+      {
+        "sample_name": "F5_S8",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 5",
+          "Sample Location": "Crew Quarters Bump Out",
+          "Treatment": "Non-PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "05-Jan-2018"
+        }
+      },
+      {
+        "sample_name": "F5_S8_P",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 5",
+          "Sample Location": "Crew Quarters Bump Out",
+          "Treatment": "PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "05-Jan-2018"
+        }
+      },
+      {
+        "sample_name": "F6_S1",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 6",
+          "Sample Location": "Port Panel of Cupola",
+          "Treatment": "Non-PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2018"
+        }
+      },
+      {
+        "sample_name": "F6_S1_P",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 6",
+          "Sample Location": "Port Panel of Cupola",
+          "Treatment": "PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2018"
+        }
+      },
+      {
+        "sample_name": "F6_S2",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 6",
+          "Sample Location": "Waste and Hygiene Compartment",
+          "Treatment": "Non-PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2018"
+        }
+      },
+      {
+        "sample_name": "F6_S2_P",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 6",
+          "Sample Location": "Waste and Hygiene Compartment",
+          "Treatment": "PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2018"
+        }
+      },
+      {
+        "sample_name": "F6_S3",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 6",
+          "Sample Location": "Advanced Resistive Exercise Device Foot Platform",
+          "Treatment": "Non-PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2018"
+        }
+      },
+      {
+        "sample_name": "F6_S3_P",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 6",
+          "Sample Location": "Advanced Resistive Exercise Device Foot Platform",
+          "Treatment": "PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2018"
+        }
+      },
+      {
+        "sample_name": "F6_S4",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 6",
+          "Sample Location": "Dining Table",
+          "Treatment": "Non-PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2018"
+        }
+      },
+      {
+        "sample_name": "F6_S4_P",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 6",
+          "Sample Location": "Dining Table",
+          "Treatment": "PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2018"
+        }
+      },
+      {
+        "sample_name": "F6_S5",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 6",
+          "Sample Location": "Overhead 4 Zero-g Storage Rack",
+          "Treatment": "Non-PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2018"
+        }
+      },
+      {
+        "sample_name": "F6_S5_P",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 6",
+          "Sample Location": "Overhead 4 Zero-g Storage Rack",
+          "Treatment": "PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2018"
+        }
+      },
+      {
+        "sample_name": "F6_S6",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 6",
+          "Sample Location": "Permanent Multipurpose Module Port 1",
+          "Treatment": "Non-PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2018"
+        }
+      },
+      {
+        "sample_name": "F6_S6_P",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 6",
+          "Sample Location": "Permanent Multipurpose Module Port 1",
+          "Treatment": "PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2018"
+        }
+      },
+      {
+        "sample_name": "F6_S7",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 6",
+          "Sample Location": "Lab Overhead 3 Panel",
+          "Treatment": "Non-PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2018"
+        }
+      },
+      {
+        "sample_name": "F6_S7_P",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 6",
+          "Sample Location": "Lab Overhead 3 Panel",
+          "Treatment": "PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2018"
+        }
+      },
+      {
+        "sample_name": "F6_S8",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 6",
+          "Sample Location": "Crew Quarters Bump Out",
+          "Treatment": "Non-PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2018"
+        }
+      },
+      {
+        "sample_name": "F6_S8_P",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 6",
+          "Sample Location": "Crew Quarters Bump Out",
+          "Treatment": "PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2018"
+        }
+      },
+      {
+        "sample_name": "F7_S1",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 7",
+          "Sample Location": "Port Panel of Cupola",
+          "Treatment": "Non-PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "20-Aug-2018"
+        }
+      },
+      {
+        "sample_name": "F7_S1_P",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 7",
+          "Sample Location": "Port Panel of Cupola",
+          "Treatment": "PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "20-Aug-2018"
+        }
+      },
+      {
+        "sample_name": "F7_S2",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 7",
+          "Sample Location": "Waste and Hygiene Compartment",
+          "Treatment": "Non-PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "20-Aug-2018"
+        }
+      },
+      {
+        "sample_name": "F7_S2_P",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 7",
+          "Sample Location": "Waste and Hygiene Compartment",
+          "Treatment": "PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "20-Aug-2018"
+        }
+      },
+      {
+        "sample_name": "F7_S3",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 7",
+          "Sample Location": "Advanced Resistive Exercise Device Foot Platform",
+          "Treatment": "Non-PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "20-Aug-2018"
+        }
+      },
+      {
+        "sample_name": "F7_S3_P",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 7",
+          "Sample Location": "Advanced Resistive Exercise Device Foot Platform",
+          "Treatment": "PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "20-Aug-2018"
+        }
+      },
+      {
+        "sample_name": "F7_S4",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 7",
+          "Sample Location": "Dining Table",
+          "Treatment": "Non-PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "20-Aug-2018"
+        }
+      },
+      {
+        "sample_name": "F7_S4_P",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 7",
+          "Sample Location": "Dining Table",
+          "Treatment": "PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "20-Aug-2018"
+        }
+      },
+      {
+        "sample_name": "F7_S5",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 7",
+          "Sample Location": "Overhead 4 Zero-g Storage Rack",
+          "Treatment": "Non-PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "20-Aug-2018"
+        }
+      },
+      {
+        "sample_name": "F7_S5_P",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 7",
+          "Sample Location": "Overhead 4 Zero-g Storage Rack",
+          "Treatment": "PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "20-Aug-2018"
+        }
+      },
+      {
+        "sample_name": "F7_S6",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 7",
+          "Sample Location": "Permanent Multipurpose Module Port 1",
+          "Treatment": "Non-PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "20-Aug-2018"
+        }
+      },
+      {
+        "sample_name": "F7_S6_P",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 7",
+          "Sample Location": "Permanent Multipurpose Module Port 1",
+          "Treatment": "PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "20-Aug-2018"
+        }
+      },
+      {
+        "sample_name": "F7_S7",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 7",
+          "Sample Location": "Lab Overhead 3 Panel",
+          "Treatment": "Non-PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "01-Sep-2018"
+        }
+      },
+      {
+        "sample_name": "F7_S7_P",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 7",
+          "Sample Location": "Lab Overhead 3 Panel",
+          "Treatment": "PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "01-Sep-2018"
+        }
+      },
+      {
+        "sample_name": "F7_S8",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 7",
+          "Sample Location": "Crew Quarters Bump Out",
+          "Treatment": "Non-PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "01-Sep-2018"
+        }
+      },
+      {
+        "sample_name": "F7_S8_P",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "mid-flight on Flight 7",
+          "Sample Location": "Crew Quarters Bump Out",
+          "Treatment": "PMA treated"
+        },
+        "parameters": {
+          "Sampling Material": "pre-moistened sterile polyester wipes",
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Collection Date": "01-Sep-2018"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "metagenomic-sequencing",
+      "platform": "Illumina NextSeq 500",
+      "qc": {
+        "Read Depth": "2330250"
+      },
+      "library": {},
+      "files": {
+        "raw": [
+          "GLDS-252_metagenomics_F4_1S_S21_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F4_1S_S21_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F4_1S_P_S1_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F4_1S_P_S1_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F4_2S_S23_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F4_2S_S23_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F4_2S_P_S19_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F4_2S_P_S19_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F4_3S_S20_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F4_3S_S20_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F4_3S_P_S2_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F4_3S_P_S2_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F4_4S_S5_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F4_4S_S5_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F4_4S_P_S7_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F4_4S_P_S7_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F4_5S_S17_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F4_5S_S17_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F4_5S_P_S13_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F4_5S_P_S13_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F4_6S_S4_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F4_6S_S4_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F4_6S_P_S12_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F4_6S_P_S12_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F4_7S_S22_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F4_7S_S22_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F4_7S_P_S15_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F4_7S_P_S15_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F4_8S_S16_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F4_8S_S16_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F4_8S_P_S11_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F4_8S_P_S11_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F5_1S_S25_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F5_1S_S25_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F5_1S_P_S22_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F5_1S_P_S22_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F5_2S_S20_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F5_2S_S20_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F5_2S_P_S6_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F5_2S_P_S6_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F5_3S_S29_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F5_3S_S29_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F5_3S_P_S26_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F5_3S_P_S26_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F5_4S_S12_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F5_4S_S12_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F5_4S_P_S19_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F5_4S_P_S19_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F5_5S_S4_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F5_5S_S4_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F5_5S_P_S9_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F5_5S_P_S9_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F5_6S_S30_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F5_6S_S30_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F5_6S_P_S18_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F5_6S_P_S18_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F5_7S_S24_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F5_7S_S24_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F5_7S_P_S1_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F5_7S_P_S1_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F5_8S_S16_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F5_8S_S16_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F5_8S_P_S8_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F5_8S_P_S8_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F6_1S_S13_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F6_1S_S13_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F6_1S_P_S13_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F6_1S_P_S13_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F6_2S_S10_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F6_2S_S10_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F6_2S_P_S30_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F6_2S_P_S30_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F6_3S_S29_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F6_3S_S29_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F6_3S_P_S21_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F6_3S_P_S21_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F6_4S_S25_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F6_4S_S25_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F6_4S_P_S17_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F6_4S_P_S17_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F6_5S_S19_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F6_5S_S19_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F6_5S_P_S3_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F6_5S_P_S3_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F6_6S_S22_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F6_6S_S22_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F6_6S_P_S26_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F6_6S_P_S26_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F6_7S_S5_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F6_7S_S5_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F6_7S_P_S2_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F6_7S_P_S2_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F6_8S_S5_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F6_8S_S5_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F6_8S_P_S25_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F6_8S_P_S25_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F7_1S_S18_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F7_1S_S18_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F7_1S_P_S28_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F7_1S_P_S28_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F7_2S_S27_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F7_2S_S27_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F7_2S_P_S7_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F7_2S_P_S7_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F7_3S_S14_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F7_3S_S14_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F7_3S_P_S30_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F7_3S_P_S30_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F7_4S_S11_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F7_4S_S11_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F7_4S_P_S8_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F7_4S_P_S8_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F7_5S_S23_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F7_5S_S23_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F7_5S_P_S22_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F7_5S_P_S22_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F7_6S_S3_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F7_6S_S3_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F7_6S_P_S15_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F7_6S_P_S15_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F7_7S_S4_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F7_7S_S4_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F7_7S_P_S11_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F7_7S_P_S11_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F7_8S_S20_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F7_8S_S20_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F7_8S_P_S15_R1_HRremoved_raw.fastq.gz",
+          "GLDS-252_metagenomics_F7_8S_P_S15_R2_HRremoved_raw.fastq.gz",
+          "GLDS-252_GMetagenomics_F4_1S_S21_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F4_1S_S21_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F4_1S_P_S1_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F4_1S_P_S1_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F4_2S_S23_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F4_2S_S23_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F4_2S_P_S19_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F4_2S_P_S19_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F4_3S_S20_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F4_3S_S20_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F4_3S_P_S2_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F4_3S_P_S2_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F4_4S_S5_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F4_4S_S5_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F4_4S_P_S7_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F4_4S_P_S7_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F4_5S_S17_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F4_5S_S17_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F4_5S_P_S13_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F4_5S_P_S13_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F4_6S_S4_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F4_6S_S4_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F4_6S_P_S12_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F4_6S_P_S12_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F4_7S_S22_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F4_7S_S22_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F4_7S_P_S15_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F4_7S_P_S15_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F4_8S_S16_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F4_8S_S16_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F4_8S_P_S11_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F4_8S_P_S11_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F5_1S_S25_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F5_1S_S25_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F5_1S_P_S22_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F5_1S_P_S22_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F5_2S_S20_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F5_2S_S20_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F5_2S_P_S6_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F5_2S_P_S6_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F5_3S_S29_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F5_3S_S29_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F5_3S_P_S26_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F5_3S_P_S26_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F5_4S_S12_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F5_4S_S12_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F5_4S_P_S19_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F5_4S_P_S19_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F5_5S_S4_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F5_5S_S4_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F5_5S_P_S9_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F5_5S_P_S9_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F5_6S_S30_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F5_6S_S30_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F5_6S_P_S18_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F5_6S_P_S18_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F5_7S_S24_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F5_7S_S24_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F5_7S_P_S1_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F5_7S_P_S1_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F5_8S_S16_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F5_8S_S16_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F5_8S_P_S8_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F5_8S_P_S8_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F6_1S_S13_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F6_1S_S13_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F6_1S_P_S13_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F6_1S_P_S13_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F6_2S_S10_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F6_2S_S10_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F6_2S_P_S30_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F6_2S_P_S30_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F6_3S_S29_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F6_3S_S29_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F6_3S_P_S21_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F6_3S_P_S21_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F6_4S_S25_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F6_4S_S25_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F6_4S_P_S17_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F6_4S_P_S17_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F6_5S_S19_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F6_5S_S19_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F6_5S_P_S3_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F6_5S_P_S3_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F6_6S_S22_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F6_6S_S22_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F6_6S_P_S26_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F6_6S_P_S26_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F6_7S_S5_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F6_7S_S5_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F6_7S_P_S2_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F6_7S_P_S2_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F6_8S_S5_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F6_8S_S5_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F6_8S_P_S25_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F6_8S_P_S25_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F7_1S_S18_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F7_1S_S18_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F7_1S_P_S28_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F7_1S_P_S28_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F7_2S_S27_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F7_2S_S27_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F7_2S_P_S7_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F7_2S_P_S7_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F7_3S_S14_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F7_3S_S14_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F7_3S_P_S30_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F7_3S_P_S30_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F7_4S_S11_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F7_4S_S11_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F7_4S_P_S8_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F7_4S_P_S8_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F7_5S_S23_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F7_5S_S23_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F7_5S_P_S22_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F7_5S_P_S22_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F7_6S_S3_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F7_6S_S3_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F7_6S_P_S15_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F7_6S_P_S15_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F7_7S_S4_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F7_7S_S4_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F7_7S_P_S11_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F7_7S_P_S11_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F7_8S_S20_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F7_8S_S20_R2_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F7_8S_P_S15_R1_filtered.fastq.gz",
+          "GLDS-252_GMetagenomics_F7_8S_P_S15_R2_filtered.fastq.gz"
+        ],
+        "processed": [
+          "F4_S1",
+          "GeneLab metagenomic data processing protocol",
+          "F4_S1 Forward",
+          "DNA",
+          "PAIRED",
+          "Illumina NextSeq 500",
+          "150",
+          "percent",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000187",
+          "metagenomics",
+          "2330250",
+          "60.29",
+          "GLDS-252_GMetagenomics_README_GLmetagenomics.txt",
+          "GLDS-252_GMetagenomics_Assembly-based-processing-overview_GLmetagenomics.tsv",
+          "GLDS-252_GMetagenomics_F4_1S_S21-assembly.fasta",
+          "GLDS-252_GMetagenomics_assembly-summaries_GLmetagenomics.tsv",
+          "GLDS-252_GMetagenomics_F4_1S_S21-genes.faa",
+          "GLDS-252_GMetagenomics_F4_1S_S21-genes.fasta",
+          "GLDS-252_GMetagenomics_F4_1S_S21-genes.gff",
+          "GLDS-252_GMetagenomics_F4_1S_S21-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F4_1S_S21-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F4_1S_S21.bam",
+          "GLDS-252_GMetagenomics_F4_1S_S21-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F4_1S_S21-metabat-assembly-depth.tsv",
+          "GLDS-252_GMetagenomics_bins-overview_GLmetagenomics.tsv",
+          "GLDS-252_GMetagenomics_MAGs-overview_GLmetagenomics.tsv",
+          "GLDS-252_GMetagenomics_MAG-level-KO-annotations_GLmetagenomics.tsv",
+          "GLDS-252_GMetagenomics_MAG-KEGG-Decoder-out_GLmetagenomics.tsv",
+          "GLDS-252_GMetagenomics_MAG-KEGG-Decoder-out_GLmetagenomics.html",
+          "GLDS-252_GMetagenomics_Combined-gene-level-KO-function-coverages_GLmetagenomics.tsv",
+          "GLDS-252_GMetagenomics_Combined-gene-level-KO-function-coverages-CPM_GLmetagenomics.tsv",
+          "GLDS-252_GMetagenomics_Combined-gene-level-taxonomy-coverages_GLmetagenomics.tsv",
+          "GLDS-252_GMetagenomics_Combined-gene-level-taxonomy-coverages-CPM_GLmetagenomics.tsv",
+          "GLDS-252_GMetagenomics_Combined-contig-level-taxonomy-coverages_GLmetagenomics.tsv",
+          "GLDS-252_GMetagenomics_Combined-contig-level-taxonomy-coverages-CPM_GLmetagenomics.tsv",
+          "GLDS-252_GMetagenomics_Gene-families_GLmetagenomics.tsv",
+          "GLDS-252_GMetagenomics_Gene-families-grouped-by-taxa_GLmetagenomics.tsv",
+          "GLDS-252_GMetagenomics_Gene-families-cpm_GLmetagenomics.tsv",
+          "GLDS-252_GMetagenomics_Gene-families-KO-cpm_GLmetagenomics.tsv",
+          "GLDS-252_GMetagenomics_Pathway-abundances_GLmetagenomics.tsv",
+          "GLDS-252_GMetagenomics_Pathway-abundances-grouped-by-taxa_GLmetagenomics.tsv",
+          "GLDS-252_GMetagenomics_Pathway-abundances-cpm_GLmetagenomics.tsv",
+          "GLDS-252_GMetagenomics_Pathway-coverages_GLmetagenomics.tsv",
+          "GLDS-252_GMetagenomics_Pathway-coverages-grouped-by-taxa_GLmetagenomics.tsv",
+          "GLDS-252_GMetagenomics_Metaphlan-taxonomy_GLmetagenomics.tsv",
+          "GLDS-252_GMetagenomics_processing_info_GLmetagenomics.zip",
+          "F4_S1_P",
+          "F4_S1_P Forward",
+          "170907",
+          "24.6",
+          "GLDS-252_GMetagenomics_F4_1S_P_S1-assembly.fasta",
+          "GLDS-252_GMetagenomics_F4_1S_P_S1-genes.faa",
+          "GLDS-252_GMetagenomics_F4_1S_P_S1-genes.fasta",
+          "GLDS-252_GMetagenomics_F4_1S_P_S1-genes.gff",
+          "GLDS-252_GMetagenomics_F4_1S_P_S1-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F4_1S_P_S1-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F4_1S_P_S1.bam",
+          "GLDS-252_GMetagenomics_F4_1S_P_S1-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F4_1S_P_S1-metabat-assembly-depth.tsv",
+          "F4_S2",
+          "F4_S2 Forward",
+          "12682297",
+          "14.6",
+          "GLDS-252_GMetagenomics_F4_2S_S23-assembly.fasta",
+          "GLDS-252_GMetagenomics_F4_2S_S23-genes.faa",
+          "GLDS-252_GMetagenomics_F4_2S_S23-genes.fasta",
+          "GLDS-252_GMetagenomics_F4_2S_S23-genes.gff",
+          "GLDS-252_GMetagenomics_F4_2S_S23-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F4_2S_S23-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F4_2S_S23.bam",
+          "GLDS-252_GMetagenomics_F4_2S_S23-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F4_2S_S23-metabat-assembly-depth.tsv",
+          "F4_S2_P",
+          "F4_S2_P Forward",
+          "16190289",
+          "0.97",
+          "GLDS-252_GMetagenomics_F4_2S_P_S19-assembly.fasta",
+          "GLDS-252_GMetagenomics_F4_2S_P_S19-genes.faa",
+          "GLDS-252_GMetagenomics_F4_2S_P_S19-genes.fasta",
+          "GLDS-252_GMetagenomics_F4_2S_P_S19-genes.gff",
+          "GLDS-252_GMetagenomics_F4_2S_P_S19-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F4_2S_P_S19-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F4_2S_P_S19.bam",
+          "GLDS-252_GMetagenomics_F4_2S_P_S19-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F4_2S_P_S19-metabat-assembly-depth.tsv",
+          "F4_S3",
+          "F4_S3 Forward",
+          "2342042",
+          "67.12",
+          "GLDS-252_GMetagenomics_F4_3S_S20-assembly.fasta",
+          "GLDS-252_GMetagenomics_F4_3S_S20-genes.faa",
+          "GLDS-252_GMetagenomics_F4_3S_S20-genes.fasta",
+          "GLDS-252_GMetagenomics_F4_3S_S20-genes.gff",
+          "GLDS-252_GMetagenomics_F4_3S_S20-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F4_3S_S20-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F4_3S_S20.bam",
+          "GLDS-252_GMetagenomics_F4_3S_S20-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F4_3S_S20-metabat-assembly-depth.tsv",
+          "F4_S3_P",
+          "F4_S3_P Forward",
+          "496175",
+          "89.24",
+          "GLDS-252_GMetagenomics_F4_3S_P_S2-assembly.fasta",
+          "GLDS-252_GMetagenomics_F4_3S_P_S2-genes.faa",
+          "GLDS-252_GMetagenomics_F4_3S_P_S2-genes.fasta",
+          "GLDS-252_GMetagenomics_F4_3S_P_S2-genes.gff",
+          "GLDS-252_GMetagenomics_F4_3S_P_S2-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F4_3S_P_S2-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F4_3S_P_S2.bam",
+          "GLDS-252_GMetagenomics_F4_3S_P_S2-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F4_3S_P_S2-metabat-assembly-depth.tsv",
+          "F4_S4",
+          "F4_S4 Forward",
+          "1899932",
+          "10.33",
+          "GLDS-252_GMetagenomics_F4_4S_S5-assembly.fasta",
+          "GLDS-252_GMetagenomics_F4_4S_S5-genes.faa",
+          "GLDS-252_GMetagenomics_F4_4S_S5-genes.fasta",
+          "GLDS-252_GMetagenomics_F4_4S_S5-genes.gff",
+          "GLDS-252_GMetagenomics_F4_4S_S5-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F4_4S_S5-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F4_4S_S5.bam",
+          "GLDS-252_GMetagenomics_F4_4S_S5-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F4_4S_S5-metabat-assembly-depth.tsv",
+          "F4_S4_P",
+          "F4_S4_P Forward",
+          "75514",
+          "6.48",
+          "GLDS-252_GMetagenomics_F4_4S_P_S7-assembly.fasta",
+          "GLDS-252_GMetagenomics_F4_4S_P_S7-genes.faa",
+          "GLDS-252_GMetagenomics_F4_4S_P_S7-genes.fasta",
+          "GLDS-252_GMetagenomics_F4_4S_P_S7-genes.gff",
+          "GLDS-252_GMetagenomics_F4_4S_P_S7-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F4_4S_P_S7-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F4_4S_P_S7.bam",
+          "GLDS-252_GMetagenomics_F4_4S_P_S7-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F4_4S_P_S7-metabat-assembly-depth.tsv",
+          "F4_S5",
+          "F4_S5 Forward",
+          "10765042",
+          "23.8",
+          "GLDS-252_GMetagenomics_F4_5S_S17-assembly.fasta",
+          "GLDS-252_GMetagenomics_F4_5S_S17-genes.faa",
+          "GLDS-252_GMetagenomics_F4_5S_S17-genes.fasta",
+          "GLDS-252_GMetagenomics_F4_5S_S17-genes.gff",
+          "GLDS-252_GMetagenomics_F4_5S_S17-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F4_5S_S17-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F4_5S_S17.bam",
+          "GLDS-252_GMetagenomics_F4_5S_S17-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F4_5S_S17-metabat-assembly-depth.tsv",
+          "F4_S5_P",
+          "F4_S5_P Forward",
+          "263754",
+          "36.21",
+          "GLDS-252_GMetagenomics_F4_5S_P_S13-assembly.fasta",
+          "GLDS-252_GMetagenomics_F4_5S_P_S13-genes.faa",
+          "GLDS-252_GMetagenomics_F4_5S_P_S13-genes.fasta",
+          "GLDS-252_GMetagenomics_F4_5S_P_S13-genes.gff",
+          "GLDS-252_GMetagenomics_F4_5S_P_S13-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F4_5S_P_S13-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F4_5S_P_S13.bam",
+          "GLDS-252_GMetagenomics_F4_5S_P_S13-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F4_5S_P_S13-metabat-assembly-depth.tsv",
+          "F4_S6",
+          "F4_S6 Forward",
+          "11030764",
+          "15.51",
+          "GLDS-252_GMetagenomics_F4_6S_S4-assembly.fasta",
+          "GLDS-252_GMetagenomics_F4_6S_S4-genes.faa",
+          "GLDS-252_GMetagenomics_F4_6S_S4-genes.fasta",
+          "GLDS-252_GMetagenomics_F4_6S_S4-genes.gff",
+          "GLDS-252_GMetagenomics_F4_6S_S4-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F4_6S_S4-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F4_6S_S4.bam",
+          "GLDS-252_GMetagenomics_F4_6S_S4-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F4_6S_S4-metabat-assembly-depth.tsv",
+          "F4_S6_P",
+          "F4_S6_P Forward",
+          "646585",
+          "15.21",
+          "GLDS-252_GMetagenomics_F4_6S_P_S12-assembly.fasta",
+          "GLDS-252_GMetagenomics_F4_6S_P_S12-genes.faa",
+          "GLDS-252_GMetagenomics_F4_6S_P_S12-genes.fasta",
+          "GLDS-252_GMetagenomics_F4_6S_P_S12-genes.gff",
+          "GLDS-252_GMetagenomics_F4_6S_P_S12-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F4_6S_P_S12-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F4_6S_P_S12.bam",
+          "GLDS-252_GMetagenomics_F4_6S_P_S12-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F4_6S_P_S12-metabat-assembly-depth.tsv",
+          "F4_S7",
+          "F4_S7 Forward",
+          "9172839",
+          "18.57",
+          "GLDS-252_GMetagenomics_F4_7S_S22-assembly.fasta",
+          "GLDS-252_GMetagenomics_F4_7S_S22-genes.faa",
+          "GLDS-252_GMetagenomics_F4_7S_S22-genes.fasta",
+          "GLDS-252_GMetagenomics_F4_7S_S22-genes.gff",
+          "GLDS-252_GMetagenomics_F4_7S_S22-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F4_7S_S22-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F4_7S_S22.bam",
+          "GLDS-252_GMetagenomics_F4_7S_S22-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F4_7S_S22-metabat-assembly-depth.tsv",
+          "F4_S7_P",
+          "F4_S7_P Forward",
+          "720016",
+          "3.49",
+          "GLDS-252_GMetagenomics_F4_7S_P_S15-assembly.fasta",
+          "GLDS-252_GMetagenomics_F4_7S_P_S15-genes.faa",
+          "GLDS-252_GMetagenomics_F4_7S_P_S15-genes.fasta",
+          "GLDS-252_GMetagenomics_F4_7S_P_S15-genes.gff",
+          "GLDS-252_GMetagenomics_F4_7S_P_S15-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F4_7S_P_S15-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F4_7S_P_S15.bam",
+          "GLDS-252_GMetagenomics_F4_7S_P_S15-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F4_7S_P_S15-metabat-assembly-depth.tsv",
+          "F4_S8",
+          "F4_S8 Forward",
+          "2563156",
+          "68.96",
+          "GLDS-252_GMetagenomics_F4_8S_S16-assembly.fasta",
+          "GLDS-252_GMetagenomics_F4_8S_S16-genes.faa",
+          "GLDS-252_GMetagenomics_F4_8S_S16-genes.fasta",
+          "GLDS-252_GMetagenomics_F4_8S_S16-genes.gff",
+          "GLDS-252_GMetagenomics_F4_8S_S16-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F4_8S_S16-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F4_8S_S16.bam",
+          "GLDS-252_GMetagenomics_F4_8S_S16-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F4_8S_S16-metabat-assembly-depth.tsv",
+          "F4_S8_P",
+          "F4_S8_P Forward",
+          "159892",
+          "62.75",
+          "GLDS-252_GMetagenomics_F4_8S_P_S11-assembly.fasta",
+          "GLDS-252_GMetagenomics_F4_8S_P_S11-genes.faa",
+          "GLDS-252_GMetagenomics_F4_8S_P_S11-genes.fasta",
+          "GLDS-252_GMetagenomics_F4_8S_P_S11-genes.gff",
+          "GLDS-252_GMetagenomics_F4_8S_P_S11-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F4_8S_P_S11-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F4_8S_P_S11.bam",
+          "GLDS-252_GMetagenomics_F4_8S_P_S11-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F4_8S_P_S11-metabat-assembly-depth.tsv",
+          "F5_S1",
+          "F5_S1 Forward",
+          "3577867",
+          "20.03",
+          "GLDS-252_GMetagenomics_F5_1S_S25-assembly.fasta",
+          "GLDS-252_GMetagenomics_F5_1S_S25-genes.faa",
+          "GLDS-252_GMetagenomics_F5_1S_S25-genes.fasta",
+          "GLDS-252_GMetagenomics_F5_1S_S25-genes.gff",
+          "GLDS-252_GMetagenomics_F5_1S_S25-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F5_1S_S25-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F5_1S_S25.bam",
+          "GLDS-252_GMetagenomics_F5_1S_S25-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F5_1S_S25-metabat-assembly-depth.tsv",
+          "F5_S1_P",
+          "F5_S1_P Forward",
+          "116815",
+          "13.23",
+          "GLDS-252_GMetagenomics_F5_1S_P_S22-assembly.fasta",
+          "GLDS-252_GMetagenomics_F5_1S_P_S22-genes.faa",
+          "GLDS-252_GMetagenomics_F5_1S_P_S22-genes.fasta",
+          "GLDS-252_GMetagenomics_F5_1S_P_S22-genes.gff",
+          "GLDS-252_GMetagenomics_F5_1S_P_S22-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F5_1S_P_S22-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F5_1S_P_S22.bam",
+          "GLDS-252_GMetagenomics_F5_1S_P_S22-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F5_1S_P_S22-metabat-assembly-depth.tsv",
+          "F5_S2",
+          "F5_S2 Forward",
+          "5720032",
+          "36.09",
+          "GLDS-252_GMetagenomics_F5_2S_S20-assembly.fasta",
+          "GLDS-252_GMetagenomics_F5_2S_S20-genes.faa",
+          "GLDS-252_GMetagenomics_F5_2S_S20-genes.fasta",
+          "GLDS-252_GMetagenomics_F5_2S_S20-genes.gff",
+          "GLDS-252_GMetagenomics_F5_2S_S20-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F5_2S_S20-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F5_2S_S20.bam",
+          "GLDS-252_GMetagenomics_F5_2S_S20-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F5_2S_S20-metabat-assembly-depth.tsv",
+          "F5_S2_P",
+          "F5_S2_P Forward",
+          "361409",
+          "22.81",
+          "GLDS-252_GMetagenomics_F5_2S_P_S6-assembly.fasta",
+          "GLDS-252_GMetagenomics_F5_2S_P_S6-genes.faa",
+          "GLDS-252_GMetagenomics_F5_2S_P_S6-genes.fasta",
+          "GLDS-252_GMetagenomics_F5_2S_P_S6-genes.gff",
+          "GLDS-252_GMetagenomics_F5_2S_P_S6-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F5_2S_P_S6-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F5_2S_P_S6.bam",
+          "GLDS-252_GMetagenomics_F5_2S_P_S6-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F5_2S_P_S6-metabat-assembly-depth.tsv",
+          "F5_S3",
+          "F5_S3 Forward",
+          "2919489",
+          "61.23",
+          "GLDS-252_GMetagenomics_F5_3S_S29-assembly.fasta",
+          "GLDS-252_GMetagenomics_F5_3S_S29-genes.faa",
+          "GLDS-252_GMetagenomics_F5_3S_S29-genes.fasta",
+          "GLDS-252_GMetagenomics_F5_3S_S29-genes.gff",
+          "GLDS-252_GMetagenomics_F5_3S_S29-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F5_3S_S29-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F5_3S_S29.bam",
+          "GLDS-252_GMetagenomics_F5_3S_S29-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F5_3S_S29-metabat-assembly-depth.tsv",
+          "F5_S3_P",
+          "F5_S3_P Forward",
+          "958473",
+          "37.72",
+          "GLDS-252_GMetagenomics_F5_3S_P_S26-assembly.fasta",
+          "GLDS-252_GMetagenomics_F5_3S_P_S26-genes.faa",
+          "GLDS-252_GMetagenomics_F5_3S_P_S26-genes.fasta",
+          "GLDS-252_GMetagenomics_F5_3S_P_S26-genes.gff",
+          "GLDS-252_GMetagenomics_F5_3S_P_S26-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F5_3S_P_S26-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F5_3S_P_S26.bam",
+          "GLDS-252_GMetagenomics_F5_3S_P_S26-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F5_3S_P_S26-metabat-assembly-depth.tsv",
+          "F5_S4",
+          "F5_S4 Forward",
+          "1827291",
+          "59.47",
+          "GLDS-252_GMetagenomics_F5_4S_S12-assembly.fasta",
+          "GLDS-252_GMetagenomics_F5_4S_S12-genes.faa",
+          "GLDS-252_GMetagenomics_F5_4S_S12-genes.fasta",
+          "GLDS-252_GMetagenomics_F5_4S_S12-genes.gff",
+          "GLDS-252_GMetagenomics_F5_4S_S12-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F5_4S_S12-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F5_4S_S12.bam",
+          "GLDS-252_GMetagenomics_F5_4S_S12-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F5_4S_S12-metabat-assembly-depth.tsv",
+          "F5_S4_P",
+          "F5_S4_P Forward",
+          "531042",
+          "13.05",
+          "GLDS-252_GMetagenomics_F5_4S_P_S19-assembly.fasta",
+          "GLDS-252_GMetagenomics_F5_4S_P_S19-genes.faa",
+          "GLDS-252_GMetagenomics_F5_4S_P_S19-genes.fasta",
+          "GLDS-252_GMetagenomics_F5_4S_P_S19-genes.gff",
+          "GLDS-252_GMetagenomics_F5_4S_P_S19-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F5_4S_P_S19-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F5_4S_P_S19.bam",
+          "GLDS-252_GMetagenomics_F5_4S_P_S19-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F5_4S_P_S19-metabat-assembly-depth.tsv",
+          "F5_S5",
+          "F5_S5 Forward",
+          "4036180",
+          "32.11",
+          "GLDS-252_GMetagenomics_F5_5S_S4-assembly.fasta",
+          "GLDS-252_GMetagenomics_F5_5S_S4-genes.faa",
+          "GLDS-252_GMetagenomics_F5_5S_S4-genes.fasta",
+          "GLDS-252_GMetagenomics_F5_5S_S4-genes.gff",
+          "GLDS-252_GMetagenomics_F5_5S_S4-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F5_5S_S4-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F5_5S_S4.bam",
+          "GLDS-252_GMetagenomics_F5_5S_S4-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F5_5S_S4-metabat-assembly-depth.tsv",
+          "F5_S5_P",
+          "F5_S5_P Forward",
+          "423151",
+          "11.28",
+          "GLDS-252_GMetagenomics_F5_5S_P_S9-assembly.fasta",
+          "GLDS-252_GMetagenomics_F5_5S_P_S9-genes.faa",
+          "GLDS-252_GMetagenomics_F5_5S_P_S9-genes.fasta",
+          "GLDS-252_GMetagenomics_F5_5S_P_S9-genes.gff",
+          "GLDS-252_GMetagenomics_F5_5S_P_S9-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F5_5S_P_S9-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F5_5S_P_S9.bam",
+          "GLDS-252_GMetagenomics_F5_5S_P_S9-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F5_5S_P_S9-metabat-assembly-depth.tsv",
+          "F5_S6",
+          "F5_S6 Forward",
+          "2222461",
+          "49.44",
+          "GLDS-252_GMetagenomics_F5_6S_S30-assembly.fasta",
+          "GLDS-252_GMetagenomics_F5_6S_S30-genes.faa",
+          "GLDS-252_GMetagenomics_F5_6S_S30-genes.fasta",
+          "GLDS-252_GMetagenomics_F5_6S_S30-genes.gff",
+          "GLDS-252_GMetagenomics_F5_6S_S30-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F5_6S_S30-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F5_6S_S30.bam",
+          "GLDS-252_GMetagenomics_F5_6S_S30-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F5_6S_S30-metabat-assembly-depth.tsv",
+          "F5_S6_P",
+          "F5_S6_P Forward",
+          "819263",
+          "4.36",
+          "GLDS-252_GMetagenomics_F5_6S_P_S18-assembly.fasta",
+          "GLDS-252_GMetagenomics_F5_6S_P_S18-genes.faa",
+          "GLDS-252_GMetagenomics_F5_6S_P_S18-genes.fasta",
+          "GLDS-252_GMetagenomics_F5_6S_P_S18-genes.gff",
+          "GLDS-252_GMetagenomics_F5_6S_P_S18-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F5_6S_P_S18-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F5_6S_P_S18.bam",
+          "GLDS-252_GMetagenomics_F5_6S_P_S18-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F5_6S_P_S18-metabat-assembly-depth.tsv",
+          "F5_S7",
+          "F5_S7 Forward",
+          "1446286",
+          "12.92",
+          "GLDS-252_GMetagenomics_F5_7S_S24-assembly.fasta",
+          "GLDS-252_GMetagenomics_F5_7S_S24-genes.faa",
+          "GLDS-252_GMetagenomics_F5_7S_S24-genes.fasta",
+          "GLDS-252_GMetagenomics_F5_7S_S24-genes.gff",
+          "GLDS-252_GMetagenomics_F5_7S_S24-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F5_7S_S24-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F5_7S_S24.bam",
+          "GLDS-252_GMetagenomics_F5_7S_S24-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F5_7S_S24-metabat-assembly-depth.tsv",
+          "F5_S7_P",
+          "F5_S7_P Forward",
+          "420390",
+          "7.1",
+          "GLDS-252_GMetagenomics_F5_7S_P_S1-assembly.fasta",
+          "GLDS-252_GMetagenomics_F5_7S_P_S1-genes.faa",
+          "GLDS-252_GMetagenomics_F5_7S_P_S1-genes.fasta",
+          "GLDS-252_GMetagenomics_F5_7S_P_S1-genes.gff",
+          "GLDS-252_GMetagenomics_F5_7S_P_S1-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F5_7S_P_S1-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F5_7S_P_S1.bam",
+          "GLDS-252_GMetagenomics_F5_7S_P_S1-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F5_7S_P_S1-metabat-assembly-depth.tsv",
+          "F5_S8",
+          "F5_S8 Forward",
+          "3748770",
+          "47.38",
+          "GLDS-252_GMetagenomics_F5_8S_S16-assembly.fasta",
+          "GLDS-252_GMetagenomics_F5_8S_S16-genes.faa",
+          "GLDS-252_GMetagenomics_F5_8S_S16-genes.fasta",
+          "GLDS-252_GMetagenomics_F5_8S_S16-genes.gff",
+          "GLDS-252_GMetagenomics_F5_8S_S16-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F5_8S_S16-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F5_8S_S16.bam",
+          "GLDS-252_GMetagenomics_F5_8S_S16-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F5_8S_S16-metabat-assembly-depth.tsv",
+          "F5_S8_P",
+          "F5_S8_P Forward",
+          "289342",
+          "31.42",
+          "GLDS-252_GMetagenomics_F5_8S_P_S8-assembly.fasta",
+          "GLDS-252_GMetagenomics_F5_8S_P_S8-genes.faa",
+          "GLDS-252_GMetagenomics_F5_8S_P_S8-genes.fasta",
+          "GLDS-252_GMetagenomics_F5_8S_P_S8-genes.gff",
+          "GLDS-252_GMetagenomics_F5_8S_P_S8-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F5_8S_P_S8-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F5_8S_P_S8.bam",
+          "GLDS-252_GMetagenomics_F5_8S_P_S8-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F5_8S_P_S8-metabat-assembly-depth.tsv",
+          "F6_S1",
+          "F6_S1 Forward",
+          "38609269",
+          "1.95",
+          "GLDS-252_GMetagenomics_F6_1S_S13-assembly.fasta",
+          "GLDS-252_GMetagenomics_F6_1S_S13-genes.faa",
+          "GLDS-252_GMetagenomics_F6_1S_S13-genes.fasta",
+          "GLDS-252_GMetagenomics_F6_1S_S13-genes.gff",
+          "GLDS-252_GMetagenomics_F6_1S_S13-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F6_1S_S13-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F6_1S_S13.bam",
+          "GLDS-252_GMetagenomics_F6_1S_S13-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F6_1S_S13-metabat-assembly-depth.tsv",
+          "F6_S1_P",
+          "F6_S1_P Forward",
+          "34583718",
+          "1.4",
+          "GLDS-252_GMetagenomics_F6_1S_P_S13-assembly.fasta",
+          "GLDS-252_GMetagenomics_F6_1S_P_S13-genes.faa",
+          "GLDS-252_GMetagenomics_F6_1S_P_S13-genes.fasta",
+          "GLDS-252_GMetagenomics_F6_1S_P_S13-genes.gff",
+          "GLDS-252_GMetagenomics_F6_1S_P_S13-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F6_1S_P_S13-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F6_1S_P_S13.bam",
+          "GLDS-252_GMetagenomics_F6_1S_P_S13-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F6_1S_P_S13-metabat-assembly-depth.tsv",
+          "F6_S2",
+          "F6_S2 Forward",
+          "7239431",
+          "77.46",
+          "GLDS-252_GMetagenomics_F6_2S_S10-assembly.fasta",
+          "GLDS-252_GMetagenomics_F6_2S_S10-genes.faa",
+          "GLDS-252_GMetagenomics_F6_2S_S10-genes.fasta",
+          "GLDS-252_GMetagenomics_F6_2S_S10-genes.gff",
+          "GLDS-252_GMetagenomics_F6_2S_S10-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F6_2S_S10-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F6_2S_S10.bam",
+          "GLDS-252_GMetagenomics_F6_2S_S10-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F6_2S_S10-metabat-assembly-depth.tsv",
+          "F6_S2_P",
+          "F6_S2_P Forward",
+          "536388",
+          "75.68",
+          "GLDS-252_GMetagenomics_F6_2S_P_S30-assembly.fasta",
+          "GLDS-252_GMetagenomics_F6_2S_P_S30-genes.faa",
+          "GLDS-252_GMetagenomics_F6_2S_P_S30-genes.fasta",
+          "GLDS-252_GMetagenomics_F6_2S_P_S30-genes.gff",
+          "GLDS-252_GMetagenomics_F6_2S_P_S30-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F6_2S_P_S30-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F6_2S_P_S30.bam",
+          "GLDS-252_GMetagenomics_F6_2S_P_S30-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F6_2S_P_S30-metabat-assembly-depth.tsv",
+          "F6_S3",
+          "F6_S3 Forward",
+          "20698608",
+          "GLDS-252_GMetagenomics_F6_3S_S29-assembly.fasta",
+          "GLDS-252_GMetagenomics_F6_3S_S29-genes.faa",
+          "GLDS-252_GMetagenomics_F6_3S_S29-genes.fasta",
+          "GLDS-252_GMetagenomics_F6_3S_S29-genes.gff",
+          "GLDS-252_GMetagenomics_F6_3S_S29-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F6_3S_S29-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F6_3S_S29.bam",
+          "GLDS-252_GMetagenomics_F6_3S_S29-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F6_3S_S29-metabat-assembly-depth.tsv",
+          "F6_S3_P",
+          "F6_S3_P Forward",
+          "30321611",
+          "0.88",
+          "GLDS-252_GMetagenomics_F6_3S_P_S21-assembly.fasta",
+          "GLDS-252_GMetagenomics_F6_3S_P_S21-genes.faa",
+          "GLDS-252_GMetagenomics_F6_3S_P_S21-genes.fasta",
+          "GLDS-252_GMetagenomics_F6_3S_P_S21-genes.gff",
+          "GLDS-252_GMetagenomics_F6_3S_P_S21-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F6_3S_P_S21-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F6_3S_P_S21.bam",
+          "GLDS-252_GMetagenomics_F6_3S_P_S21-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F6_3S_P_S21-metabat-assembly-depth.tsv",
+          "F6_S4",
+          "F6_S4 Forward",
+          "16904758",
+          "49.66",
+          "GLDS-252_GMetagenomics_F6_4S_S25-assembly.fasta",
+          "GLDS-252_GMetagenomics_F6_4S_S25-genes.faa",
+          "GLDS-252_GMetagenomics_F6_4S_S25-genes.fasta",
+          "GLDS-252_GMetagenomics_F6_4S_S25-genes.gff",
+          "GLDS-252_GMetagenomics_F6_4S_S25-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F6_4S_S25-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F6_4S_S25.bam",
+          "GLDS-252_GMetagenomics_F6_4S_S25-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F6_4S_S25-metabat-assembly-depth.tsv",
+          "F6_S4_P",
+          "F6_S4_P Forward",
+          "4377003",
+          "86.44",
+          "GLDS-252_GMetagenomics_F6_4S_P_S17-assembly.fasta",
+          "GLDS-252_GMetagenomics_F6_4S_P_S17-genes.faa",
+          "GLDS-252_GMetagenomics_F6_4S_P_S17-genes.fasta",
+          "GLDS-252_GMetagenomics_F6_4S_P_S17-genes.gff",
+          "GLDS-252_GMetagenomics_F6_4S_P_S17-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F6_4S_P_S17-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F6_4S_P_S17.bam",
+          "GLDS-252_GMetagenomics_F6_4S_P_S17-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F6_4S_P_S17-metabat-assembly-depth.tsv",
+          "F6_S5",
+          "F6_S5 Forward",
+          "19084190",
+          "36.17",
+          "GLDS-252_GMetagenomics_F6_5S_S19-assembly.fasta",
+          "GLDS-252_GMetagenomics_F6_5S_S19-genes.faa",
+          "GLDS-252_GMetagenomics_F6_5S_S19-genes.fasta",
+          "GLDS-252_GMetagenomics_F6_5S_S19-genes.gff",
+          "GLDS-252_GMetagenomics_F6_5S_S19-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F6_5S_S19-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F6_5S_S19.bam",
+          "GLDS-252_GMetagenomics_F6_5S_S19-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F6_5S_S19-metabat-assembly-depth.tsv",
+          "F6_S5_P",
+          "F6_S5_P Forward",
+          "23695931",
+          "8.23",
+          "GLDS-252_GMetagenomics_F6_5S_P_S3-assembly.fasta",
+          "GLDS-252_GMetagenomics_F6_5S_P_S3-genes.faa",
+          "GLDS-252_GMetagenomics_F6_5S_P_S3-genes.fasta",
+          "GLDS-252_GMetagenomics_F6_5S_P_S3-genes.gff",
+          "GLDS-252_GMetagenomics_F6_5S_P_S3-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F6_5S_P_S3-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F6_5S_P_S3.bam",
+          "GLDS-252_GMetagenomics_F6_5S_P_S3-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F6_5S_P_S3-metabat-assembly-depth.tsv",
+          "F6_S6",
+          "F6_S6 Forward",
+          "8453575",
+          "65.98",
+          "GLDS-252_GMetagenomics_F6_6S_S22-assembly.fasta",
+          "GLDS-252_GMetagenomics_F6_6S_S22-genes.faa",
+          "GLDS-252_GMetagenomics_F6_6S_S22-genes.fasta",
+          "GLDS-252_GMetagenomics_F6_6S_S22-genes.gff",
+          "GLDS-252_GMetagenomics_F6_6S_S22-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F6_6S_S22-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F6_6S_S22.bam",
+          "GLDS-252_GMetagenomics_F6_6S_S22-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F6_6S_S22-metabat-assembly-depth.tsv",
+          "F6_S6_P",
+          "F6_S6_P Forward",
+          "571728",
+          "37.75",
+          "GLDS-252_GMetagenomics_F6_6S_P_S26-assembly.fasta",
+          "GLDS-252_GMetagenomics_F6_6S_P_S26-genes.faa",
+          "GLDS-252_GMetagenomics_F6_6S_P_S26-genes.fasta",
+          "GLDS-252_GMetagenomics_F6_6S_P_S26-genes.gff",
+          "GLDS-252_GMetagenomics_F6_6S_P_S26-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F6_6S_P_S26-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F6_6S_P_S26.bam",
+          "GLDS-252_GMetagenomics_F6_6S_P_S26-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F6_6S_P_S26-metabat-assembly-depth.tsv",
+          "F6_S7",
+          "F6_S7 Forward",
+          "19313656",
+          "34.5",
+          "GLDS-252_GMetagenomics_F6_7S_S5-assembly.fasta",
+          "GLDS-252_GMetagenomics_F6_7S_S5-genes.faa",
+          "GLDS-252_GMetagenomics_F6_7S_S5-genes.fasta",
+          "GLDS-252_GMetagenomics_F6_7S_S5-genes.gff",
+          "GLDS-252_GMetagenomics_F6_7S_S5-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F6_7S_S5-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F6_7S_S5.bam",
+          "GLDS-252_GMetagenomics_F6_7S_S5-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F6_7S_S5-metabat-assembly-depth.tsv",
+          "F6_S7_P",
+          "F6_S7_P Forward",
+          "21308291",
+          "7.66",
+          "GLDS-252_GMetagenomics_F6_7S_P_S2-assembly.fasta",
+          "GLDS-252_GMetagenomics_F6_7S_P_S2-genes.faa",
+          "GLDS-252_GMetagenomics_F6_7S_P_S2-genes.fasta",
+          "GLDS-252_GMetagenomics_F6_7S_P_S2-genes.gff",
+          "GLDS-252_GMetagenomics_F6_7S_P_S2-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F6_7S_P_S2-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F6_7S_P_S2.bam",
+          "GLDS-252_GMetagenomics_F6_7S_P_S2-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F6_7S_P_S2-metabat-assembly-depth.tsv",
+          "F6_S8",
+          "F6_S8 Forward",
+          "14097202",
+          "41.05",
+          "GLDS-252_GMetagenomics_F6_8S_S5-assembly.fasta",
+          "GLDS-252_GMetagenomics_F6_8S_S5-genes.faa",
+          "GLDS-252_GMetagenomics_F6_8S_S5-genes.fasta",
+          "GLDS-252_GMetagenomics_F6_8S_S5-genes.gff",
+          "GLDS-252_GMetagenomics_F6_8S_S5-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F6_8S_S5-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F6_8S_S5.bam",
+          "GLDS-252_GMetagenomics_F6_8S_S5-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F6_8S_S5-metabat-assembly-depth.tsv",
+          "F6_S8_P",
+          "F6_S8_P Forward",
+          "26671062",
+          "4.86",
+          "GLDS-252_GMetagenomics_F6_8S_P_S25-assembly.fasta",
+          "GLDS-252_GMetagenomics_F6_8S_P_S25-genes.faa",
+          "GLDS-252_GMetagenomics_F6_8S_P_S25-genes.fasta",
+          "GLDS-252_GMetagenomics_F6_8S_P_S25-genes.gff",
+          "GLDS-252_GMetagenomics_F6_8S_P_S25-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F6_8S_P_S25-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F6_8S_P_S25.bam",
+          "GLDS-252_GMetagenomics_F6_8S_P_S25-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F6_8S_P_S25-metabat-assembly-depth.tsv",
+          "F7_S1",
+          "F7_S1 Forward",
+          "16413711",
+          "35.5",
+          "GLDS-252_GMetagenomics_F7_1S_S18-assembly.fasta",
+          "GLDS-252_GMetagenomics_F7_1S_S18-genes.faa",
+          "GLDS-252_GMetagenomics_F7_1S_S18-genes.fasta",
+          "GLDS-252_GMetagenomics_F7_1S_S18-genes.gff",
+          "GLDS-252_GMetagenomics_F7_1S_S18-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F7_1S_S18-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F7_1S_S18.bam",
+          "GLDS-252_GMetagenomics_F7_1S_S18-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F7_1S_S18-metabat-assembly-depth.tsv",
+          "F7_S1_P",
+          "F7_S1_P Forward",
+          "132660",
+          "63.44",
+          "GLDS-252_GMetagenomics_F7_1S_P_S28-assembly.fasta",
+          "GLDS-252_GMetagenomics_F7_1S_P_S28-genes.faa",
+          "GLDS-252_GMetagenomics_F7_1S_P_S28-genes.fasta",
+          "GLDS-252_GMetagenomics_F7_1S_P_S28-genes.gff",
+          "GLDS-252_GMetagenomics_F7_1S_P_S28-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F7_1S_P_S28-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F7_1S_P_S28.bam",
+          "GLDS-252_GMetagenomics_F7_1S_P_S28-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F7_1S_P_S28-metabat-assembly-depth.tsv",
+          "F7_S2",
+          "F7_S2 Forward",
+          "16480250",
+          "35.32",
+          "GLDS-252_GMetagenomics_F7_2S_S27-assembly.fasta",
+          "GLDS-252_GMetagenomics_F7_2S_S27-genes.faa",
+          "GLDS-252_GMetagenomics_F7_2S_S27-genes.fasta",
+          "GLDS-252_GMetagenomics_F7_2S_S27-genes.gff",
+          "GLDS-252_GMetagenomics_F7_2S_S27-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F7_2S_S27-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F7_2S_S27.bam",
+          "GLDS-252_GMetagenomics_F7_2S_S27-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F7_2S_S27-metabat-assembly-depth.tsv",
+          "F7_S2_P",
+          "F7_S2_P Forward",
+          "125336",
+          "76.87",
+          "GLDS-252_GMetagenomics_F7_2S_P_S7-assembly.fasta",
+          "GLDS-252_GMetagenomics_F7_2S_P_S7-genes.faa",
+          "GLDS-252_GMetagenomics_F7_2S_P_S7-genes.fasta",
+          "GLDS-252_GMetagenomics_F7_2S_P_S7-genes.gff",
+          "GLDS-252_GMetagenomics_F7_2S_P_S7-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F7_2S_P_S7-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F7_2S_P_S7.bam",
+          "GLDS-252_GMetagenomics_F7_2S_P_S7-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F7_2S_P_S7-metabat-assembly-depth.tsv",
+          "F7_S3",
+          "F7_S3 Forward",
+          "16803119",
+          "41.31",
+          "GLDS-252_GMetagenomics_F7_3S_S14-assembly.fasta",
+          "GLDS-252_GMetagenomics_F7_3S_S14-genes.faa",
+          "GLDS-252_GMetagenomics_F7_3S_S14-genes.fasta",
+          "GLDS-252_GMetagenomics_F7_3S_S14-genes.gff",
+          "GLDS-252_GMetagenomics_F7_3S_S14-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F7_3S_S14-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F7_3S_S14.bam",
+          "GLDS-252_GMetagenomics_F7_3S_S14-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F7_3S_S14-metabat-assembly-depth.tsv",
+          "F7_S3_P",
+          "F7_S3_P Forward",
+          "594726",
+          "53.46",
+          "GLDS-252_GMetagenomics_F7_3S_P_S30-assembly.fasta",
+          "GLDS-252_GMetagenomics_F7_3S_P_S30-genes.faa",
+          "GLDS-252_GMetagenomics_F7_3S_P_S30-genes.fasta",
+          "GLDS-252_GMetagenomics_F7_3S_P_S30-genes.gff",
+          "GLDS-252_GMetagenomics_F7_3S_P_S30-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F7_3S_P_S30-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F7_3S_P_S30.bam",
+          "GLDS-252_GMetagenomics_F7_3S_P_S30-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F7_3S_P_S30-metabat-assembly-depth.tsv",
+          "F7_S4",
+          "F7_S4 Forward",
+          "7481144",
+          "61.67",
+          "GLDS-252_GMetagenomics_F7_4S_S11-assembly.fasta",
+          "GLDS-252_GMetagenomics_F7_4S_S11-genes.faa",
+          "GLDS-252_GMetagenomics_F7_4S_S11-genes.fasta",
+          "GLDS-252_GMetagenomics_F7_4S_S11-genes.gff",
+          "GLDS-252_GMetagenomics_F7_4S_S11-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F7_4S_S11-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F7_4S_S11.bam",
+          "GLDS-252_GMetagenomics_F7_4S_S11-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F7_4S_S11-metabat-assembly-depth.tsv",
+          "F7_S4_P",
+          "F7_S4_P Forward",
+          "689766",
+          "95.58",
+          "GLDS-252_GMetagenomics_F7_4S_P_S8-assembly.fasta",
+          "GLDS-252_GMetagenomics_F7_4S_P_S8-genes.faa",
+          "GLDS-252_GMetagenomics_F7_4S_P_S8-genes.fasta",
+          "GLDS-252_GMetagenomics_F7_4S_P_S8-genes.gff",
+          "GLDS-252_GMetagenomics_F7_4S_P_S8-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F7_4S_P_S8-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F7_4S_P_S8.bam",
+          "GLDS-252_GMetagenomics_F7_4S_P_S8-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F7_4S_P_S8-metabat-assembly-depth.tsv",
+          "F7_S5",
+          "F7_S5 Forward",
+          "6074836",
+          "78.22",
+          "GLDS-252_GMetagenomics_F7_5S_S23-assembly.fasta",
+          "GLDS-252_GMetagenomics_F7_5S_S23-genes.faa",
+          "GLDS-252_GMetagenomics_F7_5S_S23-genes.fasta",
+          "GLDS-252_GMetagenomics_F7_5S_S23-genes.gff",
+          "GLDS-252_GMetagenomics_F7_5S_S23-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F7_5S_S23-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F7_5S_S23.bam",
+          "GLDS-252_GMetagenomics_F7_5S_S23-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F7_5S_S23-metabat-assembly-depth.tsv",
+          "F7_S5_P",
+          "F7_S5_P Forward",
+          "88614",
+          "73.25",
+          "GLDS-252_GMetagenomics_F7_5S_P_S22-assembly.fasta",
+          "GLDS-252_GMetagenomics_F7_5S_P_S22-genes.faa",
+          "GLDS-252_GMetagenomics_F7_5S_P_S22-genes.fasta",
+          "GLDS-252_GMetagenomics_F7_5S_P_S22-genes.gff",
+          "GLDS-252_GMetagenomics_F7_5S_P_S22-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F7_5S_P_S22-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F7_5S_P_S22.bam",
+          "GLDS-252_GMetagenomics_F7_5S_P_S22-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F7_5S_P_S22-metabat-assembly-depth.tsv",
+          "F7_S6",
+          "F7_S6 Forward",
+          "4431686",
+          "65.56",
+          "GLDS-252_GMetagenomics_F7_6S_S3-assembly.fasta",
+          "GLDS-252_GMetagenomics_F7_6S_S3-genes.faa",
+          "GLDS-252_GMetagenomics_F7_6S_S3-genes.fasta",
+          "GLDS-252_GMetagenomics_F7_6S_S3-genes.gff",
+          "GLDS-252_GMetagenomics_F7_6S_S3-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F7_6S_S3-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F7_6S_S3.bam",
+          "GLDS-252_GMetagenomics_F7_6S_S3-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F7_6S_S3-metabat-assembly-depth.tsv",
+          "F7_S6_P",
+          "F7_S6_P Forward",
+          "193936",
+          "61.2",
+          "GLDS-252_GMetagenomics_F7_6S_P_S15-assembly.fasta",
+          "GLDS-252_GMetagenomics_F7_6S_P_S15-genes.faa",
+          "GLDS-252_GMetagenomics_F7_6S_P_S15-genes.fasta",
+          "GLDS-252_GMetagenomics_F7_6S_P_S15-genes.gff",
+          "GLDS-252_GMetagenomics_F7_6S_P_S15-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F7_6S_P_S15-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F7_6S_P_S15.bam",
+          "GLDS-252_GMetagenomics_F7_6S_P_S15-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F7_6S_P_S15-metabat-assembly-depth.tsv",
+          "F7_S7",
+          "F7_S7 Forward",
+          "9701691",
+          "60.83",
+          "GLDS-252_GMetagenomics_F7_7S_S4-assembly.fasta",
+          "GLDS-252_GMetagenomics_F7_7S_S4-genes.faa",
+          "GLDS-252_GMetagenomics_F7_7S_S4-genes.fasta",
+          "GLDS-252_GMetagenomics_F7_7S_S4-genes.gff",
+          "GLDS-252_GMetagenomics_F7_7S_S4-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F7_7S_S4-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F7_7S_S4.bam",
+          "GLDS-252_GMetagenomics_F7_7S_S4-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F7_7S_S4-metabat-assembly-depth.tsv",
+          "F7_S7_P",
+          "F7_S7_P Forward",
+          "61538",
+          "74.7",
+          "GLDS-252_GMetagenomics_F7_7S_P_S11-assembly.fasta",
+          "GLDS-252_GMetagenomics_F7_7S_P_S11-genes.faa",
+          "GLDS-252_GMetagenomics_F7_7S_P_S11-genes.fasta",
+          "GLDS-252_GMetagenomics_F7_7S_P_S11-genes.gff",
+          "GLDS-252_GMetagenomics_F7_7S_P_S11-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F7_7S_P_S11-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F7_7S_P_S11.bam",
+          "GLDS-252_GMetagenomics_F7_7S_P_S11-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F7_7S_P_S11-metabat-assembly-depth.tsv",
+          "F7_S8",
+          "F7_S8 Forward",
+          "6420133",
+          "74.96",
+          "GLDS-252_GMetagenomics_F7_8S_S20-assembly.fasta",
+          "GLDS-252_GMetagenomics_F7_8S_S20-genes.faa",
+          "GLDS-252_GMetagenomics_F7_8S_S20-genes.fasta",
+          "GLDS-252_GMetagenomics_F7_8S_S20-genes.gff",
+          "GLDS-252_GMetagenomics_F7_8S_S20-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F7_8S_S20-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F7_8S_S20.bam",
+          "GLDS-252_GMetagenomics_F7_8S_S20-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F7_8S_S20-metabat-assembly-depth.tsv",
+          "F7_S8_P",
+          "F7_S8_P Forward",
+          "116618",
+          "68.23",
+          "GLDS-252_GMetagenomics_F7_8S_P_S15-assembly.fasta",
+          "GLDS-252_GMetagenomics_F7_8S_P_S15-genes.faa",
+          "GLDS-252_GMetagenomics_F7_8S_P_S15-genes.fasta",
+          "GLDS-252_GMetagenomics_F7_8S_P_S15-genes.gff",
+          "GLDS-252_GMetagenomics_F7_8S_P_S15-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F7_8S_P_S15-contig-coverage-and-tax.tsv",
+          "GLDS-252_GMetagenomics_F7_8S_P_S15.bam",
+          "GLDS-252_GMetagenomics_F7_8S_P_S15-mapping-info.txt",
+          "GLDS-252_GMetagenomics_F7_8S_P_S15-metabat-assembly-depth.tsv"
+        ],
+        "reports": [
+          "GLDS-252_GMetagenomics_raw_multiqc_GLmetagenomics_report.zip",
+          "GLDS-252_GMetagenomics_filtered_multiqc_GLmetagenomics_report.zip"
+        ]
+      }
+    }
+  ]
+}

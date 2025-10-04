@@ -1,0 +1,525 @@
+{
+  "investigation": {
+    "id": "STS-135 Liver RNAseq",
+    "title": "STS-135: Mouse Liver Transcriptomics using RNA-Seq",
+    "description": "Female C57BL/6CR mice were flown onboard STS-135 for 13 days and returned to Earth for analysis. Livers were collected within 3-4 hours of landing and snap frozen in liquid nitrogen.",
+    "mission": {
+      "name": "STS-135",
+      "start_date": "08-Jul-2011",
+      "end_date": "21-Jul-2011",
+      "link": "https://lsda.jsc.nasa.gov/scripts/mission/miss.aspx?mis_index=320"
+    },
+    "project": {
+      "identifier": "CBTM-3 (Biospecimen Sharing Program)",
+      "title": "Commercial Biomedical Test Module-3",
+      "type": "Spaceflight Study",
+      "link": "https://lsda.jsc.nasa.gov/scripts/experiment/exper.aspx?exp_index=1983",
+      "funding": "This investigation was funded by the ISS National Lab, the NASA Space Biology Program Office, Space Life and Physical Sciences Research and Applications Division and additional funding from the International Space Station Research Integration Office to the Space Biology GeneLab Project",
+      "managing_center": "Ames Research Center (ARC)"
+    },
+    "protocols": [
+      "sample collection",
+      "nucleic acid extraction",
+      "spike-in control",
+      "library construction",
+      "nucleic acid sequencing",
+      "radiation dosimetry",
+      "GeneLab RNAseq data processing protocol",
+      "GeneLab raw data processing protocol"
+    ],
+    "publications": [],
+    "factors": [
+      "Spaceflight"
+    ],
+    "contacts": [
+      {
+        "first_name": "Sylvain",
+        "last_name": "Costes",
+        "role": "conceptualization",
+        "email": "sylvain.v.costes@nasa.gov"
+      },
+      {
+        "first_name": "Kaushik",
+        "last_name": "Chakravarty",
+        "role": "conceptualization",
+        "email": ""
+      },
+      {
+        "first_name": "Samrawit",
+        "last_name": "Gebre",
+        "role": "Data Curation",
+        "email": ""
+      },
+      {
+        "first_name": "San-Huei",
+        "last_name": "Lai Polo",
+        "role": "Data Curation",
+        "email": ""
+      },
+      {
+        "first_name": "Amanda",
+        "last_name": "Saravia-Butler",
+        "role": "Formal Analysis",
+        "email": ""
+      },
+      {
+        "first_name": "Homer",
+        "last_name": "Fogle",
+        "role": "Formal Analysis",
+        "email": ""
+      },
+      {
+        "first_name": "Valery",
+        "last_name": "Boyko",
+        "role": "investigation",
+        "email": ""
+      },
+      {
+        "first_name": "San-Huei",
+        "last_name": "Lai Polo",
+        "role": "investigation",
+        "email": ""
+      },
+      {
+        "first_name": "UC Davis",
+        "last_name": "Genome Center",
+        "role": "investigation",
+        "email": ""
+      },
+      {
+        "first_name": "Sylvain",
+        "last_name": "Costes",
+        "role": "Project Administration",
+        "email": ""
+      },
+      {
+        "first_name": "Karen",
+        "last_name": "Jonscher",
+        "role": "Resources",
+        "email": ""
+      },
+      {
+        "first_name": "Jonathan",
+        "last_name": "Galazka",
+        "role": "Validation",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "Mmus_C57-6CR_LVR_VIV_Rep1_V14",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Sex": "female",
+          "Age at Launch": "9",
+          "Material Type": "liver",
+          "Launch Mission": ""
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "Light Cycle": "12 h light/dark cycle",
+          "Habitat": "Vivarium Cage",
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "vehicle": "",
+          "ionizing radiation": "non-irradiated",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Original Submitted Sample Name": "STS135_VIV_14_LVR",
+          "Initiation Date": "8-Jul-11",
+          "Completion Date": "21-Jul-11"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6CR_LVR_VIV_Rep2_V9",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Sex": "female",
+          "Age at Launch": "9",
+          "Material Type": "liver",
+          "Launch Mission": ""
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "Light Cycle": "12 h light/dark cycle",
+          "Habitat": "Vivarium Cage",
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "vehicle": "",
+          "ionizing radiation": "non-irradiated",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Original Submitted Sample Name": "STS135_VIV_9_LVR",
+          "Initiation Date": "8-Jul-11",
+          "Completion Date": "21-Jul-11"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6CR_LVR_GC_Rep1_G40",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Sex": "female",
+          "Age at Launch": "9",
+          "Material Type": "liver",
+          "Launch Mission": ""
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Light Cycle": "12 h light/dark cycle",
+          "Habitat": "AEM",
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "vehicle": "",
+          "ionizing radiation": "non-irradiated",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Original Submitted Sample Name": "STS135_GC_40_LVR",
+          "Initiation Date": "8-Jul-11",
+          "Completion Date": "21-Jul-11"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6CR_LVR_GC_Rep2_G44",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Sex": "female",
+          "Age at Launch": "9",
+          "Material Type": "liver",
+          "Launch Mission": ""
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Light Cycle": "12 h light/dark cycle",
+          "Habitat": "AEM",
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "vehicle": "",
+          "ionizing radiation": "non-irradiated",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Original Submitted Sample Name": "STS135_GC_44_LVR",
+          "Initiation Date": "8-Jul-11",
+          "Completion Date": "21-Jul-11"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6CR_LVR_FLT_Rep1_F58",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Sex": "female",
+          "Age at Launch": "9",
+          "Material Type": "liver",
+          "Launch Mission": "STS-135"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Light Cycle": "12 h light/dark cycle",
+          "Habitat": "AEM",
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "vehicle": "Space Shuttle",
+          "ionizing radiation": "space radiation",
+          "absorbed radiation dose": "4.66",
+          "absorbed radiation dose rate": "0.37",
+          "exposure duration": "12.76",
+          "ionizing radiation categorized by source": "outer space"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Original Submitted Sample Name": "STS135_FLT_58_LVR",
+          "Initiation Date": "8-Jul-11",
+          "Completion Date": "21-Jul-11"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6CR_LVR_FLT_Rep2_F64",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Sex": "female",
+          "Age at Launch": "9",
+          "Material Type": "liver",
+          "Launch Mission": "STS-135"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Light Cycle": "12 h light/dark cycle",
+          "Habitat": "AEM",
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "vehicle": "Space Shuttle",
+          "ionizing radiation": "space radiation",
+          "absorbed radiation dose": "4.66",
+          "absorbed radiation dose rate": "0.37",
+          "exposure duration": "12.76",
+          "ionizing radiation categorized by source": "outer space"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Original Submitted Sample Name": "STS135_FLT_64_LVR",
+          "Initiation Date": "8-Jul-11",
+          "Completion Date": "21-Jul-11"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "pmj150512",
+      "platform": "Illumina HiSeq 4000",
+      "qc": {
+        "QA Instrument": "Agilent Bioanalyzer 2100",
+        "QA Assay": "RNA 6000 Nano Kit",
+        "QA Score": "9.7",
+        "Read Depth": "50823102",
+        "rRNA Contamination": "3.94"
+      },
+      "library": {},
+      "files": {
+        "raw": [
+          "GLDS-173_rna-seq_STS135-VIV-14.tar",
+          "GLDS-173_rna-seq_STS135-VIV-9.tar",
+          "GLDS-173_rna-seq_STS135-GC-40.tar",
+          "GLDS-173_rna-seq_STS135-GC-44.tar",
+          "GLDS-173_rna-seq_STS135-FLT-58.tar",
+          "GLDS-173_rna-seq_STS135-FLT-64.tar",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_VIV_Rep1_V14_R1_raw.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_VIV_Rep1_V14_R2_raw.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_VIV_Rep1_V14_R1_trimmed.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_VIV_Rep1_V14_R2_trimmed.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_VIV_Rep2_V9_R1_raw.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_VIV_Rep2_V9_R2_raw.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_VIV_Rep2_V9_R1_trimmed.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_VIV_Rep2_V9_R2_trimmed.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_GC_Rep1_G40_R1_raw.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_GC_Rep1_G40_R2_raw.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_GC_Rep1_G40_R1_trimmed.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_GC_Rep1_G40_R2_trimmed.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_GC_Rep2_G44_R1_raw.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_GC_Rep2_G44_R2_raw.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_GC_Rep2_G44_R1_trimmed.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_GC_Rep2_G44_R2_trimmed.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_FLT_Rep1_F58_R1_raw.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_FLT_Rep1_F58_R2_raw.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_FLT_Rep1_F58_R1_trimmed.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_FLT_Rep1_F58_R2_trimmed.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_FLT_Rep2_F64_R1_raw.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_FLT_Rep2_F64_R2_raw.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_FLT_Rep2_F64_R1_trimmed.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_FLT_Rep2_F64_R2_trimmed.fastq.gz"
+        ],
+        "processed": [
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_VIV_Rep1_V14_R1_trimmed.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_VIV_Rep1_V14_R2_trimmed.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_VIV_Rep1_V14_Aligned.sortedByCoord.out.bam",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_VIV_Rep1_V14_Aligned.toTranscriptome.out.bam",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_VIV_Rep1_V14_SJ.out.tab",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_VIV_Rep1_V14.genes.results",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_VIV_Rep1_V14.isoforms.results",
+          "GLDS-173_rna_seq_Unnormalized_Counts.csv",
+          "GLDS-173_rna_seq_Normalized_Counts.csv",
+          "GLDS-173_rna_seq_ERCC_Normalized_Counts.csv",
+          "GLDS-173_rna_seq_SampleTable.csv",
+          "GLDS-173_rna_seq_ERCCnorm_SampleTable.csv",
+          "GLDS-173_rna_seq_contrasts.csv",
+          "GLDS-173_rna_seq_differential_expression.csv",
+          "GLDS-173_rna_seq_ERCCnorm_contrasts.csv",
+          "GLDS-173_rna_seq_ERCCnorm_differential_expression.csv",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_VIV_Rep2_V9_R1_trimmed.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_VIV_Rep2_V9_R2_trimmed.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_VIV_Rep2_V9_Aligned.sortedByCoord.out.bam",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_VIV_Rep2_V9_Aligned.toTranscriptome.out.bam",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_VIV_Rep2_V9_SJ.out.tab",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_VIV_Rep2_V9.genes.results",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_VIV_Rep2_V9.isoforms.results",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_GC_Rep1_G40_R1_trimmed.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_GC_Rep1_G40_R2_trimmed.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_GC_Rep1_G40_Aligned.sortedByCoord.out.bam",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_GC_Rep1_G40_Aligned.toTranscriptome.out.bam",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_GC_Rep1_G40_SJ.out.tab",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_GC_Rep1_G40.genes.results",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_GC_Rep1_G40.isoforms.results",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_GC_Rep2_G44_R1_trimmed.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_GC_Rep2_G44_R2_trimmed.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_GC_Rep2_G44_Aligned.sortedByCoord.out.bam",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_GC_Rep2_G44_Aligned.toTranscriptome.out.bam",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_GC_Rep2_G44_SJ.out.tab",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_GC_Rep2_G44.genes.results",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_GC_Rep2_G44.isoforms.results",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_FLT_Rep1_F58_R1_trimmed.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_FLT_Rep1_F58_R2_trimmed.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_FLT_Rep1_F58_Aligned.sortedByCoord.out.bam",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_FLT_Rep1_F58_Aligned.toTranscriptome.out.bam",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_FLT_Rep1_F58_SJ.out.tab",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_FLT_Rep1_F58.genes.results",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_FLT_Rep1_F58.isoforms.results",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_FLT_Rep2_F64_R1_trimmed.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_FLT_Rep2_F64_R2_trimmed.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_FLT_Rep2_F64_Aligned.sortedByCoord.out.bam",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_FLT_Rep2_F64_Aligned.toTranscriptome.out.bam",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_FLT_Rep2_F64_SJ.out.tab",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_FLT_Rep2_F64.genes.results",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_FLT_Rep2_F64.isoforms.results",
+          "Mmus_C57-6CR_LVR_VIV_Rep1_V14",
+          "GeneLab RNAseq data processing protocol",
+          "Agilent Bioanalyzer 2100",
+          "RNA 6000 Nano Kit",
+          "9.7",
+          "read",
+          "ERCC ExFold RNA Spike-In Mixes",
+          "Mix 1",
+          "Ribo-depletion",
+          "PAIRED",
+          "STRANDED",
+          "Illumina HiSeq 4000",
+          "150",
+          "rna-seq",
+          "GLDS-173_rna-seq_STS135-VIV-14.tar",
+          "3.94",
+          "50823102",
+          "GLDS-173_rna_seq_ERCC_analysis.html",
+          "Mmus_C57-6CR_LVR_VIV_Rep2_V9",
+          "9.6",
+          "Mix 2",
+          "GLDS-173_rna-seq_STS135-VIV-9.tar",
+          "3.6",
+          "58742823",
+          "Mmus_C57-6CR_LVR_GC_Rep1_G40",
+          "GLDS-173_rna-seq_STS135-GC-40.tar",
+          "3.74",
+          "57188176",
+          "Mmus_C57-6CR_LVR_GC_Rep2_G44",
+          "9.5",
+          "GLDS-173_rna-seq_STS135-GC-44.tar",
+          "4.42",
+          "50408003",
+          "Mmus_C57-6CR_LVR_FLT_Rep1_F58",
+          "GLDS-173_rna-seq_STS135-FLT-58.tar",
+          "5.07",
+          "54430569",
+          "Mmus_C57-6CR_LVR_FLT_Rep2_F64",
+          "GLDS-173_rna-seq_STS135-FLT-64.tar",
+          "5.5",
+          "46374739"
+        ],
+        "reports": [
+          "GLDS-173_rna_seq_raw_multiqc_report.html",
+          "GLDS-173_rna_seq_raw_multiqc_data.zip",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_VIV_Rep1_V14_R1_raw_fastqc.html",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_VIV_Rep1_V14_R1_raw_fastqc.zip",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_VIV_Rep1_V14_R2_raw_fastqc.html",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_VIV_Rep1_V14_R2_raw_fastqc.zip",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_VIV_Rep1_V14_R1_trimmed_fastqc.html",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_VIV_Rep1_V14_R1_trimmed_fastqc.zip",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_VIV_Rep1_V14_R2_trimmed_fastqc.html",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_VIV_Rep1_V14_R2_trimmed_fastqc.zip",
+          "GLDS-173_rna_seq_trimmed_multiqc_report.html",
+          "GLDS-173_rna_seq_trimmed_multiqc_data.zip",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_VIV_Rep1_V14_R1_trimmed.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_VIV_Rep1_V14_R2_trimmed.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_VIV_Rep1_V14_Log.final.out",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_VIV_Rep2_V9_R1_raw_fastqc.html",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_VIV_Rep2_V9_R1_raw_fastqc.zip",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_VIV_Rep2_V9_R2_raw_fastqc.html",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_VIV_Rep2_V9_R2_raw_fastqc.zip",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_VIV_Rep2_V9_R1_trimmed_fastqc.html",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_VIV_Rep2_V9_R1_trimmed_fastqc.zip",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_VIV_Rep2_V9_R2_trimmed_fastqc.html",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_VIV_Rep2_V9_R2_trimmed_fastqc.zip",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_VIV_Rep2_V9_R1_trimmed.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_VIV_Rep2_V9_R2_trimmed.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_VIV_Rep2_V9_Log.final.out",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_GC_Rep1_G40_R1_raw_fastqc.html",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_GC_Rep1_G40_R1_raw_fastqc.zip",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_GC_Rep1_G40_R2_raw_fastqc.html",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_GC_Rep1_G40_R2_raw_fastqc.zip",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_GC_Rep1_G40_R1_trimmed_fastqc.html",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_GC_Rep1_G40_R1_trimmed_fastqc.zip",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_GC_Rep1_G40_R2_trimmed_fastqc.html",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_GC_Rep1_G40_R2_trimmed_fastqc.zip",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_GC_Rep1_G40_R1_trimmed.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_GC_Rep1_G40_R2_trimmed.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_GC_Rep1_G40_Log.final.out",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_GC_Rep2_G44_R1_raw_fastqc.html",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_GC_Rep2_G44_R1_raw_fastqc.zip",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_GC_Rep2_G44_R2_raw_fastqc.html",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_GC_Rep2_G44_R2_raw_fastqc.zip",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_GC_Rep2_G44_R1_trimmed_fastqc.html",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_GC_Rep2_G44_R1_trimmed_fastqc.zip",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_GC_Rep2_G44_R2_trimmed_fastqc.html",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_GC_Rep2_G44_R2_trimmed_fastqc.zip",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_GC_Rep2_G44_R1_trimmed.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_GC_Rep2_G44_R2_trimmed.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_GC_Rep2_G44_Log.final.out",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_FLT_Rep1_F58_R1_raw_fastqc.html",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_FLT_Rep1_F58_R1_raw_fastqc.zip",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_FLT_Rep1_F58_R2_raw_fastqc.html",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_FLT_Rep1_F58_R2_raw_fastqc.zip",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_FLT_Rep1_F58_R1_trimmed_fastqc.html",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_FLT_Rep1_F58_R1_trimmed_fastqc.zip",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_FLT_Rep1_F58_R2_trimmed_fastqc.html",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_FLT_Rep1_F58_R2_trimmed_fastqc.zip",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_FLT_Rep1_F58_R1_trimmed.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_FLT_Rep1_F58_R2_trimmed.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_FLT_Rep1_F58_Log.final.out",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_FLT_Rep2_F64_R1_raw_fastqc.html",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_FLT_Rep2_F64_R1_raw_fastqc.zip",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_FLT_Rep2_F64_R2_raw_fastqc.html",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_FLT_Rep2_F64_R2_raw_fastqc.zip",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_FLT_Rep2_F64_R1_trimmed_fastqc.html",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_FLT_Rep2_F64_R1_trimmed_fastqc.zip",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_FLT_Rep2_F64_R2_trimmed_fastqc.html",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_FLT_Rep2_F64_R2_trimmed_fastqc.zip",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_FLT_Rep2_F64_R1_trimmed.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_FLT_Rep2_F64_R2_trimmed.fastq.gz",
+          "GLDS-173_rna_seq_Mmus_C57-6CR_LVR_FLT_Rep2_F64_Log.final.out"
+        ]
+      }
+    }
+  ]
+}

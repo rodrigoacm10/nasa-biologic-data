@@ -1,0 +1,988 @@
+{
+  "investigation": {
+    "id": "OSD-313",
+    "title": "Dissecting transcriptional responses of nucleolin mutants to red light stimulation and darkness in ground reference conditions",
+    "description": "Understanding plant adaptive responses to the space environment is a requisite for enabling space farming. Spaceflight produce deleterious effects on plant cells, particularly affecting ribosome biogenesis, a complex stress-sensitive process coordinated with cell division and differentiation, known to be activated by red light.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "",
+      "title": "Novel Explorations Into the Interactions Between Light and Gravity Sensing in Plants - Seedling Growth-2",
+      "type": "Ground Study",
+      "link": "https://nlsp.nasa.gov/view/lsdapub/lsda_experiment/fc704f78-eab4-504c-a465-ea68e8384787",
+      "funding": "This work was supported by the Agencia Estatal de Investigación of the Spanish Ministry of Science and Innovation, Grants #ESP2015-64323-R and #RTI2018-099309-B-I00 (co-funded by EU-ERDF) to F.J.M., by pre-doctoral fellowships to A.M. and A.V. from the Spanish National Program for Young Researchers Training (MINECO, Ref. BES-2013-063933, BES-2016-077976), and the Seedling Growth Project to the ISS LSRA2009-0932/1177, a shared project of ESA-ELIPS Program and NASA. J.Z.K. is funded by Grants NNX12A065G and 80NSSC17K0546. These results are related to the Space Omics TT funded by the European Space Agency contract ESA 4000131202/20/NL/PG to R.H.",
+      "managing_center": ""
+    },
+    "protocols": [
+      "growth protocol",
+      "treatment protocol",
+      "sample collection",
+      "Nucleic Acid Extraction",
+      "Library Construction",
+      "Nucleic Acid Sequencing",
+      "GeneLab raw data processing protocol",
+      "GeneLab RNAseq data processing protocol"
+    ],
+    "publications": [
+      {
+        "title": "The Importance of Earth Reference Controls in Spaceflight -Omics Research: Characterization of Nucleolin Mutants from the Seedling Growth Experiments.",
+        "doi": "10.1016/j.isci.2020.101686",
+        "authors": [
+          "Manzano A",
+          "Villacampa A",
+          "Sáez-Vásquez J",
+          "Kiss JZ",
+          "Medina FJ",
+          "Herranz R."
+        ],
+        "summary": "The Importance of Earth Reference Controls in Spaceflight -Omics Research: Characterization of Nucleolin Mutants from the Seedling Growth Experiments. — 10.1016/j.isci.2020.101686"
+      }
+    ],
+    "factors": [
+      "Genotype",
+      "Treatment"
+    ],
+    "contacts": [
+      {
+        "first_name": "F. Javier",
+        "last_name": "Medina",
+        "role": "conceptualization role",
+        "email": "r.herranz@csic.es"
+      },
+      {
+        "first_name": "Raul",
+        "last_name": "Herranz",
+        "role": "conceptualization role",
+        "email": ""
+      },
+      {
+        "first_name": "John",
+        "last_name": "Kiss",
+        "role": "conceptualization role",
+        "email": ""
+      },
+      {
+        "first_name": "Julio",
+        "last_name": "Saez-Vasquez",
+        "role": "conceptualization role",
+        "email": ""
+      },
+      {
+        "first_name": "Aranzazu",
+        "last_name": "Manzano",
+        "role": "Co-investigator",
+        "email": ""
+      },
+      {
+        "first_name": "Alicia",
+        "last_name": "Villacampa",
+        "role": "Co-investigator",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "21H5_WT_RED_Col0_1g_Rep1",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0",
+          "Genotype": "Wild Type",
+          "organism part": "Seedlings"
+        },
+        "factors": {
+          "Treatment": "48 hours of red light"
+        },
+        "parameters": {
+          "Growth Medium": "sterile nitrocellulose membrane with 1% (w/v) Guar Gum affixed on blotter paper soaked in Murashige and Skoogs",
+          "Mean Growth Temperature": "22",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "Growth Time": "6",
+          "Growth Light Cycle": "16:8 light:dark",
+          "Growth Light Source": "Light Emitting Diode Device",
+          "Growth Light Intensity": "30-40",
+          "Growth Light Color": "Visible Light",
+          "Light Treatment Duration": "2",
+          "Treatment Light Color": "Red Light",
+          "Treatment Light Intensity": "19",
+          "Treatment Light Cycle": "light 24",
+          "Treatment Light Source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "22A6_WT_RED_Col0_1g_Rep2",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0",
+          "Genotype": "Wild Type",
+          "organism part": "Seedlings"
+        },
+        "factors": {
+          "Treatment": "48 hours of red light"
+        },
+        "parameters": {
+          "Growth Medium": "sterile nitrocellulose membrane with 1% (w/v) Guar Gum affixed on blotter paper soaked in Murashige and Skoogs",
+          "Mean Growth Temperature": "22",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "Growth Time": "6",
+          "Growth Light Cycle": "16:8 light:dark",
+          "Growth Light Source": "Light Emitting Diode Device",
+          "Growth Light Intensity": "30-40",
+          "Growth Light Color": "Visible Light",
+          "Light Treatment Duration": "2",
+          "Treatment Light Color": "Red Light",
+          "Treatment Light Intensity": "19",
+          "Treatment Light Cycle": "light 24",
+          "Treatment Light Source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "23B6_WT_RED_Col0_1g_Rep3",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0",
+          "Genotype": "Wild Type",
+          "organism part": "Seedlings"
+        },
+        "factors": {
+          "Treatment": "48 hours of red light"
+        },
+        "parameters": {
+          "Growth Medium": "sterile nitrocellulose membrane with 1% (w/v) Guar Gum affixed on blotter paper soaked in Murashige and Skoogs",
+          "Mean Growth Temperature": "22",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "Growth Time": "6",
+          "Growth Light Cycle": "16:8 light:dark",
+          "Growth Light Source": "Light Emitting Diode Device",
+          "Growth Light Intensity": "30-40",
+          "Growth Light Color": "Visible Light",
+          "Light Treatment Duration": "2",
+          "Treatment Light Color": "Red Light",
+          "Treatment Light Intensity": "19",
+          "Treatment Light Cycle": "light 24",
+          "Treatment Light Source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "24C6_n1_RED_Col0_1g_Rep1",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0",
+          "Genotype": "Nuc1-2 Mutant",
+          "organism part": "Seedlings"
+        },
+        "factors": {
+          "Treatment": "48 hours of red light"
+        },
+        "parameters": {
+          "Growth Medium": "sterile nitrocellulose membrane with 1% (w/v) Guar Gum affixed on blotter paper soaked in Murashige and Skoogs",
+          "Mean Growth Temperature": "22",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "Growth Time": "6",
+          "Growth Light Cycle": "16:8 light:dark",
+          "Growth Light Source": "Light Emitting Diode Device",
+          "Growth Light Intensity": "30-40",
+          "Growth Light Color": "Visible Light",
+          "Light Treatment Duration": "2",
+          "Treatment Light Color": "Red Light",
+          "Treatment Light Intensity": "19",
+          "Treatment Light Cycle": "light 24",
+          "Treatment Light Source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "25D6_n1_RED_Col0_1g_Rep2",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0",
+          "Genotype": "Nuc1-2 Mutant",
+          "organism part": "Seedlings"
+        },
+        "factors": {
+          "Treatment": "48 hours of red light"
+        },
+        "parameters": {
+          "Growth Medium": "sterile nitrocellulose membrane with 1% (w/v) Guar Gum affixed on blotter paper soaked in Murashige and Skoogs",
+          "Mean Growth Temperature": "22",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "Growth Time": "6",
+          "Growth Light Cycle": "16:8 light:dark",
+          "Growth Light Source": "Light Emitting Diode Device",
+          "Growth Light Intensity": "30-40",
+          "Growth Light Color": "Visible Light",
+          "Light Treatment Duration": "2",
+          "Treatment Light Color": "Red Light",
+          "Treatment Light Intensity": "19",
+          "Treatment Light Cycle": "light 24",
+          "Treatment Light Source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "26E6_n1_RED_Col0_1g_Rep3",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0",
+          "Genotype": "Nuc1-2 Mutant",
+          "organism part": "Seedlings"
+        },
+        "factors": {
+          "Treatment": "48 hours of red light"
+        },
+        "parameters": {
+          "Growth Medium": "sterile nitrocellulose membrane with 1% (w/v) Guar Gum affixed on blotter paper soaked in Murashige and Skoogs",
+          "Mean Growth Temperature": "22",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "Growth Time": "6",
+          "Growth Light Cycle": "16:8 light:dark",
+          "Growth Light Source": "Light Emitting Diode Device",
+          "Growth Light Intensity": "30-40",
+          "Growth Light Color": "Visible Light",
+          "Light Treatment Duration": "2",
+          "Treatment Light Color": "Red Light",
+          "Treatment Light Intensity": "19",
+          "Treatment Light Cycle": "light 24",
+          "Treatment Light Source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "27F6_n2_RED_Col0_1g_Rep1",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0",
+          "Genotype": "Nuc1-2 Mutant",
+          "organism part": "Seedlings"
+        },
+        "factors": {
+          "Treatment": "48 hours of red light"
+        },
+        "parameters": {
+          "Growth Medium": "sterile nitrocellulose membrane with 1% (w/v) Guar Gum affixed on blotter paper soaked in Murashige and Skoogs",
+          "Mean Growth Temperature": "22",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "Growth Time": "6",
+          "Growth Light Cycle": "16:8 light:dark",
+          "Growth Light Source": "Light Emitting Diode Device",
+          "Growth Light Intensity": "30-40",
+          "Growth Light Color": "Visible Light",
+          "Light Treatment Duration": "2",
+          "Treatment Light Color": "Red Light",
+          "Treatment Light Intensity": "19",
+          "Treatment Light Cycle": "light 24",
+          "Treatment Light Source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "28G6_n2_RED_Col0_1g_Rep2",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0",
+          "Genotype": "Nuc1-2 Mutant",
+          "organism part": "Seedlings"
+        },
+        "factors": {
+          "Treatment": "48 hours of red light"
+        },
+        "parameters": {
+          "Growth Medium": "sterile nitrocellulose membrane with 1% (w/v) Guar Gum affixed on blotter paper soaked in Murashige and Skoogs",
+          "Mean Growth Temperature": "22",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "Growth Time": "6",
+          "Growth Light Cycle": "16:8 light:dark",
+          "Growth Light Source": "Light Emitting Diode Device",
+          "Growth Light Intensity": "30-40",
+          "Growth Light Color": "Visible Light",
+          "Light Treatment Duration": "2",
+          "Treatment Light Color": "Red Light",
+          "Treatment Light Intensity": "19",
+          "Treatment Light Cycle": "light 24",
+          "Treatment Light Source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "29H6_n2_RED_Col0_1g_Rep3",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0",
+          "Genotype": "Nuc2-2 Mutant",
+          "organism part": "Seedlings"
+        },
+        "factors": {
+          "Treatment": "48 hours of red light"
+        },
+        "parameters": {
+          "Growth Medium": "sterile nitrocellulose membrane with 1% (w/v) Guar Gum affixed on blotter paper soaked in Murashige and Skoogs",
+          "Mean Growth Temperature": "22",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "Growth Time": "6",
+          "Growth Light Cycle": "16:8 light:dark",
+          "Growth Light Source": "Light Emitting Diode Device",
+          "Growth Light Intensity": "30-40",
+          "Growth Light Color": "Visible Light",
+          "Light Treatment Duration": "2",
+          "Treatment Light Color": "Red Light",
+          "Treatment Light Intensity": "19",
+          "Treatment Light Cycle": "light 24",
+          "Treatment Light Source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "30H7_WT_DARK_Col0_1g_Rep1",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0",
+          "Genotype": "Wild Type",
+          "organism part": "Seedlings"
+        },
+        "factors": {
+          "Treatment": "48 hours of dark"
+        },
+        "parameters": {
+          "Growth Medium": "sterile nitrocellulose membrane with 1% (w/v) Guar Gum affixed on blotter paper soaked in Murashige and Skoogs",
+          "Mean Growth Temperature": "22",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "Growth Time": "6",
+          "Growth Light Cycle": "16:8 light:dark",
+          "Growth Light Source": "Light Emitting Diode Device",
+          "Growth Light Intensity": "30-40",
+          "Growth Light Color": "Visible Light",
+          "Light Treatment Duration": "2",
+          "Treatment Light Color": "",
+          "Treatment Light Intensity": "0",
+          "Treatment Light Cycle": "dark 24",
+          "Treatment Light Source": "",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "31A8_WT_DARK_Col0_1g_Rep2",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0",
+          "Genotype": "Wild Type",
+          "organism part": "Seedlings"
+        },
+        "factors": {
+          "Treatment": "48 hours of dark"
+        },
+        "parameters": {
+          "Growth Medium": "sterile nitrocellulose membrane with 1% (w/v) Guar Gum affixed on blotter paper soaked in Murashige and Skoogs",
+          "Mean Growth Temperature": "22",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "Growth Time": "6",
+          "Growth Light Cycle": "16:8 light:dark",
+          "Growth Light Source": "Light Emitting Diode Device",
+          "Growth Light Intensity": "30-40",
+          "Growth Light Color": "Visible Light",
+          "Light Treatment Duration": "2",
+          "Treatment Light Color": "",
+          "Treatment Light Intensity": "0",
+          "Treatment Light Cycle": "dark 24",
+          "Treatment Light Source": "",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "32B8_WT_DARK_Col0_1g_Rep3",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0",
+          "Genotype": "Wild Type",
+          "organism part": "Seedlings"
+        },
+        "factors": {
+          "Treatment": "48 hours of dark"
+        },
+        "parameters": {
+          "Growth Medium": "sterile nitrocellulose membrane with 1% (w/v) Guar Gum affixed on blotter paper soaked in Murashige and Skoogs",
+          "Mean Growth Temperature": "22",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "Growth Time": "6",
+          "Growth Light Cycle": "16:8 light:dark",
+          "Growth Light Source": "Light Emitting Diode Device",
+          "Growth Light Intensity": "30-40",
+          "Growth Light Color": "Visible Light",
+          "Light Treatment Duration": "2",
+          "Treatment Light Color": "",
+          "Treatment Light Intensity": "0",
+          "Treatment Light Cycle": "dark 24",
+          "Treatment Light Source": "",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "33C8_n1_DARK_Col0_1g_Rep1",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0",
+          "Genotype": "Nuc1-2 Mutant",
+          "organism part": "Seedlings"
+        },
+        "factors": {
+          "Treatment": "48 hours of dark"
+        },
+        "parameters": {
+          "Growth Medium": "sterile nitrocellulose membrane with 1% (w/v) Guar Gum affixed on blotter paper soaked in Murashige and Skoogs",
+          "Mean Growth Temperature": "22",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "Growth Time": "6",
+          "Growth Light Cycle": "16:8 light:dark",
+          "Growth Light Source": "Light Emitting Diode Device",
+          "Growth Light Intensity": "30-40",
+          "Growth Light Color": "Visible Light",
+          "Light Treatment Duration": "2",
+          "Treatment Light Color": "",
+          "Treatment Light Intensity": "0",
+          "Treatment Light Cycle": "dark 24",
+          "Treatment Light Source": "",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "34D8_n1_DARK_Col0_1g_Rep2",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0",
+          "Genotype": "Nuc1-2 Mutant",
+          "organism part": "Seedlings"
+        },
+        "factors": {
+          "Treatment": "48 hours of dark"
+        },
+        "parameters": {
+          "Growth Medium": "sterile nitrocellulose membrane with 1% (w/v) Guar Gum affixed on blotter paper soaked in Murashige and Skoogs",
+          "Mean Growth Temperature": "22",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "Growth Time": "6",
+          "Growth Light Cycle": "16:8 light:dark",
+          "Growth Light Source": "Light Emitting Diode Device",
+          "Growth Light Intensity": "30-40",
+          "Growth Light Color": "Visible Light",
+          "Light Treatment Duration": "2",
+          "Treatment Light Color": "",
+          "Treatment Light Intensity": "0",
+          "Treatment Light Cycle": "dark 24",
+          "Treatment Light Source": "",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "35E8_n1_DARK_Col0_1g_Rep3",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0",
+          "Genotype": "Nuc1-2 Mutant",
+          "organism part": "Seedlings"
+        },
+        "factors": {
+          "Treatment": "48 hours of dark"
+        },
+        "parameters": {
+          "Growth Medium": "sterile nitrocellulose membrane with 1% (w/v) Guar Gum affixed on blotter paper soaked in Murashige and Skoogs",
+          "Mean Growth Temperature": "22",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "Growth Time": "6",
+          "Growth Light Cycle": "16:8 light:dark",
+          "Growth Light Source": "Light Emitting Diode Device",
+          "Growth Light Intensity": "30-40",
+          "Growth Light Color": "Visible Light",
+          "Light Treatment Duration": "2",
+          "Treatment Light Color": "",
+          "Treatment Light Intensity": "0",
+          "Treatment Light Cycle": "dark 24",
+          "Treatment Light Source": "",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "36F8_n2_DARK_Col0_1g_Rep1",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0",
+          "Genotype": "Nuc1-2 Mutant",
+          "organism part": "Seedlings"
+        },
+        "factors": {
+          "Treatment": "48 hours of dark"
+        },
+        "parameters": {
+          "Growth Medium": "sterile nitrocellulose membrane with 1% (w/v) Guar Gum affixed on blotter paper soaked in Murashige and Skoogs",
+          "Mean Growth Temperature": "22",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "Growth Time": "6",
+          "Growth Light Cycle": "16:8 light:dark",
+          "Growth Light Source": "Light Emitting Diode Device",
+          "Growth Light Intensity": "30-40",
+          "Growth Light Color": "Visible Light",
+          "Light Treatment Duration": "2",
+          "Treatment Light Color": "",
+          "Treatment Light Intensity": "0",
+          "Treatment Light Cycle": "dark 24",
+          "Treatment Light Source": "",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "37G8_n2_DARK_Col0_1g_Rep2",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0",
+          "Genotype": "Nuc1-2 Mutant",
+          "organism part": "Seedlings"
+        },
+        "factors": {
+          "Treatment": "48 hours of dark"
+        },
+        "parameters": {
+          "Growth Medium": "sterile nitrocellulose membrane with 1% (w/v) Guar Gum affixed on blotter paper soaked in Murashige and Skoogs",
+          "Mean Growth Temperature": "22",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "Growth Time": "6",
+          "Growth Light Cycle": "16:8 light:dark",
+          "Growth Light Source": "Light Emitting Diode Device",
+          "Growth Light Intensity": "30-40",
+          "Growth Light Color": "Visible Light",
+          "Light Treatment Duration": "2",
+          "Treatment Light Color": "",
+          "Treatment Light Intensity": "0",
+          "Treatment Light Cycle": "dark 24",
+          "Treatment Light Source": "",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "38H8_n2_DARK_Col0_1g_Rep3",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0",
+          "Genotype": "Nuc1-2 Mutant",
+          "organism part": "Seedlings"
+        },
+        "factors": {
+          "Treatment": "48 hours of dark"
+        },
+        "parameters": {
+          "Growth Medium": "sterile nitrocellulose membrane with 1% (w/v) Guar Gum affixed on blotter paper soaked in Murashige and Skoogs",
+          "Mean Growth Temperature": "22",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "Growth Time": "6",
+          "Growth Light Cycle": "16:8 light:dark",
+          "Growth Light Source": "Light Emitting Diode Device",
+          "Growth Light Intensity": "30-40",
+          "Growth Light Color": "Visible Light",
+          "Light Treatment Duration": "2",
+          "Treatment Light Color": "",
+          "Treatment Light Intensity": "0",
+          "Treatment Light Cycle": "dark 24",
+          "Treatment Light Source": "",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina HiSeq2500",
+      "qc": {
+        "QA Instrument": "Agilent 2100 Bioanalyzer",
+        "QA Assay": "RNA 6000 Nano Assay",
+        "QA Score": "greater than 7",
+        "Read Depth": "28417427",
+        "rRNA Contamination": "2.22"
+      },
+      "library": {
+        "Library Layout": "SINGLE",
+        "Stranded": "STRANDED"
+      },
+      "files": {
+        "raw": [
+          "GLDS-313_rna-seq_21H5_WT_RED_1g_R1_1.fastq.gz",
+          "GLDS-313_rna-seq_21H5_WT_RED_1g_R1_2.fastq.gz",
+          "GLDS-313_rna-seq_22A6_WT_RED_1g_R2_1.fastq.gz",
+          "GLDS-313_rna-seq_22A6_WT_RED_1g_R2_2.fastq.gz",
+          "GLDS-313_rna-seq_23B6_WT_RED_1g_R3_1.fastq.gz",
+          "GLDS-313_rna-seq_23B6_WT_RED_1g_R3_2.fastq.gz",
+          "GLDS-313_rna-seq_24C6_n1_RED_1g_R1_1.fastq.gz",
+          "GLDS-313_rna-seq_24C6_n1_RED_1g_R1_2.fastq.gz",
+          "GLDS-313_rna-seq_25D6_n1_RED_1g_R2_1.fastq.gz",
+          "GLDS-313_rna-seq_25D6_n1_RED_1g_R2_2.fastq.gz",
+          "GLDS-313_rna-seq_26E6_n1_RED_1g_R3_1.fastq.gz",
+          "GLDS-313_rna-seq_26E6_n1_RED_1g_R3_2.fastq.gz",
+          "GLDS-313_rna-seq_27F6_n2_RED_1g_R1_1.fastq.gz",
+          "GLDS-313_rna-seq_27F6_n2_RED_1g_R1_2.fastq.gz",
+          "GLDS-313_rna-seq_28G6_n2_RED_1g_R2_1.fastq.gz",
+          "GLDS-313_rna-seq_28G6_n2_RED_1g_R2_2.fastq.gz",
+          "GLDS-313_rna-seq_29H6_n2_RED_1g_R3_1.fastq.gz",
+          "GLDS-313_rna-seq_29H6_n2_RED_1g_R3_2.fastq.gz",
+          "GLDS-313_rna-seq_30H7_WT_DARK_1g_R1_1.fastq.gz",
+          "GLDS-313_rna-seq_30H7_WT_DARK_1g_R1_2.fastq.gz",
+          "GLDS-313_rna-seq_31A8_WT_DARK_1g_R2_1.fastq.gz",
+          "GLDS-313_rna-seq_31A8_WT_DARK_1g_R2_2.fastq.gz",
+          "GLDS-313_rna-seq_32B8_WT_DARK_1g_R3_1.fastq.gz",
+          "GLDS-313_rna-seq_32B8_WT_DARK_1g_R3_2.fastq.gz",
+          "GLDS-313_rna-seq_33C8_n1_DARK_1g_R1_1.fastq.gz",
+          "GLDS-313_rna-seq_33C8_n1_DARK_1g_R1_2.fastq.gz",
+          "GLDS-313_rna-seq_34D8_n1_DARK_1g_R2_1.fastq.gz",
+          "GLDS-313_rna-seq_34D8_n1_DARK_1g_R2_2.fastq.gz",
+          "GLDS-313_rna-seq_35E8_n1_DARK_1g_R3_1.fastq.gz",
+          "GLDS-313_rna-seq_35E8_n1_DARK_1g_R3_2.fastq.gz",
+          "GLDS-313_rna-seq_36F8_n2_DARK_1g_R1_1.fastq.gz",
+          "GLDS-313_rna-seq_36F8_n2_DARK_1g_R1_2.fastq.gz",
+          "GLDS-313_rna-seq_37G8_n2_DARK_1g_R2_1.fastq.gz",
+          "GLDS-313_rna-seq_37G8_n2_DARK_1g_R2_2.fastq.gz",
+          "GLDS-313_rna-seq_38H8_n2_DARK_1g_R3_1.fastq.gz",
+          "GLDS-313_rna-seq_38H8_n2_DARK_1g_R3_2.fastq.gz",
+          "GLDS-313_rna_seq_21H5_WT_RED_Col0_1g_Rep1_raw.fastq.gz",
+          "GLDS-313_rna_seq_21H5_WT_RED_Col0_1g_Rep1_trimmed.fastq.gz",
+          "GLDS-313_rna_seq_22A6_WT_RED_Col0_1g_Rep2_raw.fastq.gz",
+          "GLDS-313_rna_seq_22A6_WT_RED_Col0_1g_Rep2_trimmed.fastq.gz",
+          "GLDS-313_rna_seq_23B6_WT_RED_Col0_1g_Rep3_raw.fastq.gz",
+          "GLDS-313_rna_seq_23B6_WT_RED_Col0_1g_Rep3_trimmed.fastq.gz",
+          "GLDS-313_rna_seq_24C6_n1_RED_Col0_1g_Rep1_raw.fastq.gz",
+          "GLDS-313_rna_seq_24C6_n1_RED_Col0_1g_Rep1_trimmed.fastq.gz",
+          "GLDS-313_rna_seq_25D6_n1_RED_Col0_1g_Rep2_raw.fastq.gz",
+          "GLDS-313_rna_seq_25D6_n1_RED_Col0_1g_Rep2_trimmed.fastq.gz",
+          "GLDS-313_rna_seq_26E6_n1_RED_Col0_1g_Rep3_raw.fastq.gz",
+          "GLDS-313_rna_seq_26E6_n1_RED_Col0_1g_Rep3_trimmed.fastq.gz",
+          "GLDS-313_rna_seq_27F6_n2_RED_Col0_1g_Rep1_raw.fastq.gz",
+          "GLDS-313_rna_seq_27F6_n2_RED_Col0_1g_Rep1_trimmed.fastq.gz",
+          "GLDS-313_rna_seq_28G6_n2_RED_Col0_1g_Rep2_raw.fastq.gz",
+          "GLDS-313_rna_seq_28G6_n2_RED_Col0_1g_Rep2_trimmed.fastq.gz",
+          "GLDS-313_rna_seq_29H6_n2_RED_Col0_1g_Rep3_raw.fastq.gz",
+          "GLDS-313_rna_seq_29H6_n2_RED_Col0_1g_Rep3_trimmed.fastq.gz",
+          "GLDS-313_rna_seq_30H7_WT_DARK_Col0_1g_Rep1_raw.fastq.gz",
+          "GLDS-313_rna_seq_30H7_WT_DARK_Col0_1g_Rep1_trimmed.fastq.gz",
+          "GLDS-313_rna_seq_31A8_WT_DARK_Col0_1g_Rep2_raw.fastq.gz",
+          "GLDS-313_rna_seq_31A8_WT_DARK_Col0_1g_Rep2_trimmed.fastq.gz",
+          "GLDS-313_rna_seq_32B8_WT_DARK_Col0_1g_Rep3_raw.fastq.gz",
+          "GLDS-313_rna_seq_32B8_WT_DARK_Col0_1g_Rep3_trimmed.fastq.gz",
+          "GLDS-313_rna_seq_33C8_n1_DARK_Col0_1g_Rep1_raw.fastq.gz",
+          "GLDS-313_rna_seq_33C8_n1_DARK_Col0_1g_Rep1_trimmed.fastq.gz",
+          "GLDS-313_rna_seq_34D8_n1_DARK_Col0_1g_Rep2_raw.fastq.gz",
+          "GLDS-313_rna_seq_34D8_n1_DARK_Col0_1g_Rep2_trimmed.fastq.gz",
+          "GLDS-313_rna_seq_35E8_n1_DARK_Col0_1g_Rep3_raw.fastq.gz",
+          "GLDS-313_rna_seq_35E8_n1_DARK_Col0_1g_Rep3_trimmed.fastq.gz",
+          "GLDS-313_rna_seq_36F8_n2_DARK_Col0_1g_Rep1_raw.fastq.gz",
+          "GLDS-313_rna_seq_36F8_n2_DARK_Col0_1g_Rep1_trimmed.fastq.gz",
+          "GLDS-313_rna_seq_37G8_n2_DARK_Col0_1g_Rep2_raw.fastq.gz",
+          "GLDS-313_rna_seq_37G8_n2_DARK_Col0_1g_Rep2_trimmed.fastq.gz",
+          "GLDS-313_rna_seq_38H8_n2_DARK_Col0_1g_Rep3_raw.fastq.gz",
+          "GLDS-313_rna_seq_38H8_n2_DARK_Col0_1g_Rep3_trimmed.fastq.gz"
+        ],
+        "processed": [
+          "GLDS-313_rna_seq_21H5_WT_RED_Col0_1g_Rep1_raw.fastq.gz",
+          "GLDS-313_rna_seq_21H5_WT_RED_Col0_1g_Rep1_trimmed.fastq.gz",
+          "GLDS-313_rna_seq_21H5_WT_RED_Col0_1g_Rep1_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-313_rna_seq_21H5_WT_RED_Col0_1g_Rep1_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-313_rna_seq_21H5_WT_RED_Col0_1g_Rep1_Aligned.toTranscriptome.out.bam",
+          "GLDS-313_rna_seq_21H5_WT_RED_Col0_1g_Rep1_SJ.out.tab",
+          "GLDS-313_rna_seq_22A6_WT_RED_Col0_1g_Rep2_raw.fastq.gz",
+          "GLDS-313_rna_seq_22A6_WT_RED_Col0_1g_Rep2_trimmed.fastq.gz",
+          "GLDS-313_rna_seq_22A6_WT_RED_Col0_1g_Rep2_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-313_rna_seq_22A6_WT_RED_Col0_1g_Rep2_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-313_rna_seq_22A6_WT_RED_Col0_1g_Rep2_Aligned.toTranscriptome.out.bam",
+          "GLDS-313_rna_seq_22A6_WT_RED_Col0_1g_Rep2_SJ.out.tab",
+          "GLDS-313_rna_seq_23B6_WT_RED_Col0_1g_Rep3_raw.fastq.gz",
+          "GLDS-313_rna_seq_23B6_WT_RED_Col0_1g_Rep3_trimmed.fastq.gz",
+          "GLDS-313_rna_seq_23B6_WT_RED_Col0_1g_Rep3_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-313_rna_seq_23B6_WT_RED_Col0_1g_Rep3_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-313_rna_seq_23B6_WT_RED_Col0_1g_Rep3_Aligned.toTranscriptome.out.bam",
+          "GLDS-313_rna_seq_23B6_WT_RED_Col0_1g_Rep3_SJ.out.tab",
+          "GLDS-313_rna_seq_24C6_n1_RED_Col0_1g_Rep1_raw.fastq.gz",
+          "GLDS-313_rna_seq_24C6_n1_RED_Col0_1g_Rep1_trimmed.fastq.gz",
+          "GLDS-313_rna_seq_24C6_n1_RED_Col0_1g_Rep1_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-313_rna_seq_24C6_n1_RED_Col0_1g_Rep1_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-313_rna_seq_24C6_n1_RED_Col0_1g_Rep1_Aligned.toTranscriptome.out.bam",
+          "GLDS-313_rna_seq_24C6_n1_RED_Col0_1g_Rep1_SJ.out.tab",
+          "GLDS-313_rna_seq_25D6_n1_RED_Col0_1g_Rep2_raw.fastq.gz",
+          "GLDS-313_rna_seq_25D6_n1_RED_Col0_1g_Rep2_trimmed.fastq.gz",
+          "GLDS-313_rna_seq_25D6_n1_RED_Col0_1g_Rep2_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-313_rna_seq_25D6_n1_RED_Col0_1g_Rep2_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-313_rna_seq_25D6_n1_RED_Col0_1g_Rep2_Aligned.toTranscriptome.out.bam",
+          "GLDS-313_rna_seq_25D6_n1_RED_Col0_1g_Rep2_SJ.out.tab",
+          "GLDS-313_rna_seq_26E6_n1_RED_Col0_1g_Rep3_raw.fastq.gz",
+          "GLDS-313_rna_seq_26E6_n1_RED_Col0_1g_Rep3_trimmed.fastq.gz",
+          "GLDS-313_rna_seq_26E6_n1_RED_Col0_1g_Rep3_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-313_rna_seq_26E6_n1_RED_Col0_1g_Rep3_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-313_rna_seq_26E6_n1_RED_Col0_1g_Rep3_Aligned.toTranscriptome.out.bam",
+          "GLDS-313_rna_seq_26E6_n1_RED_Col0_1g_Rep3_SJ.out.tab",
+          "GLDS-313_rna_seq_27F6_n2_RED_Col0_1g_Rep1_raw.fastq.gz",
+          "GLDS-313_rna_seq_27F6_n2_RED_Col0_1g_Rep1_trimmed.fastq.gz",
+          "GLDS-313_rna_seq_27F6_n2_RED_Col0_1g_Rep1_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-313_rna_seq_27F6_n2_RED_Col0_1g_Rep1_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-313_rna_seq_27F6_n2_RED_Col0_1g_Rep1_Aligned.toTranscriptome.out.bam",
+          "GLDS-313_rna_seq_27F6_n2_RED_Col0_1g_Rep1_SJ.out.tab",
+          "GLDS-313_rna_seq_28G6_n2_RED_Col0_1g_Rep2_raw.fastq.gz",
+          "GLDS-313_rna_seq_28G6_n2_RED_Col0_1g_Rep2_trimmed.fastq.gz",
+          "GLDS-313_rna_seq_28G6_n2_RED_Col0_1g_Rep2_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-313_rna_seq_28G6_n2_RED_Col0_1g_Rep2_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-313_rna_seq_28G6_n2_RED_Col0_1g_Rep2_Aligned.toTranscriptome.out.bam",
+          "GLDS-313_rna_seq_28G6_n2_RED_Col0_1g_Rep2_SJ.out.tab",
+          "GLDS-313_rna_seq_29H6_n2_RED_Col0_1g_Rep3_raw.fastq.gz",
+          "GLDS-313_rna_seq_29H6_n2_RED_Col0_1g_Rep3_trimmed.fastq.gz",
+          "GLDS-313_rna_seq_29H6_n2_RED_Col0_1g_Rep3_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-313_rna_seq_29H6_n2_RED_Col0_1g_Rep3_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-313_rna_seq_29H6_n2_RED_Col0_1g_Rep3_Aligned.toTranscriptome.out.bam",
+          "GLDS-313_rna_seq_29H6_n2_RED_Col0_1g_Rep3_SJ.out.tab",
+          "GLDS-313_rna_seq_30H7_WT_DARK_Col0_1g_Rep1_raw.fastq.gz",
+          "GLDS-313_rna_seq_30H7_WT_DARK_Col0_1g_Rep1_trimmed.fastq.gz",
+          "GLDS-313_rna_seq_30H7_WT_DARK_Col0_1g_Rep1_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-313_rna_seq_30H7_WT_DARK_Col0_1g_Rep1_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-313_rna_seq_30H7_WT_DARK_Col0_1g_Rep1_Aligned.toTranscriptome.out.bam",
+          "GLDS-313_rna_seq_30H7_WT_DARK_Col0_1g_Rep1_SJ.out.tab",
+          "GLDS-313_rna_seq_31A8_WT_DARK_Col0_1g_Rep2_raw.fastq.gz",
+          "GLDS-313_rna_seq_31A8_WT_DARK_Col0_1g_Rep2_trimmed.fastq.gz",
+          "GLDS-313_rna_seq_31A8_WT_DARK_Col0_1g_Rep2_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-313_rna_seq_31A8_WT_DARK_Col0_1g_Rep2_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-313_rna_seq_31A8_WT_DARK_Col0_1g_Rep2_Aligned.toTranscriptome.out.bam",
+          "GLDS-313_rna_seq_31A8_WT_DARK_Col0_1g_Rep2_SJ.out.tab",
+          "GLDS-313_rna_seq_32B8_WT_DARK_Col0_1g_Rep3_raw.fastq.gz",
+          "GLDS-313_rna_seq_32B8_WT_DARK_Col0_1g_Rep3_trimmed.fastq.gz",
+          "GLDS-313_rna_seq_32B8_WT_DARK_Col0_1g_Rep3_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-313_rna_seq_32B8_WT_DARK_Col0_1g_Rep3_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-313_rna_seq_32B8_WT_DARK_Col0_1g_Rep3_Aligned.toTranscriptome.out.bam",
+          "GLDS-313_rna_seq_32B8_WT_DARK_Col0_1g_Rep3_SJ.out.tab",
+          "GLDS-313_rna_seq_33C8_n1_DARK_Col0_1g_Rep1_raw.fastq.gz",
+          "GLDS-313_rna_seq_33C8_n1_DARK_Col0_1g_Rep1_trimmed.fastq.gz",
+          "GLDS-313_rna_seq_33C8_n1_DARK_Col0_1g_Rep1_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-313_rna_seq_33C8_n1_DARK_Col0_1g_Rep1_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-313_rna_seq_33C8_n1_DARK_Col0_1g_Rep1_Aligned.toTranscriptome.out.bam",
+          "GLDS-313_rna_seq_33C8_n1_DARK_Col0_1g_Rep1_SJ.out.tab",
+          "GLDS-313_rna_seq_34D8_n1_DARK_Col0_1g_Rep2_raw.fastq.gz",
+          "GLDS-313_rna_seq_34D8_n1_DARK_Col0_1g_Rep2_trimmed.fastq.gz",
+          "GLDS-313_rna_seq_34D8_n1_DARK_Col0_1g_Rep2_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-313_rna_seq_34D8_n1_DARK_Col0_1g_Rep2_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-313_rna_seq_34D8_n1_DARK_Col0_1g_Rep2_Aligned.toTranscriptome.out.bam",
+          "GLDS-313_rna_seq_34D8_n1_DARK_Col0_1g_Rep2_SJ.out.tab",
+          "GLDS-313_rna_seq_35E8_n1_DARK_Col0_1g_Rep3_raw.fastq.gz",
+          "GLDS-313_rna_seq_35E8_n1_DARK_Col0_1g_Rep3_trimmed.fastq.gz",
+          "GLDS-313_rna_seq_35E8_n1_DARK_Col0_1g_Rep3_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-313_rna_seq_35E8_n1_DARK_Col0_1g_Rep3_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-313_rna_seq_35E8_n1_DARK_Col0_1g_Rep3_Aligned.toTranscriptome.out.bam",
+          "GLDS-313_rna_seq_35E8_n1_DARK_Col0_1g_Rep3_SJ.out.tab",
+          "GLDS-313_rna_seq_36F8_n2_DARK_Col0_1g_Rep1_raw.fastq.gz",
+          "GLDS-313_rna_seq_36F8_n2_DARK_Col0_1g_Rep1_trimmed.fastq.gz",
+          "GLDS-313_rna_seq_36F8_n2_DARK_Col0_1g_Rep1_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-313_rna_seq_36F8_n2_DARK_Col0_1g_Rep1_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-313_rna_seq_36F8_n2_DARK_Col0_1g_Rep1_Aligned.toTranscriptome.out.bam",
+          "GLDS-313_rna_seq_36F8_n2_DARK_Col0_1g_Rep1_SJ.out.tab",
+          "GLDS-313_rna_seq_37G8_n2_DARK_Col0_1g_Rep2_raw.fastq.gz",
+          "GLDS-313_rna_seq_37G8_n2_DARK_Col0_1g_Rep2_trimmed.fastq.gz",
+          "GLDS-313_rna_seq_37G8_n2_DARK_Col0_1g_Rep2_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-313_rna_seq_37G8_n2_DARK_Col0_1g_Rep2_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-313_rna_seq_37G8_n2_DARK_Col0_1g_Rep2_Aligned.toTranscriptome.out.bam",
+          "GLDS-313_rna_seq_37G8_n2_DARK_Col0_1g_Rep2_SJ.out.tab",
+          "GLDS-313_rna_seq_38H8_n2_DARK_Col0_1g_Rep3_raw.fastq.gz",
+          "GLDS-313_rna_seq_38H8_n2_DARK_Col0_1g_Rep3_trimmed.fastq.gz",
+          "GLDS-313_rna_seq_38H8_n2_DARK_Col0_1g_Rep3_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-313_rna_seq_38H8_n2_DARK_Col0_1g_Rep3_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-313_rna_seq_38H8_n2_DARK_Col0_1g_Rep3_Aligned.toTranscriptome.out.bam",
+          "GLDS-313_rna_seq_38H8_n2_DARK_Col0_1g_Rep3_SJ.out.tab",
+          "21H5_WT_RED_Col0_1g_Rep1",
+          "GeneLab RNAseq data processing protocol",
+          "Agilent 2100 Bioanalyzer",
+          "RNA 6000 Nano Assay",
+          "greater than 7",
+          "read",
+          "SO",
+          "http://purl.obolibrary.org/obo/SO_0000150",
+          "SINGLE",
+          "STRANDED",
+          "Illumina HiSeq2500",
+          "50",
+          "rna-seq",
+          "2.22",
+          "28417427",
+          "GLDS-313_rna_seq_21H5_WT_RED_Col0_1g_Rep1.genes.results",
+          "GLDS-313_rna_seq_21H5_WT_RED_Col0_1g_Rep1.isoforms.results",
+          "GLDS-313_rna_seq_RSEM_Unnormalized_Counts.csv",
+          "GLDS-313_rna_seq_STAR_Unnormalized_Counts.csv",
+          "GLDS-313_rna_seq_Normalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-313_rna_seq_SampleTable_GLbulkRNAseq.csv",
+          "GLDS-313_rna_seq_contrasts_GLbulkRNAseq.csv",
+          "GLDS-313_rna_seq_differential_expression_GLbulkRNAseq.csv",
+          "22A6_WT_RED_Col0_1g_Rep2",
+          "0.98",
+          "27614615",
+          "GLDS-313_rna_seq_22A6_WT_RED_Col0_1g_Rep2.genes.results",
+          "GLDS-313_rna_seq_22A6_WT_RED_Col0_1g_Rep2.isoforms.results",
+          "23B6_WT_RED_Col0_1g_Rep3",
+          "1.03",
+          "28438843",
+          "GLDS-313_rna_seq_23B6_WT_RED_Col0_1g_Rep3.genes.results",
+          "GLDS-313_rna_seq_23B6_WT_RED_Col0_1g_Rep3.isoforms.results",
+          "24C6_n1_RED_Col0_1g_Rep1",
+          "1.39",
+          "28219630",
+          "GLDS-313_rna_seq_24C6_n1_RED_Col0_1g_Rep1.genes.results",
+          "GLDS-313_rna_seq_24C6_n1_RED_Col0_1g_Rep1.isoforms.results",
+          "25D6_n1_RED_Col0_1g_Rep2",
+          "0.93",
+          "27769531",
+          "GLDS-313_rna_seq_25D6_n1_RED_Col0_1g_Rep2.genes.results",
+          "GLDS-313_rna_seq_25D6_n1_RED_Col0_1g_Rep2.isoforms.results",
+          "26E6_n1_RED_Col0_1g_Rep3",
+          "0.91",
+          "27644451",
+          "GLDS-313_rna_seq_26E6_n1_RED_Col0_1g_Rep3.genes.results",
+          "GLDS-313_rna_seq_26E6_n1_RED_Col0_1g_Rep3.isoforms.results",
+          "27F6_n2_RED_Col0_1g_Rep1",
+          "1.49",
+          "27974331",
+          "GLDS-313_rna_seq_27F6_n2_RED_Col0_1g_Rep1.genes.results",
+          "GLDS-313_rna_seq_27F6_n2_RED_Col0_1g_Rep1.isoforms.results",
+          "28G6_n2_RED_Col0_1g_Rep2",
+          "0.86",
+          "27726596",
+          "GLDS-313_rna_seq_28G6_n2_RED_Col0_1g_Rep2.genes.results",
+          "GLDS-313_rna_seq_28G6_n2_RED_Col0_1g_Rep2.isoforms.results",
+          "29H6_n2_RED_Col0_1g_Rep3",
+          "0.92",
+          "27578937",
+          "GLDS-313_rna_seq_29H6_n2_RED_Col0_1g_Rep3.genes.results",
+          "GLDS-313_rna_seq_29H6_n2_RED_Col0_1g_Rep3.isoforms.results",
+          "30H7_WT_DARK_Col0_1g_Rep1",
+          "1.07",
+          "27416193",
+          "GLDS-313_rna_seq_30H7_WT_DARK_Col0_1g_Rep1.genes.results",
+          "GLDS-313_rna_seq_30H7_WT_DARK_Col0_1g_Rep1.isoforms.results",
+          "31A8_WT_DARK_Col0_1g_Rep2",
+          "1.57",
+          "27675481",
+          "GLDS-313_rna_seq_31A8_WT_DARK_Col0_1g_Rep2.genes.results",
+          "GLDS-313_rna_seq_31A8_WT_DARK_Col0_1g_Rep2.isoforms.results",
+          "32B8_WT_DARK_Col0_1g_Rep3",
+          "0.99",
+          "27719560",
+          "GLDS-313_rna_seq_32B8_WT_DARK_Col0_1g_Rep3.genes.results",
+          "GLDS-313_rna_seq_32B8_WT_DARK_Col0_1g_Rep3.isoforms.results",
+          "33C8_n1_DARK_Col0_1g_Rep1",
+          "1.2",
+          "27599729",
+          "GLDS-313_rna_seq_33C8_n1_DARK_Col0_1g_Rep1.genes.results",
+          "GLDS-313_rna_seq_33C8_n1_DARK_Col0_1g_Rep1.isoforms.results",
+          "34D8_n1_DARK_Col0_1g_Rep2",
+          "0.88",
+          "28533610",
+          "GLDS-313_rna_seq_34D8_n1_DARK_Col0_1g_Rep2.genes.results",
+          "GLDS-313_rna_seq_34D8_n1_DARK_Col0_1g_Rep2.isoforms.results",
+          "35E8_n1_DARK_Col0_1g_Rep3",
+          "0.81",
+          "26872983",
+          "GLDS-313_rna_seq_35E8_n1_DARK_Col0_1g_Rep3.genes.results",
+          "GLDS-313_rna_seq_35E8_n1_DARK_Col0_1g_Rep3.isoforms.results",
+          "36F8_n2_DARK_Col0_1g_Rep1",
+          "0.7",
+          "27765358",
+          "GLDS-313_rna_seq_36F8_n2_DARK_Col0_1g_Rep1.genes.results",
+          "GLDS-313_rna_seq_36F8_n2_DARK_Col0_1g_Rep1.isoforms.results",
+          "37G8_n2_DARK_Col0_1g_Rep2",
+          "1.32",
+          "27690326",
+          "GLDS-313_rna_seq_37G8_n2_DARK_Col0_1g_Rep2.genes.results",
+          "GLDS-313_rna_seq_37G8_n2_DARK_Col0_1g_Rep2.isoforms.results",
+          "38H8_n2_DARK_Col0_1g_Rep3",
+          "1.86",
+          "27170706",
+          "GLDS-313_rna_seq_38H8_n2_DARK_Col0_1g_Rep3.genes.results",
+          "GLDS-313_rna_seq_38H8_n2_DARK_Col0_1g_Rep3.isoforms.results"
+        ],
+        "reports": [
+          "GLDS-313_rna_seq_raw_multiqc_report.zip",
+          "GLDS-313_rna_seq_trimmed_multiqc_report.zip",
+          "GLDS-313_rna_seq_21H5_WT_RED_Col0_1g_Rep1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-313_rna_seq_21H5_WT_RED_Col0_1g_Rep1_Log.final.out",
+          "GLDS-313_rna_seq_align_multiqc_report.zip",
+          "GLDS-313_rna_seq_geneBody_cov_multiqc_report.zip",
+          "GLDS-313_rna_seq_infer_exp_multiqc_report.zip",
+          "GLDS-313_rna_seq_read_dist_multiqc_report.zip",
+          "GLDS-313_rna_seq_RSEM_count_multiqc_report.zip",
+          "GLDS-313_rna_seq_22A6_WT_RED_Col0_1g_Rep2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-313_rna_seq_22A6_WT_RED_Col0_1g_Rep2_Log.final.out",
+          "GLDS-313_rna_seq_23B6_WT_RED_Col0_1g_Rep3_raw.fastq.gz_trimming_report.txt",
+          "GLDS-313_rna_seq_23B6_WT_RED_Col0_1g_Rep3_Log.final.out",
+          "GLDS-313_rna_seq_24C6_n1_RED_Col0_1g_Rep1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-313_rna_seq_24C6_n1_RED_Col0_1g_Rep1_Log.final.out",
+          "GLDS-313_rna_seq_25D6_n1_RED_Col0_1g_Rep2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-313_rna_seq_25D6_n1_RED_Col0_1g_Rep2_Log.final.out",
+          "GLDS-313_rna_seq_26E6_n1_RED_Col0_1g_Rep3_raw.fastq.gz_trimming_report.txt",
+          "GLDS-313_rna_seq_26E6_n1_RED_Col0_1g_Rep3_Log.final.out",
+          "GLDS-313_rna_seq_27F6_n2_RED_Col0_1g_Rep1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-313_rna_seq_27F6_n2_RED_Col0_1g_Rep1_Log.final.out",
+          "GLDS-313_rna_seq_28G6_n2_RED_Col0_1g_Rep2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-313_rna_seq_28G6_n2_RED_Col0_1g_Rep2_Log.final.out",
+          "GLDS-313_rna_seq_29H6_n2_RED_Col0_1g_Rep3_raw.fastq.gz_trimming_report.txt",
+          "GLDS-313_rna_seq_29H6_n2_RED_Col0_1g_Rep3_Log.final.out",
+          "GLDS-313_rna_seq_30H7_WT_DARK_Col0_1g_Rep1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-313_rna_seq_30H7_WT_DARK_Col0_1g_Rep1_Log.final.out",
+          "GLDS-313_rna_seq_31A8_WT_DARK_Col0_1g_Rep2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-313_rna_seq_31A8_WT_DARK_Col0_1g_Rep2_Log.final.out",
+          "GLDS-313_rna_seq_32B8_WT_DARK_Col0_1g_Rep3_raw.fastq.gz_trimming_report.txt",
+          "GLDS-313_rna_seq_32B8_WT_DARK_Col0_1g_Rep3_Log.final.out",
+          "GLDS-313_rna_seq_33C8_n1_DARK_Col0_1g_Rep1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-313_rna_seq_33C8_n1_DARK_Col0_1g_Rep1_Log.final.out",
+          "GLDS-313_rna_seq_34D8_n1_DARK_Col0_1g_Rep2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-313_rna_seq_34D8_n1_DARK_Col0_1g_Rep2_Log.final.out",
+          "GLDS-313_rna_seq_35E8_n1_DARK_Col0_1g_Rep3_raw.fastq.gz_trimming_report.txt",
+          "GLDS-313_rna_seq_35E8_n1_DARK_Col0_1g_Rep3_Log.final.out",
+          "GLDS-313_rna_seq_36F8_n2_DARK_Col0_1g_Rep1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-313_rna_seq_36F8_n2_DARK_Col0_1g_Rep1_Log.final.out",
+          "GLDS-313_rna_seq_37G8_n2_DARK_Col0_1g_Rep2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-313_rna_seq_37G8_n2_DARK_Col0_1g_Rep2_Log.final.out",
+          "GLDS-313_rna_seq_38H8_n2_DARK_Col0_1g_Rep3_raw.fastq.gz_trimming_report.txt",
+          "GLDS-313_rna_seq_38H8_n2_DARK_Col0_1g_Rep3_Log.final.out"
+        ]
+      }
+    }
+  ]
+}

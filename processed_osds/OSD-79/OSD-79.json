@@ -1,0 +1,1827 @@
+{
+  "investigation": {
+    "id": "OSD-79",
+    "title": "Murine microenvironment metaprofiles associate with human cancer etiology and intrinsic subtypes",
+    "description": "We developed a mouse model that captures radiation effects on host biology by transplanting unirradiated Trp53 null mammary tissue to sham or irradiated hosts. Gene expression profiles of tumors that arose in irradiated mice are distinct from those that arose in naive hosts.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "Gamma_Irradiation, Low_Dose_Irradiation, Low_LET_Irradiation",
+      "title": "NSCOR: The Contribution of Non-targeted Effects in HZE Cancer Risk",
+      "type": "Ground Study",
+      "link": "https://lsda.jsc.nasa.gov/scripts/experiment/exper.aspx?exp_index=13709",
+      "funding": "This research was supported by funding from NASA Specialized Center for Research in Radiation Health Effects, NNX09AM52G, and the Department of Energy, Office of Biological and Environmental Research program on Low Dose Radiation. CMP and ZW received support from the NCI Breast SPORE program and by the Breast Cancer Research Foundation.",
+      "managing_center": ""
+    },
+    "protocols": [
+      "Nucleic Acid Extraction",
+      "Labeling",
+      "Nucleic Acid Hybridization",
+      "Data Collection",
+      "Normalization Data Transformation",
+      "GeneLab microarray data processing protocol",
+      "Animal Husbandry Protocol",
+      "irradiation protocol",
+      "sample collection protocol"
+    ],
+    "publications": [
+      {
+        "title": "Murine microenvironment metaprofiles associate with human cancer etiology and intrinsic subtypes.",
+        "doi": "10.1158/1078-0432.CCR-12-3554",
+        "authors": [
+          "Nguyen DH",
+          "Fredlund E",
+          "Zhao W",
+          "Perou CM",
+          "Balmain A",
+          "Mao JH",
+          "Barcellos-Hoff MH."
+        ],
+        "summary": "Murine microenvironment metaprofiles associate with human cancer etiology and intrinsic subtypes. — 10.1158/1078-0432.CCR-12-3554"
+      },
+      {
+        "title": "Radiation acts on the microenvironment to affect breast carcinogenesis by distinct mechanisms that decrease cancer latency and affect tumor type.",
+        "doi": "10.1016/j.ccr.2011.03.011",
+        "authors": [
+          "Nguyen DH",
+          "Oketch-Rabah HA",
+          "Illa-Bochaca I",
+          "Geyer FC",
+          "Reis-Filho JS",
+          "Mao JH",
+          "Ravani SA",
+          "Zavadil J",
+          "Borowsky AD",
+          "Jerry DJ",
+          "Dunphy KA",
+          "Seo JH",
+          "Haslam S",
+          "Medina D",
+          "Barcellos-Hoff MH."
+        ],
+        "summary": "Radiation acts on the microenvironment to affect breast carcinogenesis by distinct mechanisms that decrease cancer latency and affect tumor type. — 10.1016/j.ccr.2011.03.011"
+      }
+    ],
+    "factors": [
+      "Genotype",
+      "Ionizing Radiation"
+    ],
+    "contacts": [
+      {
+        "first_name": "David",
+        "last_name": "Nguyen",
+        "role": "Submitter",
+        "email": "d.hh.nguyen@gmail.com"
+      },
+      {
+        "first_name": "Allan",
+        "last_name": "Balmain",
+        "role": "Principal Investigator",
+        "email": ""
+      },
+      {
+        "first_name": "Charles",
+        "last_name": "Perou",
+        "role": "",
+        "email": ""
+      },
+      {
+        "first_name": "Erik",
+        "last_name": "Fredlund",
+        "role": "",
+        "email": ""
+      },
+      {
+        "first_name": "Jian-Hua",
+        "last_name": "Mao",
+        "role": "",
+        "email": ""
+      },
+      {
+        "first_name": "Mary",
+        "last_name": "Barcellos-Hoff",
+        "role": "",
+        "email": ""
+      },
+      {
+        "first_name": "Wei",
+        "last_name": "Zhao",
+        "role": "",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "GSM1049078 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "TGFb1 heterozygote",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "10",
+          "absorbed radiation dose rate": "23",
+          "exposure duration": "0.43",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample_title": "Het IR-host_55",
+          "Sample_description": "mouse_p53null-mammary-tumor_TGFb-Het_Irradiated host_repeat_8"
+        }
+      },
+      {
+        "sample_name": "GSM1049077 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "TGFb1 heterozygote",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "10",
+          "absorbed radiation dose rate": "23",
+          "exposure duration": "0.43",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample_title": "Het IR-host_50",
+          "Sample_description": "mouse_p53null-mammary-tumor_TGFb-Het_Irradiated host_repeat_7"
+        }
+      },
+      {
+        "sample_name": "GSM1049076 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "TGFb1 heterozygote",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "10",
+          "absorbed radiation dose rate": "23",
+          "exposure duration": "0.43",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample_title": "Het IR-host_49",
+          "Sample_description": "mouse_p53null-mammary-tumor_TGFb-Het_Irradiated host_repeat_6"
+        }
+      },
+      {
+        "sample_name": "GSM1049075 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "TGFb1 heterozygote",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "10",
+          "absorbed radiation dose rate": "23",
+          "exposure duration": "0.43",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample_title": "Het IR-host_47",
+          "Sample_description": "mouse_p53null-mammary-tumor_TGFb-Het_Irradiated host_repeat_5"
+        }
+      },
+      {
+        "sample_name": "GSM1049074 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "TGFb1 heterozygote",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "10",
+          "absorbed radiation dose rate": "23",
+          "exposure duration": "0.43",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample_title": "Het IR-host_4",
+          "Sample_description": "mouse_p53null-mammary-tumor_TGFb-Het_Irradiated host_repeat_4"
+        }
+      },
+      {
+        "sample_name": "GSM1049073 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "TGFb1 heterozygote",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "10",
+          "absorbed radiation dose rate": "23",
+          "exposure duration": "0.43",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample_title": "Het IR-host_35",
+          "Sample_description": "mouse_p53null-mammary-tumor_TGFb-Het_Irradiated host_repeat_3"
+        }
+      },
+      {
+        "sample_name": "GSM1049072 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "TGFb1 heterozygote",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "10",
+          "absorbed radiation dose rate": "23",
+          "exposure duration": "0.43",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample_title": "Het IR-host_26",
+          "Sample_description": "mouse_p53null-mammary-tumor_TGFb-Het_Irradiated host_repeat_2"
+        }
+      },
+      {
+        "sample_name": "GSM1049071 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "TGFb1 heterozygote",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "10",
+          "absorbed radiation dose rate": "23",
+          "exposure duration": "0.43",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample_title": "Het IR-host_1",
+          "Sample_description": "mouse_p53null-mammary-tumor_TGFb-Het_Irradiated host_repeat_1"
+        }
+      },
+      {
+        "sample_name": "GSM1049070 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "TGFb1 heterozygote",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "10",
+          "absorbed radiation dose rate": "23",
+          "exposure duration": "0.43",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample_title": "Het IR-host_51",
+          "Sample_description": "mouse_p53null-mammary-tumor_TGFb-Het_Irradiated host_repeat_18"
+        }
+      },
+      {
+        "sample_name": "GSM1049069 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "TGFb1 heterozygote",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "10",
+          "absorbed radiation dose rate": "23",
+          "exposure duration": "0.43",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample_title": "Het IR-host_42",
+          "Sample_description": "mouse_p53null-mammary-tumor_TGFb-Het_Irradiated host_repeat_17"
+        }
+      },
+      {
+        "sample_name": "GSM1049068 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "TGFb1 heterozygote",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "10",
+          "absorbed radiation dose rate": "23",
+          "exposure duration": "0.43",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample_title": "Het IR-host_34",
+          "Sample_description": "mouse_p53null-mammary-tumor_TGFb-Het_Irradiated host_repeat_16"
+        }
+      },
+      {
+        "sample_name": "GSM1049067 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "TGFb1 heterozygote",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "10",
+          "absorbed radiation dose rate": "23",
+          "exposure duration": "0.43",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample_title": "Het IR-host_33",
+          "Sample_description": "mouse_p53null-mammary-tumor_TGFb-Het_Irradiated host_repeat_15"
+        }
+      },
+      {
+        "sample_name": "GSM1049066 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "TGFb1 heterozygote",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "10",
+          "absorbed radiation dose rate": "23",
+          "exposure duration": "0.43",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample_title": "Het IR-host_32",
+          "Sample_description": "mouse_p53null-mammary-tumor_TGFb-Het_Irradiated host_repeat_14"
+        }
+      },
+      {
+        "sample_name": "GSM1049065 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "TGFb1 heterozygote",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "10",
+          "absorbed radiation dose rate": "23",
+          "exposure duration": "0.43",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample_title": "Het IR-host_29",
+          "Sample_description": "mouse_p53null-mammary-tumor_TGFb-Het_Irradiated host_repeat_13"
+        }
+      },
+      {
+        "sample_name": "GSM1049064 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "TGFb1 heterozygote",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "10",
+          "absorbed radiation dose rate": "23",
+          "exposure duration": "0.43",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample_title": "Het IR-host_23",
+          "Sample_description": "mouse_p53null-mammary-tumor_TGFb-Het_Irradiated host_repeat_12"
+        }
+      },
+      {
+        "sample_name": "GSM1049063 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "TGFb1 heterozygote",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "10",
+          "absorbed radiation dose rate": "23",
+          "exposure duration": "0.43",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample_title": "Het IR-host_7",
+          "Sample_description": "mouse_p53null-mammary-tumor_TGFb-Het_Irradiated host_repeat_11"
+        }
+      },
+      {
+        "sample_name": "GSM1049062 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "TGFb1 heterozygote",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "10",
+          "absorbed radiation dose rate": "23",
+          "exposure duration": "0.43",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample_title": "Het IR-host_6",
+          "Sample_description": "mouse_p53null-mammary-tumor_TGFb-Het_Irradiated host_repeat_10"
+        }
+      },
+      {
+        "sample_name": "GSM1049061 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "TGFb1 heterozygote",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "10",
+          "absorbed radiation dose rate": "23",
+          "exposure duration": "0.43",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample_title": "Het IR-host_56",
+          "Sample_description": "mouse_p53null-mammary-tumor_TGFb-Het_Irradiated host_repeat_9"
+        }
+      },
+      {
+        "sample_name": "GSM1049060 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "TGFb1 heterozygote",
+          "Ionizing Radiation": "sham-irradiated"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample_title": "Het Sham-IR-host_15",
+          "Sample_description": "mouse_p53null-mammary-tumor_TGFb-Het_sham-irradiated host_repeat_6"
+        }
+      },
+      {
+        "sample_name": "GSM1049059 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "TGFb1 heterozygote",
+          "Ionizing Radiation": "sham-irradiated"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample_title": "Het Sham-IR-host_38",
+          "Sample_description": "mouse_p53null-mammary-tumor_TGFb-Het_sham-irradiated host_repeat_5"
+        }
+      },
+      {
+        "sample_name": "GSM1049058 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "TGFb1 heterozygote",
+          "Ionizing Radiation": "sham-irradiated"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample_title": "Het Sham-IR-host_30",
+          "Sample_description": "mouse_p53null-mammary-tumor_TGFb-Het_sham-irradiated host_repeat_4"
+        }
+      },
+      {
+        "sample_name": "GSM1049057 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "TGFb1 heterozygote",
+          "Ionizing Radiation": "sham-irradiated"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample_title": "Het Sham-IR-host_52",
+          "Sample_description": "mouse_p53null-mammary-tumor_TGFb-Het_sham-irradiated host_repeat_3"
+        }
+      },
+      {
+        "sample_name": "GSM1049056 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "TGFb1 heterozygote",
+          "Ionizing Radiation": "sham-irradiated"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample_title": "Het Sham-IR-host_19",
+          "Sample_description": "mouse_p53null-mammary-tumor_TGFb-Het_sham-irradiated host_repeat_2"
+        }
+      },
+      {
+        "sample_name": "GSM1049055 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "TGFb1 heterozygote",
+          "Ionizing Radiation": "sham-irradiated"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample_title": "Het Sham-IR-host_58",
+          "Sample_description": "mouse_p53null-mammary-tumor_TGFb-Het_sham-irradiated host_repeat_1"
+        }
+      },
+      {
+        "sample_name": "GSM1049054 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "10",
+          "absorbed radiation dose rate": "23",
+          "exposure duration": "0.43",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample_title": "WT IR-host_59",
+          "Sample_description": "mouse_p53null-mammary-tumor_wild-type_Irradiated host_sample_23"
+        }
+      },
+      {
+        "sample_name": "GSM1049053 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "10",
+          "absorbed radiation dose rate": "23",
+          "exposure duration": "0.43",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample_title": "WT IR-host_57",
+          "Sample_description": "mouse_p53null-mammary-tumor_wild-type_Irradiated host_sample_22"
+        }
+      },
+      {
+        "sample_name": "GSM1049052 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "10",
+          "absorbed radiation dose rate": "23",
+          "exposure duration": "0.43",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample_title": "WT IR-host_54",
+          "Sample_description": "mouse_p53null-mammary-tumor_wild-type_Irradiated host_sample_21"
+        }
+      },
+      {
+        "sample_name": "GSM1049051 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "10",
+          "absorbed radiation dose rate": "23",
+          "exposure duration": "0.43",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample_title": "WT IR-host_5",
+          "Sample_description": "mouse_p53null-mammary-tumor_wild-type_Irradiated host_sample_20"
+        }
+      },
+      {
+        "sample_name": "GSM1049050 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "10",
+          "absorbed radiation dose rate": "23",
+          "exposure duration": "0.43",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample_title": "WT IR-host_21",
+          "Sample_description": "mouse_p53null-mammary-tumor_wild-type_Irradiated host_sample_19"
+        }
+      },
+      {
+        "sample_name": "GSM1049049 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "10",
+          "absorbed radiation dose rate": "23",
+          "exposure duration": "0.43",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample_title": "WT IR-host_20",
+          "Sample_description": "mouse_p53null-mammary-tumor_wild-type_Irradiated host_sample_18"
+        }
+      },
+      {
+        "sample_name": "GSM1049048 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "10",
+          "absorbed radiation dose rate": "23",
+          "exposure duration": "0.43",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample_title": "WT IR-host_14",
+          "Sample_description": "mouse_p53null-mammary-tumor_wild-type_Irradiated host_sample_17"
+        }
+      },
+      {
+        "sample_name": "GSM1049047 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "10",
+          "absorbed radiation dose rate": "23",
+          "exposure duration": "0.43",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample_title": "WT IR-host_12",
+          "Sample_description": "mouse_p53null-mammary-tumor_wild-type_Irradiated host_sample_16"
+        }
+      },
+      {
+        "sample_name": "GSM1049046 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "10",
+          "absorbed radiation dose rate": "23",
+          "exposure duration": "0.43",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample_title": "WT IR-host_9",
+          "Sample_description": "mouse_p53null-mammary-tumor_wild-type_Irradiated host_sample_15"
+        }
+      },
+      {
+        "sample_name": "GSM1049045 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "10",
+          "absorbed radiation dose rate": "23",
+          "exposure duration": "0.43",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample_title": "WT IR-host_53",
+          "Sample_description": "mouse_p53null-mammary-tumor_wild-type_Irradiated host_sample_14"
+        }
+      },
+      {
+        "sample_name": "GSM1049044 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "10",
+          "absorbed radiation dose rate": "23",
+          "exposure duration": "0.43",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample_title": "WT IR-host_48",
+          "Sample_description": "mouse_p53null-mammary-tumor_wild-type_Irradiated host_sample_13"
+        }
+      },
+      {
+        "sample_name": "GSM1049043 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "10",
+          "absorbed radiation dose rate": "23",
+          "exposure duration": "0.43",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample_title": "WT IR-host_44",
+          "Sample_description": "mouse_p53null-mammary-tumor_wild-type_Irradiated host_sample_12"
+        }
+      },
+      {
+        "sample_name": "GSM1049042 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "10",
+          "absorbed radiation dose rate": "23",
+          "exposure duration": "0.43",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample_title": "WT IR-host_43",
+          "Sample_description": "mouse_p53null-mammary-tumor_wild-type_Irradiated host_sample_11"
+        }
+      },
+      {
+        "sample_name": "GSM1049041 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "10",
+          "absorbed radiation dose rate": "23",
+          "exposure duration": "0.43",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample_title": "WT IR-host_40",
+          "Sample_description": "mouse_p53null-mammary-tumor_wild-type_Irradiated host_sample_10"
+        }
+      },
+      {
+        "sample_name": "GSM1049040 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "10",
+          "absorbed radiation dose rate": "23",
+          "exposure duration": "0.43",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample_title": "WT IR-host_39",
+          "Sample_description": "mouse_p53null-mammary-tumor_wild-type_Irradiated host_sample_9"
+        }
+      },
+      {
+        "sample_name": "GSM1049039 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "10",
+          "absorbed radiation dose rate": "23",
+          "exposure duration": "0.43",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample_title": "WT IR-host_36",
+          "Sample_description": "mouse_p53null-mammary-tumor_wild-type_Irradiated host_sample_8"
+        }
+      },
+      {
+        "sample_name": "GSM1049038 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "10",
+          "absorbed radiation dose rate": "23",
+          "exposure duration": "0.43",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample_title": "WT IR-host_25",
+          "Sample_description": "mouse_p53null-mammary-tumor_wild-type_Irradiated host_sample_7"
+        }
+      },
+      {
+        "sample_name": "GSM1049037 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "10",
+          "absorbed radiation dose rate": "23",
+          "exposure duration": "0.43",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample_title": "WT IR-host_24",
+          "Sample_description": "mouse_p53null-mammary-tumor_wild-type_Irradiated host_sample_6"
+        }
+      },
+      {
+        "sample_name": "GSM1049036 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "10",
+          "absorbed radiation dose rate": "23",
+          "exposure duration": "0.43",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample_title": "WT IR-host_22",
+          "Sample_description": "mouse_p53null-mammary-tumor_wild-type_Irradiated host_sample_5"
+        }
+      },
+      {
+        "sample_name": "GSM1049035 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "10",
+          "absorbed radiation dose rate": "23",
+          "exposure duration": "0.43",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample_title": "WT IR-host_2",
+          "Sample_description": "mouse_p53null-mammary-tumor_wild-type_Irradiated host_sample_4"
+        }
+      },
+      {
+        "sample_name": "GSM1049034 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "10",
+          "absorbed radiation dose rate": "23",
+          "exposure duration": "0.43",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample_title": "WT IR-host_16",
+          "Sample_description": "mouse_p53null-mammary-tumor_wild-type_Irradiated host_sample_3"
+        }
+      },
+      {
+        "sample_name": "GSM1049033 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "10",
+          "absorbed radiation dose rate": "23",
+          "exposure duration": "0.43",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample_title": "WT IR-host_11",
+          "Sample_description": "mouse_p53null-mammary-tumor_wild-type_Irradiated host_sample_2"
+        }
+      },
+      {
+        "sample_name": "GSM1049032 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "10",
+          "absorbed radiation dose rate": "23",
+          "exposure duration": "0.43",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample_title": "WT IR-host_10",
+          "Sample_description": "mouse_p53null-mammary-tumor_wild-type_Irradiated host_sample_1"
+        }
+      },
+      {
+        "sample_name": "GSM1049031 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "sham-irradiated"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample_title": "WT Sham-IR-host_65",
+          "Sample_description": "mouse_p53null-mammary-tumor_wild-type_sham-irradiated host_sample_9"
+        }
+      },
+      {
+        "sample_name": "GSM1049030 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "sham-irradiated"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample_title": "WT Sham-IR-host_64",
+          "Sample_description": "mouse_p53null-mammary-tumor_wild-type_sham-irradiated host_sample_8"
+        }
+      },
+      {
+        "sample_name": "GSM1049029 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "sham-irradiated"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample_title": "WT Sham-IR-host_61",
+          "Sample_description": "mouse_p53null-mammary-tumor_wild-type_sham-irradiated host_sample_7"
+        }
+      },
+      {
+        "sample_name": "GSM1049028 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "sham-irradiated"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample_title": "WT Sham-IR-host_60",
+          "Sample_description": "mouse_p53null-mammary-tumor_wild-type_sham-irradiated host_sample_6"
+        }
+      },
+      {
+        "sample_name": "GSM1049027 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "sham-irradiated"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample_title": "WT Sham-IR-host_46",
+          "Sample_description": "mouse_p53null-mammary-tumor_wild-type_sham-irradiated host_sample_5"
+        }
+      },
+      {
+        "sample_name": "GSM1049026 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "sham-irradiated"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample_title": "WT Sham-IR-host_31",
+          "Sample_description": "mouse_p53null-mammary-tumor_wild-type_sham-irradiated host_sample_4"
+        }
+      },
+      {
+        "sample_name": "GSM1049025 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "sham-irradiated"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample_title": "WT Sham-IR-host_17",
+          "Sample_description": "mouse_p53null-mammary-tumor_wild-type_sham-irradiated host_sample_3"
+        }
+      },
+      {
+        "sample_name": "GSM1049024 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "sham-irradiated"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample_title": "WT Sham-IR-host_8",
+          "Sample_description": "mouse_p53null-mammary-tumor_wild-type_sham-irradiated host_sample_2"
+        }
+      },
+      {
+        "sample_name": "GSM1049023 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Material Type": "transplanted p53null mammary tumor"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "sham-irradiated"
+        },
+        "parameters": {
+          "Diet": "Lab Diet 5008 chow",
+          "Feeding Schedule": "ad libitum",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample_title": "WT Sham-IR-host_3",
+          "Sample_description": "mouse_p53null-mammary-tumor_wild-type_sham-irradiated host_sample_1"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Affymetrix",
+      "qc": {},
+      "library": {},
+      "files": {
+        "raw": [],
+        "processed": [
+          "GLDS-79_microarray_E-GEOD-42742.processed.1.zip",
+          "GSM1049078 extract 1",
+          "GeneLab microarray data processing protocol",
+          "GSM1049078 LE 1",
+          "biotin",
+          "GSM1049078",
+          "array assay",
+          "AFFY Mouse430 2",
+          "GLDS-79_microarray_GSM1049078_David_N_55_Het_122110.CEL",
+          "GSM1049078_sample_table.txt norm",
+          "GLDS-79_array_raw_intensities_probe_GLmicroarray.csv",
+          "GLDS-79_array_normalized_expression_probeset_GLmicroarray.csv",
+          "GLDS-79_array_normalized_intensities_probe_GLmicroarray.csv",
+          "GLDS-79_array_SampleTable_GLmicroarray.csv",
+          "GLDS-79_array_contrasts_GLmicroarray.csv",
+          "GLDS-79_array_differential_expression_GLmicroarray.csv",
+          "GSM1049077 extract 1",
+          "GSM1049077 LE 1",
+          "GSM1049077",
+          "GLDS-79_microarray_GSM1049077_David_N_50_Het_122110.CEL",
+          "GSM1049077_sample_table.txt norm",
+          "GSM1049076 extract 1",
+          "GSM1049076 LE 1",
+          "GSM1049076",
+          "GLDS-79_microarray_GSM1049076_David_N_49_Het_122110.CEL",
+          "GSM1049076_sample_table.txt norm",
+          "GSM1049075 extract 1",
+          "GSM1049075 LE 1",
+          "GSM1049075",
+          "GLDS-79_microarray_GSM1049075_David_N_47_Het_122110.CEL",
+          "GSM1049075_sample_table.txt norm",
+          "GSM1049074 extract 1",
+          "GSM1049074 LE 1",
+          "GSM1049074",
+          "GLDS-79_microarray_GSM1049074_David_N_4_Het_122110.CEL",
+          "GSM1049074_sample_table.txt norm",
+          "GSM1049073 extract 1",
+          "GSM1049073 LE 1",
+          "GSM1049073",
+          "GLDS-79_microarray_GSM1049073_David_N_35_Het_122110.CEL",
+          "GSM1049073_sample_table.txt norm",
+          "GSM1049072 extract 1",
+          "GSM1049072 LE 1",
+          "GSM1049072",
+          "GLDS-79_microarray_GSM1049072_David_N_26_Het_122110.CEL",
+          "GSM1049072_sample_table.txt norm",
+          "GSM1049071 extract 1",
+          "GSM1049071 LE 1",
+          "GSM1049071",
+          "GLDS-79_microarray_GSM1049071_David_N_1_Het_122110.CEL",
+          "GSM1049071_sample_table.txt norm",
+          "GSM1049070 extract 1",
+          "GSM1049070 LE 1",
+          "GSM1049070",
+          "GLDS-79_microarray_GSM1049070_David_N_51_040710.CEL",
+          "GSM1049070_sample_table.txt norm",
+          "GSM1049069 extract 1",
+          "GSM1049069 LE 1",
+          "GSM1049069",
+          "GLDS-79_microarray_GSM1049069_David_N_42_040710.CEL",
+          "GSM1049069_sample_table.txt norm",
+          "GSM1049068 extract 1",
+          "GSM1049068 LE 1",
+          "GSM1049068",
+          "GLDS-79_microarray_GSM1049068_David_N_34_040710.CEL",
+          "GSM1049068_sample_table.txt norm",
+          "GSM1049067 extract 1",
+          "GSM1049067 LE 1",
+          "GSM1049067",
+          "GLDS-79_microarray_GSM1049067_David_N_33_040710.CEL",
+          "GSM1049067_sample_table.txt norm",
+          "GSM1049066 extract 1",
+          "GSM1049066 LE 1",
+          "GSM1049066",
+          "GLDS-79_microarray_GSM1049066_David_N_32_040710.CEL",
+          "GSM1049066_sample_table.txt norm",
+          "GSM1049065 extract 1",
+          "GSM1049065 LE 1",
+          "GSM1049065",
+          "GLDS-79_microarray_GSM1049065_David_N_29_040710.CEL",
+          "GSM1049065_sample_table.txt norm",
+          "GSM1049064 extract 1",
+          "GSM1049064 LE 1",
+          "GSM1049064",
+          "GLDS-79_microarray_GSM1049064_David_N_23_040710.CEL",
+          "GSM1049064_sample_table.txt norm",
+          "GSM1049063 extract 1",
+          "GSM1049063 LE 1",
+          "GSM1049063",
+          "GLDS-79_microarray_GSM1049063_David_N_7_112409.CEL",
+          "GSM1049063_sample_table.txt norm",
+          "GSM1049062 extract 1",
+          "GSM1049062 LE 1",
+          "GSM1049062",
+          "GLDS-79_microarray_GSM1049062_David_N_6_112409.CEL",
+          "GSM1049062_sample_table.txt norm",
+          "GSM1049061 extract 1",
+          "GSM1049061 LE 1",
+          "GSM1049061",
+          "GLDS-79_microarray_GSM1049061_David_N_56_112409.CEL",
+          "GSM1049061_sample_table.txt norm",
+          "GSM1049060 extract 1",
+          "GSM1049060 LE 1",
+          "GSM1049060",
+          "GLDS-79_microarray_GSM1049060_David_N_15_112409.CEL",
+          "GSM1049060_sample_table.txt norm",
+          "GSM1049059 extract 1",
+          "GSM1049059 LE 1",
+          "GSM1049059",
+          "GLDS-79_microarray_GSM1049059_David_N_38_040710.CEL",
+          "GSM1049059_sample_table.txt norm",
+          "GSM1049058 extract 1",
+          "GSM1049058 LE 1",
+          "GSM1049058",
+          "GLDS-79_microarray_GSM1049058_David_N_30_040710.CEL",
+          "GSM1049058_sample_table.txt norm",
+          "GSM1049057 extract 1",
+          "GSM1049057 LE 1",
+          "GSM1049057",
+          "GLDS-79_microarray_GSM1049057_David_N_52_040710.CEL",
+          "GSM1049057_sample_table.txt norm",
+          "GSM1049056 extract 1",
+          "GSM1049056 LE 1",
+          "GSM1049056",
+          "GLDS-79_microarray_GSM1049056_David_N_19_040710.CEL",
+          "GSM1049056_sample_table.txt norm",
+          "GSM1049055 extract 1",
+          "GSM1049055 LE 1",
+          "GSM1049055",
+          "GLDS-79_microarray_GSM1049055_David_N_58_040710.CEL",
+          "GSM1049055_sample_table.txt norm",
+          "GSM1049054 extract 1",
+          "GSM1049054 LE 1",
+          "GSM1049054",
+          "GLDS-79_microarray_GSM1049054_David_N_59_031110.CEL",
+          "GSM1049054_sample_table.txt norm",
+          "GSM1049053 extract 1",
+          "GSM1049053 LE 1",
+          "GSM1049053",
+          "GLDS-79_microarray_GSM1049053_David_N_57_031110.CEL",
+          "GSM1049053_sample_table.txt norm",
+          "GSM1049052 extract 1",
+          "GSM1049052 LE 1",
+          "GSM1049052",
+          "GLDS-79_microarray_GSM1049052_David_N_54_031110.CEL",
+          "GSM1049052_sample_table.txt norm",
+          "GSM1049051 extract 1",
+          "GSM1049051 LE 1",
+          "GSM1049051",
+          "GLDS-79_microarray_GSM1049051_David_N_5_031110.CEL",
+          "GSM1049051_sample_table.txt norm",
+          "GSM1049050 extract 1",
+          "GSM1049050 LE 1",
+          "GSM1049050",
+          "GLDS-79_microarray_GSM1049050_David_N_21_031110.CEL",
+          "GSM1049050_sample_table.txt norm",
+          "GSM1049049 extract 1",
+          "GSM1049049 LE 1",
+          "GSM1049049",
+          "GLDS-79_microarray_GSM1049049_David_N_20_031110.CEL",
+          "GSM1049049_sample_table.txt norm",
+          "GSM1049048 extract 1",
+          "GSM1049048 LE 1",
+          "GSM1049048",
+          "GLDS-79_microarray_GSM1049048_David_N_14_031110.CEL",
+          "GSM1049048_sample_table.txt norm",
+          "GSM1049047 extract 1",
+          "GSM1049047 LE 1",
+          "GSM1049047",
+          "GLDS-79_microarray_GSM1049047_David_N_12_031110.CEL",
+          "GSM1049047_sample_table.txt norm",
+          "GSM1049046 extract 1",
+          "GSM1049046 LE 1",
+          "GSM1049046",
+          "GLDS-79_microarray_GSM1049046_David_N_9_122309.CEL",
+          "GSM1049046_sample_table.txt norm",
+          "GSM1049045 extract 1",
+          "GSM1049045 LE 1",
+          "GSM1049045",
+          "GLDS-79_microarray_GSM1049045_David_N_53_122309.CEL",
+          "GSM1049045_sample_table.txt norm",
+          "GSM1049044 extract 1",
+          "GSM1049044 LE 1",
+          "GSM1049044",
+          "GLDS-79_microarray_GSM1049044_David_N_48_112409.CEL",
+          "GSM1049044_sample_table.txt norm",
+          "GSM1049043 extract 1",
+          "GSM1049043 LE 1",
+          "GSM1049043",
+          "GLDS-79_microarray_GSM1049043_David_N_44_112409.CEL",
+          "GSM1049043_sample_table.txt norm",
+          "GSM1049042 extract 1",
+          "GSM1049042 LE 1",
+          "GSM1049042",
+          "GLDS-79_microarray_GSM1049042_David_N_43_112409.CEL",
+          "GSM1049042_sample_table.txt norm",
+          "GSM1049041 extract 1",
+          "GSM1049041 LE 1",
+          "GSM1049041",
+          "GLDS-79_microarray_GSM1049041_David_N_40_122309.CEL",
+          "GSM1049041_sample_table.txt norm",
+          "GSM1049040 extract 1",
+          "GSM1049040 LE 1",
+          "GSM1049040",
+          "GLDS-79_microarray_GSM1049040_David_N_39_112409.CEL",
+          "GSM1049040_sample_table.txt norm",
+          "GSM1049039 extract 1",
+          "GSM1049039 LE 1",
+          "GSM1049039",
+          "GLDS-79_microarray_GSM1049039_David_N_36_122309.CEL",
+          "GSM1049039_sample_table.txt norm",
+          "GSM1049038 extract 1",
+          "GSM1049038 LE 1",
+          "GSM1049038",
+          "GLDS-79_microarray_GSM1049038_David_N_25_112409.CEL",
+          "GSM1049038_sample_table.txt norm",
+          "GSM1049037 extract 1",
+          "GSM1049037 LE 1",
+          "GSM1049037",
+          "GLDS-79_microarray_GSM1049037_David_N_24_122309.CEL",
+          "GSM1049037_sample_table.txt norm",
+          "GSM1049036 extract 1",
+          "GSM1049036 LE 1",
+          "GSM1049036",
+          "GLDS-79_microarray_GSM1049036_David_N_22_122309.CEL",
+          "GSM1049036_sample_table.txt norm",
+          "GSM1049035 extract 1",
+          "GSM1049035 LE 1",
+          "GSM1049035",
+          "GLDS-79_microarray_GSM1049035_David_N_2_112409.CEL",
+          "GSM1049035_sample_table.txt norm",
+          "GSM1049034 extract 1",
+          "GSM1049034 LE 1",
+          "GSM1049034",
+          "GLDS-79_microarray_GSM1049034_David_N_16_112409.CEL",
+          "GSM1049034_sample_table.txt norm",
+          "GSM1049033 extract 1",
+          "GSM1049033 LE 1",
+          "GSM1049033",
+          "GLDS-79_microarray_GSM1049033_David_N_11_122309.CEL",
+          "GSM1049033_sample_table.txt norm",
+          "GSM1049032 extract 1",
+          "GSM1049032 LE 1",
+          "GSM1049032",
+          "GLDS-79_microarray_GSM1049032_David_N_10_112409.CEL",
+          "GSM1049032_sample_table.txt norm",
+          "GSM1049031 extract 1",
+          "GSM1049031 LE 1",
+          "GSM1049031",
+          "GLDS-79_microarray_GSM1049031_David_N_65_031110.CEL",
+          "GSM1049031_sample_table.txt norm",
+          "GSM1049030 extract 1",
+          "GSM1049030 LE 1",
+          "GSM1049030",
+          "GLDS-79_microarray_GSM1049030_David_N_64_031110.CEL",
+          "GSM1049030_sample_table.txt norm",
+          "GSM1049029 extract 1",
+          "GSM1049029 LE 1",
+          "GSM1049029",
+          "GLDS-79_microarray_GSM1049029_David_N_61_031110.CEL",
+          "GSM1049029_sample_table.txt norm",
+          "GSM1049028 extract 1",
+          "GSM1049028 LE 1",
+          "GSM1049028",
+          "GLDS-79_microarray_GSM1049028_David_N_60_031110.CEL",
+          "GSM1049028_sample_table.txt norm",
+          "GSM1049027 extract 1",
+          "GSM1049027 LE 1",
+          "GSM1049027",
+          "GLDS-79_microarray_GSM1049027_David_N_46_122309.CEL",
+          "GSM1049027_sample_table.txt norm",
+          "GSM1049026 extract 1",
+          "GSM1049026 LE 1",
+          "GSM1049026",
+          "GLDS-79_microarray_GSM1049026_David_N_31_122309.CEL",
+          "GSM1049026_sample_table.txt norm",
+          "GSM1049025 extract 1",
+          "GSM1049025 LE 1",
+          "GSM1049025",
+          "GLDS-79_microarray_GSM1049025_David_N_17_122309.CEL",
+          "GSM1049025_sample_table.txt norm",
+          "GSM1049024 extract 1",
+          "GSM1049024 LE 1",
+          "GSM1049024",
+          "GLDS-79_microarray_GSM1049024_David_N_8_122309.CEL",
+          "GSM1049024_sample_table.txt norm",
+          "GSM1049023 extract 1",
+          "GSM1049023 LE 1",
+          "GSM1049023",
+          "GLDS-79_microarray_GSM1049023_David_N_3_122309.CEL",
+          "GSM1049023_sample_table.txt norm"
+        ],
+        "reports": []
+      }
+    }
+  ]
+}

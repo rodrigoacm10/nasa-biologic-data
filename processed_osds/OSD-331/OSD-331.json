@@ -1,0 +1,191 @@
+{
+  "investigation": {
+    "id": "OSD-331",
+    "title": "Effect of microgravity on HUVECs (Human Umbilical vein Endothelial cells) cells and its transcriptome analysis.",
+    "description": "Adaptation of humans in low gravity conditions is a matter of utmost importance when efforts are on to a gigantic leap in human space expeditions for tourism and formation of space colonies. In this connection, cardiovascular adaptation in low gravity is a critical component of human space exploration.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "Simulated_Microgravity",
+      "title": "",
+      "type": "Ground Study",
+      "link": "",
+      "funding": "UGC-FRP Government of India, DBT India, CSIR, ISRO",
+      "managing_center": ""
+    },
+    "protocols": [
+      "Nucleic Acid Extraction",
+      "Library Construction",
+      "Nucleic Acid Sequencing",
+      "GeneLab raw data processing protocol",
+      "GeneLab RNAseq data processing protocol",
+      "Growth protocol",
+      "Treatment protocol"
+    ],
+    "publications": [
+      {
+        "title": "Interactome of miRNAs and transcriptome of human umbilical cord endothelial cells exposed to short-term simulated microgravity",
+        "doi": "10.1038/s41526-020-00108-6",
+        "authors": [
+          "Kasiviswanathan Dharanibalan",
+          "Chinnasamy Perumal Rajadurai",
+          "Bhuvaneswari Srinivasan",
+          "Kumar Pavitra",
+          "Sundaresan Lakshmikirupa",
+          "Philip Manuel",
+          "Puthenpurackal Krishnankutty Sajesh",
+          "Chatterjee Suvro"
+        ],
+        "summary": "Interactome of miRNAs and transcriptome of human umbilical cord endothelial cells exposed to short-term simulated microgravity — 10.1038/s41526-020-00108-6"
+      }
+    ],
+    "factors": [
+      "Microgravity Simulation"
+    ],
+    "contacts": [
+      {
+        "first_name": "Ravi",
+        "last_name": "Gupta",
+        "role": "Submitter",
+        "email": "soovro@yahoo.ca"
+      },
+      {
+        "first_name": "Dharanibalan",
+        "last_name": "Kasiviswanathan",
+        "role": "principal investigator",
+        "email": ""
+      },
+      {
+        "first_name": "Suvro",
+        "last_name": "Chatterjee",
+        "role": "Co-investigator",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "GSM2123857",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Cells",
+          "cell line": "Umbilical cord vein endothelial cell"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G on Earth"
+        },
+        "parameters": {
+          "time": "2",
+          "Growth Temperature": "37",
+          "Outer frame rotation": "0",
+          "Inner frame rotation": "0"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM2123858",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Cells",
+          "cell line": "Umbilical cord vein endothelial cell"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by clinostat"
+        },
+        "parameters": {
+          "time": "2",
+          "Growth Temperature": "37",
+          "Outer frame rotation": "20",
+          "Inner frame rotation": "13"
+        },
+        "comments": {}
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina HiSeq 2500",
+      "qc": {
+        "QA Instrument": "Agilent TapeStation",
+        "Read Depth": "35170247",
+        "rRNA Contamination": "1.03"
+      },
+      "library": {
+        "Library Selection": "polyA enrichment",
+        "Library Layout": "PAIRED"
+      },
+      "files": {
+        "raw": [
+          "GLDS-331_rna-seq_SRR3384122_1.fastq.gz",
+          "GLDS-331_rna-seq_SRR3384122_2.fastq.gz",
+          "GLDS-331_rna-seq_SRR3384123_1.fastq.gz",
+          "GLDS-331_rna-seq_SRR3384123_2.fastq.gz",
+          "GLDS-331_rna_seq_GSM2123857_R1_raw.fastq.gz",
+          "GLDS-331_rna_seq_GSM2123857_R2_raw.fastq.gz",
+          "GLDS-331_rna_seq_GSM2123857_R1_trimmed.fastq.gz",
+          "GLDS-331_rna_seq_GSM2123857_R2_trimmed.fastq.gz",
+          "GLDS-331_rna_seq_GSM2123858_R1_raw.fastq.gz",
+          "GLDS-331_rna_seq_GSM2123858_R2_raw.fastq.gz",
+          "GLDS-331_rna_seq_GSM2123858_R1_trimmed.fastq.gz",
+          "GLDS-331_rna_seq_GSM2123858_R2_trimmed.fastq.gz"
+        ],
+        "processed": [
+          "GLDS-331_rna_seq_GSM2123857_R1_trimmed.fastq.gz",
+          "GLDS-331_rna_seq_GSM2123857_R2_trimmed.fastq.gz",
+          "GLDS-331_rna_seq_GSM2123857_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-331_rna_seq_GSM2123857_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-331_rna_seq_GSM2123857_Aligned.toTranscriptome.out.bam",
+          "GLDS-331_rna_seq_GSM2123857_SJ.out.tab",
+          "GLDS-331_rna_seq_GSM2123858_R1_trimmed.fastq.gz",
+          "GLDS-331_rna_seq_GSM2123858_R2_trimmed.fastq.gz",
+          "GLDS-331_rna_seq_GSM2123858_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-331_rna_seq_GSM2123858_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-331_rna_seq_GSM2123858_Aligned.toTranscriptome.out.bam",
+          "GLDS-331_rna_seq_GSM2123858_SJ.out.tab",
+          "GSM2123857",
+          "GeneLab RNAseq data processing protocol",
+          "Agilent TapeStation",
+          "polyA enrichment",
+          "PAIRED",
+          "Illumina HiSeq 2500",
+          "100",
+          "percent",
+          "rna-seq",
+          "35170247",
+          "1.03",
+          "GLDS-331_rna_seq_GSM2123857.genes.results",
+          "GLDS-331_rna_seq_GSM2123857.isoforms.results",
+          "GLDS-331_rna_seq_RSEM_Unnormalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-331_rna_seq_STAR_Unnormalized_Counts_GLbulkRNAseq.csv",
+          "GSM2123858",
+          "48384510",
+          "0.94",
+          "GLDS-331_rna_seq_GSM2123858.genes.results",
+          "GLDS-331_rna_seq_GSM2123858.isoforms.results"
+        ],
+        "reports": [
+          "GLDS-331_rna_seq_raw_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-331_rna_seq_trimmed_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-331_rna_seq_GSM2123857_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-331_rna_seq_GSM2123857_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-331_rna_seq_GSM2123857_Log.final.out",
+          "GLDS-331_rna_seq_align_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-331_rna_seq_geneBody_cov_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-331_rna_seq_infer_exp_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-331_rna_seq_inner_dist_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-331_rna_seq_read_dist_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-331_rna_seq_RSEM_count_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-331_rna_seq_GSM2123858_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-331_rna_seq_GSM2123858_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-331_rna_seq_GSM2123858_Log.final.out"
+        ]
+      }
+    }
+  ]
+}

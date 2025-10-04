@@ -1,0 +1,931 @@
+{
+  "investigation": {
+    "id": "OSD-518",
+    "title": "Opposing influences of TAC1 and LAZY1 on Lateral Shoot Orientation in Arabidopsis",
+    "description": "TAC1 and LAZY1 are members of a gene family that regulates lateral shoot orientation in plants. TAC1 promotes outward orientations in response to light, while LAZY1 promotes upward shoot orientations in response to gravity via altered auxin transport.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "",
+      "title": "",
+      "type": "Ground Study",
+      "link": "",
+      "funding": "Agriculture and Food Research Initiative Competitive grant 10891264 from the United States Department of Agriculture National Institute of Food and Agriculture, the National Science Foundation grant number 1339211, the United States Department of Agriculture National Institute of Food and Agriculture HATCH project 1013242, the Michigan State University Department of Horticulture, and Michigan State University AgBioResearch.",
+      "managing_center": ""
+    },
+    "protocols": [
+      "Nucleic Acid Extraction",
+      "Library Construction",
+      "Nucleic Acid Sequencing",
+      "GeneLab raw data processing protocol",
+      "GeneLab RNAseq data processing protocol",
+      "growth protocol",
+      "treatment protocol",
+      "sample collection"
+    ],
+    "publications": [
+      {
+        "title": "Opposing influences of TAC1 and LAZY1 on Lateral Shoot Orientation in Arabidopsis.",
+        "doi": "10.1038/s41598-020-62962-4",
+        "authors": [
+          "Hollender CA",
+          "Hill JL",
+          "Waite J",
+          "Dardick C."
+        ],
+        "summary": "Opposing influences of TAC1 and LAZY1 on Lateral Shoot Orientation in Arabidopsis. — 10.1038/s41598-020-62962-4"
+      }
+    ],
+    "factors": [
+      "Genotype",
+      "Treatment"
+    ],
+    "contacts": [
+      {
+        "first_name": "Courtney",
+        "last_name": "Hollender",
+        "role": "Author",
+        "email": "chollend@msu.edu"
+      },
+      {
+        "first_name": "Joseph",
+        "last_name": "Hill",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Jessica",
+        "last_name": "Waite",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Chris",
+        "last_name": "Dardick",
+        "role": "Author",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "GSM4422793",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Columbia ecotype",
+          "Seed Source": "",
+          "organism part": "shoot tip"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Treatment": "not gravistimulated"
+        },
+        "parameters": {
+          "Hardware": "custom-built rack",
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "100",
+          "Growth Medium": "SunGrow metromix 360 and fertilized every 1-2 weeks with dilute miracle grow",
+          "Mean Growth Temperature": "22",
+          "Time of Sample Collection After Treatment": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4422794",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Columbia ecotype",
+          "Seed Source": "",
+          "organism part": "shoot tip"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Treatment": "not gravistimulated"
+        },
+        "parameters": {
+          "Hardware": "custom-built rack",
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "100",
+          "Growth Medium": "SunGrow metromix 360 and fertilized every 1-2 weeks with dilute miracle grow",
+          "Mean Growth Temperature": "22",
+          "Time of Sample Collection After Treatment": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4422795",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Columbia ecotype",
+          "Seed Source": "",
+          "organism part": "shoot tip"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Treatment": "not gravistimulated"
+        },
+        "parameters": {
+          "Hardware": "custom-built rack",
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "100",
+          "Growth Medium": "SunGrow metromix 360 and fertilized every 1-2 weeks with dilute miracle grow",
+          "Mean Growth Temperature": "22",
+          "Time of Sample Collection After Treatment": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4422796",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Columbia ecotype",
+          "Seed Source": "",
+          "organism part": "shoot tip"
+        },
+        "factors": {
+          "Genotype": "lazy1 mutant",
+          "Treatment": "not gravistimulated"
+        },
+        "parameters": {
+          "Hardware": "custom-built rack",
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "100",
+          "Growth Medium": "SunGrow metromix 360 and fertilized every 1-2 weeks with dilute miracle grow",
+          "Mean Growth Temperature": "22",
+          "Time of Sample Collection After Treatment": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4422797",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Columbia ecotype",
+          "Seed Source": "",
+          "organism part": "shoot tip"
+        },
+        "factors": {
+          "Genotype": "lazy1 mutant",
+          "Treatment": "not gravistimulated"
+        },
+        "parameters": {
+          "Hardware": "custom-built rack",
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "100",
+          "Growth Medium": "SunGrow metromix 360 and fertilized every 1-2 weeks with dilute miracle grow",
+          "Mean Growth Temperature": "22",
+          "Time of Sample Collection After Treatment": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4422798",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Columbia ecotype",
+          "Seed Source": "",
+          "organism part": "shoot tip"
+        },
+        "factors": {
+          "Genotype": "lazy1 mutant",
+          "Treatment": "not gravistimulated"
+        },
+        "parameters": {
+          "Hardware": "custom-built rack",
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "100",
+          "Growth Medium": "SunGrow metromix 360 and fertilized every 1-2 weeks with dilute miracle grow",
+          "Mean Growth Temperature": "22",
+          "Time of Sample Collection After Treatment": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4422799",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Columbia ecotype",
+          "Seed Source": "",
+          "organism part": "shoot tip"
+        },
+        "factors": {
+          "Genotype": "tac1 mutant",
+          "Treatment": "not gravistimulated"
+        },
+        "parameters": {
+          "Hardware": "custom-built rack",
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "100",
+          "Growth Medium": "SunGrow metromix 360 and fertilized every 1-2 weeks with dilute miracle grow",
+          "Mean Growth Temperature": "22",
+          "Time of Sample Collection After Treatment": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4422800",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Columbia ecotype",
+          "Seed Source": "",
+          "organism part": "shoot tip"
+        },
+        "factors": {
+          "Genotype": "tac1 mutant",
+          "Treatment": "not gravistimulated"
+        },
+        "parameters": {
+          "Hardware": "custom-built rack",
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "100",
+          "Growth Medium": "SunGrow metromix 360 and fertilized every 1-2 weeks with dilute miracle grow",
+          "Mean Growth Temperature": "22",
+          "Time of Sample Collection After Treatment": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4422801",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Columbia ecotype",
+          "Seed Source": "",
+          "organism part": "shoot tip"
+        },
+        "factors": {
+          "Genotype": "tac1 mutant",
+          "Treatment": "not gravistimulated"
+        },
+        "parameters": {
+          "Hardware": "custom-built rack",
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "100",
+          "Growth Medium": "SunGrow metromix 360 and fertilized every 1-2 weeks with dilute miracle grow",
+          "Mean Growth Temperature": "22",
+          "Time of Sample Collection After Treatment": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4422802",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Columbia ecotype",
+          "Seed Source": "",
+          "organism part": "shoot tip"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Treatment": "45 minutes after 90 degree gravistimulation"
+        },
+        "parameters": {
+          "Hardware": "custom-built rack",
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "100",
+          "Growth Medium": "SunGrow metromix 360 and fertilized every 1-2 weeks with dilute miracle grow",
+          "Mean Growth Temperature": "22",
+          "Time of Sample Collection After Treatment": "45",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4422803",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Columbia ecotype",
+          "Seed Source": "",
+          "organism part": "shoot tip"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Treatment": "45 minutes after 90 degree gravistimulation"
+        },
+        "parameters": {
+          "Hardware": "custom-built rack",
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "100",
+          "Growth Medium": "SunGrow metromix 360 and fertilized every 1-2 weeks with dilute miracle grow",
+          "Mean Growth Temperature": "22",
+          "Time of Sample Collection After Treatment": "45",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4422804",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Columbia ecotype",
+          "Seed Source": "",
+          "organism part": "shoot tip"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Treatment": "45 minutes after 90 degree gravistimulation"
+        },
+        "parameters": {
+          "Hardware": "custom-built rack",
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "100",
+          "Growth Medium": "SunGrow metromix 360 and fertilized every 1-2 weeks with dilute miracle grow",
+          "Mean Growth Temperature": "22",
+          "Time of Sample Collection After Treatment": "45",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4422805",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Columbia ecotype",
+          "Seed Source": "",
+          "organism part": "shoot tip"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Treatment": "45 minutes after 90 degree gravistimulation"
+        },
+        "parameters": {
+          "Hardware": "custom-built rack",
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "100",
+          "Growth Medium": "SunGrow metromix 360 and fertilized every 1-2 weeks with dilute miracle grow",
+          "Mean Growth Temperature": "22",
+          "Time of Sample Collection After Treatment": "45",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4422806",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Columbia ecotype",
+          "Seed Source": "",
+          "organism part": "shoot tip"
+        },
+        "factors": {
+          "Genotype": "lazy1 mutant",
+          "Treatment": "45 minutes after 90 degree gravistimulation"
+        },
+        "parameters": {
+          "Hardware": "custom-built rack",
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "100",
+          "Growth Medium": "SunGrow metromix 360 and fertilized every 1-2 weeks with dilute miracle grow",
+          "Mean Growth Temperature": "22",
+          "Time of Sample Collection After Treatment": "45",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4422807",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Columbia ecotype",
+          "Seed Source": "",
+          "organism part": "shoot tip"
+        },
+        "factors": {
+          "Genotype": "lazy1 mutant",
+          "Treatment": "45 minutes after 90 degree gravistimulation"
+        },
+        "parameters": {
+          "Hardware": "custom-built rack",
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "100",
+          "Growth Medium": "SunGrow metromix 360 and fertilized every 1-2 weeks with dilute miracle grow",
+          "Mean Growth Temperature": "22",
+          "Time of Sample Collection After Treatment": "45",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4422808",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Columbia ecotype",
+          "Seed Source": "",
+          "organism part": "shoot tip"
+        },
+        "factors": {
+          "Genotype": "lazy1 mutant",
+          "Treatment": "45 minutes after 90 degree gravistimulation"
+        },
+        "parameters": {
+          "Hardware": "custom-built rack",
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "100",
+          "Growth Medium": "SunGrow metromix 360 and fertilized every 1-2 weeks with dilute miracle grow",
+          "Mean Growth Temperature": "22",
+          "Time of Sample Collection After Treatment": "45",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4422809",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Columbia ecotype",
+          "Seed Source": "",
+          "organism part": "shoot tip"
+        },
+        "factors": {
+          "Genotype": "lazy1 mutant",
+          "Treatment": "45 minutes after 90 degree gravistimulation"
+        },
+        "parameters": {
+          "Hardware": "custom-built rack",
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "100",
+          "Growth Medium": "SunGrow metromix 360 and fertilized every 1-2 weeks with dilute miracle grow",
+          "Mean Growth Temperature": "22",
+          "Time of Sample Collection After Treatment": "45",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4422810",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Columbia ecotype",
+          "Seed Source": "",
+          "organism part": "shoot tip"
+        },
+        "factors": {
+          "Genotype": "tac1 mutant",
+          "Treatment": "45 minutes after 90 degree gravistimulation"
+        },
+        "parameters": {
+          "Hardware": "custom-built rack",
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "100",
+          "Growth Medium": "SunGrow metromix 360 and fertilized every 1-2 weeks with dilute miracle grow",
+          "Mean Growth Temperature": "22",
+          "Time of Sample Collection After Treatment": "45",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4422811",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Columbia ecotype",
+          "Seed Source": "",
+          "organism part": "shoot tip"
+        },
+        "factors": {
+          "Genotype": "tac1 mutant",
+          "Treatment": "45 minutes after 90 degree gravistimulation"
+        },
+        "parameters": {
+          "Hardware": "custom-built rack",
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "100",
+          "Growth Medium": "SunGrow metromix 360 and fertilized every 1-2 weeks with dilute miracle grow",
+          "Mean Growth Temperature": "22",
+          "Time of Sample Collection After Treatment": "45",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4422812",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Columbia ecotype",
+          "Seed Source": "",
+          "organism part": "shoot tip"
+        },
+        "factors": {
+          "Genotype": "tac1 mutant",
+          "Treatment": "45 minutes after 90 degree gravistimulation"
+        },
+        "parameters": {
+          "Hardware": "custom-built rack",
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "100",
+          "Growth Medium": "SunGrow metromix 360 and fertilized every 1-2 weeks with dilute miracle grow",
+          "Mean Growth Temperature": "22",
+          "Time of Sample Collection After Treatment": "45",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM4422813",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Columbia ecotype",
+          "Seed Source": "",
+          "organism part": "shoot tip"
+        },
+        "factors": {
+          "Genotype": "tac1 mutant",
+          "Treatment": "45 minutes after 90 degree gravistimulation"
+        },
+        "parameters": {
+          "Hardware": "custom-built rack",
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "100",
+          "Growth Medium": "SunGrow metromix 360 and fertilized every 1-2 weeks with dilute miracle grow",
+          "Mean Growth Temperature": "22",
+          "Time of Sample Collection After Treatment": "45",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina HiSeq 2000",
+      "qc": {
+        "Read Depth": "13520991"
+      },
+      "library": {
+        "Library Selection": "polyA enrichment",
+        "Library Layout": "SINGLE"
+      },
+      "files": {
+        "raw": [
+          "GLDS-518_rna-seq_GSM4422793_raw.fastq.gz",
+          "GLDS-518_rna-seq_GSM4422794_raw.fastq.gz",
+          "GLDS-518_rna-seq_GSM4422795_raw.fastq.gz",
+          "GLDS-518_rna-seq_GSM4422796_raw.fastq.gz",
+          "GLDS-518_rna-seq_GSM4422797_raw.fastq.gz",
+          "GLDS-518_rna-seq_GSM4422798_raw.fastq.gz",
+          "GLDS-518_rna-seq_GSM4422799_raw.fastq.gz",
+          "GLDS-518_rna-seq_GSM4422800_raw.fastq.gz",
+          "GLDS-518_rna-seq_GSM4422801_raw.fastq.gz",
+          "GLDS-518_rna-seq_GSM4422802_raw.fastq.gz",
+          "GLDS-518_rna-seq_GSM4422803_raw.fastq.gz",
+          "GLDS-518_rna-seq_GSM4422804_raw.fastq.gz",
+          "GLDS-518_rna-seq_GSM4422805_raw.fastq.gz",
+          "GLDS-518_rna-seq_GSM4422806_raw.fastq.gz",
+          "GLDS-518_rna-seq_GSM4422807_raw.fastq.gz",
+          "GLDS-518_rna-seq_GSM4422808_raw.fastq.gz",
+          "GLDS-518_rna-seq_GSM4422809_raw.fastq.gz",
+          "GLDS-518_rna-seq_GSM4422810_raw.fastq.gz",
+          "GLDS-518_rna-seq_GSM4422811_raw.fastq.gz",
+          "GLDS-518_rna-seq_GSM4422812_raw.fastq.gz",
+          "GLDS-518_rna-seq_GSM4422813_raw.fastq.gz",
+          "GLDS-518_rna_seq_GSM4422793_trimmed.fastq.gz",
+          "GLDS-518_rna_seq_GSM4422794_trimmed.fastq.gz",
+          "GLDS-518_rna_seq_GSM4422795_trimmed.fastq.gz",
+          "GLDS-518_rna_seq_GSM4422796_trimmed.fastq.gz",
+          "GLDS-518_rna_seq_GSM4422797_trimmed.fastq.gz",
+          "GLDS-518_rna_seq_GSM4422798_trimmed.fastq.gz",
+          "GLDS-518_rna_seq_GSM4422799_trimmed.fastq.gz",
+          "GLDS-518_rna_seq_GSM4422800_trimmed.fastq.gz",
+          "GLDS-518_rna_seq_GSM4422801_trimmed.fastq.gz",
+          "GLDS-518_rna_seq_GSM4422802_trimmed.fastq.gz",
+          "GLDS-518_rna_seq_GSM4422803_trimmed.fastq.gz",
+          "GLDS-518_rna_seq_GSM4422804_trimmed.fastq.gz",
+          "GLDS-518_rna_seq_GSM4422805_trimmed.fastq.gz",
+          "GLDS-518_rna_seq_GSM4422806_trimmed.fastq.gz",
+          "GLDS-518_rna_seq_GSM4422807_trimmed.fastq.gz",
+          "GLDS-518_rna_seq_GSM4422808_trimmed.fastq.gz",
+          "GLDS-518_rna_seq_GSM4422809_trimmed.fastq.gz",
+          "GLDS-518_rna_seq_GSM4422810_trimmed.fastq.gz",
+          "GLDS-518_rna_seq_GSM4422811_trimmed.fastq.gz",
+          "GLDS-518_rna_seq_GSM4422812_trimmed.fastq.gz",
+          "GLDS-518_rna_seq_GSM4422813_trimmed.fastq.gz"
+        ],
+        "processed": [
+          "GLDS-518_rna_seq_GSM4422793_trimmed.fastq.gz",
+          "GLDS-518_rna_seq_GSM4422793_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-518_rna_seq_GSM4422793_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-518_rna_seq_GSM4422793_Aligned.toTranscriptome.out.bam",
+          "GLDS-518_rna_seq_GSM4422793_SJ.out.tab",
+          "GLDS-518_rna_seq_GSM4422794_trimmed.fastq.gz",
+          "GLDS-518_rna_seq_GSM4422794_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-518_rna_seq_GSM4422794_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-518_rna_seq_GSM4422794_Aligned.toTranscriptome.out.bam",
+          "GLDS-518_rna_seq_GSM4422794_SJ.out.tab",
+          "GLDS-518_rna_seq_GSM4422795_trimmed.fastq.gz",
+          "GLDS-518_rna_seq_GSM4422795_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-518_rna_seq_GSM4422795_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-518_rna_seq_GSM4422795_Aligned.toTranscriptome.out.bam",
+          "GLDS-518_rna_seq_GSM4422795_SJ.out.tab",
+          "GLDS-518_rna_seq_GSM4422796_trimmed.fastq.gz",
+          "GLDS-518_rna_seq_GSM4422796_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-518_rna_seq_GSM4422796_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-518_rna_seq_GSM4422796_Aligned.toTranscriptome.out.bam",
+          "GLDS-518_rna_seq_GSM4422796_SJ.out.tab",
+          "GLDS-518_rna_seq_GSM4422797_trimmed.fastq.gz",
+          "GLDS-518_rna_seq_GSM4422797_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-518_rna_seq_GSM4422797_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-518_rna_seq_GSM4422797_Aligned.toTranscriptome.out.bam",
+          "GLDS-518_rna_seq_GSM4422797_SJ.out.tab",
+          "GLDS-518_rna_seq_GSM4422798_trimmed.fastq.gz",
+          "GLDS-518_rna_seq_GSM4422798_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-518_rna_seq_GSM4422798_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-518_rna_seq_GSM4422798_Aligned.toTranscriptome.out.bam",
+          "GLDS-518_rna_seq_GSM4422798_SJ.out.tab",
+          "GLDS-518_rna_seq_GSM4422799_trimmed.fastq.gz",
+          "GLDS-518_rna_seq_GSM4422799_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-518_rna_seq_GSM4422799_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-518_rna_seq_GSM4422799_Aligned.toTranscriptome.out.bam",
+          "GLDS-518_rna_seq_GSM4422799_SJ.out.tab",
+          "GLDS-518_rna_seq_GSM4422800_trimmed.fastq.gz",
+          "GLDS-518_rna_seq_GSM4422800_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-518_rna_seq_GSM4422800_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-518_rna_seq_GSM4422800_Aligned.toTranscriptome.out.bam",
+          "GLDS-518_rna_seq_GSM4422800_SJ.out.tab",
+          "GLDS-518_rna_seq_GSM4422801_trimmed.fastq.gz",
+          "GLDS-518_rna_seq_GSM4422801_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-518_rna_seq_GSM4422801_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-518_rna_seq_GSM4422801_Aligned.toTranscriptome.out.bam",
+          "GLDS-518_rna_seq_GSM4422801_SJ.out.tab",
+          "GLDS-518_rna_seq_GSM4422802_trimmed.fastq.gz",
+          "GLDS-518_rna_seq_GSM4422802_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-518_rna_seq_GSM4422802_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-518_rna_seq_GSM4422802_Aligned.toTranscriptome.out.bam",
+          "GLDS-518_rna_seq_GSM4422802_SJ.out.tab",
+          "GLDS-518_rna_seq_GSM4422803_trimmed.fastq.gz",
+          "GLDS-518_rna_seq_GSM4422803_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-518_rna_seq_GSM4422803_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-518_rna_seq_GSM4422803_Aligned.toTranscriptome.out.bam",
+          "GLDS-518_rna_seq_GSM4422803_SJ.out.tab",
+          "GLDS-518_rna_seq_GSM4422804_trimmed.fastq.gz",
+          "GLDS-518_rna_seq_GSM4422804_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-518_rna_seq_GSM4422804_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-518_rna_seq_GSM4422804_Aligned.toTranscriptome.out.bam",
+          "GLDS-518_rna_seq_GSM4422804_SJ.out.tab",
+          "GLDS-518_rna_seq_GSM4422805_trimmed.fastq.gz",
+          "GLDS-518_rna_seq_GSM4422805_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-518_rna_seq_GSM4422805_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-518_rna_seq_GSM4422805_Aligned.toTranscriptome.out.bam",
+          "GLDS-518_rna_seq_GSM4422805_SJ.out.tab",
+          "GLDS-518_rna_seq_GSM4422806_trimmed.fastq.gz",
+          "GLDS-518_rna_seq_GSM4422806_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-518_rna_seq_GSM4422806_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-518_rna_seq_GSM4422806_Aligned.toTranscriptome.out.bam",
+          "GLDS-518_rna_seq_GSM4422806_SJ.out.tab",
+          "GLDS-518_rna_seq_GSM4422807_trimmed.fastq.gz",
+          "GLDS-518_rna_seq_GSM4422807_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-518_rna_seq_GSM4422807_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-518_rna_seq_GSM4422807_Aligned.toTranscriptome.out.bam",
+          "GLDS-518_rna_seq_GSM4422807_SJ.out.tab",
+          "GLDS-518_rna_seq_GSM4422808_trimmed.fastq.gz",
+          "GLDS-518_rna_seq_GSM4422808_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-518_rna_seq_GSM4422808_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-518_rna_seq_GSM4422808_Aligned.toTranscriptome.out.bam",
+          "GLDS-518_rna_seq_GSM4422808_SJ.out.tab",
+          "GLDS-518_rna_seq_GSM4422809_trimmed.fastq.gz",
+          "GLDS-518_rna_seq_GSM4422809_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-518_rna_seq_GSM4422809_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-518_rna_seq_GSM4422809_Aligned.toTranscriptome.out.bam",
+          "GLDS-518_rna_seq_GSM4422809_SJ.out.tab",
+          "GLDS-518_rna_seq_GSM4422810_trimmed.fastq.gz",
+          "GLDS-518_rna_seq_GSM4422810_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-518_rna_seq_GSM4422810_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-518_rna_seq_GSM4422810_Aligned.toTranscriptome.out.bam",
+          "GLDS-518_rna_seq_GSM4422810_SJ.out.tab",
+          "GLDS-518_rna_seq_GSM4422811_trimmed.fastq.gz",
+          "GLDS-518_rna_seq_GSM4422811_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-518_rna_seq_GSM4422811_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-518_rna_seq_GSM4422811_Aligned.toTranscriptome.out.bam",
+          "GLDS-518_rna_seq_GSM4422811_SJ.out.tab",
+          "GLDS-518_rna_seq_GSM4422812_trimmed.fastq.gz",
+          "GLDS-518_rna_seq_GSM4422812_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-518_rna_seq_GSM4422812_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-518_rna_seq_GSM4422812_Aligned.toTranscriptome.out.bam",
+          "GLDS-518_rna_seq_GSM4422812_SJ.out.tab",
+          "GLDS-518_rna_seq_GSM4422813_trimmed.fastq.gz",
+          "GLDS-518_rna_seq_GSM4422813_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-518_rna_seq_GSM4422813_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-518_rna_seq_GSM4422813_Aligned.toTranscriptome.out.bam",
+          "GLDS-518_rna_seq_GSM4422813_SJ.out.tab",
+          "GSM4422793",
+          "GeneLab RNAseq data processing protocol",
+          "total RNA",
+          "polyA enrichment",
+          "SINGLE",
+          "Illumina HiSeq 2000",
+          "50",
+          "percent",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000187",
+          "RNA-Seq",
+          "13520991",
+          "0.05",
+          "GLDS-518_rna_seq_GSM4422793.genes.results",
+          "GLDS-518_rna_seq_GSM4422793.isoforms.results",
+          "GLDS-518_rna_seq_RSEM_Unnormalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-518_rna_seq_STAR_Unnormalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-518_rna_seq_Normalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-518_rna_seq_SampleTable_GLbulkRNAseq.csv",
+          "GLDS-518_rna_seq_contrasts_GLbulkRNAseq.csv",
+          "GLDS-518_rna_seq_differential_expression_GLbulkRNAseq.csv",
+          "GSM4422794",
+          "17795774",
+          "GLDS-518_rna_seq_GSM4422794.genes.results",
+          "GLDS-518_rna_seq_GSM4422794.isoforms.results",
+          "GSM4422795",
+          "20319695",
+          "0.07",
+          "GLDS-518_rna_seq_GSM4422795.genes.results",
+          "GLDS-518_rna_seq_GSM4422795.isoforms.results",
+          "GSM4422796",
+          "14803115",
+          "GLDS-518_rna_seq_GSM4422796.genes.results",
+          "GLDS-518_rna_seq_GSM4422796.isoforms.results",
+          "GSM4422797",
+          "20517452",
+          "0.45",
+          "GLDS-518_rna_seq_GSM4422797.genes.results",
+          "GLDS-518_rna_seq_GSM4422797.isoforms.results",
+          "GSM4422798",
+          "19005320",
+          "0.08",
+          "GLDS-518_rna_seq_GSM4422798.genes.results",
+          "GLDS-518_rna_seq_GSM4422798.isoforms.results",
+          "GSM4422799",
+          "16333140",
+          "0.13",
+          "GLDS-518_rna_seq_GSM4422799.genes.results",
+          "GLDS-518_rna_seq_GSM4422799.isoforms.results",
+          "GSM4422800",
+          "19195547",
+          "0.15",
+          "GLDS-518_rna_seq_GSM4422800.genes.results",
+          "GLDS-518_rna_seq_GSM4422800.isoforms.results",
+          "GSM4422801",
+          "20566598",
+          "GLDS-518_rna_seq_GSM4422801.genes.results",
+          "GLDS-518_rna_seq_GSM4422801.isoforms.results",
+          "GSM4422802",
+          "24239134",
+          "0.14",
+          "GLDS-518_rna_seq_GSM4422802.genes.results",
+          "GLDS-518_rna_seq_GSM4422802.isoforms.results",
+          "GSM4422803",
+          "21440305",
+          "GLDS-518_rna_seq_GSM4422803.genes.results",
+          "GLDS-518_rna_seq_GSM4422803.isoforms.results",
+          "GSM4422804",
+          "21837466",
+          "0.06",
+          "GLDS-518_rna_seq_GSM4422804.genes.results",
+          "GLDS-518_rna_seq_GSM4422804.isoforms.results",
+          "GSM4422805",
+          "23277175",
+          "GLDS-518_rna_seq_GSM4422805.genes.results",
+          "GLDS-518_rna_seq_GSM4422805.isoforms.results",
+          "GSM4422806",
+          "18808385",
+          "0.28",
+          "GLDS-518_rna_seq_GSM4422806.genes.results",
+          "GLDS-518_rna_seq_GSM4422806.isoforms.results",
+          "GSM4422807",
+          "20090020",
+          "0.09",
+          "GLDS-518_rna_seq_GSM4422807.genes.results",
+          "GLDS-518_rna_seq_GSM4422807.isoforms.results",
+          "GSM4422808",
+          "21946335",
+          "GLDS-518_rna_seq_GSM4422808.genes.results",
+          "GLDS-518_rna_seq_GSM4422808.isoforms.results",
+          "GSM4422809",
+          "21908844",
+          "0.57",
+          "GLDS-518_rna_seq_GSM4422809.genes.results",
+          "GLDS-518_rna_seq_GSM4422809.isoforms.results",
+          "GSM4422810",
+          "20084218",
+          "GLDS-518_rna_seq_GSM4422810.genes.results",
+          "GLDS-518_rna_seq_GSM4422810.isoforms.results",
+          "GSM4422811",
+          "22075525",
+          "GLDS-518_rna_seq_GSM4422811.genes.results",
+          "GLDS-518_rna_seq_GSM4422811.isoforms.results",
+          "GSM4422812",
+          "17461498",
+          "GLDS-518_rna_seq_GSM4422812.genes.results",
+          "GLDS-518_rna_seq_GSM4422812.isoforms.results",
+          "GSM4422813",
+          "18411712",
+          "GLDS-518_rna_seq_GSM4422813.genes.results",
+          "GLDS-518_rna_seq_GSM4422813.isoforms.results"
+        ],
+        "reports": [
+          "GLDS-518_rna_seq_raw_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-518_rna_seq_trimmed_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-518_rna_seq_GSM4422793_raw.fastq.gz_trimming_report.txt",
+          "GLDS-518_rna_seq_GSM4422793_Log.final.out",
+          "GLDS-518_rna_seq_align_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-518_rna_seq_geneBody_cov_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-518_rna_seq_infer_exp_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-518_rna_seq_read_dist_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-518_rna_seq_RSEM_count_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-518_rna_seq_GSM4422794_raw.fastq.gz_trimming_report.txt",
+          "GLDS-518_rna_seq_GSM4422794_Log.final.out",
+          "GLDS-518_rna_seq_GSM4422795_raw.fastq.gz_trimming_report.txt",
+          "GLDS-518_rna_seq_GSM4422795_Log.final.out",
+          "GLDS-518_rna_seq_GSM4422796_raw.fastq.gz_trimming_report.txt",
+          "GLDS-518_rna_seq_GSM4422796_Log.final.out",
+          "GLDS-518_rna_seq_GSM4422797_raw.fastq.gz_trimming_report.txt",
+          "GLDS-518_rna_seq_GSM4422797_Log.final.out",
+          "GLDS-518_rna_seq_GSM4422798_raw.fastq.gz_trimming_report.txt",
+          "GLDS-518_rna_seq_GSM4422798_Log.final.out",
+          "GLDS-518_rna_seq_GSM4422799_raw.fastq.gz_trimming_report.txt",
+          "GLDS-518_rna_seq_GSM4422799_Log.final.out",
+          "GLDS-518_rna_seq_GSM4422800_raw.fastq.gz_trimming_report.txt",
+          "GLDS-518_rna_seq_GSM4422800_Log.final.out",
+          "GLDS-518_rna_seq_GSM4422801_raw.fastq.gz_trimming_report.txt",
+          "GLDS-518_rna_seq_GSM4422801_Log.final.out",
+          "GLDS-518_rna_seq_GSM4422802_raw.fastq.gz_trimming_report.txt",
+          "GLDS-518_rna_seq_GSM4422802_Log.final.out",
+          "GLDS-518_rna_seq_GSM4422803_raw.fastq.gz_trimming_report.txt",
+          "GLDS-518_rna_seq_GSM4422803_Log.final.out",
+          "GLDS-518_rna_seq_GSM4422804_raw.fastq.gz_trimming_report.txt",
+          "GLDS-518_rna_seq_GSM4422804_Log.final.out",
+          "GLDS-518_rna_seq_GSM4422805_raw.fastq.gz_trimming_report.txt",
+          "GLDS-518_rna_seq_GSM4422805_Log.final.out",
+          "GLDS-518_rna_seq_GSM4422806_raw.fastq.gz_trimming_report.txt",
+          "GLDS-518_rna_seq_GSM4422806_Log.final.out",
+          "GLDS-518_rna_seq_GSM4422807_raw.fastq.gz_trimming_report.txt",
+          "GLDS-518_rna_seq_GSM4422807_Log.final.out",
+          "GLDS-518_rna_seq_GSM4422808_raw.fastq.gz_trimming_report.txt",
+          "GLDS-518_rna_seq_GSM4422808_Log.final.out",
+          "GLDS-518_rna_seq_GSM4422809_raw.fastq.gz_trimming_report.txt",
+          "GLDS-518_rna_seq_GSM4422809_Log.final.out",
+          "GLDS-518_rna_seq_GSM4422810_raw.fastq.gz_trimming_report.txt",
+          "GLDS-518_rna_seq_GSM4422810_Log.final.out",
+          "GLDS-518_rna_seq_GSM4422811_raw.fastq.gz_trimming_report.txt",
+          "GLDS-518_rna_seq_GSM4422811_Log.final.out",
+          "GLDS-518_rna_seq_GSM4422812_raw.fastq.gz_trimming_report.txt",
+          "GLDS-518_rna_seq_GSM4422812_Log.final.out",
+          "GLDS-518_rna_seq_GSM4422813_raw.fastq.gz_trimming_report.txt",
+          "GLDS-518_rna_seq_GSM4422813_Log.final.out"
+        ]
+      }
+    }
+  ]
+}

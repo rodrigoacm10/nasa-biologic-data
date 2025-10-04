@@ -1,0 +1,1250 @@
+{
+  "investigation": {
+    "id": "OSD-296",
+    "title": "Transcription profiling of Arabidopsis seedings exposed to UV-B irradiation",
+    "description": "Interaction of COP1 and UVR8, which regulate UV-B-induced photomorphogenesis and stress acclimation in Arabidopsis thaliana.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "Non_Ionizing_Irradiation",
+      "title": "",
+      "type": "Ground Study",
+      "link": "",
+      "funding": "Grant number EXC 294, UL341/1-1 Excellence Initiative of the German Federal and State Governments, Emmy Noether Programme of the Deutsche Forschungsgemeinschaft",
+      "managing_center": ""
+    },
+    "protocols": [
+      "growth protocol",
+      "treatment protocol",
+      "sample collection",
+      "RNA Extraction",
+      "Labeling",
+      "Nucleic Acid Hybridization",
+      "Data Collection",
+      "Data Transformation",
+      "GeneLab microarray data processing protocol"
+    ],
+    "publications": [
+      {
+        "title": "Interaction of COP1 and UVR8 regulates UV-B-induced photomorphogenesis and stress acclimation in Arabidopsis",
+        "doi": "10.1038/emboj.2009.4",
+        "authors": [
+          "Favory Jean-Jacques",
+          "Stec Agnieszka",
+          "Gruber Henriette",
+          "Rizzini Luca",
+          "Oravecz Attila",
+          "Funk Markus",
+          "Albert Andreas",
+          "Cloix Catherine",
+          "Jenkins Gareth I",
+          "Oakeley Edward J",
+          "Seidlitz Harald K",
+          "Nagy Ferenc",
+          "Ulm Roman"
+        ],
+        "summary": "Interaction of COP1 and UVR8 regulates UV-B-induced photomorphogenesis and stress acclimation in Arabidopsis — 10.1038/emboj.2009.4"
+      }
+    ],
+    "factors": [
+      "Genotype",
+      "Treatment",
+      "Light",
+      "Time"
+    ],
+    "contacts": [
+      {
+        "first_name": "Roman",
+        "last_name": "Ulm",
+        "role": "Submitter",
+        "email": "roman.ulm@biologie.uni-freiburg.de"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "Atha_Col-0_sl_WT_345nm-4d_305nm-1h_Rep1",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Whole Organism",
+          "age": "4",
+          "stratification exposure": "2",
+          "Seed Source": "see publication for details of generation of transgenic lines"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Treatment": "305",
+          "Light": "UV-B light regimen (345 nm)",
+          "Time": "1"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Mean Growth Temperature": "25",
+          "Growth Time": "4",
+          "Growth Medium": "Murashige and Skoog medium (Sigma) 1% sucrose and 0.8% agar",
+          "Hardware": "MLR-350 growth chamber",
+          "duration": "15",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Ulm_1-7_4days-345nm_1hr-305nm_Rep1_ATH1"
+        }
+      },
+      {
+        "sample_name": "Atha_Col-0_sl_WT_345nm-4d_305nm-1h_Rep2",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Whole Organism",
+          "age": "4",
+          "stratification exposure": "2",
+          "Seed Source": "see publication for details of generation of transgenic lines"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Treatment": "305",
+          "Light": "UV-B light regimen (345 nm)",
+          "Time": "1"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Mean Growth Temperature": "25",
+          "Growth Time": "4",
+          "Growth Medium": "Murashige and Skoog medium (Sigma) 1% sucrose and 0.8% agar",
+          "Hardware": "MLR-350 growth chamber",
+          "duration": "15",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Ulm_1-8_4days-345nm_1hr-305nm_Rep2_ATH1"
+        }
+      },
+      {
+        "sample_name": "Atha_Col-0_sl_WT_345nm-4d_305nm-1h_Rep3",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Whole Organism",
+          "age": "4",
+          "stratification exposure": "2",
+          "Seed Source": "see publication for details of generation of transgenic lines"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Treatment": "305",
+          "Light": "UV-B light regimen (345 nm)",
+          "Time": "1"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Mean Growth Temperature": "25",
+          "Growth Time": "4",
+          "Growth Medium": "Murashige and Skoog medium (Sigma) 1% sucrose and 0.8% agar",
+          "Hardware": "MLR-350 growth chamber",
+          "duration": "15",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Ulm_1-9_4days-345nm_1hr-305nm_Rep3_ATH1"
+        }
+      },
+      {
+        "sample_name": "Atha_Col-0_sl_cop1_345nm-4d_305nm-1h_Rep1",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Whole Organism",
+          "age": "4",
+          "stratification exposure": "2",
+          "Seed Source": "see publication for details of generation of transgenic lines"
+        },
+        "factors": {
+          "Genotype": "cop-1",
+          "Treatment": "305",
+          "Light": "UV-B light regimen (345 nm)",
+          "Time": "1"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Mean Growth Temperature": "25",
+          "Growth Time": "4",
+          "Growth Medium": "Murashige and Skoog medium (Sigma) 1% sucrose and 0.8% agar",
+          "Hardware": "MLR-350 growth chamber",
+          "duration": "15",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Ulm_3-4_cop1-305-1h_Rep1_ATH1"
+        }
+      },
+      {
+        "sample_name": "Atha_Col-0_sl_cop1_345nm-4d_305nm-1h_Rep2",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Whole Organism",
+          "age": "4",
+          "stratification exposure": "2",
+          "Seed Source": "see publication for details of generation of transgenic lines"
+        },
+        "factors": {
+          "Genotype": "cop-1",
+          "Treatment": "305",
+          "Light": "UV-B light regimen (345 nm)",
+          "Time": "1"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Mean Growth Temperature": "25",
+          "Growth Time": "4",
+          "Growth Medium": "Murashige and Skoog medium (Sigma) 1% sucrose and 0.8% agar",
+          "Hardware": "MLR-350 growth chamber",
+          "duration": "15",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Ulm_3-5_cop1-305-1h_Rep2_ATH1"
+        }
+      },
+      {
+        "sample_name": "Atha_Col-0_sl_cop1_345nm-4d_305nm-1h_Rep3",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Whole Organism",
+          "age": "4",
+          "stratification exposure": "2",
+          "Seed Source": "see publication for details of generation of transgenic lines"
+        },
+        "factors": {
+          "Genotype": "cop-1",
+          "Treatment": "305",
+          "Light": "UV-B light regimen (345 nm)",
+          "Time": "1"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Mean Growth Temperature": "25",
+          "Growth Time": "4",
+          "Growth Medium": "Murashige and Skoog medium (Sigma) 1% sucrose and 0.8% agar",
+          "Hardware": "MLR-350 growth chamber",
+          "duration": "15",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Ulm_3-6_cop1-305-1h_Rep3_ATH1"
+        }
+      },
+      {
+        "sample_name": "Atha_Col-0_sl_uvr8_345nm-4d_305nm-1h_Rep1",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Whole Organism",
+          "age": "4",
+          "stratification exposure": "2",
+          "Seed Source": "see publication for details of generation of transgenic lines"
+        },
+        "factors": {
+          "Genotype": "uvr-8",
+          "Treatment": "305",
+          "Light": "UV-B light regimen (345 nm)",
+          "Time": "1"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Mean Growth Temperature": "25",
+          "Growth Time": "4",
+          "Growth Medium": "Murashige and Skoog medium (Sigma) 1% sucrose and 0.8% agar",
+          "Hardware": "MLR-350 growth chamber",
+          "duration": "15",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Ulm_2-4_uvr8-305-1h_Rep1_ATH1"
+        }
+      },
+      {
+        "sample_name": "Atha_Col-0_sl_uvr8_345nm-4d_305nm-1h_Rep2",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Whole Organism",
+          "age": "4",
+          "stratification exposure": "2",
+          "Seed Source": "see publication for details of generation of transgenic lines"
+        },
+        "factors": {
+          "Genotype": "uvr-8",
+          "Treatment": "305",
+          "Light": "UV-B light regimen (345 nm)",
+          "Time": "1"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Mean Growth Temperature": "25",
+          "Growth Time": "4",
+          "Growth Medium": "Murashige and Skoog medium (Sigma) 1% sucrose and 0.8% agar",
+          "Hardware": "MLR-350 growth chamber",
+          "duration": "15",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Ulm_2-5_uvr8-305-1h_Rep2_ATH1"
+        }
+      },
+      {
+        "sample_name": "Atha_Col-0_sl_uvr8_345nm-4d_305nm-1h_Rep3",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Whole Organism",
+          "age": "4",
+          "stratification exposure": "2",
+          "Seed Source": "see publication for details of generation of transgenic lines"
+        },
+        "factors": {
+          "Genotype": "uvr-8",
+          "Treatment": "305",
+          "Light": "UV-B light regimen (345 nm)",
+          "Time": "1"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Mean Growth Temperature": "25",
+          "Growth Time": "4",
+          "Growth Medium": "Murashige and Skoog medium (Sigma) 1% sucrose and 0.8% agar",
+          "Hardware": "MLR-350 growth chamber",
+          "duration": "15",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Ulm_2-6_uvr8-305-1h_Rep3_ATH1"
+        }
+      },
+      {
+        "sample_name": "Atha_Col-0_sl_WT_345nm-4d_305nm-6h_Rep1",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Whole Organism",
+          "age": "4",
+          "stratification exposure": "2",
+          "Seed Source": "see publication for details of generation of transgenic lines"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Treatment": "305",
+          "Light": "UV-B light regimen (345 nm)",
+          "Time": "6"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Mean Growth Temperature": "25",
+          "Growth Time": "4",
+          "Growth Medium": "Murashige and Skoog medium (Sigma) 1% sucrose and 0.8% agar",
+          "Hardware": "MLR-350 growth chamber",
+          "duration": "15",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Ulm_1-10_4days-345nm_6hr-305nm_Rep1_ATH"
+        }
+      },
+      {
+        "sample_name": "Atha_Col-0_sl_WT_345nm-4d_305nm-6h_Rep2",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Whole Organism",
+          "age": "4",
+          "stratification exposure": "2",
+          "Seed Source": "see publication for details of generation of transgenic lines"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Treatment": "305",
+          "Light": "UV-B light regimen (345 nm)",
+          "Time": "6"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Mean Growth Temperature": "25",
+          "Growth Time": "4",
+          "Growth Medium": "Murashige and Skoog medium (Sigma) 1% sucrose and 0.8% agar",
+          "Hardware": "MLR-350 growth chamber",
+          "duration": "15",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Ulm_1-11_4days-345nm_6hr-305nm_Rep2_ATH1"
+        }
+      },
+      {
+        "sample_name": "Atha_Col-0_sl_WT_345nm-4d_305nm-6h_Rep3",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Whole Organism",
+          "age": "4",
+          "stratification exposure": "2",
+          "Seed Source": "see publication for details of generation of transgenic lines"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Treatment": "305",
+          "Light": "UV-B light regimen (345 nm)",
+          "Time": "6"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Mean Growth Temperature": "25",
+          "Growth Time": "4",
+          "Growth Medium": "Murashige and Skoog medium (Sigma) 1% sucrose and 0.8% agar",
+          "Hardware": "MLR-350 growth chamber",
+          "duration": "15",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Ulm_1-12_4days-345nm_6hr-305nm_Rep3_ATH1"
+        }
+      },
+      {
+        "sample_name": "Atha_Col-0_sl_cop1_345nm-4d_305nm-6h_Rep1",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Whole Organism",
+          "age": "4",
+          "stratification exposure": "2",
+          "Seed Source": "see publication for details of generation of transgenic lines"
+        },
+        "factors": {
+          "Genotype": "cop-1",
+          "Treatment": "305",
+          "Light": "UV-B light regimen (345 nm)",
+          "Time": "6"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Mean Growth Temperature": "25",
+          "Growth Time": "4",
+          "Growth Medium": "Murashige and Skoog medium (Sigma) 1% sucrose and 0.8% agar",
+          "Hardware": "MLR-350 growth chamber",
+          "duration": "15",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Ulm_3-7_cop1-305-6h_Rep1_ATH1"
+        }
+      },
+      {
+        "sample_name": "Atha_Col-0_sl_cop1_345nm-4d_305nm-6h_Rep2",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Whole Organism",
+          "age": "4",
+          "stratification exposure": "2",
+          "Seed Source": "see publication for details of generation of transgenic lines"
+        },
+        "factors": {
+          "Genotype": "cop-1",
+          "Treatment": "305",
+          "Light": "UV-B light regimen (345 nm)",
+          "Time": "6"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Mean Growth Temperature": "25",
+          "Growth Time": "4",
+          "Growth Medium": "Murashige and Skoog medium (Sigma) 1% sucrose and 0.8% agar",
+          "Hardware": "MLR-350 growth chamber",
+          "duration": "15",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Ulm_3-8_cop1-305-6h_Rep2_ATH1"
+        }
+      },
+      {
+        "sample_name": "Atha_Col-0_sl_cop1_345nm-4d_305nm-6h_Rep3",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Whole Organism",
+          "age": "4",
+          "stratification exposure": "2",
+          "Seed Source": "see publication for details of generation of transgenic lines"
+        },
+        "factors": {
+          "Genotype": "cop-1",
+          "Treatment": "305",
+          "Light": "UV-B light regimen (345 nm)",
+          "Time": "6"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Mean Growth Temperature": "25",
+          "Growth Time": "4",
+          "Growth Medium": "Murashige and Skoog medium (Sigma) 1% sucrose and 0.8% agar",
+          "Hardware": "MLR-350 growth chamber",
+          "duration": "15",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Ulm_3-9_cop1-305-6h_Rep3_ATH1"
+        }
+      },
+      {
+        "sample_name": "Atha_Col-0_sl_uvr8_345nm-4d_305nm-6h_Rep1",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Whole Organism",
+          "age": "4",
+          "stratification exposure": "2",
+          "Seed Source": "see publication for details of generation of transgenic lines"
+        },
+        "factors": {
+          "Genotype": "uvr-8",
+          "Treatment": "305",
+          "Light": "UV-B light regimen (345 nm)",
+          "Time": "6"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Mean Growth Temperature": "25",
+          "Growth Time": "4",
+          "Growth Medium": "Murashige and Skoog medium (Sigma) 1% sucrose and 0.8% agar",
+          "Hardware": "MLR-350 growth chamber",
+          "duration": "15",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Ulm_2-7_uvr8-305-6h_Rep1_ATH1"
+        }
+      },
+      {
+        "sample_name": "Atha_Col-0_sl_uvr8_345nm-4d_305nm-6h_Rep2",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Whole Organism",
+          "age": "4",
+          "stratification exposure": "2",
+          "Seed Source": "see publication for details of generation of transgenic lines"
+        },
+        "factors": {
+          "Genotype": "uvr-8",
+          "Treatment": "305",
+          "Light": "UV-B light regimen (345 nm)",
+          "Time": "6"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Mean Growth Temperature": "25",
+          "Growth Time": "4",
+          "Growth Medium": "Murashige and Skoog medium (Sigma) 1% sucrose and 0.8% agar",
+          "Hardware": "MLR-350 growth chamber",
+          "duration": "15",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Ulm_2-8_uvr8-305-6h_Rep2_ATH1"
+        }
+      },
+      {
+        "sample_name": "Atha_Col-0_sl_uvr8_345nm-4d_305nm-6h_Rep3",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Whole Organism",
+          "age": "4",
+          "stratification exposure": "2",
+          "Seed Source": "see publication for details of generation of transgenic lines"
+        },
+        "factors": {
+          "Genotype": "uvr-8",
+          "Treatment": "305",
+          "Light": "UV-B light regimen (345 nm)",
+          "Time": "6"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Mean Growth Temperature": "25",
+          "Growth Time": "4",
+          "Growth Medium": "Murashige and Skoog medium (Sigma) 1% sucrose and 0.8% agar",
+          "Hardware": "MLR-350 growth chamber",
+          "duration": "15",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Ulm_2-9_uvr8-305-6h_Rep3_ATH1"
+        }
+      },
+      {
+        "sample_name": "Atha_Col-0_sl_WT_305nm-4d_CTRL_Rep1",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Whole Organism",
+          "age": "4",
+          "stratification exposure": "2",
+          "Seed Source": "see publication for details of generation of transgenic lines"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Treatment": "",
+          "Light": "UV-B light regimen (305 nm)",
+          "Time": ""
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Mean Growth Temperature": "25",
+          "Growth Time": "4",
+          "Growth Medium": "Murashige and Skoog medium (Sigma) 1% sucrose and 0.8% agar",
+          "Hardware": "MLR-350 growth chamber",
+          "duration": "",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Ulm_1-4_4days-305nm_Rep1_ATH1"
+        }
+      },
+      {
+        "sample_name": "Atha_Col-0_sl_WT_305nm-4d_CTRL_Rep2",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Whole Organism",
+          "age": "4",
+          "stratification exposure": "2",
+          "Seed Source": "see publication for details of generation of transgenic lines"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Treatment": "",
+          "Light": "UV-B light regimen (305 nm)",
+          "Time": ""
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Mean Growth Temperature": "25",
+          "Growth Time": "4",
+          "Growth Medium": "Murashige and Skoog medium (Sigma) 1% sucrose and 0.8% agar",
+          "Hardware": "MLR-350 growth chamber",
+          "duration": "",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Ulm_1-5_4days-305nm_Rep2_ATH1"
+        }
+      },
+      {
+        "sample_name": "Atha_Col-0_sl_WT_305nm-4d_CTRL_Rep3",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Whole Organism",
+          "age": "4",
+          "stratification exposure": "2",
+          "Seed Source": "see publication for details of generation of transgenic lines"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Treatment": "",
+          "Light": "UV-B light regimen (305 nm)",
+          "Time": ""
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Mean Growth Temperature": "25",
+          "Growth Time": "4",
+          "Growth Medium": "Murashige and Skoog medium (Sigma) 1% sucrose and 0.8% agar",
+          "Hardware": "MLR-350 growth chamber",
+          "duration": "",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Ulm_1-6_4days-305nm_Rep3_ATH1"
+        }
+      },
+      {
+        "sample_name": "Atha_Col-0_sl_WT_345nm-4d_CTRL_Rep1",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Whole Organism",
+          "age": "4",
+          "stratification exposure": "2",
+          "Seed Source": "see publication for details of generation of transgenic lines"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Treatment": "",
+          "Light": "UV-B light regimen (345 nm)",
+          "Time": ""
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Mean Growth Temperature": "25",
+          "Growth Time": "4",
+          "Growth Medium": "Murashige and Skoog medium (Sigma) 1% sucrose and 0.8% agar",
+          "Hardware": "MLR-350 growth chamber",
+          "duration": "",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Ulm_1-1_4days-345nm_Rep1_ATH1"
+        }
+      },
+      {
+        "sample_name": "Atha_Col-0_sl_WT_345nm-4d_CTRL_Rep2",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Whole Organism",
+          "age": "4",
+          "stratification exposure": "2",
+          "Seed Source": "see publication for details of generation of transgenic lines"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Treatment": "",
+          "Light": "UV-B light regimen (345 nm)",
+          "Time": ""
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Mean Growth Temperature": "25",
+          "Growth Time": "4",
+          "Growth Medium": "Murashige and Skoog medium (Sigma) 1% sucrose and 0.8% agar",
+          "Hardware": "MLR-350 growth chamber",
+          "duration": "",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Ulm_1-2_4days-345nm_Rep2_ATH1"
+        }
+      },
+      {
+        "sample_name": "Atha_Col-0_sl_WT_345nm-4d_CTRL_Rep3",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Whole Organism",
+          "age": "4",
+          "stratification exposure": "2",
+          "Seed Source": "see publication for details of generation of transgenic lines"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Treatment": "",
+          "Light": "UV-B light regimen (345 nm)",
+          "Time": ""
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Mean Growth Temperature": "25",
+          "Growth Time": "4",
+          "Growth Medium": "Murashige and Skoog medium (Sigma) 1% sucrose and 0.8% agar",
+          "Hardware": "MLR-350 growth chamber",
+          "duration": "",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Ulm_1-3_4days-345nm_Rep3_ATH1"
+        }
+      },
+      {
+        "sample_name": "Atha_Col-0_sl_cop1_345nm-4d_CTRL_Rep1",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Whole Organism",
+          "age": "4",
+          "stratification exposure": "2",
+          "Seed Source": "see publication for details of generation of transgenic lines"
+        },
+        "factors": {
+          "Genotype": "cop-1",
+          "Treatment": "",
+          "Light": "UV-B light regimen (305 nm)",
+          "Time": ""
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Mean Growth Temperature": "25",
+          "Growth Time": "4",
+          "Growth Medium": "Murashige and Skoog medium (Sigma) 1% sucrose and 0.8% agar",
+          "Hardware": "MLR-350 growth chamber",
+          "duration": "",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Ulm_3-1_cop1-345-4d_Rep1_ATH1"
+        }
+      },
+      {
+        "sample_name": "Atha_Col-0_sl_cop1_345nm-4d_CTRL_Rep2",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Whole Organism",
+          "age": "4",
+          "stratification exposure": "2",
+          "Seed Source": "see publication for details of generation of transgenic lines"
+        },
+        "factors": {
+          "Genotype": "cop-1",
+          "Treatment": "",
+          "Light": "UV-B light regimen (345 nm)",
+          "Time": ""
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Mean Growth Temperature": "25",
+          "Growth Time": "4",
+          "Growth Medium": "Murashige and Skoog medium (Sigma) 1% sucrose and 0.8% agar",
+          "Hardware": "MLR-350 growth chamber",
+          "duration": "",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Ulm_3-2_cop1-345-4d_Rep2_ATH1"
+        }
+      },
+      {
+        "sample_name": "Atha_Col-0_sl_cop1_345nm-4d_CTRL_Rep3",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Whole Organism",
+          "age": "4",
+          "stratification exposure": "2",
+          "Seed Source": "see publication for details of generation of transgenic lines"
+        },
+        "factors": {
+          "Genotype": "cop-1",
+          "Treatment": "",
+          "Light": "UV-B light regimen (345 nm)",
+          "Time": ""
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Mean Growth Temperature": "25",
+          "Growth Time": "4",
+          "Growth Medium": "Murashige and Skoog medium (Sigma) 1% sucrose and 0.8% agar",
+          "Hardware": "MLR-350 growth chamber",
+          "duration": "",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Ulm_3-3_cop1-345-4d_Rep3_ATH1"
+        }
+      },
+      {
+        "sample_name": "Atha_Col-0_sl_cop1_305nm-4d_CTRL_Rep1",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Whole Organism",
+          "age": "4",
+          "stratification exposure": "2",
+          "Seed Source": "see publication for details of generation of transgenic lines"
+        },
+        "factors": {
+          "Genotype": "cop-1",
+          "Treatment": "",
+          "Light": "UV-B light regimen (305 nm)",
+          "Time": ""
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Mean Growth Temperature": "25",
+          "Growth Time": "4",
+          "Growth Medium": "Murashige and Skoog medium (Sigma) 1% sucrose and 0.8% agar",
+          "Hardware": "MLR-350 growth chamber",
+          "duration": "",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Ulm_3-10_cop1-305-4d_Rep1_ATH1"
+        }
+      },
+      {
+        "sample_name": "Atha_Col-0_sl_cop1_305nm-4d_CTRL_Rep2",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Whole Organism",
+          "age": "4",
+          "stratification exposure": "2",
+          "Seed Source": "see publication for details of generation of transgenic lines"
+        },
+        "factors": {
+          "Genotype": "cop-1",
+          "Treatment": "",
+          "Light": "UV-B light regimen (305 nm)",
+          "Time": ""
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Mean Growth Temperature": "25",
+          "Growth Time": "4",
+          "Growth Medium": "Murashige and Skoog medium (Sigma) 1% sucrose and 0.8% agar",
+          "Hardware": "MLR-350 growth chamber",
+          "duration": "",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Ulm_3-11_cop1-305-4d_Rep2_ATH1"
+        }
+      },
+      {
+        "sample_name": "Atha_Col-0_sl_cop1_305nm-4d_CTRL_Rep3",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Whole Organism",
+          "age": "4",
+          "stratification exposure": "2",
+          "Seed Source": "see publication for details of generation of transgenic lines"
+        },
+        "factors": {
+          "Genotype": "cop-1",
+          "Treatment": "",
+          "Light": "UV-B light regimen (345 nm)",
+          "Time": ""
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Mean Growth Temperature": "25",
+          "Growth Time": "4",
+          "Growth Medium": "Murashige and Skoog medium (Sigma) 1% sucrose and 0.8% agar",
+          "Hardware": "MLR-350 growth chamber",
+          "duration": "",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Ulm_3-12_cop1-305-4d_Rep3_ATH1"
+        }
+      },
+      {
+        "sample_name": "Atha_Col-0_sl_uvr8_345nm-4d_CTRL_Rep1",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Whole Organism",
+          "age": "4",
+          "stratification exposure": "2",
+          "Seed Source": "see publication for details of generation of transgenic lines"
+        },
+        "factors": {
+          "Genotype": "uvr-8",
+          "Treatment": "",
+          "Light": "UV-B light regimen (345 nm)",
+          "Time": ""
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Mean Growth Temperature": "25",
+          "Growth Time": "4",
+          "Growth Medium": "Murashige and Skoog medium (Sigma) 1% sucrose and 0.8% agar",
+          "Hardware": "MLR-350 growth chamber",
+          "duration": "",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Ulm_2-1_uvr8-345-4d_Rep1_ATH1"
+        }
+      },
+      {
+        "sample_name": "Atha_Col-0_sl_uvr8_345nm-4d_CTRL_Rep2",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Whole Organism",
+          "age": "4",
+          "stratification exposure": "2",
+          "Seed Source": "see publication for details of generation of transgenic lines"
+        },
+        "factors": {
+          "Genotype": "uvr-8",
+          "Treatment": "",
+          "Light": "UV-B light regimen (345 nm)",
+          "Time": ""
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Mean Growth Temperature": "25",
+          "Growth Time": "4",
+          "Growth Medium": "Murashige and Skoog medium (Sigma) 1% sucrose and 0.8% agar",
+          "Hardware": "MLR-350 growth chamber",
+          "duration": "",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Ulm_2-2_uvr8-345-4d_Rep2_ATH1"
+        }
+      },
+      {
+        "sample_name": "Atha_Col-0_sl_uvr8_345nm-4d_CTRL_Rep3",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Whole Organism",
+          "age": "4",
+          "stratification exposure": "2",
+          "Seed Source": "see publication for details of generation of transgenic lines"
+        },
+        "factors": {
+          "Genotype": "uvr-8",
+          "Treatment": "",
+          "Light": "UV-B light regimen (345 nm)",
+          "Time": ""
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Mean Growth Temperature": "25",
+          "Growth Time": "4",
+          "Growth Medium": "Murashige and Skoog medium (Sigma) 1% sucrose and 0.8% agar",
+          "Hardware": "MLR-350 growth chamber",
+          "duration": "",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Ulm_2-3_uvr8-345-4d_Rep3_ATH1"
+        }
+      },
+      {
+        "sample_name": "Atha_Col-0_sl_uvr8_305nm-4d_CTRL_Rep1",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Whole Organism",
+          "age": "4",
+          "stratification exposure": "2",
+          "Seed Source": "see publication for details of generation of transgenic lines"
+        },
+        "factors": {
+          "Genotype": "uvr-8",
+          "Treatment": "",
+          "Light": "UV-B light regimen (305 nm)",
+          "Time": ""
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Mean Growth Temperature": "25",
+          "Growth Time": "4",
+          "Growth Medium": "Murashige and Skoog medium (Sigma) 1% sucrose and 0.8% agar",
+          "Hardware": "MLR-350 growth chamber",
+          "duration": "",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Ulm_2-10_uvr8-305-4d_Rep1_ATH1"
+        }
+      },
+      {
+        "sample_name": "Atha_Col-0_sl_uvr8_305nm-4d_CTRL_Rep2",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Whole Organism",
+          "age": "4",
+          "stratification exposure": "2",
+          "Seed Source": "see publication for details of generation of transgenic lines"
+        },
+        "factors": {
+          "Genotype": "uvr-8",
+          "Treatment": "",
+          "Light": "UV-B light regimen (305 nm)",
+          "Time": ""
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Mean Growth Temperature": "25",
+          "Growth Time": "4",
+          "Growth Medium": "Murashige and Skoog medium (Sigma) 1% sucrose and 0.8% agar",
+          "Hardware": "MLR-350 growth chamber",
+          "duration": "",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Ulm_2-11_uvr8-305-4d_Rep2_ATH1"
+        }
+      },
+      {
+        "sample_name": "Atha_Col-0_sl_uvr8_305nm-4d_CTRL_Rep3",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Whole Organism",
+          "age": "4",
+          "stratification exposure": "2",
+          "Seed Source": "see publication for details of generation of transgenic lines"
+        },
+        "factors": {
+          "Genotype": "uvr-8",
+          "Treatment": "",
+          "Light": "UV-B light regimen (305 nm)",
+          "Time": ""
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Mean Growth Temperature": "25",
+          "Growth Time": "4",
+          "Growth Medium": "Murashige and Skoog medium (Sigma) 1% sucrose and 0.8% agar",
+          "Hardware": "MLR-350 growth chamber",
+          "duration": "",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Ulm_2-12_uvr8-305-4d_Rep3_ATH1"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Affymetrix",
+      "qc": {},
+      "library": {},
+      "files": {
+        "raw": [],
+        "processed": [
+          "Atha_Col-0_sl_WT_345nm-4d_305nm-1h_Rep1",
+          "GeneLab microarray data processing protocol",
+          "Ulm_1-7_4days-345nm_1hr-305nm_Rep1_ATH1",
+          "biotin",
+          "OBI",
+          "http://purl.obolibrary.org/obo/CHEBI_15956",
+          "AFFY ATH1 121501",
+          "GLDS-296_microarray_Atha_Col-0_sl_WT_345nm-4d_305nm-1h_Rep1_raw.CEL.gz",
+          "GLDS-296_microarray_E-MEXP-1957.processed.1.zip",
+          "GLDS-296_array_raw_intensities_probe.csv",
+          "GLDS-296_array_normalized_expression_probeset.csv",
+          "GLDS-296_array_normalized_intensities_probe.csv",
+          "GLDS-296_array_SampleTable.csv",
+          "GLDS-296_array_contrasts.csv",
+          "GLDS-296_array_differential_expression.csv",
+          "Atha_Col-0_sl_WT_345nm-4d_305nm-1h_Rep2",
+          "Ulm_1-8_4days-345nm_1hr-305nm_Rep2_ATH1",
+          "GLDS-296_microarray_Atha_Col-0_sl_WT_345nm-4d_305nm-1h_Rep2_raw.CEL.gz",
+          "Atha_Col-0_sl_WT_345nm-4d_305nm-1h_Rep3",
+          "Ulm_1-9_4days-345nm_1hr-305nm_Rep3_ATH1",
+          "GLDS-296_microarray_Atha_Col-0_sl_WT_345nm-4d_305nm-1h_Rep3_raw.CEL.gz",
+          "Atha_Col-0_sl_cop1_345nm-4d_305nm-1h_Rep1",
+          "Ulm_3-4_cop1-305-1h_Rep1_ATH1",
+          "GLDS-296_microarray_Atha_Col-0_sl_cop1_345nm-4d_305nm-1h_Rep1_raw.CEL.gz",
+          "Atha_Col-0_sl_cop1_345nm-4d_305nm-1h_Rep2",
+          "Ulm_3-5_cop1-305-1h_Rep2_ATH1",
+          "GLDS-296_microarray_Atha_Col-0_sl_cop1_345nm-4d_305nm-1h_Rep2_raw.CEL.gz",
+          "Atha_Col-0_sl_cop1_345nm-4d_305nm-1h_Rep3",
+          "Ulm_3-6_cop1-305-1h_Rep3_ATH1",
+          "GLDS-296_microarray_Atha_Col-0_sl_cop1_345nm-4d_305nm-1h_Rep3_raw.CEL.gz",
+          "Atha_Col-0_sl_uvr8_345nm-4d_305nm-1h_Rep1",
+          "Ulm_2-4_uvr8-305-1h_Rep1_ATH1",
+          "GLDS-296_microarray_Atha_Col-0_sl_uvr8_345nm-4d_305nm-1h_Rep1_raw.CEL.gz",
+          "Atha_Col-0_sl_uvr8_345nm-4d_305nm-1h_Rep2",
+          "Ulm_2-5_uvr8-305-1h_Rep2_ATH1",
+          "GLDS-296_microarray_Atha_Col-0_sl_uvr8_345nm-4d_305nm-1h_Rep2_raw.CEL.gz",
+          "Atha_Col-0_sl_uvr8_345nm-4d_305nm-1h_Rep3",
+          "Ulm_2-6_uvr8-305-1h_Rep3_ATH1",
+          "GLDS-296_microarray_Atha_Col-0_sl_uvr8_345nm-4d_305nm-1h_Rep3_raw.CEL.gz",
+          "Atha_Col-0_sl_WT_345nm-4d_305nm-6h_Rep1",
+          "Ulm_1-10_4days-345nm_6hr-305nm_Rep1_ATH",
+          "GLDS-296_microarray_Atha_Col-0_sl_WT_345nm-4d_305nm-6h_Rep1_raw.CEL.gz",
+          "Atha_Col-0_sl_WT_345nm-4d_305nm-6h_Rep2",
+          "Ulm_1-11_4days-345nm_6hr-305nm_Rep2_ATH1",
+          "GLDS-296_microarray_Atha_Col-0_sl_WT_345nm-4d_305nm-6h_Rep2_raw.CEL.gz",
+          "Atha_Col-0_sl_WT_345nm-4d_305nm-6h_Rep3",
+          "Ulm_1-12_4days-345nm_6hr-305nm_Rep3_ATH1",
+          "GLDS-296_microarray_Atha_Col-0_sl_WT_345nm-4d_305nm-6h_Rep3_raw.CEL.gz",
+          "Atha_Col-0_sl_cop1_345nm-4d_305nm-6h_Rep1",
+          "Ulm_3-7_cop1-305-6h_Rep1_ATH1",
+          "GLDS-296_microarray_Atha_Col-0_sl_cop1_345nm-4d_305nm-6h_Rep1_raw.CEL.gz",
+          "Atha_Col-0_sl_cop1_345nm-4d_305nm-6h_Rep2",
+          "Ulm_3-8_cop1-305-6h_Rep2_ATH1",
+          "GLDS-296_microarray_Atha_Col-0_sl_cop1_345nm-4d_305nm-6h_Rep2_raw.CEL.gz",
+          "Atha_Col-0_sl_cop1_345nm-4d_305nm-6h_Rep3",
+          "Ulm_3-9_cop1-305-6h_Rep3_ATH1",
+          "GLDS-296_microarray_Atha_Col-0_sl_cop1_345nm-4d_305nm-6h_Rep3_raw.CEL.gz",
+          "Atha_Col-0_sl_uvr8_345nm-4d_305nm-6h_Rep1",
+          "Ulm_2-7_uvr8-305-6h_Rep1_ATH1",
+          "GLDS-296_microarray_Atha_Col-0_sl_uvr8_345nm-4d_305nm-6h_Rep1_raw.CEL.gz",
+          "Atha_Col-0_sl_uvr8_345nm-4d_305nm-6h_Rep2",
+          "Ulm_2-8_uvr8-305-6h_Rep2_ATH1",
+          "GLDS-296_microarray_Atha_Col-0_sl_uvr8_345nm-4d_305nm-6h_Rep2_raw.CEL.gz",
+          "Atha_Col-0_sl_uvr8_345nm-4d_305nm-6h_Rep3",
+          "Ulm_2-9_uvr8-305-6h_Rep3_ATH1",
+          "GLDS-296_microarray_Atha_Col-0_sl_uvr8_345nm-4d_305nm-6h_Rep3_raw.CEL.gz",
+          "Atha_Col-0_sl_WT_305nm-4d_CTRL_Rep1",
+          "Ulm_1-4_4days-305nm_Rep1_ATH1",
+          "GLDS-296_microarray_Atha_Col-0_sl_WT_305nm-4d_CTRL_Rep1_raw.CEL.gz",
+          "Atha_Col-0_sl_WT_305nm-4d_CTRL_Rep2",
+          "Ulm_1-5_4days-305nm_Rep2_ATH1",
+          "GLDS-296_microarray_Atha_Col-0_sl_WT_305nm-4d_CTRL_Rep2_raw.CEL.gz",
+          "Atha_Col-0_sl_WT_305nm-4d_CTRL_Rep3",
+          "Ulm_1-6_4days-305nm_Rep3_ATH1",
+          "GLDS-296_microarray_Atha_Col-0_sl_WT_305nm-4d_CTRL_Rep3_raw.CEL.gz",
+          "Atha_Col-0_sl_WT_345nm-4d_CTRL_Rep1",
+          "Ulm_1-1_4days-345nm_Rep1_ATH1",
+          "GLDS-296_microarray_Atha_Col-0_sl_WT_345nm-4d_CTRL_Rep1_raw.CEL.gz",
+          "Atha_Col-0_sl_WT_345nm-4d_CTRL_Rep2",
+          "Ulm_1-2_4days-345nm_Rep2_ATH1",
+          "GLDS-296_microarray_Atha_Col-0_sl_WT_345nm-4d_CTRL_Rep2_raw.CEL.gz",
+          "Atha_Col-0_sl_WT_345nm-4d_CTRL_Rep3",
+          "Ulm_1-3_4days-345nm_Rep3_ATH1",
+          "GLDS-296_microarray_Atha_Col-0_sl_WT_345nm-4d_CTRL_Rep3_raw.CEL.gz",
+          "Atha_Col-0_sl_cop1_345nm-4d_CTRL_Rep1",
+          "Ulm_3-1_cop1-345-4d_Rep1_ATH1",
+          "GLDS-296_microarray_Atha_Col-0_sl_cop1_345nm-4d_CTRL_Rep1_raw.CEL.gz",
+          "Atha_Col-0_sl_cop1_345nm-4d_CTRL_Rep2",
+          "Ulm_3-2_cop1-345-4d_Rep2_ATH1",
+          "GLDS-296_microarray_Atha_Col-0_sl_cop1_345nm-4d_CTRL_Rep2_raw.CEL.gz",
+          "Atha_Col-0_sl_cop1_345nm-4d_CTRL_Rep3",
+          "Ulm_3-3_cop1-345-4d_Rep3_ATH1",
+          "GLDS-296_microarray_Atha_Col-0_sl_cop1_345nm-4d_CTRL_Rep3_raw.CEL.gz",
+          "Atha_Col-0_sl_cop1_305nm-4d_CTRL_Rep1",
+          "Ulm_3-10_cop1-305-4d_Rep1_ATH1",
+          "GLDS-296_microarray_Atha_Col-0_sl_cop1_305nm-4d_CTRL_Rep1_raw.CEL.gz",
+          "Atha_Col-0_sl_cop1_305nm-4d_CTRL_Rep2",
+          "Ulm_3-11_cop1-305-4d_Rep2_ATH1",
+          "GLDS-296_microarray_Atha_Col-0_sl_cop1_305nm-4d_CTRL_Rep2_raw.CEL.gz",
+          "Atha_Col-0_sl_cop1_305nm-4d_CTRL_Rep3",
+          "Ulm_3-12_cop1-305-4d_Rep3_ATH1",
+          "GLDS-296_microarray_Atha_Col-0_sl_cop1_305nm-4d_CTRL_Rep3_raw.CEL.gz",
+          "Atha_Col-0_sl_uvr8_345nm-4d_CTRL_Rep1",
+          "Ulm_2-1_uvr8-345-4d_Rep1_ATH1",
+          "GLDS-296_microarray_Atha_Col-0_sl_uvr8_345nm-4d_CTRL_Rep1_raw.CEL.gz",
+          "Atha_Col-0_sl_uvr8_345nm-4d_CTRL_Rep2",
+          "Ulm_2-2_uvr8-345-4d_Rep2_ATH1",
+          "GLDS-296_microarray_Atha_Col-0_sl_uvr8_345nm-4d_CTRL_Rep2_raw.CEL.gz",
+          "Atha_Col-0_sl_uvr8_345nm-4d_CTRL_Rep3",
+          "Ulm_2-3_uvr8-345-4d_Rep3_ATH1",
+          "GLDS-296_microarray_Atha_Col-0_sl_uvr8_345nm-4d_CTRL_Rep3_raw.CEL.gz",
+          "Atha_Col-0_sl_uvr8_305nm-4d_CTRL_Rep1",
+          "Ulm_2-10_uvr8-305-4d_Rep1_ATH1",
+          "GLDS-296_microarray_Atha_Col-0_sl_uvr8_305nm-4d_CTRL_Rep1_raw.CEL.gz",
+          "Atha_Col-0_sl_uvr8_305nm-4d_CTRL_Rep2",
+          "Ulm_2-11_uvr8-305-4d_Rep2_ATH1",
+          "GLDS-296_microarray_Atha_Col-0_sl_uvr8_305nm-4d_CTRL_Rep2_raw.CEL.gz",
+          "Atha_Col-0_sl_uvr8_305nm-4d_CTRL_Rep3",
+          "Ulm_2-12_uvr8-305-4d_Rep3_ATH1",
+          "GLDS-296_microarray_Atha_Col-0_sl_uvr8_305nm-4d_CTRL_Rep3_raw.CEL.gz"
+        ],
+        "reports": []
+      }
+    }
+  ]
+}

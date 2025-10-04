@@ -1,0 +1,701 @@
+{
+  "investigation": {
+    "id": "OSD-49",
+    "title": "Multi-omic investigations of mouse liver subjected to simulated spaceflight freezing and storage protocols",
+    "description": "This study compares standard laboratory protocols for tissue freezing and storage with a simulation of the delayed processing of liver specimens and long-term storage protocols used during the Rodent Research-1 (RR-1) payload. Liver samples from twelve-week old female C57BL/6J mice (snap frozen vs.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "",
+      "title": "",
+      "type": "Ground Study",
+      "link": "",
+      "funding": "This study was funded by the NASA Space Biology Program Office, Space Life and Physical Sciences Research and Applications Division, and additional funding from the International Space Station Research Integration Office to the Space Biology GeneLab Project. Some of the mass spectrometry described was supported by Award Number S10RR027425 from the National Center For Research Resources.",
+      "managing_center": "Ames Research Center (ARC)"
+    },
+    "protocols": [
+      "sample collection",
+      "Animal Husbandry",
+      "Nucleic Acid Extraction",
+      "Library Construction",
+      "Nucleic Acid Sequencing",
+      "GeneLab RNAseq data processing protocol",
+      "Extraction",
+      "Labeling",
+      "Mass Spectrometry",
+      "Nucleic Acid Extraction 1",
+      "Library Construction 1",
+      "Nucleic Acid Sequencing 1"
+    ],
+    "publications": [
+      {
+        "title": "Preservation of Multiple Mammalian Tissues to Maximize Science Return from Ground Based and Spaceflight Experiments",
+        "doi": "10.1371/journal.pone.0167391",
+        "authors": [
+          "Choi Sungshin",
+          "Ray Hami E.",
+          "Lai San-Huei",
+          "Alwood Joshua S.",
+          "Globus Ruth K."
+        ],
+        "summary": "Preservation of Multiple Mammalian Tissues to Maximize Science Return from Ground Based and Spaceflight Experiments — 10.1371/journal.pone.0167391"
+      }
+    ],
+    "factors": [
+      "Sample Preservation Method",
+      "Time of Sample Collection After Euthanasia",
+      "Sample Storage Time"
+    ],
+    "contacts": [
+      {
+        "first_name": "Sungshin",
+        "last_name": "Choi",
+        "role": "Author",
+        "email": "ruth.k.globus@nasa.gov"
+      },
+      {
+        "first_name": "San-Huei",
+        "last_name": "Lai Polo",
+        "role": "Author",
+        "email": "jonathan.m.galazka@nasa.gov"
+      },
+      {
+        "first_name": "Hami",
+        "last_name": "Ray",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Joshua",
+        "last_name": "Alwood",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Ruth",
+        "last_name": "Globus",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Jonathan",
+        "last_name": "Galazka",
+        "role": "conceptualization role",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "Mmus_C57-6J_LVR_LN2_3d_Rep1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Material Type": "Liver",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "age": "12"
+        },
+        "factors": {
+          "Time of Sample Collection After Euthanasia": "within 5",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Time": "3"
+        },
+        "parameters": {
+          "habitat": "Vivarium Cage",
+          "Diet": "standard chow",
+          "Feeding Schedule": "ad libitum",
+          "Sample Storage Temperature": "-80",
+          "Euthanasia Method": "Euthasol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "PC 1- liver"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_LVR_LN2_3d_Rep2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Material Type": "Liver",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "age": "12"
+        },
+        "factors": {
+          "Time of Sample Collection After Euthanasia": "within 5",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Time": "3"
+        },
+        "parameters": {
+          "habitat": "Vivarium Cage",
+          "Diet": "standard chow",
+          "Feeding Schedule": "ad libitum",
+          "Sample Storage Temperature": "-80",
+          "Euthanasia Method": "Euthasol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "PC 2- liver"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_LVR_LN2_3d_Rep3",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Material Type": "Liver",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "age": "12"
+        },
+        "factors": {
+          "Time of Sample Collection After Euthanasia": "within 5",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Time": "3"
+        },
+        "parameters": {
+          "habitat": "Vivarium Cage",
+          "Diet": "standard chow",
+          "Feeding Schedule": "ad libitum",
+          "Sample Storage Temperature": "-80",
+          "Euthanasia Method": "Euthasol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "PC 3- liver"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_LVR_LN2_1y_Rep1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Material Type": "Liver",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "age": "12"
+        },
+        "factors": {
+          "Time of Sample Collection After Euthanasia": "within 5",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Time": "~365"
+        },
+        "parameters": {
+          "habitat": "Vivarium Cage",
+          "Diet": "standard chow",
+          "Feeding Schedule": "ad libitum",
+          "Sample Storage Temperature": "-80",
+          "Euthanasia Method": "Euthasol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "ASAP 1- liver"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_LVR_LN2_1y_Rep2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Material Type": "Liver",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "age": "12"
+        },
+        "factors": {
+          "Time of Sample Collection After Euthanasia": "within 5",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Time": "~365"
+        },
+        "parameters": {
+          "habitat": "Vivarium Cage",
+          "Diet": "standard chow",
+          "Feeding Schedule": "ad libitum",
+          "Sample Storage Temperature": "-80",
+          "Euthanasia Method": "Euthasol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "ASAP 2- liver"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_LVR_LN2_1y_Rep3",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Material Type": "Liver",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "age": "12"
+        },
+        "factors": {
+          "Time of Sample Collection After Euthanasia": "within 5",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Time": "~365"
+        },
+        "parameters": {
+          "habitat": "Vivarium Cage",
+          "Diet": "standard chow",
+          "Feeding Schedule": "ad libitum",
+          "Sample Storage Temperature": "-80",
+          "Euthanasia Method": "Euthasol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "ASAP 3- liver"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_LVR_DI_1y_Rep1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Material Type": "Liver",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "age": "12"
+        },
+        "factors": {
+          "Time of Sample Collection After Euthanasia": "25",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Time": "~365"
+        },
+        "parameters": {
+          "habitat": "Vivarium Cage",
+          "Diet": "standard chow",
+          "Feeding Schedule": "ad libitum",
+          "Sample Storage Temperature": "-80",
+          "Euthanasia Method": "Euthasol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "25min 1- liver"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_LVR_DI_1y_Rep2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Material Type": "Liver",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "age": "12"
+        },
+        "factors": {
+          "Time of Sample Collection After Euthanasia": "25",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Time": "~365"
+        },
+        "parameters": {
+          "habitat": "Vivarium Cage",
+          "Diet": "standard chow",
+          "Feeding Schedule": "ad libitum",
+          "Sample Storage Temperature": "-80",
+          "Euthanasia Method": "Euthasol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "25min 2- liver"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_LVR_DI_1y_Rep3",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Material Type": "Liver",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "age": "12"
+        },
+        "factors": {
+          "Time of Sample Collection After Euthanasia": "25",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Time": "~365"
+        },
+        "parameters": {
+          "habitat": "Vivarium Cage",
+          "Diet": "standard chow",
+          "Feeding Schedule": "ad libitum",
+          "Sample Storage Temperature": "-80",
+          "Euthanasia Method": "Euthasol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "25min 3- liver"
+        }
+      },
+      {
+        "sample_name": "Pool of all samples",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Material Type": "Liver",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "age": "12"
+        },
+        "factors": {
+          "Time of Sample Collection After Euthanasia": "",
+          "Sample Preservation Method": "",
+          "Sample Storage Time": ""
+        },
+        "parameters": {
+          "habitat": "Vivarium Cage",
+          "Diet": "standard chow",
+          "Feeding Schedule": "ad libitum",
+          "Sample Storage Temperature": "-80",
+          "Euthanasia Method": "Euthasol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Pool of All Samples"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "dna-methylation-profiling",
+      "platform": "HiSeq 3000",
+      "qc": {},
+      "library": {
+        "Library Strategy": "Bisulfite-Seq",
+        "Library Selection": "PCR",
+        "Library Layout": "PAIRED",
+        "Library Kit": "EpiGnome"
+      },
+      "files": {
+        "raw": [
+          "GLDS-49_wgbs_PC-1-wgbs.tar.gz",
+          "GLDS-49_wgbs_PC-2-wgbs.tar.gz",
+          "GLDS-49_wgbs_PC-3-wgbs.tar.gz",
+          "GLDS-49_wgbs_ASAP-1-wgbs.tar.gz",
+          "GLDS-49_wgbs_ASAP-2-wgbs.tar.gz",
+          "GLDS-49_wgbs_ASAP-3-wgbs.tar.gz",
+          "GLDS-49_wgbs_25min-1-wgbs.tar.gz",
+          "GLDS-49_wgbs_25min-2-wgbs.tar.gz",
+          "GLDS-49_wgbs_25min-3-wgbs.tar.gz"
+        ],
+        "processed": [
+          "Mmus_C57-6J_LVR_LN2_3d_Rep1",
+          "Nucleic Acid Sequencing 1",
+          "PC 1- liver- DNA",
+          "Bisulfite-Seq",
+          "PCR",
+          "PAIRED",
+          "EpiGnome",
+          "HiSeq 3000",
+          "DNA-methylseq",
+          "Mmus_C57-6J_LVR_LN2_3d_Rep2",
+          "PC 2- liver- DNA",
+          "Mmus_C57-6J_LVR_LN2_3d_Rep3",
+          "PC 3- liver- DNA",
+          "Mmus_C57-6J_LVR_LN2_1y_Rep1",
+          "ASAP 1- liver- DNA",
+          "Mmus_C57-6J_LVR_LN2_1y_Rep2",
+          "ASAP 2- liver- DNA",
+          "Mmus_C57-6J_LVR_LN2_1y_Rep3",
+          "ASAP 3- liver- DNA",
+          "Mmus_C57-6J_LVR_DI_1y_Rep1",
+          "25min 1- liver- DNA",
+          "Mmus_C57-6J_LVR_DI_1y_Rep2",
+          "25min 2- liver- DNA",
+          "Mmus_C57-6J_LVR_DI_1y_Rep3",
+          "25min 3- liver- DNA"
+        ],
+        "reports": []
+      }
+    },
+    {
+      "type": "protein-expression-profiling",
+      "platform": "Orbitrap Fusion",
+      "qc": {},
+      "library": {},
+      "files": {
+        "raw": [
+          "GLDS-49_proteomics_RR1-VAL.raw.tar.gz"
+        ],
+        "processed": [
+          "Mmus_C57-6J_LVR_LN2_3d_Rep1",
+          "Mass Spectrometry",
+          "PC 1- liver- protein",
+          "PC 1- liver- protein_126",
+          "126",
+          "Orbitrap Fusion",
+          "MS:ACQUITY UPLC",
+          "TMT 10-plex",
+          "HCD",
+          "Mmus_C57-6J_LVR_LN2_3d_Rep2",
+          "PC 2- liver- protein",
+          "PC 2- liver- protein_127N",
+          "127N",
+          "Mmus_C57-6J_LVR_LN2_3d_Rep3",
+          "PC 3- liver- protein",
+          "PC 3- liver- protein_127C",
+          "127C",
+          "Mmus_C57-6J_LVR_LN2_1y_Rep1",
+          "ASAP 1- liver- protein",
+          "ASAP 1- liver- protein_128N",
+          "128N",
+          "Mmus_C57-6J_LVR_LN2_1y_Rep2",
+          "ASAP 2- liver- protein",
+          "ASAP 2- liver- protein_128C",
+          "128C",
+          "Mmus_C57-6J_LVR_LN2_1y_Rep3",
+          "ASAP 3- liver- protein",
+          "ASAP 3- liver- protein_129N",
+          "129N",
+          "Mmus_C57-6J_LVR_DI_1y_Rep1",
+          "25min 1- liver- protein",
+          "25min 1- liver- protein_129C",
+          "129C",
+          "Mmus_C57-6J_LVR_DI_1y_Rep2",
+          "25min 2- liver- protein",
+          "25min 2- liver- protein_130N",
+          "130N",
+          "Mmus_C57-6J_LVR_DI_1y_Rep3",
+          "25min 3- liver- protein",
+          "25min 3- liver- protein_130C",
+          "130C",
+          "Pool of all samples",
+          "pool",
+          "Pool_131",
+          "131",
+          "equivalent aliquots of each sample as a function of mass"
+        ],
+        "reports": []
+      }
+    },
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina HiSeq 3000",
+      "qc": {
+        "QA Instrument": "Agilent 2100 Bioanalyzer",
+        "QA Assay": "Agilent RNA 6000 Nano",
+        "QA Score": "9.2",
+        "Read Depth": "37886617",
+        "rRNA Contamination": "2.8"
+      },
+      "library": {
+        "Library Selection": "mRNA enrichment",
+        "Library Layout": "SINGLE",
+        "Stranded": "STRANDED"
+      },
+      "files": {
+        "raw": [
+          "GLDS-49_rna-seq_PC-1.tar.gz",
+          "GLDS-49_rna-seq_PC-2.tar.gz",
+          "GLDS-49_rna-seq_PC-3.tar.gz",
+          "GLDS-49_rna-seq_ASAP-1.tar.gz",
+          "GLDS-49_rna-seq_ASAP-2.tar.gz",
+          "GLDS-49_rna-seq_ASAP-3.tar.gz",
+          "GLDS-49_rna-seq_25min-1.tar.gz",
+          "GLDS-49_rna-seq_25min-2.tar.gz",
+          "GLDS-49_rna-seq_25min-3.tar.gz",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep1_R1_raw.fastq.gz",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep1_R1_trimmed.fastq.gz",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep2_R1_raw.fastq.gz",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep2_R1_trimmed.fastq.gz",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep3_R1_raw.fastq.gz",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep3_R1_trimmed.fastq.gz",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep1_R1_raw.fastq.gz",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep1_R1_trimmed.fastq.gz",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep2_R1_raw.fastq.gz",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep2_R1_trimmed.fastq.gz",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep3_R1_raw.fastq.gz",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep3_R1_trimmed.fastq.gz",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep1_R1_raw.fastq.gz",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep1_R1_trimmed.fastq.gz",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep2_R1_raw.fastq.gz",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep2_R1_trimmed.fastq.gz",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep3_R1_raw.fastq.gz",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep3_R1_trimmed.fastq.gz"
+        ],
+        "processed": [
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep1_R1_raw.fastq.gz",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep1_R1_trimmed.fastq.gz",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep1_Aligned.sortedByCoord.out.bam",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep1_Aligned.toTranscriptome.out.bam",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep1_SJ.out.tab",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep1.genes.results",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep1.isoforms.results",
+          "GLDS-49_rna_seq_Unnormalized_Counts.csv",
+          "GLDS-49_rna_seq_Normalized_Counts.csv",
+          "GLDS-49_rna_seq_contrasts.csv",
+          "GLDS-49_rna_seq_differential_expression.csv",
+          "GLDS-49_rna_seq_SampleTable.csv",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep2_R1_raw.fastq.gz",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep2_R1_trimmed.fastq.gz",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep2_Aligned.sortedByCoord.out.bam",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep2_Aligned.toTranscriptome.out.bam",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep2_SJ.out.tab",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep2.genes.results",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep2.isoforms.results",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep3_R1_raw.fastq.gz",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep3_R1_trimmed.fastq.gz",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep3_Aligned.sortedByCoord.out.bam",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep3_Aligned.toTranscriptome.out.bam",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep3_SJ.out.tab",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep3.genes.results",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep3.isoforms.results",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep1_R1_raw.fastq.gz",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep1_R1_trimmed.fastq.gz",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep1_Aligned.sortedByCoord.out.bam",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep1_Aligned.toTranscriptome.out.bam",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep1_SJ.out.tab",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep1.genes.results",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep1.isoforms.results",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep2_R1_raw.fastq.gz",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep2_R1_trimmed.fastq.gz",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep2_Aligned.sortedByCoord.out.bam",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep2_Aligned.toTranscriptome.out.bam",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep2_SJ.out.tab",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep2.genes.results",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep2.isoforms.results",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep3_R1_raw.fastq.gz",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep3_R1_trimmed.fastq.gz",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep3_Aligned.sortedByCoord.out.bam",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep3_Aligned.toTranscriptome.out.bam",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep3_SJ.out.tab",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep3.genes.results",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep3.isoforms.results",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep1_R1_raw.fastq.gz",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep1_R1_trimmed.fastq.gz",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep1_Aligned.sortedByCoord.out.bam",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep1_Aligned.toTranscriptome.out.bam",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep1_SJ.out.tab",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep1.genes.results",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep1.isoforms.results",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep2_R1_raw.fastq.gz",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep2_R1_trimmed.fastq.gz",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep2_Aligned.sortedByCoord.out.bam",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep2_Aligned.toTranscriptome.out.bam",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep2_SJ.out.tab",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep2.genes.results",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep2.isoforms.results",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep3_R1_raw.fastq.gz",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep3_R1_trimmed.fastq.gz",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep3_Aligned.sortedByCoord.out.bam",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep3_Aligned.toTranscriptome.out.bam",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep3_SJ.out.tab",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep3.genes.results",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep3.isoforms.results",
+          "Mmus_C57-6J_LVR_LN2_3d_Rep1",
+          "GeneLab RNAseq data processing protocol",
+          "Agilent 2100 Bioanalyzer",
+          "Agilent RNA 6000 Nano",
+          "9.2",
+          "read",
+          "SO",
+          "http://purl.obolibrary.org/obo/SO_0000150",
+          "PC 1- liver- RNA",
+          "mRNA enrichment",
+          "SINGLE",
+          "STRANDED",
+          "Illumina HiSeq 3000",
+          "rna-seq",
+          "50",
+          "2.8",
+          "37886617",
+          "Mmus_C57-6J_LVR_LN2_3d_Rep2",
+          "9.3",
+          "PC 2- liver- RNA",
+          "4.43",
+          "35157639",
+          "Mmus_C57-6J_LVR_LN2_3d_Rep3",
+          "PC 3- liver- RNA",
+          "2.9",
+          "34597061",
+          "Mmus_C57-6J_LVR_LN2_1y_Rep1",
+          "9",
+          "ASAP 1- liver- RNA",
+          "2.66",
+          "43438065",
+          "Mmus_C57-6J_LVR_LN2_1y_Rep2",
+          "9.9",
+          "ASAP 2- liver- RNA",
+          "3.5",
+          "32452712",
+          "Mmus_C57-6J_LVR_LN2_1y_Rep3",
+          "ASAP 3- liver- RNA",
+          "2.49",
+          "33755576",
+          "Mmus_C57-6J_LVR_DI_1y_Rep1",
+          "9.1",
+          "25min 1- liver- RNA",
+          "4.75",
+          "35836694",
+          "Mmus_C57-6J_LVR_DI_1y_Rep2",
+          "9.5",
+          "25min 2- liver- RNA",
+          "6.59",
+          "37127062",
+          "Mmus_C57-6J_LVR_DI_1y_Rep3",
+          "25min 3- liver- RNA",
+          "3.03",
+          "32885135"
+        ],
+        "reports": [
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep1_R1_raw_fastqc.html",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep1_R1_raw_fastqc.zip",
+          "GLDS-49_rna_seq_raw_multiqc_report.html",
+          "GLDS-49_rna_seq_raw_multiqc_data.zip",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep1_R1_trimmed_fastqc.html",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep1_R1_trimmed_fastqc.zip",
+          "GLDS-49_rna_seq_trimmed_multiqc_report.html",
+          "GLDS-49_rna_seq_trimmed_multiqc_data.zip",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep1_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep1_Log.final.out",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep2_R1_raw_fastqc.html",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep2_R1_raw_fastqc.zip",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep2_R1_trimmed_fastqc.html",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep2_R1_trimmed_fastqc.zip",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep2_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep2_Log.final.out",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep3_R1_raw_fastqc.html",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep3_R1_raw_fastqc.zip",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep3_R1_trimmed_fastqc.html",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep3_R1_trimmed_fastqc.zip",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep3_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_3d_Rep3_Log.final.out",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep1_R1_raw_fastqc.html",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep1_R1_raw_fastqc.zip",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep1_R1_trimmed_fastqc.html",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep1_R1_trimmed_fastqc.zip",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep1_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep1_Log.final.out",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep2_R1_raw_fastqc.html",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep2_R1_raw_fastqc.zip",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep2_R1_trimmed_fastqc.html",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep2_R1_trimmed_fastqc.zip",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep2_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep2_Log.final.out",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep3_R1_raw_fastqc.html",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep3_R1_raw_fastqc.zip",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep3_R1_trimmed_fastqc.html",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep3_R1_trimmed_fastqc.zip",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep3_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_LN2_1y_Rep3_Log.final.out",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep1_R1_raw_fastqc.html",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep1_R1_raw_fastqc.zip",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep1_R1_trimmed_fastqc.html",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep1_R1_trimmed_fastqc.zip",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep1_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep1_Log.final.out",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep2_R1_raw_fastqc.html",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep2_R1_raw_fastqc.zip",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep2_R1_trimmed_fastqc.html",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep2_R1_trimmed_fastqc.zip",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep2_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep2_Log.final.out",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep3_R1_raw_fastqc.html",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep3_R1_raw_fastqc.zip",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep3_R1_trimmed_fastqc.html",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep3_R1_trimmed_fastqc.zip",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep3_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-49_rna_seq_Mmus_C57-6J_LVR_DI_1y_Rep3_Log.final.out"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,525 @@
+{
+  "investigation": {
+    "id": "OSD-594",
+    "title": "Advancing the automation of plant nucleic acid extraction for rapid diagnosis of plant diseases in space",
+    "description": "Human space exploration missions will continue the development of sustainable plant cultivation in what are obviously novel habitat settings. Effective pathology mitigation strategies are needed to cope with plant disease outbreaks in any space-based plant growth system.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "",
+      "title": "",
+      "type": "Ground Study",
+      "link": "",
+      "funding": "NASA SMD TIDES 80NSSC22K0160",
+      "managing_center": "Kennedy Space Center (KSC)"
+    },
+    "protocols": [
+      "growth protocol",
+      "treatment protocol",
+      "sample collection",
+      "Nucleic Acid Extraction",
+      "Library Construction",
+      "Nucleic Acid Sequencing",
+      "human read contaminant filtering"
+    ],
+    "publications": [
+      {
+        "title": "Advancing the automation of plant nucleic acid extraction for rapid diagnosis of plant diseases in space",
+        "doi": "10.3389/fpls.2023.1194753",
+        "authors": [
+          "Haveman Natasha J.",
+          "Schuerger Andrew C.",
+          "Yu Pei-Ling",
+          "Brown Mark",
+          "Doebler Robert",
+          "Paul Anna-Lisa",
+          "Ferl Robert J."
+        ],
+        "summary": "Advancing the automation of plant nucleic acid extraction for rapid diagnosis of plant diseases in space — 10.3389/fpls.2023.1194753"
+      }
+    ],
+    "factors": [
+      "Organism Part",
+      "Treatment"
+    ],
+    "contacts": [
+      {
+        "first_name": "Natasha",
+        "last_name": "Haveman",
+        "role": "Submitter",
+        "email": "nsng20142019@gmail.com"
+      },
+      {
+        "first_name": "Andrew",
+        "last_name": "Schuerger",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Pei-Ling",
+        "last_name": "Yu",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Mark",
+        "last_name": "Brown",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Robert",
+        "last_name": "Doebler",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Anna-Lisa",
+        "last_name": "Paul",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Robert",
+        "last_name": "Ferl",
+        "role": "Author",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "CBIO healthy tomato stem BC01",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Solanum lycopersicum",
+          "Host Genotype": "Red Robin",
+          "Material Type": "stem",
+          "Seed Source (host)": "Totally Tomatoes, Inc., Randolph, WI, USA",
+          "Pathogen Strain Source": "Scott Adkins, United States Dept. of Agriculture, Ft. Pierce, FL, USA"
+        },
+        "factors": {
+          "Treatment": "Not Inoculated",
+          "Organism Part": "stem"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Hardware": "Magenta Vessels",
+          "light cycle": "12:12 light:dark",
+          "Mean Growth Temperature": "22",
+          "Growth Medium": "0.5% Phytagel/0.5 x Murashige and Skoog medium",
+          "Growth Time": "21",
+          "Irrigation": "half-strength but complete nutrient solution",
+          "Light Intensity": "100",
+          "light source": "Light Emitting Diode Device",
+          "Treatment Light Cycle": "12:12 light:dark",
+          "Treatment Light Source": "Light Emitting Diode Device",
+          "Treatment Mean Growth Temperature": "22",
+          "Light Quality": "400-700",
+          "Treatment Light Color": "red:green:blue:white 150:40:20:125",
+          "culture medium": "",
+          "duration": "7",
+          "Treatment Light Intensity": "275",
+          "Sample Preservation Method": "",
+          "Age at sample harvest": "28"
+        },
+        "comments": {
+          "Pathosystem": "Not inoculated"
+        }
+      },
+      {
+        "sample_name": "CBIO FOL inoculated tomato stem BC02",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Solanum lycopersicum",
+          "Host Genotype": "Red Robin",
+          "Material Type": "stem",
+          "Seed Source (host)": "Totally Tomatoes, Inc., Randolph, WI, USA",
+          "Pathogen Strain Source": "Scott Adkins, United States Dept. of Agriculture, Ft. Pierce, FL, USA"
+        },
+        "factors": {
+          "Treatment": "Inoculated with Fusarium oxysporum",
+          "Organism Part": "stem"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Hardware": "Magenta Vessels",
+          "light cycle": "12:12 light:dark",
+          "Mean Growth Temperature": "22",
+          "Growth Medium": "0.5% Phytagel/0.5 x Murashige and Skoog medium",
+          "Growth Time": "21",
+          "Irrigation": "half-strength but complete nutrient solution",
+          "Light Intensity": "100",
+          "light source": "Light Emitting Diode Device",
+          "Treatment Light Cycle": "12:12 light:dark",
+          "Treatment Light Source": "Light Emitting Diode Device",
+          "Treatment Mean Growth Temperature": "22",
+          "Light Quality": "400-700",
+          "Treatment Light Color": "red:green:blue:white 150:40:20:125",
+          "culture medium": "potato dextrose agar (PDA) plates",
+          "duration": "7",
+          "Treatment Light Intensity": "275",
+          "Sample Preservation Method": "",
+          "Age at sample harvest": "28"
+        },
+        "comments": {
+          "Pathosystem": "Pathosystem #2 tomato-Fusarium"
+        }
+      },
+      {
+        "sample_name": "CBIO FOL inoculated tomato roots BC03",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Solanum lycopersicum",
+          "Host Genotype": "Red Robin",
+          "Material Type": "Plant Roots",
+          "Seed Source (host)": "Totally Tomatoes, Inc., Randolph, WI, USA",
+          "Pathogen Strain Source": "Scott Adkins, United States Dept. of Agriculture, Ft. Pierce, FL, USA"
+        },
+        "factors": {
+          "Treatment": "Inoculated with Fusarium oxysporum",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Hardware": "Magenta Vessels",
+          "light cycle": "12:12 light:dark",
+          "Mean Growth Temperature": "22",
+          "Growth Medium": "0.5% Phytagel/0.5 x Murashige and Skoog medium",
+          "Growth Time": "21",
+          "Irrigation": "half-strength but complete nutrient solution",
+          "Light Intensity": "100",
+          "light source": "Light Emitting Diode Device",
+          "Treatment Light Cycle": "12:12 light:dark",
+          "Treatment Light Source": "Light Emitting Diode Device",
+          "Treatment Mean Growth Temperature": "22",
+          "Light Quality": "400-700",
+          "Treatment Light Color": "red:green:blue:white 150:40:20:125",
+          "culture medium": "potato dextrose agar (PDA) plates",
+          "duration": "7",
+          "Treatment Light Intensity": "275",
+          "Sample Preservation Method": "",
+          "Age at sample harvest": "28"
+        },
+        "comments": {
+          "Pathosystem": "Pathosystem #2 tomato-Fusarium"
+        }
+      },
+      {
+        "sample_name": "CBIO healthy tomato root BC04",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Solanum lycopersicum",
+          "Host Genotype": "Red Robin",
+          "Material Type": "root",
+          "Seed Source (host)": "Totally Tomatoes, Inc., Randolph, WI, USA",
+          "Pathogen Strain Source": "Scott Adkins, United States Dept. of Agriculture, Ft. Pierce, FL, USA"
+        },
+        "factors": {
+          "Treatment": "Not Inoculated",
+          "Organism Part": "root"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Hardware": "Magenta Vessels",
+          "light cycle": "12:12 light:dark",
+          "Mean Growth Temperature": "22",
+          "Growth Medium": "0.5% Phytagel/0.5 x Murashige and Skoog medium",
+          "Growth Time": "21",
+          "Irrigation": "half-strength but complete nutrient solution",
+          "Light Intensity": "100",
+          "light source": "Light Emitting Diode Device",
+          "Treatment Light Cycle": "12:12 light:dark",
+          "Treatment Light Source": "Light Emitting Diode Device",
+          "Treatment Mean Growth Temperature": "22",
+          "Light Quality": "400-700",
+          "Treatment Light Color": "red:green:blue:white 150:40:20:125",
+          "culture medium": "",
+          "duration": "7",
+          "Treatment Light Intensity": "275",
+          "Sample Preservation Method": "",
+          "Age at sample harvest": "28"
+        },
+        "comments": {
+          "Pathosystem": "Not Inoculated"
+        }
+      },
+      {
+        "sample_name": "CBIO healthy tomato leaf BC05",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Solanum lycopersicum",
+          "Host Genotype": "Red Robin",
+          "Material Type": "leaf",
+          "Seed Source (host)": "Totally Tomatoes, Inc., Randolph, WI, USA",
+          "Pathogen Strain Source": "Scott Adkins, United States Dept. of Agriculture, Ft. Pierce, FL, USA"
+        },
+        "factors": {
+          "Treatment": "Not Inoculated",
+          "Organism Part": "leaf"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Hardware": "Magenta Vessels",
+          "light cycle": "12:12 light:dark",
+          "Mean Growth Temperature": "22",
+          "Growth Medium": "0.5% Phytagel/0.5 x Murashige and Skoog medium",
+          "Growth Time": "21",
+          "Irrigation": "half-strength but complete nutrient solution",
+          "Light Intensity": "100",
+          "light source": "Light Emitting Diode Device",
+          "Treatment Light Cycle": "12:12 light:dark",
+          "Treatment Light Source": "Light Emitting Diode Device",
+          "Treatment Mean Growth Temperature": "22",
+          "Light Quality": "400-700",
+          "Treatment Light Color": "red:green:blue:white 150:40:20:125",
+          "culture medium": "",
+          "duration": "7",
+          "Treatment Light Intensity": "275",
+          "Sample Preservation Method": "",
+          "Age at sample harvest": "28"
+        },
+        "comments": {
+          "Pathosystem": "Not Inoculated"
+        }
+      },
+      {
+        "sample_name": "CBIO FOL inoculated tomato leaf BC06",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Solanum lycopersicum",
+          "Host Genotype": "Red Robin",
+          "Material Type": "leaf",
+          "Seed Source (host)": "Totally Tomatoes, Inc., Randolph, WI, USA",
+          "Pathogen Strain Source": "Scott Adkins, United States Dept. of Agriculture, Ft. Pierce, FL, USA"
+        },
+        "factors": {
+          "Treatment": "Inoculated with Fusarium oxysporum",
+          "Organism Part": "leaf"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Hardware": "Magenta Vessels",
+          "light cycle": "12:12 light:dark",
+          "Mean Growth Temperature": "22",
+          "Growth Medium": "0.5% Phytagel/0.5 x Murashige and Skoog medium",
+          "Growth Time": "21",
+          "Irrigation": "half-strength but complete nutrient solution",
+          "Light Intensity": "100",
+          "light source": "Light Emitting Diode Device",
+          "Treatment Light Cycle": "12:12 light:dark",
+          "Treatment Light Source": "Light Emitting Diode Device",
+          "Treatment Mean Growth Temperature": "22",
+          "Light Quality": "400-700",
+          "Treatment Light Color": "red:green:blue:white 150:40:20:125",
+          "culture medium": "potato dextrose agar (PDA) plates",
+          "duration": "7",
+          "Treatment Light Intensity": "275",
+          "Sample Preservation Method": "",
+          "Age at sample harvest": "28"
+        },
+        "comments": {
+          "Pathosystem": "Pathosystem #2 tomato-Fusarium"
+        }
+      },
+      {
+        "sample_name": "CBIO healthy lettuce roots BC07",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Host Genotype": "Outredgeous Red",
+          "Material Type": "Plant Roots",
+          "Seed Source (host)": "Johnnys Selected Seeds, Winslow, ME, USA",
+          "Pathogen Strain Source": "Erica Goss, Dept. of Plant Pathology, Univ. of Florida, Gainesville, FL, USA"
+        },
+        "factors": {
+          "Treatment": "Not Inoculated",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Hardware": "Magenta Vessels",
+          "light cycle": "12:12 light:dark",
+          "Mean Growth Temperature": "24",
+          "Growth Medium": "0.5% Phytagel/0.5 x Murashige and Skoog medium",
+          "Growth Time": "21",
+          "Irrigation": "half-strength but complete nutrient solution",
+          "Light Intensity": "100",
+          "light source": "Light Emitting Diode Device",
+          "Treatment Light Cycle": "12:12 light:dark",
+          "Treatment Light Source": "Light Emitting Diode Device",
+          "Treatment Mean Growth Temperature": "22",
+          "Light Quality": "400-700",
+          "Treatment Light Color": "red:green:blue:white 150:40:20:125",
+          "culture medium": "",
+          "duration": "7",
+          "Treatment Light Intensity": "275",
+          "Sample Preservation Method": "",
+          "Age at sample harvest": "28"
+        },
+        "comments": {
+          "Pathosystem": "Not Inoculated"
+        }
+      },
+      {
+        "sample_name": "CBIO Pythium inoculated lettuce roots BC08",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Host Genotype": "Outredgeous Red",
+          "Material Type": "Plant Roots",
+          "Seed Source (host)": "Johnnys Selected Seeds, Winslow, ME, USA",
+          "Pathogen Strain Source": "Erica Goss, Dept. of Plant Pathology, Univ. of Florida, Gainesville, FL, USA"
+        },
+        "factors": {
+          "Treatment": "Inoculated with Pythium aphanidermatum P1717",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Hardware": "Magenta Vessels",
+          "light cycle": "12:12 light:dark",
+          "Mean Growth Temperature": "24",
+          "Growth Medium": "autoclaved silica sand",
+          "Growth Time": "21",
+          "Irrigation": "half-strength but complete nutrient solution",
+          "Light Intensity": "100",
+          "light source": "Light Emitting Diode Device",
+          "Treatment Light Cycle": "12:12 light:dark",
+          "Treatment Light Source": "Light Emitting Diode Device",
+          "Treatment Mean Growth Temperature": "24",
+          "Light Quality": "400-700",
+          "Treatment Light Color": "red:green:blue:white 150:40:20:125",
+          "culture medium": "V-8 agar",
+          "duration": "21",
+          "Treatment Light Intensity": "275",
+          "Sample Preservation Method": "",
+          "Age at sample harvest": "42"
+        },
+        "comments": {
+          "Pathosystem": "Pathosystem #1 lettuce-Pythium"
+        }
+      },
+      {
+        "sample_name": "CBIO Pythium pure culture BC11",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Pythium aphanidermatum P1717",
+          "Host Genotype": "",
+          "Material Type": "Cells",
+          "Seed Source (host)": "",
+          "Pathogen Strain Source": ""
+        },
+        "factors": {
+          "Treatment": "",
+          "Organism Part": "Cells"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Hardware": "Magenta Vessels",
+          "light cycle": "12:12 light:dark",
+          "Mean Growth Temperature": "",
+          "Growth Medium": "",
+          "Growth Time": "",
+          "Irrigation": "half-strength but complete nutrient solution",
+          "Light Intensity": "100",
+          "light source": "Light Emitting Diode Device",
+          "Treatment Light Cycle": "12:12 light:dark",
+          "Treatment Light Source": "Light Emitting Diode Device",
+          "Treatment Mean Growth Temperature": "",
+          "Light Quality": "",
+          "Treatment Light Color": "",
+          "culture medium": "V-8 agar",
+          "duration": "",
+          "Treatment Light Intensity": "",
+          "Sample Preservation Method": "",
+          "Age at sample harvest": ""
+        },
+        "comments": {
+          "Pathosystem": ""
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "metagenomic-sequencing",
+      "platform": "MinION Mk1C",
+      "qc": {
+        "Read Depth": "803777"
+      },
+      "library": {
+        "Library Selection": "DNA",
+        "Library Layout": "SINGLE"
+      },
+      "files": {
+        "raw": [
+          "GLDS-582_metagenomics_BC01_HRremoved_raw.fastq.gz",
+          "GLDS-582_metagenomics_BC02_HRremoved_raw.fastq.gz",
+          "GLDS-582_metagenomics_BC03_HRremoved_raw.fastq.gz",
+          "GLDS-582_metagenomics_BC04_HRremoved_raw.fastq.gz",
+          "GLDS-582_metagenomics_BC05_HRremoved_raw.fastq.gz",
+          "GLDS-582_metagenomics_BC06_HRremoved_raw.fastq.gz",
+          "GLDS-582_metagenomics_BC07_all_HRremoved_raw.fastq.gz",
+          "GLDS-582_metagenomics_BC08_HRremoved_raw.fastq.gz",
+          "GLDS-582_metagenomics_BC11_HRremoved_raw.fastq.gz"
+        ],
+        "processed": [
+          "CBIO healthy tomato stem BC01",
+          "human read contaminant filtering",
+          "DNA",
+          "SINGLE",
+          "BC01",
+          "MinION Mk1C",
+          "MinKNOW software v21.11.6",
+          "metagenomics",
+          "18.76",
+          "read",
+          "SO",
+          "http://purl.obolibrary.org/obo/SO_0000150",
+          "803777",
+          "CBIO FOL inoculated tomato stem BC02",
+          "BC02",
+          "12.55",
+          "282363",
+          "CBIO FOL inoculated tomato roots BC03",
+          "BC03",
+          "9.06",
+          "384016",
+          "CBIO healthy tomato root BC04",
+          "BC04",
+          "16.54",
+          "644386",
+          "CBIO healthy tomato leaf BC05",
+          "BC05",
+          "15.63",
+          "1572805",
+          "CBIO FOL inoculated tomato leaf BC06",
+          "BC06",
+          "17.57",
+          "1034937",
+          "CBIO healthy lettuce roots BC07",
+          "BC07",
+          "24.51",
+          "4163",
+          "CBIO Pythium inoculated lettuce roots BC08",
+          "BC08",
+          "18.88",
+          "1281",
+          "CBIO Pythium pure culture BC11",
+          "BC11",
+          "7.9",
+          "35"
+        ],
+        "reports": [
+          "GLDS-582_metagenomics_raw_multiqc_report.zip"
+        ]
+      }
+    }
+  ]
+}

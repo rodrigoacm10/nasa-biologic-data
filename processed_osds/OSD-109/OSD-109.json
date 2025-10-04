@@ -1,0 +1,602 @@
+{
+  "investigation": {
+    "id": "OSD-109",
+    "title": "Delayed Cardiomyocyte Response to Total Body Particle Radiation Exposure - Identification of Regulatory Gene Network [iron]",
+    "description": "We examined molecular responses using transcriptome profiling in isolated left ventricular murine cardiomyocytes to 90 cGy, 1 GeV proton (1H) and 15 cGy, 1 GeV/nucleon (n) iron (56Fe) particles 1, 3, 7, 14 and 28 days after exposure. Unsupervised clustering analysis of gene expression segregated samples according to the radiation (IR) response, and time after exposure with 56Fe-IR showing the greatest level of gene modulation.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "Heavy_Ion_HZE_Irradiation, Low_Dose_Irradiation, High_LET_Irradiation",
+      "title": "Evaluation of Space Radiation-induced Myocardial and BM-derived EPC Damage and Assessment of Associated Long-term Degenerative Cardiovascular Risks",
+      "type": "Ground Study",
+      "link": "https://lsda.jsc.nasa.gov/scripts/experiment/exper.aspx?exp_index=13524",
+      "funding": "This work was supported by NASA and American Heart Association to D. A. Goukassian. This work was also supported in part by the US Department of Energy (DOE) with funding from the US DOE Low Dose Radiation Research Program to M. A. Coleman. And by the AHA and National Heart, Lung, and Blood Institute to X. Yan. This work was also supported by National Space Biomedical Research Institute (NSBRI) to M. Natarajan.",
+      "managing_center": "Johnson Space Center (JSC)"
+    },
+    "protocols": [
+      "irradiation protocol",
+      "Growth protocol",
+      "P-GSE68875-3",
+      "P-GSE68875-4",
+      "P-GSE68875-5",
+      "P-GSE68875-6",
+      "GeneLab microarray data processing protocol"
+    ],
+    "publications": [
+      {
+        "title": "Low-dose radiation affects cardiac physiology: gene networks and molecular signaling in cardiomyocytes.",
+        "doi": "10.1152/ajpheart.00050.2015",
+        "authors": [
+          "Coleman MA",
+          "Sasi SP",
+          "Onufrak J",
+          "Natarajan M",
+          "Manickam K",
+          "Schwab J",
+          "Muralidharan S",
+          "Peterson LE",
+          "Alekseyev YO",
+          "Yan X",
+          "Goukassian DA"
+        ],
+        "summary": "Low-dose radiation affects cardiac physiology: gene networks and molecular signaling in cardiomyocytes. — 10.1152/ajpheart.00050.2015"
+      },
+      {
+        "title": "GeneLab Database Analyses Suggest Long-Term Impact of Space Radiation on the Cardiovascular System by the Activation of FYN Through Reactive Oxygen Species",
+        "doi": "10.3390/ijms20030661",
+        "authors": [
+          "Beheshti A",
+          "McDonald JT",
+          "Miller J",
+          "Grabham P",
+          "Costes SV"
+        ],
+        "summary": "GeneLab Database Analyses Suggest Long-Term Impact of Space Radiation on the Cardiovascular System by the Activation of FYN Through Reactive Oxygen Species — 10.3390/ijms20030661"
+      }
+    ],
+    "factors": [
+      "Time of Sample Collection After Treatment",
+      "Ionizing Radiation"
+    ],
+    "contacts": [
+      {
+        "first_name": "Matthew",
+        "last_name": "Coleman",
+        "role": "Submitter",
+        "email": "coleman16@llnl.gov"
+      },
+      {
+        "first_name": "David",
+        "last_name": "Goukassian",
+        "role": "Principal Investigator",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "Mmus_C57-6T_lvCMC_HZE_1d-post-IR_Rep1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Sex": "Male",
+          "Strain": "C57BL/6NTac",
+          "Animal Source": "Taconic Biosciences",
+          "Age": "8-9",
+          "Material Type": "primary left ventricular cell"
+        },
+        "factors": {
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Time of Sample Collection After Treatment": "1"
+        },
+        "parameters": {
+          "particle charge": "3",
+          "ionizing radiation energy": "1",
+          "linear energy transfer": "~151",
+          "absorbed radiation dose": "0.15",
+          "absorbed radiation dose rate": "0.05",
+          "exposure duration": "3",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM1684875"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6T_lvCMC_HZE_1d-post-IR_Rep2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Sex": "Male",
+          "Strain": "C57BL/6NTac",
+          "Animal Source": "Taconic Biosciences",
+          "Age": "8-9",
+          "Material Type": "primary left ventricular cell"
+        },
+        "factors": {
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Time of Sample Collection After Treatment": "1"
+        },
+        "parameters": {
+          "particle charge": "3",
+          "ionizing radiation energy": "1",
+          "linear energy transfer": "~151",
+          "absorbed radiation dose": "0.15",
+          "absorbed radiation dose rate": "0.05",
+          "exposure duration": "3",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM1684876"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6T_lvCMC_HZE_1d-post-IR_Rep3",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Sex": "Male",
+          "Strain": "C57BL/6NTac",
+          "Animal Source": "Taconic Biosciences",
+          "Age": "8-9",
+          "Material Type": "primary left ventricular cell"
+        },
+        "factors": {
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Time of Sample Collection After Treatment": "1"
+        },
+        "parameters": {
+          "particle charge": "3",
+          "ionizing radiation energy": "1",
+          "linear energy transfer": "~151",
+          "absorbed radiation dose": "0.15",
+          "absorbed radiation dose rate": "0.05",
+          "exposure duration": "3",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM1684877"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6T_lvCMC_HZE_3d-post-IR_Rep1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Sex": "Male",
+          "Strain": "C57BL/6NTac",
+          "Animal Source": "Taconic Biosciences",
+          "Age": "8-9",
+          "Material Type": "primary left ventricular cell"
+        },
+        "factors": {
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Time of Sample Collection After Treatment": "3"
+        },
+        "parameters": {
+          "particle charge": "3",
+          "ionizing radiation energy": "1",
+          "linear energy transfer": "~151",
+          "absorbed radiation dose": "0.15",
+          "absorbed radiation dose rate": "0.05",
+          "exposure duration": "3",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM1684878"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6T_lvCMC_HZE_3d-post-IR_Rep2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Sex": "Male",
+          "Strain": "C57BL/6NTac",
+          "Animal Source": "Taconic Biosciences",
+          "Age": "8-9",
+          "Material Type": "primary left ventricular cell"
+        },
+        "factors": {
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Time of Sample Collection After Treatment": "3"
+        },
+        "parameters": {
+          "particle charge": "3",
+          "ionizing radiation energy": "1",
+          "linear energy transfer": "~151",
+          "absorbed radiation dose": "0.15",
+          "absorbed radiation dose rate": "0.05",
+          "exposure duration": "3",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM1684879"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6T_lvCMC_HZE_3d-post-IR_Rep3",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Sex": "Male",
+          "Strain": "C57BL/6NTac",
+          "Animal Source": "Taconic Biosciences",
+          "Age": "8-9",
+          "Material Type": "primary left ventricular cell"
+        },
+        "factors": {
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Time of Sample Collection After Treatment": "3"
+        },
+        "parameters": {
+          "particle charge": "3",
+          "ionizing radiation energy": "1",
+          "linear energy transfer": "~151",
+          "absorbed radiation dose": "0.15",
+          "absorbed radiation dose rate": "0.05",
+          "exposure duration": "3",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM1684880"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6T_lvCMC_HZE_7d-post-IR_Rep1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Sex": "Male",
+          "Strain": "C57BL/6NTac",
+          "Animal Source": "Taconic Biosciences",
+          "Age": "8-9",
+          "Material Type": "primary left ventricular cell"
+        },
+        "factors": {
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Time of Sample Collection After Treatment": "7"
+        },
+        "parameters": {
+          "particle charge": "3",
+          "ionizing radiation energy": "1",
+          "linear energy transfer": "~151",
+          "absorbed radiation dose": "0.15",
+          "absorbed radiation dose rate": "0.05",
+          "exposure duration": "3",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM1684881"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6T_lvCMC_HZE_7d-post-IR_Rep2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Sex": "Male",
+          "Strain": "C57BL/6NTac",
+          "Animal Source": "Taconic Biosciences",
+          "Age": "8-9",
+          "Material Type": "primary left ventricular cell"
+        },
+        "factors": {
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Time of Sample Collection After Treatment": "7"
+        },
+        "parameters": {
+          "particle charge": "3",
+          "ionizing radiation energy": "1",
+          "linear energy transfer": "~151",
+          "absorbed radiation dose": "0.15",
+          "absorbed radiation dose rate": "0.05",
+          "exposure duration": "3",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM1684882"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6T_lvCMC_HZE_14d-post-IR_Rep1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Sex": "Male",
+          "Strain": "C57BL/6NTac",
+          "Animal Source": "Taconic Biosciences",
+          "Age": "8-9",
+          "Material Type": "primary left ventricular cell"
+        },
+        "factors": {
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Time of Sample Collection After Treatment": "14"
+        },
+        "parameters": {
+          "particle charge": "3",
+          "ionizing radiation energy": "1",
+          "linear energy transfer": "~151",
+          "absorbed radiation dose": "0.15",
+          "absorbed radiation dose rate": "0.05",
+          "exposure duration": "3",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM1684883"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6T_lvCMC_HZE_14d-post-IR_Rep2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Sex": "Male",
+          "Strain": "C57BL/6NTac",
+          "Animal Source": "Taconic Biosciences",
+          "Age": "8-9",
+          "Material Type": "primary left ventricular cell"
+        },
+        "factors": {
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Time of Sample Collection After Treatment": "14"
+        },
+        "parameters": {
+          "particle charge": "3",
+          "ionizing radiation energy": "1",
+          "linear energy transfer": "~151",
+          "absorbed radiation dose": "0.15",
+          "absorbed radiation dose rate": "0.05",
+          "exposure duration": "3",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM1684884"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6T_lvCMC_HZE_28d-post-IR_Rep1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Sex": "Male",
+          "Strain": "C57BL/6NTac",
+          "Animal Source": "Taconic Biosciences",
+          "Age": "8-9",
+          "Material Type": "primary left ventricular cell"
+        },
+        "factors": {
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Time of Sample Collection After Treatment": "28"
+        },
+        "parameters": {
+          "particle charge": "3",
+          "ionizing radiation energy": "1",
+          "linear energy transfer": "~151",
+          "absorbed radiation dose": "0.15",
+          "absorbed radiation dose rate": "0.05",
+          "exposure duration": "3",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM1684885"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6T_lvCMC_HZE_28d-post-IR_Rep2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Sex": "Male",
+          "Strain": "C57BL/6NTac",
+          "Animal Source": "Taconic Biosciences",
+          "Age": "8-9",
+          "Material Type": "primary left ventricular cell"
+        },
+        "factors": {
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Time of Sample Collection After Treatment": "28"
+        },
+        "parameters": {
+          "particle charge": "3",
+          "ionizing radiation energy": "1",
+          "linear energy transfer": "~151",
+          "absorbed radiation dose": "0.15",
+          "absorbed radiation dose rate": "0.05",
+          "exposure duration": "3",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM1684886"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6T_lvCMC_shamIR_1d-post-shamIR_Rep1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Sex": "Male",
+          "Strain": "C57BL/6NTac",
+          "Animal Source": "Taconic Biosciences",
+          "Age": "8-9",
+          "Material Type": "primary left ventricular cell"
+        },
+        "factors": {
+          "Ionizing Radiation": "sham-irradiated",
+          "Time of Sample Collection After Treatment": "1"
+        },
+        "parameters": {
+          "particle charge": "",
+          "ionizing radiation energy": "",
+          "linear energy transfer": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": ""
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM1684887"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6T_lvCMC_shamIR_1d-post-shamIR_Rep2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Sex": "Male",
+          "Strain": "C57BL/6NTac",
+          "Animal Source": "Taconic Biosciences",
+          "Age": "8-9",
+          "Material Type": "primary left ventricular cell"
+        },
+        "factors": {
+          "Ionizing Radiation": "sham-irradiated",
+          "Time of Sample Collection After Treatment": "1"
+        },
+        "parameters": {
+          "particle charge": "",
+          "ionizing radiation energy": "",
+          "linear energy transfer": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": ""
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM1684888"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6T_lvCMC_shamIR_3d-post-shamIR_Rep1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Sex": "Male",
+          "Strain": "C57BL/6NTac",
+          "Animal Source": "Taconic Biosciences",
+          "Age": "8-9",
+          "Material Type": "primary left ventricular cell"
+        },
+        "factors": {
+          "Ionizing Radiation": "sham-irradiated",
+          "Time of Sample Collection After Treatment": "3"
+        },
+        "parameters": {
+          "particle charge": "",
+          "ionizing radiation energy": "",
+          "linear energy transfer": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": ""
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM1684889"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Affymetrix",
+      "qc": {},
+      "library": {},
+      "files": {
+        "raw": [],
+        "processed": [
+          "Mmus_C57-6T_lvCMC_HZE_1d-post-IR_Rep1",
+          "GeneLab microarray data processing protocol",
+          "GSM1684875 extract 1",
+          "GSM1684875 LE 1",
+          "biotin",
+          "GSM1684875",
+          "AFFY MoGene 1 0 st v1",
+          "GLDS-109_microarray_GSM1684875_DG_A4_IRR_24h_7.CEL",
+          "GLDS-109_array_raw_intensities_probe_GLmicroarray.csv",
+          "GLDS-109_array_normalized_expression_probeset_GLmicroarray.csv",
+          "GLDS-109_array_normalized_intensities_probe_GLmicroarray.csv",
+          "GLDS-109_array_SampleTable_GLmicroarray.csv",
+          "GLDS-109_array_contrasts_GLmicroarray.csv",
+          "GLDS-109_array_differential_expression_GLmicroarray.csv",
+          "Mmus_C57-6T_lvCMC_HZE_1d-post-IR_Rep2",
+          "GSM1684876 extract 1",
+          "GSM1684876 LE 1",
+          "GSM1684876",
+          "GLDS-109_microarray_GSM1684876_DG_A5_IRR_24h_8.CEL",
+          "Mmus_C57-6T_lvCMC_HZE_1d-post-IR_Rep3",
+          "GSM1684877 extract 1",
+          "GSM1684877 LE 1",
+          "GSM1684877",
+          "GLDS-109_microarray_GSM1684877_DG_A6_IRR_24h_9.CEL",
+          "Mmus_C57-6T_lvCMC_HZE_3d-post-IR_Rep1",
+          "GSM1684878 extract 1",
+          "GSM1684878 LE 1",
+          "GSM1684878",
+          "GLDS-109_microarray_GSM1684878_DG_A7_IRR_72h_10.CEL",
+          "Mmus_C57-6T_lvCMC_HZE_3d-post-IR_Rep2",
+          "GSM1684879 extract 1",
+          "GSM1684879 LE 1",
+          "GSM1684879",
+          "GLDS-109_microarray_GSM1684879_DG_A8_IRR_72h_11.CEL",
+          "Mmus_C57-6T_lvCMC_HZE_3d-post-IR_Rep3",
+          "GSM1684880 extract 1",
+          "GSM1684880 LE 1",
+          "GSM1684880",
+          "GLDS-109_microarray_GSM1684880_DG_A9_IRR_72h_12.CEL",
+          "Mmus_C57-6T_lvCMC_HZE_7d-post-IR_Rep1",
+          "GSM1684881 extract 1",
+          "GSM1684881 LE 1",
+          "GSM1684881",
+          "GLDS-109_microarray_GSM1684881_DG_A10_IRR_7d_13.CEL",
+          "Mmus_C57-6T_lvCMC_HZE_7d-post-IR_Rep2",
+          "GSM1684882 extract 1",
+          "GSM1684882 LE 1",
+          "GSM1684882",
+          "GLDS-109_microarray_GSM1684882_DG_A11_IRR_7d_14.CEL",
+          "Mmus_C57-6T_lvCMC_HZE_14d-post-IR_Rep1",
+          "GSM1684883 extract 1",
+          "GSM1684883 LE 1",
+          "GSM1684883",
+          "GLDS-109_microarray_GSM1684883_DG_A12_IRR_14d_15.CEL",
+          "Mmus_C57-6T_lvCMC_HZE_14d-post-IR_Rep2",
+          "GSM1684884 extract 1",
+          "GSM1684884 LE 1",
+          "GSM1684884",
+          "GLDS-109_microarray_GSM1684884_DG_B1_IRR_14d_16.CEL",
+          "Mmus_C57-6T_lvCMC_HZE_28d-post-IR_Rep1",
+          "GSM1684885 extract 1",
+          "GSM1684885 LE 1",
+          "GSM1684885",
+          "GLDS-109_microarray_GSM1684885_DG_B2_IRR_28d_17.CEL",
+          "Mmus_C57-6T_lvCMC_HZE_28d-post-IR_Rep2",
+          "GSM1684886 extract 1",
+          "GSM1684886 LE 1",
+          "GSM1684886",
+          "GLDS-109_microarray_GSM1684886_DG_B3_IRR_28d_18.CEL",
+          "Mmus_C57-6T_lvCMC_shamIR_1d-post-shamIR_Rep1",
+          "GSM1684887 extract 1",
+          "GSM1684887 LE 1",
+          "GSM1684887",
+          "GLDS-109_microarray_GSM1684887_DG_A1_CNTRL_24h_1.CEL",
+          "Mmus_C57-6T_lvCMC_shamIR_1d-post-shamIR_Rep2",
+          "GSM1684888 extract 1",
+          "GSM1684888 LE 1",
+          "GSM1684888",
+          "GLDS-109_microarray_GSM1684888_DG_A3_CNTRL_24h_4.CEL",
+          "Mmus_C57-6T_lvCMC_shamIR_3d-post-shamIR_Rep1",
+          "GSM1684889 extract 1",
+          "GSM1684889 LE 1",
+          "GSM1684889",
+          "GLDS-109_microarray_GSM1684889_DG_A2_CNTRL_72h_2.CEL"
+        ],
+        "reports": []
+      }
+    }
+  ]
+}

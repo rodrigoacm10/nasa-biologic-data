@@ -1,0 +1,2246 @@
+{
+  "investigation": {
+    "id": "OSD-70",
+    "title": "Environmental and facility conditions promote singular gravity responses of transcriptome during Drosophila metamorphosis",
+    "description": "Genome-wide transcriptional profiling showed that reducing gravity levels in the International Space Station (ISS) causes important alterations in Drosophila gene expression intimately linked to imposed spaceflight-related environmental constrains during Drosophila metamorphosis. However, simulation experiments on ground testing space-related environmental constraints, show differential responses.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "Simulated_Hypergravity, Simulated_Microgravity, Simulated_Environmental_Factors",
+      "title": "",
+      "type": "Ground Study",
+      "link": "",
+      "funding": "This work was supported by grants from the Spanish Space Program in the Plan Nacional de Investigacion Cientifica y Desarrollo Tecnologico and MICINN; the Dutch NWO-ALW-SRON grant and the UK Engineering and Physical Sciences Research Council (EPSRC), Basic Technology grants. Access to GBFs was granted by ESA. R. Herranz was supported by Spanish Ministerio de Educacion y Ciencia International Research Centers fellowships program in ESTEC and by the Consejo Superior de Investigaciones Cientificas CSIC JAE-Doc contract. RJAH acknowledges EPSRC for support under a Research Fellowship.",
+      "managing_center": ""
+    },
+    "protocols": [
+      "growth protocol",
+      "treatment protocol",
+      "GeneLab microarray data processing protocol",
+      "RNA extraction",
+      "labeling",
+      "nucleic acid hybridization",
+      "scan protocol"
+    ],
+    "publications": [
+      {
+        "title": "Suboptimal evolutionary novel environments promote singular altered gravity responses of transcriptome during Drosophila metamorphosis.",
+        "doi": "10.1186/1471-2148-13-133",
+        "authors": [
+          "Herranz R",
+          "Larkin OJ",
+          "Hill RJ",
+          "Lopez-Vidriero I",
+          "van Loon JJ",
+          "Medina FJ."
+        ],
+        "summary": "Suboptimal evolutionary novel environments promote singular altered gravity responses of transcriptome during Drosophila metamorphosis. — 10.1186/1471-2148-13-133"
+      }
+    ],
+    "factors": [
+      "Altered Gravity",
+      "Temperature",
+      "O2 Level",
+      "Altered Gravity Simulator"
+    ],
+    "contacts": [
+      {
+        "first_name": "Raul",
+        "last_name": "Herranz",
+        "role": "Submitter, Contributor",
+        "email": "r.herranz@csic.es"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "Dmel_OR_wo_RPoM_0G_NOdT_normO2_Rep1",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "uG with random positioning machine",
+          "Altered Gravity Simulator": "RPM",
+          "Temperature": "Normal Termperature",
+          "O2 Level": "Normal Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835458",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at RPM (0g) without constrains, biological rep1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_RPoM_0G_NOdT_normO2_Rep2",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "uG with random positioning machine",
+          "Altered Gravity Simulator": "RPM",
+          "Temperature": "Normal Termperature",
+          "O2 Level": "Normal Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835459",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at RPM (0g) without constrains, biological rep2"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_RPoM_0G_NOdT_normO2_Rep3",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "uG with random positioning machine",
+          "Altered Gravity Simulator": "RPM",
+          "Temperature": "Normal Termperature",
+          "O2 Level": "Normal Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835460",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at RPM (0g) without constrains, biological rep3"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oRPoM_1G_NOdT_normO2_Rep1",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Altered Gravity Simulator": "Outside the RPM",
+          "Temperature": "Normal Termperature",
+          "O2 Level": "Normal Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835461",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae outside RPM (1g) without constrains, biological rep1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oRPoM_1G_NOdT_normO2_Rep2",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Altered Gravity Simulator": "Outside the RPM",
+          "Temperature": "Normal Termperature",
+          "O2 Level": "Normal Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835462",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae outside RPM (1g) without constrains, biological rep2"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oRPoM_1G_NOdT_normO2_Rep3",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Altered Gravity Simulator": "Outside the RPM",
+          "Temperature": "Normal Termperature",
+          "O2 Level": "Normal Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835463",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae outside RPM (1g) without constrains, biological rep3"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_RPoM_0G_dT_normO2_Rep1",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "uG with random positioning machine",
+          "Altered Gravity Simulator": "RPM",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Normal Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835464",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at RPM (0g) constrained (deltaT), biological rep1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_RPoM_0G_dT_normO2_Rep2",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "uG with random positioning machine",
+          "Altered Gravity Simulator": "RPM",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Normal Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835465",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at RPM (0g) constrained (deltaT), biological rep2"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_RPoM_0G_dT_normO2_Rep3",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "uG with random positioning machine",
+          "Altered Gravity Simulator": "RPM",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Normal Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835466",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at RPM (0g) constrained (deltaT), biological rep3"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oRPoM_1G_dT_normO2_Rep1",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Altered Gravity Simulator": "Outside the RPM",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Normal Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835467",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae outside RPM (1g) constrained (deltaT), biological rep1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oRPoM_1G_dT_normO2_Rep2",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Altered Gravity Simulator": "Outside the RPM",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Normal Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835468",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae outside RPM (1g) constrained (deltaT), biological rep2"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oRPoM_1G_dT_normO2_Rep3",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Altered Gravity Simulator": "Outside the RPM",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Normal Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835469",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae outside RPM (1g) constrained (deltaT), biological rep3"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_RPoM_0G_dT_ltdO2_Rep1",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "uG with random positioning machine",
+          "Altered Gravity Simulator": "RPM",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835470",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at RPM (0g) constrained (deltaT & limitedO2), biological rep1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_RPoM_0G_dT_ltdO2_Rep2",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "uG with random positioning machine",
+          "Altered Gravity Simulator": "RPM",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835471",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at RPM (0g) constrained (deltaT & limitedO2), biological rep2"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_RPoM_0G_dT_ltdO2_Rep3",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "uG with random positioning machine",
+          "Altered Gravity Simulator": "RPM",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835472",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at RPM (0g) constrained (deltaT & limitedO2), biological rep3"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_RPoM_0G_dT_ltdO2_Rep4",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "uG with random positioning machine",
+          "Altered Gravity Simulator": "RPM",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835473",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at RPM (0g) constrained (deltaT & limitedO2), biological rep4"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oRPoM_1G_dT_ltdO2_Rep1",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Altered Gravity Simulator": "Outside the RPM",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835474",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae outside RPM (1g) constrained (deltaT & limitedO2), biological rep1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oRPoM_1G_dT_ltdO2_Rep2",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Altered Gravity Simulator": "Outside the RPM",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835475",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae outside RPM (1g) constrained (deltaT & limitedO2), biological rep2"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oRPoM_1G_dT_ltdO2_Rep3",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Altered Gravity Simulator": "Outside the RPM",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835476",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae outside RPM (1g) constrained (deltaT & limitedO2), biological rep3"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oRPoM_1G_dT_ltdO2_Rep4",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Altered Gravity Simulator": "Outside the RPM",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835477",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae outside RPM (1g) constrained (deltaT & limitedO2), biological rep4"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_ML_0G_NOdT_ltdO2_Rep1",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "uG with magnetic levitator",
+          "Altered Gravity Simulator": "Magnetic Levitator",
+          "Temperature": "Normal Termperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835478",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at the magnet (0g*) constrained (limitedO2), biological rep1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_ML_0G_NOdT_ltdO2_Rep2",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "uG with magnetic levitator",
+          "Altered Gravity Simulator": "Magnetic Levitator",
+          "Temperature": "Normal Termperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835479",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at the magnet (0g*) constrained (limitedO2), biological rep2"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_ML_0G_NOdT_ltdO2_Rep3",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "uG with magnetic levitator",
+          "Altered Gravity Simulator": "Magnetic Levitator",
+          "Temperature": "Normal Termperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835480",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at the magnet (0g*) constrained (limitedO2), biological rep3"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_ML_1G_NOdT_ltdO2_Rep1",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G with magnetic levitator",
+          "Altered Gravity Simulator": "Magnetic Levitator",
+          "Temperature": "Normal Termperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835481",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at the magnet (1g*) constrained (limitedO2), biological rep1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_ML_1G_NOdT_ltdO2_Rep2",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G with magnetic levitator",
+          "Altered Gravity Simulator": "Magnetic Levitator",
+          "Temperature": "Normal Termperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835482",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at the magnet (1g*) constrained (limitedO2), biological rep2"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_ML_1G_NOdT_ltdO2_Rep3",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G with magnetic levitator",
+          "Altered Gravity Simulator": "Magnetic Levitator",
+          "Temperature": "Normal Termperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835483",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at the magnet (1g*) constrained (limitedO2), biological rep3"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_ML_2G_NOdT_ltdO2_Rep1",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "2G with magnetic levitator",
+          "Altered Gravity Simulator": "Magnetic Levitator",
+          "Temperature": "Normal Termperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835484",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at the magnet (2g*) constrained (limitedO2), biological rep1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_ML_2G_NOdT_ltdO2_Rep2",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "2G with magnetic levitator",
+          "Altered Gravity Simulator": "Magnetic Levitator",
+          "Temperature": "Normal Termperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835485",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at the magnet (2g*) constrained (limitedO2), biological rep2"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_ML_2G_NOdT_ltdO2_Rep3",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "2G with magnetic levitator",
+          "Altered Gravity Simulator": "Magnetic Levitator",
+          "Temperature": "Normal Termperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835486",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at the magnet (2g*) constrained (limitedO2), biological rep3"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oML_1G_NOdT_ltdO2_Rep1",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Altered Gravity Simulator": "Outside the Magnetic Levitator",
+          "Temperature": "Normal Termperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835487",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae outside the magnet (1g) constrained (limitedO2), biological rep1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oML_1G_NOdT_ltdO2_Rep2",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Altered Gravity Simulator": "Outside the Magnetic Levitator",
+          "Temperature": "Normal Termperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835488",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae outside the magnet (1g) constrained (limitedO2), biological rep2"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oML_1G_NOdT_ltdO2_Rep3",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Altered Gravity Simulator": "Outside the Magnetic Levitator",
+          "Temperature": "Normal Termperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835489",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae outside the magnet (1g) constrained (limitedO2), biological rep3"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oML_1G_NOdT_normO2_Rep1",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Altered Gravity Simulator": "Outside the Magnetic Levitator",
+          "Temperature": "Normal Termperature",
+          "O2 Level": "Normal Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835490",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae outside the magnet (1g) without constrains, biological rep1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oML_1G_NOdT_normO2_Rep2",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Altered Gravity Simulator": "Outside the Magnetic Levitator",
+          "Temperature": "Normal Termperature",
+          "O2 Level": "Normal Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835491",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae outside the magnet (1g) without constrains, biological rep2"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oML_1G_NOdT_normO2_Rep3",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Altered Gravity Simulator": "Outside the Magnetic Levitator",
+          "Temperature": "Normal Termperature",
+          "O2 Level": "Normal Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835492",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae outside the magnet (1g) without constrains, biological rep3"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_ML_0G_dT_ltdO2_Rep1",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "uG with magnetic levitator",
+          "Altered Gravity Simulator": "Magnetic Levitator",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835493",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at the magnet (0g*) constrained (deltaT & limitedO2), biological rep1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_ML_0G_dT_ltdO2_Rep2",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "uG with magnetic levitator",
+          "Altered Gravity Simulator": "Magnetic Levitator",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835494",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at the magnet (0g*) constrained (deltaT & limitedO2), biological rep2"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_ML_0G_dT_ltdO2_Rep3",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "uG with magnetic levitator",
+          "Altered Gravity Simulator": "Magnetic Levitator",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835495",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at the magnet (0g*) constrained (deltaT & limitedO2), biological rep3"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_ML_1G_dT_ltdO2_Rep1",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G with magnetic levitator",
+          "Altered Gravity Simulator": "Magnetic Levitator",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835496",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at the magnet (1g*) constrained (deltaT & limitedO2), biological rep1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_ML_1G_dT_ltdO2_Rep2",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G with magnetic levitator",
+          "Altered Gravity Simulator": "Magnetic Levitator",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835497",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at the magnet (1g*) constrained (deltaT & limitedO2), biological rep2"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_ML_1G_dT_ltdO2_Rep3",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G with magnetic levitator",
+          "Altered Gravity Simulator": "Magnetic Levitator",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835498",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at the magnet (1g*) constrained (deltaT & limitedO2), biological rep3"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_ML_2G_dT_ltdO2_Rep1",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "2G with magnetic levitator",
+          "Altered Gravity Simulator": "Magnetic Levitator",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835499",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at the magnet (2g*) constrained (deltaT & limitedO2), biological rep1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_ML_2G_dT_ltdO2_Rep2",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "2G with magnetic levitator",
+          "Altered Gravity Simulator": "Magnetic Levitator",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835500",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at the magnet (2g*) constrained (deltaT & limitedO2), biological rep2"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_ML_2G_dT_ltdO2_Rep3",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "2G with magnetic levitator",
+          "Altered Gravity Simulator": "Magnetic Levitator",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835501",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at the magnet (2g*) constrained (deltaT & limitedO2), biological rep3"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oML_1G_dT_ltdO2_Rep1",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Altered Gravity Simulator": "Outside the Magnetic Levitator",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835502",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae outside the magnet (1g) constrained (deltaT & limitedO2), biological rep1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oML_1G_dT_ltdO2_Rep2",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Altered Gravity Simulator": "Outside the Magnetic Levitator",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835503",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae outside the magnet (1g) constrained (deltaT & limitedO2), biological rep2"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oML_1G_dT_ltdO2_Rep3",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Altered Gravity Simulator": "Outside the Magnetic Levitator",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835504",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae outside the magnet (1g) constrained (deltaT & limitedO2), biological rep3"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oML_1G_dT_normO2_Rep1",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Altered Gravity Simulator": "Outside the Magnetic Levitator",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Normal Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835505",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae outside the magnet (1g) constrained (deltaT), biological rep1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oML_1G_dT_normO2_Rep2",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Altered Gravity Simulator": "Outside the Magnetic Levitator",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Normal Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835506",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae outside the magnet (1g) constrained (deltaT), biological rep2"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oML_1G_dT_normO2_Rep3",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Altered Gravity Simulator": "Outside the Magnetic Levitator",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Normal Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835507",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae outside the magnet (1g) constrained (deltaT), biological rep3"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_LDC_12G_NOdT_normO2_Rep1",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "12G with centrifugation",
+          "Altered Gravity Simulator": "LDC",
+          "Temperature": "Normal Termperature",
+          "O2 Level": "Normal Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835508",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at LDC (12g) without constrains, biological rep1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_LDC_12G_NOdT_normO2_Rep2",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "12G with centrifugation",
+          "Altered Gravity Simulator": "LDC",
+          "Temperature": "Normal Termperature",
+          "O2 Level": "Normal Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835509",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at LDC (12g) without constrains, biological rep2"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_LDC_6G_NOdT_normO2_Rep1",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "6G with centrifugation",
+          "Altered Gravity Simulator": "LDC",
+          "Temperature": "Normal Termperature",
+          "O2 Level": "Normal Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835510",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at LDC (6g) without constrains, biological rep1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_LDC_6G_NOdT_normO2_Rep2",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "6G with centrifugation",
+          "Altered Gravity Simulator": "LDC",
+          "Temperature": "Normal Termperature",
+          "O2 Level": "Normal Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835511",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at LDC (6g) without constrains, biological rep2"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_LDC_1G_NOdT_normO2_Rep1",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G  with centrifugation",
+          "Altered Gravity Simulator": "LDC",
+          "Temperature": "Normal Termperature",
+          "O2 Level": "Normal Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835512",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at LDC rotational control (1g-rot) without constrains, biological rep1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_LDC_1G_NOdT_normO2_Rep2",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G  with centrifugation",
+          "Altered Gravity Simulator": "LDC",
+          "Temperature": "Normal Termperature",
+          "O2 Level": "Normal Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835513",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at LDC rotational control (1g-rot) without constrains, biological rep2"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_LDC_1G_NOdT_normO2_Rep3",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G  with centrifugation",
+          "Altered Gravity Simulator": "LDC",
+          "Temperature": "Normal Termperature",
+          "O2 Level": "Normal Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835514",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at LDC rotational control (1g-rot) without constrains, biological rep3"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oLDC_1G_NOdT_normO2_Rep1",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Altered Gravity Simulator": "Outside the LDC",
+          "Temperature": "Normal Termperature",
+          "O2 Level": "Normal Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835515",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae outside LDC (1g) without constrains, biological rep1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oLDC_1G_NOdT_normO2_Rep2",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Altered Gravity Simulator": "Outside the LDC",
+          "Temperature": "Normal Termperature",
+          "O2 Level": "Normal Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835516",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae outside LDC (1g) without constrains, biological rep2"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oLDC_1G_NOdT_normO2_Rep3",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Altered Gravity Simulator": "Outside the LDC",
+          "Temperature": "Normal Termperature",
+          "O2 Level": "Normal Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835517",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae outside LDC (1g) without constrains, biological rep3"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_LDC_12G_dT_normO2_Rep1",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "12G with centrifugation",
+          "Altered Gravity Simulator": "LDC",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Normal Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835518",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at LDC (12g) constrained (deltaT), biological rep1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_LDC_12G_dT_normO2_Rep2",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "12G with centrifugation",
+          "Altered Gravity Simulator": "LDC",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Normal Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835519",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at LDC (12g) constrained (deltaT), biological rep2"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_LDC_12G_dT_normO2_Rep3",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "12G with centrifugation",
+          "Altered Gravity Simulator": "LDC",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Normal Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835520",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at LDC (12g) constrained (deltaT), biological rep3"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_LDC_6G_dT_normO2_Rep1",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "6G with centrifugation",
+          "Altered Gravity Simulator": "LDC",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Normal Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835521",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at LDC (6g) constrained (deltaT), biological rep1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_LDC_6G_dT_normO2_Rep2",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "6G with centrifugation",
+          "Altered Gravity Simulator": "LDC",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Normal Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835522",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at LDC (6g) constrained (deltaT), biological rep2"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_LDC_1G_dT_normO2_Rep1",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G  with centrifugation",
+          "Altered Gravity Simulator": "LDC",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Normal Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835523",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at LDC rotational control (1g-rot) constrained (deltaT), biological rep1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_LDC_1G_dT_normO2_Rep2",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G  with centrifugation",
+          "Altered Gravity Simulator": "LDC",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Normal Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835524",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at LDC rotational control (1g-rot) constrained (deltaT), biological rep2"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_LDC_1G_dT_normO2_Rep3",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G  with centrifugation",
+          "Altered Gravity Simulator": "LDC",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Normal Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835525",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at LDC rotational control (1g-rot) constrained (deltaT), biological rep3"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oLDC_1G_dT_normO2_Rep1",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Altered Gravity Simulator": "Outside the LDC",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Normal Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835526",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae outside LDC (1g) constrained (deltaT), biological rep1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oLDC_1G_dT_normO2_Rep2",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Altered Gravity Simulator": "Outside the LDC",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Normal Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835527",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae outside LDC (1g) constrained (deltaT), biological rep2"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oLDC_1G_dT_normO2_Rep3",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Altered Gravity Simulator": "Outside the LDC",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Normal Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835528",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae outside LDC (1g) constrained (deltaT), biological rep3"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_LDC_12G_NOdT_ltdO2_Rep1",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "12G with centrifugation",
+          "Altered Gravity Simulator": "LDC",
+          "Temperature": "Normal Termperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835529",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at LDC (12g) constrained (limitedO2), biological rep1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_LDC_12G_NOdT_ltdO2_Rep2",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "12G with centrifugation",
+          "Altered Gravity Simulator": "LDC",
+          "Temperature": "Normal Termperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835530",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at LDC (12g) constrained (limitedO2), biological rep2"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_LDC_12G_NOdT_ltdO2_Rep3",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "12G with centrifugation",
+          "Altered Gravity Simulator": "LDC",
+          "Temperature": "Normal Termperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835531",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at LDC (12g) constrained (limitedO2), biological rep3"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_LDC_6G_NOdT_ltdO2_Rep1",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "6G with centrifugation",
+          "Altered Gravity Simulator": "LDC",
+          "Temperature": "Normal Termperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835532",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at LDC (6g) constrained (limitedO2), biological rep1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_LDC_6G_NOdT_ltdO2_Rep2",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "6G with centrifugation",
+          "Altered Gravity Simulator": "LDC",
+          "Temperature": "Normal Termperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835533",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at LDC (6g) constrained (limitedO2), biological rep2"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_LDC_1G_NOdT_ltdO2_Rep1",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G  with centrifugation",
+          "Altered Gravity Simulator": "LDC",
+          "Temperature": "Normal Termperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835534",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at LDC rotational control (1g-rot) constrained (limitedO2), biological rep1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_LDC_1G_NOdT_ltdO2_Rep2",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G  with centrifugation",
+          "Altered Gravity Simulator": "LDC",
+          "Temperature": "Normal Termperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835535",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at LDC rotational control (1g-rot) constrained (limitedO2), biological rep2"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_LDC_1G_NOdT_ltdO2_Rep3",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G  with centrifugation",
+          "Altered Gravity Simulator": "LDC",
+          "Temperature": "Normal Termperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835536",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at LDC rotational control (1g-rot) constrained (limitedO2), biological rep3"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oLDC_1G_NOdT_ltdO2_Rep1",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Altered Gravity Simulator": "Outside the LDC",
+          "Temperature": "Normal Termperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835537",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae outside LDC (1g) constrained (limitedO2), biological rep1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oLDC_1G_NOdT_ltdO2_Rep2",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Altered Gravity Simulator": "Outside the LDC",
+          "Temperature": "Normal Termperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835538",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae outside LDC (1g) constrained (limitedO2), biological rep2"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oLDC_1G_NOdT_ltdO2_Rep3",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Altered Gravity Simulator": "Outside the LDC",
+          "Temperature": "Normal Termperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835539",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae outside LDC (1g) constrained (limitedO2), biological rep3"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_LDC_12G_dT_ltdO2_Rep1",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "12G with centrifugation",
+          "Altered Gravity Simulator": "LDC",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835540",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at LDC (12g) constrained biological rep1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_LDC_12G_dT_ltdO2_Rep2",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "12G with centrifugation",
+          "Altered Gravity Simulator": "LDC",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835541",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at LDC (12g) constrained (deltaT & limitedO2), biological rep2"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_LDC_6G_dT_ltdO2_Rep1",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "6G with centrifugation",
+          "Altered Gravity Simulator": "LDC",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835542",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at LDC (6g) constrained (deltaT & limitedO2), biological rep1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_LDC_6G_dT_ltdO2_Rep2",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "6G with centrifugation",
+          "Altered Gravity Simulator": "LDC",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835543",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at LDC (6g) constrained (deltaT & limitedO2), biological rep2"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_LDC_1G_dT_ltdO2_Rep1",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G  with centrifugation",
+          "Altered Gravity Simulator": "LDC",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835544",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at LDC rotational control (1g-rot) constrained (deltaT & limitedO2), biological rep1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_LDC_1G_dT_ltdO2_Rep2",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G  with centrifugation",
+          "Altered Gravity Simulator": "LDC",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835545",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae at LDC rotational control (1g-rot) constrained (deltaT & limitedO2), biological rep2"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oLDC_1G_dT_ltdO2_Rep1",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Altered Gravity Simulator": "Outside the LDC",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835546",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae outside LDC (1g) constrained (deltaT & limitedO2), biological rep1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oLDC_1G_dT_ltdO2_Rep2",
+        "characteristics": {
+          "organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "Developmental stage": "late pupae",
+          "age": "late pupae just before eclosion"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Altered Gravity Simulator": "Outside the LDC",
+          "Temperature": "Suboptimal Temperature",
+          "O2 Level": "Limited Oxygen Level"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "GSM835547",
+          "Sample_source_name": "Drosophila pupae before imagoes hatch",
+          "Sample_title": "Pupae outside LDC (1g) constrained (deltaT & limitedO2), biological rep2"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Affymetrix",
+      "qc": {},
+      "library": {},
+      "files": {
+        "raw": [],
+        "processed": [
+          "Dmel_OR_wo_RPoM_0G_NOdT_normO2_Rep1",
+          "GeneLab microarray data processing protocol",
+          "GSM835458",
+          "biotin",
+          "AFFY Drosophila 2 probe",
+          "GLDS-70_microarray_GSM835458.CEL.gz",
+          "GLDS-70_array_raw_intensities_probe_GLmicroarray.csv",
+          "GLDS-70_array_normalized_expression_probeset_GLmicroarray.csv",
+          "GLDS-70_array_normalized_intensities_probe_GLmicroarray.csv",
+          "GLDS-70_array_SampleTable_GLmicroarray.csv",
+          "GLDS-70_array_contrasts_GLmicroarray.csv",
+          "GLDS-70_array_differential_expression_GLmicroarray.csv",
+          "Dmel_OR_wo_RPoM_0G_NOdT_normO2_Rep2",
+          "GSM835459",
+          "GLDS-70_microarray_GSM835459.CEL.gz",
+          "Dmel_OR_wo_RPoM_0G_NOdT_normO2_Rep3",
+          "GSM835460",
+          "GLDS-70_microarray_GSM835460.CEL.gz",
+          "Dmel_OR_wo_oRPoM_1G_NOdT_normO2_Rep1",
+          "GSM835461",
+          "GLDS-70_microarray_GSM835461.CEL.gz",
+          "Dmel_OR_wo_oRPoM_1G_NOdT_normO2_Rep2",
+          "GSM835462",
+          "GLDS-70_microarray_GSM835462.CEL.gz",
+          "Dmel_OR_wo_oRPoM_1G_NOdT_normO2_Rep3",
+          "GSM835463",
+          "GLDS-70_microarray_GSM835463.CEL.gz",
+          "Dmel_OR_wo_RPoM_0G_dT_normO2_Rep1",
+          "GSM835464",
+          "GLDS-70_microarray_GSM835464.CEL.gz",
+          "Dmel_OR_wo_RPoM_0G_dT_normO2_Rep2",
+          "GSM835465",
+          "GLDS-70_microarray_GSM835465.CEL.gz",
+          "Dmel_OR_wo_RPoM_0G_dT_normO2_Rep3",
+          "GSM835466",
+          "GLDS-70_microarray_GSM835466.CEL.gz",
+          "Dmel_OR_wo_oRPoM_1G_dT_normO2_Rep1",
+          "GSM835467",
+          "GLDS-70_microarray_GSM835467.CEL.gz",
+          "Dmel_OR_wo_oRPoM_1G_dT_normO2_Rep2",
+          "GSM835468",
+          "GLDS-70_microarray_GSM835468.CEL.gz",
+          "Dmel_OR_wo_oRPoM_1G_dT_normO2_Rep3",
+          "GSM835469",
+          "GLDS-70_microarray_GSM835469.CEL.gz",
+          "Dmel_OR_wo_RPoM_0G_dT_ltdO2_Rep1",
+          "GSM835470",
+          "GLDS-70_microarray_GSM835470.CEL.gz",
+          "Dmel_OR_wo_RPoM_0G_dT_ltdO2_Rep2",
+          "GSM835471",
+          "GLDS-70_microarray_GSM835471.CEL.gz",
+          "Dmel_OR_wo_RPoM_0G_dT_ltdO2_Rep3",
+          "GSM835472",
+          "GLDS-70_microarray_GSM835472.CEL.gz",
+          "Dmel_OR_wo_RPoM_0G_dT_ltdO2_Rep4",
+          "GSM835473",
+          "GLDS-70_microarray_GSM835473.CEL.gz",
+          "Dmel_OR_wo_oRPoM_1G_dT_ltdO2_Rep1",
+          "GSM835474",
+          "GLDS-70_microarray_GSM835474.CEL.gz",
+          "Dmel_OR_wo_oRPoM_1G_dT_ltdO2_Rep2",
+          "GSM835475",
+          "GLDS-70_microarray_GSM835475.CEL.gz",
+          "Dmel_OR_wo_oRPoM_1G_dT_ltdO2_Rep3",
+          "GSM835476",
+          "GLDS-70_microarray_GSM835476.CEL.gz",
+          "Dmel_OR_wo_oRPoM_1G_dT_ltdO2_Rep4",
+          "GSM835477",
+          "GLDS-70_microarray_GSM835477.CEL.gz",
+          "Dmel_OR_wo_ML_0G_NOdT_ltdO2_Rep1",
+          "GSM835478",
+          "GLDS-70_microarray_GSM835478.CEL.gz",
+          "Dmel_OR_wo_ML_0G_NOdT_ltdO2_Rep2",
+          "GSM835479",
+          "GLDS-70_microarray_GSM835479.CEL.gz",
+          "Dmel_OR_wo_ML_0G_NOdT_ltdO2_Rep3",
+          "GSM835480",
+          "GLDS-70_microarray_GSM835480.CEL.gz",
+          "Dmel_OR_wo_ML_1G_NOdT_ltdO2_Rep1",
+          "GSM835481",
+          "GLDS-70_microarray_GSM835481.CEL.gz",
+          "Dmel_OR_wo_ML_1G_NOdT_ltdO2_Rep2",
+          "GSM835482",
+          "GLDS-70_microarray_GSM835482.CEL.gz",
+          "Dmel_OR_wo_ML_1G_NOdT_ltdO2_Rep3",
+          "GSM835483",
+          "GLDS-70_microarray_GSM835483.CEL.gz",
+          "Dmel_OR_wo_ML_2G_NOdT_ltdO2_Rep1",
+          "GSM835484",
+          "GLDS-70_microarray_GSM835484.CEL.gz",
+          "Dmel_OR_wo_ML_2G_NOdT_ltdO2_Rep2",
+          "GSM835485",
+          "GLDS-70_microarray_GSM835485.CEL.gz",
+          "Dmel_OR_wo_ML_2G_NOdT_ltdO2_Rep3",
+          "GSM835486",
+          "GLDS-70_microarray_GSM835486.CEL.gz",
+          "Dmel_OR_wo_oML_1G_NOdT_ltdO2_Rep1",
+          "GSM835487",
+          "GLDS-70_microarray_GSM835487.CEL.gz",
+          "Dmel_OR_wo_oML_1G_NOdT_ltdO2_Rep2",
+          "GSM835488",
+          "GLDS-70_microarray_GSM835488.CEL.gz",
+          "Dmel_OR_wo_oML_1G_NOdT_ltdO2_Rep3",
+          "GSM835489",
+          "GLDS-70_microarray_GSM835489.CEL.gz",
+          "Dmel_OR_wo_oML_1G_NOdT_normO2_Rep1",
+          "GSM835490",
+          "GLDS-70_microarray_GSM835490.CEL.gz",
+          "Dmel_OR_wo_oML_1G_NOdT_normO2_Rep2",
+          "GSM835491",
+          "GLDS-70_microarray_GSM835491.CEL.gz",
+          "Dmel_OR_wo_oML_1G_NOdT_normO2_Rep3",
+          "GSM835492",
+          "GLDS-70_microarray_GSM835492.CEL.gz",
+          "Dmel_OR_wo_ML_0G_dT_ltdO2_Rep1",
+          "GSM835493",
+          "GLDS-70_microarray_GSM835493.CEL.gz",
+          "Dmel_OR_wo_ML_0G_dT_ltdO2_Rep2",
+          "GSM835494",
+          "GLDS-70_microarray_GSM835494.CEL.gz",
+          "Dmel_OR_wo_ML_0G_dT_ltdO2_Rep3",
+          "GSM835495",
+          "GLDS-70_microarray_GSM835495.CEL.gz",
+          "Dmel_OR_wo_ML_1G_dT_ltdO2_Rep1",
+          "GSM835496",
+          "GLDS-70_microarray_GSM835496.CEL.gz",
+          "Dmel_OR_wo_ML_1G_dT_ltdO2_Rep2",
+          "GSM835497",
+          "GLDS-70_microarray_GSM835497.CEL.gz",
+          "Dmel_OR_wo_ML_1G_dT_ltdO2_Rep3",
+          "GSM835498",
+          "GLDS-70_microarray_GSM835498.CEL.gz",
+          "Dmel_OR_wo_ML_2G_dT_ltdO2_Rep1",
+          "GSM835499",
+          "GLDS-70_microarray_GSM835499.CEL.gz",
+          "Dmel_OR_wo_ML_2G_dT_ltdO2_Rep2",
+          "GSM835500",
+          "GLDS-70_microarray_GSM835500.CEL.gz",
+          "Dmel_OR_wo_ML_2G_dT_ltdO2_Rep3",
+          "GSM835501",
+          "GLDS-70_microarray_GSM835501.CEL.gz",
+          "Dmel_OR_wo_oML_1G_dT_ltdO2_Rep1",
+          "GSM835502",
+          "GLDS-70_microarray_GSM835502.CEL.gz",
+          "Dmel_OR_wo_oML_1G_dT_ltdO2_Rep2",
+          "GSM835503",
+          "GLDS-70_microarray_GSM835503.CEL.gz",
+          "Dmel_OR_wo_oML_1G_dT_ltdO2_Rep3",
+          "GSM835504",
+          "GLDS-70_microarray_GSM835504.CEL.gz",
+          "Dmel_OR_wo_oML_1G_dT_normO2_Rep1",
+          "GSM835505",
+          "GLDS-70_microarray_GSM835505.CEL.gz",
+          "Dmel_OR_wo_oML_1G_dT_normO2_Rep2",
+          "GSM835506",
+          "GLDS-70_microarray_GSM835506.CEL.gz",
+          "Dmel_OR_wo_oML_1G_dT_normO2_Rep3",
+          "GSM835507",
+          "GLDS-70_microarray_GSM835507.CEL.gz",
+          "Dmel_OR_wo_LDC_12G_NOdT_normO2_Rep1",
+          "GSM835508",
+          "GLDS-70_microarray_GSM835508.CEL.gz",
+          "Dmel_OR_wo_LDC_12G_NOdT_normO2_Rep2",
+          "GSM835509",
+          "GLDS-70_microarray_GSM835509.CEL.gz",
+          "Dmel_OR_wo_LDC_6G_NOdT_normO2_Rep1",
+          "GSM835510",
+          "GLDS-70_microarray_GSM835510.CEL.gz",
+          "Dmel_OR_wo_LDC_6G_NOdT_normO2_Rep2",
+          "GSM835511",
+          "GLDS-70_microarray_GSM835511.CEL.gz",
+          "Dmel_OR_wo_LDC_1G_NOdT_normO2_Rep1",
+          "GSM835512",
+          "GLDS-70_microarray_GSM835512.CEL.gz",
+          "Dmel_OR_wo_LDC_1G_NOdT_normO2_Rep2",
+          "GSM835513",
+          "GLDS-70_microarray_GSM835513.CEL.gz",
+          "Dmel_OR_wo_LDC_1G_NOdT_normO2_Rep3",
+          "GSM835514",
+          "GLDS-70_microarray_GSM835514.CEL.gz",
+          "Dmel_OR_wo_oLDC_1G_NOdT_normO2_Rep1",
+          "GSM835515",
+          "GLDS-70_microarray_GSM835515.CEL.gz",
+          "Dmel_OR_wo_oLDC_1G_NOdT_normO2_Rep2",
+          "GSM835516",
+          "GLDS-70_microarray_GSM835516.CEL.gz",
+          "Dmel_OR_wo_oLDC_1G_NOdT_normO2_Rep3",
+          "GSM835517",
+          "GLDS-70_microarray_GSM835517.CEL.gz",
+          "Dmel_OR_wo_LDC_12G_dT_normO2_Rep1",
+          "GSM835518",
+          "GLDS-70_microarray_GSM835518.CEL.gz",
+          "Dmel_OR_wo_LDC_12G_dT_normO2_Rep2",
+          "GSM835519",
+          "GLDS-70_microarray_GSM835519.CEL.gz",
+          "Dmel_OR_wo_LDC_12G_dT_normO2_Rep3",
+          "GSM835520",
+          "GLDS-70_microarray_GSM835520.CEL.gz",
+          "Dmel_OR_wo_LDC_6G_dT_normO2_Rep1",
+          "GSM835521",
+          "GLDS-70_microarray_GSM835521.CEL.gz",
+          "Dmel_OR_wo_LDC_6G_dT_normO2_Rep2",
+          "GSM835522",
+          "GLDS-70_microarray_GSM835522.CEL.gz",
+          "Dmel_OR_wo_LDC_1G_dT_normO2_Rep1",
+          "GSM835523",
+          "GLDS-70_microarray_GSM835523.CEL.gz",
+          "Dmel_OR_wo_LDC_1G_dT_normO2_Rep2",
+          "GSM835524",
+          "GLDS-70_microarray_GSM835524.CEL.gz",
+          "Dmel_OR_wo_LDC_1G_dT_normO2_Rep3",
+          "GSM835525",
+          "GLDS-70_microarray_GSM835525.CEL.gz",
+          "Dmel_OR_wo_oLDC_1G_dT_normO2_Rep1",
+          "GSM835526",
+          "GLDS-70_microarray_GSM835526.CEL.gz",
+          "Dmel_OR_wo_oLDC_1G_dT_normO2_Rep2",
+          "GSM835527",
+          "GLDS-70_microarray_GSM835527.CEL.gz",
+          "Dmel_OR_wo_oLDC_1G_dT_normO2_Rep3",
+          "GSM835528",
+          "GLDS-70_microarray_GSM835528.CEL.gz",
+          "Dmel_OR_wo_LDC_12G_NOdT_ltdO2_Rep1",
+          "GSM835529",
+          "GLDS-70_microarray_GSM835529.CEL.gz",
+          "Dmel_OR_wo_LDC_12G_NOdT_ltdO2_Rep2",
+          "GSM835530",
+          "GLDS-70_microarray_GSM835530.CEL.gz",
+          "Dmel_OR_wo_LDC_12G_NOdT_ltdO2_Rep3",
+          "GSM835531",
+          "GLDS-70_microarray_GSM835531.CEL.gz",
+          "Dmel_OR_wo_LDC_6G_NOdT_ltdO2_Rep1",
+          "GSM835532",
+          "GLDS-70_microarray_GSM835532.CEL.gz",
+          "Dmel_OR_wo_LDC_6G_NOdT_ltdO2_Rep2",
+          "GSM835533",
+          "GLDS-70_microarray_GSM835533.CEL.gz",
+          "Dmel_OR_wo_LDC_1G_NOdT_ltdO2_Rep1",
+          "GSM835534",
+          "GLDS-70_microarray_GSM835534.CEL.gz",
+          "Dmel_OR_wo_LDC_1G_NOdT_ltdO2_Rep2",
+          "GSM835535",
+          "GLDS-70_microarray_GSM835535.CEL.gz",
+          "Dmel_OR_wo_LDC_1G_NOdT_ltdO2_Rep3",
+          "GSM835536",
+          "GLDS-70_microarray_GSM835536.CEL.gz",
+          "Dmel_OR_wo_oLDC_1G_NOdT_ltdO2_Rep1",
+          "GSM835537",
+          "GLDS-70_microarray_GSM835537.CEL.gz",
+          "Dmel_OR_wo_oLDC_1G_NOdT_ltdO2_Rep2",
+          "GSM835538",
+          "GLDS-70_microarray_GSM835538.CEL.gz",
+          "Dmel_OR_wo_oLDC_1G_NOdT_ltdO2_Rep3",
+          "GSM835539",
+          "GLDS-70_microarray_GSM835539.CEL.gz",
+          "Dmel_OR_wo_LDC_12G_dT_ltdO2_Rep1",
+          "GSM835540",
+          "GLDS-70_microarray_GSM835540.CEL.gz",
+          "Dmel_OR_wo_LDC_12G_dT_ltdO2_Rep2",
+          "GSM835541",
+          "GLDS-70_microarray_GSM835541.CEL.gz",
+          "Dmel_OR_wo_LDC_6G_dT_ltdO2_Rep1",
+          "GSM835542",
+          "GLDS-70_microarray_GSM835542.CEL.gz",
+          "Dmel_OR_wo_LDC_6G_dT_ltdO2_Rep2",
+          "GSM835543",
+          "GLDS-70_microarray_GSM835543.CEL.gz",
+          "Dmel_OR_wo_LDC_1G_dT_ltdO2_Rep1",
+          "GSM835544",
+          "GLDS-70_microarray_GSM835544.CEL.gz",
+          "Dmel_OR_wo_LDC_1G_dT_ltdO2_Rep2",
+          "GSM835545",
+          "GLDS-70_microarray_GSM835545.CEL.gz",
+          "Dmel_OR_wo_oLDC_1G_dT_ltdO2_Rep1",
+          "GSM835546",
+          "GLDS-70_microarray_GSM835546.CEL.gz",
+          "Dmel_OR_wo_oLDC_1G_dT_ltdO2_Rep2",
+          "GSM835547",
+          "GLDS-70_microarray_GSM835547.CEL.gz"
+        ],
+        "reports": []
+      }
+    }
+  ]
+}

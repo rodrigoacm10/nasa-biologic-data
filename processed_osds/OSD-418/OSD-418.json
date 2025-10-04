@@ -1,0 +1,545 @@
+{
+  "investigation": {
+    "id": "OSD-418",
+    "title": "Transcriptional profiling of gastrocnemius from rats exposed to partial weight bearing treatment to mimic Martian gravity",
+    "description": "To understand the effects of Martian gravity (40% Earth) on mammals, 14-week-old female Wistar rats were exposed to quadrupedal partial weight bearing (PWB) treatment by suspending the entire animal in a quadrupedal unloading apparatus. Treatments were based on mimicking the gravity experienced on Earth (100% weight bearing, PWB100) and Mars (40% weight bearing, PWB40).",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "Hindlimb_Unloading",
+      "title": "Musculoskeletal Response to a Partial-gravity Analog in Rats: Structural Functional and Molecular Alterations",
+      "type": "Ground Study",
+      "link": "https://lsda.jsc.nasa.gov/Experiment/exper/13889",
+      "funding": "The sequencing analysis was funded by NASA Space Biology Program Office, Space Life and Physical Sciences Research and Applications Division.",
+      "managing_center": ""
+    },
+    "protocols": [
+      "Treatment Protocol",
+      "sample collection",
+      "Nucleic Acid Extraction",
+      "Spike-in Protocol",
+      "Library Construction",
+      "Nucleic Acid Sequencing",
+      "GeneLab raw data processing protocol",
+      "GeneLab RNAseq data processing protocol"
+    ],
+    "publications": [],
+    "factors": [
+      "Partial Weight Bearing"
+    ],
+    "contacts": [
+      {
+        "first_name": "Jonathan",
+        "last_name": "Galazka",
+        "role": "conceptualization role",
+        "email": "jonathan.m.galazka@nasa.gov"
+      },
+      {
+        "first_name": "Lovorka",
+        "last_name": "Degoricija",
+        "role": "conceptualization role",
+        "email": "mmortreu@bidmc.harvard.edu"
+      },
+      {
+        "first_name": "Marie",
+        "last_name": "Mortreux",
+        "role": "conceptualization role",
+        "email": ""
+      },
+      {
+        "first_name": "Seward",
+        "last_name": "Rutkove",
+        "role": "conceptualization role",
+        "email": ""
+      },
+      {
+        "first_name": "San-Huei",
+        "last_name": "Lai Polo",
+        "role": "data curation role",
+        "email": ""
+      },
+      {
+        "first_name": "Amanda",
+        "last_name": "Saravia-Butler",
+        "role": "formal analysis role",
+        "email": ""
+      },
+      {
+        "first_name": "Marie",
+        "last_name": "Mortreux",
+        "role": "investigation role",
+        "email": ""
+      },
+      {
+        "first_name": "Lovorka",
+        "last_name": "Degoricija",
+        "role": "investigation role",
+        "email": ""
+      },
+      {
+        "first_name": "Valery",
+        "last_name": "Boyko",
+        "role": "investigation role",
+        "email": ""
+      },
+      {
+        "first_name": "Marie",
+        "last_name": "Dinh",
+        "role": "investigation role",
+        "email": ""
+      },
+      {
+        "first_name": "Charles",
+        "last_name": "Houseman",
+        "role": "investigation role",
+        "email": ""
+      },
+      {
+        "first_name": "Sylvain",
+        "last_name": "Costes",
+        "role": "project administration role",
+        "email": ""
+      },
+      {
+        "first_name": "Samrawit",
+        "last_name": "Gebre",
+        "role": "project administration role",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "MM_GST_PWB100_571574",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "Wistar",
+          "Animal Source": "Charles River Laboratories",
+          "sex": "female",
+          "age": "14",
+          "diet": "Formula irradiated rodent diet 5008i",
+          "Material Type": "Gastrocnemius"
+        },
+        "factors": {
+          "Partial Weight Bearing": "normal loading with full harness (PWB100)"
+        },
+        "parameters": {
+          "light cycle": "12:12-h light-dark cycle",
+          "Euthanasia Method": "Carbon Dioxide",
+          "duration": "14",
+          "Carcass Weight": "307",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "ALSDA Source Name": "Gastrocnemius",
+          "ALSDA Biospecimen Subject ID": "750",
+          "ALSDA Biospecimen Source ID": "7931",
+          "Euthanasia and Dissection Date": "8-Jul-19"
+        }
+      },
+      {
+        "sample_name": "MM_GST_PWB100_571576",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "Wistar",
+          "Animal Source": "Charles River Laboratories",
+          "sex": "female",
+          "age": "14",
+          "diet": "Formula irradiated rodent diet 5008i",
+          "Material Type": "Gastrocnemius"
+        },
+        "factors": {
+          "Partial Weight Bearing": "normal loading with full harness (PWB100)"
+        },
+        "parameters": {
+          "light cycle": "12:12-h light-dark cycle",
+          "Euthanasia Method": "Carbon Dioxide",
+          "duration": "14",
+          "Carcass Weight": "305.8",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "ALSDA Source Name": "Gastrocnemius",
+          "ALSDA Biospecimen Subject ID": "750",
+          "ALSDA Biospecimen Source ID": "7932",
+          "Euthanasia and Dissection Date": "8-Jul-19"
+        }
+      },
+      {
+        "sample_name": "MM_GST_PWB100_571580",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "Wistar",
+          "Animal Source": "Charles River Laboratories",
+          "sex": "female",
+          "age": "14",
+          "diet": "Formula irradiated rodent diet 5008i",
+          "Material Type": "Gastrocnemius"
+        },
+        "factors": {
+          "Partial Weight Bearing": "normal loading with full harness (PWB100)"
+        },
+        "parameters": {
+          "light cycle": "12:12-h light-dark cycle",
+          "Euthanasia Method": "Carbon Dioxide",
+          "duration": "14",
+          "Carcass Weight": "316",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "ALSDA Source Name": "Gastrocnemius",
+          "ALSDA Biospecimen Subject ID": "750",
+          "ALSDA Biospecimen Source ID": "7933",
+          "Euthanasia and Dissection Date": "8-Jul-19"
+        }
+      },
+      {
+        "sample_name": "MM_GST_PWB100_571581",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "Wistar",
+          "Animal Source": "Charles River Laboratories",
+          "sex": "female",
+          "age": "14",
+          "diet": "Formula irradiated rodent diet 5008i",
+          "Material Type": "Gastrocnemius"
+        },
+        "factors": {
+          "Partial Weight Bearing": "normal loading with full harness (PWB100)"
+        },
+        "parameters": {
+          "light cycle": "12:12-h light-dark cycle",
+          "Euthanasia Method": "Carbon Dioxide",
+          "duration": "14",
+          "Carcass Weight": "263.4",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "ALSDA Source Name": "Gastrocnemius",
+          "ALSDA Biospecimen Subject ID": "750",
+          "ALSDA Biospecimen Source ID": "7882",
+          "Euthanasia and Dissection Date": "8-Jul-19"
+        }
+      },
+      {
+        "sample_name": "MM_GST_PWB40_571575",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "Wistar",
+          "Animal Source": "Charles River Laboratories",
+          "sex": "female",
+          "age": "14",
+          "diet": "Formula irradiated rodent diet 5008i",
+          "Material Type": "Gastrocnemius"
+        },
+        "factors": {
+          "Partial Weight Bearing": "40% of normal loading (PWB40)"
+        },
+        "parameters": {
+          "light cycle": "12:12-h light-dark cycle",
+          "Euthanasia Method": "Carbon Dioxide",
+          "duration": "14",
+          "Carcass Weight": "307.8",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "ALSDA Source Name": "Gastrocnemius",
+          "ALSDA Biospecimen Subject ID": "750",
+          "ALSDA Biospecimen Source ID": "7934",
+          "Euthanasia and Dissection Date": "8-Jul-19"
+        }
+      },
+      {
+        "sample_name": "MM_GST_PWB40_571577",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "Wistar",
+          "Animal Source": "Charles River Laboratories",
+          "sex": "female",
+          "age": "14",
+          "diet": "Formula irradiated rodent diet 5008i",
+          "Material Type": "Gastrocnemius"
+        },
+        "factors": {
+          "Partial Weight Bearing": "40% of normal loading (PWB40)"
+        },
+        "parameters": {
+          "light cycle": "12:12-h light-dark cycle",
+          "Euthanasia Method": "Carbon Dioxide",
+          "duration": "14",
+          "Carcass Weight": "305.2",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "ALSDA Source Name": "Gastrocnemius",
+          "ALSDA Biospecimen Subject ID": "750",
+          "ALSDA Biospecimen Source ID": "7929",
+          "Euthanasia and Dissection Date": "8-Jul-19"
+        }
+      },
+      {
+        "sample_name": "MM_GST_PWB40_571579",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "Wistar",
+          "Animal Source": "Charles River Laboratories",
+          "sex": "female",
+          "age": "14",
+          "diet": "Formula irradiated rodent diet 5008i",
+          "Material Type": "Gastrocnemius"
+        },
+        "factors": {
+          "Partial Weight Bearing": "40% of normal loading (PWB40)"
+        },
+        "parameters": {
+          "light cycle": "12:12-h light-dark cycle",
+          "Euthanasia Method": "Carbon Dioxide",
+          "duration": "14",
+          "Carcass Weight": "302.3",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "ALSDA Source Name": "Gastrocnemius",
+          "ALSDA Biospecimen Subject ID": "750",
+          "ALSDA Biospecimen Source ID": "7930",
+          "Euthanasia and Dissection Date": "8-Jul-19"
+        }
+      },
+      {
+        "sample_name": "MM_GST_PWB40_571586",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "Wistar",
+          "Animal Source": "Charles River Laboratories",
+          "sex": "female",
+          "age": "14",
+          "diet": "Formula irradiated rodent diet 5008i",
+          "Material Type": "Gastrocnemius"
+        },
+        "factors": {
+          "Partial Weight Bearing": "40% of normal loading (PWB40)"
+        },
+        "parameters": {
+          "light cycle": "12:12-h light-dark cycle",
+          "Euthanasia Method": "Carbon Dioxide",
+          "duration": "14",
+          "Carcass Weight": "291.2",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "ALSDA Source Name": "Gastrocnemius",
+          "ALSDA Biospecimen Subject ID": "750",
+          "ALSDA Biospecimen Source ID": "7940",
+          "Euthanasia and Dissection Date": "8-Jul-19"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina NovaSeq 6000",
+      "qc": {
+        "QA Instrument": "Agilent 4200 TapeStation",
+        "QA Assay": "RNA ScreenTape",
+        "QA Score": "7.3",
+        "Read Depth": "12328286",
+        "rRNA Contamination": "3.46"
+      },
+      "library": {
+        "Library Selection": "polyA enrichment",
+        "Library Layout": "SINGLE",
+        "Stranded": "STRANDED",
+        "Library QA Instrument": "Agilent 4200 TapeStation"
+      },
+      "files": {
+        "raw": [
+          "GLDS-418_rna-seq_MM_GST_PWB100_571574_R1_raw.fastq.gz",
+          "GLDS-418_rna-seq_MM_GST_PWB100_571576_R1_raw.fastq.gz",
+          "GLDS-418_rna-seq_MM_GST_PWB100_571580_R1_raw.fastq.gz",
+          "GLDS-418_rna-seq_MM_GST_PWB100_571581_R1_raw.fastq.gz",
+          "GLDS-418_rna-seq_MM_GST_PWB40_571575_R1_raw.fastq.gz",
+          "GLDS-418_rna-seq_MM_GST_PWB40_571579_R1_raw.fastq.gz",
+          "GLDS-418_rna-seq_MM_GST_PWB40_571586_R1_raw.fastq.gz",
+          "GLDS-418_rna_seq_MM_GST_PWB100_571574_raw.fastq.gz",
+          "GLDS-418_rna_seq_MM_GST_PWB100_571574_trimmed.fastq.gz",
+          "GLDS-418_rna_seq_MM_GST_PWB100_571576_raw.fastq.gz",
+          "GLDS-418_rna_seq_MM_GST_PWB100_571576_trimmed.fastq.gz",
+          "GLDS-418_rna_seq_MM_GST_PWB100_571580_raw.fastq.gz",
+          "GLDS-418_rna_seq_MM_GST_PWB100_571580_trimmed.fastq.gz",
+          "GLDS-418_rna_seq_MM_GST_PWB100_571581_raw.fastq.gz",
+          "GLDS-418_rna_seq_MM_GST_PWB100_571581_trimmed.fastq.gz",
+          "GLDS-418_rna_seq_MM_GST_PWB40_571575_raw.fastq.gz",
+          "GLDS-418_rna_seq_MM_GST_PWB40_571575_trimmed.fastq.gz",
+          "GLDS-418_rna_seq_MM_GST_PWB40_571577_raw.fastq.gz",
+          "GLDS-418_rna_seq_MM_GST_PWB40_571577_trimmed.fastq.gz",
+          "GLDS-418_rna_seq_MM_GST_PWB40_571579_raw.fastq.gz",
+          "GLDS-418_rna_seq_MM_GST_PWB40_571579_trimmed.fastq.gz",
+          "GLDS-418_rna_seq_MM_GST_PWB40_571586_raw.fastq.gz",
+          "GLDS-418_rna_seq_MM_GST_PWB40_571586_trimmed.fastq.gz"
+        ],
+        "processed": [
+          "GLDS-418_rna_seq_MM_GST_PWB100_571574_trimmed.fastq.gz",
+          "GLDS-418_rna_seq_MM_GST_PWB100_571574_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-418_rna_seq_MM_GST_PWB100_571574_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-418_rna_seq_MM_GST_PWB100_571574_Aligned.toTranscriptome.out.bam",
+          "GLDS-418_rna_seq_MM_GST_PWB100_571574_SJ.out.tab",
+          "GLDS-418_rna_seq_MM_GST_PWB100_571576_trimmed.fastq.gz",
+          "GLDS-418_rna_seq_MM_GST_PWB100_571576_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-418_rna_seq_MM_GST_PWB100_571576_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-418_rna_seq_MM_GST_PWB100_571576_Aligned.toTranscriptome.out.bam",
+          "GLDS-418_rna_seq_MM_GST_PWB100_571576_SJ.out.tab",
+          "GLDS-418_rna_seq_MM_GST_PWB100_571580_trimmed.fastq.gz",
+          "GLDS-418_rna_seq_MM_GST_PWB100_571580_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-418_rna_seq_MM_GST_PWB100_571580_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-418_rna_seq_MM_GST_PWB100_571580_Aligned.toTranscriptome.out.bam",
+          "GLDS-418_rna_seq_MM_GST_PWB100_571580_SJ.out.tab",
+          "GLDS-418_rna_seq_MM_GST_PWB100_571581_trimmed.fastq.gz",
+          "GLDS-418_rna_seq_MM_GST_PWB100_571581_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-418_rna_seq_MM_GST_PWB100_571581_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-418_rna_seq_MM_GST_PWB100_571581_Aligned.toTranscriptome.out.bam",
+          "GLDS-418_rna_seq_MM_GST_PWB100_571581_SJ.out.tab",
+          "GLDS-418_rna_seq_MM_GST_PWB40_571575_trimmed.fastq.gz",
+          "GLDS-418_rna_seq_MM_GST_PWB40_571575_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-418_rna_seq_MM_GST_PWB40_571575_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-418_rna_seq_MM_GST_PWB40_571575_Aligned.toTranscriptome.out.bam",
+          "GLDS-418_rna_seq_MM_GST_PWB40_571575_SJ.out.tab",
+          "GLDS-418_rna_seq_MM_GST_PWB40_571577_trimmed.fastq.gz",
+          "GLDS-418_rna_seq_MM_GST_PWB40_571577_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-418_rna_seq_MM_GST_PWB40_571577_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-418_rna_seq_MM_GST_PWB40_571577_Aligned.toTranscriptome.out.bam",
+          "GLDS-418_rna_seq_MM_GST_PWB40_571577_SJ.out.tab",
+          "GLDS-418_rna_seq_MM_GST_PWB40_571579_trimmed.fastq.gz",
+          "GLDS-418_rna_seq_MM_GST_PWB40_571579_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-418_rna_seq_MM_GST_PWB40_571579_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-418_rna_seq_MM_GST_PWB40_571579_Aligned.toTranscriptome.out.bam",
+          "GLDS-418_rna_seq_MM_GST_PWB40_571579_SJ.out.tab",
+          "GLDS-418_rna_seq_MM_GST_PWB40_571586_trimmed.fastq.gz",
+          "GLDS-418_rna_seq_MM_GST_PWB40_571586_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-418_rna_seq_MM_GST_PWB40_571586_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-418_rna_seq_MM_GST_PWB40_571586_Aligned.toTranscriptome.out.bam",
+          "GLDS-418_rna_seq_MM_GST_PWB40_571586_SJ.out.tab",
+          "MM_GST_PWB100_571574",
+          "GeneLab RNAseq data processing protocol",
+          "Agilent 4200 TapeStation",
+          "RNA ScreenTape",
+          "7.3",
+          "percent",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000187",
+          "ERCC RNA spike-in",
+          "Mix 2",
+          "SINGLE",
+          "polyA enrichment",
+          "STRANDED",
+          "D1000 DNA ScreenTape",
+          "569",
+          "Illumina NovaSeq 6000",
+          "93",
+          "bcl2fastq",
+          "rna-seq",
+          "12328286",
+          "3.46",
+          "GLDS-418_rna_seq_MM_GST_PWB100_571574.genes.results",
+          "GLDS-418_rna_seq_MM_GST_PWB100_571574.isoforms.results",
+          "GLDS-418_rna_seq_RSEM_Unnormalized_Counts.csv",
+          "GLDS-418_rna_seq_STAR_Unnormalized_Counts.csv",
+          "GLDS-418_rna_seq_Normalized_Counts.csv",
+          "GLDS-418_rna_seq_SampleTable.csv",
+          "GLDS-418_rna_seq_contrasts.csv",
+          "GLDS-418_rna_seq_differential_expression.csv",
+          "GLDS-418_rna_seq_ERCC_analysis.html",
+          "MM_GST_PWB100_571576",
+          "8.2",
+          "71109207",
+          "4.15",
+          "GLDS-418_rna_seq_MM_GST_PWB100_571576.genes.results",
+          "GLDS-418_rna_seq_MM_GST_PWB100_571576.isoforms.results",
+          "MM_GST_PWB100_571580",
+          "7.8",
+          "36930313",
+          "3.48",
+          "GLDS-418_rna_seq_MM_GST_PWB100_571580.genes.results",
+          "GLDS-418_rna_seq_MM_GST_PWB100_571580.isoforms.results",
+          "MM_GST_PWB100_571581",
+          "7.7",
+          "47678419",
+          "3.32",
+          "GLDS-418_rna_seq_MM_GST_PWB100_571581.genes.results",
+          "GLDS-418_rna_seq_MM_GST_PWB100_571581.isoforms.results",
+          "MM_GST_PWB40_571575",
+          "9.5",
+          "Mix 1",
+          "80523296",
+          "3.04",
+          "GLDS-418_rna_seq_MM_GST_PWB40_571575.genes.results",
+          "GLDS-418_rna_seq_MM_GST_PWB40_571575.isoforms.results",
+          "MM_GST_PWB40_571577",
+          "8.3",
+          "80997287",
+          "3.3",
+          "GLDS-418_rna_seq_MM_GST_PWB40_571577.genes.results",
+          "GLDS-418_rna_seq_MM_GST_PWB40_571577.isoforms.results",
+          "MM_GST_PWB40_571579",
+          "7.6",
+          "79979024",
+          "2.96",
+          "GLDS-418_rna_seq_MM_GST_PWB40_571579.genes.results",
+          "GLDS-418_rna_seq_MM_GST_PWB40_571579.isoforms.results",
+          "MM_GST_PWB40_571586",
+          "8.4",
+          "79112676",
+          "3.82",
+          "GLDS-418_rna_seq_MM_GST_PWB40_571586.genes.results",
+          "GLDS-418_rna_seq_MM_GST_PWB40_571586.isoforms.results"
+        ],
+        "reports": [
+          "GLDS-418_rna_seq_raw_multiqc_report.zip",
+          "GLDS-418_rna_seq_trimmed_multiqc_report.zip",
+          "GLDS-418_rna_seq_MM_GST_PWB100_571574_raw.fastq.gz_trimming_report.txt",
+          "GLDS-418_rna_seq_MM_GST_PWB100_571574_Log.final.out",
+          "GLDS-418_rna_seq_align_multiqc_report.zip",
+          "GLDS-418_rna_seq_geneBody_cov_multiqc_report.zip",
+          "GLDS-418_rna_seq_infer_exp_multiqc_report.zip",
+          "GLDS-418_rna_seq_read_dist_multiqc_report.zip",
+          "GLDS-418_rna_seq_RSEM_count_multiqc_report.zip",
+          "GLDS-418_rna_seq_MM_GST_PWB100_571576_raw.fastq.gz_trimming_report.txt",
+          "GLDS-418_rna_seq_MM_GST_PWB100_571576_Log.final.out",
+          "GLDS-418_rna_seq_MM_GST_PWB100_571580_raw.fastq.gz_trimming_report.txt",
+          "GLDS-418_rna_seq_MM_GST_PWB100_571580_Log.final.out",
+          "GLDS-418_rna_seq_MM_GST_PWB100_571581_raw.fastq.gz_trimming_report.txt",
+          "GLDS-418_rna_seq_MM_GST_PWB100_571581_Log.final.out",
+          "GLDS-418_rna_seq_MM_GST_PWB40_571575_raw.fastq.gz_trimming_report.txt",
+          "GLDS-418_rna_seq_MM_GST_PWB40_571575_Log.final.out",
+          "GLDS-418_rna_seq_MM_GST_PWB40_571577_raw.fastq.gz_trimming_report.txt",
+          "GLDS-418_rna_seq_MM_GST_PWB40_571577_Log.final.out",
+          "GLDS-418_rna_seq_MM_GST_PWB40_571579_raw.fastq.gz_trimming_report.txt",
+          "GLDS-418_rna_seq_MM_GST_PWB40_571579_Log.final.out",
+          "GLDS-418_rna_seq_MM_GST_PWB40_571586_raw.fastq.gz_trimming_report.txt",
+          "GLDS-418_rna_seq_MM_GST_PWB40_571586_Log.final.out"
+        ]
+      }
+    }
+  ]
+}

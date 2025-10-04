@@ -1,0 +1,813 @@
+{
+  "investigation": {
+    "id": "OSD-304",
+    "title": "Global gene expression in response to X rays in mice deficient in Parp1",
+    "description": "There is a current interest in the development of biodosimetric methods for rapidly assessing radiation exposure in the wake of a large-scale radiological event. The initial focus of this work has largely centered on determining the exposure dose to an individual using biological indicators.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "Gamma_Irradiation, High_Dose_Irradiation, Low_LET_Irradiation",
+      "title": "",
+      "type": "Ground Study",
+      "link": "",
+      "funding": "This work was supported by the Center for High-Throughput Minimally-Invasive Radiation Biodosimetry, National Institute of Allergy and Infectious Diseases",
+      "managing_center": ""
+    },
+    "protocols": [
+      "irradiation protocol",
+      "sample collection",
+      "nucleic acid extraction",
+      "labeling",
+      "nucleic acid hybridization",
+      "scan protocol",
+      "GeneLab microarray data processing protocol"
+    ],
+    "publications": [
+      {
+        "title": "Gene Expression in Parp1 Deficient Mice Exposed to a Median Lethal Dose of Gamma Rays",
+        "doi": "10.1667/RR14990.1",
+        "authors": [
+          "M. A. Suresh Kumar",
+          "Evagelia C. Laiakis",
+          "Shanaz A. Ghandhi",
+          "Shad R. Morton",
+          "Albert J. Fornace",
+          "Jr.",
+          "and Sally A. Amundson"
+        ],
+        "summary": "Gene Expression in Parp1 Deficient Mice Exposed to a Median Lethal Dose of Gamma Rays — 10.1667/RR14990.1"
+      }
+    ],
+    "factors": [
+      "Ionizing Radiation",
+      "Absorbed Radiation Dose",
+      "Genotype"
+    ],
+    "contacts": [
+      {
+        "first_name": "Sally",
+        "last_name": "Amundson",
+        "role": "principal investigator",
+        "email": "saa2108@cumc.columbia.edu"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "GSM2702018",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "129S/J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Male",
+          "age": "8 to 10",
+          "Material Type": "Blood"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "Cesium-137 Gamma Radiation",
+          "Absorbed Radiation Dose": "6"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "1.67",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "Gammacell 40",
+          "Time of Sample Collection After Treatment": "24",
+          "Sample Preservation Method": "PAXgene blood RNA stabilization solution",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM2702019",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "129S/J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Male",
+          "age": "8 to 10",
+          "Material Type": "Blood"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "Cesium-137 Gamma Radiation",
+          "Absorbed Radiation Dose": "8.8"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "1.67",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "Gammacell 40",
+          "Time of Sample Collection After Treatment": "24",
+          "Sample Preservation Method": "PAXgene blood RNA stabilization solution",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM2702020",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "129S/J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Male",
+          "age": "8 to 10",
+          "Material Type": "Blood"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "Cesium-137 Gamma Radiation",
+          "Absorbed Radiation Dose": "6"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "1.67",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "Gammacell 40",
+          "Time of Sample Collection After Treatment": "24",
+          "Sample Preservation Method": "PAXgene blood RNA stabilization solution",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM2702021",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "129S/J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Male",
+          "age": "8 to 10",
+          "Material Type": "Blood"
+        },
+        "factors": {
+          "Genotype": "Parp1-/-",
+          "Ionizing Radiation": "Cesium-137 Gamma Radiation",
+          "Absorbed Radiation Dose": "6"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "1.67",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "Gammacell 40",
+          "Time of Sample Collection After Treatment": "24",
+          "Sample Preservation Method": "PAXgene blood RNA stabilization solution",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM2702022",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "129S/J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Male",
+          "age": "8 to 10",
+          "Material Type": "Blood"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "Cesium-137 Gamma Radiation",
+          "Absorbed Radiation Dose": "6"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "1.67",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "Gammacell 40",
+          "Time of Sample Collection After Treatment": "24",
+          "Sample Preservation Method": "PAXgene blood RNA stabilization solution",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM2702023",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "129S/J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Male",
+          "age": "8 to 10",
+          "Material Type": "Blood"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "Cesium-137 Gamma Radiation",
+          "Absorbed Radiation Dose": "8.8"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "1.67",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "Gammacell 40",
+          "Time of Sample Collection After Treatment": "24",
+          "Sample Preservation Method": "PAXgene blood RNA stabilization solution",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM2702024",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "129S/J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Male",
+          "age": "8 to 10",
+          "Material Type": "Blood"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "Cesium-137 Gamma Radiation",
+          "Absorbed Radiation Dose": "6"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "1.67",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "Gammacell 40",
+          "Time of Sample Collection After Treatment": "24",
+          "Sample Preservation Method": "PAXgene blood RNA stabilization solution",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM2702025",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "129S/J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Male",
+          "age": "8 to 10",
+          "Material Type": "Blood"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "Cesium-137 Gamma Radiation",
+          "Absorbed Radiation Dose": "6"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "1.67",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "Gammacell 40",
+          "Time of Sample Collection After Treatment": "24",
+          "Sample Preservation Method": "PAXgene blood RNA stabilization solution",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM2702026",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "129S/J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Male",
+          "age": "8 to 10",
+          "Material Type": "Blood"
+        },
+        "factors": {
+          "Genotype": "Parp1-/-",
+          "Ionizing Radiation": "Cesium-137 Gamma Radiation",
+          "Absorbed Radiation Dose": "6"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "1.67",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "Gammacell 40",
+          "Time of Sample Collection After Treatment": "24",
+          "Sample Preservation Method": "PAXgene blood RNA stabilization solution",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM2702027",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "129S/J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Male",
+          "age": "8 to 10",
+          "Material Type": "Blood"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "Cesium-137 Gamma Radiation",
+          "Absorbed Radiation Dose": "8.8"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "1.67",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "Gammacell 40",
+          "Time of Sample Collection After Treatment": "24",
+          "Sample Preservation Method": "PAXgene blood RNA stabilization solution",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM2702028",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "129S/J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Male",
+          "age": "8 to 10",
+          "Material Type": "Blood"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "Cesium-137 Gamma Radiation",
+          "Absorbed Radiation Dose": "8.8"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "1.67",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "Gammacell 40",
+          "Time of Sample Collection After Treatment": "24",
+          "Sample Preservation Method": "PAXgene blood RNA stabilization solution",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM2702029",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "129S/J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Male",
+          "age": "8 to 10",
+          "Material Type": "Blood"
+        },
+        "factors": {
+          "Genotype": "Parp1-/-",
+          "Ionizing Radiation": "Cesium-137 Gamma Radiation",
+          "Absorbed Radiation Dose": "6"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "1.67",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "Gammacell 40",
+          "Time of Sample Collection After Treatment": "24",
+          "Sample Preservation Method": "PAXgene blood RNA stabilization solution",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM2702031",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "129S/J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Male",
+          "age": "8 to 10",
+          "Material Type": "Blood"
+        },
+        "factors": {
+          "Genotype": "Parp1-/-",
+          "Ionizing Radiation": "Cesium-137 Gamma Radiation",
+          "Absorbed Radiation Dose": "6"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "1.67",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "Gammacell 40",
+          "Time of Sample Collection After Treatment": "24",
+          "Sample Preservation Method": "PAXgene blood RNA stabilization solution",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM2702036",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "129S/J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Male",
+          "age": "8 to 10",
+          "Material Type": "Blood"
+        },
+        "factors": {
+          "Genotype": "Parp1-/-",
+          "Ionizing Radiation": "Cesium-137 Gamma Radiation",
+          "Absorbed Radiation Dose": "6"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "1.67",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "Gammacell 40",
+          "Time of Sample Collection After Treatment": "24",
+          "Sample Preservation Method": "PAXgene blood RNA stabilization solution",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM2702030",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "129S/J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Male",
+          "age": "8 to 10",
+          "Material Type": "Blood"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "sham-irradiated",
+          "Absorbed Radiation Dose": "0"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "Gammacell 40",
+          "Time of Sample Collection After Treatment": "24",
+          "Sample Preservation Method": "PAXgene blood RNA stabilization solution",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM2702032",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "129S/J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Male",
+          "age": "8 to 10",
+          "Material Type": "Blood"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "sham-irradiated",
+          "Absorbed Radiation Dose": "0"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "Gammacell 40",
+          "Time of Sample Collection After Treatment": "24",
+          "Sample Preservation Method": "PAXgene blood RNA stabilization solution",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM2702033",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "129S/J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Male",
+          "age": "8 to 10",
+          "Material Type": "Blood"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "sham-irradiated",
+          "Absorbed Radiation Dose": "0"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "Gammacell 40",
+          "Time of Sample Collection After Treatment": "24",
+          "Sample Preservation Method": "PAXgene blood RNA stabilization solution",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM2702034",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "129S/J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Male",
+          "age": "8 to 10",
+          "Material Type": "Blood"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "sham-irradiated",
+          "Absorbed Radiation Dose": "0"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "Gammacell 40",
+          "Time of Sample Collection After Treatment": "24",
+          "Sample Preservation Method": "PAXgene blood RNA stabilization solution",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM2702035",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "129S/J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Male",
+          "age": "8 to 10",
+          "Material Type": "Blood"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Ionizing Radiation": "sham-irradiated",
+          "Absorbed Radiation Dose": "0"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "Gammacell 40",
+          "Time of Sample Collection After Treatment": "24",
+          "Sample Preservation Method": "PAXgene blood RNA stabilization solution",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM2702037",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "129S/J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Male",
+          "age": "8 to 10",
+          "Material Type": "Blood"
+        },
+        "factors": {
+          "Genotype": "Parp1-/-",
+          "Ionizing Radiation": "sham-irradiated",
+          "Absorbed Radiation Dose": "0"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "Gammacell 40",
+          "Time of Sample Collection After Treatment": "24",
+          "Sample Preservation Method": "PAXgene blood RNA stabilization solution",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM2702038",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "129S/J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Male",
+          "age": "8 to 10",
+          "Material Type": "Blood"
+        },
+        "factors": {
+          "Genotype": "Parp1-/-",
+          "Ionizing Radiation": "sham-irradiated",
+          "Absorbed Radiation Dose": "0"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "Gammacell 40",
+          "Time of Sample Collection After Treatment": "24",
+          "Sample Preservation Method": "PAXgene blood RNA stabilization solution",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM2702039",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "129S/J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Male",
+          "age": "8 to 10",
+          "Material Type": "Blood"
+        },
+        "factors": {
+          "Genotype": "Parp1-/-",
+          "Ionizing Radiation": "sham-irradiated",
+          "Absorbed Radiation Dose": "0"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "Gammacell 40",
+          "Time of Sample Collection After Treatment": "24",
+          "Sample Preservation Method": "PAXgene blood RNA stabilization solution",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM2702040",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "129S/J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Male",
+          "age": "8 to 10",
+          "Material Type": "Blood"
+        },
+        "factors": {
+          "Genotype": "Parp1-/-",
+          "Ionizing Radiation": "sham-irradiated",
+          "Absorbed Radiation Dose": "0"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "Gammacell 40",
+          "Time of Sample Collection After Treatment": "24",
+          "Sample Preservation Method": "PAXgene blood RNA stabilization solution",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM2702041",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "129S/J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Male",
+          "age": "8 to 10",
+          "Material Type": "Blood"
+        },
+        "factors": {
+          "Genotype": "Parp1-/-",
+          "Ionizing Radiation": "sham-irradiated",
+          "Absorbed Radiation Dose": "0"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "Gammacell 40",
+          "Time of Sample Collection After Treatment": "24",
+          "Sample Preservation Method": "PAXgene blood RNA stabilization solution",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Agilent",
+      "qc": {
+        "QA Instrument": "Agilent Bioanalyzer",
+        "QA Score": "greater than or equal to 7"
+      },
+      "library": {},
+      "files": {
+        "raw": [],
+        "processed": [
+          "GSM2702018",
+          "GeneLab microarray data processing protocol",
+          "greater than or equal to 7",
+          "RNA Integrity Number",
+          "CHEBI",
+          "http://purl.obolibrary.org/obo/CHEBI_37987",
+          "Agilent Bioanalyzer",
+          "Cy3 dye",
+          "Agilent wholegenome 4x44k v2",
+          "GLDS-304_microarray_GSM2702018_2346_S01_GE1_1105_Oct12_1_2.txt.gz",
+          "GLDS-304_array_raw_intensities_GLmicroarray.csv",
+          "GLDS-304_array_normalized_expression_GLmicroarray.csv",
+          "GLDS-304_array_SampleTable_GLmicroarray.csv",
+          "GLDS-304_array_contrasts_GLmicroarray.csv",
+          "GLDS-304_array_differential_expression_GLmicroarray.csv",
+          "GSM2702019",
+          "GLDS-304_microarray_GSM2702019_2346_S01_GE1_1105_Oct12_1_4.txt.gz",
+          "GSM2702020",
+          "GLDS-304_microarray_GSM2702020_2347_S01_GE1_1105_Oct12_1_2.txt.gz",
+          "GSM2702021",
+          "GLDS-304_microarray_GSM2702021_2347_S01_GE1_1105_Oct12_1_4.txt.gz",
+          "GSM2702022",
+          "GLDS-304_microarray_GSM2702022_2348_S01_GE1_1105_Oct12_1_2.txt.gz",
+          "GSM2702023",
+          "GLDS-304_microarray_GSM2702023_2348_S01_GE1_1105_Oct12_1_4.txt.gz",
+          "GSM2702024",
+          "GLDS-304_microarray_GSM2702024_2349_S01_GE1_1105_Oct12_1_1.txt.gz",
+          "GSM2702025",
+          "GLDS-304_microarray_GSM2702025_2349_S01_GE1_1105_Oct12_1_3.txt.gz",
+          "GSM2702026",
+          "GLDS-304_microarray_GSM2702026_2349_S01_GE1_1105_Oct12_1_4.txt.gz",
+          "GSM2702027",
+          "GLDS-304_microarray_GSM2702027_3188_S01_GE1_1105_Oct12_1_1.txt.gz",
+          "GSM2702028",
+          "GLDS-304_microarray_GSM2702028_3188_S01_GE1_1105_Oct12_1_2.txt.gz",
+          "GSM2702029",
+          "GLDS-304_microarray_GSM2702029_3188_S01_GE1_1105_Oct12_1_4.txt.gz",
+          "GSM2702030",
+          "GLDS-304_microarray_GSM2702030_3189_S01_GE1_1105_Oct12_1_1.txt.gz",
+          "GSM2702031",
+          "GLDS-304_microarray_GSM2702031_3189_S01_GE1_1105_Oct12_1_3.txt.gz",
+          "GSM2702032",
+          "GLDS-304_microarray_GSM2702032_3190_S01_GE1_1105_Oct12_1_1.txt.gz",
+          "GSM2702033",
+          "GLDS-304_microarray_GSM2702033_3190_S01_GE1_1105_Oct12_1_4.txt.gz",
+          "GSM2702034",
+          "GLDS-304_microarray_GSM2702034_3191_S01_GE1_1105_Oct12_1_3.txt.gz",
+          "GSM2702035",
+          "GLDS-304_microarray_GSM2702035_3191_S01_GE1_1105_Oct12_1_4.txt.gz",
+          "GSM2702036",
+          "GLDS-304_microarray_GSM2702036_3227_S01_GE1_1105_Oct12_1_2.txt.gz",
+          "GSM2702037",
+          "GLDS-304_microarray_GSM2702037_3227_S01_GE1_1105_Oct12_1_3.txt.gz",
+          "GSM2702038",
+          "GLDS-304_microarray_GSM2702038_3227_S01_GE1_1105_Oct12_1_4.txt.gz",
+          "GSM2702039",
+          "GLDS-304_microarray_GSM2702039_4195_S01_GE1_1105_Oct12_1_2.txt.gz",
+          "GSM2702040",
+          "GLDS-304_microarray_GSM2702040_4195_S01_GE1_1105_Oct12_1_3.txt.gz",
+          "GSM2702041",
+          "GLDS-304_microarray_GSM2702041_4195_S01_GE1_1105_Oct12_1_4.txt.gz"
+        ],
+        "reports": []
+      }
+    }
+  ]
+}

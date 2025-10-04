@@ -1,0 +1,707 @@
+{
+  "investigation": {
+    "id": "OSD-84",
+    "title": "Biomolecule Sequencer",
+    "description": "Technology demonstration of a nanopore sequencer operating aboard the ISS in comparison with the same sequencer on the ground.",
+    "mission": {
+      "name": "Expedition 47, Expedition 48",
+      "start_date": "12/15/2015, 03/18/2016",
+      "end_date": "06/18/2016, 09/06/2016",
+      "link": "https://osdr.nasa.gov/bio/repo/data/missions/Expedition 47, https://osdr.nasa.gov/bio/repo/data/missions/Expedition 48"
+    },
+    "project": {
+      "identifier": "Biomolecule_Sequencer",
+      "title": "Biomolecule Sequencer",
+      "type": "Spaceflight Project",
+      "link": "http://www.nasa.gov/mission_pages/station/research/experiments/2181.html",
+      "funding": "Funding for this project was provided by the ISS Technology Demonstration Office",
+      "managing_center": "Johnson Space Center (JSC)"
+    },
+    "protocols": [
+      "library construction",
+      "nucleic acid extraction",
+      "nucleic acid sequencing",
+      "sample collection",
+      "sequence assembly"
+    ],
+    "publications": [
+      {
+        "title": "The Biomolecule Sequencer Project: Nanopore Sequencing as a Dual-Use Tool for Crew Health and Astrobiology Investigations",
+        "doi": "10.1038/npjmgrav.2016.35",
+        "authors": [
+          "John KK",
+          "Botkin DS",
+          "Burton AS",
+          "Costro-Wallace SL",
+          "Chaput JD",
+          "Dworkin JP",
+          "Lehman N",
+          "Lupisella ML",
+          "Mason CE",
+          "Smith DJ",
+          "Stahl S",
+          "Switzer C."
+        ],
+        "summary": "The Biomolecule Sequencer Project: Nanopore Sequencing as a Dual-Use Tool for Crew Health and Astrobiology Investigations — 10.1038/npjmgrav.2016.35"
+      },
+      {
+        "title": "Nanopore sequencing in microgravity",
+        "doi": "10.1038/s41598-017-18364-0",
+        "authors": [
+          "McIntyre AB",
+          "Rizzardi L",
+          "Yu AM",
+          "Alexander N",
+          "Rosen GL",
+          "Botkin DJ",
+          "Stahl SE",
+          "John KK",
+          "Castro-Wallace SL",
+          "McGrath K",
+          "Burton AS",
+          "Feinberg AP and Mason CE"
+        ],
+        "summary": "Nanopore sequencing in microgravity — 10.1038/s41598-017-18364-0"
+      },
+      {
+        "title": "Nanopore DNA Sequencing and Genome Assembly on the International Space Station",
+        "doi": "",
+        "authors": [
+          "Chiu CY",
+          "John KK",
+          "Stahl SE",
+          "Rubins KH",
+          "McIntyre AB",
+          "Dworkin JP",
+          "Lupisella ML",
+          "Smith DJ",
+          "Botkin DJ",
+          "Stephenson TA",
+          "Juul S",
+          "Turner DJ",
+          "Izquierdo F",
+          "Federman Scot",
+          "Stryke D",
+          "Somasekar S",
+          "Alexander N",
+          "Yu G",
+          "Mason CE",
+          "Burton AS"
+        ],
+        "summary": "Nanopore DNA Sequencing and Genome Assembly on the International Space Station"
+      }
+    ],
+    "factors": [
+      "Spaceflight"
+    ],
+    "contacts": [
+      {
+        "first_name": "Aaron",
+        "last_name": "Burton",
+        "role": "Principal Investigator",
+        "email": "aaron.burton@nasa.gov"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "Ground 1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Organism 2": "Escherichia coli",
+          "Strain 2": "K-12",
+          "Organism 3": "Enterobacteria phage lambda",
+          "Material Type": "DNA"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Ground control sample #1 (analyzed in parallel with flight control sample one"
+        }
+      },
+      {
+        "sample_name": "Ground 2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Organism 2": "Escherichia coli",
+          "Strain 2": "K-12",
+          "Organism 3": "Enterobacteria phage lambda",
+          "Material Type": "DNA"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Ground control sample #2 (analyzed in parallel with flight control sample one"
+        }
+      },
+      {
+        "sample_name": "Ground 3",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Organism 2": "Escherichia coli",
+          "Strain 2": "K-12",
+          "Organism 3": "Enterobacteria phage lambda",
+          "Material Type": "DNA"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Ground control sample #3 (analyzed in parallel with flight control sample one"
+        }
+      },
+      {
+        "sample_name": "Ground 4",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Organism 2": "Escherichia coli",
+          "Strain 2": "K-12",
+          "Organism 3": "Enterobacteria phage lambda",
+          "Material Type": "DNA"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Flight control sample #4 (analyzed in parallel with flight control sample one"
+        }
+      },
+      {
+        "sample_name": "Flight 1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Organism 2": "Escherichia coli",
+          "Strain 2": "K-12",
+          "Organism 3": "Enterobacteria phage lambda",
+          "Material Type": "DNA"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Flight control sample #1 (analyzed in parallel with flight control sample one"
+        }
+      },
+      {
+        "sample_name": "Flight 2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Organism 2": "Escherichia coli",
+          "Strain 2": "K-12",
+          "Organism 3": "Enterobacteria phage lambda",
+          "Material Type": "DNA"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Flight control sample #2 (analyzed in parallel with flight control sample one"
+        }
+      },
+      {
+        "sample_name": "Flight 3",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Organism 2": "Escherichia coli",
+          "Strain 2": "K-12",
+          "Organism 3": "Enterobacteria phage lambda",
+          "Material Type": "DNA"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Flight control sample #3 (analyzed in parallel with flight control sample one"
+        }
+      },
+      {
+        "sample_name": "Flight 4",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Organism 2": "Escherichia coli",
+          "Strain 2": "K-12",
+          "Organism 3": "Enterobacteria phage lambda",
+          "Material Type": "DNA"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Flight control sample #4 (analyzed in parallel with flight control sample one"
+        }
+      },
+      {
+        "sample_name": "R9",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Organism 2": "Escherichia coli",
+          "Strain 2": "K-12",
+          "Organism 3": "Enterobacteria phage lambda",
+          "Material Type": "DNA"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Ground sample- MinION v7"
+        }
+      },
+      {
+        "sample_name": "mixed_illumina",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Organism 2": "Escherichia coli",
+          "Strain 2": "K-12",
+          "Organism 3": "Enterobacteria phage lambda",
+          "Material Type": "DNA"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Ground sample- mixed sample illumina"
+        }
+      },
+      {
+        "sample_name": "mouse_illumina",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Organism 2": "",
+          "Strain 2": "",
+          "Organism 3": "",
+          "Material Type": "DNA"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Ground sample- mouse illumina"
+        }
+      },
+      {
+        "sample_name": "mouse_pacbio",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Organism 2": "",
+          "Strain 2": "",
+          "Organism 3": "",
+          "Material Type": "DNA"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Ground sample- mouse pacbio"
+        }
+      },
+      {
+        "sample_name": "Ecoli_illumina",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "K-12",
+          "Organism 2": "",
+          "Strain 2": "",
+          "Organism 3": "",
+          "Material Type": "DNA"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Ground sample- E.coli illumina"
+        }
+      },
+      {
+        "sample_name": "Ecoli_pacbio",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "K-12",
+          "Organism 2": "",
+          "Strain 2": "",
+          "Organism 3": "",
+          "Material Type": "DNA"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Ground sample- E.coli pacbio"
+        }
+      },
+      {
+        "sample_name": "lambda_illumina",
+        "characteristics": {
+          "Organism": "Enterobacteria phage lambda",
+          "Strain": "",
+          "Organism 2": "",
+          "Strain 2": "",
+          "Organism 3": "",
+          "Material Type": "DNA"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Ground sample- Enterobacter phage lambda illumina"
+        }
+      },
+      {
+        "sample_name": "lambda_pacbio",
+        "characteristics": {
+          "Organism": "Enterobacteria phage lambda",
+          "Strain": "",
+          "Organism 2": "",
+          "Strain 2": "",
+          "Organism 3": "",
+          "Material Type": "DNA"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Ground sample- Enterobacter phage lambda pacbio"
+        }
+      },
+      {
+        "sample_name": "Ground 5",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Organism 2": "Escherichia coli",
+          "Strain 2": "K-12",
+          "Organism 3": "Enterobacteria phage lambda",
+          "Material Type": "DNA"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Ground control sample #5 (analyzed in parallel with flight control sample one"
+        }
+      },
+      {
+        "sample_name": "Ground 6",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Organism 2": "Escherichia coli",
+          "Strain 2": "K-12",
+          "Organism 3": "Enterobacteria phage lambda",
+          "Material Type": "DNA"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Ground control sample #6 (analyzed in parallel with flight control sample one"
+        }
+      },
+      {
+        "sample_name": "Ground 7",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Organism 2": "Escherichia coli",
+          "Strain 2": "K-12",
+          "Organism 3": "Enterobacteria phage lambda",
+          "Material Type": "DNA"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Ground control sample #7 (analyzed in parallel with flight control sample one"
+        }
+      },
+      {
+        "sample_name": "Ground 8",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Organism 2": "Escherichia coli",
+          "Strain 2": "K-12",
+          "Organism 3": "Enterobacteria phage lambda",
+          "Material Type": "DNA"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Ground control sample #8 (analyzed in parallel with flight control sample one"
+        }
+      },
+      {
+        "sample_name": "Flight 5",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Organism 2": "Escherichia coli",
+          "Strain 2": "K-12",
+          "Organism 3": "Enterobacteria phage lambda",
+          "Material Type": "DNA"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Flight control sample #5 (analyzed in parallel with flight control sample one"
+        }
+      },
+      {
+        "sample_name": "Flight 6",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Organism 2": "Escherichia coli",
+          "Strain 2": "K-12",
+          "Organism 3": "Enterobacteria phage lambda",
+          "Material Type": "DNA"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Flight control sample #6 (analyzed in parallel with flight control sample one"
+        }
+      },
+      {
+        "sample_name": "Flight 7",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Organism 2": "Escherichia coli",
+          "Strain 2": "K-12",
+          "Organism 3": "Enterobacteria phage lambda",
+          "Material Type": "DNA"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Flight control sample #7 (analyzed in parallel with flight control sample one"
+        }
+      },
+      {
+        "sample_name": "Flight 8",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Organism 2": "Escherichia coli",
+          "Strain 2": "K-12",
+          "Organism 3": "Enterobacteria phage lambda",
+          "Material Type": "DNA"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Flight control sample #8 (analyzed in parallel with flight control sample one"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "genome-sequencing",
+      "platform": "Illumina MiSeq v2",
+      "qc": {},
+      "library": {},
+      "files": {
+        "raw": [
+          "GLDS-84_Illumina sequencing_Ecoli_illumina.fastq.gz",
+          "GLDS-84_Illumina sequencing_lambda_illumina.fastq.gz",
+          "GLDS-84_Illumina sequencing_mixed_illumina.fastq.gz",
+          "GLDS-84_Illumina sequencing_mouse_illumina.fastq.gz"
+        ],
+        "processed": [
+          "Ecoli_illumina",
+          "sequence assembly",
+          "Genomic",
+          "WGS",
+          "Random",
+          "SINGLE",
+          "Illumina MiSeq v2",
+          "no",
+          "wgs",
+          "lambda_illumina",
+          "mixed_illumina",
+          "mouse_illumina"
+        ],
+        "reports": []
+      }
+    },
+    {
+      "type": "genome-sequencing",
+      "platform": "Oxford Nanopore MinION v6",
+      "qc": {},
+      "library": {},
+      "files": {
+        "raw": [
+          "GLDS-84_sequencing_20160826_nasa_flight_experiment_ground.fastq",
+          "GLDS-84_sequencing_20160903_nasa_flight_experiment_ground.fastq",
+          "GLDS-84_sequencing_20160907_nasa_flight_experiment_ground.fastq",
+          "GLDS-84_sequencing_20160913_nasa_flight_experiment_ground.fastq",
+          "GLDS-84_sequencing_20160826_nasa_flight_experiment_flight.fastq",
+          "GLDS-84_sequencing_20160903_nasa_flight_experiment_flight.fastq",
+          "GLDS-84_sequencing_20160907_nasa_flight_experiment_flight.fastq",
+          "GLDS-84_sequencing_20160913_nasa_flight_experiment_flight.fastq",
+          "GLDS-84_sequencing_20160922_R9_nanopre.fastq",
+          "GLDS-84_sequencing_20161018_ground.fastq.gz",
+          "GLDS-84_sequencing_20161126_ground.fastq.gz",
+          "GLDS-84_sequencing_20170112_ground.fastq.gz",
+          "GLDS-84_sequencing_20161018_flight.fastq.gz",
+          "GLDS-84_sequencing_20161025_flight.fastq.gz",
+          "GLDS-84_sequencing_20161126_flight.fastq.gz",
+          "GLDS-84_sequencing_20170112_flight.fastq.gz"
+        ],
+        "processed": [
+          "Ground 1",
+          "sequence assembly",
+          "Genomic",
+          "WGS",
+          "Random",
+          "SINGLE",
+          "Oxford Nanopore MinION v6",
+          "MinION sequencing",
+          "no",
+          "wgs",
+          "Ground 2",
+          "Ground 3",
+          "Ground 4",
+          "Flight 1",
+          "Flight 2",
+          "Flight 3",
+          "Flight 4",
+          "R9",
+          "Oxford Nanopore MinION v7",
+          "Ground 5",
+          "Ground 6",
+          "Ground 7",
+          "Ground 8",
+          "Flight 5",
+          "Flight 6",
+          "Flight 7",
+          "Flight 8"
+        ],
+        "reports": []
+      }
+    },
+    {
+      "type": "genome-sequencing",
+      "platform": "Pacific Biosciences RSII",
+      "qc": {},
+      "library": {},
+      "files": {
+        "raw": [
+          "GLDS-84_PacBio sequencing_Ecoli_pacbio.fastq.gz",
+          "GLDS-84_PacBio sequencing_lambda_pacbio_subreads.tar.gz",
+          "GLDS-84_PacBio sequencing_mouse_pacbio_subreads.tar.gz",
+          "GLDS-84_PacBio sequencing_lambda_pacbio.fastq.gz"
+        ],
+        "processed": [
+          "GLDS-84_PacBio sequencing_PacBio_pureEcoli_polished_assembly.fasta.gz",
+          "GLDS-84_PacBio sequencing_lambda_pacbio.fastq.gz",
+          "Ecoli_pacbio",
+          "sequence assembly",
+          "Genomic",
+          "WGS",
+          "Random",
+          "SINGLE",
+          "Pacific Biosciences RSII",
+          "no",
+          "wgs",
+          "lambda_pacbio",
+          "mouse_pacbio"
+        ],
+        "reports": []
+      }
+    }
+  ]
+}

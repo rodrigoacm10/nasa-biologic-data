@@ -1,0 +1,3785 @@
+{
+  "investigation": {
+    "id": "OSD-386",
+    "title": "Persistence of Escherichia coli in the microbiomes of mizuna mustard (Brassica rapa var. japonica) - does seed sanitization matter?",
+    "description": "Seed sanitization via chemical processes removes/reduces microbes from the external surfaces of the seed and thereby could have an impact on the plants' health or productivity. To determine the impact of seed sanitization on the plants' microbiome and pathogen persistence, sanitized and unsanitized seeds from two leafy green crops, red Romaine lettuce (Lactuca sativa cv.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "Simulated_Environmental_Factors",
+      "title": "",
+      "type": "Ground Study",
+      "link": "",
+      "funding": "Funding for this research and manuscript development was provided by NASA, Biological and Physical Sciences (BPS).",
+      "managing_center": "Kennedy Space Center (KSC)"
+    },
+    "protocols": [
+      "growth protocol",
+      "treatment protocol",
+      "sample collection",
+      "Nucleic Acid Extraction",
+      "Library Construction",
+      "Nucleic Acid Sequencing",
+      "GeneLab raw data processing protocol",
+      "GeneLab amplicon-seq data processing protocol"
+    ],
+    "publications": [
+      {
+        "title": "Persistence of Escherichia coli in the microbiomes of red Romaine lettuce (Lactuca sativa cv. ‘Outredgeous’) and mizuna mustard (Brassica rapa var. japonica) - does seed sanitization matter?",
+        "doi": "10.1186/s12866-021-02345-5",
+        "authors": [
+          "Dixit Anirudha R.",
+          "Khodadad Christina L. M.",
+          "Hummerick Mary E.",
+          "Spern Cory J.",
+          "Spencer LaShelle E.",
+          "Fischer Jason A.",
+          "Curry Aaron B.",
+          "Gooden Jennifer L.",
+          "Maldonado Vazquez Gretchen J.",
+          "Wheeler Raymond M.",
+          "Massa Gioia D.",
+          "Romeyn Matthew W."
+        ],
+        "summary": "Persistence of Escherichia coli in the microbiomes of red Romaine lettuce (Lactuca sativa cv. ‘Outredgeous’) and mizuna mustard (Brassica rapa var."
+      }
+    ],
+    "factors": [
+      "Treatment",
+      "Seed Sanitization",
+      "Organism Part"
+    ],
+    "contacts": [
+      {
+        "first_name": "Christina",
+        "last_name": "Khodadad",
+        "role": "Submitter",
+        "email": "christina.l.khodadad-1@nasa.gov"
+      },
+      {
+        "first_name": "Anirudha",
+        "last_name": "Dixit",
+        "role": "Co-Investigator",
+        "email": "anirudha.dixit@nasa.gov"
+      },
+      {
+        "first_name": "Mary E.",
+        "last_name": "Hummerick",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Cory J.",
+        "last_name": "Spern",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "LaShelle E.",
+        "last_name": "Spencer",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Jason A.",
+        "last_name": "Fischer",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Aaron B.",
+        "last_name": "Curry",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Jennifer L.",
+        "last_name": "Gooden",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Gretchen J.",
+        "last_name": "Maldonado Vazquez",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Raymond M.",
+        "last_name": "Wheeler",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Gioia D.",
+        "last_name": "Massa",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Matthew W.",
+        "last_name": "Romeyn",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Anirudha R.",
+        "last_name": "Dixit",
+        "role": "Author",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "MM_D21NCSan146L_S53_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D28NCUn159R_S84_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D7NCSan147L_S5_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D21PEcSan127bR_S66_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D28NCUn150L_S79_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_MMUns-EcPos-T0_S7_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Seeds"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "0"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D21PEcUn172L_S67_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D14PEcSan129R_S42_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D7NCUn151L_S7_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D7PEcUn175R_S24_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D14NCSan140L_S25_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D7PEcSan129L_S17_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D14NCUn158R_S36_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D14NCSan144R_S28_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D21PEcUn177R_S72_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D7PEcSan125R_S14_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D14PEcUn173R_S44_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D28PEcSan160BL_S87_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D21NCSan142L_S51_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D21PEcUn172R_S68_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D21NCUn151R_S56_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D14PEcSan121L_S39_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D14PEcUn174R_S46_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D21PEcSan122R_S62_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D21NCSan140L_S49_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D21NCUn157L_S59_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D7PEcSan129R_S18_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D7NCSan146L_S3_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D7NCUn157R_S12_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D14NCSan144L_S27_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D21PEcUn173R_S70_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_MMSan-ECPos-T0_S6_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Seeds"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "0"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D7NCUn151R_S8_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D14NCUn155L_S31_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D21PEcUn177L_S71_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_MMUns-EcNC-T0_S9_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Seeds"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "0"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D14NCUn156R_S34_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D14PEcSan120L_S37_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D14NCUn158L_S35_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D14NCSan140R_S26_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D7NCSan147R_S6_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D14PEcSan129L_S41_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D28NCSan149L_S77_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D21NCUn153R_S58_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D7PEcUn170L_S19_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D21PEcSan127bL_S65_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D14PEcUn176R_S48_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D28PEcUn174L_S93_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D14NCUn155R_S32_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D21PEcUn173L_S69_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D14PEcSan120R_S38_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D7NCUn157L_S11_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D28NCSan143R_S74_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D21PEcSan122L_S61_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D14PEcUn174L_S45_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D28NCSan149R_S78_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D21NCSan140R_S50_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D21NCUn153L_S57_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D21PEcSan127aL_S63_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D21NCSan142R_S52_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D21NCUn151L_S55_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D14PEcSan121R_S40_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D14PEcUn176L_S47_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D28PEcSan161R_S90_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D7PEcUn172R_S22_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D28NCSan143L_S73_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D7PEcUn170R_S20_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D7NCSan141L_S1_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D21PEcSan127aR_S64_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D7PEcSan126R_S16_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D28PEcUn176R_S96_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D28PEcUn174R_S94_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D28PEcUn171R_S92_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D28NCSan145L_S75_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D14NCSan147R_S30_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D28PEcSan160AL_S85_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D28NCUn154L_S81_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D14NCUn156L_S33_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D7NCUn154R_S10_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D28PEcSan160BR_S40_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D7NCSan141R_S2_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D28NCSan145R_S76_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D14NCSan147L_S29_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D28PEcUn171L_S91_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D28NCUn150R_S80_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D28PEcUn176L_S95_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D7PEcSan126L_S15_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D7NCUn154L_S9_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D7NCSan146R_S4_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D7PEcUn172L_S21_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_MMUns-No-T-T0_S10_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Seeds"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "0"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D28PEcSan161L_S89_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D14PEcUn173L_S43_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D7PEcSan125L_S13_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D7PEcUn175L_S23_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D28NCUn154R_S82_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D28PEcSan160AR_S86_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D21NCSan146R_S54_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D28NCUn159L_S83_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "MM_D21NCUn157R_S60_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Brassica rapa",
+          "Host Strain": "japonica",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "Hardware": "growth chamber",
+          "light source": "Flourescent",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "amplicon-sequencing",
+      "platform": "Illumina MiSeq",
+      "qc": {
+        "Read Depth": "229056"
+      },
+      "library": {
+        "Library Layout": "PAIRED"
+      },
+      "files": {
+        "raw": [
+          "GLDS-386_Amplicon_MM_D21NCSan146L_S53_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21NCSan146L_S53_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28NCUn159R_S84_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28NCUn159R_S84_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7NCSan147L_S5_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7NCSan147L_S5_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21PEcSan127bR_S66_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21PEcSan127bR_S66_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28NCUn150L_S79_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28NCUn150L_S79_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_MMUns-EcPos-T0_S7_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_MMUns-EcPos-T0_S7_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21PEcUn172L_S67_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21PEcUn172L_S67_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14PEcSan129R_S42_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14PEcSan129R_S42_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7NCUn151L_S7_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7NCUn151L_S7_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7PEcUn175R_S24_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7PEcUn175R_S24_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14NCSan140L_S25_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14NCSan140L_S25_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7PEcSan129L_S17_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7PEcSan129L_S17_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14NCUn158R_S36_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14NCUn158R_S36_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14NCSan144R_S28_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14NCSan144R_S28_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21PEcUn177R_S72_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21PEcUn177R_S72_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7PEcSan125R_S14_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7PEcSan125R_S14_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14PEcUn173R_S44_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14PEcUn173R_S44_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28PEcSan160BL_S87_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28PEcSan160BL_S87_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21NCSan142L_S51_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21NCSan142L_S51_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21PEcUn172R_S68_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21PEcUn172R_S68_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21NCUn151R_S56_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21NCUn151R_S56_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14PEcSan121L_S39_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14PEcSan121L_S39_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14PEcUn174R_S46_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14PEcUn174R_S46_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21PEcSan122R_S62_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21PEcSan122R_S62_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21NCSan140L_S49_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21NCSan140L_S49_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21NCUn157L_S59_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21NCUn157L_S59_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7PEcSan129R_S18_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7PEcSan129R_S18_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7NCSan146L_S3_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7NCSan146L_S3_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7NCUn157R_S12_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7NCUn157R_S12_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14NCSan144L_S27_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14NCSan144L_S27_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21PEcUn173R_S70_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21PEcUn173R_S70_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_MMSan-ECPos-T0_S6_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_MMSan-ECPos-T0_S6_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7NCUn151R_S8_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7NCUn151R_S8_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14NCUn155L_S31_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14NCUn155L_S31_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21PEcUn177L_S71_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21PEcUn177L_S71_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_MMUns-EcNC-T0_S9_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_MMUns-EcNC-T0_S9_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14NCUn156R_S34_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14NCUn156R_S34_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14PEcSan120L_S37_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14PEcSan120L_S37_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14NCUn158L_S35_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14NCUn158L_S35_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14NCSan140R_S26_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14NCSan140R_S26_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7NCSan147R_S6_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7NCSan147R_S6_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14PEcSan129L_S41_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14PEcSan129L_S41_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28NCSan149L_S77_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28NCSan149L_S77_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21NCUn153R_S58_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21NCUn153R_S58_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7PEcUn170L_S19_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7PEcUn170L_S19_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21PEcSan127bL_S65_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21PEcSan127bL_S65_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14PEcUn176R_S48_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14PEcUn176R_S48_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28PEcUn174L_S93_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28PEcUn174L_S93_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14NCUn155R_S32_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14NCUn155R_S32_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21PEcUn173L_S69_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21PEcUn173L_S69_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14PEcSan120R_S38_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14PEcSan120R_S38_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7NCUn157L_S11_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7NCUn157L_S11_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28NCSan143R_S74_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28NCSan143R_S74_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21PEcSan122L_S61_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21PEcSan122L_S61_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14PEcUn174L_S45_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14PEcUn174L_S45_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28NCSan149R_S78_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28NCSan149R_S78_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21NCSan140R_S50_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21NCSan140R_S50_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21NCUn153L_S57_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21NCUn153L_S57_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21PEcSan127aL_S63_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21PEcSan127aL_S63_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21NCSan142R_S52_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21NCSan142R_S52_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21NCUn151L_S55_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21NCUn151L_S55_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14PEcSan121R_S40_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14PEcSan121R_S40_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14PEcUn176L_S47_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14PEcUn176L_S47_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28PEcSan161R_S90_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28PEcSan161R_S90_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7PEcUn172R_S22_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7PEcUn172R_S22_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28NCSan143L_S73_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28NCSan143L_S73_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7PEcUn170R_S20_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7PEcUn170R_S20_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7NCSan141L_S1_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7NCSan141L_S1_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21PEcSan127aR_S64_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21PEcSan127aR_S64_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7PEcSan126R_S16_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7PEcSan126R_S16_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28PEcUn176R_S96_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28PEcUn176R_S96_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28PEcUn174R_S94_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28PEcUn174R_S94_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28PEcUn171R_S92_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28PEcUn171R_S92_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28NCSan145L_S75_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28NCSan145L_S75_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14NCSan147R_S30_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14NCSan147R_S30_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28PEcSan160AL_S85_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28PEcSan160AL_S85_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28NCUn154L_S81_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28NCUn154L_S81_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14NCUn156L_S33_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14NCUn156L_S33_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7NCUn154R_S10_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7NCUn154R_S10_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28PEcSan160BR_S40_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28PEcSan160BR_S40_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7NCSan141R_S2_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7NCSan141R_S2_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28NCSan145R_S76_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28NCSan145R_S76_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14NCSan147L_S29_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14NCSan147L_S29_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28PEcUn171L_S91_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28PEcUn171L_S91_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28NCUn150R_S80_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28NCUn150R_S80_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28PEcUn176L_S95_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28PEcUn176L_S95_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7PEcSan126L_S15_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7PEcSan126L_S15_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7NCUn154L_S9_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7NCUn154L_S9_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7NCSan146R_S4_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7NCSan146R_S4_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7PEcUn172L_S21_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7PEcUn172L_S21_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_MMUns-No-T-T0_S10_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_MMUns-No-T-T0_S10_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28PEcSan161L_S89_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28PEcSan161L_S89_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14PEcUn173L_S43_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D14PEcUn173L_S43_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7PEcSan125L_S13_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7PEcSan125L_S13_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7PEcUn175L_S23_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D7PEcUn175L_S23_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28NCUn154R_S82_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28NCUn154R_S82_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28PEcSan160AR_S86_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28PEcSan160AR_S86_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21NCSan146R_S54_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21NCSan146R_S54_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28NCUn159L_S83_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D28NCUn159L_S83_L001_R2_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21NCUn157R_S60_L001_R1_raw.fastq.gz",
+          "GLDS-386_Amplicon_MM_D21NCUn157R_S60_L001_R2_raw.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21NCSan146L_S53_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21NCSan146L_S53_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28NCUn159R_S84_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28NCUn159R_S84_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7NCSan147L_S5_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7NCSan147L_S5_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21PEcSan127bR_S66_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21PEcSan127bR_S66_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28NCUn150L_S79_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28NCUn150L_S79_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_MMUns-EcPos-T0_S7_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_MMUns-EcPos-T0_S7_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21PEcUn172L_S67_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21PEcUn172L_S67_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14PEcSan129R_S42_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14PEcSan129R_S42_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7NCUn151L_S7_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7NCUn151L_S7_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7PEcUn175R_S24_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7PEcUn175R_S24_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14NCSan140L_S25_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14NCSan140L_S25_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7PEcSan129L_S17_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7PEcSan129L_S17_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14NCUn158R_S36_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14NCUn158R_S36_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14NCSan144R_S28_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14NCSan144R_S28_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21PEcUn177R_S72_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21PEcUn177R_S72_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7PEcSan125R_S14_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7PEcSan125R_S14_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14PEcUn173R_S44_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14PEcUn173R_S44_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28PEcSan160BL_S87_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28PEcSan160BL_S87_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21NCSan142L_S51_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21NCSan142L_S51_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21PEcUn172R_S68_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21PEcUn172R_S68_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21NCUn151R_S56_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21NCUn151R_S56_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14PEcSan121L_S39_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14PEcSan121L_S39_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14PEcUn174R_S46_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14PEcUn174R_S46_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21PEcSan122R_S62_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21PEcSan122R_S62_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21NCSan140L_S49_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21NCSan140L_S49_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21NCUn157L_S59_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21NCUn157L_S59_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7PEcSan129R_S18_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7PEcSan129R_S18_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7NCSan146L_S3_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7NCSan146L_S3_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7NCUn157R_S12_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7NCUn157R_S12_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14NCSan144L_S27_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14NCSan144L_S27_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21PEcUn173R_S70_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21PEcUn173R_S70_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_MMSan-ECPos-T0_S6_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_MMSan-ECPos-T0_S6_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7NCUn151R_S8_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7NCUn151R_S8_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14NCUn155L_S31_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14NCUn155L_S31_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21PEcUn177L_S71_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21PEcUn177L_S71_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_MMUns-EcNC-T0_S9_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_MMUns-EcNC-T0_S9_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14NCUn156R_S34_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14NCUn156R_S34_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14PEcSan120L_S37_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14PEcSan120L_S37_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14NCUn158L_S35_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14NCUn158L_S35_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14NCSan140R_S26_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14NCSan140R_S26_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7NCSan147R_S6_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7NCSan147R_S6_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14PEcSan129L_S41_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14PEcSan129L_S41_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28NCSan149L_S77_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28NCSan149L_S77_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21NCUn153R_S58_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21NCUn153R_S58_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7PEcUn170L_S19_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7PEcUn170L_S19_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21PEcSan127bL_S65_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21PEcSan127bL_S65_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14PEcUn176R_S48_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14PEcUn176R_S48_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28PEcUn174L_S93_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28PEcUn174L_S93_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14NCUn155R_S32_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14NCUn155R_S32_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21PEcUn173L_S69_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21PEcUn173L_S69_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14PEcSan120R_S38_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14PEcSan120R_S38_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7NCUn157L_S11_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7NCUn157L_S11_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28NCSan143R_S74_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28NCSan143R_S74_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21PEcSan122L_S61_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21PEcSan122L_S61_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14PEcUn174L_S45_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14PEcUn174L_S45_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28NCSan149R_S78_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28NCSan149R_S78_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21NCSan140R_S50_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21NCSan140R_S50_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21NCUn153L_S57_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21NCUn153L_S57_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21PEcSan127aL_S63_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21PEcSan127aL_S63_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21NCSan142R_S52_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21NCSan142R_S52_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21NCUn151L_S55_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21NCUn151L_S55_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14PEcSan121R_S40_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14PEcSan121R_S40_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14PEcUn176L_S47_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14PEcUn176L_S47_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28PEcSan161R_S90_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28PEcSan161R_S90_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7PEcUn172R_S22_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7PEcUn172R_S22_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28NCSan143L_S73_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28NCSan143L_S73_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7PEcUn170R_S20_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7PEcUn170R_S20_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7NCSan141L_S1_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7NCSan141L_S1_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21PEcSan127aR_S64_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21PEcSan127aR_S64_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7PEcSan126R_S16_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7PEcSan126R_S16_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28PEcUn176R_S96_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28PEcUn176R_S96_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28PEcUn174R_S94_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28PEcUn174R_S94_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28PEcUn171R_S92_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28PEcUn171R_S92_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28NCSan145L_S75_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28NCSan145L_S75_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14NCSan147R_S30_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14NCSan147R_S30_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28PEcSan160AL_S85_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28PEcSan160AL_S85_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28NCUn154L_S81_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28NCUn154L_S81_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14NCUn156L_S33_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14NCUn156L_S33_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7NCUn154R_S10_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7NCUn154R_S10_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28PEcSan160BR_S40_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28PEcSan160BR_S40_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7NCSan141R_S2_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7NCSan141R_S2_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28NCSan145R_S76_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28NCSan145R_S76_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14NCSan147L_S29_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14NCSan147L_S29_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28PEcUn171L_S91_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28PEcUn171L_S91_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28NCUn150R_S80_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28NCUn150R_S80_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28PEcUn176L_S95_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28PEcUn176L_S95_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7PEcSan126L_S15_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7PEcSan126L_S15_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7NCUn154L_S9_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7NCUn154L_S9_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7NCSan146R_S4_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7NCSan146R_S4_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7PEcUn172L_S21_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7PEcUn172L_S21_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_MMUns-No-T-T0_S10_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_MMUns-No-T-T0_S10_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28PEcSan161L_S89_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28PEcSan161L_S89_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14PEcUn173L_S43_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D14PEcUn173L_S43_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7PEcSan125L_S13_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7PEcSan125L_S13_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7PEcUn175L_S23_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D7PEcUn175L_S23_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28NCUn154R_S82_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28NCUn154R_S82_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28PEcSan160AR_S86_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28PEcSan160AR_S86_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21NCSan146R_S54_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21NCSan146R_S54_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28NCUn159L_S83_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D28NCUn159L_S83_L001_R2_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21NCUn157R_S60_L001_R1_filtered.fastq.gz",
+          "GLDS-386_GAmplicon_MM_D21NCUn157R_S60_L001_R2_filtered.fastq.gz"
+        ],
+        "processed": [
+          "MM_D21NCSan146L_S53_L001",
+          "GeneLab amplicon-seq data processing protocol",
+          "F",
+          "5'-GTGCCAGCMGCCGCGGTAA-3'  R",
+          "5'-GGACTACHVGGGTWTCTAAT-3'",
+          "PAIRED",
+          "AMPLICON",
+          "16S",
+          "Illumina MiSeq",
+          "250",
+          "read",
+          "SO",
+          "http://purl.obolibrary.org/obo/SO_0000150",
+          "amplicon sequencing",
+          "229056",
+          "GLDS-386_GAmplicon_README.txt",
+          "GLDS-386_GAmplicon_filtered-read-counts_GLAmpSeq.tsv",
+          "GLDS-386_GAmplicon_ASVs_GLAmpSeq.fasta",
+          "GLDS-386_GAmplicon_counts_GLAmpSeq.tsv",
+          "GLDS-386_GAmplicon_read-count-tracking_GLAmpSeq.tsv",
+          "GLDS-386_GAmplicon_taxonomy-and-counts_GLAmpSeq.biom.zip",
+          "GLDS-386_GAmplicon_taxonomy-and-counts_GLAmpSeq.tsv",
+          "GLDS-386_GAmplicon_taxonomy_GLAmpSeq.tsv",
+          "GLDS-386_GAmplicon_processing_info.zip",
+          "MM_D28NCUn159R_S84_L001",
+          "278116",
+          "MM_D7NCSan147L_S5_L001",
+          "194383",
+          "MM_D21PEcSan127bR_S66_L001",
+          "250288",
+          "MM_D28NCUn150L_S79_L001",
+          "274031",
+          "MM_MMUns-EcPos-T0_S7_L001",
+          "517663",
+          "MM_D21PEcUn172L_S67_L001",
+          "238133",
+          "MM_D14PEcSan129R_S42_L001",
+          "176536",
+          "MM_D7NCUn151L_S7_L001",
+          "259420",
+          "MM_D7PEcUn175R_S24_L001",
+          "220910",
+          "MM_D14NCSan140L_S25_L001",
+          "226595",
+          "MM_D7PEcSan129L_S17_L001",
+          "199130",
+          "MM_D14NCUn158R_S36_L001",
+          "246160",
+          "MM_D14NCSan144R_S28_L001",
+          "203096",
+          "MM_D21PEcUn177R_S72_L001",
+          "284129",
+          "MM_D7PEcSan125R_S14_L001",
+          "238388",
+          "MM_D14PEcUn173R_S44_L001",
+          "201071",
+          "MM_D28PEcSan160BL_S87_L001",
+          "252264",
+          "MM_D21NCSan142L_S51_L001",
+          "260815",
+          "MM_D21PEcUn172R_S68_L001",
+          "245656",
+          "MM_D21NCUn151R_S56_L001",
+          "200025",
+          "MM_D14PEcSan121L_S39_L001",
+          "243043",
+          "MM_D14PEcUn174R_S46_L001",
+          "237826",
+          "MM_D21PEcSan122R_S62_L001",
+          "237688",
+          "MM_D21NCSan140L_S49_L001",
+          "246219",
+          "MM_D21NCUn157L_S59_L001",
+          "236135",
+          "MM_D7PEcSan129R_S18_L001",
+          "222868",
+          "MM_D7NCSan146L_S3_L001",
+          "252278",
+          "MM_D7NCUn157R_S12_L001",
+          "206763",
+          "MM_D14NCSan144L_S27_L001",
+          "247838",
+          "MM_D21PEcUn173R_S70_L001",
+          "270708",
+          "MM_MMSan-ECPos-T0_S6_L001",
+          "70573",
+          "MM_D7NCUn151R_S8_L001",
+          "210235",
+          "MM_D14NCUn155L_S31_L001",
+          "284097",
+          "MM_D21PEcUn177L_S71_L001",
+          "215982",
+          "MM_MMUns-EcNC-T0_S9_L001",
+          "527921",
+          "MM_D14NCUn156R_S34_L001",
+          "255216",
+          "MM_D14PEcSan120L_S37_L001",
+          "244186",
+          "MM_D14NCUn158L_S35_L001",
+          "224722",
+          "MM_D14NCSan140R_S26_L001",
+          "249242",
+          "MM_D7NCSan147R_S6_L001",
+          "209502",
+          "MM_D14PEcSan129L_S41_L001",
+          "228407",
+          "MM_D28NCSan149L_S77_L001",
+          "237021",
+          "MM_D21NCUn153R_S58_L001",
+          "216422",
+          "MM_D7PEcUn170L_S19_L001",
+          "233610",
+          "MM_D21PEcSan127bL_S65_L001",
+          "202467",
+          "MM_D14PEcUn176R_S48_L001",
+          "219076",
+          "MM_D28PEcUn174L_S93_L001",
+          "309284",
+          "MM_D14NCUn155R_S32_L001",
+          "244701",
+          "MM_D21PEcUn173L_S69_L001",
+          "252981",
+          "MM_D14PEcSan120R_S38_L001",
+          "223596",
+          "MM_D7NCUn157L_S11_L001",
+          "206313",
+          "MM_D28NCSan143R_S74_L001",
+          "304070",
+          "MM_D21PEcSan122L_S61_L001",
+          "249283",
+          "MM_D14PEcUn174L_S45_L001",
+          "242006",
+          "MM_D28NCSan149R_S78_L001",
+          "272850",
+          "MM_D21NCSan140R_S50_L001",
+          "281082",
+          "MM_D21NCUn153L_S57_L001",
+          "290207",
+          "MM_D21PEcSan127aL_S63_L001",
+          "263567",
+          "MM_D21NCSan142R_S52_L001",
+          "233594",
+          "MM_D21NCUn151L_S55_L001",
+          "258150",
+          "MM_D14PEcSan121R_S40_L001",
+          "201968",
+          "MM_D14PEcUn176L_S47_L001",
+          "215863",
+          "MM_D28PEcSan161R_S90_L001",
+          "214432",
+          "MM_D7PEcUn172R_S22_L001",
+          "219279",
+          "MM_D28NCSan143L_S73_L001",
+          "314276",
+          "MM_D7PEcUn170R_S20_L001",
+          "172827",
+          "MM_D7NCSan141L_S1_L001",
+          "227856",
+          "MM_D21PEcSan127aR_S64_L001",
+          "234813",
+          "MM_D7PEcSan126R_S16_L001",
+          "210292",
+          "MM_D28PEcUn176R_S96_L001",
+          "196869",
+          "MM_D28PEcUn174R_S94_L001",
+          "228301",
+          "MM_D28PEcUn171R_S92_L001",
+          "238623",
+          "MM_D28NCSan145L_S75_L001",
+          "298817",
+          "MM_D14NCSan147R_S30_L001",
+          "242136",
+          "MM_D28PEcSan160AL_S85_L001",
+          "242383",
+          "MM_D28NCUn154L_S81_L001",
+          "309718",
+          "MM_D14NCUn156L_S33_L001",
+          "287690",
+          "MM_D7NCUn154R_S10_L001",
+          "198160",
+          "MM_D28PEcSan160BR_S40_L001",
+          "4599",
+          "MM_D7NCSan141R_S2_L001",
+          "186489",
+          "MM_D28NCSan145R_S76_L001",
+          "278524",
+          "MM_D14NCSan147L_S29_L001",
+          "245563",
+          "MM_D28PEcUn171L_S91_L001",
+          "271604",
+          "MM_D28NCUn150R_S80_L001",
+          "292765",
+          "MM_D28PEcUn176L_S95_L001",
+          "213217",
+          "MM_D7PEcSan126L_S15_L001",
+          "243723",
+          "MM_D7NCUn154L_S9_L001",
+          "250724",
+          "MM_D7NCSan146R_S4_L001",
+          "219622",
+          "MM_D7PEcUn172L_S21_L001",
+          "262735",
+          "MM_MMUns-No-T-T0_S10_L001",
+          "491869",
+          "MM_D28PEcSan161L_S89_L001",
+          "223780",
+          "MM_D14PEcUn173L_S43_L001",
+          "253679",
+          "MM_D7PEcSan125L_S13_L001",
+          "261425",
+          "MM_D7PEcUn175L_S23_L001",
+          "198909",
+          "MM_D28NCUn154R_S82_L001",
+          "239975",
+          "MM_D28PEcSan160AR_S86_L001",
+          "231695",
+          "MM_D21NCSan146R_S54_L001",
+          "219609",
+          "MM_D28NCUn159L_S83_L001",
+          "272925",
+          "MM_D21NCUn157R_S60_L001",
+          "224008"
+        ],
+        "reports": [
+          "GLDS-386_GAmplicon_raw_multiqc_report.zip",
+          "GLDS-386_GAmplicon_filtered_multiqc_GLAmpSeq_report.zip"
+        ]
+      }
+    }
+  ]
+}

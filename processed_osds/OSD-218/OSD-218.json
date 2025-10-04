@@ -1,0 +1,1708 @@
+{
+  "investigation": {
+    "id": "OSD-218",
+    "title": "Plant development on ISS differs from the development on the ground and is influenced by the genetic background",
+    "description": "The development of Col-0 and WS plants on orbit differs from that on the ground as demonstrated by the comparison of the gene expression profiles between 4 days old to 8 days old plant in the two environments. The Col-0 plants used different genes reflecting different physiological processes than WS plants, suggesting the role of the genetic background in the developmental decisions.",
+    "mission": {
+      "name": "SpaceX-5",
+      "start_date": "01/10/2015",
+      "end_date": "02/11/2015",
+      "link": "https://osdr.nasa.gov/bio/repo/data/missions/SpaceX-5"
+    },
+    "project": {
+      "identifier": "APEX03-2",
+      "title": "",
+      "type": "Spaceflight Study",
+      "link": "",
+      "funding": "NASA Space Biology Program (award # NNX12AN69G)",
+      "managing_center": "Kennedy Space Center (KSC)"
+    },
+    "protocols": [
+      "growth protocol",
+      "sample collection",
+      "Nucleic Acid Extraction",
+      "Library Construction",
+      "Nucleic Acid Sequencing",
+      "GeneLab raw data processing protocol",
+      "GeneLab RNAseq data processing protocol"
+    ],
+    "publications": [],
+    "factors": [
+      "Age",
+      "Spaceflight",
+      "Cultivar"
+    ],
+    "contacts": [
+      {
+        "first_name": "Robert",
+        "last_name": "Ferl",
+        "role": "conceptualization role",
+        "email": "robferl@ufl.edu"
+      },
+      {
+        "first_name": "Agata",
+        "last_name": "Zupanska",
+        "role": "submitter",
+        "email": ""
+      },
+      {
+        "first_name": "Anna-Lisa",
+        "last_name": "Paul",
+        "role": "submitter",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "SAMN06465201",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "organism part": "root",
+          "Seed Source": "",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Age": "4",
+          "Spaceflight": "Ground Control",
+          "Cultivar": "Col-0"
+        },
+        "parameters": {
+          "light source": "Light Emitting Diode Device",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Growth time": "4",
+          "growth environment": "ISSES",
+          "Growth Medium": "0.5% Phytagel 0.5x MS media",
+          "Mean Growth Temperature": "14.655",
+          "Light quality": "",
+          "light cycle": "",
+          "Light intensity": "100-135",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Title": "Ground Control, 4 days old, Col-0 Rep1"
+        }
+      },
+      {
+        "sample_name": "SAMN06465179",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "organism part": "root",
+          "Seed Source": "",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Age": "4",
+          "Spaceflight": "Ground Control",
+          "Cultivar": "Col-0"
+        },
+        "parameters": {
+          "light source": "Light Emitting Diode Device",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Growth time": "4",
+          "growth environment": "ISSES",
+          "Growth Medium": "0.5% Phytagel 0.5x MS media",
+          "Mean Growth Temperature": "14.655",
+          "Light quality": "",
+          "light cycle": "",
+          "Light intensity": "100-135",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Title": "Ground Control, 4 days old, Col-0 Rep2"
+        }
+      },
+      {
+        "sample_name": "SAMN06465197",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "organism part": "root",
+          "Seed Source": "",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Age": "4",
+          "Spaceflight": "Ground Control",
+          "Cultivar": "Col-0"
+        },
+        "parameters": {
+          "light source": "Light Emitting Diode Device",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Growth time": "4",
+          "growth environment": "ISSES",
+          "Growth Medium": "0.5% Phytagel 0.5x MS media",
+          "Mean Growth Temperature": "14.655",
+          "Light quality": "",
+          "light cycle": "",
+          "Light intensity": "100-135",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Title": "Ground Control, 4 days old, Col-0 Rep3"
+        }
+      },
+      {
+        "sample_name": "SAMN06465194",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "organism part": "root",
+          "Seed Source": "",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Age": "4",
+          "Spaceflight": "Ground Control",
+          "Cultivar": "Col-0"
+        },
+        "parameters": {
+          "light source": "Light Emitting Diode Device",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Growth time": "4",
+          "growth environment": "ISSES",
+          "Growth Medium": "0.5% Phytagel 0.5x MS media",
+          "Mean Growth Temperature": "14.655",
+          "Light quality": "",
+          "light cycle": "",
+          "Light intensity": "100-135",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Title": "Ground Control, 4 days old, Col-0 Rep4"
+        }
+      },
+      {
+        "sample_name": "SAMN06465190",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "organism part": "root",
+          "Seed Source": "",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Age": "4",
+          "Spaceflight": "Space Flight",
+          "Cultivar": "Col-0"
+        },
+        "parameters": {
+          "light source": "Light Emitting Diode Device",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Growth time": "4",
+          "growth environment": "ISS",
+          "Growth Medium": "0.5% Phytagel 0.5x MS media",
+          "Mean Growth Temperature": "15.687",
+          "Light quality": "",
+          "light cycle": "",
+          "Light intensity": "100-135",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Title": "Spaceflight, 4 days old, Col-0 Rep1"
+        }
+      },
+      {
+        "sample_name": "SAMN06465187",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "organism part": "root",
+          "Seed Source": "",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Age": "4",
+          "Spaceflight": "Space Flight",
+          "Cultivar": "Col-0"
+        },
+        "parameters": {
+          "light source": "Light Emitting Diode Device",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Growth time": "4",
+          "growth environment": "ISS",
+          "Growth Medium": "0.5% Phytagel 0.5x MS media",
+          "Mean Growth Temperature": "15.687",
+          "Light quality": "",
+          "light cycle": "",
+          "Light intensity": "100-135",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Title": "Spaceflight, 4 days old, Col-0 Rep2"
+        }
+      },
+      {
+        "sample_name": "SAMN06465183",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "organism part": "root",
+          "Seed Source": "",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Age": "4",
+          "Spaceflight": "Space Flight",
+          "Cultivar": "Col-0"
+        },
+        "parameters": {
+          "light source": "Light Emitting Diode Device",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Growth time": "4",
+          "growth environment": "ISS",
+          "Growth Medium": "0.5% Phytagel 0.5x MS media",
+          "Mean Growth Temperature": "15.687",
+          "Light quality": "",
+          "light cycle": "",
+          "Light intensity": "100-135",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Title": "Spaceflight, 4 days old, Col-0 Rep3"
+        }
+      },
+      {
+        "sample_name": "SAMN06465181",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "organism part": "root",
+          "Seed Source": "",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Age": "4",
+          "Spaceflight": "Space Flight",
+          "Cultivar": "Col-0"
+        },
+        "parameters": {
+          "light source": "Light Emitting Diode Device",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Growth time": "4",
+          "growth environment": "ISS",
+          "Growth Medium": "0.5% Phytagel 0.5x MS media",
+          "Mean Growth Temperature": "15.687",
+          "Light quality": "",
+          "light cycle": "",
+          "Light intensity": "100-135",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Title": "Spaceflight, 4 days old, Col-0 Rep4"
+        }
+      },
+      {
+        "sample_name": "SAMN06465177",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "organism part": "root",
+          "Seed Source": "",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Age": "4",
+          "Spaceflight": "Ground Control",
+          "Cultivar": "WS"
+        },
+        "parameters": {
+          "light source": "Light Emitting Diode Device",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Growth time": "4",
+          "growth environment": "ISSES",
+          "Growth Medium": "0.5% Phytagel 0.5x MS media",
+          "Mean Growth Temperature": "14.655",
+          "Light quality": "",
+          "light cycle": "",
+          "Light intensity": "100-135",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Title": "Ground Control, 4 days old, WS Rep1"
+        }
+      },
+      {
+        "sample_name": "SAMN06465174",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "organism part": "root",
+          "Seed Source": "",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Age": "4",
+          "Spaceflight": "Ground Control",
+          "Cultivar": "WS"
+        },
+        "parameters": {
+          "light source": "Light Emitting Diode Device",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Growth time": "4",
+          "growth environment": "ISSES",
+          "Growth Medium": "0.5% Phytagel 0.5x MS media",
+          "Mean Growth Temperature": "14.655",
+          "Light quality": "",
+          "light cycle": "",
+          "Light intensity": "100-135",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Title": "Ground Control, 4 days old, WS Rep2"
+        }
+      },
+      {
+        "sample_name": "SAMN06465172",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "organism part": "root",
+          "Seed Source": "",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Age": "4",
+          "Spaceflight": "Ground Control",
+          "Cultivar": "WS"
+        },
+        "parameters": {
+          "light source": "Light Emitting Diode Device",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Growth time": "4",
+          "growth environment": "ISSES",
+          "Growth Medium": "0.5% Phytagel 0.5x MS media",
+          "Mean Growth Temperature": "14.655",
+          "Light quality": "",
+          "light cycle": "",
+          "Light intensity": "100-135",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Title": "Ground Control, 4 days old, WS Rep3"
+        }
+      },
+      {
+        "sample_name": "SAMN06465170",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "organism part": "root",
+          "Seed Source": "",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Age": "4",
+          "Spaceflight": "Ground Control",
+          "Cultivar": "WS"
+        },
+        "parameters": {
+          "light source": "Light Emitting Diode Device",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Growth time": "4",
+          "growth environment": "ISSES",
+          "Growth Medium": "0.5% Phytagel 0.5x MS media",
+          "Mean Growth Temperature": "14.655",
+          "Light quality": "",
+          "light cycle": "",
+          "Light intensity": "100-135",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Title": "Ground Control, 4 days old, WS Rep4"
+        }
+      },
+      {
+        "sample_name": "SAMN06465168",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "organism part": "root",
+          "Seed Source": "",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Age": "4",
+          "Spaceflight": "Space Flight",
+          "Cultivar": "WS"
+        },
+        "parameters": {
+          "light source": "Light Emitting Diode Device",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Growth time": "4",
+          "growth environment": "ISS",
+          "Growth Medium": "0.5% Phytagel 0.5x MS media",
+          "Mean Growth Temperature": "15.687",
+          "Light quality": "",
+          "light cycle": "",
+          "Light intensity": "100-135",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Title": "Spaceflight, 4 days old, WS Rep1"
+        }
+      },
+      {
+        "sample_name": "SAMN06465165",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "organism part": "root",
+          "Seed Source": "",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Age": "4",
+          "Spaceflight": "Space Flight",
+          "Cultivar": "WS"
+        },
+        "parameters": {
+          "light source": "Light Emitting Diode Device",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Growth time": "4",
+          "growth environment": "ISS",
+          "Growth Medium": "0.5% Phytagel 0.5x MS media",
+          "Mean Growth Temperature": "15.687",
+          "Light quality": "",
+          "light cycle": "",
+          "Light intensity": "100-135",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Title": "Spaceflight, 4 days old, WS Rep2"
+        }
+      },
+      {
+        "sample_name": "SAMN06465163",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "organism part": "root",
+          "Seed Source": "",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Age": "4",
+          "Spaceflight": "Space Flight",
+          "Cultivar": "WS"
+        },
+        "parameters": {
+          "light source": "Light Emitting Diode Device",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Growth time": "4",
+          "growth environment": "ISS",
+          "Growth Medium": "0.5% Phytagel 0.5x MS media",
+          "Mean Growth Temperature": "15.687",
+          "Light quality": "",
+          "light cycle": "",
+          "Light intensity": "100-135",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Title": "Spaceflight, 4 days old, WS Rep3"
+        }
+      },
+      {
+        "sample_name": "SAMN06465160",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "organism part": "root",
+          "Seed Source": "",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Age": "4",
+          "Spaceflight": "Space Flight",
+          "Cultivar": "WS"
+        },
+        "parameters": {
+          "light source": "Light Emitting Diode Device",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Growth time": "4",
+          "growth environment": "ISS",
+          "Growth Medium": "0.5% Phytagel 0.5x MS media",
+          "Mean Growth Temperature": "15.687",
+          "Light quality": "",
+          "light cycle": "",
+          "Light intensity": "100-135",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Title": "Spaceflight, 4 days old, WS Rep4"
+        }
+      },
+      {
+        "sample_name": "SAMN06465157",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "organism part": "root",
+          "Seed Source": "",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Age": "8",
+          "Spaceflight": "Ground Control",
+          "Cultivar": "Col-0"
+        },
+        "parameters": {
+          "light source": "Light Emitting Diode Device",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Growth time": "8",
+          "growth environment": "ISSES",
+          "Growth Medium": "0.5% Phytagel 0.5x MS media",
+          "Mean Growth Temperature": "14.655",
+          "Light quality": "",
+          "light cycle": "",
+          "Light intensity": "100-135",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Title": "Ground Control, 8 days old, Col-0 Rep1"
+        }
+      },
+      {
+        "sample_name": "SAMN06465155",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "organism part": "root",
+          "Seed Source": "",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Age": "8",
+          "Spaceflight": "Ground Control",
+          "Cultivar": "Col-0"
+        },
+        "parameters": {
+          "light source": "Light Emitting Diode Device",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Growth time": "8",
+          "growth environment": "ISSES",
+          "Growth Medium": "0.5% Phytagel 0.5x MS media",
+          "Mean Growth Temperature": "14.655",
+          "Light quality": "",
+          "light cycle": "",
+          "Light intensity": "100-135",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Title": "Ground Control, 8 days old, Col-0 Rep2"
+        }
+      },
+      {
+        "sample_name": "SAMN06465152",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "organism part": "root",
+          "Seed Source": "",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Age": "8",
+          "Spaceflight": "Ground Control",
+          "Cultivar": "Col-0"
+        },
+        "parameters": {
+          "light source": "Light Emitting Diode Device",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Growth time": "8",
+          "growth environment": "ISSES",
+          "Growth Medium": "0.5% Phytagel 0.5x MS media",
+          "Mean Growth Temperature": "14.655",
+          "Light quality": "",
+          "light cycle": "",
+          "Light intensity": "100-135",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Title": "Ground Control, 8 days old, Col-0 Rep3"
+        }
+      },
+      {
+        "sample_name": "SAMN06465150",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "organism part": "root",
+          "Seed Source": "",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Age": "8",
+          "Spaceflight": "Ground Control",
+          "Cultivar": "Col-0"
+        },
+        "parameters": {
+          "light source": "Light Emitting Diode Device",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Growth time": "8",
+          "growth environment": "ISSES",
+          "Growth Medium": "0.5% Phytagel 0.5x MS media",
+          "Mean Growth Temperature": "14.655",
+          "Light quality": "",
+          "light cycle": "",
+          "Light intensity": "100-135",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Title": "Ground Control, 8 days old, Col-0 Rep4"
+        }
+      },
+      {
+        "sample_name": "SAMN06465148",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "organism part": "root",
+          "Seed Source": "",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Age": "8",
+          "Spaceflight": "Space Flight",
+          "Cultivar": "Col-0"
+        },
+        "parameters": {
+          "light source": "Light Emitting Diode Device",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Growth time": "8",
+          "growth environment": "ISS",
+          "Growth Medium": "0.5% Phytagel 0.5x MS media",
+          "Mean Growth Temperature": "15.687",
+          "Light quality": "",
+          "light cycle": "",
+          "Light intensity": "100-135",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Title": "Spaceflight, 8 days old, Col-0 Rep1"
+        }
+      },
+      {
+        "sample_name": "SAMN06465146",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "organism part": "root",
+          "Seed Source": "",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Age": "8",
+          "Spaceflight": "Space Flight",
+          "Cultivar": "Col-0"
+        },
+        "parameters": {
+          "light source": "Light Emitting Diode Device",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Growth time": "8",
+          "growth environment": "ISS",
+          "Growth Medium": "0.5% Phytagel 0.5x MS media",
+          "Mean Growth Temperature": "15.687",
+          "Light quality": "",
+          "light cycle": "",
+          "Light intensity": "100-135",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Title": "Spaceflight, 8 days old, Col-0 Rep2"
+        }
+      },
+      {
+        "sample_name": "SAMN06465144",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "organism part": "root",
+          "Seed Source": "",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Age": "8",
+          "Spaceflight": "Space Flight",
+          "Cultivar": "Col-0"
+        },
+        "parameters": {
+          "light source": "Light Emitting Diode Device",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Growth time": "8",
+          "growth environment": "ISS",
+          "Growth Medium": "0.5% Phytagel 0.5x MS media",
+          "Mean Growth Temperature": "15.687",
+          "Light quality": "",
+          "light cycle": "",
+          "Light intensity": "100-135",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Title": "Spaceflight, 8 days old, Col-0 Rep3"
+        }
+      },
+      {
+        "sample_name": "SAMN06465142",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "organism part": "root",
+          "Seed Source": "",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Age": "8",
+          "Spaceflight": "Space Flight",
+          "Cultivar": "Col-0"
+        },
+        "parameters": {
+          "light source": "Light Emitting Diode Device",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Growth time": "8",
+          "growth environment": "ISS",
+          "Growth Medium": "0.5% Phytagel 0.5x MS media",
+          "Mean Growth Temperature": "15.687",
+          "Light quality": "",
+          "light cycle": "",
+          "Light intensity": "100-135",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Title": "Spaceflight, 8 days old, Col-0 Rep4"
+        }
+      },
+      {
+        "sample_name": "SAMN06465276",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "organism part": "root",
+          "Seed Source": "",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Age": "8",
+          "Spaceflight": "Ground Control",
+          "Cultivar": "WS"
+        },
+        "parameters": {
+          "light source": "Light Emitting Diode Device",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Growth time": "8",
+          "growth environment": "ISSES",
+          "Growth Medium": "0.5% Phytagel 0.5x MS media",
+          "Mean Growth Temperature": "14.655",
+          "Light quality": "",
+          "light cycle": "",
+          "Light intensity": "100-135",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Title": "Ground Control, 8 days old, WS Rep1"
+        }
+      },
+      {
+        "sample_name": "SAMN06465275",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "organism part": "root",
+          "Seed Source": "",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Age": "8",
+          "Spaceflight": "Ground Control",
+          "Cultivar": "WS"
+        },
+        "parameters": {
+          "light source": "Light Emitting Diode Device",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Growth time": "8",
+          "growth environment": "ISSES",
+          "Growth Medium": "0.5% Phytagel 0.5x MS media",
+          "Mean Growth Temperature": "14.655",
+          "Light quality": "",
+          "light cycle": "",
+          "Light intensity": "100-135",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Title": "Ground Control, 8 days old, WS Rep2"
+        }
+      },
+      {
+        "sample_name": "SAMN06465273",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "organism part": "root",
+          "Seed Source": "",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Age": "8",
+          "Spaceflight": "Ground Control",
+          "Cultivar": "WS"
+        },
+        "parameters": {
+          "light source": "Light Emitting Diode Device",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Growth time": "8",
+          "growth environment": "ISSES",
+          "Growth Medium": "0.5% Phytagel 0.5x MS media",
+          "Mean Growth Temperature": "14.655",
+          "Light quality": "",
+          "light cycle": "",
+          "Light intensity": "100-135",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Title": "Ground Control, 8 days old, WS Rep3"
+        }
+      },
+      {
+        "sample_name": "SAMN06465272",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "organism part": "root",
+          "Seed Source": "",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Age": "8",
+          "Spaceflight": "Ground Control",
+          "Cultivar": "WS"
+        },
+        "parameters": {
+          "light source": "Light Emitting Diode Device",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Growth time": "8",
+          "growth environment": "ISSES",
+          "Growth Medium": "0.5% Phytagel 0.5x MS media",
+          "Mean Growth Temperature": "14.655",
+          "Light quality": "",
+          "light cycle": "",
+          "Light intensity": "100-135",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Title": "Ground Control, 8 days old, WS Rep4"
+        }
+      },
+      {
+        "sample_name": "SAMN06465270",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "organism part": "root",
+          "Seed Source": "",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Age": "8",
+          "Spaceflight": "Space Flight",
+          "Cultivar": "WS"
+        },
+        "parameters": {
+          "light source": "Light Emitting Diode Device",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Growth time": "8",
+          "growth environment": "ISS",
+          "Growth Medium": "0.5% Phytagel 0.5x MS media",
+          "Mean Growth Temperature": "15.687",
+          "Light quality": "",
+          "light cycle": "",
+          "Light intensity": "100-135",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Title": "Spaceflight, 8 days old, WS Rep1"
+        }
+      },
+      {
+        "sample_name": "SAMN06465269",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "organism part": "root",
+          "Seed Source": "",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Age": "8",
+          "Spaceflight": "Space Flight",
+          "Cultivar": "WS"
+        },
+        "parameters": {
+          "light source": "Light Emitting Diode Device",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Growth time": "8",
+          "growth environment": "ISS",
+          "Growth Medium": "0.5% Phytagel 0.5x MS media",
+          "Mean Growth Temperature": "15.687",
+          "Light quality": "",
+          "light cycle": "",
+          "Light intensity": "100-135",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Title": "Spaceflight, 8 days old, WS Rep2"
+        }
+      },
+      {
+        "sample_name": "SAMN06465268",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "organism part": "root",
+          "Seed Source": "",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Age": "8",
+          "Spaceflight": "Space Flight",
+          "Cultivar": "WS"
+        },
+        "parameters": {
+          "light source": "Light Emitting Diode Device",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Growth time": "8",
+          "growth environment": "ISS",
+          "Growth Medium": "0.5% Phytagel 0.5x MS media",
+          "Mean Growth Temperature": "15.687",
+          "Light quality": "",
+          "light cycle": "",
+          "Light intensity": "100-135",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Title": "Spaceflight, 8 days old, WS Rep3"
+        }
+      },
+      {
+        "sample_name": "SAMN06465267",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "organism part": "root",
+          "Seed Source": "",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Age": "8",
+          "Spaceflight": "Space Flight",
+          "Cultivar": "WS"
+        },
+        "parameters": {
+          "light source": "Light Emitting Diode Device",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Growth time": "8",
+          "growth environment": "ISS",
+          "Growth Medium": "0.5% Phytagel 0.5x MS media",
+          "Mean Growth Temperature": "15.687",
+          "Light quality": "",
+          "light cycle": "",
+          "Light intensity": "100-135",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Title": "Spaceflight, 8 days old, WS Rep4"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina NextSeq 500",
+      "qc": {
+        "QA Instrument": "Agilent 2100 Bioanalyzer",
+        "Read Depth": "23802924",
+        "rRNA Contamination": "3.35"
+      },
+      "library": {
+        "Library Selection": "polyA enrichment",
+        "Library Layout": "PAIRED",
+        "Stranded": "UNSTRANDED"
+      },
+      "files": {
+        "raw": [
+          "GLDS-218_rna-seq_SAMN06465201.tar.gz",
+          "GLDS-218_rna-seq_SAMN06465179.tar.gz",
+          "GLDS-218_rna-seq_SAMN06465197.tar.gz",
+          "GLDS-218_rna-seq_SAMN06465194.tar.gz",
+          "GLDS-218_rna-seq_SAMN06465190.tar.gz",
+          "GLDS-218_rna-seq_SAMN06465187.tar.gz",
+          "GLDS-218_rna-seq_SAMN06465183.tar.gz",
+          "GLDS-218_rna-seq_SAMN06465181.tar.gz",
+          "GLDS-218_rna-seq_SAMN06465177.tar.gz",
+          "GLDS-218_rna-seq_SAMN06465174.tar.gz",
+          "GLDS-218_rna-seq_SAMN06465172.tar.gz",
+          "GLDS-218_rna-seq_SAMN06465170.tar.gz",
+          "GLDS-218_rna-seq_SAMN06465168.tar.gz",
+          "GLDS-218_rna-seq_SAMN06465165.tar.gz",
+          "GLDS-218_rna-seq_SAMN06465163.tar.gz",
+          "GLDS-218_rna-seq_SAMN06465160.tar.gz",
+          "GLDS-218_rna-seq_SAMN06465157.tar.gz",
+          "GLDS-218_rna-seq_SAMN06465155.tar.gz",
+          "GLDS-218_rna-seq_SAMN06465152.tar.gz",
+          "GLDS-218_rna-seq_SAMN06465150.tar.gz",
+          "GLDS-218_rna-seq_SAMN06465148.tar.gz",
+          "GLDS-218_rna-seq_SAMN06465146.tar.gz",
+          "GLDS-218_rna-seq_SAMN06465144.tar.gz",
+          "GLDS-218_rna-seq_SAMN06465142.tar.gz",
+          "GLDS-218_rna-seq_SAMN06465276.tar.gz",
+          "GLDS-218_rna-seq_SAMN06465275.tar.gz",
+          "GLDS-218_rna-seq_SAMN06465273.tar.gz",
+          "GLDS-218_rna-seq_SAMN06465272.tar.gz",
+          "GLDS-218_rna-seq_SAMN06465270.tar.gz",
+          "GLDS-218_rna-seq_SAMN06465269.tar.gz",
+          "GLDS-218_rna-seq_SAMN06465268.tar.gz",
+          "GLDS-218_rna-seq_SAMN06465267.tar.gz",
+          "GLDS-218_rna_seq_SAMN06465201_R1_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465201_R2_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465201_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465201_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465179_R1_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465179_R2_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465179_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465179_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465197_R1_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465197_R2_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465197_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465197_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465194_R1_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465194_R2_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465194_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465194_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465190_R1_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465190_R2_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465190_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465190_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465187_R1_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465187_R2_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465187_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465187_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465183_R1_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465183_R2_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465183_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465183_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465181_R1_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465181_R2_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465181_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465181_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465177_R1_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465177_R2_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465177_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465177_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465174_R1_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465174_R2_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465174_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465174_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465172_R1_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465172_R2_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465172_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465172_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465170_R1_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465170_R2_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465170_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465170_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465168_R1_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465168_R2_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465168_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465168_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465165_R1_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465165_R2_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465165_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465165_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465163_R1_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465163_R2_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465163_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465163_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465160_R1_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465160_R2_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465160_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465160_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465157_R1_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465157_R2_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465157_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465157_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465155_R1_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465155_R2_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465155_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465155_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465152_R1_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465152_R2_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465152_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465152_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465150_R1_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465150_R2_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465150_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465150_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465148_R1_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465148_R2_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465148_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465148_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465146_R1_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465146_R2_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465146_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465146_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465144_R1_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465144_R2_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465144_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465144_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465142_R1_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465142_R2_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465142_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465142_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465276_R1_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465276_R2_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465276_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465276_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465275_R1_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465275_R2_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465275_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465275_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465273_R1_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465273_R2_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465273_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465273_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465272_R1_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465272_R2_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465272_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465272_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465270_R1_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465270_R2_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465270_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465270_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465269_R1_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465269_R2_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465269_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465269_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465268_R1_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465268_R2_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465268_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465268_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465267_R1_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465267_R2_raw.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465267_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465267_R2_trimmed.fastq.gz"
+        ],
+        "processed": [
+          "GLDS-218_rna_seq_SAMN06465201_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465201_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465201_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-218_rna_seq_SAMN06465201_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-218_rna_seq_SAMN06465201_Aligned.toTranscriptome.out.bam",
+          "GLDS-218_rna_seq_SAMN06465201_SJ.out.tab",
+          "GLDS-218_rna_seq_SAMN06465179_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465179_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465179_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-218_rna_seq_SAMN06465179_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-218_rna_seq_SAMN06465179_Aligned.toTranscriptome.out.bam",
+          "GLDS-218_rna_seq_SAMN06465179_SJ.out.tab",
+          "GLDS-218_rna_seq_SAMN06465197_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465197_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465197_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-218_rna_seq_SAMN06465197_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-218_rna_seq_SAMN06465197_Aligned.toTranscriptome.out.bam",
+          "GLDS-218_rna_seq_SAMN06465197_SJ.out.tab",
+          "GLDS-218_rna_seq_SAMN06465194_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465194_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465194_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-218_rna_seq_SAMN06465194_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-218_rna_seq_SAMN06465194_Aligned.toTranscriptome.out.bam",
+          "GLDS-218_rna_seq_SAMN06465194_SJ.out.tab",
+          "GLDS-218_rna_seq_SAMN06465190_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465190_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465190_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-218_rna_seq_SAMN06465190_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-218_rna_seq_SAMN06465190_Aligned.toTranscriptome.out.bam",
+          "GLDS-218_rna_seq_SAMN06465190_SJ.out.tab",
+          "GLDS-218_rna_seq_SAMN06465187_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465187_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465187_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-218_rna_seq_SAMN06465187_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-218_rna_seq_SAMN06465187_Aligned.toTranscriptome.out.bam",
+          "GLDS-218_rna_seq_SAMN06465187_SJ.out.tab",
+          "GLDS-218_rna_seq_SAMN06465183_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465183_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465183_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-218_rna_seq_SAMN06465183_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-218_rna_seq_SAMN06465183_Aligned.toTranscriptome.out.bam",
+          "GLDS-218_rna_seq_SAMN06465183_SJ.out.tab",
+          "GLDS-218_rna_seq_SAMN06465181_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465181_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465181_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-218_rna_seq_SAMN06465181_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-218_rna_seq_SAMN06465181_Aligned.toTranscriptome.out.bam",
+          "GLDS-218_rna_seq_SAMN06465181_SJ.out.tab",
+          "GLDS-218_rna_seq_SAMN06465177_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465177_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465177_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-218_rna_seq_SAMN06465177_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-218_rna_seq_SAMN06465177_Aligned.toTranscriptome.out.bam",
+          "GLDS-218_rna_seq_SAMN06465177_SJ.out.tab",
+          "GLDS-218_rna_seq_SAMN06465174_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465174_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465174_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-218_rna_seq_SAMN06465174_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-218_rna_seq_SAMN06465174_Aligned.toTranscriptome.out.bam",
+          "GLDS-218_rna_seq_SAMN06465174_SJ.out.tab",
+          "GLDS-218_rna_seq_SAMN06465172_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465172_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465172_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-218_rna_seq_SAMN06465172_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-218_rna_seq_SAMN06465172_Aligned.toTranscriptome.out.bam",
+          "GLDS-218_rna_seq_SAMN06465172_SJ.out.tab",
+          "GLDS-218_rna_seq_SAMN06465170_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465170_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465170_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-218_rna_seq_SAMN06465170_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-218_rna_seq_SAMN06465170_Aligned.toTranscriptome.out.bam",
+          "GLDS-218_rna_seq_SAMN06465170_SJ.out.tab",
+          "GLDS-218_rna_seq_SAMN06465168_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465168_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465168_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-218_rna_seq_SAMN06465168_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-218_rna_seq_SAMN06465168_Aligned.toTranscriptome.out.bam",
+          "GLDS-218_rna_seq_SAMN06465168_SJ.out.tab",
+          "GLDS-218_rna_seq_SAMN06465165_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465165_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465165_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-218_rna_seq_SAMN06465165_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-218_rna_seq_SAMN06465165_Aligned.toTranscriptome.out.bam",
+          "GLDS-218_rna_seq_SAMN06465165_SJ.out.tab",
+          "GLDS-218_rna_seq_SAMN06465163_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465163_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465163_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-218_rna_seq_SAMN06465163_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-218_rna_seq_SAMN06465163_Aligned.toTranscriptome.out.bam",
+          "GLDS-218_rna_seq_SAMN06465163_SJ.out.tab",
+          "GLDS-218_rna_seq_SAMN06465160_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465160_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465160_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-218_rna_seq_SAMN06465160_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-218_rna_seq_SAMN06465160_Aligned.toTranscriptome.out.bam",
+          "GLDS-218_rna_seq_SAMN06465160_SJ.out.tab",
+          "GLDS-218_rna_seq_SAMN06465157_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465157_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465157_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-218_rna_seq_SAMN06465157_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-218_rna_seq_SAMN06465157_Aligned.toTranscriptome.out.bam",
+          "GLDS-218_rna_seq_SAMN06465157_SJ.out.tab",
+          "GLDS-218_rna_seq_SAMN06465155_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465155_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465155_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-218_rna_seq_SAMN06465155_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-218_rna_seq_SAMN06465155_Aligned.toTranscriptome.out.bam",
+          "GLDS-218_rna_seq_SAMN06465155_SJ.out.tab",
+          "GLDS-218_rna_seq_SAMN06465152_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465152_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465152_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-218_rna_seq_SAMN06465152_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-218_rna_seq_SAMN06465152_Aligned.toTranscriptome.out.bam",
+          "GLDS-218_rna_seq_SAMN06465152_SJ.out.tab",
+          "GLDS-218_rna_seq_SAMN06465150_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465150_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465150_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-218_rna_seq_SAMN06465150_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-218_rna_seq_SAMN06465150_Aligned.toTranscriptome.out.bam",
+          "GLDS-218_rna_seq_SAMN06465150_SJ.out.tab",
+          "GLDS-218_rna_seq_SAMN06465148_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465148_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465148_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-218_rna_seq_SAMN06465148_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-218_rna_seq_SAMN06465148_Aligned.toTranscriptome.out.bam",
+          "GLDS-218_rna_seq_SAMN06465148_SJ.out.tab",
+          "GLDS-218_rna_seq_SAMN06465146_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465146_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465146_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-218_rna_seq_SAMN06465146_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-218_rna_seq_SAMN06465146_Aligned.toTranscriptome.out.bam",
+          "GLDS-218_rna_seq_SAMN06465146_SJ.out.tab",
+          "GLDS-218_rna_seq_SAMN06465144_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465144_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465144_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-218_rna_seq_SAMN06465144_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-218_rna_seq_SAMN06465144_Aligned.toTranscriptome.out.bam",
+          "GLDS-218_rna_seq_SAMN06465144_SJ.out.tab",
+          "GLDS-218_rna_seq_SAMN06465142_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465142_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465142_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-218_rna_seq_SAMN06465142_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-218_rna_seq_SAMN06465142_Aligned.toTranscriptome.out.bam",
+          "GLDS-218_rna_seq_SAMN06465142_SJ.out.tab",
+          "GLDS-218_rna_seq_SAMN06465276_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465276_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465276_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-218_rna_seq_SAMN06465276_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-218_rna_seq_SAMN06465276_Aligned.toTranscriptome.out.bam",
+          "GLDS-218_rna_seq_SAMN06465276_SJ.out.tab",
+          "GLDS-218_rna_seq_SAMN06465275_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465275_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465275_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-218_rna_seq_SAMN06465275_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-218_rna_seq_SAMN06465275_Aligned.toTranscriptome.out.bam",
+          "GLDS-218_rna_seq_SAMN06465275_SJ.out.tab",
+          "GLDS-218_rna_seq_SAMN06465273_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465273_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465273_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-218_rna_seq_SAMN06465273_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-218_rna_seq_SAMN06465273_Aligned.toTranscriptome.out.bam",
+          "GLDS-218_rna_seq_SAMN06465273_SJ.out.tab",
+          "GLDS-218_rna_seq_SAMN06465272_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465272_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465272_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-218_rna_seq_SAMN06465272_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-218_rna_seq_SAMN06465272_Aligned.toTranscriptome.out.bam",
+          "GLDS-218_rna_seq_SAMN06465272_SJ.out.tab",
+          "GLDS-218_rna_seq_SAMN06465270_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465270_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465270_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-218_rna_seq_SAMN06465270_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-218_rna_seq_SAMN06465270_Aligned.toTranscriptome.out.bam",
+          "GLDS-218_rna_seq_SAMN06465270_SJ.out.tab",
+          "GLDS-218_rna_seq_SAMN06465269_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465269_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465269_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-218_rna_seq_SAMN06465269_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-218_rna_seq_SAMN06465269_Aligned.toTranscriptome.out.bam",
+          "GLDS-218_rna_seq_SAMN06465269_SJ.out.tab",
+          "GLDS-218_rna_seq_SAMN06465268_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465268_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465268_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-218_rna_seq_SAMN06465268_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-218_rna_seq_SAMN06465268_Aligned.toTranscriptome.out.bam",
+          "GLDS-218_rna_seq_SAMN06465268_SJ.out.tab",
+          "GLDS-218_rna_seq_SAMN06465267_R1_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465267_R2_trimmed.fastq.gz",
+          "GLDS-218_rna_seq_SAMN06465267_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-218_rna_seq_SAMN06465267_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-218_rna_seq_SAMN06465267_Aligned.toTranscriptome.out.bam",
+          "GLDS-218_rna_seq_SAMN06465267_SJ.out.tab",
+          "SAMN06465201",
+          "GeneLab RNAseq data processing protocol",
+          "Agilent 2100 Bioanalyzer",
+          "polyA enrichment",
+          "PAIRED",
+          "UNSTRANDED",
+          "Illumina NextSeq 500",
+          "75",
+          "percent",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000187",
+          "rna-seq",
+          "23802924",
+          "3.35",
+          "GLDS-218_rna_seq_SAMN06465201.genes.results",
+          "GLDS-218_rna_seq_SAMN06465201.isoforms.results",
+          "GLDS-218_rna_seq_RSEM_Unnormalized_Counts.csv",
+          "GLDS-218_rna_seq_STAR_Unnormalized_Counts.csv",
+          "GLDS-218_rna_seq_Normalized_Counts.csv",
+          "GLDS-218_rna_seq_SampleTable.csv",
+          "GLDS-218_rna_seq_contrasts.csv",
+          "GLDS-218_rna_seq_differential_expression.csv",
+          "SAMN06465179",
+          "25125119",
+          "2.08",
+          "GLDS-218_rna_seq_SAMN06465179.genes.results",
+          "GLDS-218_rna_seq_SAMN06465179.isoforms.results",
+          "SAMN06465197",
+          "28420510",
+          "4.91",
+          "GLDS-218_rna_seq_SAMN06465197.genes.results",
+          "GLDS-218_rna_seq_SAMN06465197.isoforms.results",
+          "SAMN06465194",
+          "25805310",
+          "3.36",
+          "GLDS-218_rna_seq_SAMN06465194.genes.results",
+          "GLDS-218_rna_seq_SAMN06465194.isoforms.results",
+          "SAMN06465190",
+          "21311787",
+          "4.16",
+          "GLDS-218_rna_seq_SAMN06465190.genes.results",
+          "GLDS-218_rna_seq_SAMN06465190.isoforms.results",
+          "SAMN06465187",
+          "28598356",
+          "3.26",
+          "GLDS-218_rna_seq_SAMN06465187.genes.results",
+          "GLDS-218_rna_seq_SAMN06465187.isoforms.results",
+          "SAMN06465183",
+          "21747992",
+          "5.43",
+          "GLDS-218_rna_seq_SAMN06465183.genes.results",
+          "GLDS-218_rna_seq_SAMN06465183.isoforms.results",
+          "SAMN06465181",
+          "21190865",
+          "4.41",
+          "GLDS-218_rna_seq_SAMN06465181.genes.results",
+          "GLDS-218_rna_seq_SAMN06465181.isoforms.results",
+          "SAMN06465177",
+          "20282248",
+          "2.05",
+          "GLDS-218_rna_seq_SAMN06465177.genes.results",
+          "GLDS-218_rna_seq_SAMN06465177.isoforms.results",
+          "SAMN06465174",
+          "19122704",
+          "4.32",
+          "GLDS-218_rna_seq_SAMN06465174.genes.results",
+          "GLDS-218_rna_seq_SAMN06465174.isoforms.results",
+          "SAMN06465172",
+          "23329274",
+          "4.03",
+          "GLDS-218_rna_seq_SAMN06465172.genes.results",
+          "GLDS-218_rna_seq_SAMN06465172.isoforms.results",
+          "SAMN06465170",
+          "23206436",
+          "3.5",
+          "GLDS-218_rna_seq_SAMN06465170.genes.results",
+          "GLDS-218_rna_seq_SAMN06465170.isoforms.results",
+          "SAMN06465168",
+          "19280426",
+          "4.75",
+          "GLDS-218_rna_seq_SAMN06465168.genes.results",
+          "GLDS-218_rna_seq_SAMN06465168.isoforms.results",
+          "SAMN06465165",
+          "23631357",
+          "4.82",
+          "GLDS-218_rna_seq_SAMN06465165.genes.results",
+          "GLDS-218_rna_seq_SAMN06465165.isoforms.results",
+          "SAMN06465163",
+          "24226428",
+          "4.2",
+          "GLDS-218_rna_seq_SAMN06465163.genes.results",
+          "GLDS-218_rna_seq_SAMN06465163.isoforms.results",
+          "SAMN06465160",
+          "22054791",
+          "4.38",
+          "GLDS-218_rna_seq_SAMN06465160.genes.results",
+          "GLDS-218_rna_seq_SAMN06465160.isoforms.results",
+          "SAMN06465157",
+          "22365282",
+          "4.93",
+          "GLDS-218_rna_seq_SAMN06465157.genes.results",
+          "GLDS-218_rna_seq_SAMN06465157.isoforms.results",
+          "SAMN06465155",
+          "22906062",
+          "5",
+          "GLDS-218_rna_seq_SAMN06465155.genes.results",
+          "GLDS-218_rna_seq_SAMN06465155.isoforms.results",
+          "SAMN06465152",
+          "32139800",
+          "5.74",
+          "GLDS-218_rna_seq_SAMN06465152.genes.results",
+          "GLDS-218_rna_seq_SAMN06465152.isoforms.results",
+          "SAMN06465150",
+          "24950419",
+          "5.28",
+          "GLDS-218_rna_seq_SAMN06465150.genes.results",
+          "GLDS-218_rna_seq_SAMN06465150.isoforms.results",
+          "SAMN06465148",
+          "27774053",
+          "4.1",
+          "GLDS-218_rna_seq_SAMN06465148.genes.results",
+          "GLDS-218_rna_seq_SAMN06465148.isoforms.results",
+          "SAMN06465146",
+          "27032743",
+          "2.73",
+          "GLDS-218_rna_seq_SAMN06465146.genes.results",
+          "GLDS-218_rna_seq_SAMN06465146.isoforms.results",
+          "SAMN06465144",
+          "23812786",
+          "4.76",
+          "GLDS-218_rna_seq_SAMN06465144.genes.results",
+          "GLDS-218_rna_seq_SAMN06465144.isoforms.results",
+          "SAMN06465142",
+          "23673364",
+          "4.72",
+          "GLDS-218_rna_seq_SAMN06465142.genes.results",
+          "GLDS-218_rna_seq_SAMN06465142.isoforms.results",
+          "SAMN06465276",
+          "19781062",
+          "1.08",
+          "GLDS-218_rna_seq_SAMN06465276.genes.results",
+          "GLDS-218_rna_seq_SAMN06465276.isoforms.results",
+          "SAMN06465275",
+          "24177075",
+          "1.24",
+          "GLDS-218_rna_seq_SAMN06465275.genes.results",
+          "GLDS-218_rna_seq_SAMN06465275.isoforms.results",
+          "SAMN06465273",
+          "21199319",
+          "1.11",
+          "GLDS-218_rna_seq_SAMN06465273.genes.results",
+          "GLDS-218_rna_seq_SAMN06465273.isoforms.results",
+          "SAMN06465272",
+          "23274126",
+          "1.16",
+          "GLDS-218_rna_seq_SAMN06465272.genes.results",
+          "GLDS-218_rna_seq_SAMN06465272.isoforms.results",
+          "SAMN06465270",
+          "23394219",
+          "3.45",
+          "GLDS-218_rna_seq_SAMN06465270.genes.results",
+          "GLDS-218_rna_seq_SAMN06465270.isoforms.results",
+          "SAMN06465269",
+          "23583289",
+          "3.09",
+          "GLDS-218_rna_seq_SAMN06465269.genes.results",
+          "GLDS-218_rna_seq_SAMN06465269.isoforms.results",
+          "SAMN06465268",
+          "23794279",
+          "3.62",
+          "GLDS-218_rna_seq_SAMN06465268.genes.results",
+          "GLDS-218_rna_seq_SAMN06465268.isoforms.results",
+          "SAMN06465267",
+          "25329882",
+          "GLDS-218_rna_seq_SAMN06465267.genes.results",
+          "GLDS-218_rna_seq_SAMN06465267.isoforms.results"
+        ],
+        "reports": [
+          "GLDS-218_rna_seq_raw_multiqc_report.zip",
+          "GLDS-218_rna_seq_trimmed_multiqc_report.zip",
+          "GLDS-218_rna_seq_SAMN06465201_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465201_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465201_Log.final.out",
+          "GLDS-218_rna_seq_align_multiqc_report.zip",
+          "GLDS-218_rna_seq_geneBody_cov_multiqc_report.zip",
+          "GLDS-218_rna_seq_infer_exp_multiqc_report.zip",
+          "GLDS-218_rna_seq_inner_dist_multiqc_report.zip",
+          "GLDS-218_rna_seq_read_dist_multiqc_report.zip",
+          "GLDS-218_rna_seq_RSEM_count_multiqc_report.zip",
+          "GLDS-218_rna_seq_SAMN06465179_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465179_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465179_Log.final.out",
+          "GLDS-218_rna_seq_SAMN06465197_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465197_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465197_Log.final.out",
+          "GLDS-218_rna_seq_SAMN06465194_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465194_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465194_Log.final.out",
+          "GLDS-218_rna_seq_SAMN06465190_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465190_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465190_Log.final.out",
+          "GLDS-218_rna_seq_SAMN06465187_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465187_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465187_Log.final.out",
+          "GLDS-218_rna_seq_SAMN06465183_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465183_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465183_Log.final.out",
+          "GLDS-218_rna_seq_SAMN06465181_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465181_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465181_Log.final.out",
+          "GLDS-218_rna_seq_SAMN06465177_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465177_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465177_Log.final.out",
+          "GLDS-218_rna_seq_SAMN06465174_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465174_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465174_Log.final.out",
+          "GLDS-218_rna_seq_SAMN06465172_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465172_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465172_Log.final.out",
+          "GLDS-218_rna_seq_SAMN06465170_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465170_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465170_Log.final.out",
+          "GLDS-218_rna_seq_SAMN06465168_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465168_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465168_Log.final.out",
+          "GLDS-218_rna_seq_SAMN06465165_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465165_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465165_Log.final.out",
+          "GLDS-218_rna_seq_SAMN06465163_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465163_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465163_Log.final.out",
+          "GLDS-218_rna_seq_SAMN06465160_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465160_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465160_Log.final.out",
+          "GLDS-218_rna_seq_SAMN06465157_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465157_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465157_Log.final.out",
+          "GLDS-218_rna_seq_SAMN06465155_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465155_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465155_Log.final.out",
+          "GLDS-218_rna_seq_SAMN06465152_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465152_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465152_Log.final.out",
+          "GLDS-218_rna_seq_SAMN06465150_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465150_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465150_Log.final.out",
+          "GLDS-218_rna_seq_SAMN06465148_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465148_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465148_Log.final.out",
+          "GLDS-218_rna_seq_SAMN06465146_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465146_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465146_Log.final.out",
+          "GLDS-218_rna_seq_SAMN06465144_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465144_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465144_Log.final.out",
+          "GLDS-218_rna_seq_SAMN06465142_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465142_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465142_Log.final.out",
+          "GLDS-218_rna_seq_SAMN06465276_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465276_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465276_Log.final.out",
+          "GLDS-218_rna_seq_SAMN06465275_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465275_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465275_Log.final.out",
+          "GLDS-218_rna_seq_SAMN06465273_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465273_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465273_Log.final.out",
+          "GLDS-218_rna_seq_SAMN06465272_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465272_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465272_Log.final.out",
+          "GLDS-218_rna_seq_SAMN06465270_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465270_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465270_Log.final.out",
+          "GLDS-218_rna_seq_SAMN06465269_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465269_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465269_Log.final.out",
+          "GLDS-218_rna_seq_SAMN06465268_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465268_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465268_Log.final.out",
+          "GLDS-218_rna_seq_SAMN06465267_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465267_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-218_rna_seq_SAMN06465267_Log.final.out"
+        ]
+      }
+    }
+  ]
+}

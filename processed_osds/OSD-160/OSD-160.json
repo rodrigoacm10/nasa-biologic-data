@@ -1,0 +1,501 @@
+{
+  "investigation": {
+    "id": "OSD-160",
+    "title": "Gene expression data from 4T1 irradiated tumors treated with TGFbeta blockade",
+    "description": "Accumulating data support the concept that ionizing radiation therapy (RT) has the potential to convert the tumor into an in situ, individualized vaccine; however this potential is rarely realized by RT alone. Transforming growth factor β (TGFβ) is an immunosuppressive cytokine that is activated by RT and inhibits the antigen-presenting function of dendritic cells and the differentiation of effector CD8+ T cells.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "X-Ray_Irradiation, High_Dose_Irradiation, Low_LET_Irradiation",
+      "title": "",
+      "type": "Ground Study",
+      "link": "",
+      "funding": "Supported by grants from the USA Department of Defense Breast (DOD) Cancer Research Program (BCRP) (W81XWH-11-1-0532), Breast Cancer Research Foundation, Breast Cancer Alliance, and The Chemotherapy Foundation. CV-B is supported by a Post-doctoral fellowship from the DOD BCRP (W81XWH-13-1-0012). Laura and Isaac Perlmutter Cancer Center at NYU Langone Medical Center is supported by NIH/NCI P30CA016087.",
+      "managing_center": ""
+    },
+    "protocols": [
+      "P-GSE61208-3",
+      "irradiation protocol",
+      "P-GSE61208-2",
+      "P-GSE61208-4",
+      "P-GSE61208-5",
+      "P-GSE61208-6",
+      "P-GSE61208-7",
+      "GeneLab microarray data processing protocol"
+    ],
+    "publications": [
+      {
+        "title": "TGFβ Is a Master Regulator of Radiation Therapy-Induced Antitumor Immunity.",
+        "doi": "10.1158/0008-5472.can-14-3511",
+        "authors": [
+          "Vanpouille-Box C",
+          "Diamond JM",
+          "Pilones KA",
+          "Zavadil J",
+          "Babb JS",
+          "Formenti SC",
+          "Barcellos-Hoff MH",
+          "Demaria S."
+        ],
+        "summary": "TGFβ Is a Master Regulator of Radiation Therapy-Induced Antitumor Immunity. — 10.1158/0008-5472.can-14-3511"
+      }
+    ],
+    "factors": [
+      "Ionizing Radiation",
+      "Treatment"
+    ],
+    "contacts": [
+      {
+        "first_name": "Sandra",
+        "last_name": "Demaria",
+        "role": "submitter",
+        "email": "sandra.demaria@nyumc.org"
+      },
+      {
+        "first_name": "Mary",
+        "last_name": "Barcellos-Hoff",
+        "role": "",
+        "email": ""
+      },
+      {
+        "first_name": "Jiri",
+        "last_name": "Zavadil",
+        "role": "",
+        "email": ""
+      },
+      {
+        "first_name": "Claire",
+        "last_name": "Vanpouille-Box",
+        "role": "",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "Mmus_BAL-TAL_4T1-Tumor_shamIR_IsoCTRL_Rep1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Sex": "Female",
+          "Age": "6",
+          "Material Type": "4T1 tumor"
+        },
+        "factors": {
+          "Treatment": "Isotype Control Injection",
+          "Ionizing Radiation": "sham-irradiated"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Taconic Animal Laboratory",
+          "Original Submitted Sample Name": "GSM1499565 extract 1"
+        }
+      },
+      {
+        "sample_name": "Mmus_BAL-TAL_4T1-Tumor_shamIR_IsoCTRL_Rep2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Sex": "Female",
+          "Age": "6",
+          "Material Type": "4T1 tumor"
+        },
+        "factors": {
+          "Treatment": "Isotype Control Injection",
+          "Ionizing Radiation": "sham-irradiated"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Taconic Animal Laboratory",
+          "Original Submitted Sample Name": "GSM1499566 extract 1"
+        }
+      },
+      {
+        "sample_name": "Mmus_BAL-TAL_4T1-Tumor_shamIR_IsoCTRL_Rep3",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Sex": "Female",
+          "Age": "6",
+          "Material Type": "4T1 tumor"
+        },
+        "factors": {
+          "Treatment": "Isotype Control Injection",
+          "Ionizing Radiation": "sham-irradiated"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Taconic Animal Laboratory",
+          "Original Submitted Sample Name": "GSM1499567 extract 1"
+        }
+      },
+      {
+        "sample_name": "Mmus_BAL-TAL_4T1-Tumor_shamIR_1D11_Rep1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Sex": "Female",
+          "Age": "6",
+          "Material Type": "4T1 tumor"
+        },
+        "factors": {
+          "Treatment": "1D11 Injection",
+          "Ionizing Radiation": "sham-irradiated"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Taconic Animal Laboratory",
+          "Original Submitted Sample Name": "GSM1499568 extract 1"
+        }
+      },
+      {
+        "sample_name": "Mmus_BAL-TAL_4T1-Tumor_shamIR_1D11_Rep2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Sex": "Female",
+          "Age": "6",
+          "Material Type": "4T1 tumor"
+        },
+        "factors": {
+          "Treatment": "1D11 Injection",
+          "Ionizing Radiation": "sham-irradiated"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Taconic Animal Laboratory",
+          "Original Submitted Sample Name": "GSM1499569 extract 1"
+        }
+      },
+      {
+        "sample_name": "Mmus_BAL-TAL_4T1-Tumor_shamIR_1D11_Rep3",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Sex": "Female",
+          "Age": "6",
+          "Material Type": "4T1 tumor"
+        },
+        "factors": {
+          "Treatment": "1D11 Injection",
+          "Ionizing Radiation": "sham-irradiated"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Taconic Animal Laboratory",
+          "Original Submitted Sample Name": "GSM1499570 extract 1"
+        }
+      },
+      {
+        "sample_name": "Mmus_BAL-TAL_4T1-Tumor_YR_IsoCTRL_Rep1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Sex": "Female",
+          "Age": "6",
+          "Material Type": "4T1 tumor"
+        },
+        "factors": {
+          "Treatment": "Isotype Control Injection",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "30",
+          "absorbed radiation dose rate": "6",
+          "exposure duration": "5",
+          "ionizing radiation categorized by source": "X-Rays",
+          "ionizing radiation device": "Small Animal Radiation Research Platform",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Taconic Animal Laboratory",
+          "Original Submitted Sample Name": "GSM1499571 extract 1"
+        }
+      },
+      {
+        "sample_name": "Mmus_BAL-TAL_4T1-Tumor_YR_IsoCTRL_Rep2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Sex": "Female",
+          "Age": "6",
+          "Material Type": "4T1 tumor"
+        },
+        "factors": {
+          "Treatment": "Isotype Control Injection",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "30",
+          "absorbed radiation dose rate": "6",
+          "exposure duration": "5",
+          "ionizing radiation categorized by source": "X-Rays",
+          "ionizing radiation device": "Small Animal Radiation Research Platform",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Taconic Animal Laboratory",
+          "Original Submitted Sample Name": "GSM1499572 extract 1"
+        }
+      },
+      {
+        "sample_name": "Mmus_BAL-TAL_4T1-Tumor_YR_IsoCTRL_Rep3",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Sex": "Female",
+          "Age": "6",
+          "Material Type": "4T1 tumor"
+        },
+        "factors": {
+          "Treatment": "Isotype Control Injection",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "30",
+          "absorbed radiation dose rate": "6",
+          "exposure duration": "5",
+          "ionizing radiation categorized by source": "X-Rays",
+          "ionizing radiation device": "Small Animal Radiation Research Platform",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Taconic Animal Laboratory",
+          "Original Submitted Sample Name": "GSM1499573 extract 1"
+        }
+      },
+      {
+        "sample_name": "Mmus_BAL-TAL_4T1-Tumor_YR_1D11_Rep1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Sex": "Female",
+          "Age": "6",
+          "Material Type": "4T1 tumor"
+        },
+        "factors": {
+          "Treatment": "1D11 Injection",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "30",
+          "absorbed radiation dose rate": "6",
+          "exposure duration": "5",
+          "ionizing radiation categorized by source": "X-Rays",
+          "ionizing radiation device": "Small Animal Radiation Research Platform",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Taconic Animal Laboratory",
+          "Original Submitted Sample Name": "GSM1499574 extract 1"
+        }
+      },
+      {
+        "sample_name": "Mmus_BAL-TAL_4T1-Tumor_YR_1D11_Rep2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Sex": "Female",
+          "Age": "6",
+          "Material Type": "4T1 tumor"
+        },
+        "factors": {
+          "Treatment": "1D11 Injection",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "30",
+          "absorbed radiation dose rate": "6",
+          "exposure duration": "5",
+          "ionizing radiation categorized by source": "X-Rays",
+          "ionizing radiation device": "Small Animal Radiation Research Platform",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Taconic Animal Laboratory",
+          "Original Submitted Sample Name": "GSM1499575 extract 1"
+        }
+      },
+      {
+        "sample_name": "Mmus_BAL-TAL_4T1-Tumor_YR_1D11_Rep3",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Sex": "Female",
+          "Age": "6",
+          "Material Type": "4T1 tumor"
+        },
+        "factors": {
+          "Treatment": "1D11 Injection",
+          "Ionizing Radiation": "Cobalt-60 gamma radiation"
+        },
+        "parameters": {
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose": "30",
+          "absorbed radiation dose rate": "6",
+          "exposure duration": "5",
+          "ionizing radiation categorized by source": "X-Rays",
+          "ionizing radiation device": "Small Animal Radiation Research Platform",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Taconic Animal Laboratory",
+          "Original Submitted Sample Name": "GSM1499576 extract 1"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Affymetrix",
+      "qc": {},
+      "library": {},
+      "files": {
+        "raw": [],
+        "processed": [
+          "Mmus_BAL-TAL_4T1-Tumor_shamIR_IsoCTRL_Rep1",
+          "GSM1499565 extract 1",
+          "GeneLab microarray data processing protocol",
+          "GSM1499565 LE 1",
+          "biotin",
+          "GSM1499565",
+          "AFFY Mouse430 2",
+          "GLDS-160_microarray_GSM1499565_Isotype_control_mouse_1.CEL",
+          "GLDS-160_array_raw_intensities_probe_GLmicroarray.csv",
+          "GLDS-160_array_normalized_expression_probeset_GLmicroarray.csv",
+          "GLDS-160_array_normalized_intensities_probe_GLmicroarray.csv",
+          "GLDS-160_array_SampleTable_GLmicroarray.csv",
+          "GLDS-160_array_contrasts_GLmicroarray.csv",
+          "GLDS-160_array_differential_expression_GLmicroarray.csv",
+          "Mmus_BAL-TAL_4T1-Tumor_shamIR_IsoCTRL_Rep2",
+          "GSM1499566 extract 1",
+          "GSM1499566 LE 1",
+          "GSM1499566",
+          "GLDS-160_microarray_GSM1499566_Isotype_control_mouse_2.CEL",
+          "Mmus_BAL-TAL_4T1-Tumor_shamIR_IsoCTRL_Rep3",
+          "GSM1499567 extract 1",
+          "GSM1499567 LE 1",
+          "GSM1499567",
+          "GLDS-160_microarray_GSM1499567_Isotype_Control_mouse_3.CEL",
+          "Mmus_BAL-TAL_4T1-Tumor_shamIR_1D11_Rep1",
+          "GSM1499568 extract 1",
+          "GSM1499568 LE 1",
+          "GSM1499568",
+          "GLDS-160_microarray_GSM1499568_1D11_mouse_1.CEL",
+          "Mmus_BAL-TAL_4T1-Tumor_shamIR_1D11_Rep2",
+          "GSM1499569 extract 1",
+          "GSM1499569 LE 1",
+          "GSM1499569",
+          "GLDS-160_microarray_GSM1499569_1D11_mouse_2.CEL",
+          "Mmus_BAL-TAL_4T1-Tumor_shamIR_1D11_Rep3",
+          "GSM1499570 extract 1",
+          "GSM1499570 LE 1",
+          "GSM1499570",
+          "GLDS-160_microarray_GSM1499570_1D11_mouse_3.CEL",
+          "Mmus_BAL-TAL_4T1-Tumor_YR_IsoCTRL_Rep1",
+          "GSM1499571 extract 1",
+          "GSM1499571 LE 1",
+          "GSM1499571",
+          "GLDS-160_microarray_GSM1499571_RT_mouse_1.CEL",
+          "Mmus_BAL-TAL_4T1-Tumor_YR_IsoCTRL_Rep2",
+          "GSM1499572 extract 1",
+          "GSM1499572 LE 1",
+          "GSM1499572",
+          "GLDS-160_microarray_GSM1499572_RT_mouse_2.CEL",
+          "Mmus_BAL-TAL_4T1-Tumor_YR_IsoCTRL_Rep3",
+          "GSM1499573 extract 1",
+          "GSM1499573 LE 1",
+          "GSM1499573",
+          "GLDS-160_microarray_GSM1499573_RT_mouse_3.CEL",
+          "Mmus_BAL-TAL_4T1-Tumor_YR_1D11_Rep1",
+          "GSM1499574 extract 1",
+          "GSM1499574 LE 1",
+          "GSM1499574",
+          "GLDS-160_microarray_GSM1499574_RT1D11_mouse_1.CEL",
+          "Mmus_BAL-TAL_4T1-Tumor_YR_1D11_Rep2",
+          "GSM1499575 extract 1",
+          "GSM1499575 LE 1",
+          "GSM1499575",
+          "GLDS-160_microarray_GSM1499575_RT1D11_mouse_2.CEL",
+          "Mmus_BAL-TAL_4T1-Tumor_YR_1D11_Rep3",
+          "GSM1499576 extract 1",
+          "GSM1499576 LE 1",
+          "GSM1499576",
+          "GLDS-160_microarray_GSM1499576_RT1D11_mouse_3.CEL"
+        ],
+        "reports": []
+      }
+    }
+  ]
+}

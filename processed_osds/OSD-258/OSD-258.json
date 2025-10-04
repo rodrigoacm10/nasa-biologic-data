@@ -1,0 +1,849 @@
+{
+  "investigation": {
+    "id": "OSD-258",
+    "title": "Effects of Spaceflight on Human Induced Pluripotent Stem Cell-Derived Cardiomyocyte Structure and Function",
+    "description": "With extended stays aboard the International Space Station (ISS) becoming commonplace, there is a need to better understand the effects of microgravity on cardiac function. We utilized human induced pluripotent stem cell-derived cardiomyocytes (hiPSC-CMs) to study the effects of microgravity on cell-level cardiac function and gene expression.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "",
+      "title": "",
+      "type": "Spaceflight Study",
+      "link": "",
+      "funding": "We gratefully acknowledge support from Department of Defense National Defense Science and Engineering Graduate Fellowship (A.W.), American Heart Association (AHA) Predoctoral Fellowship 13PRE15770000, National Science Foundation (NSF) Graduate Research Fellowship Program DGE-114747, NIH T32 HL116273 (A.S.), NIH K99 HL133473, AHA postdoctoral fellowship (16POST31150011) (H.W.), NIH K01 HL135455 (N.S.), NIH Director's Pioneer Award (DP1 LM012179-02), NHLBI Progenitor Cell Biology Consortium (U01 HL099776), AHA Grant-in-Aid (14GRNT18630016) (S.M.W.), Burroughs Wellcome Foundation Innovation in Regulatory Science 1015009, AHA 17MERIT33610009, Center for the Advancement of Science in Space (CASIS) GA-2014-129, NIH R01 HL141371, and NIH UG3 TR002588 (J.C.W.). We also acknowledge the Stanford Neuroscience Microscopy Service (NIH NS069375).",
+      "managing_center": ""
+    },
+    "protocols": [
+      "growth protocol",
+      "treatment protocol",
+      "sample collection",
+      "nucleic acid extraction",
+      "library construction",
+      "nucleic acid sequencing",
+      "sequence analysis data transformation",
+      "GeneLab raw data processing protocol",
+      "GeneLab RNAseq data processing protocol"
+    ],
+    "publications": [
+      {
+        "title": "Effects of Spaceflight on Human Induced Pluripotent Stem Cell-Derived Cardiomyocyte Structure and Function",
+        "doi": "10.1016/j.stemcr.2019.10.006",
+        "authors": [
+          "Wnorowski A",
+          "Sharma A",
+          "Chen H",
+          "Wu H",
+          "Shao NY",
+          "Sayed N",
+          "Liu C",
+          "Countryman S",
+          "Stodieck LS",
+          "Rubins KH",
+          "Wu SM",
+          "Lee PHU",
+          "Wu JC"
+        ],
+        "summary": "Effects of Spaceflight on Human Induced Pluripotent Stem Cell-Derived Cardiomyocyte Structure and Function — 10.1016/j.stemcr.2019.10.006"
+      }
+    ],
+    "factors": [
+      "Spaceflight",
+      "Time"
+    ],
+    "contacts": [
+      {
+        "first_name": "Joseph",
+        "last_name": "Wu",
+        "role": "conceptualization role",
+        "email": "joewu@stanford.edu"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "GSM4066596",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "iPSC-derived cardiomyocytes",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "4.5 weeks microgravity exposure"
+        },
+        "parameters": {
+          "Growth Temperature": "37",
+          "carbon dioxide": "5",
+          "Sample Preservation Method": "RNALater",
+          "Sample Preservation Temperature": "4"
+        },
+        "comments": {
+          "Sample Title": "Line 1, Flight rep1 [FB1]"
+        }
+      },
+      {
+        "sample_name": "GSM4066597",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "iPSC-derived cardiomyocytes",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "4.5 weeks microgravity exposure"
+        },
+        "parameters": {
+          "Growth Temperature": "37",
+          "carbon dioxide": "5",
+          "Sample Preservation Method": "RNALater",
+          "Sample Preservation Temperature": "4"
+        },
+        "comments": {
+          "Sample Title": "Line 2, Flight rep1 [FB2]"
+        }
+      },
+      {
+        "sample_name": "GSM4066598",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "iPSC-derived cardiomyocytes",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "4.5 weeks microgravity exposure"
+        },
+        "parameters": {
+          "Growth Temperature": "37",
+          "carbon dioxide": "5",
+          "Sample Preservation Method": "RNALater",
+          "Sample Preservation Temperature": "4"
+        },
+        "comments": {
+          "Sample Title": "Line 3, Flight rep1 [FB3]"
+        }
+      },
+      {
+        "sample_name": "GSM4066599",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "iPSC-derived cardiomyocytes",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "4.5 weeks microgravity exposure"
+        },
+        "parameters": {
+          "Growth Temperature": "37",
+          "carbon dioxide": "5",
+          "Sample Preservation Method": "RNALater",
+          "Sample Preservation Temperature": "4"
+        },
+        "comments": {
+          "Sample Title": "Line 1, Flight rep2 [FB4]"
+        }
+      },
+      {
+        "sample_name": "GSM4066600",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "iPSC-derived cardiomyocytes",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "4.5 weeks microgravity exposure"
+        },
+        "parameters": {
+          "Growth Temperature": "37",
+          "carbon dioxide": "5",
+          "Sample Preservation Method": "RNALater",
+          "Sample Preservation Temperature": "4"
+        },
+        "comments": {
+          "Sample Title": "Line 2, Flight rep2 [FB5]"
+        }
+      },
+      {
+        "sample_name": "GSM4066601",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "iPSC-derived cardiomyocytes",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "4.5 weeks microgravity exposure"
+        },
+        "parameters": {
+          "Growth Temperature": "37",
+          "carbon dioxide": "5",
+          "Sample Preservation Method": "RNALater",
+          "Sample Preservation Temperature": "4"
+        },
+        "comments": {
+          "Sample Title": "Line 3, Flight rep2 [FB3]"
+        }
+      },
+      {
+        "sample_name": "GSM4066602",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "iPSC-derived cardiomyocytes",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "5.5 weeks microgravity exposure, followed by 10 days normal gravity"
+        },
+        "parameters": {
+          "Growth Temperature": "37",
+          "carbon dioxide": "5",
+          "Sample Preservation Method": "RNALater",
+          "Sample Preservation Temperature": "4"
+        },
+        "comments": {
+          "Sample Title": "Line 1, Post-flight rep1 [FC1]"
+        }
+      },
+      {
+        "sample_name": "GSM4066603",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "iPSC-derived cardiomyocytes",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "5.5 weeks microgravity exposure, followed by 10 days normal gravity"
+        },
+        "parameters": {
+          "Growth Temperature": "37",
+          "carbon dioxide": "5",
+          "Sample Preservation Method": "RNALater",
+          "Sample Preservation Temperature": "4"
+        },
+        "comments": {
+          "Sample Title": "Line 2, Post-flight rep1 [FC2]"
+        }
+      },
+      {
+        "sample_name": "GSM4066604",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "iPSC-derived cardiomyocytes",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "5.5 weeks microgravity exposure, followed by 10 days normal gravity"
+        },
+        "parameters": {
+          "Growth Temperature": "37",
+          "carbon dioxide": "5",
+          "Sample Preservation Method": "RNALater",
+          "Sample Preservation Temperature": "4"
+        },
+        "comments": {
+          "Sample Title": "Line 3, Post-flight rep1 [FC3]"
+        }
+      },
+      {
+        "sample_name": "GSM4066605",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "iPSC-derived cardiomyocytes",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "5.5 weeks microgravity exposure, followed by 10 days normal gravity"
+        },
+        "parameters": {
+          "Growth Temperature": "37",
+          "carbon dioxide": "5",
+          "Sample Preservation Method": "RNALater",
+          "Sample Preservation Temperature": "4"
+        },
+        "comments": {
+          "Sample Title": "Line 1, Post-flight rep2 [FC4]"
+        }
+      },
+      {
+        "sample_name": "GSM4066606",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "iPSC-derived cardiomyocytes",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "5.5 weeks microgravity exposure, followed by 10 days normal gravity"
+        },
+        "parameters": {
+          "Growth Temperature": "37",
+          "carbon dioxide": "5",
+          "Sample Preservation Method": "RNALater",
+          "Sample Preservation Temperature": "4"
+        },
+        "comments": {
+          "Sample Title": "Line 2, Post-flight rep2 [FC5]"
+        }
+      },
+      {
+        "sample_name": "GSM4066607",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "iPSC-derived cardiomyocytes",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "5.5 weeks microgravity exposure, followed by 10 days normal gravity"
+        },
+        "parameters": {
+          "Growth Temperature": "37",
+          "carbon dioxide": "5",
+          "Sample Preservation Method": "RNALater",
+          "Sample Preservation Temperature": "4"
+        },
+        "comments": {
+          "Sample Title": "Line 3, Post-flight rep2 [FC6]"
+        }
+      },
+      {
+        "sample_name": "GSM4066608",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "iPSC-derived cardiomyocytes",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Time": "5.5 weeks plus 10 days"
+        },
+        "parameters": {
+          "Growth Temperature": "37",
+          "carbon dioxide": "5",
+          "Sample Preservation Method": "RNALater",
+          "Sample Preservation Temperature": "4"
+        },
+        "comments": {
+          "Sample Title": "Line 1, Ground rep1 [GB1]"
+        }
+      },
+      {
+        "sample_name": "GSM4066609",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "iPSC-derived cardiomyocytes",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Time": "5.5 weeks plus 10 days"
+        },
+        "parameters": {
+          "Growth Temperature": "37",
+          "carbon dioxide": "5",
+          "Sample Preservation Method": "RNALater",
+          "Sample Preservation Temperature": "4"
+        },
+        "comments": {
+          "Sample Title": "Line 2, Ground rep1 [GB2]"
+        }
+      },
+      {
+        "sample_name": "GSM4066610",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "iPSC-derived cardiomyocytes",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Time": "5.5 weeks plus 10 days"
+        },
+        "parameters": {
+          "Growth Temperature": "37",
+          "carbon dioxide": "5",
+          "Sample Preservation Method": "RNALater",
+          "Sample Preservation Temperature": "4"
+        },
+        "comments": {
+          "Sample Title": "Line 3, Ground rep1 [GB3]"
+        }
+      },
+      {
+        "sample_name": "GSM4066611",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "iPSC-derived cardiomyocytes",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Time": "5.5 weeks plus 10 days"
+        },
+        "parameters": {
+          "Growth Temperature": "37",
+          "carbon dioxide": "5",
+          "Sample Preservation Method": "RNALater",
+          "Sample Preservation Temperature": "4"
+        },
+        "comments": {
+          "Sample Title": "Line 1, Ground rep2 [GB4]"
+        }
+      },
+      {
+        "sample_name": "GSM4066612",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "iPSC-derived cardiomyocytes",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Time": "5.5 weeks plus 10 days"
+        },
+        "parameters": {
+          "Growth Temperature": "37",
+          "carbon dioxide": "5",
+          "Sample Preservation Method": "RNALater",
+          "Sample Preservation Temperature": "4"
+        },
+        "comments": {
+          "Sample Title": "Line 2, Ground rep2 [GB5]"
+        }
+      },
+      {
+        "sample_name": "GSM4066613",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "iPSC-derived cardiomyocytes",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Time": "5.5 weeks plus 10 days"
+        },
+        "parameters": {
+          "Growth Temperature": "37",
+          "carbon dioxide": "5",
+          "Sample Preservation Method": "RNALater",
+          "Sample Preservation Temperature": "4"
+        },
+        "comments": {
+          "Sample Title": "Line 3, Ground rep2 [GB6]"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina HiSeq 2000",
+      "qc": {
+        "Read Depth": "36615750",
+        "rRNA Contamination": "1.3"
+      },
+      "library": {},
+      "files": {
+        "raw": [
+          "GLDS-258_rna-seq_SRR10084977_1.fastq.gz",
+          "GLDS-258_rna-seq_SRR10084977_2.fastq.gz",
+          "GLDS-258_rna-seq_SRR10084978_1.fastq.gz",
+          "GLDS-258_rna-seq_SRR10084978_2.fastq.gz",
+          "GLDS-258_rna-seq_SRR10084979_1.fastq.gz",
+          "GLDS-258_rna-seq_SRR10084979_2.fastq.gz",
+          "GLDS-258_rna-seq_SRR10084980_1.fastq.gz",
+          "GLDS-258_rna-seq_SRR10084980_2.fastq.gz",
+          "GLDS-258_rna-seq_SRR10084981_1.fastq.gz",
+          "GLDS-258_rna-seq_SRR10084981_2.fastq.gz",
+          "GLDS-258_rna-seq_SRR10084982_1.fastq.gz",
+          "GLDS-258_rna-seq_SRR10084982_2.fastq.gz",
+          "GLDS-258_rna-seq_SRR10084983_1.fastq.gz",
+          "GLDS-258_rna-seq_SRR10084983_2.fastq.gz",
+          "GLDS-258_rna-seq_SRR10084984_1.fastq.gz",
+          "GLDS-258_rna-seq_SRR10084984_2.fastq.gz",
+          "GLDS-258_rna-seq_SRR10084985_1.fastq.gz",
+          "GLDS-258_rna-seq_SRR10084985_2.fastq.gz",
+          "GLDS-258_rna-seq_SRR10084986_1.fastq.gz",
+          "GLDS-258_rna-seq_SRR10084986_2.fastq.gz",
+          "GLDS-258_rna-seq_SRR10084987_1.fastq.gz",
+          "GLDS-258_rna-seq_SRR10084987_2.fastq.gz",
+          "GLDS-258_rna-seq_SRR10084988_1.fastq.gz",
+          "GLDS-258_rna-seq_SRR10084988_2.fastq.gz",
+          "GLDS-258_rna-seq_SRR10084989_1.fastq.gz",
+          "GLDS-258_rna-seq_SRR10084989_2.fastq.gz",
+          "GLDS-258_rna-seq_SRR10084990_1.fastq.gz",
+          "GLDS-258_rna-seq_SRR10084990_2.fastq.gz",
+          "GLDS-258_rna-seq_SRR10084991_1.fastq.gz",
+          "GLDS-258_rna-seq_SRR10084991_2.fastq.gz",
+          "GLDS-258_rna-seq_SRR10084992_1.fastq.gz",
+          "GLDS-258_rna-seq_SRR10084992_2.fastq.gz",
+          "GLDS-258_rna-seq_SRR10084993_1.fastq.gz",
+          "GLDS-258_rna-seq_SRR10084993_2.fastq.gz",
+          "GLDS-258_rna-seq_SRR10084994_1.fastq.gz",
+          "GLDS-258_rna-seq_SRR10084994_2.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066596_R1_raw.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066596_R2_raw.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066596_R1_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066596_R2_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066597_R1_raw.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066597_R2_raw.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066597_R1_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066597_R2_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066598_R1_raw.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066598_R2_raw.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066598_R1_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066598_R2_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066599_R1_raw.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066599_R2_raw.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066599_R1_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066599_R2_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066600_R1_raw.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066600_R2_raw.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066600_R1_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066600_R2_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066601_R1_raw.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066601_R2_raw.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066601_R1_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066601_R2_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066602_R1_raw.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066602_R2_raw.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066602_R1_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066602_R2_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066603_R1_raw.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066603_R2_raw.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066603_R1_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066603_R2_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066604_R1_raw.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066604_R2_raw.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066604_R1_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066604_R2_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066605_R1_raw.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066605_R2_raw.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066605_R1_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066605_R2_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066606_R1_raw.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066606_R2_raw.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066606_R1_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066606_R2_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066607_R1_raw.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066607_R2_raw.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066607_R1_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066607_R2_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066608_R1_raw.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066608_R2_raw.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066608_R1_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066608_R2_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066609_R1_raw.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066609_R2_raw.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066609_R1_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066609_R2_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066610_R1_raw.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066610_R2_raw.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066610_R1_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066610_R2_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066611_R1_raw.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066611_R2_raw.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066611_R1_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066611_R2_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066612_R1_raw.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066612_R2_raw.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066612_R1_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066612_R2_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066613_R1_raw.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066613_R2_raw.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066613_R1_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066613_R2_trimmed.fastq.gz"
+        ],
+        "processed": [
+          "GLDS-258_rna-seq_GSE137081_vsd_exp.txt.gz",
+          "GLDS-258_rna_seq_GSM4066596_R1_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066596_R2_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066596_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-258_rna_seq_GSM4066596_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-258_rna_seq_GSM4066596_Aligned.toTranscriptome.out.bam",
+          "GLDS-258_rna_seq_GSM4066596_SJ.out.tab",
+          "GLDS-258_rna_seq_GSM4066597_R1_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066597_R2_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066597_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-258_rna_seq_GSM4066597_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-258_rna_seq_GSM4066597_Aligned.toTranscriptome.out.bam",
+          "GLDS-258_rna_seq_GSM4066597_SJ.out.tab",
+          "GLDS-258_rna_seq_GSM4066598_R1_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066598_R2_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066598_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-258_rna_seq_GSM4066598_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-258_rna_seq_GSM4066598_Aligned.toTranscriptome.out.bam",
+          "GLDS-258_rna_seq_GSM4066598_SJ.out.tab",
+          "GLDS-258_rna_seq_GSM4066599_R1_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066599_R2_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066599_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-258_rna_seq_GSM4066599_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-258_rna_seq_GSM4066599_Aligned.toTranscriptome.out.bam",
+          "GLDS-258_rna_seq_GSM4066599_SJ.out.tab",
+          "GLDS-258_rna_seq_GSM4066600_R1_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066600_R2_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066600_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-258_rna_seq_GSM4066600_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-258_rna_seq_GSM4066600_Aligned.toTranscriptome.out.bam",
+          "GLDS-258_rna_seq_GSM4066600_SJ.out.tab",
+          "GLDS-258_rna_seq_GSM4066601_R1_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066601_R2_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066601_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-258_rna_seq_GSM4066601_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-258_rna_seq_GSM4066601_Aligned.toTranscriptome.out.bam",
+          "GLDS-258_rna_seq_GSM4066601_SJ.out.tab",
+          "GLDS-258_rna_seq_GSM4066602_R1_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066602_R2_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066602_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-258_rna_seq_GSM4066602_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-258_rna_seq_GSM4066602_Aligned.toTranscriptome.out.bam",
+          "GLDS-258_rna_seq_GSM4066602_SJ.out.tab",
+          "GLDS-258_rna_seq_GSM4066603_R1_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066603_R2_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066603_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-258_rna_seq_GSM4066603_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-258_rna_seq_GSM4066603_Aligned.toTranscriptome.out.bam",
+          "GLDS-258_rna_seq_GSM4066603_SJ.out.tab",
+          "GLDS-258_rna_seq_GSM4066604_R1_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066604_R2_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066604_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-258_rna_seq_GSM4066604_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-258_rna_seq_GSM4066604_Aligned.toTranscriptome.out.bam",
+          "GLDS-258_rna_seq_GSM4066604_SJ.out.tab",
+          "GLDS-258_rna_seq_GSM4066605_R1_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066605_R2_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066605_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-258_rna_seq_GSM4066605_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-258_rna_seq_GSM4066605_Aligned.toTranscriptome.out.bam",
+          "GLDS-258_rna_seq_GSM4066605_SJ.out.tab",
+          "GLDS-258_rna_seq_GSM4066606_R1_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066606_R2_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066606_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-258_rna_seq_GSM4066606_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-258_rna_seq_GSM4066606_Aligned.toTranscriptome.out.bam",
+          "GLDS-258_rna_seq_GSM4066606_SJ.out.tab",
+          "GLDS-258_rna_seq_GSM4066607_R1_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066607_R2_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066607_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-258_rna_seq_GSM4066607_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-258_rna_seq_GSM4066607_Aligned.toTranscriptome.out.bam",
+          "GLDS-258_rna_seq_GSM4066607_SJ.out.tab",
+          "GLDS-258_rna_seq_GSM4066608_R1_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066608_R2_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066608_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-258_rna_seq_GSM4066608_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-258_rna_seq_GSM4066608_Aligned.toTranscriptome.out.bam",
+          "GLDS-258_rna_seq_GSM4066608_SJ.out.tab",
+          "GLDS-258_rna_seq_GSM4066609_R1_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066609_R2_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066609_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-258_rna_seq_GSM4066609_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-258_rna_seq_GSM4066609_Aligned.toTranscriptome.out.bam",
+          "GLDS-258_rna_seq_GSM4066609_SJ.out.tab",
+          "GLDS-258_rna_seq_GSM4066610_R1_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066610_R2_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066610_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-258_rna_seq_GSM4066610_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-258_rna_seq_GSM4066610_Aligned.toTranscriptome.out.bam",
+          "GLDS-258_rna_seq_GSM4066610_SJ.out.tab",
+          "GLDS-258_rna_seq_GSM4066611_R1_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066611_R2_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066611_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-258_rna_seq_GSM4066611_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-258_rna_seq_GSM4066611_Aligned.toTranscriptome.out.bam",
+          "GLDS-258_rna_seq_GSM4066611_SJ.out.tab",
+          "GLDS-258_rna_seq_GSM4066612_R1_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066612_R2_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066612_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-258_rna_seq_GSM4066612_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-258_rna_seq_GSM4066612_Aligned.toTranscriptome.out.bam",
+          "GLDS-258_rna_seq_GSM4066612_SJ.out.tab",
+          "GLDS-258_rna_seq_GSM4066613_R1_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066613_R2_trimmed.fastq.gz",
+          "GLDS-258_rna_seq_GSM4066613_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-258_rna_seq_GSM4066613_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-258_rna_seq_GSM4066613_Aligned.toTranscriptome.out.bam",
+          "GLDS-258_rna_seq_GSM4066613_SJ.out.tab",
+          "GSM4066596",
+          "GeneLab RNAseq data processing protocol",
+          "PAIRED",
+          "polyA enrichment",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000187",
+          "Illumina HiSeq 2000",
+          "100",
+          "percent",
+          "rna-seq",
+          "36615750",
+          "1.3",
+          "GLDS-258_rna_seq_GSM4066596.genes.results",
+          "GLDS-258_rna_seq_GSM4066596.isoforms.results",
+          "GLDS-258_rna_seq_RSEM_Unnormalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-258_rna_seq_STAR_Unnormalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-258_rna_seq_Normalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-258_rna_seq_SampleTable_GLbulkRNAseq.csv",
+          "GLDS-258_rna_seq_contrasts_GLbulkRNAseq.csv",
+          "GLDS-258_rna_seq_differential_expression_GLbulkRNAseq.csv",
+          "GSM4066597",
+          "31203867",
+          "1.45",
+          "GLDS-258_rna_seq_GSM4066597.genes.results",
+          "GLDS-258_rna_seq_GSM4066597.isoforms.results",
+          "GSM4066598",
+          "40664174",
+          "2.51",
+          "GLDS-258_rna_seq_GSM4066598.genes.results",
+          "GLDS-258_rna_seq_GSM4066598.isoforms.results",
+          "GSM4066599",
+          "38326694",
+          "1.24",
+          "GLDS-258_rna_seq_GSM4066599.genes.results",
+          "GLDS-258_rna_seq_GSM4066599.isoforms.results",
+          "GSM4066600",
+          "37370127",
+          "2.31",
+          "GLDS-258_rna_seq_GSM4066600.genes.results",
+          "GLDS-258_rna_seq_GSM4066600.isoforms.results",
+          "GSM4066601",
+          "40073241",
+          "1.54",
+          "GLDS-258_rna_seq_GSM4066601.genes.results",
+          "GLDS-258_rna_seq_GSM4066601.isoforms.results",
+          "GSM4066602",
+          "46738678",
+          "1.38",
+          "GLDS-258_rna_seq_GSM4066602.genes.results",
+          "GLDS-258_rna_seq_GSM4066602.isoforms.results",
+          "GSM4066603",
+          "39977218",
+          "1.93",
+          "GLDS-258_rna_seq_GSM4066603.genes.results",
+          "GLDS-258_rna_seq_GSM4066603.isoforms.results",
+          "GSM4066604",
+          "41556176",
+          "GLDS-258_rna_seq_GSM4066604.genes.results",
+          "GLDS-258_rna_seq_GSM4066604.isoforms.results",
+          "GSM4066605",
+          "31256537",
+          "1.22",
+          "GLDS-258_rna_seq_GSM4066605.genes.results",
+          "GLDS-258_rna_seq_GSM4066605.isoforms.results",
+          "GSM4066606",
+          "40236354",
+          "33.65",
+          "GLDS-258_rna_seq_GSM4066606.genes.results",
+          "GLDS-258_rna_seq_GSM4066606.isoforms.results",
+          "GSM4066607",
+          "42994454",
+          "1.4",
+          "GLDS-258_rna_seq_GSM4066607.genes.results",
+          "GLDS-258_rna_seq_GSM4066607.isoforms.results",
+          "GSM4066608",
+          "38716525",
+          "2.62",
+          "GLDS-258_rna_seq_GSM4066608.genes.results",
+          "GLDS-258_rna_seq_GSM4066608.isoforms.results",
+          "GSM4066609",
+          "39619430",
+          "5.42",
+          "GLDS-258_rna_seq_GSM4066609.genes.results",
+          "GLDS-258_rna_seq_GSM4066609.isoforms.results",
+          "GSM4066610",
+          "42654413",
+          "1.5",
+          "GLDS-258_rna_seq_GSM4066610.genes.results",
+          "GLDS-258_rna_seq_GSM4066610.isoforms.results",
+          "GSM4066611",
+          "43164173",
+          "2.52",
+          "GLDS-258_rna_seq_GSM4066611.genes.results",
+          "GLDS-258_rna_seq_GSM4066611.isoforms.results",
+          "GSM4066612",
+          "39458422",
+          "1.32",
+          "GLDS-258_rna_seq_GSM4066612.genes.results",
+          "GLDS-258_rna_seq_GSM4066612.isoforms.results",
+          "GSM4066613",
+          "32046400",
+          "GLDS-258_rna_seq_GSM4066613.genes.results",
+          "GLDS-258_rna_seq_GSM4066613.isoforms.results"
+        ],
+        "reports": [
+          "GLDS-258_rna_seq_raw_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-258_rna_seq_trimmed_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-258_rna_seq_GSM4066596_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-258_rna_seq_GSM4066596_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-258_rna_seq_GSM4066596_Log.final.out",
+          "GLDS-258_rna_seq_align_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-258_rna_seq_geneBody_cov_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-258_rna_seq_infer_exp_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-258_rna_seq_inner_dist_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-258_rna_seq_read_dist_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-258_rna_seq_RSEM_count_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-258_rna_seq_GSM4066597_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-258_rna_seq_GSM4066597_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-258_rna_seq_GSM4066597_Log.final.out",
+          "GLDS-258_rna_seq_GSM4066598_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-258_rna_seq_GSM4066598_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-258_rna_seq_GSM4066598_Log.final.out",
+          "GLDS-258_rna_seq_GSM4066599_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-258_rna_seq_GSM4066599_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-258_rna_seq_GSM4066599_Log.final.out",
+          "GLDS-258_rna_seq_GSM4066600_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-258_rna_seq_GSM4066600_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-258_rna_seq_GSM4066600_Log.final.out",
+          "GLDS-258_rna_seq_GSM4066601_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-258_rna_seq_GSM4066601_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-258_rna_seq_GSM4066601_Log.final.out",
+          "GLDS-258_rna_seq_GSM4066602_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-258_rna_seq_GSM4066602_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-258_rna_seq_GSM4066602_Log.final.out",
+          "GLDS-258_rna_seq_GSM4066603_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-258_rna_seq_GSM4066603_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-258_rna_seq_GSM4066603_Log.final.out",
+          "GLDS-258_rna_seq_GSM4066604_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-258_rna_seq_GSM4066604_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-258_rna_seq_GSM4066604_Log.final.out",
+          "GLDS-258_rna_seq_GSM4066605_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-258_rna_seq_GSM4066605_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-258_rna_seq_GSM4066605_Log.final.out",
+          "GLDS-258_rna_seq_GSM4066606_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-258_rna_seq_GSM4066606_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-258_rna_seq_GSM4066606_Log.final.out",
+          "GLDS-258_rna_seq_GSM4066607_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-258_rna_seq_GSM4066607_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-258_rna_seq_GSM4066607_Log.final.out",
+          "GLDS-258_rna_seq_GSM4066608_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-258_rna_seq_GSM4066608_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-258_rna_seq_GSM4066608_Log.final.out",
+          "GLDS-258_rna_seq_GSM4066609_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-258_rna_seq_GSM4066609_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-258_rna_seq_GSM4066609_Log.final.out",
+          "GLDS-258_rna_seq_GSM4066610_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-258_rna_seq_GSM4066610_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-258_rna_seq_GSM4066610_Log.final.out",
+          "GLDS-258_rna_seq_GSM4066611_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-258_rna_seq_GSM4066611_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-258_rna_seq_GSM4066611_Log.final.out",
+          "GLDS-258_rna_seq_GSM4066612_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-258_rna_seq_GSM4066612_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-258_rna_seq_GSM4066612_Log.final.out",
+          "GLDS-258_rna_seq_GSM4066613_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-258_rna_seq_GSM4066613_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-258_rna_seq_GSM4066613_Log.final.out"
+        ]
+      }
+    }
+  ]
+}

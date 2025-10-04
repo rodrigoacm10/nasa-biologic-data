@@ -1,0 +1,2772 @@
+{
+  "investigation": {
+    "id": "OSD-337",
+    "title": "miRNA signature detection and countermeasures against HZE radiation exposure for tissue degeneration-Soleus muscle",
+    "description": "Biological risks associated with space radiation and microgravity are major concerns for long-term space travel. Through a Systems Biology approach, our previous NASA work has shown both TGFβ signaling pathways and miRNAs have a critical impact on defining health risks with and without space irradiation.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "Hindlimb_Unloading, Simplified_Galactic_Cosmic_Ray_Simulation_Irradiation, Multiple_Radiation_Types, Solar_Particle_Event_Simulation_Irradiation, Heavy_Ion_HZE_Irradiation, Gamma_Irradiation, High_Dose_Irradiation, Low_LET_Irradiation",
+      "title": "miRNA signature detection and countermeasures against HZE radiation exposure for tissue degeneration",
+      "type": "Ground Study",
+      "link": "",
+      "funding": "This work was also supported by 15 NASA grant 16-ROSBFP_GL-0005: NNH16ZTT001N-FG Appendix G: Solicitation of Proposals for Flight and Ground Space Biology Research (Award Number: 80NSSC19K0883) and The Translational Research Institute for Space Health through NASA Cooperative Agreement NNX16AO69A (T-0404) awarded to AB.",
+      "managing_center": ""
+    },
+    "protocols": [
+      "nucleic acid extraction",
+      "library construction",
+      "nucleic acid sequencing",
+      "treatment protocol",
+      "irradiation protocol",
+      "sample collection"
+    ],
+    "publications": [
+      {
+        "title": "Circulating miRNA Spaceflight Signature Reveals Targets for Countermeasure Development",
+        "doi": "10.1016/j.celrep.2020.10844810.1016/j.celrep.2020.108448",
+        "authors": [
+          "Sherina Malkani",
+          "Christopher R. Chin",
+          "Egle Cekanaviciute",
+          "Marie Mortreux",
+          "Hazeem Okinula",
+          "Marcel Tarbier",
+          "Ann-Sofie Schreurs",
+          "Yasaman Shirazi-Fard",
+          "Candice G.T. Tahimic",
+          "Deyra N. Rodriguez",
+          "Brittany S. Sexton",
+          "Daniel Butler",
+          "Akanksha Verma",
+          "Daniela Bezdan",
+          "Ceyda Durmaz",
+          "Matthew MacKay",
+          "Ari Melnick",
+          "Cem Meydan",
+          "Sheng Li",
+          "Francine Garrett-Bakelman",
+          "Bastian Fromm",
+          "Ebrahim Afshinnekoo",
+          "Brad W. Langhorst",
+          "Eileen T. Dimalanta",
+          "Margareth Cheng-Campbell",
+          "Elizabeth Blaber",
+          "Jonathan C. Schisler",
+          "Charles Vanderburg",
+          "Marc R. Friedlander",
+          "J. Tyson McDonald",
+          "Sylvain V. Costes",
+          "Seward Rutkove",
+          "Peter Grabham",
+          "Christopher E. Mason",
+          "Afshin Beheshti"
+        ],
+        "summary": "Circulating miRNA Spaceflight Signature Reveals Targets for Countermeasure Development — 10.1016/j.celrep.2020.10844810.1016/j.celrep.2020.108448"
+      }
+    ],
+    "factors": [
+      "Hindlimb Unloading",
+      "Ionizing Radiation",
+      "Particle Charge"
+    ],
+    "contacts": [
+      {
+        "first_name": "Afshin",
+        "last_name": "Beheshti",
+        "role": "principal investigator",
+        "email": "afshin.beheshti@nasa.gov"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "F1-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F2-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F3-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F4-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F5-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F6-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F7-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F8-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F9-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F10-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F11-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F12-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F13-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F14-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F15-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F16-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F17-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F18-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F19-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F20-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F21-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F22-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F23-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F24-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F25-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F26-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F27-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F28-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F29-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F30-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F31-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F32-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F33-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F34-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F35-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F36-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F37-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F38-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F39-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F41-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F42-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F43-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F44-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F45-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F46-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F47-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F48-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F49-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F50-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F51-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F53-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F54-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F55-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F56-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F57-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F58-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F59-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F60-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F61-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F62-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F63-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F64-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F65-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F66-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F67-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F68-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F69-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F70-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F71-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F72-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F73-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F74-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F75-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F76-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F77-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F78-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F79-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F80-Soleus Muscle",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina Hiseq 2500",
+      "qc": {
+        "QA Instrument": "Agilent 2100 Bioanalyzer",
+        "QA Score": "> 7"
+      },
+      "library": {},
+      "files": {
+        "raw": [
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F1-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F2-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F3-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F4-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F5-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F6-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F7-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F8-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F9-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F10-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F11-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F12-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F13-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F14-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F15-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F16-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F17-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F18-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F19-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F20-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F21-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F22-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F23-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F24-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F25-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F26-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F27-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F28-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F29-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F30-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F31-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F32-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F33-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F34-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F35-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F36-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F37-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F38-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F39-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F41-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F42-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F43-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F44-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F45-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F46-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F47-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F48-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F49-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F50-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F51-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F53-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F54-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F55-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F56-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F57-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F58-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F59-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F60-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F61-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F62-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F63-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F64-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F65-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F66-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F67-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F68-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F69-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F70-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F71-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F72-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F73-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F74-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F75-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F76-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F77-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F78-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F79-Soleus-Muscle_RawData.fq.gz",
+          "GLDS-337_miRNA-Seq_LCS7565_AB_F80-Soleus-Muscle_RawData.fq.gz"
+        ],
+        "processed": [
+          "F1-Soleus Muscle",
+          "nucleic acid sequencing",
+          "Agilent 2100 Bioanalyzer",
+          "> 7",
+          "base pair",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000244",
+          "cDNA",
+          "SINGLE",
+          "STRANDED",
+          "Illumina Hiseq 2500",
+          "50",
+          "miRNA-Seq",
+          "F2-Soleus Muscle",
+          "F3-Soleus Muscle",
+          "F4-Soleus Muscle",
+          "F5-Soleus Muscle",
+          "F6-Soleus Muscle",
+          "F7-Soleus Muscle",
+          "F8-Soleus Muscle",
+          "F9-Soleus Muscle",
+          "F10-Soleus Muscle",
+          "F11-Soleus Muscle",
+          "F12-Soleus Muscle",
+          "F13-Soleus Muscle",
+          "F14-Soleus Muscle",
+          "F15-Soleus Muscle",
+          "F16-Soleus Muscle",
+          "F17-Soleus Muscle",
+          "F18-Soleus Muscle",
+          "F19-Soleus Muscle",
+          "F20-Soleus Muscle",
+          "F21-Soleus Muscle",
+          "F22-Soleus Muscle",
+          "F23-Soleus Muscle",
+          "F24-Soleus Muscle",
+          "F25-Soleus Muscle",
+          "F26-Soleus Muscle",
+          "F27-Soleus Muscle",
+          "F28-Soleus Muscle",
+          "F29-Soleus Muscle",
+          "F30-Soleus Muscle",
+          "F31-Soleus Muscle",
+          "F32-Soleus Muscle",
+          "F33-Soleus Muscle",
+          "F34-Soleus Muscle",
+          "F35-Soleus Muscle",
+          "F36-Soleus Muscle",
+          "F37-Soleus Muscle",
+          "F38-Soleus Muscle",
+          "F39-Soleus Muscle",
+          "F41-Soleus Muscle",
+          "F42-Soleus Muscle",
+          "F43-Soleus Muscle",
+          "F44-Soleus Muscle",
+          "F45-Soleus Muscle",
+          "F46-Soleus Muscle",
+          "F47-Soleus Muscle",
+          "F48-Soleus Muscle",
+          "F49-Soleus Muscle",
+          "F50-Soleus Muscle",
+          "F51-Soleus Muscle",
+          "F53-Soleus Muscle",
+          "F54-Soleus Muscle",
+          "F55-Soleus Muscle",
+          "F56-Soleus Muscle",
+          "F57-Soleus Muscle",
+          "F58-Soleus Muscle",
+          "F59-Soleus Muscle",
+          "F60-Soleus Muscle",
+          "F61-Soleus Muscle",
+          "F62-Soleus Muscle",
+          "F63-Soleus Muscle",
+          "F64-Soleus Muscle",
+          "F65-Soleus Muscle",
+          "F66-Soleus Muscle",
+          "F67-Soleus Muscle",
+          "F68-Soleus Muscle",
+          "F69-Soleus Muscle",
+          "F70-Soleus Muscle",
+          "F71-Soleus Muscle",
+          "F72-Soleus Muscle",
+          "F73-Soleus Muscle",
+          "F74-Soleus Muscle",
+          "F75-Soleus Muscle",
+          "F76-Soleus Muscle",
+          "F77-Soleus Muscle",
+          "F78-Soleus Muscle",
+          "F79-Soleus Muscle",
+          "F80-Soleus Muscle"
+        ],
+        "reports": []
+      }
+    }
+  ]
+}

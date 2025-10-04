@@ -1,0 +1,4172 @@
+{
+  "investigation": {
+    "id": "OSD-728",
+    "title": "Simulated microgravity triggers a membrane adaptation to stress in E. coli REL606",
+    "description": "Investigating the evolution of Escherichia coli in microgravity offers valuable insights into microbial adaptation to extreme environments. Here the effects of simulated microgravity (SµG) on gene expression and genome evolution of E.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "Simulated_Microgravity",
+      "title": "",
+      "type": "Ground Study",
+      "link": "",
+      "funding": "Funding acquisition, by A.O through Early Career funding from NASA’s Mars Campaign Office (MCO) Polaris Project. Additional support from the National Science Foundation (DEB-1951307) to J.E.B.",
+      "managing_center": "Kennedy Space Center (KSC)"
+    },
+    "protocols": [
+      "Growth Protocol",
+      "treatment protocol",
+      "sample collection",
+      "Nucleic Acid Extraction 1",
+      "Library Construction 1",
+      "Nucleic Acid Sequencing 1",
+      "GeneLab raw data processing protocol - RNAseq",
+      "Nucleic Acid Extraction",
+      "Library Construction",
+      "Nucleic Acid Sequencing",
+      "GeneLab raw data processing protocol - WGS"
+    ],
+    "publications": [
+      {
+        "title": "Simulated microgravity triggers a membrane adaptation to stress in E. coli REL606.",
+        "doi": "10.1186/s12866-025-04064-7",
+        "authors": [
+          "Lozzi B",
+          "Adepoju L",
+          "Espinoza JL",
+          "Padgen M",
+          "Parra M",
+          "Ricco A",
+          "Castro-Wallace S",
+          "Barrick JE",
+          "O'Rourke A."
+        ],
+        "summary": "Simulated microgravity triggers a membrane adaptation to stress in E. coli REL606."
+      }
+    ],
+    "factors": [
+      "Microgravity Simulation",
+      "Time",
+      "Growth Medium"
+    ],
+    "contacts": [
+      {
+        "first_name": "Brittney",
+        "last_name": "Lozzi",
+        "role": "Author",
+        "email": "Aubrie.e.orourke@nasa.gov"
+      },
+      {
+        "first_name": "Lea",
+        "last_name": "Adepoju",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Josh L",
+        "last_name": "Espinoza",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Michael",
+        "last_name": "Padgen",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Macarena",
+        "last_name": "Parra",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Antonio",
+        "last_name": "Ricco",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Sarah",
+        "last_name": "Castro-Wallace",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Jeffrey E",
+        "last_name": "Barrick",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Aubrie",
+        "last_name": "O'Rourke",
+        "role": "conceptualization role",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "BR2DM2KT0A",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "Baseline Control",
+          "Time": "0",
+          "Growth Medium": "DM2000"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR2DM2KT0B",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "Baseline Control",
+          "Time": "0",
+          "Growth Medium": "DM2000"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR2DM2KT16RA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G by static RWV",
+          "Time": "6.5",
+          "Growth Medium": "DM2000"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR2DM2KT16SA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G in incubator",
+          "Time": "6.5",
+          "Growth Medium": "DM2000"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "Flask",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR2DM2KT16uGA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by RWV",
+          "Time": "6.5",
+          "Growth Medium": "DM2000"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR2DM2KT24RA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G by static RWV",
+          "Time": "24",
+          "Growth Medium": "DM2000"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR2DM2KT24SA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G in incubator",
+          "Time": "24",
+          "Growth Medium": "DM2000"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "Flask",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR2DM2KT24uGA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by RWV",
+          "Time": "24",
+          "Growth Medium": "DM2000"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR2DM25T0A",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "Baseline Control",
+          "Time": "0",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR2DM25T0B",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "Baseline Control",
+          "Time": "0",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR2DM25T7RA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G by static RWV",
+          "Time": "4.5",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR2DM25T7SA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G in incubator",
+          "Time": "4.5",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "Flask",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR2DM25T7uGA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by RWV",
+          "Time": "4.5",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR2DM25T24RA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G by static RWV",
+          "Time": "24",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR2DM25T24SA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G in incubator",
+          "Time": "24",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "Flask",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR2DM25T24uGA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by RWV",
+          "Time": "24",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR3DM2KT0A",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "Baseline Control",
+          "Time": "0",
+          "Growth Medium": "DM2000"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR3DM2KT0B",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "Baseline Control",
+          "Time": "0",
+          "Growth Medium": "DM2000"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR3DM2KT2SA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G by static RWV",
+          "Time": "6.5",
+          "Growth Medium": "DM2000"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR3DM2KT17RA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G in incubator",
+          "Time": "6.5",
+          "Growth Medium": "DM2000"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "Flask",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR3DM2KT17SA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by RWV",
+          "Time": "6.5",
+          "Growth Medium": "DM2000"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR3DM2KT17uGA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G by static RWV",
+          "Time": "24",
+          "Growth Medium": "DM2000"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR3DM2KT24RA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G in incubator",
+          "Time": "24",
+          "Growth Medium": "DM2000"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "Flask",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR3DM2KT24uGA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by RWV",
+          "Time": "24",
+          "Growth Medium": "DM2000"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR3DM25T0A",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "Baseline Control",
+          "Time": "0",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR3DM25T0C",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "Baseline Control",
+          "Time": "0",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR3DM25T7RA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G by static RWV",
+          "Time": "4.5",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR3DM25T7SA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G in incubator",
+          "Time": "4.5",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "Flask",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR3DM25T7uGA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by RWV",
+          "Time": "4.5",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR3DM25T24RA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G by static RWV",
+          "Time": "24",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR3DM25T24SA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G in incubator",
+          "Time": "24",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "Flask",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR3DM25T24uGA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by RWV",
+          "Time": "24",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR4DM25T0A",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "Baseline Control",
+          "Time": "0",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR4DM25T0B",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "Baseline Control",
+          "Time": "0",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR4DM25T24RA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G by static RWV",
+          "Time": "4.5",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR4DM25T24SA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G in incubator",
+          "Time": "4.5",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "Flask",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR4DM25T24SuGA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by RWV",
+          "Time": "4.5",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR4DM25T45RA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G by static RWV",
+          "Time": "24",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR4DM25T45SA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G in incubator",
+          "Time": "24",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "Flask",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR4DM25T45SuGA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by RWV",
+          "Time": "24",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR4DM2000T0A",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "Baseline Control",
+          "Time": "0",
+          "Growth Medium": "DM2000"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR4DM2000T0B",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "Baseline Control",
+          "Time": "0",
+          "Growth Medium": "DM2000"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR4DM2000T24RA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G by static RWV",
+          "Time": "6.5",
+          "Growth Medium": "DM2000"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR4DM2000T24SA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G in incubator",
+          "Time": "6.5",
+          "Growth Medium": "DM2000"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "Flask",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR4DM2000T24SuGA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by RWV",
+          "Time": "6.5",
+          "Growth Medium": "DM2000"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR4DM2000T65RA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G by static RWV",
+          "Time": "24",
+          "Growth Medium": "DM2000"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR4DM2000T65SA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G in incubator",
+          "Time": "24",
+          "Growth Medium": "DM2000"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "Flask",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR4DM2000T65SuGA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by RWV",
+          "Time": "24",
+          "Growth Medium": "DM2000"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR5DM25T0A",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "Baseline Control",
+          "Time": "0",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR5DM25T0B",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "Baseline Control",
+          "Time": "0",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR5DM25T24RA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G by static RWV",
+          "Time": "4.5",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR5DM25T24SA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G in incubator",
+          "Time": "4.5",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "Flask",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR5DM25T24SuGA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by RWV",
+          "Time": "4.5",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR5DM25T45RA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G by static RWV",
+          "Time": "24",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR5DM25T45SA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G in incubator",
+          "Time": "24",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "Flask",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR5DM25T45SuGA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by RWV",
+          "Time": "24",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR5DM2000T0A",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "Baseline Control",
+          "Time": "0",
+          "Growth Medium": "DM2000"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR5DM2000T0B",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "Baseline Control",
+          "Time": "0",
+          "Growth Medium": "DM2000"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR5DM2000T24RA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G by static RWV",
+          "Time": "6.5",
+          "Growth Medium": "DM2000"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR5DM2000T24SA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G in incubator",
+          "Time": "6.5",
+          "Growth Medium": "DM2000"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "Flask",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR5DM2000T24SuGA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by RWV",
+          "Time": "6.5",
+          "Growth Medium": "DM2000"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR5DM2000T65RA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G by static RWV",
+          "Time": "24",
+          "Growth Medium": "DM2000"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR5DM2000T65SA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G in incubator",
+          "Time": "24",
+          "Growth Medium": "DM2000"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "Flask",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "BR5DM2000T65SuGA",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by RWV",
+          "Time": "24",
+          "Growth Medium": "DM2000"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week1-AR-1",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G by static RWV",
+          "Time": "7",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week1-AR-2",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G by static RWV",
+          "Time": "7",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week1-AS-1",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G in incubator",
+          "Time": "7",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "Flask",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week1-AS-2",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G in incubator",
+          "Time": "7",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "Flask",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week1-ASuG-1",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by RWV",
+          "Time": "7",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week1-ASuG-2",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by RWV",
+          "Time": "7",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week1-CR-1",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G by static RWV",
+          "Time": "7",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week1-CR-2",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G by static RWV",
+          "Time": "7",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week1-CS-1",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G in incubator",
+          "Time": "7",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "Flask",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week1-CS-2",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G in incubator",
+          "Time": "7",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "Flask",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week1-CSuG-1",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by RWV",
+          "Time": "7",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week1-CSuG-2",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by RWV",
+          "Time": "7",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week1-DR-1",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G by static RWV",
+          "Time": "7",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week1-DR-2",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G by static RWV",
+          "Time": "7",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week1-DS-1",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G in incubator",
+          "Time": "7",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "Flask",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week1-DS-2",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G in incubator",
+          "Time": "7",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "Flask",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week1-DSuG-1",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by RWV",
+          "Time": "7",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week1-DSuG-2",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by RWV",
+          "Time": "7",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week2-AR-1",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G by static RWV",
+          "Time": "14",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week2-AR-2",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G by static RWV",
+          "Time": "14",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week2-AS-1",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G in incubator",
+          "Time": "14",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "Flask",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week2-AS-2",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G in incubator",
+          "Time": "14",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "Flask",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week2-ASuG-1",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by RWV",
+          "Time": "14",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week2-ASuG-2",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by RWV",
+          "Time": "14",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week2-CR-1",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G by static RWV",
+          "Time": "14",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week2-CR-2",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G by static RWV",
+          "Time": "14",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week2-CS-1",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G in incubator",
+          "Time": "14",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "Flask",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week2-CS-2",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G in incubator",
+          "Time": "14",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "Flask",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week2-CSuG-1",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by RWV",
+          "Time": "14",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week2-CSuG-2",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by RWV",
+          "Time": "14",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week2-DR-1",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G by static RWV",
+          "Time": "14",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week2-DR-2",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G by static RWV",
+          "Time": "14",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week2-DS-1",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G in incubator",
+          "Time": "14",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "Flask",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week2-DSuG-1",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by RWV",
+          "Time": "14",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week2-DSuG-2",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by RWV",
+          "Time": "14",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week3-AR-1",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G by static RWV",
+          "Time": "21",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week3-AR-2",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G by static RWV",
+          "Time": "21",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week3-AS-1",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G in incubator",
+          "Time": "21",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "Flask",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week3-AS-2",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G in incubator",
+          "Time": "21",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "Flask",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week3-ASuG-1",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by RWV",
+          "Time": "21",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week3-ASuG-2",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by RWV",
+          "Time": "21",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week3-CR-1",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G by static RWV",
+          "Time": "21",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week3-CR-2",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G by static RWV",
+          "Time": "21",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week3-CS-1",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G in incubator",
+          "Time": "21",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "Flask",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week3-CSuG-1",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by RWV",
+          "Time": "21",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week3-CSuG-2",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by RWV",
+          "Time": "21",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week3-DR-1",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G by static RWV",
+          "Time": "21",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week3-DR-2",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G by static RWV",
+          "Time": "21",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week3-DS-1",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G in incubator",
+          "Time": "21",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "Flask",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week3-DS-2",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G in incubator",
+          "Time": "21",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "Flask",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week3-DSuG-1",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by RWV",
+          "Time": "21",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week3-DSuG-2",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by RWV",
+          "Time": "21",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week4-AR-1",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G by static RWV",
+          "Time": "28",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week4-AR-2",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G by static RWV",
+          "Time": "28",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week4-AS-1",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G in incubator",
+          "Time": "28",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "Flask",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week4-AS-2",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G in incubator",
+          "Time": "28",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "Flask",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week4-ASuG-1",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by RWV",
+          "Time": "28",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week4-ASuG-2",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by RWV",
+          "Time": "28",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week4-CR-1",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G by static RWV",
+          "Time": "28",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week4-CR-2",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G by static RWV",
+          "Time": "28",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week4-CS-1",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G in incubator",
+          "Time": "28",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "Flask",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week4-CS-2",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G in incubator",
+          "Time": "28",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "Flask",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week4-CSuG-1",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by RWV",
+          "Time": "28",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week4-CSuG-2",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by RWV",
+          "Time": "28",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week4-D1000-T0-A",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "Baseline Control",
+          "Time": "0",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week4-D1000-T0-C",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "Baseline Control",
+          "Time": "0",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week4-D1000-T0-D",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "Baseline Control",
+          "Time": "0",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week4-DR-1",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G by static RWV",
+          "Time": "28",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week4-DR-2",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G by static RWV",
+          "Time": "28",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week4-DS-1",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G in incubator",
+          "Time": "28",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "Flask",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week4-DS-2",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G in incubator",
+          "Time": "28",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "Flask",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week4-DSuG-1",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by RWV",
+          "Time": "28",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "A-Week4-DSuG-2",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by RWV",
+          "Time": "28",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "HARV",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "B-Week4-D1000-T0-A",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "Baseline Control",
+          "Time": "0",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "B-Week4-D1000-T0-C",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "Baseline Control",
+          "Time": "0",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "B-Week4-D1000-T0-D",
+        "characteristics": {
+          "Organism": "Escherichia coli",
+          "Strain": "Escherichia coli B str. REL606",
+          "Genotype": "Wild Type",
+          "Material Type": "Cells, Cultured"
+        },
+        "factors": {
+          "Microgravity Simulation": "Baseline Control",
+          "Time": "0",
+          "Growth Medium": "DM25"
+        },
+        "parameters": {
+          "Growth Property": "Suspension Culture",
+          "Culture Vessel": "",
+          "Growth Temperature": "25",
+          "Relative Humidity": "95",
+          "Rotation Speed": "20",
+          "Sample Preservation Method": "Dry Ice",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "genome-sequencing",
+      "platform": "Illumina NextSeq 1000 (V1.5.0.42699)",
+      "qc": {
+        "QA Instrument": "Quibit",
+        "Read Depth": "32802248"
+      },
+      "library": {
+        "Library Strategy": "WGS",
+        "Library Selection": "DNA",
+        "Library Layout": "PAIRED"
+      },
+      "files": {
+        "raw": [
+          "GLDS-646_wgs_A-Week1-AR-1_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week1-AR-1_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week1-AR-2_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week1-AR-2_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week1-AS-1_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week1-AS-1_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week1-AS-2_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week1-AS-2_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week1-ASuG-1_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week1-ASuG-1_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week1-ASuG-2_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week1-ASuG-2_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week1-CR-1_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week1-CR-1_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week1-CR-2_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week1-CR-2_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week1-CS-1_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week1-CS-1_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week1-CS-2_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week1-CS-2_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week1-CSuG-1_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week1-CSuG-1_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week1-CSuG-2_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week1-CSuG-2_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week1-DR-1_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week1-DR-1_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week1-DR-2_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week1-DR-2_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week1-DS-1_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week1-DS-1_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week1-DS-2_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week1-DS-2_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week1-DSuG-1_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week1-DSuG-1_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week1-DSuG-2_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week1-DSuG-2_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week2-AR-1_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week2-AR-1_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week2-AR-2_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week2-AR-2_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week2-AS-1_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week2-AS-1_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week2-AS-2_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week2-AS-2_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week2-ASuG-1_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week2-ASuG-1_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week2-ASuG-2_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week2-ASuG-2_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week2-CR-1_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week2-CR-1_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week2-CR-2_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week2-CR-2_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week2-CS-1_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week2-CS-1_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week2-CS-2_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week2-CS-2_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week2-CSuG-1_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week2-CSuG-1_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week2-CSuG-2_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week2-CSuG-2_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week2-DR-1_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week2-DR-1_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week2-DR-2_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week2-DR-2_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week2-DS-1_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week2-DS-1_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week2-DSuG-1_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week2-DSuG-1_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week2-DSuG-2_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week2-DSuG-2_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week3-AR-1_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week3-AR-1_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week3-AR-2_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week3-AR-2_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week3-AS-1_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week3-AS-1_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week3-AS-2_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week3-AS-2_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week3-ASuG-1_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week3-ASuG-1_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week3-ASuG-2_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week3-ASuG-2_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week3-CR-1_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week3-CR-1_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week3-CR-2_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week3-CR-2_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week3-CS-1_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week3-CS-1_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week3-CSuG-1_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week3-CSuG-1_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week3-CSuG-2_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week3-CSuG-2_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week3-DR-1_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week3-DR-1_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week3-DR-2_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week3-DR-2_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week3-DS-1_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week3-DS-1_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week3-DS-2_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week3-DS-2_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week3-DSuG-1_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week3-DSuG-1_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week3-DSuG-2_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week3-DSuG-2_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week4-AR-1_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week4-AR-1_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week4-AR-2_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week4-AR-2_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week4-AS-1_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week4-AS-1_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week4-AS-2_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week4-AS-2_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week4-ASuG-1_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week4-ASuG-1_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week4-ASuG-2_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week4-ASuG-2_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week4-CR-1_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week4-CR-1_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week4-CR-2_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week4-CR-2_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week4-CS-1_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week4-CS-1_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week4-CS-2_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week4-CS-2_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week4-CSuG-1_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week4-CSuG-1_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week4-CSuG-2_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week4-CSuG-2_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week4-D1000-T0-A_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week4-D1000-T0-A_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week4-D1000-T0-C_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week4-D1000-T0-C_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week4-D1000-T0-D_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week4-D1000-T0-D_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week4-DR-1_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week4-DR-1_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week4-DR-2_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week4-DR-2_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week4-DS-1_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week4-DS-1_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week4-DS-2_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week4-DS-2_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week4-DSuG-1_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week4-DSuG-1_R2_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week4-DSuG-2_R1_raw.fastq.gz",
+          "GLDS-646_wgs_A-Week4-DSuG-2_R2_raw.fastq.gz",
+          "GLDS-646_wgs_B-Week4-D1000-T0-A_R1_raw.fastq.gz",
+          "GLDS-646_wgs_B-Week4-D1000-T0-A_R2_raw.fastq.gz",
+          "GLDS-646_wgs_B-Week4-D1000-T0-C_R1_raw.fastq.gz",
+          "GLDS-646_wgs_B-Week4-D1000-T0-C_R2_raw.fastq.gz",
+          "GLDS-646_wgs_B-Week4-D1000-T0-D_R1_raw.fastq.gz",
+          "GLDS-646_wgs_B-Week4-D1000-T0-D_R2_raw.fastq.gz"
+        ],
+        "processed": [
+          "A-Week1-AR-1",
+          "GeneLab raw data processing protocol - WGS",
+          "Quibit",
+          "WGS",
+          "DNA",
+          "PAIRED",
+          "Illumina NextSeq 1000 (V1.5.0.42699)",
+          "wgs",
+          "150",
+          "read",
+          "SO",
+          "http://purl.obolibrary.org/obo/SO_0000150",
+          "32802248",
+          "A-Week1-AR-2",
+          "27262819",
+          "A-Week1-AS-1",
+          "35805161",
+          "A-Week1-AS-2",
+          "20258472",
+          "A-Week1-ASuG-1",
+          "27787207",
+          "A-Week1-ASuG-2",
+          "30662308",
+          "A-Week1-CR-1",
+          "32970017",
+          "A-Week1-CR-2",
+          "25076196",
+          "A-Week1-CS-1",
+          "27927629",
+          "A-Week1-CS-2",
+          "28851043",
+          "A-Week1-CSuG-1",
+          "29865225",
+          "A-Week1-CSuG-2",
+          "27061699",
+          "A-Week1-DR-1",
+          "26160601",
+          "A-Week1-DR-2",
+          "22522424",
+          "A-Week1-DS-1",
+          "25668339",
+          "A-Week1-DS-2",
+          "16360392",
+          "A-Week1-DSuG-1",
+          "25065744",
+          "A-Week1-DSuG-2",
+          "27874715",
+          "A-Week2-AR-1",
+          "23387908",
+          "A-Week2-AR-2",
+          "23610158",
+          "A-Week2-AS-1",
+          "25525391",
+          "A-Week2-AS-2",
+          "26893663",
+          "A-Week2-ASuG-1",
+          "21303165",
+          "A-Week2-ASuG-2",
+          "22743979",
+          "A-Week2-CR-1",
+          "29228479",
+          "A-Week2-CR-2",
+          "22814593",
+          "A-Week2-CS-1",
+          "31614377",
+          "A-Week2-CS-2",
+          "23767067",
+          "A-Week2-CSuG-1",
+          "24524735",
+          "A-Week2-CSuG-2",
+          "29335667",
+          "A-Week2-DR-1",
+          "25015330",
+          "A-Week2-DR-2",
+          "28149760",
+          "A-Week2-DS-1",
+          "29125722",
+          "A-Week2-DSuG-1",
+          "23770302",
+          "A-Week2-DSuG-2",
+          "26484208",
+          "A-Week3-AR-1",
+          "20710650",
+          "A-Week3-AR-2",
+          "19726393",
+          "A-Week3-AS-1",
+          "22393363",
+          "A-Week3-AS-2",
+          "25945564",
+          "A-Week3-ASuG-1",
+          "16688559",
+          "A-Week3-ASuG-2",
+          "20944551",
+          "A-Week3-CR-1",
+          "20212255",
+          "A-Week3-CR-2",
+          "15959261",
+          "A-Week3-CS-1",
+          "20383221",
+          "A-Week3-CSuG-1",
+          "25979873",
+          "A-Week3-CSuG-2",
+          "19849651",
+          "A-Week3-DR-1",
+          "27015847",
+          "A-Week3-DR-2",
+          "23811413",
+          "A-Week3-DS-1",
+          "18799238",
+          "A-Week3-DS-2",
+          "19584360",
+          "A-Week3-DSuG-1",
+          "28106389",
+          "A-Week3-DSuG-2",
+          "21987615",
+          "A-Week4-AR-1",
+          "25862007",
+          "A-Week4-AR-2",
+          "25571559",
+          "A-Week4-AS-1",
+          "29920311",
+          "A-Week4-AS-2",
+          "20798862",
+          "A-Week4-ASuG-1",
+          "24557245",
+          "A-Week4-ASuG-2",
+          "17920267",
+          "A-Week4-CR-1",
+          "27587132",
+          "A-Week4-CR-2",
+          "26364522",
+          "A-Week4-CS-1",
+          "19864957",
+          "A-Week4-CS-2",
+          "23630071",
+          "A-Week4-CSuG-1",
+          "24992752",
+          "A-Week4-CSuG-2",
+          "28166307",
+          "A-Week4-D1000-T0-A",
+          "26203497",
+          "A-Week4-D1000-T0-C",
+          "26120984",
+          "A-Week4-D1000-T0-D",
+          "26326712",
+          "A-Week4-DR-1",
+          "27339540",
+          "A-Week4-DR-2",
+          "28759416",
+          "A-Week4-DS-1",
+          "25359320",
+          "A-Week4-DS-2",
+          "15527484",
+          "A-Week4-DSuG-1",
+          "75396012",
+          "A-Week4-DSuG-2",
+          "30525960",
+          "B-Week4-D1000-T0-A",
+          "24804943",
+          "B-Week4-D1000-T0-C",
+          "21439413",
+          "B-Week4-D1000-T0-D",
+          "24263431"
+        ],
+        "reports": [
+          "GLDS-646_Gwgs_raw_multiqc_GLwgs_report.zip"
+        ]
+      }
+    },
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina NextSeq 1000 (V1.5.0.42699)",
+      "qc": {
+        "QA Instrument": "Quibit",
+        "QA Assay": "Qubit dsDNA HS kit (Invitrogen, Carlsbad, CA, USA)",
+        "Read Depth": "9918066",
+        "rRNA Contamination": "1.4"
+      },
+      "library": {
+        "Library Selection": "ribo-depletion",
+        "Library Layout": "PAIRED",
+        "Stranded": "UNSTRANDED"
+      },
+      "files": {
+        "raw": [
+          "GLDS-646_rna-seq_BR2DM25T0A_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR2DM25T0A_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR2DM25T0B_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR2DM25T0B_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR2DM25T24RA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR2DM25T24RA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR2DM25T24SA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR2DM25T24SA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR2DM25T24uGA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR2DM25T24uGA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR2DM25T7RA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR2DM25T7RA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR2DM25T7SA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR2DM25T7SA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR2DM25T7uGA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR2DM25T7uGA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR2DM2KT0A_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR2DM2KT0A_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR2DM2KT0B_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR2DM2KT0B_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR2DM2KT16RA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR2DM2KT16RA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR2DM2KT16SA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR2DM2KT16SA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR2DM2KT16uGA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR2DM2KT16uGA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR2DM2KT24RA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR2DM2KT24RA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR2DM2KT24SA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR2DM2KT24SA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR2DM2KT24uGA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR2DM2KT24uGA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR3DM25T0A_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR3DM25T0A_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR3DM25T0C_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR3DM25T0C_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR3DM25T24RA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR3DM25T24RA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR3DM25T24SA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR3DM25T24SA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR3DM25T24uGA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR3DM25T24uGA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR3DM25T7RA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR3DM25T7RA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR3DM25T7SA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR3DM25T7SA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR3DM25T7uGA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR3DM25T7uGA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR3DM2KT0A_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR3DM2KT0A_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR3DM2KT0B_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR3DM2KT0B_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR3DM2KT17RA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR3DM2KT17RA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR3DM2KT17SA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR3DM2KT17SA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR3DM2KT17uGA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR3DM2KT17uGA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR3DM2KT24RA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR3DM2KT24RA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR3DM2KT24uGA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR3DM2KT24uGA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR3DM2KT2SA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR3DM2KT2SA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR4DM2000T0A_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR4DM2000T0A_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR4DM2000T0B_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR4DM2000T0B_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR4DM2000T24RA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR4DM2000T24RA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR4DM2000T24SA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR4DM2000T24SA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR4DM2000T24SuGA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR4DM2000T24SuGA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR4DM2000T65RA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR4DM2000T65RA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR4DM2000T65SA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR4DM2000T65SA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR4DM2000T65SuGA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR4DM2000T65SuGA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR4DM25T0A_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR4DM25T0A_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR4DM25T0B_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR4DM25T0B_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR4DM25T24RA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR4DM25T24RA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR4DM25T24SA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR4DM25T24SA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR4DM25T24SuGA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR4DM25T24SuGA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR4DM25T45RA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR4DM25T45RA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR4DM25T45SA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR4DM25T45SA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR4DM25T45SuGA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR4DM25T45SuGA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR5DM2000T0A_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR5DM2000T0A_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR5DM2000T0B_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR5DM2000T0B_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR5DM2000T24RA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR5DM2000T24RA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR5DM2000T24SA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR5DM2000T24SA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR5DM2000T24SuGA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR5DM2000T24SuGA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR5DM2000T65RA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR5DM2000T65RA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR5DM2000T65SA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR5DM2000T65SA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR5DM2000T65SuGA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR5DM2000T65SuGA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR5DM25T0A_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR5DM25T0A_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR5DM25T0B_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR5DM25T0B_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR5DM25T24RA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR5DM25T24RA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR5DM25T24SA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR5DM25T24SA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR5DM25T24SuGA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR5DM25T24SuGA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR5DM25T45RA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR5DM25T45RA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR5DM25T45SA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR5DM25T45SA_R2_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR5DM25T45SuGA_R1_raw.fastq.gz",
+          "GLDS-646_rna-seq_BR5DM25T45SuGA_R2_raw.fastq.gz"
+        ],
+        "processed": [
+          "BR2DM25T0A",
+          "GeneLab raw data processing protocol - RNAseq",
+          "Quibit",
+          "Qubit dsDNA HS kit (Invitrogen",
+          "Carlsbad",
+          "CA",
+          "USA)",
+          "ribo-depletion",
+          "PAIRED",
+          "UNSTRANDED",
+          "Illumina NextSeq 1000 (V1.5.0.42699)",
+          "rna-seq",
+          "150",
+          "percent",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000187",
+          "9918066",
+          "1.4",
+          "BR2DM25T0B",
+          "9503216",
+          "2.29",
+          "BR2DM25T24RA",
+          "7523454",
+          "4.84",
+          "BR2DM25T24SA",
+          "8165070",
+          "3.5",
+          "BR2DM25T24uGA",
+          "8630810",
+          "3.42",
+          "BR2DM25T7RA",
+          "8946101",
+          "2.06",
+          "BR2DM25T7SA",
+          "10410535",
+          "1.52",
+          "BR2DM25T7uGA",
+          "10961210",
+          "5.17",
+          "BR2DM2KT0A",
+          "9571271",
+          "2.13",
+          "BR2DM2KT0B",
+          "10100528",
+          "1.87",
+          "BR2DM2KT16RA",
+          "8989719",
+          "1.94",
+          "BR2DM2KT16SA",
+          "8806517",
+          "5.45",
+          "BR2DM2KT16uGA",
+          "9305335",
+          "5.28",
+          "BR2DM2KT24RA",
+          "7846208",
+          "12.12",
+          "BR2DM2KT24SA",
+          "8220108",
+          "17.58",
+          "BR2DM2KT24uGA",
+          "7285809",
+          "62.92",
+          "BR3DM25T0A",
+          "9003087",
+          "2.75",
+          "BR3DM25T0C",
+          "8802015",
+          "1.67",
+          "BR3DM25T24RA",
+          "7703602",
+          "1.79",
+          "BR3DM25T24SA",
+          "8370784",
+          "1.57",
+          "BR3DM25T24uGA",
+          "7544194",
+          "2.47",
+          "BR3DM25T7RA",
+          "8660597",
+          "2.19",
+          "BR3DM25T7SA",
+          "9512653",
+          "BR3DM25T7uGA",
+          "9373633",
+          "2.21",
+          "BR3DM2KT0A",
+          "8362867",
+          "2.05",
+          "BR3DM2KT0B",
+          "9325048",
+          "5.07",
+          "BR3DM2KT17RA",
+          "10287070",
+          "BR3DM2KT17SA",
+          "9646911",
+          "0.79",
+          "BR3DM2KT17uGA",
+          "8863984",
+          "4.55",
+          "BR3DM2KT24RA",
+          "8293785",
+          "44.98",
+          "BR3DM2KT24uGA",
+          "8262609",
+          "19.09",
+          "BR3DM2KT2SA",
+          "7237909",
+          "42.15",
+          "BR4DM2000T0A",
+          "7468471",
+          "0.9",
+          "BR4DM2000T0B",
+          "7701337",
+          "3.48",
+          "BR4DM2000T24RA",
+          "9328639",
+          "22.43",
+          "BR4DM2000T24SA",
+          "8662485",
+          "43.12",
+          "BR4DM2000T24SuGA",
+          "8143913",
+          "58.99",
+          "BR4DM2000T65RA",
+          "9515434",
+          "2.83",
+          "BR4DM2000T65SA",
+          "9376685",
+          "1.56",
+          "BR4DM2000T65SuGA",
+          "9518834",
+          "3.13",
+          "BR4DM25T0A",
+          "8277276",
+          "1.7",
+          "BR4DM25T0B",
+          "8367258",
+          "1.74",
+          "BR4DM25T24RA",
+          "7689955",
+          "5.12",
+          "BR4DM25T24SA",
+          "8341771",
+          "3.47",
+          "BR4DM25T24SuGA",
+          "7904083",
+          "1.51",
+          "BR4DM25T45RA",
+          "6793434",
+          "BR4DM25T45SA",
+          "8952356",
+          "2.88",
+          "BR4DM25T45SuGA",
+          "7302785",
+          "1.38",
+          "BR5DM2000T0A",
+          "9011796",
+          "0.69",
+          "BR5DM2000T0B",
+          "7372959",
+          "1.55",
+          "BR5DM2000T24RA",
+          "8487756",
+          "17.69",
+          "BR5DM2000T24SA",
+          "9638578",
+          "29.79",
+          "BR5DM2000T24SuGA",
+          "9870866",
+          "12",
+          "BR5DM2000T65RA",
+          "8900510",
+          "2.63",
+          "BR5DM2000T65SA",
+          "8535805",
+          "2.84",
+          "BR5DM2000T65SuGA",
+          "9665432",
+          "5.03",
+          "BR5DM25T0A",
+          "9122033",
+          "2.79",
+          "BR5DM25T0B",
+          "8296392",
+          "1.86",
+          "BR5DM25T24RA",
+          "7851524",
+          "5.39",
+          "BR5DM25T24SA",
+          "7240756",
+          "4.86",
+          "BR5DM25T24SuGA",
+          "7075974",
+          "1.42",
+          "BR5DM25T45RA",
+          "8126233",
+          "2.6",
+          "BR5DM25T45SA",
+          "8951662",
+          "0.82",
+          "BR5DM25T45SuGA",
+          "8675659",
+          "0.98"
+        ],
+        "reports": [
+          "GLDS-646_rna_seq_raw_multiqc_GLbulkRNAseq_report.zip"
+        ]
+      }
+    }
+  ]
+}

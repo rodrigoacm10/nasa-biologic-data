@@ -1,0 +1,3879 @@
+{
+  "investigation": {
+    "id": "OSD-385",
+    "title": "Persistence of Escherichia coli in the microbiomes of red Romaine lettuce (Lactuca sativa cv. ‘Outredgeous’)- does seed sanitization matter?",
+    "description": "Seed sanitization via chemical processes removes/reduces microbes from the external surfaces of the seed and thereby could have an impact on the plants‚health or productivity. To determine the impact of seed sanitization on the plants‚microbiome and pathogen persistence, sanitized and unsanitized seeds from two leafy green crops, red Romaine lettuce (Lactuca sativa cv.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "Simulated_Environmental_Factors",
+      "title": "",
+      "type": "Ground Study",
+      "link": "",
+      "funding": "Funding for this research and manuscript development was provided by NASA, Biological and Physical Sciences (BPS).",
+      "managing_center": "Kennedy Space Center (KSC)"
+    },
+    "protocols": [
+      "growth protocol",
+      "treatment protocol",
+      "sample collection",
+      "Nucleic Acid Extraction",
+      "Library Construction",
+      "Nucleic Acid Sequencing",
+      "GeneLab raw data processing protocol",
+      "GeneLab amplicon-seq data processing protocol"
+    ],
+    "publications": [
+      {
+        "title": "Persistence of Escherichia coli in the microbiomes of red Romaine lettuce (Lactuca sativa cv. ‘Outredgeous’) and mizuna mustard (Brassica rapa var. japonica) - does seed sanitization matter?",
+        "doi": "10.1186/s12866-021-02345-5",
+        "authors": [
+          "Dixit AR",
+          "Khodadad CLM",
+          "Hummerick ME",
+          "Spern CJ",
+          "Spencer LE",
+          "Fischer JA",
+          "Curry AB",
+          "Gooden JL",
+          "Maldonado Vazquez VGJ",
+          "Wheeler RM",
+          "Massa GD",
+          "Romeyn MW."
+        ],
+        "summary": "Persistence of Escherichia coli in the microbiomes of red Romaine lettuce (Lactuca sativa cv. ‘Outredgeous’) and mizuna mustard (Brassica rapa var."
+      }
+    ],
+    "factors": [
+      "Treatment",
+      "Seed Sanitization",
+      "Organism Part"
+    ],
+    "contacts": [
+      {
+        "first_name": "Anirudha R.",
+        "last_name": "Dixit",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Christina L. M.",
+        "last_name": "Khodadad",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Mary E.",
+        "last_name": "Hummerick",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Cory J.",
+        "last_name": "Spern",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "LaShelle E.",
+        "last_name": "Spencer",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Jason A.",
+        "last_name": "Fischer",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Aaron B.",
+        "last_name": "Curry",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Jennifer L.",
+        "last_name": "Gooden",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Gretchen J.",
+        "last_name": "Maldonado Vazquez",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Raymond M.",
+        "last_name": "Wheeler",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Gioia D.",
+        "last_name": "Massa",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Matthew W.",
+        "last_name": "Romeyn",
+        "role": "Author",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "D21NCSan53R_S52_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "0"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D14PEcUn59R_S46_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "0"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D21NCSan51R_S50_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "0"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D28NCUn42R_S82_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "0"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D21PEcUn62R_S70_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "0"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D28PEcSan68R_S90_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D21PEcUn63R_S72_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "San-EcNC-T0_S3_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Seeds"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D21NCUn44L_S59_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D7PEcSan72R_S18_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D14NCSan52L_S29_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Uns-EcPos-T0_S2_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Seeds"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D7PEcUn56L_S19_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D14PEcUn56L_S43_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D21PEcSan69L_S63_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D21PEcSan67R_S62_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D14NCSan48L_S25_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D7PEcUn59R_S22_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D14NCUn45L_S35_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D14NCUn40L_S33_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D7PEcSan70L_S15_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D7PEcSan72L_S17_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D28PEcUn60R_S96_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D28NCUn37R_S80_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D14NCSan52R_S30_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D28NCUn43L_S83_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D14NCSan50R_S28_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D28NCSan46L_S73_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D28PEcSan68L_S89_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D21PEcUn63L_S71_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D28PEcSan66R_S88_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D28NCUn42L_S81_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D21NCSan51L_S49_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D21PEcUn62L_S69_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D7PEcUn61L_S23_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D28PEcUn57R_S94_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D14PEcUn59L_S45_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D21NCSan53L_S51_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D14PEcUn61R_S48_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Uns-EcNC-T0_S4_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Seeds"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D28PEcUn60L_S95_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D21NCSan54L_S53_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D14NCSan50L_S27_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D7PEcSan67R_S14_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D7PEcSan70R_S16_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D28PEcSan66L_S87_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D14NCUn45R_S36_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D14NCSan48R_S26_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D7PEcUn59L_S21_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D21PEcSan67L_S61_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D7NCSan49L_S3_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D14PEcUn61L_S47_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D21NCUn39R_S56_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D28NCSan49R_S78_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D21PEcSan72R_S66_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D14NCUn38R_S32_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D7PEcSan67L_S13_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D21NCSan54R_S54_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D7NCUn41L_S9_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D7NCSan49R_S4_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D21PEcUn58L_S67_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Uns-No-T-T0_S5_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Seeds"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D28PEcUn57L_S93_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D7NCSan46L_S1_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D7NCUn41R_S10_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D14PEcSan71L_S41_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D28NCSan49L_S77_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D28NCSan47R_S76_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D7NCUn43R_S12_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D28PEcUn55L_S91_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D7PEcUn61R_S24_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D28NCSan46R_S74_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D28NCUn43R_S84_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D14PEcSan70L_S39_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D7NCSan52L_S5_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D28PEcSan65R_S86_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D21PEcUn58R_S68_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "San-ECPos-T0_S1_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Seeds"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D21NCUn41L_S57_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D7NCUn37R_S8_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D21NCUn44R_S60_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D14NCUn40R_S34_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "7"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D21PEcSan72L_S65_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D14NCUn38L_S31_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D14PEcUn56R_S44_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D14PEcSan64L_S37_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D21PEcSan69R_S64_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D14PEcSan70R_S40_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "14"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D21NCUn41R_S58_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D28PEcSan65L_S85_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D7NCSan46R_S2_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D28PEcUn55R_S92_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D7PEcUn56R_S20_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D7NCUn37L_S7_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D28NCUn37L_S79_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D7NCUn43L_S11_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Not Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D28NCSan47L_S75_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Leaves"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D14PEcSan71R_S42_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D7NCSan52R_S6_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": ""
+        },
+        "factors": {
+          "Treatment": "Non-treated",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "D14PEcSan64R_S38_L001",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Seed Source": "Johnny's Select Seeds, Fairfield, ME, USA",
+          "Host Strain": "Outredgeous",
+          "Escherichia coli strain": "ATCC 11775"
+        },
+        "factors": {
+          "Treatment": "Treated with E.coli",
+          "Seed Sanitization": "Sanitized",
+          "Organism Part": "Plant Roots"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "16:8 light:dark",
+          "light source": "Flourescent",
+          "Growth Medium": "arcillite with time release fertilizer",
+          "Quantity of growth medium": "500",
+          "Quantity of fertilizer": "7.5",
+          "Light Intensity": "200-300",
+          "Mean Growth Temperature": "23",
+          "Hardware": "growth chamber",
+          "Growth Time": "7",
+          "Sample Preservation Method": "50 mL falcon tubes",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "28"
+        },
+        "comments": {}
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "amplicon-sequencing",
+      "platform": "Illumina MiSeq",
+      "qc": {
+        "Read Depth": "250714"
+      },
+      "library": {
+        "Library Layout": "PAIRED"
+      },
+      "files": {
+        "raw": [
+          "GLDS-385_Amplicon_OL_D21NCSan53R_S52_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21NCSan53R_S52_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14PEcUn59R_S46_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14PEcUn59R_S46_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21NCSan51R_S50_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21NCSan51R_S50_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28NCUn42R_S82_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28NCUn42R_S82_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21PEcUn62R_S70_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21PEcUn62R_S70_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28PEcSan68R_S90_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28PEcSan68R_S90_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21PEcUn63R_S72_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21PEcUn63R_S72_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_San-EcNC-T0_S3_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_San-EcNC-T0_S3_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21NCUn44L_S59_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21NCUn44L_S59_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7PEcSan72R_S18_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7PEcSan72R_S18_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14NCSan52L_S29_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14NCSan52L_S29_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_Uns-EcPos-T0_S2_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_Uns-EcPos-T0_S2_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7PEcUn56L_S19_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7PEcUn56L_S19_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14PEcUn56L_S43_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14PEcUn56L_S43_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21PEcSan69L_S63_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21PEcSan69L_S63_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21PEcSan67R_S62_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21PEcSan67R_S62_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14NCSan48L_S25_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14NCSan48L_S25_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7PEcUn59R_S22_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7PEcUn59R_S22_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14NCUn45L_S35_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14NCUn45L_S35_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14NCUn40L_S33_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14NCUn40L_S33_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7PEcSan70L_S15_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7PEcSan70L_S15_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7PEcSan72L_S17_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7PEcSan72L_S17_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28PEcUn60R_S96_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28PEcUn60R_S96_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28NCUn37R_S80_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28NCUn37R_S80_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14NCSan52R_S30_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14NCSan52R_S30_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28NCUn43L_S83_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28NCUn43L_S83_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14NCSan50R_S28_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14NCSan50R_S28_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28NCSan46L_S73_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28NCSan46L_S73_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28PEcSan68L_S89_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28PEcSan68L_S89_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21PEcUn63L_S71_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21PEcUn63L_S71_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28PEcSan66R_S88_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28PEcSan66R_S88_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28NCUn42L_S81_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28NCUn42L_S81_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21NCSan51L_S49_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21NCSan51L_S49_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21PEcUn62L_S69_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21PEcUn62L_S69_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7PEcUn61L_S23_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7PEcUn61L_S23_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28PEcUn57R_S94_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28PEcUn57R_S94_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14PEcUn59L_S45_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14PEcUn59L_S45_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21NCSan53L_S51_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21NCSan53L_S51_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14PEcUn61R_S48_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14PEcUn61R_S48_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_Uns-EcNC-T0_S4_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_Uns-EcNC-T0_S4_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28PEcUn60L_S95_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28PEcUn60L_S95_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21NCSan54L_S53_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21NCSan54L_S53_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14NCSan50L_S27_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14NCSan50L_S27_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7PEcSan67R_S14_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7PEcSan67R_S14_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7PEcSan70R_S16_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7PEcSan70R_S16_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28PEcSan66L_S87_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28PEcSan66L_S87_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14NCUn45R_S36_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14NCUn45R_S36_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14NCSan48R_S26_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14NCSan48R_S26_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7PEcUn59L_S21_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7PEcUn59L_S21_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21PEcSan67L_S61_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21PEcSan67L_S61_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7NCSan49L_S3_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7NCSan49L_S3_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14PEcUn61L_S47_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14PEcUn61L_S47_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21NCUn39R_S56_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21NCUn39R_S56_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28NCSan49R_S78_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28NCSan49R_S78_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21PEcSan72R_S66_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21PEcSan72R_S66_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14NCUn38R_S32_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14NCUn38R_S32_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7PEcSan67L_S13_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7PEcSan67L_S13_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21NCSan54R_S54_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21NCSan54R_S54_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7NCUn41L_S9_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7NCUn41L_S9_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7NCSan49R_S4_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7NCSan49R_S4_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21PEcUn58L_S67_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21PEcUn58L_S67_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_Uns-No-T-T0_S5_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_Uns-No-T-T0_S5_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28PEcUn57L_S93_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28PEcUn57L_S93_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7NCSan46L_S1_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7NCSan46L_S1_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7NCUn41R_S10_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7NCUn41R_S10_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14PEcSan71L_S41_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14PEcSan71L_S41_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28NCSan49L_S77_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28NCSan49L_S77_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28NCSan47R_S76_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28NCSan47R_S76_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7NCUn43R_S12_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7NCUn43R_S12_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28PEcUn55L_S91_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28PEcUn55L_S91_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7PEcUn61R_S24_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7PEcUn61R_S24_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28NCSan46R_S74_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28NCSan46R_S74_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28NCUn43R_S84_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28NCUn43R_S84_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14PEcSan70L_S39_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14PEcSan70L_S39_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7NCSan52L_S5_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7NCSan52L_S5_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28PEcSan65R_S86_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28PEcSan65R_S86_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21PEcUn58R_S68_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21PEcUn58R_S68_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_San-ECPos-T0_S1_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_San-ECPos-T0_S1_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21NCUn41L_S57_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21NCUn41L_S57_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7NCUn37R_S8_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7NCUn37R_S8_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21NCUn44R_S60_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21NCUn44R_S60_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14NCUn40R_S34_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14NCUn40R_S34_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21PEcSan72L_S65_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21PEcSan72L_S65_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14NCUn38L_S31_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14NCUn38L_S31_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14PEcUn56R_S44_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14PEcUn56R_S44_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14PEcSan64L_S37_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14PEcSan64L_S37_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21PEcSan69R_S64_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21PEcSan69R_S64_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14PEcSan70R_S40_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14PEcSan70R_S40_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21NCUn41R_S58_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D21NCUn41R_S58_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28PEcSan65L_S85_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28PEcSan65L_S85_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7NCSan46R_S2_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7NCSan46R_S2_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28PEcUn55R_S92_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28PEcUn55R_S92_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7PEcUn56R_S20_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7PEcUn56R_S20_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7NCUn37L_S7_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7NCUn37L_S7_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28NCUn37L_S79_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28NCUn37L_S79_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7NCUn43L_S11_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7NCUn43L_S11_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28NCSan47L_S75_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D28NCSan47L_S75_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14PEcSan71R_S42_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14PEcSan71R_S42_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7NCSan52R_S6_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D7NCSan52R_S6_L001_R2_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14PEcSan64R_S38_L001_R1_raw.fastq.gz",
+          "GLDS-385_Amplicon_OL_D14PEcSan64R_S38_L001_R2_raw.fastq.gz",
+          "GLDS-385_GAmplicon_D21NCSan53R_S52_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21NCSan53R_S52_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14PEcUn59R_S46_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14PEcUn59R_S46_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21NCSan51R_S50_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21NCSan51R_S50_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28NCUn42R_S82_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28NCUn42R_S82_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21PEcUn62R_S70_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21PEcUn62R_S70_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28PEcSan68R_S90_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28PEcSan68R_S90_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21PEcUn63R_S72_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21PEcUn63R_S72_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_San-EcNC-T0_S3_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_San-EcNC-T0_S3_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21NCUn44L_S59_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21NCUn44L_S59_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7PEcSan72R_S18_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7PEcSan72R_S18_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14NCSan52L_S29_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14NCSan52L_S29_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_Uns-EcPos-T0_S2_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_Uns-EcPos-T0_S2_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7PEcUn56L_S19_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7PEcUn56L_S19_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14PEcUn56L_S43_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14PEcUn56L_S43_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21PEcSan69L_S63_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21PEcSan69L_S63_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21PEcSan67R_S62_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21PEcSan67R_S62_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14NCSan48L_S25_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14NCSan48L_S25_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7PEcUn59R_S22_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7PEcUn59R_S22_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14NCUn45L_S35_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14NCUn45L_S35_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14NCUn40L_S33_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14NCUn40L_S33_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7PEcSan70L_S15_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7PEcSan70L_S15_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7PEcSan72L_S17_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7PEcSan72L_S17_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28PEcUn60R_S96_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28PEcUn60R_S96_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28NCUn37R_S80_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28NCUn37R_S80_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14NCSan52R_S30_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14NCSan52R_S30_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28NCUn43L_S83_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28NCUn43L_S83_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14NCSan50R_S28_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14NCSan50R_S28_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28NCSan46L_S73_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28NCSan46L_S73_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28PEcSan68L_S89_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28PEcSan68L_S89_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21PEcUn63L_S71_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21PEcUn63L_S71_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28PEcSan66R_S88_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28PEcSan66R_S88_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28NCUn42L_S81_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28NCUn42L_S81_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21NCSan51L_S49_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21NCSan51L_S49_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21PEcUn62L_S69_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21PEcUn62L_S69_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7PEcUn61L_S23_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7PEcUn61L_S23_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28PEcUn57R_S94_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28PEcUn57R_S94_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14PEcUn59L_S45_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14PEcUn59L_S45_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21NCSan53L_S51_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21NCSan53L_S51_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14PEcUn61R_S48_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14PEcUn61R_S48_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_Uns-EcNC-T0_S4_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_Uns-EcNC-T0_S4_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28PEcUn60L_S95_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28PEcUn60L_S95_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21NCSan54L_S53_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21NCSan54L_S53_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14NCSan50L_S27_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14NCSan50L_S27_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7PEcSan67R_S14_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7PEcSan67R_S14_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7PEcSan70R_S16_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7PEcSan70R_S16_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28PEcSan66L_S87_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28PEcSan66L_S87_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14NCUn45R_S36_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14NCUn45R_S36_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14NCSan48R_S26_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14NCSan48R_S26_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7PEcUn59L_S21_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7PEcUn59L_S21_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21PEcSan67L_S61_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21PEcSan67L_S61_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7NCSan49L_S3_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7NCSan49L_S3_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14PEcUn61L_S47_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14PEcUn61L_S47_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21NCUn39R_S56_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21NCUn39R_S56_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28NCSan49R_S78_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28NCSan49R_S78_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21PEcSan72R_S66_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21PEcSan72R_S66_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14NCUn38R_S32_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14NCUn38R_S32_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7PEcSan67L_S13_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7PEcSan67L_S13_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21NCSan54R_S54_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21NCSan54R_S54_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7NCUn41L_S9_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7NCUn41L_S9_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7NCSan49R_S4_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7NCSan49R_S4_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21PEcUn58L_S67_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21PEcUn58L_S67_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_Uns-No-T-T0_S5_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_Uns-No-T-T0_S5_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28PEcUn57L_S93_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28PEcUn57L_S93_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7NCSan46L_S1_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7NCSan46L_S1_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7NCUn41R_S10_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7NCUn41R_S10_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14PEcSan71L_S41_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14PEcSan71L_S41_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28NCSan49L_S77_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28NCSan49L_S77_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28NCSan47R_S76_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28NCSan47R_S76_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7NCUn43R_S12_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7NCUn43R_S12_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28PEcUn55L_S91_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28PEcUn55L_S91_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7PEcUn61R_S24_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7PEcUn61R_S24_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28NCSan46R_S74_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28NCSan46R_S74_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28NCUn43R_S84_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28NCUn43R_S84_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14PEcSan70L_S39_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14PEcSan70L_S39_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7NCSan52L_S5_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7NCSan52L_S5_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28PEcSan65R_S86_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28PEcSan65R_S86_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21PEcUn58R_S68_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21PEcUn58R_S68_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_San-ECPos-T0_S1_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_San-ECPos-T0_S1_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21NCUn41L_S57_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21NCUn41L_S57_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7NCUn37R_S8_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7NCUn37R_S8_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21NCUn44R_S60_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21NCUn44R_S60_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14NCUn40R_S34_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14NCUn40R_S34_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21PEcSan72L_S65_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21PEcSan72L_S65_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14NCUn38L_S31_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14NCUn38L_S31_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14PEcUn56R_S44_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14PEcUn56R_S44_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14PEcSan64L_S37_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14PEcSan64L_S37_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21PEcSan69R_S64_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21PEcSan69R_S64_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14PEcSan70R_S40_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14PEcSan70R_S40_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21NCUn41R_S58_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D21NCUn41R_S58_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28PEcSan65L_S85_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28PEcSan65L_S85_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7NCSan46R_S2_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7NCSan46R_S2_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28PEcUn55R_S92_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28PEcUn55R_S92_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7PEcUn56R_S20_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7PEcUn56R_S20_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7NCUn37L_S7_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7NCUn37L_S7_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28NCUn37L_S79_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28NCUn37L_S79_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7NCUn43L_S11_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7NCUn43L_S11_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28NCSan47L_S75_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D28NCSan47L_S75_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14PEcSan71R_S42_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14PEcSan71R_S42_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7NCSan52R_S6_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D7NCSan52R_S6_L001_R2_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14PEcSan64R_S38_L001_R1_filtered.fastq.gz",
+          "GLDS-385_GAmplicon_D14PEcSan64R_S38_L001_R2_filtered.fastq.gz"
+        ],
+        "processed": [
+          "D21NCSan53R_S52_L001",
+          "GeneLab amplicon-seq data processing protocol",
+          "F",
+          "5'-GTGCCAGCMGCCGCGGTAA-3'  R",
+          "5'-GGACTACHVGGGTWTCTAAT-3'",
+          "PAIRED",
+          "AMPLICON",
+          "16S",
+          "Illumina MiSeq",
+          "250",
+          "read",
+          "SO",
+          "http://purl.obolibrary.org/obo/SO_0000150",
+          "amplicon sequencing",
+          "250714",
+          "GLDS-385_GAmplicon_README.txt",
+          "GLDS-385_GAmplicon_filtered-read-counts.tsv",
+          "GLDS-385_GAmplicon_ASVs.fasta",
+          "GLDS-385_GAmplicon_counts.tsv",
+          "GLDS-385_GAmplicon_read-count-tracking.tsv",
+          "GLDS-385_GAmplicon_taxonomy-and-counts.biom.zip",
+          "GLDS-385_GAmplicon_taxonomy-and-counts.tsv",
+          "GLDS-385_GAmplicon_taxonomy.tsv",
+          "GLDS-385_GAmplicon_processing_info.zip",
+          "D14PEcUn59R_S46_L001",
+          "40639",
+          "D21NCSan51R_S50_L001",
+          "246466",
+          "D28NCUn42R_S82_L001",
+          "267103",
+          "D21PEcUn62R_S70_L001",
+          "210486",
+          "D28PEcSan68R_S90_L001",
+          "204273",
+          "D21PEcUn63R_S72_L001",
+          "235456",
+          "San-EcNC-T0_S3_L001",
+          "377440",
+          "D21NCUn44L_S59_L001",
+          "239421",
+          "D7PEcSan72R_S18_L001",
+          "182125",
+          "D14NCSan52L_S29_L001",
+          "245010",
+          "Uns-EcPos-T0_S2_L001",
+          "452573",
+          "D7PEcUn56L_S19_L001",
+          "183726",
+          "D14PEcUn56L_S43_L001",
+          "212544",
+          "D21PEcSan69L_S63_L001",
+          "241949",
+          "D21PEcSan67R_S62_L001",
+          "219415",
+          "D14NCSan48L_S25_L001",
+          "256531",
+          "D7PEcUn59R_S22_L001",
+          "169481",
+          "D14NCUn45L_S35_L001",
+          "287497",
+          "D14NCUn40L_S33_L001",
+          "302946",
+          "D7PEcSan70L_S15_L001",
+          "231639",
+          "D7PEcSan72L_S17_L001",
+          "119428",
+          "D28PEcUn60R_S96_L001",
+          "211480",
+          "D28NCUn37R_S80_L001",
+          "275492",
+          "D14NCSan52R_S30_L001",
+          "224010",
+          "D28NCUn43L_S83_L001",
+          "257739",
+          "D14NCSan50R_S28_L001",
+          "207430",
+          "D28NCSan46L_S73_L001",
+          "289813",
+          "D28PEcSan68L_S89_L001",
+          "195581",
+          "D21PEcUn63L_S71_L001",
+          "176144",
+          "D28PEcSan66R_S88_L001",
+          "227647",
+          "D28NCUn42L_S81_L001",
+          "306549",
+          "D21NCSan51L_S49_L001",
+          "238875",
+          "D21PEcUn62L_S69_L001",
+          "242299",
+          "D7PEcUn61L_S23_L001",
+          "257165",
+          "D28PEcUn57R_S94_L001",
+          "203477",
+          "D14PEcUn59L_S45_L001",
+          "232701",
+          "D21NCSan53L_S51_L001",
+          "267325",
+          "D14PEcUn61R_S48_L001",
+          "173028",
+          "Uns-EcNC-T0_S4_L001",
+          "382865",
+          "D28PEcUn60L_S95_L001",
+          "194011",
+          "D21NCSan54L_S53_L001",
+          "219164",
+          "D14NCSan50L_S27_L001",
+          "248559",
+          "D7PEcSan67R_S14_L001",
+          "206454",
+          "D7PEcSan70R_S16_L001",
+          "230123",
+          "D28PEcSan66L_S87_L001",
+          "234982",
+          "D14NCUn45R_S36_L001",
+          "213163",
+          "D14NCSan48R_S26_L001",
+          "235702",
+          "D7PEcUn59L_S21_L001",
+          "44940",
+          "D21PEcSan67L_S61_L001",
+          "239784",
+          "D7NCSan49L_S3_L001",
+          "213715",
+          "D14PEcUn61L_S47_L001",
+          "201064",
+          "D21NCUn39R_S56_L001",
+          "235944",
+          "D28NCSan49R_S78_L001",
+          "245933",
+          "D21PEcSan72R_S66_L001",
+          "256528",
+          "D14NCUn38R_S32_L001",
+          "254627",
+          "D7PEcSan67L_S13_L001",
+          "69619",
+          "D21NCSan54R_S54_L001",
+          "231676",
+          "D7NCUn41L_S9_L001",
+          "231494",
+          "D7NCSan49R_S4_L001",
+          "190935",
+          "D21PEcUn58L_S67_L001",
+          "209615",
+          "Uns-No-T-T0_S5_L001",
+          "304627",
+          "D28PEcUn57L_S93_L001",
+          "266416",
+          "D7NCSan46L_S1_L001",
+          "195071",
+          "D7NCUn41R_S10_L001",
+          "192175",
+          "D14PEcSan71L_S41_L001",
+          "179683",
+          "D28NCSan49L_S77_L001",
+          "252709",
+          "D28NCSan47R_S76_L001",
+          "262256",
+          "D7NCUn43R_S12_L001",
+          "201198",
+          "D28PEcUn55L_S91_L001",
+          "213729",
+          "D7PEcUn61R_S24_L001",
+          "142937",
+          "D28NCSan46R_S74_L001",
+          "255056",
+          "D28NCUn43R_S84_L001",
+          "284249",
+          "D14PEcSan70L_S39_L001",
+          "209092",
+          "D7NCSan52L_S5_L001",
+          "203072",
+          "D28PEcSan65R_S86_L001",
+          "218109",
+          "D21PEcUn58R_S68_L001",
+          "236564",
+          "San-ECPos-T0_S1_L001",
+          "240726",
+          "D21NCUn41L_S57_L001",
+          "277433",
+          "D7NCUn37R_S8_L001",
+          "187073",
+          "D21NCUn44R_S60_L001",
+          "238479",
+          "D14NCUn40R_S34_L001",
+          "254480",
+          "D21PEcSan72L_S65_L001",
+          "186990",
+          "D14NCUn38L_S31_L001",
+          "304943",
+          "D14PEcUn56R_S44_L001",
+          "189353",
+          "D14PEcSan64L_S37_L001",
+          "225190",
+          "D21PEcSan69R_S64_L001",
+          "218636",
+          "D14PEcSan70R_S40_L001",
+          "199522",
+          "D21NCUn41R_S58_L001",
+          "242569",
+          "D28PEcSan65L_S85_L001",
+          "271371",
+          "D7NCSan46R_S2_L001",
+          "186003",
+          "D28PEcUn55R_S92_L001",
+          "205596",
+          "D7PEcUn56R_S20_L001",
+          "208141",
+          "D7NCUn37L_S7_L001",
+          "210045",
+          "D28NCUn37L_S79_L001",
+          "247943",
+          "D7NCUn43L_S11_L001",
+          "192517",
+          "D28NCSan47L_S75_L001",
+          "304032",
+          "D14PEcSan71R_S42_L001",
+          "207657",
+          "D7NCSan52R_S6_L001",
+          "185199",
+          "D14PEcSan64R_S38_L001",
+          "248838"
+        ],
+        "reports": [
+          "GLDS-385_GAmplicon_raw_multiqc_report.zip",
+          "GLDS-385_GAmplicon_filtered_multiqc_report.zip"
+        ]
+      }
+    }
+  ]
+}

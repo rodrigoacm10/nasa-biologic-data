@@ -1,0 +1,1591 @@
+{
+  "investigation": {
+    "id": "OSD-295",
+    "title": "RNA-Seq transcriptome profiling of soleus from adult and aged mice following disuse muscle atrophy and recovery",
+    "description": "Rodent hind limb unloading was used as a model for reduced muscle activity and eventual atrophy. After a 10 day period of unloading, mice in this study were “reloaded” for 3 days and regained use of their hind limbs.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "Hindlimb_Unloading",
+      "title": "",
+      "type": "Ground Study",
+      "link": "",
+      "funding": "This study was supported by funding from the National Institutes of Health National Institute on Aging (K01 AG044437) awarded to PMC.",
+      "managing_center": ""
+    },
+    "protocols": [
+      "animal husbandry",
+      "sample collection",
+      "nucleic acid extraction",
+      "library construction",
+      "nucleic acid sequencing",
+      "sequence analysis data transformation",
+      "GeneLab raw data processing protocol",
+      "GeneLab RNAseq data processing protocol"
+    ],
+    "publications": [
+      {
+        "title": "Impaired Mitochondrial Energetics Characterize Poor Early Recovery of Muscle Mass Following Hind Limb Unloading in Old Mice.",
+        "doi": "10.1093/gerona/gly051",
+        "authors": [
+          "Zhang X",
+          "Trevino MB",
+          "Wang M",
+          "Gardell SJ",
+          "Ayala JE",
+          "Han X",
+          "Kelly DP",
+          "Goodpaster BH",
+          "Vega RB",
+          "Coen PM."
+        ],
+        "summary": "Impaired Mitochondrial Energetics Characterize Poor Early Recovery of Muscle Mass Following Hind Limb Unloading in Old Mice. — 10.1093/gerona/gly051"
+      }
+    ],
+    "factors": [
+      "Hindlimb Unloading",
+      "Age",
+      "Hindlimb Reloading Duration"
+    ],
+    "contacts": [
+      {
+        "first_name": "Paul",
+        "last_name": "Coen",
+        "role": "principal investigator",
+        "email": "paul.coen@flhosp.org"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "Mmus_C57-6CR_SLS_6mon_HLLC_Rep1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Age": "6",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Hindlimb Reloading Duration": ""
+        },
+        "parameters": {
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Standard Chow Diet (#2916, Harlan-Teklad, Houston, TX)",
+          "Hindlimb Unloading Duration": "",
+          "Housing Temperature": "22",
+          "sample preservation method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM2732893"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6CR_SLS_6mon_HLLC_Rep2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Age": "6",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Hindlimb Reloading Duration": ""
+        },
+        "parameters": {
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Standard Chow Diet (#2916, Harlan-Teklad, Houston, TX)",
+          "Hindlimb Unloading Duration": "",
+          "Housing Temperature": "22",
+          "sample preservation method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM2732894"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6CR_SLS_6mon_HLLC_Rep3",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Age": "6",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Hindlimb Reloading Duration": ""
+        },
+        "parameters": {
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Standard Chow Diet (#2916, Harlan-Teklad, Houston, TX)",
+          "Hindlimb Unloading Duration": "",
+          "Housing Temperature": "22",
+          "sample preservation method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM2732895"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6CR_SLS_6mon_HLLC_Rep4",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Age": "6",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Hindlimb Reloading Duration": ""
+        },
+        "parameters": {
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Standard Chow Diet (#2916, Harlan-Teklad, Houston, TX)",
+          "Hindlimb Unloading Duration": "",
+          "Housing Temperature": "22",
+          "sample preservation method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM2732896"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6CR_SLS_6mon_HLLC_Rep5",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Age": "6",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Hindlimb Reloading Duration": ""
+        },
+        "parameters": {
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Standard Chow Diet (#2916, Harlan-Teklad, Houston, TX)",
+          "Hindlimb Unloading Duration": "",
+          "Housing Temperature": "22",
+          "sample preservation method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM2732897"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6CR_SLS_6mon_HLLC_Rep6",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Age": "6",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Hindlimb Reloading Duration": ""
+        },
+        "parameters": {
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Standard Chow Diet (#2916, Harlan-Teklad, Houston, TX)",
+          "Hindlimb Unloading Duration": "",
+          "Housing Temperature": "22",
+          "sample preservation method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM2732898"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6CR_SLS_6mon_HLLC_Rep7",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Age": "6",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Hindlimb Reloading Duration": ""
+        },
+        "parameters": {
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Standard Chow Diet (#2916, Harlan-Teklad, Houston, TX)",
+          "Hindlimb Unloading Duration": "",
+          "Housing Temperature": "22",
+          "sample preservation method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM2732899"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6CR_SLS_6mon_HLLC_Rep8",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Age": "6",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Hindlimb Reloading Duration": ""
+        },
+        "parameters": {
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Standard Chow Diet (#2916, Harlan-Teklad, Houston, TX)",
+          "Hindlimb Unloading Duration": "",
+          "Housing Temperature": "22",
+          "sample preservation method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM2732900"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6CR_SLS_6mon_HLLC_Rep9",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Age": "6",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Hindlimb Reloading Duration": ""
+        },
+        "parameters": {
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Standard Chow Diet (#2916, Harlan-Teklad, Houston, TX)",
+          "Hindlimb Unloading Duration": "",
+          "Housing Temperature": "22",
+          "sample preservation method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM2732901"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6CR_SLS_6mon_HLU_Rep1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Age": "6",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Hindlimb Reloading Duration": ""
+        },
+        "parameters": {
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Standard Chow Diet (#2916, Harlan-Teklad, Houston, TX)",
+          "Hindlimb Unloading Duration": "10",
+          "Housing Temperature": "22",
+          "sample preservation method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM2732902"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6CR_SLS_6mon_HLU_Rep2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Age": "6",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Hindlimb Reloading Duration": ""
+        },
+        "parameters": {
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Standard Chow Diet (#2916, Harlan-Teklad, Houston, TX)",
+          "Hindlimb Unloading Duration": "10",
+          "Housing Temperature": "22",
+          "sample preservation method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM2732903"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6CR_SLS_6mon_HLU_Rep3",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Age": "6",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Hindlimb Reloading Duration": ""
+        },
+        "parameters": {
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Standard Chow Diet (#2916, Harlan-Teklad, Houston, TX)",
+          "Hindlimb Unloading Duration": "10",
+          "Housing Temperature": "22",
+          "sample preservation method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM2732904"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6CR_SLS_6mon_HLU_Rep4",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Age": "6",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Hindlimb Reloading Duration": ""
+        },
+        "parameters": {
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Standard Chow Diet (#2916, Harlan-Teklad, Houston, TX)",
+          "Hindlimb Unloading Duration": "10",
+          "Housing Temperature": "22",
+          "sample preservation method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM2732905"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Age": "6",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Hindlimb Reloading Duration": "3"
+        },
+        "parameters": {
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Standard Chow Diet (#2916, Harlan-Teklad, Houston, TX)",
+          "Hindlimb Unloading Duration": "10",
+          "Housing Temperature": "22",
+          "sample preservation method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM2732906"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Age": "6",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Hindlimb Reloading Duration": "3"
+        },
+        "parameters": {
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Standard Chow Diet (#2916, Harlan-Teklad, Houston, TX)",
+          "Hindlimb Unloading Duration": "10",
+          "Housing Temperature": "22",
+          "sample preservation method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM2732907"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep3",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Age": "6",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Hindlimb Reloading Duration": "3"
+        },
+        "parameters": {
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Standard Chow Diet (#2916, Harlan-Teklad, Houston, TX)",
+          "Hindlimb Unloading Duration": "10",
+          "Housing Temperature": "22",
+          "sample preservation method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM2732908"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep4",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Age": "6",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Hindlimb Reloading Duration": "3"
+        },
+        "parameters": {
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Standard Chow Diet (#2916, Harlan-Teklad, Houston, TX)",
+          "Hindlimb Unloading Duration": "10",
+          "Housing Temperature": "22",
+          "sample preservation method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM2732909"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Age": "22-24",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Hindlimb Reloading Duration": ""
+        },
+        "parameters": {
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Standard Chow Diet (#2916, Harlan-Teklad, Houston, TX)",
+          "Hindlimb Unloading Duration": "",
+          "Housing Temperature": "22",
+          "sample preservation method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM2732910"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Age": "22-24",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Hindlimb Reloading Duration": ""
+        },
+        "parameters": {
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Standard Chow Diet (#2916, Harlan-Teklad, Houston, TX)",
+          "Hindlimb Unloading Duration": "",
+          "Housing Temperature": "22",
+          "sample preservation method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM2732911"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep3",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Age": "22-24",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Hindlimb Reloading Duration": ""
+        },
+        "parameters": {
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Standard Chow Diet (#2916, Harlan-Teklad, Houston, TX)",
+          "Hindlimb Unloading Duration": "",
+          "Housing Temperature": "22",
+          "sample preservation method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM2732912"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep4",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Age": "22-24",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Hindlimb Reloading Duration": ""
+        },
+        "parameters": {
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Standard Chow Diet (#2916, Harlan-Teklad, Houston, TX)",
+          "Hindlimb Unloading Duration": "",
+          "Housing Temperature": "22",
+          "sample preservation method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM2732913"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep5",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Age": "22-24",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Hindlimb Reloading Duration": ""
+        },
+        "parameters": {
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Standard Chow Diet (#2916, Harlan-Teklad, Houston, TX)",
+          "Hindlimb Unloading Duration": "",
+          "Housing Temperature": "22",
+          "sample preservation method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM2732914"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep6",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Age": "22-24",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Hindlimb Reloading Duration": ""
+        },
+        "parameters": {
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Standard Chow Diet (#2916, Harlan-Teklad, Houston, TX)",
+          "Hindlimb Unloading Duration": "",
+          "Housing Temperature": "22",
+          "sample preservation method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM2732915"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep7",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Age": "22-24",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Hindlimb Reloading Duration": ""
+        },
+        "parameters": {
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Standard Chow Diet (#2916, Harlan-Teklad, Houston, TX)",
+          "Hindlimb Unloading Duration": "",
+          "Housing Temperature": "22",
+          "sample preservation method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM2732916"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep8",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Age": "22-24",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Hindlimb Reloading Duration": ""
+        },
+        "parameters": {
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Standard Chow Diet (#2916, Harlan-Teklad, Houston, TX)",
+          "Hindlimb Unloading Duration": "",
+          "Housing Temperature": "22",
+          "sample preservation method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM2732917"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep9",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Age": "22-24",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Hindlimb Reloading Duration": ""
+        },
+        "parameters": {
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Standard Chow Diet (#2916, Harlan-Teklad, Houston, TX)",
+          "Hindlimb Unloading Duration": "",
+          "Housing Temperature": "22",
+          "sample preservation method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM2732918"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6CR_SLS_22-24mon_HLU_Rep1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Age": "22-24",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Hindlimb Reloading Duration": ""
+        },
+        "parameters": {
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Standard Chow Diet (#2916, Harlan-Teklad, Houston, TX)",
+          "Hindlimb Unloading Duration": "10",
+          "Housing Temperature": "22",
+          "sample preservation method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM2732919"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6CR_SLS_22-24mon_HLU_Rep2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Age": "22-24",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Hindlimb Reloading Duration": ""
+        },
+        "parameters": {
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Standard Chow Diet (#2916, Harlan-Teklad, Houston, TX)",
+          "Hindlimb Unloading Duration": "10",
+          "Housing Temperature": "22",
+          "sample preservation method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM2732920"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6CR_SLS_22-24mon_HLU_Rep3",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Age": "22-24",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Hindlimb Reloading Duration": ""
+        },
+        "parameters": {
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Standard Chow Diet (#2916, Harlan-Teklad, Houston, TX)",
+          "Hindlimb Unloading Duration": "10",
+          "Housing Temperature": "22",
+          "sample preservation method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM2732921"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6CR_SLS_22-24mon_HLU_Rep4",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Age": "22-24",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Hindlimb Reloading Duration": ""
+        },
+        "parameters": {
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Standard Chow Diet (#2916, Harlan-Teklad, Houston, TX)",
+          "Hindlimb Unloading Duration": "10",
+          "Housing Temperature": "22",
+          "sample preservation method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM2732922"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6CR_SLS_22-24mon_HLU_Rep5",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Age": "22-24",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Hindlimb Reloading Duration": ""
+        },
+        "parameters": {
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Standard Chow Diet (#2916, Harlan-Teklad, Houston, TX)",
+          "Hindlimb Unloading Duration": "10",
+          "Housing Temperature": "22",
+          "sample preservation method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM2732923"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6CR_SLS_22-24mon_HLU_Rep6",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Age": "22-24",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Hindlimb Reloading Duration": ""
+        },
+        "parameters": {
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Standard Chow Diet (#2916, Harlan-Teklad, Houston, TX)",
+          "Hindlimb Unloading Duration": "10",
+          "Housing Temperature": "22",
+          "sample preservation method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM2732924"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Age": "22-24",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Hindlimb Reloading Duration": "3"
+        },
+        "parameters": {
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Standard Chow Diet (#2916, Harlan-Teklad, Houston, TX)",
+          "Hindlimb Unloading Duration": "10",
+          "Housing Temperature": "22",
+          "sample preservation method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM2732925"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Age": "22-24",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Hindlimb Reloading Duration": "3"
+        },
+        "parameters": {
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Standard Chow Diet (#2916, Harlan-Teklad, Houston, TX)",
+          "Hindlimb Unloading Duration": "10",
+          "Housing Temperature": "22",
+          "sample preservation method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM2732926"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep3",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Age": "22-24",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Hindlimb Reloading Duration": "3"
+        },
+        "parameters": {
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Standard Chow Diet (#2916, Harlan-Teklad, Houston, TX)",
+          "Hindlimb Unloading Duration": "10",
+          "Housing Temperature": "22",
+          "sample preservation method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM2732927"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep4",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Age": "22-24",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Hindlimb Reloading Duration": "3"
+        },
+        "parameters": {
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Standard Chow Diet (#2916, Harlan-Teklad, Houston, TX)",
+          "Hindlimb Unloading Duration": "10",
+          "Housing Temperature": "22",
+          "sample preservation method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM2732928"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina HiSeq 2500",
+      "qc": {
+        "QA Instrument": "Agilent Bioanalyzer",
+        "QA Assay": "RNA Nano chip",
+        "Read Depth": "58533241",
+        "rRNA Contamination": "1.91"
+      },
+      "library": {},
+      "files": {
+        "raw": [
+          "GLDS-295_rna-seq_SRR5901889.fastq.gz",
+          "GLDS-295_rna-seq_SRR5901890.fastq.gz",
+          "GLDS-295_rna-seq_SRR5901891.fastq.gz",
+          "GLDS-295_rna-seq_SRR5901892.fastq.gz",
+          "GLDS-295_rna-seq_SRR5901893.fastq.gz",
+          "GLDS-295_rna-seq_SRR5901894.fastq.gz",
+          "GLDS-295_rna-seq_SRR5901895.fastq.gz",
+          "GLDS-295_rna-seq_SRR5901896.fastq.gz",
+          "GLDS-295_rna-seq_SRR5901897.fastq.gz",
+          "GLDS-295_rna-seq_SRR5901898.fastq.gz",
+          "GLDS-295_rna-seq_SRR5901899.fastq.gz",
+          "GLDS-295_rna-seq_SRR5901900.fastq.gz",
+          "GLDS-295_rna-seq_SRR5901901.fastq.gz",
+          "GLDS-295_rna-seq_SRR5901902.fastq.gz",
+          "GLDS-295_rna-seq_SRR5901903.fastq.gz",
+          "GLDS-295_rna-seq_SRR5901904.fastq.gz",
+          "GLDS-295_rna-seq_SRR5901905.fastq.gz",
+          "GLDS-295_rna-seq_SRR5901906.fastq.gz",
+          "GLDS-295_rna-seq_SRR5901907.fastq.gz",
+          "GLDS-295_rna-seq_SRR5901908.fastq.gz",
+          "GLDS-295_rna-seq_SRR5901909.fastq.gz",
+          "GLDS-295_rna-seq_SRR5901910.fastq.gz",
+          "GLDS-295_rna-seq_SRR5901911.fastq.gz",
+          "GLDS-295_rna-seq_SRR5901912.fastq.gz",
+          "GLDS-295_rna-seq_SRR5901913.fastq.gz",
+          "GLDS-295_rna-seq_SRR5901914.fastq.gz",
+          "GLDS-295_rna-seq_SRR5901915.fastq.gz",
+          "GLDS-295_rna-seq_SRR5901916.fastq.gz",
+          "GLDS-295_rna-seq_SRR5901917.fastq.gz",
+          "GLDS-295_rna-seq_SRR5901918.fastq.gz",
+          "GLDS-295_rna-seq_SRR5901919.fastq.gz",
+          "GLDS-295_rna-seq_SRR5901920.fastq.gz",
+          "GLDS-295_rna-seq_SRR5901921.fastq.gz",
+          "GLDS-295_rna-seq_SRR5901922.fastq.gz",
+          "GLDS-295_rna-seq_SRR5901923.fastq.gz",
+          "GLDS-295_rna-seq_SRR5901924.fastq.gz",
+          "GLDS-295_rna-seq_SRR5901925.fastq.gz",
+          "GLDS-295_rna-seq_SRR5901926.fastq.gz",
+          "GLDS-295_rna-seq_SRR5901927.fastq.gz",
+          "GLDS-295_rna-seq_SRR5901928.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep1_raw.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep1_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep2_raw.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep2_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep3_raw.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep3_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep4_raw.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep4_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep5_raw.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep5_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep6_raw.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep6_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep7_raw.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep7_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep8_raw.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep8_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep9_raw.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep9_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU_Rep1_raw.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU_Rep1_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU_Rep2_raw.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU_Rep2_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU_Rep3_raw.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU_Rep3_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU_Rep4_raw.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU_Rep4_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep1_raw.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep1_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep2_raw.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep2_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep3_raw.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep3_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep4_raw.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep4_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep1_raw.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep1_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep2_raw.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep2_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep3_raw.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep3_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep4_raw.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep4_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep5_raw.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep5_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep6_raw.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep6_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep7_raw.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep7_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep8_raw.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep8_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep9_raw.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep9_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep1_raw.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep1_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep2_raw.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep2_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep3_raw.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep3_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep4_raw.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep4_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep5_raw.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep5_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep6_raw.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep6_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep1_raw.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep1_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep2_raw.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep2_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep3_raw.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep3_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep4_raw.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep4_trimmed.fastq.gz"
+        ],
+        "processed": [
+          "GLDS-295_rna-seq_GSE102284_Expression_profiling_analysis-Coen.xlsx.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep1_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep1_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep1_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep1_Aligned.toTranscriptome.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep1_SJ.out.tab",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep2_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep2_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep2_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep2_Aligned.toTranscriptome.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep2_SJ.out.tab",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep3_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep3_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep3_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep3_Aligned.toTranscriptome.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep3_SJ.out.tab",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep4_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep4_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep4_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep4_Aligned.toTranscriptome.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep4_SJ.out.tab",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep5_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep5_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep5_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep5_Aligned.toTranscriptome.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep5_SJ.out.tab",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep6_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep6_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep6_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep6_Aligned.toTranscriptome.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep6_SJ.out.tab",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep7_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep7_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep7_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep7_Aligned.toTranscriptome.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep7_SJ.out.tab",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep8_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep8_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep8_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep8_Aligned.toTranscriptome.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep8_SJ.out.tab",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep9_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep9_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep9_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep9_Aligned.toTranscriptome.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep9_SJ.out.tab",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU_Rep1_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU_Rep1_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU_Rep1_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU_Rep1_Aligned.toTranscriptome.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU_Rep1_SJ.out.tab",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU_Rep2_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU_Rep2_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU_Rep2_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU_Rep2_Aligned.toTranscriptome.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU_Rep2_SJ.out.tab",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU_Rep3_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU_Rep3_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU_Rep3_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU_Rep3_Aligned.toTranscriptome.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU_Rep3_SJ.out.tab",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU_Rep4_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU_Rep4_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU_Rep4_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU_Rep4_Aligned.toTranscriptome.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU_Rep4_SJ.out.tab",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep1_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep1_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep1_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep1_Aligned.toTranscriptome.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep1_SJ.out.tab",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep2_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep2_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep2_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep2_Aligned.toTranscriptome.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep2_SJ.out.tab",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep3_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep3_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep3_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep3_Aligned.toTranscriptome.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep3_SJ.out.tab",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep4_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep4_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep4_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep4_Aligned.toTranscriptome.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep4_SJ.out.tab",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep1_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep1_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep1_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep1_Aligned.toTranscriptome.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep1_SJ.out.tab",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep2_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep2_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep2_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep2_Aligned.toTranscriptome.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep2_SJ.out.tab",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep3_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep3_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep3_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep3_Aligned.toTranscriptome.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep3_SJ.out.tab",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep4_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep4_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep4_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep4_Aligned.toTranscriptome.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep4_SJ.out.tab",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep5_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep5_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep5_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep5_Aligned.toTranscriptome.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep5_SJ.out.tab",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep6_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep6_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep6_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep6_Aligned.toTranscriptome.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep6_SJ.out.tab",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep7_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep7_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep7_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep7_Aligned.toTranscriptome.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep7_SJ.out.tab",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep8_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep8_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep8_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep8_Aligned.toTranscriptome.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep8_SJ.out.tab",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep9_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep9_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep9_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep9_Aligned.toTranscriptome.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep9_SJ.out.tab",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep1_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep1_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep1_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep1_Aligned.toTranscriptome.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep1_SJ.out.tab",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep2_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep2_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep2_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep2_Aligned.toTranscriptome.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep2_SJ.out.tab",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep3_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep3_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep3_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep3_Aligned.toTranscriptome.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep3_SJ.out.tab",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep4_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep4_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep4_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep4_Aligned.toTranscriptome.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep4_SJ.out.tab",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep5_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep5_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep5_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep5_Aligned.toTranscriptome.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep5_SJ.out.tab",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep6_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep6_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep6_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep6_Aligned.toTranscriptome.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep6_SJ.out.tab",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep1_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep1_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep1_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep1_Aligned.toTranscriptome.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep1_SJ.out.tab",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep2_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep2_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep2_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep2_Aligned.toTranscriptome.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep2_SJ.out.tab",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep3_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep3_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep3_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep3_Aligned.toTranscriptome.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep3_SJ.out.tab",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep4_trimmed.fastq.gz",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep4_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep4_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep4_Aligned.toTranscriptome.out.bam",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep4_SJ.out.tab",
+          "Mmus_C57-6CR_SLS_6mon_HLLC_Rep1",
+          "GeneLab RNAseq data processing protocol",
+          "Agilent Bioanalyzer",
+          "RNA Nano chip",
+          "GSM2732893",
+          "ribo-depletion",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000187",
+          "Kapa Biosystems qPCR",
+          "SINGLE",
+          "STRANDED",
+          "Illumina HiSeq 2500",
+          "RNA-seq",
+          "58533241",
+          "percent",
+          "1.91",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep1.genes.results",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep1.isoforms.results",
+          "GLDS-295_rna_seq_RSEM_Unnormalized_Counts.csv",
+          "GLDS-295_rna_seq_STAR_Unnormalized_Counts.csv",
+          "GLDS-295_rna_seq_Normalized_Counts.csv",
+          "GLDS-295_rna_seq_SampleTable.csv",
+          "GLDS-295_rna_seq_contrasts.csv",
+          "GLDS-295_rna_seq_differential_expression.csv",
+          "Mmus_C57-6CR_SLS_6mon_HLLC_Rep2",
+          "GSM2732894",
+          "63263855",
+          "2.15",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep2.genes.results",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep2.isoforms.results",
+          "Mmus_C57-6CR_SLS_6mon_HLLC_Rep3",
+          "GSM2732895",
+          "60814214",
+          "1.65",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep3.genes.results",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep3.isoforms.results",
+          "Mmus_C57-6CR_SLS_6mon_HLLC_Rep4",
+          "GSM2732896",
+          "58921794",
+          "1.76",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep4.genes.results",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep4.isoforms.results",
+          "Mmus_C57-6CR_SLS_6mon_HLLC_Rep5",
+          "GSM2732897",
+          "56133527",
+          "1.79",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep5.genes.results",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep5.isoforms.results",
+          "Mmus_C57-6CR_SLS_6mon_HLLC_Rep6",
+          "GSM2732898",
+          "58788361",
+          "1.9",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep6.genes.results",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep6.isoforms.results",
+          "Mmus_C57-6CR_SLS_6mon_HLLC_Rep7",
+          "GSM2732899",
+          "58205504",
+          "2.21",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep7.genes.results",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep7.isoforms.results",
+          "Mmus_C57-6CR_SLS_6mon_HLLC_Rep8",
+          "GSM2732900",
+          "60137336",
+          "2.69",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep8.genes.results",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep8.isoforms.results",
+          "Mmus_C57-6CR_SLS_6mon_HLLC_Rep9",
+          "GSM2732901",
+          "61210095",
+          "1.96",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep9.genes.results",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep9.isoforms.results",
+          "Mmus_C57-6CR_SLS_6mon_HLU_Rep1",
+          "GSM2732902",
+          "63233927",
+          "1.17",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU_Rep1.genes.results",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU_Rep1.isoforms.results",
+          "Mmus_C57-6CR_SLS_6mon_HLU_Rep2",
+          "GSM2732903",
+          "59904018",
+          "1.3",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU_Rep2.genes.results",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU_Rep2.isoforms.results",
+          "Mmus_C57-6CR_SLS_6mon_HLU_Rep3",
+          "GSM2732904",
+          "63240076",
+          "1.16",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU_Rep3.genes.results",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU_Rep3.isoforms.results",
+          "Mmus_C57-6CR_SLS_6mon_HLU_Rep4",
+          "GSM2732905",
+          "58046394",
+          "1.26",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU_Rep4.genes.results",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU_Rep4.isoforms.results",
+          "Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep1",
+          "GSM2732906",
+          "57410759",
+          "1.88",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep1.genes.results",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep1.isoforms.results",
+          "Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep2",
+          "GSM2732907",
+          "60805307",
+          "10.79",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep2.genes.results",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep2.isoforms.results",
+          "Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep3",
+          "GSM2732908",
+          "58929005",
+          "2.28",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep3.genes.results",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep3.isoforms.results",
+          "Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep4",
+          "GSM2732909",
+          "57738189",
+          "1.7",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep4.genes.results",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep4.isoforms.results",
+          "Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep1",
+          "GSM2732910",
+          "58990669",
+          "1.27",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep1.genes.results",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep1.isoforms.results",
+          "Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep2",
+          "GSM2732911",
+          "65437551",
+          "1.48",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep2.genes.results",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep2.isoforms.results",
+          "Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep3",
+          "GSM2732912",
+          "60982481",
+          "1.15",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep3.genes.results",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep3.isoforms.results",
+          "Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep4",
+          "GSM2732913",
+          "63476504",
+          "1.21",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep4.genes.results",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep4.isoforms.results",
+          "Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep5",
+          "GSM2732914",
+          "61074112",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep5.genes.results",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep5.isoforms.results",
+          "Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep6",
+          "GSM2732915",
+          "58479420",
+          "1.14",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep6.genes.results",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep6.isoforms.results",
+          "Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep7",
+          "GSM2732916",
+          "58327438",
+          "1.22",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep7.genes.results",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep7.isoforms.results",
+          "Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep8",
+          "GSM2732917",
+          "56835374",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep8.genes.results",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep8.isoforms.results",
+          "Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep9",
+          "GSM2732918",
+          "65386247",
+          "1.5",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep9.genes.results",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep9.isoforms.results",
+          "Mmus_C57-6CR_SLS_22-24mon_HLU_Rep1",
+          "GSM2732919",
+          "62910328",
+          "0.88",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep1.genes.results",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep1.isoforms.results",
+          "Mmus_C57-6CR_SLS_22-24mon_HLU_Rep2",
+          "GSM2732920",
+          "64316112",
+          "0.87",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep2.genes.results",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep2.isoforms.results",
+          "Mmus_C57-6CR_SLS_22-24mon_HLU_Rep3",
+          "GSM2732921",
+          "61961940",
+          "1.13",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep3.genes.results",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep3.isoforms.results",
+          "Mmus_C57-6CR_SLS_22-24mon_HLU_Rep4",
+          "GSM2732922",
+          "62070999",
+          "1.03",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep4.genes.results",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep4.isoforms.results",
+          "Mmus_C57-6CR_SLS_22-24mon_HLU_Rep5",
+          "GSM2732923",
+          "60005886",
+          "0.76",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep5.genes.results",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep5.isoforms.results",
+          "Mmus_C57-6CR_SLS_22-24mon_HLU_Rep6",
+          "GSM2732924",
+          "59500980",
+          "0.99",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep6.genes.results",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep6.isoforms.results",
+          "Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep1",
+          "GSM2732925",
+          "62649257",
+          "1.56",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep1.genes.results",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep1.isoforms.results",
+          "Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep2",
+          "GSM2732926",
+          "60149908",
+          "1.42",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep2.genes.results",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep2.isoforms.results",
+          "Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep3",
+          "GSM2732927",
+          "58826677",
+          "1.24",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep3.genes.results",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep3.isoforms.results",
+          "Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep4",
+          "GSM2732928",
+          "60403964",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep4.genes.results",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep4.isoforms.results"
+        ],
+        "reports": [
+          "GLDS-295_rna_seq_raw_multiqc_report.zip",
+          "GLDS-295_rna_seq_trimmed_multiqc_report.zip",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep1_Log.final.out",
+          "GLDS-295_rna_seq_align_multiqc_report.zip",
+          "GLDS-295_rna_seq_geneBody_cov_multiqc_report.zip",
+          "GLDS-295_rna_seq_infer_exp_multiqc_report.zip",
+          "GLDS-295_rna_seq_read_dist_multiqc_report.zip",
+          "GLDS-295_rna_seq_RSEM_count_multiqc_report.zip",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep2_Log.final.out",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep3_raw.fastq.gz_trimming_report.txt",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep3_Log.final.out",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep4_raw.fastq.gz_trimming_report.txt",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep4_Log.final.out",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep5_raw.fastq.gz_trimming_report.txt",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep5_Log.final.out",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep6_raw.fastq.gz_trimming_report.txt",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep6_Log.final.out",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep7_raw.fastq.gz_trimming_report.txt",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep7_Log.final.out",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep8_raw.fastq.gz_trimming_report.txt",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep8_Log.final.out",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep9_raw.fastq.gz_trimming_report.txt",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLLC_Rep9_Log.final.out",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU_Rep1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU_Rep1_Log.final.out",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU_Rep2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU_Rep2_Log.final.out",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU_Rep3_raw.fastq.gz_trimming_report.txt",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU_Rep3_Log.final.out",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU_Rep4_raw.fastq.gz_trimming_report.txt",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU_Rep4_Log.final.out",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep1_Log.final.out",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep2_Log.final.out",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep3_raw.fastq.gz_trimming_report.txt",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep3_Log.final.out",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep4_raw.fastq.gz_trimming_report.txt",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_6mon_HLU-RL_Rep4_Log.final.out",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep1_Log.final.out",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep2_Log.final.out",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep3_raw.fastq.gz_trimming_report.txt",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep3_Log.final.out",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep4_raw.fastq.gz_trimming_report.txt",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep4_Log.final.out",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep5_raw.fastq.gz_trimming_report.txt",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep5_Log.final.out",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep6_raw.fastq.gz_trimming_report.txt",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep6_Log.final.out",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep7_raw.fastq.gz_trimming_report.txt",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep7_Log.final.out",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep8_raw.fastq.gz_trimming_report.txt",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep8_Log.final.out",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep9_raw.fastq.gz_trimming_report.txt",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLLC_Rep9_Log.final.out",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep1_Log.final.out",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep2_Log.final.out",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep3_raw.fastq.gz_trimming_report.txt",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep3_Log.final.out",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep4_raw.fastq.gz_trimming_report.txt",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep4_Log.final.out",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep5_raw.fastq.gz_trimming_report.txt",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep5_Log.final.out",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep6_raw.fastq.gz_trimming_report.txt",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU_Rep6_Log.final.out",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep1_Log.final.out",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep2_Log.final.out",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep3_raw.fastq.gz_trimming_report.txt",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep3_Log.final.out",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep4_raw.fastq.gz_trimming_report.txt",
+          "GLDS-295_rna_seq_Mmus_C57-6CR_SLS_22-24mon_HLU-RL_Rep4_Log.final.out"
+        ]
+      }
+    }
+  ]
+}

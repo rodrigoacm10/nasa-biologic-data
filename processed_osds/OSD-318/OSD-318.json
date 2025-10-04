@@ -1,0 +1,1259 @@
+{
+  "investigation": {
+    "id": "OSD-318",
+    "title": "RNA seq of tumors derived from irradiated versus sham hosts transplanted with Trp53 null mammary tissue and fed either Control diet versus Caffeic Acid Phenethyl Ester (CAPE) diet.",
+    "description": "Irradiated hosts gave rise to significantly more Trp53 null mammary cancers that grew more rapidly than those in sham-irradiated mice and exhibited an immunosuppressive tumor microenvironment. CAPE prevented the effect of host irradiation on tumor growth rate, immune signature and immunosuppression.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "Gamma_Irradiation, Low_LET_Irradiation, High_Dose_Irradiation",
+      "title": "",
+      "type": "Ground Study",
+      "link": "",
+      "funding": "This research was supported by NASA Specialized Center for Research in Radiation Health Effects, NNX09AM52G at New York University School of Medicine, and NIH R01CA190980 and R01CA19098005S1 awards at University of California, San Francisco (to M.H. Barcellos-Hoff) and K08 CA172722 (to C. Omene).",
+      "managing_center": ""
+    },
+    "protocols": [
+      "Animal Husbandry",
+      "irradiation protocol",
+      "sample collection protocol",
+      "nucleic acid extraction",
+      "library construction",
+      "nucleic acid sequencing protocol",
+      "User submitted sequence analysis data transformation",
+      "GeneLab raw data processing protocol",
+      "GeneLab RNAseq data processing protocol"
+    ],
+    "publications": [
+      {
+        "title": "Aggressive Mammary Cancers Lacking Lymphocytic Infiltration Arise in Irradiated Mice and Can Be Prevented by Dietary Intervention",
+        "doi": "10.1158/2326-6066.CIR-19-0253",
+        "authors": [
+          "Coral Omene",
+          "Lin Ma",
+          "Jade Moore",
+          "Haoxu Ouyang",
+          "Irineu Illa-Bochaca",
+          "William Chou",
+          "Manan S. Patel",
+          "Christopher Sebastiano",
+          "Sandra Demaria",
+          "Jian-Hua Mao",
+          "Kubra Karagoz",
+          "Michael L. Gatza and Mary Helen Barcellos-Hoff"
+        ],
+        "summary": "Aggressive Mammary Cancers Lacking Lymphocytic Infiltration Arise in Irradiated Mice and Can Be Prevented by Dietary Intervention — 10.1158/2326-6066.CIR-19-0253"
+      }
+    ],
+    "factors": [
+      "Ionizing Radiation",
+      "Diet"
+    ],
+    "contacts": [
+      {
+        "first_name": "Jade",
+        "last_name": "Moore",
+        "role": "submitter",
+        "email": "MaryHelen.Barcellos-Hoff@ucsf.edu"
+      },
+      {
+        "first_name": "Mary",
+        "last_name": "Barcellos-Hoff",
+        "role": "principal investigator",
+        "email": ""
+      },
+      {
+        "first_name": "Coral",
+        "last_name": "Omene",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Lin",
+        "last_name": "Ma",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Haoxu",
+        "last_name": "Ouyang",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Irineu",
+        "last_name": "Illa-Bochaca",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "William",
+        "last_name": "Chou",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Manan S",
+        "last_name": "Patel",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Christopher",
+        "last_name": "Sebastiano",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Sandra",
+        "last_name": "Demaria",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Jian-Hua",
+        "last_name": "Mao",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Kubra",
+        "last_name": "Karagoz",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Michael L",
+        "last_name": "Gatza",
+        "role": "Author",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "GSM3688539",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "host strain": "BALB/c",
+          "host genotype": "Wild Type",
+          "donor age at mammary gland collection": "8-10",
+          "age at irradiation": "10-12",
+          "Strain (donor strain)": "BALB/c",
+          "Genotype (donor genotype)": "Trp53 null",
+          "Material Type": "Trp53 null Mammary Tumor",
+          "Animal Source (host)": "Taconic Laboratory",
+          "Animal Source (donor)": "Jackson Laboratory"
+        },
+        "factors": {
+          "Diet": "Control diet containing CAPE",
+          "Ionizing Radiation": "cesium-137 gamma radiation"
+        },
+        "parameters": {
+          "Control Diet": "7012 meal, Harlan Laboratories, Teklad lab animal diets",
+          "Feeding Schedule": "ad libitum",
+          "absorbed radiation dose": "100",
+          "ionizing radiation energy": "0.662",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device or source": "BNL GRSF",
+          "sample preservation method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3688540",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "host strain": "BALB/c",
+          "host genotype": "Wild Type",
+          "donor age at mammary gland collection": "8-10",
+          "age at irradiation": "10-12",
+          "Strain (donor strain)": "BALB/c",
+          "Genotype (donor genotype)": "Trp53 null",
+          "Material Type": "Trp53 null Mammary Tumor",
+          "Animal Source (host)": "Taconic Laboratory",
+          "Animal Source (donor)": "Jackson Laboratory"
+        },
+        "factors": {
+          "Diet": "Control diet containing CAPE",
+          "Ionizing Radiation": "cesium-137 gamma radiation"
+        },
+        "parameters": {
+          "Control Diet": "7012 meal, Harlan Laboratories, Teklad lab animal diets",
+          "Feeding Schedule": "ad libitum",
+          "absorbed radiation dose": "100",
+          "ionizing radiation energy": "0.662",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device or source": "BNL GRSF",
+          "sample preservation method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3688541",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "host strain": "BALB/c",
+          "host genotype": "Wild Type",
+          "donor age at mammary gland collection": "8-10",
+          "age at irradiation": "10-12",
+          "Strain (donor strain)": "BALB/c",
+          "Genotype (donor genotype)": "Trp53 null",
+          "Material Type": "Trp53 null Mammary Tumor",
+          "Animal Source (host)": "Taconic Laboratory",
+          "Animal Source (donor)": "Jackson Laboratory"
+        },
+        "factors": {
+          "Diet": "Control diet containing CAPE",
+          "Ionizing Radiation": "cesium-137 gamma radiation"
+        },
+        "parameters": {
+          "Control Diet": "7012 meal, Harlan Laboratories, Teklad lab animal diets",
+          "Feeding Schedule": "ad libitum",
+          "absorbed radiation dose": "100",
+          "ionizing radiation energy": "0.662",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device or source": "BNL GRSF",
+          "sample preservation method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3688542",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "host strain": "BALB/c",
+          "host genotype": "Wild Type",
+          "donor age at mammary gland collection": "8-10",
+          "age at irradiation": "10-12",
+          "Strain (donor strain)": "BALB/c",
+          "Genotype (donor genotype)": "Trp53 null",
+          "Material Type": "Trp53 null Mammary Tumor",
+          "Animal Source (host)": "Taconic Laboratory",
+          "Animal Source (donor)": "Jackson Laboratory"
+        },
+        "factors": {
+          "Diet": "Control diet containing CAPE",
+          "Ionizing Radiation": "cesium-137 gamma radiation"
+        },
+        "parameters": {
+          "Control Diet": "7012 meal, Harlan Laboratories, Teklad lab animal diets",
+          "Feeding Schedule": "ad libitum",
+          "absorbed radiation dose": "100",
+          "ionizing radiation energy": "0.662",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device or source": "BNL GRSF",
+          "sample preservation method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3688543",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "host strain": "BALB/c",
+          "host genotype": "Wild Type",
+          "donor age at mammary gland collection": "8-10",
+          "age at irradiation": "10-12",
+          "Strain (donor strain)": "BALB/c",
+          "Genotype (donor genotype)": "Trp53 null",
+          "Material Type": "Trp53 null Mammary Tumor",
+          "Animal Source (host)": "Taconic Laboratory",
+          "Animal Source (donor)": "Jackson Laboratory"
+        },
+        "factors": {
+          "Diet": "Control diet containing CAPE",
+          "Ionizing Radiation": "cesium-137 gamma radiation"
+        },
+        "parameters": {
+          "Control Diet": "7012 meal, Harlan Laboratories, Teklad lab animal diets",
+          "Feeding Schedule": "ad libitum",
+          "absorbed radiation dose": "100",
+          "ionizing radiation energy": "0.662",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device or source": "BNL GRSF",
+          "sample preservation method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3688544",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "host strain": "BALB/c",
+          "host genotype": "Wild Type",
+          "donor age at mammary gland collection": "8-10",
+          "age at irradiation": "10-12",
+          "Strain (donor strain)": "BALB/c",
+          "Genotype (donor genotype)": "Trp53 null",
+          "Material Type": "Trp53 null Mammary Tumor",
+          "Animal Source (host)": "Taconic Laboratory",
+          "Animal Source (donor)": "Jackson Laboratory"
+        },
+        "factors": {
+          "Diet": "Control diet containing CAPE",
+          "Ionizing Radiation": "cesium-137 gamma radiation"
+        },
+        "parameters": {
+          "Control Diet": "7012 meal, Harlan Laboratories, Teklad lab animal diets",
+          "Feeding Schedule": "ad libitum",
+          "absorbed radiation dose": "100",
+          "ionizing radiation energy": "0.662",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device or source": "BNL GRSF",
+          "sample preservation method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3688545",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "host strain": "BALB/c",
+          "host genotype": "Wild Type",
+          "donor age at mammary gland collection": "8-10",
+          "age at irradiation": "10-12",
+          "Strain (donor strain)": "BALB/c",
+          "Genotype (donor genotype)": "Trp53 null",
+          "Material Type": "Trp53 null Mammary Tumor",
+          "Animal Source (host)": "Taconic Laboratory",
+          "Animal Source (donor)": "Jackson Laboratory"
+        },
+        "factors": {
+          "Diet": "Control diet containing CAPE",
+          "Ionizing Radiation": "cesium-137 gamma radiation"
+        },
+        "parameters": {
+          "Control Diet": "7012 meal, Harlan Laboratories, Teklad lab animal diets",
+          "Feeding Schedule": "ad libitum",
+          "absorbed radiation dose": "100",
+          "ionizing radiation energy": "0.662",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device or source": "BNL GRSF",
+          "sample preservation method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3688546",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "host strain": "BALB/c",
+          "host genotype": "Wild Type",
+          "donor age at mammary gland collection": "8-10",
+          "age at irradiation": "10-12",
+          "Strain (donor strain)": "BALB/c",
+          "Genotype (donor genotype)": "Trp53 null",
+          "Material Type": "Trp53 null Mammary Tumor",
+          "Animal Source (host)": "Taconic Laboratory",
+          "Animal Source (donor)": "Jackson Laboratory"
+        },
+        "factors": {
+          "Diet": "Control diet containing CAPE",
+          "Ionizing Radiation": "cesium-137 gamma radiation"
+        },
+        "parameters": {
+          "Control Diet": "7012 meal, Harlan Laboratories, Teklad lab animal diets",
+          "Feeding Schedule": "ad libitum",
+          "absorbed radiation dose": "100",
+          "ionizing radiation energy": "0.662",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device or source": "BNL GRSF",
+          "sample preservation method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3688547",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "host strain": "BALB/c",
+          "host genotype": "Wild Type",
+          "donor age at mammary gland collection": "8-10",
+          "age at irradiation": "10-12",
+          "Strain (donor strain)": "BALB/c",
+          "Genotype (donor genotype)": "Trp53 null",
+          "Material Type": "Trp53 null Mammary Tumor",
+          "Animal Source (host)": "Taconic Laboratory",
+          "Animal Source (donor)": "Jackson Laboratory"
+        },
+        "factors": {
+          "Diet": "Control diet containing CAPE",
+          "Ionizing Radiation": "cesium-137 gamma radiation"
+        },
+        "parameters": {
+          "Control Diet": "7012 meal, Harlan Laboratories, Teklad lab animal diets",
+          "Feeding Schedule": "ad libitum",
+          "absorbed radiation dose": "100",
+          "ionizing radiation energy": "0.662",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device or source": "BNL GRSF",
+          "sample preservation method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3688548",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "host strain": "BALB/c",
+          "host genotype": "Wild Type",
+          "donor age at mammary gland collection": "8-10",
+          "age at irradiation": "10-12",
+          "Strain (donor strain)": "BALB/c",
+          "Genotype (donor genotype)": "Trp53 null",
+          "Material Type": "Trp53 null Mammary Tumor",
+          "Animal Source (host)": "Taconic Laboratory",
+          "Animal Source (donor)": "Jackson Laboratory"
+        },
+        "factors": {
+          "Diet": "Control diet containing 1% sucrose",
+          "Ionizing Radiation": "cesium-137 gamma radiation"
+        },
+        "parameters": {
+          "Control Diet": "7012 meal, Harlan Laboratories, Teklad lab animal diets",
+          "Feeding Schedule": "ad libitum",
+          "absorbed radiation dose": "100",
+          "ionizing radiation energy": "0.662",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device or source": "BNL GRSF",
+          "sample preservation method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3688549",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "host strain": "BALB/c",
+          "host genotype": "Wild Type",
+          "donor age at mammary gland collection": "8-10",
+          "age at irradiation": "10-12",
+          "Strain (donor strain)": "BALB/c",
+          "Genotype (donor genotype)": "Trp53 null",
+          "Material Type": "Trp53 null Mammary Tumor",
+          "Animal Source (host)": "Taconic Laboratory",
+          "Animal Source (donor)": "Jackson Laboratory"
+        },
+        "factors": {
+          "Diet": "Control diet containing 1% sucrose",
+          "Ionizing Radiation": "cesium-137 gamma radiation"
+        },
+        "parameters": {
+          "Control Diet": "7012 meal, Harlan Laboratories, Teklad lab animal diets",
+          "Feeding Schedule": "ad libitum",
+          "absorbed radiation dose": "100",
+          "ionizing radiation energy": "0.662",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device or source": "BNL GRSF",
+          "sample preservation method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3688550",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "host strain": "BALB/c",
+          "host genotype": "Wild Type",
+          "donor age at mammary gland collection": "8-10",
+          "age at irradiation": "10-12",
+          "Strain (donor strain)": "BALB/c",
+          "Genotype (donor genotype)": "Trp53 null",
+          "Material Type": "Trp53 null Mammary Tumor",
+          "Animal Source (host)": "Taconic Laboratory",
+          "Animal Source (donor)": "Jackson Laboratory"
+        },
+        "factors": {
+          "Diet": "Control diet containing 1% sucrose",
+          "Ionizing Radiation": "cesium-137 gamma radiation"
+        },
+        "parameters": {
+          "Control Diet": "7012 meal, Harlan Laboratories, Teklad lab animal diets",
+          "Feeding Schedule": "ad libitum",
+          "absorbed radiation dose": "100",
+          "ionizing radiation energy": "0.662",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device or source": "BNL GRSF",
+          "sample preservation method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3688551",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "host strain": "BALB/c",
+          "host genotype": "Wild Type",
+          "donor age at mammary gland collection": "8-10",
+          "age at irradiation": "10-12",
+          "Strain (donor strain)": "BALB/c",
+          "Genotype (donor genotype)": "Trp53 null",
+          "Material Type": "Trp53 null Mammary Tumor",
+          "Animal Source (host)": "Taconic Laboratory",
+          "Animal Source (donor)": "Jackson Laboratory"
+        },
+        "factors": {
+          "Diet": "Control diet containing 1% sucrose",
+          "Ionizing Radiation": "cesium-137 gamma radiation"
+        },
+        "parameters": {
+          "Control Diet": "7012 meal, Harlan Laboratories, Teklad lab animal diets",
+          "Feeding Schedule": "ad libitum",
+          "absorbed radiation dose": "100",
+          "ionizing radiation energy": "0.662",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device or source": "BNL GRSF",
+          "sample preservation method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3688552",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "host strain": "BALB/c",
+          "host genotype": "Wild Type",
+          "donor age at mammary gland collection": "8-10",
+          "age at irradiation": "10-12",
+          "Strain (donor strain)": "BALB/c",
+          "Genotype (donor genotype)": "Trp53 null",
+          "Material Type": "Trp53 null Mammary Tumor",
+          "Animal Source (host)": "Taconic Laboratory",
+          "Animal Source (donor)": "Jackson Laboratory"
+        },
+        "factors": {
+          "Diet": "Control diet containing CAPE",
+          "Ionizing Radiation": "sham-irradiated"
+        },
+        "parameters": {
+          "Control Diet": "7012 meal, Harlan Laboratories, Teklad lab animal diets",
+          "Feeding Schedule": "ad libitum",
+          "absorbed radiation dose": "0",
+          "ionizing radiation energy": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device or source": "",
+          "sample preservation method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3688553",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "host strain": "BALB/c",
+          "host genotype": "Wild Type",
+          "donor age at mammary gland collection": "8-10",
+          "age at irradiation": "10-12",
+          "Strain (donor strain)": "BALB/c",
+          "Genotype (donor genotype)": "Trp53 null",
+          "Material Type": "Trp53 null Mammary Tumor",
+          "Animal Source (host)": "Taconic Laboratory",
+          "Animal Source (donor)": "Jackson Laboratory"
+        },
+        "factors": {
+          "Diet": "Control diet containing CAPE",
+          "Ionizing Radiation": "sham-irradiated"
+        },
+        "parameters": {
+          "Control Diet": "7012 meal, Harlan Laboratories, Teklad lab animal diets",
+          "Feeding Schedule": "ad libitum",
+          "absorbed radiation dose": "0",
+          "ionizing radiation energy": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device or source": "",
+          "sample preservation method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3688554",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "host strain": "BALB/c",
+          "host genotype": "Wild Type",
+          "donor age at mammary gland collection": "8-10",
+          "age at irradiation": "10-12",
+          "Strain (donor strain)": "BALB/c",
+          "Genotype (donor genotype)": "Trp53 null",
+          "Material Type": "Trp53 null Mammary Tumor",
+          "Animal Source (host)": "Taconic Laboratory",
+          "Animal Source (donor)": "Jackson Laboratory"
+        },
+        "factors": {
+          "Diet": "Control diet containing CAPE",
+          "Ionizing Radiation": "sham-irradiated"
+        },
+        "parameters": {
+          "Control Diet": "7012 meal, Harlan Laboratories, Teklad lab animal diets",
+          "Feeding Schedule": "ad libitum",
+          "absorbed radiation dose": "0",
+          "ionizing radiation energy": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device or source": "",
+          "sample preservation method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3688555",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "host strain": "BALB/c",
+          "host genotype": "Wild Type",
+          "donor age at mammary gland collection": "8-10",
+          "age at irradiation": "10-12",
+          "Strain (donor strain)": "BALB/c",
+          "Genotype (donor genotype)": "Trp53 null",
+          "Material Type": "Trp53 null Mammary Tumor",
+          "Animal Source (host)": "Taconic Laboratory",
+          "Animal Source (donor)": "Jackson Laboratory"
+        },
+        "factors": {
+          "Diet": "Control diet containing CAPE",
+          "Ionizing Radiation": "sham-irradiated"
+        },
+        "parameters": {
+          "Control Diet": "7012 meal, Harlan Laboratories, Teklad lab animal diets",
+          "Feeding Schedule": "ad libitum",
+          "absorbed radiation dose": "0",
+          "ionizing radiation energy": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device or source": "",
+          "sample preservation method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3688556",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "host strain": "BALB/c",
+          "host genotype": "Wild Type",
+          "donor age at mammary gland collection": "8-10",
+          "age at irradiation": "10-12",
+          "Strain (donor strain)": "BALB/c",
+          "Genotype (donor genotype)": "Trp53 null",
+          "Material Type": "Trp53 null Mammary Tumor",
+          "Animal Source (host)": "Taconic Laboratory",
+          "Animal Source (donor)": "Jackson Laboratory"
+        },
+        "factors": {
+          "Diet": "Control diet containing CAPE",
+          "Ionizing Radiation": "sham-irradiated"
+        },
+        "parameters": {
+          "Control Diet": "7012 meal, Harlan Laboratories, Teklad lab animal diets",
+          "Feeding Schedule": "ad libitum",
+          "absorbed radiation dose": "0",
+          "ionizing radiation energy": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device or source": "",
+          "sample preservation method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3688557",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "host strain": "BALB/c",
+          "host genotype": "Wild Type",
+          "donor age at mammary gland collection": "8-10",
+          "age at irradiation": "10-12",
+          "Strain (donor strain)": "BALB/c",
+          "Genotype (donor genotype)": "Trp53 null",
+          "Material Type": "Trp53 null Mammary Tumor",
+          "Animal Source (host)": "Taconic Laboratory",
+          "Animal Source (donor)": "Jackson Laboratory"
+        },
+        "factors": {
+          "Diet": "Control diet containing 1% sucrose",
+          "Ionizing Radiation": "sham-irradiated"
+        },
+        "parameters": {
+          "Control Diet": "7012 meal, Harlan Laboratories, Teklad lab animal diets",
+          "Feeding Schedule": "ad libitum",
+          "absorbed radiation dose": "0",
+          "ionizing radiation energy": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device or source": "",
+          "sample preservation method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3688558",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "host strain": "BALB/c",
+          "host genotype": "Wild Type",
+          "donor age at mammary gland collection": "8-10",
+          "age at irradiation": "10-12",
+          "Strain (donor strain)": "BALB/c",
+          "Genotype (donor genotype)": "Trp53 null",
+          "Material Type": "Trp53 null Mammary Tumor",
+          "Animal Source (host)": "Taconic Laboratory",
+          "Animal Source (donor)": "Jackson Laboratory"
+        },
+        "factors": {
+          "Diet": "Control diet containing 1% sucrose",
+          "Ionizing Radiation": "sham-irradiated"
+        },
+        "parameters": {
+          "Control Diet": "7012 meal, Harlan Laboratories, Teklad lab animal diets",
+          "Feeding Schedule": "ad libitum",
+          "absorbed radiation dose": "0",
+          "ionizing radiation energy": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device or source": "",
+          "sample preservation method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3688559",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "host strain": "BALB/c",
+          "host genotype": "Wild Type",
+          "donor age at mammary gland collection": "8-10",
+          "age at irradiation": "10-12",
+          "Strain (donor strain)": "BALB/c",
+          "Genotype (donor genotype)": "Trp53 null",
+          "Material Type": "Trp53 null Mammary Tumor",
+          "Animal Source (host)": "Taconic Laboratory",
+          "Animal Source (donor)": "Jackson Laboratory"
+        },
+        "factors": {
+          "Diet": "Control diet containing 1% sucrose",
+          "Ionizing Radiation": "sham-irradiated"
+        },
+        "parameters": {
+          "Control Diet": "7012 meal, Harlan Laboratories, Teklad lab animal diets",
+          "Feeding Schedule": "ad libitum",
+          "absorbed radiation dose": "0",
+          "ionizing radiation energy": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device or source": "",
+          "sample preservation method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3688560",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "host strain": "BALB/c",
+          "host genotype": "Wild Type",
+          "donor age at mammary gland collection": "8-10",
+          "age at irradiation": "10-12",
+          "Strain (donor strain)": "BALB/c",
+          "Genotype (donor genotype)": "Trp53 null",
+          "Material Type": "Trp53 null Mammary Tumor",
+          "Animal Source (host)": "Taconic Laboratory",
+          "Animal Source (donor)": "Jackson Laboratory"
+        },
+        "factors": {
+          "Diet": "Control diet containing 1% sucrose",
+          "Ionizing Radiation": "sham-irradiated"
+        },
+        "parameters": {
+          "Control Diet": "7012 meal, Harlan Laboratories, Teklad lab animal diets",
+          "Feeding Schedule": "ad libitum",
+          "absorbed radiation dose": "0",
+          "ionizing radiation energy": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device or source": "",
+          "sample preservation method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3688561",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "host strain": "BALB/c",
+          "host genotype": "Wild Type",
+          "donor age at mammary gland collection": "8-10",
+          "age at irradiation": "10-12",
+          "Strain (donor strain)": "BALB/c",
+          "Genotype (donor genotype)": "Trp53 null",
+          "Material Type": "Trp53 null Mammary Tumor",
+          "Animal Source (host)": "Taconic Laboratory",
+          "Animal Source (donor)": "Jackson Laboratory"
+        },
+        "factors": {
+          "Diet": "Control diet containing 1% sucrose",
+          "Ionizing Radiation": "sham-irradiated"
+        },
+        "parameters": {
+          "Control Diet": "7012 meal, Harlan Laboratories, Teklad lab animal diets",
+          "Feeding Schedule": "ad libitum",
+          "absorbed radiation dose": "0",
+          "ionizing radiation energy": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device or source": "",
+          "sample preservation method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina HiSeq 2500",
+      "qc": {
+        "QA Instrument": "Agilent 2100 Bioanalyzer",
+        "Read Depth": "11744069",
+        "rRNA Contamination": "4.38"
+      },
+      "library": {
+        "Library Kit": "TruSeq RNA Sample Preparation Illumina"
+      },
+      "files": {
+        "raw": [
+          "GLDS-318_rna-seq_SRR8791891.fastq.gz",
+          "GLDS-318_rna-seq_SRR8791892.fastq.gz",
+          "GLDS-318_rna-seq_SRR8791893.fastq.gz",
+          "GLDS-318_rna-seq_SRR8791894.fastq.gz",
+          "GLDS-318_rna-seq_SRR8791895.fastq.gz",
+          "GLDS-318_rna-seq_SRR8791896.fastq.gz",
+          "GLDS-318_rna-seq_SRR8791897.fastq.gz",
+          "GLDS-318_rna-seq_SRR8791898.fastq.gz",
+          "GLDS-318_rna-seq_SRR8791899.fastq.gz",
+          "GLDS-318_rna-seq_SRR8791900.fastq.gz",
+          "GLDS-318_rna-seq_SRR8791901.fastq.gz",
+          "GLDS-318_rna-seq_SRR8791902.fastq.gz",
+          "GLDS-318_rna-seq_SRR8791903.fastq.gz",
+          "GLDS-318_rna-seq_SRR8791904.fastq.gz",
+          "GLDS-318_rna-seq_SRR8791905.fastq.gz",
+          "GLDS-318_rna-seq_SRR8791906.fastq.gz",
+          "GLDS-318_rna-seq_SRR8791907.fastq.gz",
+          "GLDS-318_rna-seq_SRR8791908.fastq.gz",
+          "GLDS-318_rna-seq_SRR8791909.fastq.gz",
+          "GLDS-318_rna-seq_SRR8791910.fastq.gz",
+          "GLDS-318_rna-seq_SRR8791911.fastq.gz",
+          "GLDS-318_rna-seq_SRR8791912.fastq.gz",
+          "GLDS-318_rna-seq_SRR8791913.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688539_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688539_GLbulkRNAseq_unmapped.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688540_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688540_GLbulkRNAseq_unmapped.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688541_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688541_GLbulkRNAseq_unmapped.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688542_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688542_GLbulkRNAseq_unmapped.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688543_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688543_GLbulkRNAseq_unmapped.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688544_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688544_GLbulkRNAseq_unmapped.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688545_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688545_GLbulkRNAseq_unmapped.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688546_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688546_GLbulkRNAseq_unmapped.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688547_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688547_GLbulkRNAseq_unmapped.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688548_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688548_GLbulkRNAseq_unmapped.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688549_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688549_GLbulkRNAseq_unmapped.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688550_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688550_GLbulkRNAseq_unmapped.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688551_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688551_GLbulkRNAseq_unmapped.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688552_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688552_GLbulkRNAseq_unmapped.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688553_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688553_GLbulkRNAseq_unmapped.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688554_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688554_GLbulkRNAseq_unmapped.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688555_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688555_GLbulkRNAseq_unmapped.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688556_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688556_GLbulkRNAseq_unmapped.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688557_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688557_GLbulkRNAseq_unmapped.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688558_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688558_GLbulkRNAseq_unmapped.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688559_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688559_GLbulkRNAseq_unmapped.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688560_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688560_GLbulkRNAseq_unmapped.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688561_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688561_GLbulkRNAseq_unmapped.fastq.gz"
+        ],
+        "processed": [
+          "GLDS-318_rna-seq_GSE128930_DESeq2_COUNT_CAPE_expt_JMoore.txt.gz",
+          "GLDS-318_rna_seq_GSM3688539_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688539_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-318_rna_seq_GSM3688539_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-318_rna_seq_GSM3688539_GLbulkRNAseq_Aligned.toTranscriptome.out.bam",
+          "GLDS-318_rna_seq_GSM3688539_GLbulkRNAseq_SJ.out.tab",
+          "GLDS-318_rna_seq_GSM3688540_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688540_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-318_rna_seq_GSM3688540_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-318_rna_seq_GSM3688540_GLbulkRNAseq_Aligned.toTranscriptome.out.bam",
+          "GLDS-318_rna_seq_GSM3688540_GLbulkRNAseq_SJ.out.tab",
+          "GLDS-318_rna_seq_GSM3688541_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688541_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-318_rna_seq_GSM3688541_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-318_rna_seq_GSM3688541_GLbulkRNAseq_Aligned.toTranscriptome.out.bam",
+          "GLDS-318_rna_seq_GSM3688541_GLbulkRNAseq_SJ.out.tab",
+          "GLDS-318_rna_seq_GSM3688542_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688542_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-318_rna_seq_GSM3688542_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-318_rna_seq_GSM3688542_GLbulkRNAseq_Aligned.toTranscriptome.out.bam",
+          "GLDS-318_rna_seq_GSM3688542_GLbulkRNAseq_SJ.out.tab",
+          "GLDS-318_rna_seq_GSM3688543_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688543_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-318_rna_seq_GSM3688543_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-318_rna_seq_GSM3688543_GLbulkRNAseq_Aligned.toTranscriptome.out.bam",
+          "GLDS-318_rna_seq_GSM3688543_GLbulkRNAseq_SJ.out.tab",
+          "GLDS-318_rna_seq_GSM3688544_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688544_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-318_rna_seq_GSM3688544_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-318_rna_seq_GSM3688544_GLbulkRNAseq_Aligned.toTranscriptome.out.bam",
+          "GLDS-318_rna_seq_GSM3688544_GLbulkRNAseq_SJ.out.tab",
+          "GLDS-318_rna_seq_GSM3688545_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688545_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-318_rna_seq_GSM3688545_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-318_rna_seq_GSM3688545_GLbulkRNAseq_Aligned.toTranscriptome.out.bam",
+          "GLDS-318_rna_seq_GSM3688545_GLbulkRNAseq_SJ.out.tab",
+          "GLDS-318_rna_seq_GSM3688546_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688546_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-318_rna_seq_GSM3688546_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-318_rna_seq_GSM3688546_GLbulkRNAseq_Aligned.toTranscriptome.out.bam",
+          "GLDS-318_rna_seq_GSM3688546_GLbulkRNAseq_SJ.out.tab",
+          "GLDS-318_rna_seq_GSM3688547_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688547_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-318_rna_seq_GSM3688547_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-318_rna_seq_GSM3688547_GLbulkRNAseq_Aligned.toTranscriptome.out.bam",
+          "GLDS-318_rna_seq_GSM3688547_GLbulkRNAseq_SJ.out.tab",
+          "GLDS-318_rna_seq_GSM3688548_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688548_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-318_rna_seq_GSM3688548_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-318_rna_seq_GSM3688548_GLbulkRNAseq_Aligned.toTranscriptome.out.bam",
+          "GLDS-318_rna_seq_GSM3688548_GLbulkRNAseq_SJ.out.tab",
+          "GLDS-318_rna_seq_GSM3688549_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688549_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-318_rna_seq_GSM3688549_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-318_rna_seq_GSM3688549_GLbulkRNAseq_Aligned.toTranscriptome.out.bam",
+          "GLDS-318_rna_seq_GSM3688549_GLbulkRNAseq_SJ.out.tab",
+          "GLDS-318_rna_seq_GSM3688550_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688550_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-318_rna_seq_GSM3688550_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-318_rna_seq_GSM3688550_GLbulkRNAseq_Aligned.toTranscriptome.out.bam",
+          "GLDS-318_rna_seq_GSM3688550_GLbulkRNAseq_SJ.out.tab",
+          "GLDS-318_rna_seq_GSM3688551_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688551_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-318_rna_seq_GSM3688551_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-318_rna_seq_GSM3688551_GLbulkRNAseq_Aligned.toTranscriptome.out.bam",
+          "GLDS-318_rna_seq_GSM3688551_GLbulkRNAseq_SJ.out.tab",
+          "GLDS-318_rna_seq_GSM3688552_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688552_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-318_rna_seq_GSM3688552_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-318_rna_seq_GSM3688552_GLbulkRNAseq_Aligned.toTranscriptome.out.bam",
+          "GLDS-318_rna_seq_GSM3688552_GLbulkRNAseq_SJ.out.tab",
+          "GLDS-318_rna_seq_GSM3688553_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688553_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-318_rna_seq_GSM3688553_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-318_rna_seq_GSM3688553_GLbulkRNAseq_Aligned.toTranscriptome.out.bam",
+          "GLDS-318_rna_seq_GSM3688553_GLbulkRNAseq_SJ.out.tab",
+          "GLDS-318_rna_seq_GSM3688554_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688554_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-318_rna_seq_GSM3688554_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-318_rna_seq_GSM3688554_GLbulkRNAseq_Aligned.toTranscriptome.out.bam",
+          "GLDS-318_rna_seq_GSM3688554_GLbulkRNAseq_SJ.out.tab",
+          "GLDS-318_rna_seq_GSM3688555_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688555_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-318_rna_seq_GSM3688555_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-318_rna_seq_GSM3688555_GLbulkRNAseq_Aligned.toTranscriptome.out.bam",
+          "GLDS-318_rna_seq_GSM3688555_GLbulkRNAseq_SJ.out.tab",
+          "GLDS-318_rna_seq_GSM3688556_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688556_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-318_rna_seq_GSM3688556_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-318_rna_seq_GSM3688556_GLbulkRNAseq_Aligned.toTranscriptome.out.bam",
+          "GLDS-318_rna_seq_GSM3688556_GLbulkRNAseq_SJ.out.tab",
+          "GLDS-318_rna_seq_GSM3688557_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688557_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-318_rna_seq_GSM3688557_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-318_rna_seq_GSM3688557_GLbulkRNAseq_Aligned.toTranscriptome.out.bam",
+          "GLDS-318_rna_seq_GSM3688557_GLbulkRNAseq_SJ.out.tab",
+          "GLDS-318_rna_seq_GSM3688558_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688558_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-318_rna_seq_GSM3688558_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-318_rna_seq_GSM3688558_GLbulkRNAseq_Aligned.toTranscriptome.out.bam",
+          "GLDS-318_rna_seq_GSM3688558_GLbulkRNAseq_SJ.out.tab",
+          "GLDS-318_rna_seq_GSM3688559_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688559_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-318_rna_seq_GSM3688559_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-318_rna_seq_GSM3688559_GLbulkRNAseq_Aligned.toTranscriptome.out.bam",
+          "GLDS-318_rna_seq_GSM3688559_GLbulkRNAseq_SJ.out.tab",
+          "GLDS-318_rna_seq_GSM3688560_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688560_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-318_rna_seq_GSM3688560_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-318_rna_seq_GSM3688560_GLbulkRNAseq_Aligned.toTranscriptome.out.bam",
+          "GLDS-318_rna_seq_GSM3688560_GLbulkRNAseq_SJ.out.tab",
+          "GLDS-318_rna_seq_GSM3688561_GLbulkRNAseq_trimmed.fastq.gz",
+          "GLDS-318_rna_seq_GSM3688561_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-318_rna_seq_GSM3688561_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-318_rna_seq_GSM3688561_GLbulkRNAseq_Aligned.toTranscriptome.out.bam",
+          "GLDS-318_rna_seq_GSM3688561_GLbulkRNAseq_SJ.out.tab",
+          "GSM3688539",
+          "GeneLab RNAseq data processing protocol",
+          "Agilent 2100 Bioanalyzer",
+          "greater than 7",
+          "percent",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000187",
+          "polyA enrichment",
+          "SINGLE",
+          "UNSTRANDED",
+          "TruSeq RNA Sample Preparation Illumina",
+          "Illumina HiSeq 2500",
+          "51",
+          "rna-seq",
+          "11744069",
+          "4.38",
+          "GLDS-318_rna_seq_GSM3688539_GLbulkRNAseq.genes.results",
+          "GLDS-318_rna_seq_GSM3688539_GLbulkRNAseq.isoforms.results",
+          "GLDS-318_rna_seq_GSM3688539_GLbulkRNAseq_rRNArm.genes.results",
+          "GLDS-318_rna_seq_RSEM_Unnormalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-318_rna_seq_STAR_Unnormalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-318_rna_seq_RSEM_Unnormalized_Counts_rRNArm_GLbulkRNAseq.csv",
+          "GLDS-318_rna_seq_Normalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-318_rna_seq_VST_Counts_GLbulkRNAseq.csv",
+          "GLDS-318_rna_seq_Normalized_Counts_rRNArm_GLbulkRNAseq.csv",
+          "GLDS-318_rna_seq_VST_Counts_rRNArm_GLbulkRNAseq.csv",
+          "GLDS-318_rna_seq_SampleTable_GLbulkRNAseq.csv",
+          "GLDS-318_rna_seq_contrasts_GLbulkRNAseq.csv",
+          "GLDS-318_rna_seq_differential_expression_GLbulkRNAseq.csv",
+          "GLDS-318_rna_seq_differential_expression_rRNArm_GLbulkRNAseq.csv",
+          "GSM3688540",
+          "19380434",
+          "6.21",
+          "GLDS-318_rna_seq_GSM3688540_GLbulkRNAseq.genes.results",
+          "GLDS-318_rna_seq_GSM3688540_GLbulkRNAseq.isoforms.results",
+          "GLDS-318_rna_seq_GSM3688540_GLbulkRNAseq_rRNArm.genes.results",
+          "GSM3688541",
+          "13247385",
+          "21.41",
+          "GLDS-318_rna_seq_GSM3688541_GLbulkRNAseq.genes.results",
+          "GLDS-318_rna_seq_GSM3688541_GLbulkRNAseq.isoforms.results",
+          "GLDS-318_rna_seq_GSM3688541_GLbulkRNAseq_rRNArm.genes.results",
+          "GSM3688542",
+          "12436004",
+          "9.27",
+          "GLDS-318_rna_seq_GSM3688542_GLbulkRNAseq.genes.results",
+          "GLDS-318_rna_seq_GSM3688542_GLbulkRNAseq.isoforms.results",
+          "GLDS-318_rna_seq_GSM3688542_GLbulkRNAseq_rRNArm.genes.results",
+          "GSM3688543",
+          "7975019",
+          "10.29",
+          "GLDS-318_rna_seq_GSM3688543_GLbulkRNAseq.genes.results",
+          "GLDS-318_rna_seq_GSM3688543_GLbulkRNAseq.isoforms.results",
+          "GLDS-318_rna_seq_GSM3688543_GLbulkRNAseq_rRNArm.genes.results",
+          "GSM3688544",
+          "11689218",
+          "18.35",
+          "GLDS-318_rna_seq_GSM3688544_GLbulkRNAseq.genes.results",
+          "GLDS-318_rna_seq_GSM3688544_GLbulkRNAseq.isoforms.results",
+          "GLDS-318_rna_seq_GSM3688544_GLbulkRNAseq_rRNArm.genes.results",
+          "GSM3688545",
+          "11152294",
+          "23.48",
+          "GLDS-318_rna_seq_GSM3688545_GLbulkRNAseq.genes.results",
+          "GLDS-318_rna_seq_GSM3688545_GLbulkRNAseq.isoforms.results",
+          "GLDS-318_rna_seq_GSM3688545_GLbulkRNAseq_rRNArm.genes.results",
+          "GSM3688546",
+          "13218940",
+          "7.45",
+          "GLDS-318_rna_seq_GSM3688546_GLbulkRNAseq.genes.results",
+          "GLDS-318_rna_seq_GSM3688546_GLbulkRNAseq.isoforms.results",
+          "GLDS-318_rna_seq_GSM3688546_GLbulkRNAseq_rRNArm.genes.results",
+          "GSM3688547",
+          "9733929",
+          "7.56",
+          "GLDS-318_rna_seq_GSM3688547_GLbulkRNAseq.genes.results",
+          "GLDS-318_rna_seq_GSM3688547_GLbulkRNAseq.isoforms.results",
+          "GLDS-318_rna_seq_GSM3688547_GLbulkRNAseq_rRNArm.genes.results",
+          "GSM3688548",
+          "9152578",
+          "44.99",
+          "GLDS-318_rna_seq_GSM3688548_GLbulkRNAseq.genes.results",
+          "GLDS-318_rna_seq_GSM3688548_GLbulkRNAseq.isoforms.results",
+          "GLDS-318_rna_seq_GSM3688548_GLbulkRNAseq_rRNArm.genes.results",
+          "GSM3688549",
+          "10879306",
+          "2.72",
+          "GLDS-318_rna_seq_GSM3688549_GLbulkRNAseq.genes.results",
+          "GLDS-318_rna_seq_GSM3688549_GLbulkRNAseq.isoforms.results",
+          "GLDS-318_rna_seq_GSM3688549_GLbulkRNAseq_rRNArm.genes.results",
+          "GSM3688550",
+          "9101272",
+          "10.8",
+          "GLDS-318_rna_seq_GSM3688550_GLbulkRNAseq.genes.results",
+          "GLDS-318_rna_seq_GSM3688550_GLbulkRNAseq.isoforms.results",
+          "GLDS-318_rna_seq_GSM3688550_GLbulkRNAseq_rRNArm.genes.results",
+          "GSM3688551",
+          "9858652",
+          "7.68",
+          "GLDS-318_rna_seq_GSM3688551_GLbulkRNAseq.genes.results",
+          "GLDS-318_rna_seq_GSM3688551_GLbulkRNAseq.isoforms.results",
+          "GLDS-318_rna_seq_GSM3688551_GLbulkRNAseq_rRNArm.genes.results",
+          "GSM3688552",
+          "11373590",
+          "18.46",
+          "GLDS-318_rna_seq_GSM3688552_GLbulkRNAseq.genes.results",
+          "GLDS-318_rna_seq_GSM3688552_GLbulkRNAseq.isoforms.results",
+          "GLDS-318_rna_seq_GSM3688552_GLbulkRNAseq_rRNArm.genes.results",
+          "GSM3688553",
+          "11223512",
+          "8.39",
+          "GLDS-318_rna_seq_GSM3688553_GLbulkRNAseq.genes.results",
+          "GLDS-318_rna_seq_GSM3688553_GLbulkRNAseq.isoforms.results",
+          "GLDS-318_rna_seq_GSM3688553_GLbulkRNAseq_rRNArm.genes.results",
+          "GSM3688554",
+          "14450747",
+          "2.04",
+          "GLDS-318_rna_seq_GSM3688554_GLbulkRNAseq.genes.results",
+          "GLDS-318_rna_seq_GSM3688554_GLbulkRNAseq.isoforms.results",
+          "GLDS-318_rna_seq_GSM3688554_GLbulkRNAseq_rRNArm.genes.results",
+          "GSM3688555",
+          "536215",
+          "5.49",
+          "GLDS-318_rna_seq_GSM3688555_GLbulkRNAseq.genes.results",
+          "GLDS-318_rna_seq_GSM3688555_GLbulkRNAseq.isoforms.results",
+          "GLDS-318_rna_seq_GSM3688555_GLbulkRNAseq_rRNArm.genes.results",
+          "GSM3688556",
+          "9605742",
+          "4.17",
+          "GLDS-318_rna_seq_GSM3688556_GLbulkRNAseq.genes.results",
+          "GLDS-318_rna_seq_GSM3688556_GLbulkRNAseq.isoforms.results",
+          "GLDS-318_rna_seq_GSM3688556_GLbulkRNAseq_rRNArm.genes.results",
+          "GSM3688557",
+          "11435654",
+          "2.19",
+          "GLDS-318_rna_seq_GSM3688557_GLbulkRNAseq.genes.results",
+          "GLDS-318_rna_seq_GSM3688557_GLbulkRNAseq.isoforms.results",
+          "GLDS-318_rna_seq_GSM3688557_GLbulkRNAseq_rRNArm.genes.results",
+          "GSM3688558",
+          "9613996",
+          "19.52",
+          "GLDS-318_rna_seq_GSM3688558_GLbulkRNAseq.genes.results",
+          "GLDS-318_rna_seq_GSM3688558_GLbulkRNAseq.isoforms.results",
+          "GLDS-318_rna_seq_GSM3688558_GLbulkRNAseq_rRNArm.genes.results",
+          "GSM3688559",
+          "11933653",
+          "GLDS-318_rna_seq_GSM3688559_GLbulkRNAseq.genes.results",
+          "GLDS-318_rna_seq_GSM3688559_GLbulkRNAseq.isoforms.results",
+          "GLDS-318_rna_seq_GSM3688559_GLbulkRNAseq_rRNArm.genes.results",
+          "GSM3688560",
+          "10955252",
+          "5.42",
+          "GLDS-318_rna_seq_GSM3688560_GLbulkRNAseq.genes.results",
+          "GLDS-318_rna_seq_GSM3688560_GLbulkRNAseq.isoforms.results",
+          "GLDS-318_rna_seq_GSM3688560_GLbulkRNAseq_rRNArm.genes.results",
+          "GSM3688561",
+          "11399069",
+          "10.95",
+          "GLDS-318_rna_seq_GSM3688561_GLbulkRNAseq.genes.results",
+          "GLDS-318_rna_seq_GSM3688561_GLbulkRNAseq.isoforms.results",
+          "GLDS-318_rna_seq_GSM3688561_GLbulkRNAseq_rRNArm.genes.results"
+        ],
+        "reports": [
+          "GLDS-318_rna_seq_raw_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-318_rna_seq_raw_multiqc_GLbulkRNAseq.html",
+          "GLDS-318_rna_seq_GSM3688539_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-318_rna_seq_trimmed_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-318_rna_seq_trimmed_multiqc_GLbulkRNAseq.html",
+          "GLDS-318_rna_seq_GSM3688539_GLbulkRNAseq_Log.final.out",
+          "GLDS-318_rna_seq_align_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-318_rna_seq_align_multiqc_GLbulkRNAseq.html",
+          "GLDS-318_rna_seq_geneBody_cov_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-318_rna_seq_geneBody_cov_multiqc_GLbulkRNAseq.html",
+          "GLDS-318_rna_seq_infer_exp_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-318_rna_seq_infer_exp_multiqc_GLbulkRNAseq.html",
+          "GLDS-318_rna_seq_read_dist_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-318_rna_seq_read_dist_multiqc_GLbulkRNAseq.html",
+          "GLDS-318_rna_seq_RSEM_count_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-318_rna_seq_RSEM_count_multiqc_GLbulkRNAseq.html",
+          "GLDS-318_rna_seq_GSM3688540_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-318_rna_seq_GSM3688540_GLbulkRNAseq_Log.final.out",
+          "GLDS-318_rna_seq_GSM3688541_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-318_rna_seq_GSM3688541_GLbulkRNAseq_Log.final.out",
+          "GLDS-318_rna_seq_GSM3688542_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-318_rna_seq_GSM3688542_GLbulkRNAseq_Log.final.out",
+          "GLDS-318_rna_seq_GSM3688543_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-318_rna_seq_GSM3688543_GLbulkRNAseq_Log.final.out",
+          "GLDS-318_rna_seq_GSM3688544_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-318_rna_seq_GSM3688544_GLbulkRNAseq_Log.final.out",
+          "GLDS-318_rna_seq_GSM3688545_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-318_rna_seq_GSM3688545_GLbulkRNAseq_Log.final.out",
+          "GLDS-318_rna_seq_GSM3688546_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-318_rna_seq_GSM3688546_GLbulkRNAseq_Log.final.out",
+          "GLDS-318_rna_seq_GSM3688547_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-318_rna_seq_GSM3688547_GLbulkRNAseq_Log.final.out",
+          "GLDS-318_rna_seq_GSM3688548_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-318_rna_seq_GSM3688548_GLbulkRNAseq_Log.final.out",
+          "GLDS-318_rna_seq_GSM3688549_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-318_rna_seq_GSM3688549_GLbulkRNAseq_Log.final.out",
+          "GLDS-318_rna_seq_GSM3688550_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-318_rna_seq_GSM3688550_GLbulkRNAseq_Log.final.out",
+          "GLDS-318_rna_seq_GSM3688551_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-318_rna_seq_GSM3688551_GLbulkRNAseq_Log.final.out",
+          "GLDS-318_rna_seq_GSM3688552_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-318_rna_seq_GSM3688552_GLbulkRNAseq_Log.final.out",
+          "GLDS-318_rna_seq_GSM3688553_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-318_rna_seq_GSM3688553_GLbulkRNAseq_Log.final.out",
+          "GLDS-318_rna_seq_GSM3688554_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-318_rna_seq_GSM3688554_GLbulkRNAseq_Log.final.out",
+          "GLDS-318_rna_seq_GSM3688555_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-318_rna_seq_GSM3688555_GLbulkRNAseq_Log.final.out",
+          "GLDS-318_rna_seq_GSM3688556_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-318_rna_seq_GSM3688556_GLbulkRNAseq_Log.final.out",
+          "GLDS-318_rna_seq_GSM3688557_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-318_rna_seq_GSM3688557_GLbulkRNAseq_Log.final.out",
+          "GLDS-318_rna_seq_GSM3688558_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-318_rna_seq_GSM3688558_GLbulkRNAseq_Log.final.out",
+          "GLDS-318_rna_seq_GSM3688559_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-318_rna_seq_GSM3688559_GLbulkRNAseq_Log.final.out",
+          "GLDS-318_rna_seq_GSM3688560_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-318_rna_seq_GSM3688560_GLbulkRNAseq_Log.final.out",
+          "GLDS-318_rna_seq_GSM3688561_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-318_rna_seq_GSM3688561_GLbulkRNAseq_Log.final.out"
+        ]
+      }
+    }
+  ]
+}

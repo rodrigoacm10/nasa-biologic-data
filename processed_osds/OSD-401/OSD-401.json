@@ -1,0 +1,652 @@
+{
+  "investigation": {
+    "id": "OSD-401",
+    "title": "Alternative splicing regulates the physiological adaptation of the mouse hind limb postural and phasic muscles to microgravity",
+    "description": "We sought to comprehensively elucidate the transcriptomic underpinnings of microgravity-induced muscle phenotypes in mice by evaluating both differential gene expression (DGE) and changes in alternative splicing (AS) due to extended spaceflight. Total RNA was isolated from the gastrocnemius and quadriceps, postural and phasic muscles of the hind limb, respectively, of 32-week-old female BALB/c mice exposed to microgravity or ground control conditions for nine weeks.",
+    "mission": {
+      "name": "SpaceX-11",
+      "start_date": "06/03/2017",
+      "end_date": "07/03/2017",
+      "link": "https://osdr.nasa.gov/bio/repo/data/missions/SpaceX-11"
+    },
+    "project": {
+      "identifier": "RR-5",
+      "title": "Rodent Research-5",
+      "type": "Spaceflight Study",
+      "link": "https://lsda.jsc.nasa.gov/Mission/miss_payload/617",
+      "funding": "This work was funded in part by the Center for the Advancement of Science in Space (GA-2014-154) and the National Institute of Health/National Institute of Arthritis and Musculoskeletal and Skin Diseases (R01AR066782, R01AR068835, and R01AR061399).",
+      "managing_center": "Ames Research Center (ARC)"
+    },
+    "protocols": [
+      "Animal Husbandry",
+      "sample collection",
+      "Nucleic Acid Extraction",
+      "Library Construction",
+      "Nucleic Acid Sequencing",
+      "GeneLab raw data processing protocol",
+      "GeneLab RNAseq data processing protocol"
+    ],
+    "publications": [
+      {
+        "title": "Alternative splicing diversifies the skeletal muscle transcriptome during prolonged spaceflight",
+        "doi": "10.1186/s13395-022-00294-9",
+        "authors": [
+          "Henrich Mason",
+          "Ha Pin",
+          "Wang Yuanyuan",
+          "Ting Kang",
+          "Stodieck Louis",
+          "Soo Chia",
+          "Adams John S.",
+          "Chun Rene"
+        ],
+        "summary": "Alternative splicing diversifies the skeletal muscle transcriptome during prolonged spaceflight — 10.1186/s13395-022-00294-9"
+      }
+    ],
+    "factors": [
+      "Spaceflight",
+      "Tissue"
+    ],
+    "contacts": [
+      {
+        "first_name": "Yuanyuan",
+        "last_name": "Wang",
+        "role": "submitter",
+        "email": "wyynju1993@gmail.com"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "GSM5398358",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Genotype": "Wild Type",
+          "Age at Launch": "30",
+          "Animal Source": "Taconic Biosciences",
+          "Sex": "Female",
+          "Material Type": "Gastrocnemius"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Tissue": "Gastrocnemius"
+        },
+        "parameters": {
+          "duration": "9",
+          "Enrichment material": "Hut",
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Originally Submitted Sample Name": "Ground-G01-gM02"
+        }
+      },
+      {
+        "sample_name": "GSM5398359",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Genotype": "Wild Type",
+          "Age at Launch": "30",
+          "Animal Source": "Taconic Biosciences",
+          "Sex": "Female",
+          "Material Type": "Gastrocnemius"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Tissue": "Gastrocnemius"
+        },
+        "parameters": {
+          "duration": "9",
+          "Enrichment material": "Hut",
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Originally Submitted Sample Name": "Ground-G02-gM03"
+        }
+      },
+      {
+        "sample_name": "GSM5398360",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Genotype": "Wild Type",
+          "Age at Launch": "30",
+          "Animal Source": "Taconic Biosciences",
+          "Sex": "Female",
+          "Material Type": "Gastrocnemius"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Tissue": "Gastrocnemius"
+        },
+        "parameters": {
+          "duration": "9",
+          "Enrichment material": "Hut",
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Originally Submitted Sample Name": "Ground-G03-gM08"
+        }
+      },
+      {
+        "sample_name": "GSM5398361",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Genotype": "Wild Type",
+          "Age at Launch": "30",
+          "Animal Source": "Taconic Biosciences",
+          "Sex": "Female",
+          "Material Type": "Gastrocnemius"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Tissue": "Gastrocnemius"
+        },
+        "parameters": {
+          "duration": "9",
+          "Enrichment material": "Hut",
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Originally Submitted Sample Name": "Flight-F01-gM11"
+        }
+      },
+      {
+        "sample_name": "GSM5398362",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Genotype": "Wild Type",
+          "Age at Launch": "30",
+          "Animal Source": "Taconic Biosciences",
+          "Sex": "Female",
+          "Material Type": "Gastrocnemius"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Tissue": "Gastrocnemius"
+        },
+        "parameters": {
+          "duration": "9",
+          "Enrichment material": "Hut",
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Originally Submitted Sample Name": "Flight-F02-gM12"
+        }
+      },
+      {
+        "sample_name": "GSM5398363",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Genotype": "Wild Type",
+          "Age at Launch": "30",
+          "Animal Source": "Taconic Biosciences",
+          "Sex": "Female",
+          "Material Type": "Gastrocnemius"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Tissue": "Gastrocnemius"
+        },
+        "parameters": {
+          "duration": "9",
+          "Enrichment material": "Hut",
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Originally Submitted Sample Name": "Flight-F03-gM20"
+        }
+      },
+      {
+        "sample_name": "GSM5398364",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Genotype": "Wild Type",
+          "Age at Launch": "30",
+          "Animal Source": "Taconic Biosciences",
+          "Sex": "Female",
+          "Material Type": "Quadriceps femoris"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Tissue": "Quadriceps femoris"
+        },
+        "parameters": {
+          "duration": "9",
+          "Enrichment material": "Hut",
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Originally Submitted Sample Name": "Ground-G01-qM02"
+        }
+      },
+      {
+        "sample_name": "GSM5398365",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Genotype": "Wild Type",
+          "Age at Launch": "30",
+          "Animal Source": "Taconic Biosciences",
+          "Sex": "Female",
+          "Material Type": "Quadriceps femoris"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Tissue": "Quadriceps femoris"
+        },
+        "parameters": {
+          "duration": "9",
+          "Enrichment material": "Hut",
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Originally Submitted Sample Name": "Ground-G02-qM03"
+        }
+      },
+      {
+        "sample_name": "GSM5398366",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Genotype": "Wild Type",
+          "Age at Launch": "30",
+          "Animal Source": "Taconic Biosciences",
+          "Sex": "Female",
+          "Material Type": "Quadriceps femoris"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Tissue": "Quadriceps femoris"
+        },
+        "parameters": {
+          "duration": "9",
+          "Enrichment material": "Hut",
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Originally Submitted Sample Name": "Ground-G03-qM08"
+        }
+      },
+      {
+        "sample_name": "GSM5398367",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Genotype": "Wild Type",
+          "Age at Launch": "30",
+          "Animal Source": "Taconic Biosciences",
+          "Sex": "Female",
+          "Material Type": "Quadriceps femoris"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Tissue": "Quadriceps femoris"
+        },
+        "parameters": {
+          "duration": "9",
+          "Enrichment material": "Hut",
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Originally Submitted Sample Name": "Flight-F01-qM11"
+        }
+      },
+      {
+        "sample_name": "GSM5398368",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Genotype": "Wild Type",
+          "Age at Launch": "30",
+          "Animal Source": "Taconic Biosciences",
+          "Sex": "Female",
+          "Material Type": "Quadriceps femoris"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Tissue": "Quadriceps femoris"
+        },
+        "parameters": {
+          "duration": "9",
+          "Enrichment material": "Hut",
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Originally Submitted Sample Name": "Flight-F02-qM12"
+        }
+      },
+      {
+        "sample_name": "GSM5398369",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "BALB/c",
+          "Genotype": "Wild Type",
+          "Age at Launch": "30",
+          "Animal Source": "Taconic Biosciences",
+          "Sex": "Female",
+          "Material Type": "Quadriceps femoris"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Tissue": "Quadriceps femoris"
+        },
+        "parameters": {
+          "duration": "9",
+          "Enrichment material": "Hut",
+          "Light Cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Originally Submitted Sample Name": "Flight-F03-qM20"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina HiSeq 3000",
+      "qc": {
+        "Read Depth": "39458303",
+        "rRNA Contamination": "4.64"
+      },
+      "library": {
+        "Library Selection": "polyA enrichment",
+        "Library Layout": "SINGLE"
+      },
+      "files": {
+        "raw": [
+          "GLDS-401_rna-seq_SRR14904069.fastq.gz",
+          "GLDS-401_rna-seq_SRR14904070.fastq.gz",
+          "GLDS-401_rna-seq_SRR14904071.fastq.gz",
+          "GLDS-401_rna-seq_SRR14904072.fastq.gz",
+          "GLDS-401_rna-seq_SRR14904073.fastq.gz",
+          "GLDS-401_rna-seq_SRR14904074.fastq.gz",
+          "GLDS-401_rna-seq_SRR14904075.fastq.gz",
+          "GLDS-401_rna-seq_SRR14904076.fastq.gz",
+          "GLDS-401_rna-seq_SRR14904077.fastq.gz",
+          "GLDS-401_rna-seq_SRR14904078.fastq.gz",
+          "GLDS-401_rna-seq_SRR14904079.fastq.gz",
+          "GLDS-401_rna-seq_SRR14904080.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398358_raw.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398358_trimmed.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398358_unmapped.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398359_raw.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398359_trimmed.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398359_unmapped.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398360_raw.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398360_trimmed.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398360_unmapped.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398361_raw.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398361_trimmed.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398361_unmapped.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398362_raw.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398362_trimmed.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398362_unmapped.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398363_raw.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398363_trimmed.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398363_unmapped.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398364_raw.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398364_trimmed.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398364_unmapped.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398365_raw.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398365_trimmed.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398365_unmapped.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398366_raw.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398366_trimmed.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398366_unmapped.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398367_raw.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398367_trimmed.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398367_unmapped.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398368_raw.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398368_trimmed.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398368_unmapped.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398369_raw.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398369_trimmed.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398369_unmapped.fastq.gz"
+        ],
+        "processed": [
+          "GLDS-401_rna_seq_GSM5398358_trimmed.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398358_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-401_rna_seq_GSM5398358_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-401_rna_seq_GSM5398358_Aligned.toTranscriptome.out.bam",
+          "GLDS-401_rna_seq_GSM5398358_SJ.out.tab",
+          "GLDS-401_rna_seq_GSM5398359_trimmed.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398359_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-401_rna_seq_GSM5398359_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-401_rna_seq_GSM5398359_Aligned.toTranscriptome.out.bam",
+          "GLDS-401_rna_seq_GSM5398359_SJ.out.tab",
+          "GLDS-401_rna_seq_GSM5398360_trimmed.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398360_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-401_rna_seq_GSM5398360_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-401_rna_seq_GSM5398360_Aligned.toTranscriptome.out.bam",
+          "GLDS-401_rna_seq_GSM5398360_SJ.out.tab",
+          "GLDS-401_rna_seq_GSM5398361_trimmed.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398361_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-401_rna_seq_GSM5398361_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-401_rna_seq_GSM5398361_Aligned.toTranscriptome.out.bam",
+          "GLDS-401_rna_seq_GSM5398361_SJ.out.tab",
+          "GLDS-401_rna_seq_GSM5398362_trimmed.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398362_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-401_rna_seq_GSM5398362_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-401_rna_seq_GSM5398362_Aligned.toTranscriptome.out.bam",
+          "GLDS-401_rna_seq_GSM5398362_SJ.out.tab",
+          "GLDS-401_rna_seq_GSM5398363_trimmed.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398363_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-401_rna_seq_GSM5398363_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-401_rna_seq_GSM5398363_Aligned.toTranscriptome.out.bam",
+          "GLDS-401_rna_seq_GSM5398363_SJ.out.tab",
+          "GLDS-401_rna_seq_GSM5398364_trimmed.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398364_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-401_rna_seq_GSM5398364_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-401_rna_seq_GSM5398364_Aligned.toTranscriptome.out.bam",
+          "GLDS-401_rna_seq_GSM5398364_SJ.out.tab",
+          "GLDS-401_rna_seq_GSM5398365_trimmed.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398365_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-401_rna_seq_GSM5398365_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-401_rna_seq_GSM5398365_Aligned.toTranscriptome.out.bam",
+          "GLDS-401_rna_seq_GSM5398365_SJ.out.tab",
+          "GLDS-401_rna_seq_GSM5398366_trimmed.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398366_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-401_rna_seq_GSM5398366_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-401_rna_seq_GSM5398366_Aligned.toTranscriptome.out.bam",
+          "GLDS-401_rna_seq_GSM5398366_SJ.out.tab",
+          "GLDS-401_rna_seq_GSM5398367_trimmed.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398367_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-401_rna_seq_GSM5398367_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-401_rna_seq_GSM5398367_Aligned.toTranscriptome.out.bam",
+          "GLDS-401_rna_seq_GSM5398367_SJ.out.tab",
+          "GLDS-401_rna_seq_GSM5398368_trimmed.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398368_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-401_rna_seq_GSM5398368_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-401_rna_seq_GSM5398368_Aligned.toTranscriptome.out.bam",
+          "GLDS-401_rna_seq_GSM5398368_SJ.out.tab",
+          "GLDS-401_rna_seq_GSM5398369_trimmed.fastq.gz",
+          "GLDS-401_rna_seq_GSM5398369_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-401_rna_seq_GSM5398369_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-401_rna_seq_GSM5398369_Aligned.toTranscriptome.out.bam",
+          "GLDS-401_rna_seq_GSM5398369_SJ.out.tab",
+          "GSM5398358",
+          "GeneLab RNAseq data processing protocol",
+          "polyA enrichment",
+          "SINGLE",
+          "STRANDED",
+          "Illumina HiSeq 3000",
+          "50",
+          "percent",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000187",
+          "rna-seq",
+          "39458303",
+          "4.64",
+          "GLDS-401_rna_seq_GSM5398358.genes.results",
+          "GLDS-401_rna_seq_GSM5398358.isoforms.results",
+          "GLDS-401_rna_seq_GSM5398358_rRNArm.genes.results",
+          "GLDS-401_rna_seq_RSEM_Unnormalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-401_rna_seq_STAR_Unnormalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-401_rna_seq_RSEM_Unnormalized_Counts_rRNArm_GLbulkRNAseq.csv",
+          "GSM5398359",
+          "41754642",
+          "4.98",
+          "GLDS-401_rna_seq_GSM5398359.genes.results",
+          "GLDS-401_rna_seq_GSM5398359.isoforms.results",
+          "GLDS-401_rna_seq_GSM5398359_rRNArm.genes.results",
+          "GSM5398360",
+          "38306531",
+          "4.39",
+          "GLDS-401_rna_seq_GSM5398360.genes.results",
+          "GLDS-401_rna_seq_GSM5398360.isoforms.results",
+          "GLDS-401_rna_seq_GSM5398360_rRNArm.genes.results",
+          "GSM5398361",
+          "46378582",
+          "3.8",
+          "GLDS-401_rna_seq_GSM5398361.genes.results",
+          "GLDS-401_rna_seq_GSM5398361.isoforms.results",
+          "GLDS-401_rna_seq_GSM5398361_rRNArm.genes.results",
+          "GSM5398362",
+          "40571298",
+          "6.12",
+          "GLDS-401_rna_seq_GSM5398362.genes.results",
+          "GLDS-401_rna_seq_GSM5398362.isoforms.results",
+          "GLDS-401_rna_seq_GSM5398362_rRNArm.genes.results",
+          "GSM5398363",
+          "45738292",
+          "4.28",
+          "GLDS-401_rna_seq_GSM5398363.genes.results",
+          "GLDS-401_rna_seq_GSM5398363.isoforms.results",
+          "GLDS-401_rna_seq_GSM5398363_rRNArm.genes.results",
+          "GSM5398364",
+          "39903231",
+          "3.16",
+          "GLDS-401_rna_seq_GSM5398364.genes.results",
+          "GLDS-401_rna_seq_GSM5398364.isoforms.results",
+          "GLDS-401_rna_seq_GSM5398364_rRNArm.genes.results",
+          "GSM5398365",
+          "49153035",
+          "2.93",
+          "GLDS-401_rna_seq_GSM5398365.genes.results",
+          "GLDS-401_rna_seq_GSM5398365.isoforms.results",
+          "GLDS-401_rna_seq_GSM5398365_rRNArm.genes.results",
+          "GSM5398366",
+          "31985177",
+          "2.23",
+          "GLDS-401_rna_seq_GSM5398366.genes.results",
+          "GLDS-401_rna_seq_GSM5398366.isoforms.results",
+          "GLDS-401_rna_seq_GSM5398366_rRNArm.genes.results",
+          "GSM5398367",
+          "45456719",
+          "2.25",
+          "GLDS-401_rna_seq_GSM5398367.genes.results",
+          "GLDS-401_rna_seq_GSM5398367.isoforms.results",
+          "GLDS-401_rna_seq_GSM5398367_rRNArm.genes.results",
+          "GSM5398368",
+          "39504209",
+          "2.55",
+          "GLDS-401_rna_seq_GSM5398368.genes.results",
+          "GLDS-401_rna_seq_GSM5398368.isoforms.results",
+          "GLDS-401_rna_seq_GSM5398368_rRNArm.genes.results",
+          "GSM5398369",
+          "39008508",
+          "3.32",
+          "GLDS-401_rna_seq_GSM5398369.genes.results",
+          "GLDS-401_rna_seq_GSM5398369.isoforms.results",
+          "GLDS-401_rna_seq_GSM5398369_rRNArm.genes.results"
+        ],
+        "reports": [
+          "GLDS-401_rna_seq_raw_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-401_rna_seq_raw_multiqc_GLbulkRNAseq.html",
+          "GLDS-401_rna_seq_trimmed_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-401_rna_seq_trimmed_multiqc_GLbulkRNAseq.html",
+          "GLDS-401_rna_seq_GSM5398358_raw.fastq.gz_trimming_report.txt",
+          "GLDS-401_rna_seq_GSM5398358_Log.final.out",
+          "GLDS-401_rna_seq_align_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-401_rna_seq_align_multiqc_GLbulkRNAseq.html",
+          "GLDS-401_rna_seq_geneBody_cov_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-401_rna_seq_geneBody_cov_multiqc_GLbulkRNAseq.html",
+          "GLDS-401_rna_seq_infer_exp_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-401_rna_seq_infer_exp_multiqc_GLbulkRNAseq.html",
+          "GLDS-401_rna_seq_read_dist_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-401_rna_seq_read_dist_multiqc_GLbulkRNAseq.html",
+          "GLDS-401_rna_seq_RSEM_count_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-401_rna_seq_RSEM_count_multiqc_GLbulkRNAseq.html",
+          "GLDS-401_rna_seq_GSM5398359_raw.fastq.gz_trimming_report.txt",
+          "GLDS-401_rna_seq_GSM5398359_Log.final.out",
+          "GLDS-401_rna_seq_GSM5398360_raw.fastq.gz_trimming_report.txt",
+          "GLDS-401_rna_seq_GSM5398360_Log.final.out",
+          "GLDS-401_rna_seq_GSM5398361_raw.fastq.gz_trimming_report.txt",
+          "GLDS-401_rna_seq_GSM5398361_Log.final.out",
+          "GLDS-401_rna_seq_GSM5398362_raw.fastq.gz_trimming_report.txt",
+          "GLDS-401_rna_seq_GSM5398362_Log.final.out",
+          "GLDS-401_rna_seq_GSM5398363_raw.fastq.gz_trimming_report.txt",
+          "GLDS-401_rna_seq_GSM5398363_Log.final.out",
+          "GLDS-401_rna_seq_GSM5398364_raw.fastq.gz_trimming_report.txt",
+          "GLDS-401_rna_seq_GSM5398364_Log.final.out",
+          "GLDS-401_rna_seq_GSM5398365_raw.fastq.gz_trimming_report.txt",
+          "GLDS-401_rna_seq_GSM5398365_Log.final.out",
+          "GLDS-401_rna_seq_GSM5398366_raw.fastq.gz_trimming_report.txt",
+          "GLDS-401_rna_seq_GSM5398366_Log.final.out",
+          "GLDS-401_rna_seq_GSM5398367_raw.fastq.gz_trimming_report.txt",
+          "GLDS-401_rna_seq_GSM5398367_Log.final.out",
+          "GLDS-401_rna_seq_GSM5398368_raw.fastq.gz_trimming_report.txt",
+          "GLDS-401_rna_seq_GSM5398368_Log.final.out",
+          "GLDS-401_rna_seq_GSM5398369_raw.fastq.gz_trimming_report.txt",
+          "GLDS-401_rna_seq_GSM5398369_Log.final.out"
+        ]
+      }
+    }
+  ]
+}

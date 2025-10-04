@@ -1,0 +1,163 @@
+{
+  "investigation": {
+    "id": "OSD-199",
+    "title": "Response to Low Shear Modeled Microgravity Indicates Translation of Lactobacillus acidophilus ATCC 4356 Benefits to Spaceflight",
+    "description": "The introduction of generally recognized as safe (GRAS) probiotic microbes into the spaceflight food system has the potential for use as a safe, non-invasive, daily countermeasure to crew microbiome and immune dysregulation. However, the microgravity effects on the stress tolerances and genetic expression of probiotic bacteria must be determined to confirm translation of strain benefits and to identify potential for optimization of growth, survival, and strain selection for spaceflight.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "Simulated_Microgravity",
+      "title": "",
+      "type": "Ground Study",
+      "link": "",
+      "funding": "National Aeronautics and Space Administration Human Research Program's Space Human Factors and Habitability",
+      "managing_center": "JSC"
+    },
+    "protocols": [
+      "nucleic acid extraction",
+      "library construction",
+      "nucleic acid sequencing",
+      "sample treatment",
+      "sample collection"
+    ],
+    "publications": [
+      {
+        "title": "Response of Lactobacillus acidophilus ATCC 4356 to low-shear modeled microgravity",
+        "doi": "10.1016/j.actaastro.2017.07.033",
+        "authors": [
+          "Sarah Castro-Wallace",
+          "Sarah Stahl",
+          "Alexander Voorhies",
+          "Hernan Lorenzi",
+          "Grace L. Douglas"
+        ],
+        "summary": "Response of Lactobacillus acidophilus ATCC 4356 to low-shear modeled microgravity — 10.1016/j.actaastro.2017.07.033"
+      }
+    ],
+    "factors": [
+      "Microgravity Simulation"
+    ],
+    "contacts": [
+      {
+        "first_name": "Sarah",
+        "last_name": "Castro-Wallace",
+        "role": "submitter",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "SRX1545002",
+        "characteristics": {
+          "Organism": "Lactobacillus acidophilus",
+          "Strain": "ATCC 4356",
+          "Material Type": "cell pellets"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G on Earth"
+        },
+        "parameters": {
+          "Growth time": "16",
+          "Tissue Preservation": "RNAprotect",
+          "Storage Temperature Setting": "-70"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRX1545004",
+        "characteristics": {
+          "Organism": "Lactobacillus acidophilus",
+          "Strain": "ATCC 4356",
+          "Material Type": "cell pellets"
+        },
+        "factors": {
+          "Microgravity Simulation": "1G on Earth"
+        },
+        "parameters": {
+          "Growth time": "16",
+          "Tissue Preservation": "RNAprotect",
+          "Storage Temperature Setting": "-70"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRX1545003",
+        "characteristics": {
+          "Organism": "Lactobacillus acidophilus",
+          "Strain": "ATCC 4356",
+          "Material Type": "cell pellets"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by RWV"
+        },
+        "parameters": {
+          "Growth time": "16",
+          "Tissue Preservation": "RNAprotect",
+          "Storage Temperature Setting": "-70"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRX1545005",
+        "characteristics": {
+          "Organism": "Lactobacillus acidophilus",
+          "Strain": "ATCC 4356",
+          "Material Type": "cell pellets"
+        },
+        "factors": {
+          "Microgravity Simulation": "uG by RWV"
+        },
+        "parameters": {
+          "Growth time": "16",
+          "Tissue Preservation": "RNAprotect",
+          "Storage Temperature Setting": "-70"
+        },
+        "comments": {}
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina MiSeq",
+      "qc": {
+        "QA Instrument": "Agilent Bioanalyzer",
+        "QA Assay": "RNA Pico chip kit"
+      },
+      "library": {},
+      "files": {
+        "raw": [
+          "GLDS-199_transcriptomics_SRX1545002.fastq.gz",
+          "GLDS-199_transcriptomics_SRX1545004.fastq.gz",
+          "GLDS-199_transcriptomics_SRX1545003.fastq.gz",
+          "GLDS-199_transcriptomics_SRX1545005.fastq.gz"
+        ],
+        "processed": [
+          "SRX1545002",
+          "nucleic acid sequencing",
+          "Agilent Bioanalyzer",
+          "RNA Pico chip kit",
+          "SRX1545002 extract 1",
+          "rRNA depletion",
+          "PAIRED",
+          "STRANDED",
+          "Illumina MiSeq",
+          "RNAseq",
+          "SRX1545004",
+          "SRX1545004 extract 1",
+          "SRX1545003",
+          "SRX1545003 extract 1",
+          "SRX1545005",
+          "SRX1545005 extract 1"
+        ],
+        "reports": []
+      }
+    }
+  ]
+}

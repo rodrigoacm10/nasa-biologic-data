@@ -1,0 +1,1965 @@
+{
+  "investigation": {
+    "id": "OSD-128",
+    "title": "Identification of miRNAs involved in cell response to ionizing radiation and modeled microgravity",
+    "description": "BACKGROUND: Ionizing radiation (IR) can be extremely harmful for human cells since an improper DNA-damage response (DDR) to IR can contribute to carcinogenesis initiation. Perturbations in DDR pathway can originate from alteration in the functionality of the microRNA-mediated gene regulation, being microRNAs (miRNAs) small noncoding RNA that act as post-transcriptional regulators of gene expression.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "",
+      "title": "",
+      "type": "Ground Study",
+      "link": "",
+      "funding": "This work was supported by grants from the Italian Space Agency (ASI, XMAB-from Molecules to Man, 1/014/06/0) to L.C., from the Associazione Italiana per la Ricerca sul Cancro-AIRC (2008/6014) to G.L. and from the University of Padova (CPDA061783) to M.M.",
+      "managing_center": ""
+    },
+    "protocols": [
+      "irradiation protocol",
+      "sample collection",
+      "RNA extraction",
+      "labeling",
+      "nucleic acid hybridization",
+      "data collection",
+      "normalization data transformation"
+    ],
+    "publications": [
+      {
+        "title": "Analysis of miRNA and mRNA expression profiles highlights alterations in ionizing radiation response of human lymphocytes under modeled microgravity.",
+        "doi": "10.1371/journal.pone.0031293",
+        "authors": [
+          "Girardi C",
+          "De Pitta C",
+          "Casara S",
+          "Sales G",
+          "Lanfranchi G",
+          "Celotti L",
+          "Mognato M."
+        ],
+        "summary": "Analysis of miRNA and mRNA expression profiles highlights alterations in ionizing radiation response of human lymphocytes under modeled microgravity. — 10.1371/journal.pone.0031293"
+      }
+    ],
+    "factors": [
+      "Simulated Microgravity",
+      "Absorbed Radiation Dose",
+      "Time",
+      "Ionizing Radiation"
+    ],
+    "contacts": [
+      {
+        "first_name": "Gerolamo",
+        "last_name": "Lanfranchi",
+        "role": "Submitter",
+        "email": "stefano.cagnin@unipd.it"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "GSM502089",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "2",
+          "Simulated Microgravity": "1G on Earth",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "4"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.71",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor P irradiated with gamma-rays (2.0 Gy) in parallel ground conditions (1g) for 4h."
+        }
+      },
+      {
+        "sample_name": "GSM502090",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "2",
+          "Simulated Microgravity": "uG by RWV",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "4"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.71",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor P irradiated with gamma-rays (2.0 Gy) and incubated in modelled microgravity (mmg) for 4h."
+        }
+      },
+      {
+        "sample_name": "GSM502091",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "2",
+          "Simulated Microgravity": "1G on Earth",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.71",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor P irradiated with gamma-rays (2.0 Gy) in parallel ground conditions (1g) for 24h."
+        }
+      },
+      {
+        "sample_name": "GSM502092",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "2",
+          "Simulated Microgravity": "uG by RWV",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.71",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor P irradiated with gamma-rays (2.0 Gy) and incubated in modelled microgravity (mmg) for 24h."
+        }
+      },
+      {
+        "sample_name": "GSM502114",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0",
+          "Simulated Microgravity": "1G on Earth",
+          "Ionizing Radiation": "non-irradiated",
+          "Time": ""
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "0",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor P kept in parallel ground conditions (control-1g)."
+        }
+      },
+      {
+        "sample_name": "GSM502115",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0",
+          "Simulated Microgravity": "uG by RWV",
+          "Ionizing Radiation": "non-irradiated",
+          "Time": ""
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "0",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor P in modelled microgravity (control-mmg)."
+        }
+      },
+      {
+        "sample_name": "GSM502122",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "2",
+          "Simulated Microgravity": "1G on Earth",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "4"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.71",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor A irradiated with gamma-rays (2.0 Gy) in parallel ground conditions (1g) for 4h."
+        }
+      },
+      {
+        "sample_name": "GSM502123",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "2",
+          "Simulated Microgravity": "1G on Earth",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "4"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.71",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor A irradiated with gamma-rays (2.0 Gy) in parallel ground conditions (1g) for 24h."
+        }
+      },
+      {
+        "sample_name": "GSM502332",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "2",
+          "Simulated Microgravity": "uG by RWV",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.71",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor A irradiated with gamma-rays (2.0 Gy) and incubated in modelled microgravity (mmg) for 4h."
+        }
+      },
+      {
+        "sample_name": "GSM502348",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "2",
+          "Simulated Microgravity": "uG by RWV",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.71",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor A irradiated with gamma-rays (2.0 Gy) and incubated in modelled microgravity (mmg) for 24h."
+        }
+      },
+      {
+        "sample_name": "GSM502349",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0",
+          "Simulated Microgravity": "1G on Earth",
+          "Ionizing Radiation": "non-irradiated",
+          "Time": ""
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "0",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor A in parallel ground conditions (control-1g)."
+        }
+      },
+      {
+        "sample_name": "GSM502350",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0",
+          "Simulated Microgravity": "uG by RWV",
+          "Ionizing Radiation": "non-irradiated",
+          "Time": ""
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "0",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor A in modelled microgravity (control-mmg)."
+        }
+      },
+      {
+        "sample_name": "GSM502369",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "2",
+          "Simulated Microgravity": "1G on Earth",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "4"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.71",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor B irradiated with gamma-rays (2.0 Gy) in parallel ground conditions (1g) for 4h."
+        }
+      },
+      {
+        "sample_name": "GSM502370",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "2",
+          "Simulated Microgravity": "uG by RWV",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "4"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.71",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor B irradiated with gamma-rays (2.0 Gy) and incubated in modelled microgravity (mmg) for 4h."
+        }
+      },
+      {
+        "sample_name": "GSM502387",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "2",
+          "Simulated Microgravity": "1G on Earth",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.71",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor B irradiated with gamma-rays (2.0 Gy) in parallel ground conditions (1g) for 24h."
+        }
+      },
+      {
+        "sample_name": "GSM502388",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "2",
+          "Simulated Microgravity": "uG by RWV",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.71",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor B irradiated with gamma-rays (2.0 Gy) and incubated in modelled microgravity (mmg) for 24h."
+        }
+      },
+      {
+        "sample_name": "GSM502389",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0",
+          "Simulated Microgravity": "1G on Earth",
+          "Ionizing Radiation": "non-irradiated",
+          "Time": ""
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "0",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor B in parallel ground conditions (control-1g)."
+        }
+      },
+      {
+        "sample_name": "GSM502390",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0",
+          "Simulated Microgravity": "uG by RWV",
+          "Ionizing Radiation": "non-irradiated",
+          "Time": ""
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "0",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor B in modelled microgravity (control-mmg)."
+        }
+      },
+      {
+        "sample_name": "GSM502981",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "2",
+          "Simulated Microgravity": "1G on Earth",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "4"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.71",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor C irradiated with gamma-rays (2.0 Gy) in parallel ground conditions (1g) for 4h."
+        }
+      },
+      {
+        "sample_name": "GSM502982",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "2",
+          "Simulated Microgravity": "uG by RWV",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "4"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.71",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor C irradiated with gamma-rays (2.0 Gy) and incubated in modelled microgravity (mmg) for 4h."
+        }
+      },
+      {
+        "sample_name": "GSM502983",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "2",
+          "Simulated Microgravity": "1G on Earth",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.71",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor C irradiated with gamma-rays (2.0 Gy) in parallel ground conditions (1g) for 24h."
+        }
+      },
+      {
+        "sample_name": "GSM502984",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "2",
+          "Simulated Microgravity": "uG by RWV",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.71",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor C irradiated with gamma-rays (2.0 Gy) and incubated in modelled microgravity (mmg) for 24h."
+        }
+      },
+      {
+        "sample_name": "GSM502985",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0",
+          "Simulated Microgravity": "1G on Earth",
+          "Ionizing Radiation": "non-irradiated",
+          "Time": ""
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "0",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor C in parallel ground conditions (control-1g)."
+        }
+      },
+      {
+        "sample_name": "GSM502986",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0",
+          "Simulated Microgravity": "uG by RWV",
+          "Ionizing Radiation": "non-irradiated",
+          "Time": ""
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "0",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor C in modelled microgravity (control-mmg)."
+        }
+      },
+      {
+        "sample_name": "GSM502987",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "2",
+          "Simulated Microgravity": "1G on Earth",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "4"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.71",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor G irradiated with gamma-rays (2.0 Gy) in parallel ground conditions (1g) for 4h."
+        }
+      },
+      {
+        "sample_name": "GSM502988",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "2",
+          "Simulated Microgravity": "uG by RWV",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "4"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.71",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor G irradiated with gamma-rays (2.0 Gy) and incubated in modelled microgravity (mmg) for 4h."
+        }
+      },
+      {
+        "sample_name": "GSM502989",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "2",
+          "Simulated Microgravity": "1G on Earth",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.71",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor G irradiated with gamma-rays (2.0 Gy) in parallel ground conditions (1g) for 24h."
+        }
+      },
+      {
+        "sample_name": "GSM502990",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "2",
+          "Simulated Microgravity": "uG by RWV",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.71",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor G irradiated with gamma-rays (2.0 Gy) and incubated in modelled microgravity (mmg) for 24h."
+        }
+      },
+      {
+        "sample_name": "GSM502991",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0",
+          "Simulated Microgravity": "1G on Earth",
+          "Ionizing Radiation": "non-irradiated",
+          "Time": ""
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "0",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor G in parallel ground conditions (control-1g)."
+        }
+      },
+      {
+        "sample_name": "GSM502992",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0",
+          "Simulated Microgravity": "uG by RWV",
+          "Ionizing Radiation": "non-irradiated",
+          "Time": ""
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "0",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor G in modelled microgravity (control-mmg)."
+        }
+      },
+      {
+        "sample_name": "GSM502993",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "2",
+          "Simulated Microgravity": "1G on Earth",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "4"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.71",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor H irradiated with gamma-rays (2.0 Gy) in parallel ground conditions (1g) for 4h."
+        }
+      },
+      {
+        "sample_name": "GSM502994",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "2",
+          "Simulated Microgravity": "uG by RWV",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "4"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.71",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor H irradiated with gamma-rays (2.0 Gy) and incubated in modelled microgravity (mmg) for 4h."
+        }
+      },
+      {
+        "sample_name": "GSM502995",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "2",
+          "Simulated Microgravity": "1G on Earth",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.71",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor H irradiated with gamma-rays (2.0 Gy) in parallel ground conditions (1g) for 24h."
+        }
+      },
+      {
+        "sample_name": "GSM502996",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "2",
+          "Simulated Microgravity": "uG by RWV",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.71",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor H irradiated with gamma-rays (2.0 Gy) and incubated in modelled microgravity (mmg) for 24h."
+        }
+      },
+      {
+        "sample_name": "GSM502997",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0",
+          "Simulated Microgravity": "1G on Earth",
+          "Ionizing Radiation": "non-irradiated",
+          "Time": ""
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "0",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor H in parallel ground conditions (control-1g)."
+        }
+      },
+      {
+        "sample_name": "GSM502998",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0",
+          "Simulated Microgravity": "uG by RWV",
+          "Ionizing Radiation": "non-irradiated",
+          "Time": ""
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "0",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor H in modelled microgravity (control-mmg)."
+        }
+      },
+      {
+        "sample_name": "GSM502999",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0.2",
+          "Simulated Microgravity": "1G on Earth",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "4"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.07",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor D irradiated with gamma-rays (0.2 Gy) in parallel ground conditions (1g) for 4h."
+        }
+      },
+      {
+        "sample_name": "GSM503000",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0.2",
+          "Simulated Microgravity": "uG by RWV",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "4"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.07",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor D irradiated with gamma-rays (0.2 Gy) and incubated in modelled microgravity (mmg) for 4h."
+        }
+      },
+      {
+        "sample_name": "GSM503001",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0.2",
+          "Simulated Microgravity": "1G on Earth",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.07",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor D irradiated with gamma-rays (0.2 Gy) in parallel ground conditions (1g) for 24h."
+        }
+      },
+      {
+        "sample_name": "GSM503002",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0.2",
+          "Simulated Microgravity": "uG by RWV",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.07",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor D irradiated with gamma-rays (0.2 Gy) and incubated in modelled microgravity (mmg) for 24h."
+        }
+      },
+      {
+        "sample_name": "GSM503003",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0",
+          "Simulated Microgravity": "1G on Earth",
+          "Ionizing Radiation": "non-irradiated",
+          "Time": ""
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "0",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor D in parallel ground conditions (control-1g)."
+        }
+      },
+      {
+        "sample_name": "GSM503004",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0",
+          "Simulated Microgravity": "uG by RWV",
+          "Ionizing Radiation": "non-irradiated",
+          "Time": ""
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "0",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor D in modelled microgravity (control-mmg)."
+        }
+      },
+      {
+        "sample_name": "GSM503005",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0.2",
+          "Simulated Microgravity": "1G on Earth",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "4"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.07",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor E irradiated with gamma-rays (0.2 Gy) in parallel ground conditions (1g) for 4h."
+        }
+      },
+      {
+        "sample_name": "GSM503006",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0.2",
+          "Simulated Microgravity": "uG by RWV",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "4"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.07",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor E irradiated with gamma-rays (0.2 Gy) and incubated in modelled microgravity (mmg) for 4h."
+        }
+      },
+      {
+        "sample_name": "GSM503007",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0.2",
+          "Simulated Microgravity": "1G on Earth",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.07",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor E irradiated with gamma-rays (0.2 Gy) in parallel ground conditions (1g) for 24h."
+        }
+      },
+      {
+        "sample_name": "GSM503008",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0.2",
+          "Simulated Microgravity": "uG by RWV",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.07",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor E irradiated with gamma-rays (0.2 Gy) and incubated in modelled microgravity (mmg) for 24h."
+        }
+      },
+      {
+        "sample_name": "GSM503009",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0",
+          "Simulated Microgravity": "1G on Earth",
+          "Ionizing Radiation": "non-irradiated",
+          "Time": ""
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "0",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor E in parallel ground conditions (control-1g)."
+        }
+      },
+      {
+        "sample_name": "GSM503010",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0",
+          "Simulated Microgravity": "uG by RWV",
+          "Ionizing Radiation": "non-irradiated",
+          "Time": ""
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "0",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor E in modelled microgravity (control-mmg)."
+        }
+      },
+      {
+        "sample_name": "GSM503011",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0.2",
+          "Simulated Microgravity": "1G on Earth",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "4"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.07",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor F irradiated with gamma-rays (0.2 Gy) in parallel ground conditions (1g) for 4h."
+        }
+      },
+      {
+        "sample_name": "GSM503012",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0.2",
+          "Simulated Microgravity": "uG by RWV",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "4"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.07",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor F irradiated with gamma-rays (0.2 Gy) and incubated in modelled microgravity (mmg) for 4h."
+        }
+      },
+      {
+        "sample_name": "GSM503013",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0.2",
+          "Simulated Microgravity": "1G on Earth",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.07",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor F irradiated with gamma-rays (0.2 Gy) in parallel ground conditions (1g) for 24h."
+        }
+      },
+      {
+        "sample_name": "GSM503014",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0.2",
+          "Simulated Microgravity": "uG by RWV",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.07",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor F irradiated with gamma-rays (0.2 Gy) and incubated in modelled microgravity (mmg) for 24h."
+        }
+      },
+      {
+        "sample_name": "GSM503015",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0",
+          "Simulated Microgravity": "1G on Earth",
+          "Ionizing Radiation": "non-irradiated",
+          "Time": ""
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "0",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor F in parallel ground conditions (control-1g)."
+        }
+      },
+      {
+        "sample_name": "GSM503016",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0",
+          "Simulated Microgravity": "uG by RWV",
+          "Ionizing Radiation": "non-irradiated",
+          "Time": ""
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "0",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor F in modelled microgravity (control-mmg)."
+        }
+      },
+      {
+        "sample_name": "GSM503017",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0.2",
+          "Simulated Microgravity": "1G on Earth",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "4"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.07",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor I irradiated with gamma-rays (0.2 Gy) in parallel ground conditions (1g) for 4h."
+        }
+      },
+      {
+        "sample_name": "GSM503018",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0.2",
+          "Simulated Microgravity": "uG by RWV",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "4"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.07",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor I irradiated with gamma-rays (0.2 Gy) and incubated in modelled microgravity (mmg) for 4h."
+        }
+      },
+      {
+        "sample_name": "GSM503019",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0.2",
+          "Simulated Microgravity": "1G on Earth",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.07",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor I irradiated with gamma-rays (0.2 Gy) in parallel ground conditions (1g) for 24h."
+        }
+      },
+      {
+        "sample_name": "GSM503020",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0.2",
+          "Simulated Microgravity": "uG by RWV",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.07",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor I irradiated with gamma-rays (0.2 Gy) and incubated in modelled microgravity (mmg) for 24h."
+        }
+      },
+      {
+        "sample_name": "GSM503021",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0",
+          "Simulated Microgravity": "1G on Earth",
+          "Ionizing Radiation": "non-irradiated",
+          "Time": ""
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "0",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor I in parallel ground conditions (control-1g)."
+        }
+      },
+      {
+        "sample_name": "GSM503022",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0",
+          "Simulated Microgravity": "uG by RWV",
+          "Ionizing Radiation": "non-irradiated",
+          "Time": ""
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "0",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor I in modelled microgravity (control-mmg)."
+        }
+      },
+      {
+        "sample_name": "GSM503024",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0.2",
+          "Simulated Microgravity": "1G on Earth",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "4"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.07",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor L irradiated with gamma-rays (0.2 Gy) in parallel ground conditions (1g) for 4h."
+        }
+      },
+      {
+        "sample_name": "GSM503025",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0.2",
+          "Simulated Microgravity": "uG by RWV",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "4"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.07",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor L irradiated with gamma-rays (0.2 Gy) and incubated in modelled microgravity (mmg) for 4h."
+        }
+      },
+      {
+        "sample_name": "GSM503026",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0.2",
+          "Simulated Microgravity": "1G on Earth",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.07",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor L irradiated with gamma-rays (0.2 Gy) in parallel ground conditions (1g) for 24h."
+        }
+      },
+      {
+        "sample_name": "GSM503027",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0.2",
+          "Simulated Microgravity": "uG by RWV",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.07",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor L irradiated with gamma-rays (0.2 Gy) and incubated in modelled microgravity (mmg) for 24h."
+        }
+      },
+      {
+        "sample_name": "GSM503028",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0",
+          "Simulated Microgravity": "1G on Earth",
+          "Ionizing Radiation": "non-irradiated",
+          "Time": ""
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "0",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor L in parallel ground conditions (control-1g)."
+        }
+      },
+      {
+        "sample_name": "GSM503029",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0",
+          "Simulated Microgravity": "uG by RWV",
+          "Ionizing Radiation": "non-irradiated",
+          "Time": ""
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "0",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor L in modelled microgravity (control-mmg)."
+        }
+      },
+      {
+        "sample_name": "GSM503031",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0.2",
+          "Simulated Microgravity": "1G on Earth",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "4"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.07",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor M irradiated with gamma-rays (0.2 Gy) in parallel ground conditions (1g) for 4h."
+        }
+      },
+      {
+        "sample_name": "GSM503033",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0.2",
+          "Simulated Microgravity": "uG by RWV",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "4"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.07",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor M irradiated with gamma-rays (0.2 Gy) and incubated in modelled microgravity (mmg) for 4h."
+        }
+      },
+      {
+        "sample_name": "GSM503034",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0.2",
+          "Simulated Microgravity": "1G on Earth",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.07",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor M irradiated with gamma-rays (0.2 Gy) in parallel ground conditions (1g) for 24h."
+        }
+      },
+      {
+        "sample_name": "GSM503035",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0.2",
+          "Simulated Microgravity": "uG by RWV",
+          "Ionizing Radiation": "cesium-137 gamma radiation",
+          "Time": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "2.8",
+          "exposure duration": "0.07",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor M irradiated with gamma-rays (0.2 Gy) and incubated in modelled microgravity (mmg) for 24h."
+        }
+      },
+      {
+        "sample_name": "GSM503036",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0",
+          "Simulated Microgravity": "1G on Earth",
+          "Ionizing Radiation": "non-irradiated",
+          "Time": ""
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "0",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor M in parallel ground conditions (control-1g)."
+        }
+      },
+      {
+        "sample_name": "GSM503038",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Human Peripheral blood lymphocytes (PBL)"
+        },
+        "factors": {
+          "Absorbed Radiation Dose": "0",
+          "Simulated Microgravity": "uG by RWV",
+          "Ionizing Radiation": "non-irradiated",
+          "Time": ""
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "0",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "PBL of healthy donor M in modelled microgravity (control-mmg)."
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Agilent",
+      "qc": {
+        "QA Instrument": "Agilent Bioanalyzer 2100",
+        "QA Assay": "Small RNA Nano LabChip",
+        "QA Score": ">6"
+      },
+      "library": {},
+      "files": {
+        "raw": [],
+        "processed": [
+          "*GSE20120_sample_norm.txt",
+          "GSM502089",
+          "normalization data transformation",
+          "Agilent Bioanalyzer 2100",
+          "Small RNA Nano LabChip",
+          ">6",
+          "RIN",
+          "GSM502089 extract",
+          "GSM502089 LE",
+          "Cy3",
+          "GPL8227",
+          "Agilent microarray scanner (model G2565CA)",
+          "*GSE20120_RAW.tar",
+          "GSM502089.txt.gz",
+          "GSE20120_sample_norm.txt",
+          "GSM502090",
+          "GSM502090 extract",
+          "GSM502090 LE",
+          "GSM502090.txt.gz",
+          "GSM502091",
+          "GSM502091 extract",
+          "GSM502091 LE",
+          "GSM502091.txt.gz",
+          "GSM502092",
+          "GSM502092 extract",
+          "GSM502092 LE",
+          "GSM502092.txt.gz",
+          "GSM502114",
+          "GSM502114 extract",
+          "GSM502114 LE",
+          "GSM502114.txt.gz",
+          "GSM502115",
+          "GSM502115 extract",
+          "GSM502115 LE",
+          "GSM502115.txt.gz",
+          "GSM502122",
+          "GSM502122 extract",
+          "GSM502122 LE",
+          "GSM502122.txt.gz",
+          "GSM502123",
+          "GSM502123 extract",
+          "GSM502123 LE",
+          "GSM502123.txt.gz",
+          "GSM502332",
+          "GSM502332 extract",
+          "GSM502332 LE",
+          "GSM502332.txt.gz",
+          "GSM502348",
+          "GSM502348 extract",
+          "GSM502348 LE",
+          "GSM502348.txt.gz",
+          "GSM502349",
+          "GSM502349 extract",
+          "GSM502349 LE",
+          "GSM502349.txt.gz",
+          "GSM502350",
+          "GSM502350 extract",
+          "GSM502350 LE",
+          "GSM502350.txt.gz",
+          "GSM502369",
+          "GSM502369 extract",
+          "GSM502369 LE",
+          "GSM502369.txt.gz",
+          "GSM502370",
+          "GSM502370 extract",
+          "GSM502370 LE",
+          "GSM502370.txt.gz",
+          "GSM502387",
+          "GSM502387 extract",
+          "GSM502387 LE",
+          "GSM502387.txt.gz",
+          "GSM502388",
+          "GSM502388 extract",
+          "GSM502388 LE",
+          "GSM502388.txt.gz",
+          "GSM502389",
+          "GSM502389 extract",
+          "GSM502389 LE",
+          "GSM502389.txt.gz",
+          "GSM502390",
+          "GSM502390 extract",
+          "GSM502390 LE",
+          "GSM502390.txt.gz",
+          "GSM502981",
+          "GSM502981 extract",
+          "GSM502981 LE",
+          "GSM502981.txt.gz",
+          "GSM502982",
+          "GSM502982 extract",
+          "GSM502982 LE",
+          "GSM502982.txt.gz",
+          "GSM502983",
+          "GSM502983 extract",
+          "GSM502983 LE",
+          "GSM502983.txt.gz",
+          "GSM502984",
+          "GSM502984 extract",
+          "GSM502984 LE",
+          "GSM502984.txt.gz",
+          "GSM502985",
+          "GSM502985 extract",
+          "GSM502985 LE",
+          "GSM502985.txt.gz",
+          "GSM502986",
+          "GSM502986 extract",
+          "GSM502986 LE",
+          "GSM502986.txt.gz",
+          "GSM502987",
+          "GSM502987 extract",
+          "GSM502987 LE",
+          "GSM502987.txt.gz",
+          "GSM502988",
+          "GSM502988 extract",
+          "GSM502988 LE",
+          "GSM502988.txt.gz",
+          "GSM502989",
+          "GSM502989 extract",
+          "GSM502989 LE",
+          "GSM502989.txt.gz",
+          "GSM502990",
+          "GSM502990 extract",
+          "GSM502990 LE",
+          "GSM502990.txt.gz",
+          "GSM502991",
+          "GSM502991 extract",
+          "GSM502991 LE",
+          "GSM502991.txt.gz",
+          "GSM502992",
+          "GSM502992 extract",
+          "GSM502992 LE",
+          "GSM502992.txt.gz",
+          "GSM502993",
+          "GSM502993 extract",
+          "GSM502993 LE",
+          "GSM502993.txt.gz",
+          "GSM502994",
+          "GSM502994 extract",
+          "GSM502994 LE",
+          "GSM502994.txt.gz",
+          "GSM502995",
+          "GSM502995 extract",
+          "GSM502995 LE",
+          "GSM502995.txt.gz",
+          "GSM502996",
+          "GSM502996 extract",
+          "GSM502996 LE",
+          "GSM502996.txt.gz",
+          "GSM502997",
+          "GSM502997 extract",
+          "GSM502997 LE",
+          "GSM502997.txt.gz",
+          "GSM502998",
+          "GSM502998 extract",
+          "GSM502998 LE",
+          "GSM502998.txt.gz",
+          "GSM502999",
+          "GSM502999 extract",
+          "GSM502999 LE",
+          "GSM502999.txt.gz",
+          "GSM503000",
+          "GSM503000 extract",
+          "GSM503000 LE",
+          "GSM503000.txt.gz",
+          "GSM503001",
+          "GSM503001 extract",
+          "GSM503001 LE",
+          "GSM503001.txt.gz",
+          "GSM503002",
+          "GSM503002 extract",
+          "GSM503002 LE",
+          "GSM503002.txt.gz",
+          "GSM503003",
+          "GSM503003 extract",
+          "GSM503003 LE",
+          "GSM503003.txt.gz",
+          "GSM503004",
+          "GSM503004 extract",
+          "GSM503004 LE",
+          "GSM503004.txt.gz",
+          "GSM503005",
+          "GSM503005 extract",
+          "GSM503005 LE",
+          "GSM503005.txt.gz",
+          "GSM503006",
+          "GSM503006 extract",
+          "GSM503006 LE",
+          "GSM503006.txt.gz",
+          "GSM503007",
+          "GSM503007 extract",
+          "GSM503007 LE",
+          "GSM503007.txt.gz",
+          "GSM503008",
+          "GSM503008 extract",
+          "GSM503008 LE",
+          "GSM503008.txt.gz",
+          "GSM503009",
+          "GSM503009 extract",
+          "GSM503009 LE",
+          "GSM503009.txt.gz",
+          "GSM503010",
+          "GSM503010 extract",
+          "GSM503010 LE",
+          "GSM503010.txt.gz",
+          "GSM503011",
+          "GSM503011 extract",
+          "GSM503011 LE",
+          "GSM503011.txt.gz",
+          "GSM503012",
+          "GSM503012 extract",
+          "GSM503012 LE",
+          "GSM503012.txt.gz",
+          "GSM503013",
+          "GSM503013 extract",
+          "GSM503013 LE",
+          "GSM503013.txt.gz",
+          "GSM503014",
+          "GSM503014 extract",
+          "GSM503014 LE",
+          "GSM503014.txt.gz",
+          "GSM503015",
+          "GSM503015 extract",
+          "GSM503015 LE",
+          "GSM503015.txt.gz",
+          "GSM503016",
+          "GSM503016 extract",
+          "GSM503016 LE",
+          "GSM503016.txt.gz",
+          "GSM503017",
+          "GSM503017 extract",
+          "GSM503017 LE",
+          "GSM503017.txt.gz",
+          "GSM503018",
+          "GSM503018 extract",
+          "GSM503018 LE",
+          "GSM503018.txt.gz",
+          "GSM503019",
+          "GSM503019 extract",
+          "GSM503019 LE",
+          "GSM503019.txt.gz",
+          "GSM503020",
+          "GSM503020 extract",
+          "GSM503020 LE",
+          "GSM503020.txt.gz",
+          "GSM503021",
+          "GSM503021 extract",
+          "GSM503021 LE",
+          "GSM503021.txt.gz",
+          "GSM503022",
+          "GSM503022 extract",
+          "GSM503022 LE",
+          "GSM503022.txt.gz",
+          "GSM503024",
+          "GSM503024 extract",
+          "GSM503024 LE",
+          "GSM503024.txt.gz",
+          "GSM503025",
+          "GSM503025 extract",
+          "GSM503025 LE",
+          "GSM503025.txt.gz",
+          "GSM503026",
+          "GSM503026 extract",
+          "GSM503026 LE",
+          "GSM503026.txt.gz",
+          "GSM503027",
+          "GSM503027 extract",
+          "GSM503027 LE",
+          "GSM503027.txt.gz",
+          "GSM503028",
+          "GSM503028 extract",
+          "GSM503028 LE",
+          "GSM503028.txt.gz",
+          "GSM503029",
+          "GSM503029 extract",
+          "GSM503029 LE",
+          "GSM503029.txt.gz",
+          "GSM503031",
+          "GSM503031 extract",
+          "GSM503031 LE",
+          "GSM503031.txt.gz",
+          "GSM503033",
+          "GSM503033 extract",
+          "GSM503033 LE",
+          "GSM503033.txt.gz",
+          "GSM503034",
+          "GSM503034 extract",
+          "GSM503034 LE",
+          "GSM503034.txt.gz",
+          "GSM503035",
+          "GSM503035 extract",
+          "GSM503035 LE",
+          "GSM503035.txt.gz",
+          "GSM503036",
+          "GSM503036 extract",
+          "GSM503036 LE",
+          "GSM503036.txt.gz",
+          "GSM503038",
+          "GSM503038 extract",
+          "GSM503038 LE",
+          "GSM503038.txt.gz"
+        ],
+        "reports": []
+      }
+    }
+  ]
+}

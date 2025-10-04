@@ -1,0 +1,3064 @@
+{
+  "investigation": {
+    "id": "OSD-280",
+    "title": "Salivary microbiome sequencing of astronauts",
+    "description": "This study's goal was to examine if any salivary microbiome changes were observed in astronauts as a result of spaceflight. In addition, this study looked for any microbiome signature that may be associated with viral reactivation in humans",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "",
+      "title": "",
+      "type": "Spaceflight Study",
+      "link": "",
+      "funding": "Part of the research described in this publication was carried out at the Jet Propulsion Laboratory, California Institute of Technology, under a contract with NASA. We would like to thank all the astronauts who participated in this study which is funded by the NASA Human Research Program SMO-015 (CS) and NNX12AB02G (HL). This research was also funded by a 2012 Space Biology NNH12ZTT001N grant no. 19-12829-26 under Task Order NNN13D111T award to KV. This grant and NASA Post-doctoral Program sponsored by Space Biology are funded fellowship for CU. © 2019 California Institute of Technology. Government sponsorship acknowledged.",
+      "managing_center": "Jet Propulsion Laboratory (JPL)"
+    },
+    "protocols": [
+      "sample collection",
+      "nucleic acid extraction",
+      "library construction",
+      "nucleic acid sequencing",
+      "GeneLab amplicon-seq data processing protocol"
+    ],
+    "publications": [
+      {
+        "title": "The influence of spaceflight on the astronaut salivary microbiome and the search for a microbiome biomarker for viral reactivation",
+        "doi": "10.1186/s40168-020-00830-z",
+        "authors": [
+          "\"Camilla Urbaniak",
+          "Hernan Lorenzi",
+          "James Thissen",
+          "Crystal Jaing",
+          "Brian Crucian",
+          "Clarence Sams",
+          "Duane Pierson"
+        ],
+        "summary": "The influence of spaceflight on the astronaut salivary microbiome and the search for a microbiome biomarker for viral reactivation — 10.1186/s40168-020-00830-z"
+      }
+    ],
+    "factors": [
+      "Spaceflight",
+      "Time"
+    ],
+    "contacts": [
+      {
+        "first_name": "Camilla",
+        "last_name": "Urbaniak",
+        "role": "principal investigator",
+        "email": "kjvenkat@jpl.nasa.gov"
+      },
+      {
+        "first_name": "Kasthuri",
+        "last_name": "Venkateswaran",
+        "role": "",
+        "email": ""
+      },
+      {
+        "first_name": "Hernan",
+        "last_name": "Lorenzi",
+        "role": "",
+        "email": ""
+      },
+      {
+        "first_name": "James",
+        "last_name": "Thissen",
+        "role": "",
+        "email": ""
+      },
+      {
+        "first_name": "Crystal",
+        "last_name": "Jaing",
+        "role": "",
+        "email": ""
+      },
+      {
+        "first_name": "Brian",
+        "last_name": "Crucian",
+        "role": "",
+        "email": ""
+      },
+      {
+        "first_name": "Clarence",
+        "last_name": "Sams",
+        "role": "",
+        "email": ""
+      },
+      {
+        "first_name": "Duane",
+        "last_name": "Pierson",
+        "role": "",
+        "email": ""
+      },
+      {
+        "first_name": "Satish",
+        "last_name": "Mehta",
+        "role": "",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "SRR8985933",
+        "characteristics": {
+          "Biosample": "SAMN11515255",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "pre-flight"
+        },
+        "parameters": {
+          "Subject ID": "1",
+          "Sample Collection Timepoint": "240 days before launch",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985934",
+        "characteristics": {
+          "Biosample": "SAMN11515256",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "pre-flight"
+        },
+        "parameters": {
+          "Subject ID": "1",
+          "Sample Collection Timepoint": "240 days before launch",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985931",
+        "characteristics": {
+          "Biosample": "SAMN11515257",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "pre-flight"
+        },
+        "parameters": {
+          "Subject ID": "1",
+          "Sample Collection Timepoint": "180 days before launch",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985932",
+        "characteristics": {
+          "Biosample": "SAMN11515258",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "pre-flight"
+        },
+        "parameters": {
+          "Subject ID": "1",
+          "Sample Collection Timepoint": "90 days before launch",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985929",
+        "characteristics": {
+          "Biosample": "SAMN11515259",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "pre-flight"
+        },
+        "parameters": {
+          "Subject ID": "1",
+          "Sample Collection Timepoint": "60 days before launch",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985930",
+        "characteristics": {
+          "Biosample": "SAMN11515260",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "during flight"
+        },
+        "parameters": {
+          "Subject ID": "1",
+          "Sample Collection Timepoint": "7 days on ISS",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985927",
+        "characteristics": {
+          "Biosample": "SAMN11515261",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "during flight"
+        },
+        "parameters": {
+          "Subject ID": "1",
+          "Sample Collection Timepoint": "90 days on ISS",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985928",
+        "characteristics": {
+          "Biosample": "SAMN11515262",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "during flight"
+        },
+        "parameters": {
+          "Subject ID": "1",
+          "Sample Collection Timepoint": "14 days before return",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985935",
+        "characteristics": {
+          "Biosample": "SAMN11515263",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "during flight"
+        },
+        "parameters": {
+          "Subject ID": "1",
+          "Sample Collection Timepoint": "1 day before return",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985936",
+        "characteristics": {
+          "Biosample": "SAMN11515264",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "post-flight"
+        },
+        "parameters": {
+          "Subject ID": "1",
+          "Sample Collection Timepoint": "landing day",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985894",
+        "characteristics": {
+          "Biosample": "SAMN11515265",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "post-flight"
+        },
+        "parameters": {
+          "Subject ID": "1",
+          "Sample Collection Timepoint": "landing day",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985895",
+        "characteristics": {
+          "Biosample": "SAMN11515266",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "post-flight"
+        },
+        "parameters": {
+          "Subject ID": "1",
+          "Sample Collection Timepoint": "18 days after return",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985892",
+        "characteristics": {
+          "Biosample": "SAMN11515267",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "post-flight"
+        },
+        "parameters": {
+          "Subject ID": "1",
+          "Sample Collection Timepoint": "33 days after return",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985893",
+        "characteristics": {
+          "Biosample": "SAMN11515268",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "post-flight"
+        },
+        "parameters": {
+          "Subject ID": "1",
+          "Sample Collection Timepoint": "63 days after return",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985890",
+        "characteristics": {
+          "Biosample": "SAMN11515269",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "post-flight"
+        },
+        "parameters": {
+          "Subject ID": "1",
+          "Sample Collection Timepoint": "180 days after return",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985891",
+        "characteristics": {
+          "Biosample": "SAMN11515270",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "pre-flight"
+        },
+        "parameters": {
+          "Subject ID": "2",
+          "Sample Collection Timepoint": "180 days before launch",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985888",
+        "characteristics": {
+          "Biosample": "SAMN11515271",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "pre-flight"
+        },
+        "parameters": {
+          "Subject ID": "2",
+          "Sample Collection Timepoint": "150 days before launch",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985889",
+        "characteristics": {
+          "Biosample": "SAMN11515272",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "pre-flight"
+        },
+        "parameters": {
+          "Subject ID": "2",
+          "Sample Collection Timepoint": "60 days before launch",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985886",
+        "characteristics": {
+          "Biosample": "SAMN11515273",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "during flight"
+        },
+        "parameters": {
+          "Subject ID": "2",
+          "Sample Collection Timepoint": "10 days on ISS",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985887",
+        "characteristics": {
+          "Biosample": "SAMN11515274",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "during flight"
+        },
+        "parameters": {
+          "Subject ID": "2",
+          "Sample Collection Timepoint": "90 days on ISS",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985954",
+        "characteristics": {
+          "Biosample": "SAMN11515275",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "post-flight"
+        },
+        "parameters": {
+          "Subject ID": "2",
+          "Sample Collection Timepoint": "1 day after return",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985953",
+        "characteristics": {
+          "Biosample": "SAMN11515276",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "post-flight"
+        },
+        "parameters": {
+          "Subject ID": "2",
+          "Sample Collection Timepoint": "18 days after return",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985952",
+        "characteristics": {
+          "Biosample": "SAMN11515277",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "post-flight"
+        },
+        "parameters": {
+          "Subject ID": "2",
+          "Sample Collection Timepoint": "33 days after return",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985951",
+        "characteristics": {
+          "Biosample": "SAMN11515278",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "post-flight"
+        },
+        "parameters": {
+          "Subject ID": "2",
+          "Sample Collection Timepoint": "60 days after return",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985950",
+        "characteristics": {
+          "Biosample": "SAMN11515279",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "pre-flight"
+        },
+        "parameters": {
+          "Subject ID": "3",
+          "Sample Collection Timepoint": "180 days before launch",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985949",
+        "characteristics": {
+          "Biosample": "SAMN11515280",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "pre-flight"
+        },
+        "parameters": {
+          "Subject ID": "3",
+          "Sample Collection Timepoint": "60 days before launch",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985948",
+        "characteristics": {
+          "Biosample": "SAMN11515281",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "during flight"
+        },
+        "parameters": {
+          "Subject ID": "3",
+          "Sample Collection Timepoint": "10 days on ISS",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985947",
+        "characteristics": {
+          "Biosample": "SAMN11515282",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "during flight"
+        },
+        "parameters": {
+          "Subject ID": "3",
+          "Sample Collection Timepoint": "90 days on ISS",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985956",
+        "characteristics": {
+          "Biosample": "SAMN11515283",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "post-flight"
+        },
+        "parameters": {
+          "Subject ID": "3",
+          "Sample Collection Timepoint": "landing day",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985955",
+        "characteristics": {
+          "Biosample": "SAMN11515284",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "post-flight"
+        },
+        "parameters": {
+          "Subject ID": "3",
+          "Sample Collection Timepoint": "18 days after return",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985957",
+        "characteristics": {
+          "Biosample": "SAMN11515285",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "post-flight"
+        },
+        "parameters": {
+          "Subject ID": "3",
+          "Sample Collection Timepoint": "33 days after return",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985958",
+        "characteristics": {
+          "Biosample": "SAMN11515286",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "post-flight"
+        },
+        "parameters": {
+          "Subject ID": "3",
+          "Sample Collection Timepoint": "63 days after return",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985959",
+        "characteristics": {
+          "Biosample": "SAMN11515287",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "pre-flight"
+        },
+        "parameters": {
+          "Subject ID": "4",
+          "Sample Collection Timepoint": "180 days before launch",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985960",
+        "characteristics": {
+          "Biosample": "SAMN11515288",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "pre-flight"
+        },
+        "parameters": {
+          "Subject ID": "4",
+          "Sample Collection Timepoint": "90 days before launch",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985961",
+        "characteristics": {
+          "Biosample": "SAMN11515289",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "pre-flight"
+        },
+        "parameters": {
+          "Subject ID": "4",
+          "Sample Collection Timepoint": "60 days before launch",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985962",
+        "characteristics": {
+          "Biosample": "SAMN11515290",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "during flight"
+        },
+        "parameters": {
+          "Subject ID": "4",
+          "Sample Collection Timepoint": "10 days on ISS",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985963",
+        "characteristics": {
+          "Biosample": "SAMN11515291",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "during flight"
+        },
+        "parameters": {
+          "Subject ID": "4",
+          "Sample Collection Timepoint": "90 days on ISS",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985964",
+        "characteristics": {
+          "Biosample": "SAMN11515292",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "during flight"
+        },
+        "parameters": {
+          "Subject ID": "4",
+          "Sample Collection Timepoint": "1 day before return",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985965",
+        "characteristics": {
+          "Biosample": "SAMN11515293",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "post-flight"
+        },
+        "parameters": {
+          "Subject ID": "4",
+          "Sample Collection Timepoint": "landing day",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985966",
+        "characteristics": {
+          "Biosample": "SAMN11515294",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "post-flight"
+        },
+        "parameters": {
+          "Subject ID": "4",
+          "Sample Collection Timepoint": "18 days after return",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985918",
+        "characteristics": {
+          "Biosample": "SAMN11515295",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "post-flight"
+        },
+        "parameters": {
+          "Subject ID": "4",
+          "Sample Collection Timepoint": "30 days after return",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985917",
+        "characteristics": {
+          "Biosample": "SAMN11515296",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "post-flight"
+        },
+        "parameters": {
+          "Subject ID": "4",
+          "Sample Collection Timepoint": "63 days after return",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985920",
+        "characteristics": {
+          "Biosample": "SAMN11515297",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "post-flight"
+        },
+        "parameters": {
+          "Subject ID": "4",
+          "Sample Collection Timepoint": "180 days after return",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985919",
+        "characteristics": {
+          "Biosample": "SAMN11515298",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "pre-flight"
+        },
+        "parameters": {
+          "Subject ID": "5",
+          "Sample Collection Timepoint": "120 days before launch",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985922",
+        "characteristics": {
+          "Biosample": "SAMN11515299",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "pre-flight"
+        },
+        "parameters": {
+          "Subject ID": "5",
+          "Sample Collection Timepoint": "120 days before launch",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985921",
+        "characteristics": {
+          "Biosample": "SAMN11515300",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "pre-flight"
+        },
+        "parameters": {
+          "Subject ID": "5",
+          "Sample Collection Timepoint": "90 days before launch",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985924",
+        "characteristics": {
+          "Biosample": "SAMN11515301",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "pre-flight"
+        },
+        "parameters": {
+          "Subject ID": "5",
+          "Sample Collection Timepoint": "60 days before launch",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985923",
+        "characteristics": {
+          "Biosample": "SAMN11515302",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "during flight"
+        },
+        "parameters": {
+          "Subject ID": "5",
+          "Sample Collection Timepoint": "10 days on ISS",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985926",
+        "characteristics": {
+          "Biosample": "SAMN11515303",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "during flight"
+        },
+        "parameters": {
+          "Subject ID": "5",
+          "Sample Collection Timepoint": "90 days on ISS",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985925",
+        "characteristics": {
+          "Biosample": "SAMN11515304",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "pre-flight"
+        },
+        "parameters": {
+          "Subject ID": "5",
+          "Sample Collection Timepoint": "14 days before return",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985939",
+        "characteristics": {
+          "Biosample": "SAMN11515305",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "post-flight"
+        },
+        "parameters": {
+          "Subject ID": "5",
+          "Sample Collection Timepoint": "landing day",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985940",
+        "characteristics": {
+          "Biosample": "SAMN11515306",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "post-flight"
+        },
+        "parameters": {
+          "Subject ID": "5",
+          "Sample Collection Timepoint": "30 days after return",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985937",
+        "characteristics": {
+          "Biosample": "SAMN11515307",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "post-flight"
+        },
+        "parameters": {
+          "Subject ID": "5",
+          "Sample Collection Timepoint": "60 days after return",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985938",
+        "characteristics": {
+          "Biosample": "SAMN11515308",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "post-flight"
+        },
+        "parameters": {
+          "Subject ID": "5",
+          "Sample Collection Timepoint": "60 days after return",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985943",
+        "characteristics": {
+          "Biosample": "SAMN11515309",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "post-flight"
+        },
+        "parameters": {
+          "Subject ID": "5",
+          "Sample Collection Timepoint": "180 days after return",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985944",
+        "characteristics": {
+          "Biosample": "SAMN11515310",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "pre-flight"
+        },
+        "parameters": {
+          "Subject ID": "6",
+          "Sample Collection Timepoint": "90 days before launch",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985941",
+        "characteristics": {
+          "Biosample": "SAMN11515311",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "during flight"
+        },
+        "parameters": {
+          "Subject ID": "6",
+          "Sample Collection Timepoint": "10 days on ISS",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985942",
+        "characteristics": {
+          "Biosample": "SAMN11515312",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "during flight"
+        },
+        "parameters": {
+          "Subject ID": "6",
+          "Sample Collection Timepoint": "90 days on ISS",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985945",
+        "characteristics": {
+          "Biosample": "SAMN11515313",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "pre-flight"
+        },
+        "parameters": {
+          "Subject ID": "6",
+          "Sample Collection Timepoint": "14 days before return",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985946",
+        "characteristics": {
+          "Biosample": "SAMN11515314",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "post-flight"
+        },
+        "parameters": {
+          "Subject ID": "6",
+          "Sample Collection Timepoint": "landing day",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985902",
+        "characteristics": {
+          "Biosample": "SAMN11515315",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "post-flight"
+        },
+        "parameters": {
+          "Subject ID": "6",
+          "Sample Collection Timepoint": "60 days after return",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985901",
+        "characteristics": {
+          "Biosample": "SAMN11515316",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "post-flight"
+        },
+        "parameters": {
+          "Subject ID": "6",
+          "Sample Collection Timepoint": "180 days after return",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985900",
+        "characteristics": {
+          "Biosample": "SAMN11515317",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "pre-flight"
+        },
+        "parameters": {
+          "Subject ID": "7",
+          "Sample Collection Timepoint": "180 days before launch",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985899",
+        "characteristics": {
+          "Biosample": "SAMN11515318",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "pre-flight"
+        },
+        "parameters": {
+          "Subject ID": "7",
+          "Sample Collection Timepoint": "120 days before launch",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985906",
+        "characteristics": {
+          "Biosample": "SAMN11515319",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "pre-flight"
+        },
+        "parameters": {
+          "Subject ID": "7",
+          "Sample Collection Timepoint": "90 days before launch",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985905",
+        "characteristics": {
+          "Biosample": "SAMN11515320",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "pre-flight"
+        },
+        "parameters": {
+          "Subject ID": "7",
+          "Sample Collection Timepoint": "60 days before launch",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985904",
+        "characteristics": {
+          "Biosample": "SAMN11515321",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "during flight"
+        },
+        "parameters": {
+          "Subject ID": "7",
+          "Sample Collection Timepoint": "10 days on ISS",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985903",
+        "characteristics": {
+          "Biosample": "SAMN11515322",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "during flight"
+        },
+        "parameters": {
+          "Subject ID": "7",
+          "Sample Collection Timepoint": "90 days on ISS",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985898",
+        "characteristics": {
+          "Biosample": "SAMN11515323",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "pre-flight"
+        },
+        "parameters": {
+          "Subject ID": "7",
+          "Sample Collection Timepoint": "14 days before return",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985897",
+        "characteristics": {
+          "Biosample": "SAMN11515324",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "post-flight"
+        },
+        "parameters": {
+          "Subject ID": "7",
+          "Sample Collection Timepoint": "landing day",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985911",
+        "characteristics": {
+          "Biosample": "SAMN11515325",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "post-flight"
+        },
+        "parameters": {
+          "Subject ID": "7",
+          "Sample Collection Timepoint": "30 days after return",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985912",
+        "characteristics": {
+          "Biosample": "SAMN11515326",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "post-flight"
+        },
+        "parameters": {
+          "Subject ID": "7",
+          "Sample Collection Timepoint": "60 days after return",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985913",
+        "characteristics": {
+          "Biosample": "SAMN11515327",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "post-flight"
+        },
+        "parameters": {
+          "Subject ID": "7",
+          "Sample Collection Timepoint": "180 days after return",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985914",
+        "characteristics": {
+          "Biosample": "SAMN11515328",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "pre-flight"
+        },
+        "parameters": {
+          "Subject ID": "8",
+          "Sample Collection Timepoint": "60 days before launch",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985907",
+        "characteristics": {
+          "Biosample": "SAMN11515329",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "during flight"
+        },
+        "parameters": {
+          "Subject ID": "8",
+          "Sample Collection Timepoint": "10 days on ISS",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985908",
+        "characteristics": {
+          "Biosample": "SAMN11515330",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "during flight"
+        },
+        "parameters": {
+          "Subject ID": "8",
+          "Sample Collection Timepoint": "90 days on ISS",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985909",
+        "characteristics": {
+          "Biosample": "SAMN11515331",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "post-flight"
+        },
+        "parameters": {
+          "Subject ID": "8",
+          "Sample Collection Timepoint": "landing day",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985910",
+        "characteristics": {
+          "Biosample": "SAMN11515332",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "post-flight"
+        },
+        "parameters": {
+          "Subject ID": "8",
+          "Sample Collection Timepoint": "180 days after return",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985915",
+        "characteristics": {
+          "Biosample": "SAMN11515333",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "post-flight"
+        },
+        "parameters": {
+          "Subject ID": "8",
+          "Sample Collection Timepoint": "33 days after return",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985916",
+        "characteristics": {
+          "Biosample": "SAMN11515334",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "post-flight"
+        },
+        "parameters": {
+          "Subject ID": "8",
+          "Sample Collection Timepoint": "63 days after return",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985972",
+        "characteristics": {
+          "Biosample": "SAMN11515335",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "pre-flight"
+        },
+        "parameters": {
+          "Subject ID": "9",
+          "Sample Collection Timepoint": "90 days before launch",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985971",
+        "characteristics": {
+          "Biosample": "SAMN11515336",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "during flight"
+        },
+        "parameters": {
+          "Subject ID": "9",
+          "Sample Collection Timepoint": "10 days on ISS",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985974",
+        "characteristics": {
+          "Biosample": "SAMN11515337",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "during flight"
+        },
+        "parameters": {
+          "Subject ID": "9",
+          "Sample Collection Timepoint": "90 days on ISS",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985973",
+        "characteristics": {
+          "Biosample": "SAMN11515338",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "post-flight"
+        },
+        "parameters": {
+          "Subject ID": "9",
+          "Sample Collection Timepoint": "1 day after return",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985968",
+        "characteristics": {
+          "Biosample": "SAMN11515339",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "post-flight"
+        },
+        "parameters": {
+          "Subject ID": "9",
+          "Sample Collection Timepoint": "18 days after return",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985967",
+        "characteristics": {
+          "Biosample": "SAMN11515340",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "post-flight"
+        },
+        "parameters": {
+          "Subject ID": "9",
+          "Sample Collection Timepoint": "60 days after return",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985970",
+        "characteristics": {
+          "Biosample": "SAMN11515341",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "pre-flight"
+        },
+        "parameters": {
+          "Subject ID": "10",
+          "Sample Collection Timepoint": "60 days before launch",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985969",
+        "characteristics": {
+          "Biosample": "SAMN11515342",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "during flight"
+        },
+        "parameters": {
+          "Subject ID": "10",
+          "Sample Collection Timepoint": "90 days on ISS",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985976",
+        "characteristics": {
+          "Biosample": "SAMN11515343",
+          "Organism": "cellular organisms",
+          "host": "Homo sapiens",
+          "Material Type": "Saliva"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Time": "post-flight"
+        },
+        "parameters": {
+          "Subject ID": "10",
+          "Sample Collection Timepoint": "180 days after return",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985975",
+        "characteristics": {
+          "Biosample": "SAMN11515344",
+          "Organism": "cellular organisms",
+          "host": "",
+          "Material Type": ""
+        },
+        "factors": {
+          "Spaceflight": "Control",
+          "Time": ""
+        },
+        "parameters": {
+          "Subject ID": "",
+          "Sample Collection Timepoint": "",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR8985896",
+        "characteristics": {
+          "Biosample": "SAMN11515345",
+          "Organism": "cellular organisms",
+          "host": "",
+          "Material Type": ""
+        },
+        "factors": {
+          "Spaceflight": "Control",
+          "Time": ""
+        },
+        "parameters": {
+          "Subject ID": "",
+          "Sample Collection Timepoint": "",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "amplicon-sequencing",
+      "platform": "Illumina MiSeq",
+      "qc": {
+        "Read Depth": "225125"
+      },
+      "library": {},
+      "files": {
+        "raw": [
+          "GLDS-280_Amplicon_SRR8985933_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985933_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985934_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985934_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985931_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985931_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985932_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985932_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985929_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985929_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985930_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985930_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985927_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985927_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985928_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985928_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985935_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985935_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985936_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985936_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985894_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985894_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985895_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985895_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985892_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985892_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985893_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985893_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985890_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985890_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985891_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985891_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985888_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985888_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985889_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985889_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985886_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985886_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985887_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985887_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985954_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985954_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985953_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985953_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985952_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985952_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985951_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985951_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985950_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985950_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985949_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985949_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985948_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985948_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985947_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985947_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985956_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985956_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985955_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985955_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985957_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985957_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985958_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985958_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985959_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985959_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985960_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985960_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985961_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985961_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985962_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985962_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985963_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985963_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985964_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985964_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985965_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985965_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985966_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985966_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985918_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985918_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985917_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985917_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985920_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985920_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985919_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985919_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985922_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985922_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985921_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985921_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985924_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985924_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985923_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985923_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985926_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985926_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985925_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985925_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985939_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985939_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985940_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985940_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985937_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985937_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985938_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985938_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985943_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985943_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985944_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985944_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985941_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985941_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985942_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985942_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985945_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985945_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985946_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985946_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985902_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985902_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985901_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985901_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985900_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985900_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985899_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985899_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985906_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985906_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985905_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985905_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985904_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985904_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985903_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985903_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985898_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985898_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985897_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985897_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985911_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985911_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985912_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985912_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985913_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985913_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985914_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985914_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985907_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985907_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985908_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985908_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985909_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985909_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985910_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985910_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985915_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985915_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985916_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985916_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985972_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985972_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985971_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985971_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985974_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985974_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985973_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985973_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985968_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985968_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985967_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985967_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985970_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985970_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985969_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985969_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985976_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985976_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985975_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985975_2.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985896_1.fastq.gz",
+          "GLDS-280_Amplicon_SRR8985896_2.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985933_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985933_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985933-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985933-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985933-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985933-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985934_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985934_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985934-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985934-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985934-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985934-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985931_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985931_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985931-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985931-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985931-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985931-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985932_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985932_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985932-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985932-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985932-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985932-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985929_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985929_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985929-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985929-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985929-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985929-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985930_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985930_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985930-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985930-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985930-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985930-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985927_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985927_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985927-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985927-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985927-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985927-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985928_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985928_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985928-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985928-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985928-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985928-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985935_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985935_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985935-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985935-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985935-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985935-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985936_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985936_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985936-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985936-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985936-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985936-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985894_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985894_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985894-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985894-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985894-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985894-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985895_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985895_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985895-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985895-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985895-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985895-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985892_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985892_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985892-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985892-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985892-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985892-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985893_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985893_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985893-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985893-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985893-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985893-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985890_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985890_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985890-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985890-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985890-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985890-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985891_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985891_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985891-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985891-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985891-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985891-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985888_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985888_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985888-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985888-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985888-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985888-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985889_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985889_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985889-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985889-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985889-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985889-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985886_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985886_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985886-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985886-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985886-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985886-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985887_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985887_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985887-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985887-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985887-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985887-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985954_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985954_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985954-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985954-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985954-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985954-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985953_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985953_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985953-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985953-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985953-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985953-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985952_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985952_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985952-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985952-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985952-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985952-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985951_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985951_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985951-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985951-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985951-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985951-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985950_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985950_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985950-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985950-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985950-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985950-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985949_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985949_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985949-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985949-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985949-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985949-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985948_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985948_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985948-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985948-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985948-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985948-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985947_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985947_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985947-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985947-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985947-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985947-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985956_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985956_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985956-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985956-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985956-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985956-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985955_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985955_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985955-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985955-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985955-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985955-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985957_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985957_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985957-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985957-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985957-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985957-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985958_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985958_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985958-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985958-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985958-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985958-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985959_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985959_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985959-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985959-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985959-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985959-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985960_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985960_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985960-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985960-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985960-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985960-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985961_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985961_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985961-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985961-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985961-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985961-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985962_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985962_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985962-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985962-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985962-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985962-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985963_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985963_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985963-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985963-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985963-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985963-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985964_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985964_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985964-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985964-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985964-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985964-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985965_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985965_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985965-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985965-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985965-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985965-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985966_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985966_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985966-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985966-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985966-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985966-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985918_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985918_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985918-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985918-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985918-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985918-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985917_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985917_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985917-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985917-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985917-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985917-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985920_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985920_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985920-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985920-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985920-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985920-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985919_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985919_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985919-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985919-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985919-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985919-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985922_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985922_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985922-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985922-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985922-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985922-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985921_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985921_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985921-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985921-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985921-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985921-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985924_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985924_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985924-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985924-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985924-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985924-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985923_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985923_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985923-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985923-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985923-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985923-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985926_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985926_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985926-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985926-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985926-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985926-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985925_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985925_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985925-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985925-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985925-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985925-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985939_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985939_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985939-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985939-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985939-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985939-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985940_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985940_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985940-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985940-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985940-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985940-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985937_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985937_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985937-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985937-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985937-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985937-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985938_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985938_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985938-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985938-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985938-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985938-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985943_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985943_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985943-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985943-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985943-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985943-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985944_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985944_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985944-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985944-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985944-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985944-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985941_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985941_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985941-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985941-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985941-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985941-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985942_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985942_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985942-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985942-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985942-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985942-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985945_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985945_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985945-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985945-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985945-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985945-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985946_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985946_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985946-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985946-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985946-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985946-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985902_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985902_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985902-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985902-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985902-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985902-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985901_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985901_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985901-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985901-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985901-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985901-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985900_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985900_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985900-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985900-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985900-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985900-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985899_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985899_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985899-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985899-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985899-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985899-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985906_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985906_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985906-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985906-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985906-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985906-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985905_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985905_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985905-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985905-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985905-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985905-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985904_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985904_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985904-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985904-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985904-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985904-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985903_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985903_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985903-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985903-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985903-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985903-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985898_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985898_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985898-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985898-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985898-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985898-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985897_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985897_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985897-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985897-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985897-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985897-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985911_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985911_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985911-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985911-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985911-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985911-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985912_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985912_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985912-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985912-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985912-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985912-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985913_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985913_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985913-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985913-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985913-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985913-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985914_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985914_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985914-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985914-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985914-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985914-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985907_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985907_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985907-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985907-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985907-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985907-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985908_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985908_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985908-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985908-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985908-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985908-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985909_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985909_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985909-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985909-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985909-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985909-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985910_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985910_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985910-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985910-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985910-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985910-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985915_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985915_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985915-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985915-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985915-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985915-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985916_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985916_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985916-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985916-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985916-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985916-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985972_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985972_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985972-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985972-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985972-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985972-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985971_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985971_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985971-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985971-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985971-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985971-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985974_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985974_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985974-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985974-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985974-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985974-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985973_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985973_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985973-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985973-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985973-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985973-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985968_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985968_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985968-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985968-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985968-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985968-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985967_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985967_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985967-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985967-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985967-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985967-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985970_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985970_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985970-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985970-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985970-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985970-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985969_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985969_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985969-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985969-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985969-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985969-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985976_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985976_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985976-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985976-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985976-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985976-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985975_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985975_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985975-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985975-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985975-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985975-R2-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985896_R1_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985896_R2_raw.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985896-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985896-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985896-R1-filtered.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985896-R2-filtered.fastq.gz"
+        ],
+        "processed": [
+          "GLDS-280_GAmplicon_SRR8985933-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985933-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_cutadapt.log",
+          "GLDS-280_GAmplicon_trimmed-read-counts.tsv",
+          "GLDS-280_GAmplicon_SRR8985934-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985934-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985931-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985931-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985932-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985932-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985929-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985929-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985930-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985930-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985927-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985927-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985928-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985928-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985935-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985935-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985936-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985936-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985894-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985894-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985895-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985895-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985892-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985892-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985893-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985893-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985890-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985890-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985891-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985891-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985888-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985888-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985889-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985889-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985886-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985886-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985887-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985887-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985954-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985954-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985953-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985953-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985952-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985952-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985951-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985951-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985950-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985950-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985949-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985949-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985948-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985948-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985947-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985947-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985956-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985956-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985955-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985955-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985957-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985957-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985958-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985958-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985959-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985959-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985960-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985960-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985961-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985961-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985962-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985962-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985963-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985963-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985964-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985964-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985965-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985965-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985966-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985966-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985918-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985918-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985917-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985917-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985920-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985920-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985919-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985919-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985922-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985922-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985921-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985921-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985924-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985924-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985923-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985923-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985926-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985926-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985925-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985925-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985939-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985939-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985940-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985940-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985937-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985937-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985938-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985938-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985943-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985943-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985944-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985944-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985941-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985941-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985942-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985942-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985945-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985945-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985946-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985946-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985902-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985902-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985901-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985901-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985900-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985900-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985899-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985899-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985906-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985906-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985905-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985905-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985904-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985904-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985903-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985903-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985898-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985898-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985897-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985897-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985911-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985911-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985912-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985912-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985913-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985913-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985914-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985914-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985907-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985907-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985908-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985908-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985909-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985909-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985910-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985910-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985915-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985915-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985916-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985916-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985972-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985972-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985971-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985971-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985974-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985974-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985973-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985973-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985968-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985968-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985967-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985967-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985970-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985970-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985969-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985969-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985976-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985976-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985975-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985975-R2-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985896-R1-trimmed.fastq.gz",
+          "GLDS-280_GAmplicon_SRR8985896-R2-trimmed.fastq.gz",
+          "SRR8985933",
+          "GeneLab amplicon-seq data processing protocol",
+          "SAMN11515255",
+          "16S-bacterial V3V4; 341F-5-CCTACGGGNGGCWGCAG-3",
+          "785R-5-GACTACHVGGGTATCTAATCC-3",
+          "AMPLICON",
+          "PCR",
+          "PAIRED",
+          "Illumina MiSeq",
+          "300",
+          "read",
+          "Amplicon Sequencing",
+          "GLDS-280_GAmplicon_README.txt",
+          "225125",
+          "GLDS-280_GAmplicon_filtered-read-counts.tsv",
+          "GLDS-280_GAmplicon_ASVs.fasta",
+          "GLDS-280_GAmplicon_counts.tsv",
+          "GLDS-280_GAmplicon_read-count-tracking.tsv",
+          "GLDS-280_GAmplicon_taxonomy.tsv",
+          "GLDS-280_GAmplicon_taxonomy-and-counts.tsv",
+          "GLDS-280_GAmplicon_taxonomy-and-counts.biom.zip",
+          "GLDS-280_GAmplicon_processing_info.tar",
+          "SRR8985934",
+          "SAMN11515256",
+          "223708",
+          "SRR8985931",
+          "SAMN11515257",
+          "233827",
+          "SRR8985932",
+          "SAMN11515258",
+          "323923",
+          "SRR8985929",
+          "SAMN11515259",
+          "357588",
+          "SRR8985930",
+          "SAMN11515260",
+          "300718",
+          "SRR8985927",
+          "SAMN11515261",
+          "334353",
+          "SRR8985928",
+          "SAMN11515262",
+          "259452",
+          "SRR8985935",
+          "SAMN11515263",
+          "102423",
+          "SRR8985936",
+          "SAMN11515264",
+          "106702",
+          "SRR8985894",
+          "SAMN11515265",
+          "110929",
+          "SRR8985895",
+          "SAMN11515266",
+          "65029",
+          "SRR8985892",
+          "SAMN11515267",
+          "98912",
+          "SRR8985893",
+          "SAMN11515268",
+          "112470",
+          "SRR8985890",
+          "SAMN11515269",
+          "108065",
+          "SRR8985891",
+          "SAMN11515270",
+          "19704",
+          "SRR8985888",
+          "SAMN11515271",
+          "243561",
+          "SRR8985889",
+          "SAMN11515272",
+          "216768",
+          "SRR8985886",
+          "SAMN11515273",
+          "203739",
+          "SRR8985887",
+          "SAMN11515274",
+          "120449",
+          "SRR8985954",
+          "SAMN11515275",
+          "209310",
+          "SRR8985953",
+          "SAMN11515276",
+          "221332",
+          "SRR8985952",
+          "SAMN11515277",
+          "177266",
+          "SRR8985951",
+          "SAMN11515278",
+          "179545",
+          "SRR8985950",
+          "SAMN11515279",
+          "134497",
+          "SRR8985949",
+          "SAMN11515280",
+          "11969",
+          "SRR8985948",
+          "SAMN11515281",
+          "136404",
+          "SRR8985947",
+          "SAMN11515282",
+          "94727",
+          "SRR8985956",
+          "SAMN11515283",
+          "121336",
+          "SRR8985955",
+          "SAMN11515284",
+          "94821",
+          "SRR8985957",
+          "SAMN11515285",
+          "75828",
+          "SRR8985958",
+          "SAMN11515286",
+          "134277",
+          "SRR8985959",
+          "SAMN11515287",
+          "285539",
+          "SRR8985960",
+          "SAMN11515288",
+          "374159",
+          "SRR8985961",
+          "SAMN11515289",
+          "327383",
+          "SRR8985962",
+          "SAMN11515290",
+          "230848",
+          "SRR8985963",
+          "SAMN11515291",
+          "410563",
+          "SRR8985964",
+          "SAMN11515292",
+          "312240",
+          "SRR8985965",
+          "SAMN11515293",
+          "184701",
+          "SRR8985966",
+          "SAMN11515294",
+          "255112",
+          "SRR8985918",
+          "SAMN11515295",
+          "202273",
+          "SRR8985917",
+          "SAMN11515296",
+          "201587",
+          "SRR8985920",
+          "SAMN11515297",
+          "205863",
+          "SRR8985919",
+          "SAMN11515298",
+          "151009",
+          "SRR8985922",
+          "SAMN11515299",
+          "135102",
+          "SRR8985921",
+          "SAMN11515300",
+          "223809",
+          "SRR8985924",
+          "SAMN11515301",
+          "156173",
+          "SRR8985923",
+          "SAMN11515302",
+          "231810",
+          "SRR8985926",
+          "SAMN11515303",
+          "352068",
+          "SRR8985925",
+          "SAMN11515304",
+          "475279",
+          "SRR8985939",
+          "SAMN11515305",
+          "243986",
+          "SRR8985940",
+          "SAMN11515306",
+          "294572",
+          "SRR8985937",
+          "SAMN11515307",
+          "239796",
+          "SRR8985938",
+          "SAMN11515308",
+          "206704",
+          "SRR8985943",
+          "SAMN11515309",
+          "308357",
+          "SRR8985944",
+          "SAMN11515310",
+          "113224",
+          "SRR8985941",
+          "SAMN11515311",
+          "59790",
+          "SRR8985942",
+          "SAMN11515312",
+          "106928",
+          "SRR8985945",
+          "SAMN11515313",
+          "74310",
+          "SRR8985946",
+          "SAMN11515314",
+          "134097",
+          "SRR8985902",
+          "SAMN11515315",
+          "38685",
+          "SRR8985901",
+          "SAMN11515316",
+          "101729",
+          "SRR8985900",
+          "SAMN11515317",
+          "469153",
+          "SRR8985899",
+          "SAMN11515318",
+          "395633",
+          "SRR8985906",
+          "SAMN11515319",
+          "440040",
+          "SRR8985905",
+          "SAMN11515320",
+          "358885",
+          "SRR8985904",
+          "SAMN11515321",
+          "568995",
+          "SRR8985903",
+          "SAMN11515322",
+          "247838",
+          "SRR8985898",
+          "SAMN11515323",
+          "554118",
+          "SRR8985897",
+          "SAMN11515324",
+          "373755",
+          "SRR8985911",
+          "SAMN11515325",
+          "352603",
+          "SRR8985912",
+          "SAMN11515326",
+          "304742",
+          "SRR8985913",
+          "SAMN11515327",
+          "262524",
+          "SRR8985914",
+          "SAMN11515328",
+          "252749",
+          "SRR8985907",
+          "SAMN11515329",
+          "239751",
+          "SRR8985908",
+          "SAMN11515330",
+          "252761",
+          "SRR8985909",
+          "SAMN11515331",
+          "187149",
+          "SRR8985910",
+          "SAMN11515332",
+          "168884",
+          "SRR8985915",
+          "SAMN11515333",
+          "153015",
+          "SRR8985916",
+          "SAMN11515334",
+          "141818",
+          "SRR8985972",
+          "SAMN11515335",
+          "352170",
+          "SRR8985971",
+          "SAMN11515336",
+          "611189",
+          "SRR8985974",
+          "SAMN11515337",
+          "641188",
+          "SRR8985973",
+          "SAMN11515338",
+          "368203",
+          "SRR8985968",
+          "SAMN11515339",
+          "217975",
+          "SRR8985967",
+          "SAMN11515340",
+          "350325",
+          "SRR8985970",
+          "SAMN11515341",
+          "365042",
+          "SRR8985969",
+          "SAMN11515342",
+          "247879",
+          "SRR8985976",
+          "SAMN11515343",
+          "254970",
+          "SRR8985975",
+          "SAMN11515344",
+          "13643",
+          "SRR8985896",
+          "SAMN11515345",
+          "6989"
+        ],
+        "reports": [
+          "GLDS-280_GAmplicon_raw_multiqc_data.zip",
+          "GLDS-280_GAmplicon_raw_multiqc_report.html.zip",
+          "GLDS-280_GAmplicon_filtered_multiqc_data.zip",
+          "GLDS-280_GAmplicon_filtered_multiqc_report.html.zip",
+          "GLDS-280_GAmplicon_cutadapt.log"
+        ]
+      }
+    }
+  ]
+}

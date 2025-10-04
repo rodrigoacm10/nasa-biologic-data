@@ -1,0 +1,176 @@
+{
+  "investigation": {
+    "id": "OSD-225",
+    "title": "Expression profiling of soleus muscle under the effect of simulated spaceflight",
+    "description": "Spaceflight imposes the risk of skeletal muscle atrophy for astronauts. The understanding of muscle atrophy because of spaceflight is limited, but continued efforts are essential for developing countermeasures of this effect.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "Hindlimb_Unloading, Gamma_Irradiation, Low_LET_Irradiation, Low_Dose_Irradiation",
+      "title": "",
+      "type": "Ground Study",
+      "link": "",
+      "funding": "This research was supported by Golden Seed Project, Ministry of Oceans and Fisheries (213008–05–2-SB910), and by the National Research Foundation of Korea (NRF) (No. NRF-2018R1D1A1B07049359).",
+      "managing_center": ""
+    },
+    "protocols": [
+      "treatment protocol",
+      "irradiation protocol",
+      "sample collection",
+      "RNA extraction",
+      "labeling",
+      "nucleic acid hybridization",
+      "data transformation"
+    ],
+    "publications": [
+      {
+        "title": "Mimic microgravity effect on muscle transcriptome under ionizing radiation.",
+        "doi": "10.1016/j.lssr.2021.12.002",
+        "authors": [
+          "Tran KN",
+          "Choi JI."
+        ],
+        "summary": "Mimic microgravity effect on muscle transcriptome under ionizing radiation. — 10.1016/j.lssr.2021.12.002"
+      }
+    ],
+    "factors": [
+      "Hindlimb Unloading",
+      "Treatment"
+    ],
+    "contacts": [
+      {
+        "first_name": "Kim",
+        "last_name": "Ngan Tran",
+        "role": "",
+        "email": "tkngan132@gmail.com"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "GSM2463679",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "brown",
+          "Age": "7",
+          "Animal Source": "Orient Bio (Seoul, South Korea)",
+          "Sex": "",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Treatment": "No Denervation"
+        },
+        "parameters": {
+          "habitat": "Polycarbonate cage",
+          "Housing Temperature": "22 +-2",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12 h light/dark cycle",
+          "ionizing radiation": "Cobalt-60 gamma radiation",
+          "absorbed radiation dose": "50",
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose rate": "3.57",
+          "exposure duration": "2",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Euthanasia Method": "diethyl ether",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM2463680",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "brown",
+          "Age": "7",
+          "Animal Source": "Orient Bio (Seoul, South Korea)",
+          "Sex": "",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Treatment": "Denervation"
+        },
+        "parameters": {
+          "habitat": "Polycarbonate cage",
+          "Housing Temperature": "22 +-2",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12 h light/dark cycle",
+          "ionizing radiation": "Cobalt-60 gamma radiation",
+          "absorbed radiation dose": "50",
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose rate": "3.57",
+          "exposure duration": "2",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Euthanasia Method": "diethyl ether",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM2463681",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "brown",
+          "Age": "7",
+          "Animal Source": "Orient Bio (Seoul, South Korea)",
+          "Sex": "",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Treatment": "No Denervation"
+        },
+        "parameters": {
+          "habitat": "Polycarbonate cage",
+          "Housing Temperature": "22 +-2",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12 h light/dark cycle",
+          "ionizing radiation": "Cobalt-60 gamma radiation",
+          "absorbed radiation dose": "50",
+          "ionizing radiation energy": "1.173:1.332",
+          "absorbed radiation dose rate": "3.57",
+          "exposure duration": "2",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Euthanasia Method": "diethyl ether",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Affymetrix",
+      "qc": {},
+      "library": {},
+      "files": {
+        "raw": [],
+        "processed": [
+          "GSM2463679",
+          "data transformation",
+          "biotin",
+          "EFO",
+          "http://purl.obolibrary.org/obo/CHEBI_15956",
+          "GPL6247",
+          "GLDS-225_microarray_GSM2463679_Muscle-C.CEL.gz",
+          "RMA",
+          "GLDS-225_microarray_GSM2463679.txt.gz",
+          "GSM2463680",
+          "GLDS-225_microarray_GSM2463680_Muscle-D.CEL.gz",
+          "GLDS-225_microarray_GSM2463680.txt.gz",
+          "GSM2463681",
+          "GLDS-225_microarray_GSM2463681_Muscle-S.CEL.gz",
+          "GLDS-225_microarray_GSM2463681.txt.gz"
+        ],
+        "reports": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,5528 @@
+{
+  "investigation": {
+    "id": "OSD-804",
+    "title": "37-Day microgravity exposure in 16-Week female C57BL/6J mice during the NASA Rodent Research 1 mission is associated with bone loss specific to weight-bearing skeletal sites (femur and vertebrae, micro computed tomography)",
+    "description": "Exposure to weightlessness in microgravity and elevated space radiation are associated with rapid bone loss in mammals, but questions remain about their mechanisms of action and relative importance. In this study, we tested the hypothesis that bone loss during spaceflight in Low Earth Orbit is primarily associated with site-specific microgravity unloading of weight-bearing sites in the skeleton.",
+    "mission": {
+      "name": "SpaceX-4",
+      "start_date": "09/21/2014",
+      "end_date": "10/25/2014",
+      "link": "https://osdr.nasa.gov/bio/repo/data/missions/SpaceX-4"
+    },
+    "project": {
+      "identifier": "RR-1",
+      "title": "",
+      "type": "Spaceflight Study",
+      "link": "",
+      "funding": "NASA Space Biology Grant NNH14ZTT001N14-14SF to EACA, NASA Human Research Program (HRP) Cross Cutting Initiative to EACA and JSA",
+      "managing_center": "Ames Research Center (ARC)"
+    },
+    "protocols": [
+      "Animal Husbandry",
+      "sample collection",
+      "Image Scan Acquisition",
+      "Image Processing And Reconstruction",
+      "ALSDA Transformed Data"
+    ],
+    "publications": [],
+    "factors": [
+      "Spaceflight"
+    ],
+    "contacts": [
+      {
+        "first_name": "Eduardo",
+        "last_name": "Almeida",
+        "role": "Submitter",
+        "email": "e.almeida@nasa.gov"
+      },
+      {
+        "first_name": "Rukmani",
+        "last_name": "Cahill",
+        "role": "Co-investigator",
+        "email": "rucahill@ucsd.edu"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "RR1_BSL_M1_CorticalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": ""
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "113",
+          "Euthanasia Date (DD-Mon-YYYY)": "22-Sep-2014",
+          "Body Mass at Euthanasia": "",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_BSL_M1_DistalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": ""
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "113",
+          "Euthanasia Date (DD-Mon-YYYY)": "22-Sep-2014",
+          "Body Mass at Euthanasia": "",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_BSL_M1_Vertebrae",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Vertebrae",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": ""
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "113",
+          "Euthanasia Date (DD-Mon-YYYY)": "22-Sep-2014",
+          "Body Mass at Euthanasia": "",
+          "Sample Preservation Method": "wrapped in foil",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_BSL_M2_CorticalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": ""
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "113",
+          "Euthanasia Date (DD-Mon-YYYY)": "22-Sep-2014",
+          "Body Mass at Euthanasia": "",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_BSL_M2_DistalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": ""
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "113",
+          "Euthanasia Date (DD-Mon-YYYY)": "22-Sep-2014",
+          "Body Mass at Euthanasia": "",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_BSL_M2_Vertebrae",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Vertebrae",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": ""
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "113",
+          "Euthanasia Date (DD-Mon-YYYY)": "22-Sep-2014",
+          "Body Mass at Euthanasia": "",
+          "Sample Preservation Method": "wrapped in foil",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_BSL_M3_CorticalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": ""
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "113",
+          "Euthanasia Date (DD-Mon-YYYY)": "22-Sep-2014",
+          "Body Mass at Euthanasia": "19.83",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_BSL_M3_DistalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": ""
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "113",
+          "Euthanasia Date (DD-Mon-YYYY)": "22-Sep-2014",
+          "Body Mass at Euthanasia": "19.83",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_BSL_M3_FemoralHead",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": ""
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "113",
+          "Euthanasia Date (DD-Mon-YYYY)": "22-Sep-2014",
+          "Body Mass at Euthanasia": "19.83",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_BSL_M3_FemoralNeck",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": ""
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "113",
+          "Euthanasia Date (DD-Mon-YYYY)": "22-Sep-2014",
+          "Body Mass at Euthanasia": "19.83",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_BSL_M3_Vertebrae",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Vertebrae",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": ""
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "113",
+          "Euthanasia Date (DD-Mon-YYYY)": "22-Sep-2014",
+          "Body Mass at Euthanasia": "19.83",
+          "Sample Preservation Method": "wrapped in foil",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_BSL_M4_CorticalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": ""
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "113",
+          "Euthanasia Date (DD-Mon-YYYY)": "22-Sep-2014",
+          "Body Mass at Euthanasia": "17.85",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_BSL_M4_DistalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": ""
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "113",
+          "Euthanasia Date (DD-Mon-YYYY)": "22-Sep-2014",
+          "Body Mass at Euthanasia": "17.85",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_BSL_M4_FemoralHead",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": ""
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "113",
+          "Euthanasia Date (DD-Mon-YYYY)": "22-Sep-2014",
+          "Body Mass at Euthanasia": "17.85",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_BSL_M4_FemoralNeck",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": ""
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "113",
+          "Euthanasia Date (DD-Mon-YYYY)": "22-Sep-2014",
+          "Body Mass at Euthanasia": "17.85",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_BSL_M4_Vertebrae",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Vertebrae",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": ""
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "113",
+          "Euthanasia Date (DD-Mon-YYYY)": "22-Sep-2014",
+          "Body Mass at Euthanasia": "17.85",
+          "Sample Preservation Method": "wrapped in foil",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_BSL_M5_CorticalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": ""
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "113",
+          "Euthanasia Date (DD-Mon-YYYY)": "22-Sep-2014",
+          "Body Mass at Euthanasia": "20.62",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_BSL_M5_DistalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": ""
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "113",
+          "Euthanasia Date (DD-Mon-YYYY)": "22-Sep-2014",
+          "Body Mass at Euthanasia": "20.62",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_BSL_M5_FemoralHead",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": ""
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "113",
+          "Euthanasia Date (DD-Mon-YYYY)": "22-Sep-2014",
+          "Body Mass at Euthanasia": "20.62",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_BSL_M5_FemoralNeck",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": ""
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "113",
+          "Euthanasia Date (DD-Mon-YYYY)": "22-Sep-2014",
+          "Body Mass at Euthanasia": "20.62",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_BSL_M5_Vertebrae",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Vertebrae",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": ""
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "113",
+          "Euthanasia Date (DD-Mon-YYYY)": "22-Sep-2014",
+          "Body Mass at Euthanasia": "20.62",
+          "Sample Preservation Method": "wrapped in foil",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_BSL_M6_CorticalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": ""
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "113",
+          "Euthanasia Date (DD-Mon-YYYY)": "22-Sep-2014",
+          "Body Mass at Euthanasia": "22.81",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_BSL_M6_DistalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": ""
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "113",
+          "Euthanasia Date (DD-Mon-YYYY)": "22-Sep-2014",
+          "Body Mass at Euthanasia": "22.81",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_BSL_M6_Vertebrae",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Vertebrae",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": ""
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "113",
+          "Euthanasia Date (DD-Mon-YYYY)": "22-Sep-2014",
+          "Body Mass at Euthanasia": "22.81",
+          "Sample Preservation Method": "wrapped in foil",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_BSL_M7_CorticalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": ""
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "113",
+          "Euthanasia Date (DD-Mon-YYYY)": "22-Sep-2014",
+          "Body Mass at Euthanasia": "20.18",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_BSL_M7_DistalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": ""
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "113",
+          "Euthanasia Date (DD-Mon-YYYY)": "22-Sep-2014",
+          "Body Mass at Euthanasia": "20.18",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_BSL_M7_FemoralNeck",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": ""
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "113",
+          "Euthanasia Date (DD-Mon-YYYY)": "22-Sep-2014",
+          "Body Mass at Euthanasia": "20.18",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_BSL_M7_Vertebrae",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Vertebrae",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": ""
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "113",
+          "Euthanasia Date (DD-Mon-YYYY)": "22-Sep-2014",
+          "Body Mass at Euthanasia": "20.18",
+          "Sample Preservation Method": "wrapped in foil",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_BSL_M8_CorticalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": ""
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "113",
+          "Euthanasia Date (DD-Mon-YYYY)": "22-Sep-2014",
+          "Body Mass at Euthanasia": "19.71",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_BSL_M8_DistalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": ""
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "113",
+          "Euthanasia Date (DD-Mon-YYYY)": "22-Sep-2014",
+          "Body Mass at Euthanasia": "19.71",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_BSL_M8_FemoralHead",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": ""
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "113",
+          "Euthanasia Date (DD-Mon-YYYY)": "22-Sep-2014",
+          "Body Mass at Euthanasia": "19.71",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_BSL_M8_FemoralNeck",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": ""
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "113",
+          "Euthanasia Date (DD-Mon-YYYY)": "22-Sep-2014",
+          "Body Mass at Euthanasia": "19.71",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_BSL_M8_Vertebrae",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Vertebrae",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": ""
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "113",
+          "Euthanasia Date (DD-Mon-YYYY)": "22-Sep-2014",
+          "Body Mass at Euthanasia": "19.71",
+          "Sample Preservation Method": "wrapped in foil",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_BSL_M9_CorticalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": ""
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "113",
+          "Euthanasia Date (DD-Mon-YYYY)": "22-Sep-2014",
+          "Body Mass at Euthanasia": "20.57",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_BSL_M9_DistalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": ""
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "113",
+          "Euthanasia Date (DD-Mon-YYYY)": "22-Sep-2014",
+          "Body Mass at Euthanasia": "20.57",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_BSL_M9_FemoralHead",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": ""
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "113",
+          "Euthanasia Date (DD-Mon-YYYY)": "22-Sep-2014",
+          "Body Mass at Euthanasia": "20.57",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_BSL_M9_FemoralNeck",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": ""
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "113",
+          "Euthanasia Date (DD-Mon-YYYY)": "22-Sep-2014",
+          "Body Mass at Euthanasia": "20.57",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_BSL_M9_Vertebrae",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Vertebrae",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": ""
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "113",
+          "Euthanasia Date (DD-Mon-YYYY)": "22-Sep-2014",
+          "Body Mass at Euthanasia": "20.57",
+          "Sample Preservation Method": "wrapped in foil",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_BSL_M10_CorticalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": ""
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "113",
+          "Euthanasia Date (DD-Mon-YYYY)": "22-Sep-2014",
+          "Body Mass at Euthanasia": "20.45",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_BSL_M10_DistalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": ""
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "113",
+          "Euthanasia Date (DD-Mon-YYYY)": "22-Sep-2014",
+          "Body Mass at Euthanasia": "20.45",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_BSL_M10_FemoralNeck",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": ""
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "113",
+          "Euthanasia Date (DD-Mon-YYYY)": "22-Sep-2014",
+          "Body Mass at Euthanasia": "20.45",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_BSL_M10_Vertebrae",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Vertebrae",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": ""
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "113",
+          "Euthanasia Date (DD-Mon-YYYY)": "22-Sep-2014",
+          "Body Mass at Euthanasia": "20.45",
+          "Sample Preservation Method": "wrapped in foil",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_VIV_M11_CorticalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "152",
+          "Euthanasia Date (DD-Mon-YYYY)": "31-Oct-2014",
+          "Body Mass at Euthanasia": "",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_VIV_M11_DistalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "152",
+          "Euthanasia Date (DD-Mon-YYYY)": "31-Oct-2014",
+          "Body Mass at Euthanasia": "",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_VIV_M11_FemoralHead",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "152",
+          "Euthanasia Date (DD-Mon-YYYY)": "31-Oct-2014",
+          "Body Mass at Euthanasia": "",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_VIV_M11_FemoralNeck",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "152",
+          "Euthanasia Date (DD-Mon-YYYY)": "31-Oct-2014",
+          "Body Mass at Euthanasia": "",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_VIV_M11_Vertebrae",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Vertebrae",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "152",
+          "Euthanasia Date (DD-Mon-YYYY)": "31-Oct-2014",
+          "Body Mass at Euthanasia": "",
+          "Sample Preservation Method": "wrapped in foil",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_VIV_M12_CorticalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "152",
+          "Euthanasia Date (DD-Mon-YYYY)": "31-Oct-2014",
+          "Body Mass at Euthanasia": "",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_VIV_M12_DistalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "152",
+          "Euthanasia Date (DD-Mon-YYYY)": "31-Oct-2014",
+          "Body Mass at Euthanasia": "",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_VIV_M12_FemoralHead",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "152",
+          "Euthanasia Date (DD-Mon-YYYY)": "31-Oct-2014",
+          "Body Mass at Euthanasia": "",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_VIV_M12_FemoralNeck",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "152",
+          "Euthanasia Date (DD-Mon-YYYY)": "31-Oct-2014",
+          "Body Mass at Euthanasia": "",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_VIV_M12_Vertebrae",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Vertebrae",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "152",
+          "Euthanasia Date (DD-Mon-YYYY)": "31-Oct-2014",
+          "Body Mass at Euthanasia": "",
+          "Sample Preservation Method": "wrapped in foil",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_VIV_M13_CorticalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "152",
+          "Euthanasia Date (DD-Mon-YYYY)": "31-Oct-2014",
+          "Body Mass at Euthanasia": "20.52",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_VIV_M13_DistalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "152",
+          "Euthanasia Date (DD-Mon-YYYY)": "31-Oct-2014",
+          "Body Mass at Euthanasia": "20.52",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_VIV_M13_FemoralHead",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "152",
+          "Euthanasia Date (DD-Mon-YYYY)": "31-Oct-2014",
+          "Body Mass at Euthanasia": "20.52",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_VIV_M13_FemoralNeck",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "152",
+          "Euthanasia Date (DD-Mon-YYYY)": "31-Oct-2014",
+          "Body Mass at Euthanasia": "20.52",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_VIV_M14_CorticalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "152",
+          "Euthanasia Date (DD-Mon-YYYY)": "31-Oct-2014",
+          "Body Mass at Euthanasia": "23.13",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_VIV_M14_DistalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "152",
+          "Euthanasia Date (DD-Mon-YYYY)": "31-Oct-2014",
+          "Body Mass at Euthanasia": "23.13",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_VIV_M14_Vertebrae",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Vertebrae",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "152",
+          "Euthanasia Date (DD-Mon-YYYY)": "31-Oct-2014",
+          "Body Mass at Euthanasia": "23.13",
+          "Sample Preservation Method": "wrapped in foil",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_VIV_M15_CorticalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "152",
+          "Euthanasia Date (DD-Mon-YYYY)": "31-Oct-2014",
+          "Body Mass at Euthanasia": "24.77",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_VIV_M15_DistalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "152",
+          "Euthanasia Date (DD-Mon-YYYY)": "31-Oct-2014",
+          "Body Mass at Euthanasia": "24.77",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_VIV_M15_Vertebrae",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Vertebrae",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "152",
+          "Euthanasia Date (DD-Mon-YYYY)": "31-Oct-2014",
+          "Body Mass at Euthanasia": "24.77",
+          "Sample Preservation Method": "wrapped in foil",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_VIV_M16_CorticalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "152",
+          "Euthanasia Date (DD-Mon-YYYY)": "31-Oct-2014",
+          "Body Mass at Euthanasia": "20.96",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_VIV_M16_DistalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "152",
+          "Euthanasia Date (DD-Mon-YYYY)": "31-Oct-2014",
+          "Body Mass at Euthanasia": "20.96",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_VIV_M16_FemoralNeck",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "152",
+          "Euthanasia Date (DD-Mon-YYYY)": "31-Oct-2014",
+          "Body Mass at Euthanasia": "20.96",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_VIV_M16_Vertebrae",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Vertebrae",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "152",
+          "Euthanasia Date (DD-Mon-YYYY)": "31-Oct-2014",
+          "Body Mass at Euthanasia": "20.96",
+          "Sample Preservation Method": "wrapped in foil",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_VIV_M17_CorticalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "152",
+          "Euthanasia Date (DD-Mon-YYYY)": "31-Oct-2014",
+          "Body Mass at Euthanasia": "24.11",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_VIV_M17_DistalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "152",
+          "Euthanasia Date (DD-Mon-YYYY)": "31-Oct-2014",
+          "Body Mass at Euthanasia": "24.11",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_VIV_M17_FemoralHead",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "152",
+          "Euthanasia Date (DD-Mon-YYYY)": "31-Oct-2014",
+          "Body Mass at Euthanasia": "24.11",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_VIV_M17_FemoralNeck",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "152",
+          "Euthanasia Date (DD-Mon-YYYY)": "31-Oct-2014",
+          "Body Mass at Euthanasia": "24.11",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_VIV_M17_Vertebrae",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Vertebrae",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "152",
+          "Euthanasia Date (DD-Mon-YYYY)": "31-Oct-2014",
+          "Body Mass at Euthanasia": "24.11",
+          "Sample Preservation Method": "wrapped in foil",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_VIV_M18_CorticalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "152",
+          "Euthanasia Date (DD-Mon-YYYY)": "31-Oct-2014",
+          "Body Mass at Euthanasia": "20.4",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_VIV_M18_DistalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "152",
+          "Euthanasia Date (DD-Mon-YYYY)": "31-Oct-2014",
+          "Body Mass at Euthanasia": "20.4",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_VIV_M18_FemoralHead",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "152",
+          "Euthanasia Date (DD-Mon-YYYY)": "31-Oct-2014",
+          "Body Mass at Euthanasia": "20.4",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_VIV_M18_FemoralNeck",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "152",
+          "Euthanasia Date (DD-Mon-YYYY)": "31-Oct-2014",
+          "Body Mass at Euthanasia": "20.4",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_VIV_M18_Vertebrae",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Vertebrae",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "152",
+          "Euthanasia Date (DD-Mon-YYYY)": "31-Oct-2014",
+          "Body Mass at Euthanasia": "20.4",
+          "Sample Preservation Method": "wrapped in foil",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_VIV_M19_CorticalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "152",
+          "Euthanasia Date (DD-Mon-YYYY)": "31-Oct-2014",
+          "Body Mass at Euthanasia": "19.04",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_VIV_M19_DistalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "152",
+          "Euthanasia Date (DD-Mon-YYYY)": "31-Oct-2014",
+          "Body Mass at Euthanasia": "19.04",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_VIV_M19_Vertebrae",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Vertebrae",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "152",
+          "Euthanasia Date (DD-Mon-YYYY)": "31-Oct-2014",
+          "Body Mass at Euthanasia": "19.04",
+          "Sample Preservation Method": "wrapped in foil",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_VIV_M20_CorticalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "152",
+          "Euthanasia Date (DD-Mon-YYYY)": "31-Oct-2014",
+          "Body Mass at Euthanasia": "19.97",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_VIV_M20_DistalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "152",
+          "Euthanasia Date (DD-Mon-YYYY)": "31-Oct-2014",
+          "Body Mass at Euthanasia": "19.97",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_VIV_M20_FemoralHead",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "152",
+          "Euthanasia Date (DD-Mon-YYYY)": "31-Oct-2014",
+          "Body Mass at Euthanasia": "19.97",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_VIV_M20_FemoralNeck",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "152",
+          "Euthanasia Date (DD-Mon-YYYY)": "31-Oct-2014",
+          "Body Mass at Euthanasia": "19.97",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_VIV_M20_Vertebrae",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Vertebrae",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Standard Vivarium Cage",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "152",
+          "Euthanasia Date (DD-Mon-YYYY)": "31-Oct-2014",
+          "Body Mass at Euthanasia": "19.97",
+          "Sample Preservation Method": "wrapped in foil",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M21_CorticalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M21_DistalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M21_Vertebrae",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Vertebrae",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "",
+          "Sample Preservation Method": "wrapped in foil",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M22_CorticalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M22_DistalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M22_FemoralHead",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M22_FemoralNeck",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M22_Vertebrae",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Vertebrae",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "",
+          "Sample Preservation Method": "wrapped in foil",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M23_CorticalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "19.23",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M23_DistalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "19.23",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M23_Vertebrae",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Vertebrae",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "19.23",
+          "Sample Preservation Method": "wrapped in foil",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M24_CorticalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "20.83",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M24_DistalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "20.83",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M24_FemoralHead",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "20.83",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M24_FemoralNeck",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "20.83",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M24_Vertebrae",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Vertebrae",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "20.83",
+          "Sample Preservation Method": "wrapped in foil",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M25_CorticalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "20.75",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M25_DistalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "20.75",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M25_FemoralHead",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "20.75",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M25_FemoralNeck",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "20.75",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M25_Vertebrae",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Vertebrae",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "20.75",
+          "Sample Preservation Method": "wrapped in foil",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M26_CorticalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "21.72",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M26_DistalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "21.72",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M26_FemoralHead",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "21.72",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M26_FemoralNeck",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "21.72",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M26_Vertebrae",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Vertebrae",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "21.72",
+          "Sample Preservation Method": "wrapped in foil",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M27_CorticalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "19.71",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M27_DistalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "19.71",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M27_FemoralHead",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "19.71",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M27_FemoralNeck",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "19.71",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M27_Vertebrae",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Vertebrae",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "19.71",
+          "Sample Preservation Method": "wrapped in foil",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M28_CorticalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "21.12",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M28_DistalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "21.12",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M28_FemoralHead",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "21.12",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M28_FemoralNeck",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "21.12",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M28_Vertebrae",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Vertebrae",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "21.12",
+          "Sample Preservation Method": "wrapped in foil",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M29_CorticalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "20.25",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M29_DistalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "20.25",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M29_FemoralHead",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "20.25",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M29_FemoralNeck",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "20.25",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M29_Vertebrae",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Vertebrae",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "20.25",
+          "Sample Preservation Method": "wrapped in foil",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M30_CorticalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "20.66",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M30_DistalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "20.66",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M30_FemoralHead",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "20.66",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M30_FemoralNeck",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "20.66",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_FLT_M30_Vertebrae",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Vertebrae",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "149",
+          "Euthanasia Date (DD-Mon-YYYY)": "28-Oct-2014",
+          "Body Mass at Euthanasia": "20.66",
+          "Sample Preservation Method": "wrapped in foil",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_GC_M31_CorticalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "153",
+          "Euthanasia Date (DD-Mon-YYYY)": "01-Nov-2014",
+          "Body Mass at Euthanasia": "",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_GC_M31_DistalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "153",
+          "Euthanasia Date (DD-Mon-YYYY)": "01-Nov-2014",
+          "Body Mass at Euthanasia": "",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_GC_M31_Vertebrae",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Vertebrae",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "153",
+          "Euthanasia Date (DD-Mon-YYYY)": "01-Nov-2014",
+          "Body Mass at Euthanasia": "",
+          "Sample Preservation Method": "wrapped in foil",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_GC_M32_CorticalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "153",
+          "Euthanasia Date (DD-Mon-YYYY)": "01-Nov-2014",
+          "Body Mass at Euthanasia": "",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_GC_M32_DistalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "153",
+          "Euthanasia Date (DD-Mon-YYYY)": "01-Nov-2014",
+          "Body Mass at Euthanasia": "",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_GC_M32_Vertebrae",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Vertebrae",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "153",
+          "Euthanasia Date (DD-Mon-YYYY)": "01-Nov-2014",
+          "Body Mass at Euthanasia": "",
+          "Sample Preservation Method": "wrapped in foil",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_GC_M33_CorticalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "153",
+          "Euthanasia Date (DD-Mon-YYYY)": "01-Nov-2014",
+          "Body Mass at Euthanasia": "19.98",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_GC_M33_DistalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "153",
+          "Euthanasia Date (DD-Mon-YYYY)": "01-Nov-2014",
+          "Body Mass at Euthanasia": "19.98",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_GC_M33_Vertebrae",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Vertebrae",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "153",
+          "Euthanasia Date (DD-Mon-YYYY)": "01-Nov-2014",
+          "Body Mass at Euthanasia": "19.98",
+          "Sample Preservation Method": "wrapped in foil",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_GC_M34_CorticalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "153",
+          "Euthanasia Date (DD-Mon-YYYY)": "01-Nov-2014",
+          "Body Mass at Euthanasia": "21.18",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_GC_M34_DistalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "153",
+          "Euthanasia Date (DD-Mon-YYYY)": "01-Nov-2014",
+          "Body Mass at Euthanasia": "21.18",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_GC_M34_Vertebrae",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Vertebrae",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "153",
+          "Euthanasia Date (DD-Mon-YYYY)": "01-Nov-2014",
+          "Body Mass at Euthanasia": "21.18",
+          "Sample Preservation Method": "wrapped in foil",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_GC_M35_CorticalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "153",
+          "Euthanasia Date (DD-Mon-YYYY)": "01-Nov-2014",
+          "Body Mass at Euthanasia": "24.81",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_GC_M35_DistalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "153",
+          "Euthanasia Date (DD-Mon-YYYY)": "01-Nov-2014",
+          "Body Mass at Euthanasia": "24.81",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_GC_M35_Vertebrae",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Vertebrae",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "153",
+          "Euthanasia Date (DD-Mon-YYYY)": "01-Nov-2014",
+          "Body Mass at Euthanasia": "24.81",
+          "Sample Preservation Method": "wrapped in foil",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_GC_M36_CorticalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "153",
+          "Euthanasia Date (DD-Mon-YYYY)": "01-Nov-2014",
+          "Body Mass at Euthanasia": "20.39",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_GC_M36_DistalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "153",
+          "Euthanasia Date (DD-Mon-YYYY)": "01-Nov-2014",
+          "Body Mass at Euthanasia": "20.39",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_GC_M36_FemoralHead",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "153",
+          "Euthanasia Date (DD-Mon-YYYY)": "01-Nov-2014",
+          "Body Mass at Euthanasia": "20.39",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_GC_M36_FemoralNeck",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "153",
+          "Euthanasia Date (DD-Mon-YYYY)": "01-Nov-2014",
+          "Body Mass at Euthanasia": "20.39",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_GC_M36_Vertebrae",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Vertebrae",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "153",
+          "Euthanasia Date (DD-Mon-YYYY)": "01-Nov-2014",
+          "Body Mass at Euthanasia": "20.39",
+          "Sample Preservation Method": "wrapped in foil",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_GC_M37_CorticalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "153",
+          "Euthanasia Date (DD-Mon-YYYY)": "01-Nov-2014",
+          "Body Mass at Euthanasia": "20.97",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_GC_M37_DistalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "153",
+          "Euthanasia Date (DD-Mon-YYYY)": "01-Nov-2014",
+          "Body Mass at Euthanasia": "20.97",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_GC_M37_FemoralHead",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "153",
+          "Euthanasia Date (DD-Mon-YYYY)": "01-Nov-2014",
+          "Body Mass at Euthanasia": "20.97",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_GC_M37_FemoralNeck",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "153",
+          "Euthanasia Date (DD-Mon-YYYY)": "01-Nov-2014",
+          "Body Mass at Euthanasia": "20.97",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_GC_M37_Vertebrae",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Vertebrae",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "153",
+          "Euthanasia Date (DD-Mon-YYYY)": "01-Nov-2014",
+          "Body Mass at Euthanasia": "20.97",
+          "Sample Preservation Method": "wrapped in foil",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_GC_M38_CorticalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "153",
+          "Euthanasia Date (DD-Mon-YYYY)": "01-Nov-2014",
+          "Body Mass at Euthanasia": "20.12",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_GC_M38_DistalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "153",
+          "Euthanasia Date (DD-Mon-YYYY)": "01-Nov-2014",
+          "Body Mass at Euthanasia": "20.12",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_GC_M38_FemoralHead",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "153",
+          "Euthanasia Date (DD-Mon-YYYY)": "01-Nov-2014",
+          "Body Mass at Euthanasia": "20.12",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_GC_M38_FemoralNeck",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "153",
+          "Euthanasia Date (DD-Mon-YYYY)": "01-Nov-2014",
+          "Body Mass at Euthanasia": "20.12",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_GC_M38_Vertebrae",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Vertebrae",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "153",
+          "Euthanasia Date (DD-Mon-YYYY)": "01-Nov-2014",
+          "Body Mass at Euthanasia": "20.12",
+          "Sample Preservation Method": "wrapped in foil",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_GC_M39_CorticalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "153",
+          "Euthanasia Date (DD-Mon-YYYY)": "01-Nov-2014",
+          "Body Mass at Euthanasia": "21.94",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_GC_M39_DistalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "153",
+          "Euthanasia Date (DD-Mon-YYYY)": "01-Nov-2014",
+          "Body Mass at Euthanasia": "21.94",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_GC_M39_FemoralHead",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "153",
+          "Euthanasia Date (DD-Mon-YYYY)": "01-Nov-2014",
+          "Body Mass at Euthanasia": "21.94",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_GC_M39_FemoralNeck",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "153",
+          "Euthanasia Date (DD-Mon-YYYY)": "01-Nov-2014",
+          "Body Mass at Euthanasia": "21.94",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_GC_M39_Vertebrae",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Vertebrae",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "153",
+          "Euthanasia Date (DD-Mon-YYYY)": "01-Nov-2014",
+          "Body Mass at Euthanasia": "21.94",
+          "Sample Preservation Method": "wrapped in foil",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_GC_M40_CorticalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "153",
+          "Euthanasia Date (DD-Mon-YYYY)": "01-Nov-2014",
+          "Body Mass at Euthanasia": "22.65",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_GC_M40_DistalFemur",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "153",
+          "Euthanasia Date (DD-Mon-YYYY)": "01-Nov-2014",
+          "Body Mass at Euthanasia": "22.65",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_GC_M40_FemoralHead",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "153",
+          "Euthanasia Date (DD-Mon-YYYY)": "01-Nov-2014",
+          "Body Mass at Euthanasia": "22.65",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_GC_M40_FemoralNeck",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Femur",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "153",
+          "Euthanasia Date (DD-Mon-YYYY)": "01-Nov-2014",
+          "Body Mass at Euthanasia": "22.65",
+          "Sample Preservation Method": "RNAlater at 4C overnight",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "RR1_GC_M40_Vertebrae",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Vertebrae",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Date of Birth (DD-Mon-YYYY)": "01-Jun-2014",
+          "age": "16",
+          "duration": "37"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Diet": "Nutrient Upgraded Rodent Food Bar(NuRFB)",
+          "Habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Euthasol",
+          "Age at Euthanasia": "153",
+          "Euthanasia Date (DD-Mon-YYYY)": "01-Nov-2014",
+          "Body Mass at Euthanasia": "22.65",
+          "Sample Preservation Method": "wrapped in foil",
+          "Sample Storage Temperature": "-20"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "bone-microstructure",
+      "platform": "Bruker Skyscan 1272",
+      "qc": {},
+      "library": {},
+      "files": {
+        "raw": [],
+        "processed": [
+          "RR1_BSL_M1_CorticalFemur",
+          "ALSDA Transformed Data",
+          "SkyScan1272",
+          "Cortical Femur",
+          "0.48",
+          "micrometer",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000017",
+          "Saline",
+          "60",
+          "3x3x3",
+          "3",
+          "Manual",
+          "Micro-computed Tomography",
+          "LSDS-130_microCT_Cahill_RR1_MicroCt_Data_SUBMITTED.xlsx",
+          "LSDS-130_microCT_Cahill_microCT_TRANSFORMED.csv",
+          "RR1_BSL_M1_DistalFemur",
+          "Distal Femur",
+          "1.12",
+          "RR1_BSL_M1_Vertebrae",
+          "Vertebrae",
+          "0.6",
+          "4x4x4",
+          "RR1_BSL_M2_CorticalFemur",
+          "RR1_BSL_M2_DistalFemur",
+          "RR1_BSL_M2_Vertebrae",
+          "RR1_BSL_M3_CorticalFemur",
+          "RR1_BSL_M3_DistalFemur",
+          "RR1_BSL_M3_FemoralHead",
+          "Femoral Head",
+          "0.4",
+          "RR1_BSL_M3_FemoralNeck",
+          "Femoral Neck",
+          "0.14",
+          "RR1_BSL_M3_Vertebrae",
+          "RR1_BSL_M4_CorticalFemur",
+          "RR1_BSL_M4_DistalFemur",
+          "RR1_BSL_M4_FemoralHead",
+          "RR1_BSL_M4_FemoralNeck",
+          "RR1_BSL_M4_Vertebrae",
+          "RR1_BSL_M5_CorticalFemur",
+          "RR1_BSL_M5_DistalFemur",
+          "RR1_BSL_M5_FemoralHead",
+          "RR1_BSL_M5_FemoralNeck",
+          "RR1_BSL_M5_Vertebrae",
+          "RR1_BSL_M6_CorticalFemur",
+          "RR1_BSL_M6_DistalFemur",
+          "RR1_BSL_M6_Vertebrae",
+          "RR1_BSL_M7_CorticalFemur",
+          "RR1_BSL_M7_DistalFemur",
+          "RR1_BSL_M7_FemoralNeck",
+          "RR1_BSL_M7_Vertebrae",
+          "RR1_BSL_M8_CorticalFemur",
+          "RR1_BSL_M8_DistalFemur",
+          "RR1_BSL_M8_FemoralHead",
+          "RR1_BSL_M8_FemoralNeck",
+          "RR1_BSL_M8_Vertebrae",
+          "RR1_BSL_M9_CorticalFemur",
+          "RR1_BSL_M9_DistalFemur",
+          "RR1_BSL_M9_FemoralHead",
+          "RR1_BSL_M9_FemoralNeck",
+          "RR1_BSL_M9_Vertebrae",
+          "RR1_BSL_M10_CorticalFemur",
+          "RR1_BSL_M10_DistalFemur",
+          "RR1_BSL_M10_FemoralNeck",
+          "RR1_BSL_M10_Vertebrae",
+          "RR1_VIV_M11_CorticalFemur",
+          "RR1_VIV_M11_DistalFemur",
+          "RR1_VIV_M11_FemoralHead",
+          "RR1_VIV_M11_FemoralNeck",
+          "RR1_VIV_M11_Vertebrae",
+          "RR1_VIV_M12_CorticalFemur",
+          "RR1_VIV_M12_DistalFemur",
+          "RR1_VIV_M12_FemoralHead",
+          "RR1_VIV_M12_FemoralNeck",
+          "RR1_VIV_M12_Vertebrae",
+          "RR1_VIV_M13_CorticalFemur",
+          "RR1_VIV_M13_DistalFemur",
+          "RR1_VIV_M13_FemoralHead",
+          "RR1_VIV_M13_FemoralNeck",
+          "RR1_VIV_M14_CorticalFemur",
+          "RR1_VIV_M14_DistalFemur",
+          "RR1_VIV_M14_Vertebrae",
+          "RR1_VIV_M15_CorticalFemur",
+          "RR1_VIV_M15_DistalFemur",
+          "RR1_VIV_M15_Vertebrae",
+          "RR1_VIV_M16_CorticalFemur",
+          "RR1_VIV_M16_DistalFemur",
+          "RR1_VIV_M16_FemoralNeck",
+          "RR1_VIV_M16_Vertebrae",
+          "RR1_VIV_M17_CorticalFemur",
+          "RR1_VIV_M17_DistalFemur",
+          "RR1_VIV_M17_FemoralHead",
+          "RR1_VIV_M17_FemoralNeck",
+          "RR1_VIV_M17_Vertebrae",
+          "RR1_VIV_M18_CorticalFemur",
+          "RR1_VIV_M18_DistalFemur",
+          "RR1_VIV_M18_FemoralHead",
+          "RR1_VIV_M18_FemoralNeck",
+          "RR1_VIV_M18_Vertebrae",
+          "RR1_VIV_M19_CorticalFemur",
+          "RR1_VIV_M19_DistalFemur",
+          "RR1_VIV_M19_Vertebrae",
+          "RR1_VIV_M20_CorticalFemur",
+          "RR1_VIV_M20_DistalFemur",
+          "RR1_VIV_M20_FemoralHead",
+          "RR1_VIV_M20_FemoralNeck",
+          "RR1_VIV_M20_Vertebrae",
+          "RR1_FLT_M21_CorticalFemur",
+          "RR1_FLT_M21_DistalFemur",
+          "RR1_FLT_M21_Vertebrae",
+          "RR1_FLT_M22_CorticalFemur",
+          "RR1_FLT_M22_DistalFemur",
+          "RR1_FLT_M22_FemoralHead",
+          "RR1_FLT_M22_FemoralNeck",
+          "RR1_FLT_M22_Vertebrae",
+          "RR1_FLT_M23_CorticalFemur",
+          "RR1_FLT_M23_DistalFemur",
+          "RR1_FLT_M23_Vertebrae",
+          "RR1_FLT_M24_CorticalFemur",
+          "RR1_FLT_M24_DistalFemur",
+          "RR1_FLT_M24_FemoralHead",
+          "RR1_FLT_M24_FemoralNeck",
+          "RR1_FLT_M24_Vertebrae",
+          "RR1_FLT_M25_CorticalFemur",
+          "RR1_FLT_M25_DistalFemur",
+          "RR1_FLT_M25_FemoralHead",
+          "RR1_FLT_M25_FemoralNeck",
+          "RR1_FLT_M25_Vertebrae",
+          "RR1_FLT_M26_CorticalFemur",
+          "RR1_FLT_M26_DistalFemur",
+          "RR1_FLT_M26_FemoralHead",
+          "RR1_FLT_M26_FemoralNeck",
+          "RR1_FLT_M26_Vertebrae",
+          "RR1_FLT_M27_CorticalFemur",
+          "RR1_FLT_M27_DistalFemur",
+          "RR1_FLT_M27_FemoralHead",
+          "RR1_FLT_M27_FemoralNeck",
+          "RR1_FLT_M27_Vertebrae",
+          "RR1_FLT_M28_CorticalFemur",
+          "RR1_FLT_M28_DistalFemur",
+          "RR1_FLT_M28_FemoralHead",
+          "RR1_FLT_M28_FemoralNeck",
+          "RR1_FLT_M28_Vertebrae",
+          "RR1_FLT_M29_CorticalFemur",
+          "RR1_FLT_M29_DistalFemur",
+          "RR1_FLT_M29_FemoralHead",
+          "RR1_FLT_M29_FemoralNeck",
+          "RR1_FLT_M29_Vertebrae",
+          "RR1_FLT_M30_CorticalFemur",
+          "RR1_FLT_M30_DistalFemur",
+          "RR1_FLT_M30_FemoralHead",
+          "RR1_FLT_M30_FemoralNeck",
+          "RR1_FLT_M30_Vertebrae",
+          "RR1_GC_M31_CorticalFemur",
+          "RR1_GC_M31_DistalFemur",
+          "RR1_GC_M31_Vertebrae",
+          "RR1_GC_M32_CorticalFemur",
+          "RR1_GC_M32_DistalFemur",
+          "RR1_GC_M32_Vertebrae",
+          "RR1_GC_M33_CorticalFemur",
+          "RR1_GC_M33_DistalFemur",
+          "RR1_GC_M33_Vertebrae",
+          "RR1_GC_M34_CorticalFemur",
+          "RR1_GC_M34_DistalFemur",
+          "RR1_GC_M34_Vertebrae",
+          "RR1_GC_M35_CorticalFemur",
+          "RR1_GC_M35_DistalFemur",
+          "RR1_GC_M35_Vertebrae",
+          "RR1_GC_M36_CorticalFemur",
+          "RR1_GC_M36_DistalFemur",
+          "RR1_GC_M36_FemoralHead",
+          "RR1_GC_M36_FemoralNeck",
+          "RR1_GC_M36_Vertebrae",
+          "RR1_GC_M37_CorticalFemur",
+          "RR1_GC_M37_DistalFemur",
+          "RR1_GC_M37_FemoralHead",
+          "RR1_GC_M37_FemoralNeck",
+          "RR1_GC_M37_Vertebrae",
+          "RR1_GC_M38_CorticalFemur",
+          "RR1_GC_M38_DistalFemur",
+          "RR1_GC_M38_FemoralHead",
+          "RR1_GC_M38_FemoralNeck",
+          "RR1_GC_M38_Vertebrae",
+          "RR1_GC_M39_CorticalFemur",
+          "RR1_GC_M39_DistalFemur",
+          "RR1_GC_M39_FemoralHead",
+          "RR1_GC_M39_FemoralNeck",
+          "RR1_GC_M39_Vertebrae",
+          "RR1_GC_M40_CorticalFemur",
+          "RR1_GC_M40_DistalFemur",
+          "RR1_GC_M40_FemoralHead",
+          "RR1_GC_M40_FemoralNeck",
+          "RR1_GC_M40_Vertebrae"
+        ],
+        "reports": []
+      }
+    }
+  ]
+}

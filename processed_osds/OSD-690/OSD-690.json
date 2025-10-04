@@ -1,0 +1,1388 @@
+{
+  "investigation": {
+    "id": "OSD-690",
+    "title": "Nrf2 alleviates spaceflight-induced immunosuppression and thrombotic microangiopathy in mice",
+    "description": "Spaceflight-related stresses impact health via various body systems, including the haematopoietic and immune systems, with effects ranging from moderate alterations of homoeostasis to serious illness. Oxidative stress appears to be involved in these changes, and the transcription factor Nrf2, which regulates expression of a set of cytoprotective and antioxidative stress response genes, has been implicated in the response to spaceflight-induced stresses.",
+    "mission": {
+      "name": "SpaceX-14",
+      "start_date": "04/02/2018",
+      "end_date": "05/05/2018",
+      "link": "https://osdr.nasa.gov/bio/repo/data/missions/SpaceX-14"
+    },
+    "project": {
+      "identifier": "MHU-3",
+      "title": "",
+      "type": "Spaceflight Study",
+      "link": "",
+      "funding": "This work was selected as a space rodent research study for JAXA’s feasibility experiments using ISS/Kibo announced in 2015, and also supported in part by MEXT/JSPS KAKENHI (19H03555 to R.S., 19H05649 to M.Y., and 18H04963 to T. Suzuki), BINDS/AMED (JP22ama121038 to M.Y.) and the Smart Aging Research Center, Tohoku University (M.Y.). This work was also supported in part by the grants JP19km0105001 and JP19km0105002.",
+      "managing_center": "Kennedy Space Center (KSC)"
+    },
+    "protocols": [
+      "Animal Husbandry",
+      "sample collection",
+      "Nucleic Acid Extraction",
+      "Library Construction",
+      "Nucleic Acid Sequencing",
+      "Sequence Analysis Data Transformation",
+      "GeneLab raw data processing protocol",
+      "GeneLab RNAseq data processing protocol"
+    ],
+    "publications": [
+      {
+        "title": "Nrf2 alleviates spaceflight-induced immunosuppression and thrombotic microangiopathy in mice.",
+        "doi": "10.1038/s42003-023-05251-w",
+        "authors": [
+          "Shimizu R",
+          "Hirano I",
+          "Hasegawa A",
+          "Suzuki M",
+          "Otsuki A",
+          "Taguchi K",
+          "Katsuoka F",
+          "Uruno A",
+          "Suzuki N",
+          "Yumoto A",
+          "Okada R",
+          "Shirakawa M",
+          "Shiba D",
+          "Takahashi S",
+          "Suzuki T",
+          "Yamamoto M."
+        ],
+        "summary": "Nrf2 alleviates spaceflight-induced immunosuppression and thrombotic microangiopathy in mice. — 10.1038/s42003-023-05251-w"
+      }
+    ],
+    "factors": [
+      "Spaceflight",
+      "Genotype"
+    ],
+    "contacts": [
+      {
+        "first_name": "Ritsuko",
+        "last_name": "Shimizu",
+        "role": "Author",
+        "email": "rshimizu@med.tohoku.ac.jp"
+      },
+      {
+        "first_name": "Ikuo",
+        "last_name": "Hirano",
+        "role": "Author",
+        "email": "ikuo.hirano.e6@tohoku.ac.jp"
+      },
+      {
+        "first_name": "Atsushi",
+        "last_name": "Hasegawa",
+        "role": "Author",
+        "email": "shiba.dai@jaxa.jp"
+      },
+      {
+        "first_name": "Mikiko",
+        "last_name": "Suzuki",
+        "role": "Author",
+        "email": "masiyamamoto@med.tohoku.ac.jp"
+      },
+      {
+        "first_name": "Akihito",
+        "last_name": "Otsuki",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Keiko",
+        "last_name": "Taguchi",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Fumiki",
+        "last_name": "Katsuoka",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Akira",
+        "last_name": "Uruno",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Norio",
+        "last_name": "Suzuki",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Akane",
+        "last_name": "Yumoto",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Risa",
+        "last_name": "Okada",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Masaki",
+        "last_name": "Shirakawa",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Dai",
+        "last_name": "Shiba",
+        "role": "conceptualization role",
+        "email": ""
+      },
+      {
+        "first_name": "Satoru",
+        "last_name": "Takahashi",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Takafumi",
+        "last_name": "Suzuki",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Masayuki",
+        "last_name": "Yamamoto",
+        "role": "conceptualization role",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "GSM7706822",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Sex": "Male",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Charles River Laboratories",
+          "Age at Launch": "12",
+          "Material Type": "Bone Marrow"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "Diet": "Charles River Formula 1 (CRF-1)",
+          "light cycle": "12 h light/dark cycle",
+          "Housing Temperature": "22.9",
+          "Humidity": "48.4",
+          "Airflow": "0.2",
+          "duration": "31",
+          "Euthanasia Method": "Exsanguination",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "age at euthanasia": "16"
+        },
+        "comments": {
+          "Feeding Schedule": "The block food (approximately 35g) is contained in the cartridge, which supports 1-week habitation."
+        }
+      },
+      {
+        "sample_name": "GSM7706823",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Sex": "Male",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Charles River Laboratories",
+          "Age at Launch": "12",
+          "Material Type": "Bone Marrow"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "Diet": "Charles River Formula 1 (CRF-1)",
+          "light cycle": "12 h light/dark cycle",
+          "Housing Temperature": "22.9",
+          "Humidity": "48.4",
+          "Airflow": "0.2",
+          "duration": "31",
+          "Euthanasia Method": "Exsanguination",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "age at euthanasia": "16"
+        },
+        "comments": {
+          "Feeding Schedule": "The block food (approximately 35g) is contained in the cartridge, which supports 1-week habitation."
+        }
+      },
+      {
+        "sample_name": "GSM7706824",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Sex": "Male",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Charles River Laboratories",
+          "Age at Launch": "12",
+          "Material Type": "Bone Marrow"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "Diet": "Charles River Formula 1 (CRF-1)",
+          "light cycle": "12 h light/dark cycle",
+          "Housing Temperature": "22.9",
+          "Humidity": "48.4",
+          "Airflow": "0.2",
+          "duration": "31",
+          "Euthanasia Method": "Exsanguination",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "age at euthanasia": "16"
+        },
+        "comments": {
+          "Feeding Schedule": "The block food (approximately 35g) is contained in the cartridge, which supports 1-week habitation."
+        }
+      },
+      {
+        "sample_name": "GSM7706825",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Sex": "Male",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Charles River Laboratories",
+          "Age at Launch": "12",
+          "Material Type": "Bone Marrow"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "Diet": "Charles River Formula 1 (CRF-1)",
+          "light cycle": "12 h light/dark cycle",
+          "Housing Temperature": "22.9",
+          "Humidity": "48.4",
+          "Airflow": "0.2",
+          "duration": "31",
+          "Euthanasia Method": "Exsanguination",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "age at euthanasia": "16"
+        },
+        "comments": {
+          "Feeding Schedule": "The block food (approximately 35g) is contained in the cartridge, which supports 1-week habitation."
+        }
+      },
+      {
+        "sample_name": "GSM7706826",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Sex": "Male",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Charles River Laboratories",
+          "Age at Launch": "12",
+          "Material Type": "Bone Marrow"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "Diet": "Charles River Formula 1 (CRF-1)",
+          "light cycle": "12 h light/dark cycle",
+          "Housing Temperature": "22.9",
+          "Humidity": "48.4",
+          "Airflow": "0.2",
+          "duration": "31",
+          "Euthanasia Method": "Exsanguination",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "age at euthanasia": "16"
+        },
+        "comments": {
+          "Feeding Schedule": "The block food (approximately 35g) is contained in the cartridge, which supports 1-week habitation."
+        }
+      },
+      {
+        "sample_name": "GSM7706827",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Sex": "Male",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Charles River Laboratories",
+          "Age at Launch": "12",
+          "Material Type": "Bone Marrow"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "Diet": "Charles River Formula 1 (CRF-1)",
+          "light cycle": "12 h light/dark cycle",
+          "Housing Temperature": "22.9",
+          "Humidity": "48.4",
+          "Airflow": "0.2",
+          "duration": "31",
+          "Euthanasia Method": "Exsanguination",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "age at euthanasia": "16"
+        },
+        "comments": {
+          "Feeding Schedule": "The block food (approximately 35g) is contained in the cartridge, which supports 1-week habitation."
+        }
+      },
+      {
+        "sample_name": "GSM7706828",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Sex": "Male",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Charles River Laboratories",
+          "Age at Launch": "12",
+          "Material Type": "Bone Marrow"
+        },
+        "factors": {
+          "Genotype": "Nrf2KO",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "Diet": "Charles River Formula 1 (CRF-1)",
+          "light cycle": "12 h light/dark cycle",
+          "Housing Temperature": "22.9",
+          "Humidity": "48.4",
+          "Airflow": "0.2",
+          "duration": "31",
+          "Euthanasia Method": "Exsanguination",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "age at euthanasia": "16"
+        },
+        "comments": {
+          "Feeding Schedule": "The block food (approximately 35g) is contained in the cartridge, which supports 1-week habitation."
+        }
+      },
+      {
+        "sample_name": "GSM7706829",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Sex": "Male",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Charles River Laboratories",
+          "Age at Launch": "12",
+          "Material Type": "Bone Marrow"
+        },
+        "factors": {
+          "Genotype": "Nrf2KO",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "Diet": "Charles River Formula 1 (CRF-1)",
+          "light cycle": "12 h light/dark cycle",
+          "Housing Temperature": "22.9",
+          "Humidity": "48.4",
+          "Airflow": "0.2",
+          "duration": "31",
+          "Euthanasia Method": "Exsanguination",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "age at euthanasia": "16"
+        },
+        "comments": {
+          "Feeding Schedule": "The block food (approximately 35g) is contained in the cartridge, which supports 1-week habitation."
+        }
+      },
+      {
+        "sample_name": "GSM7706830",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Sex": "Male",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Charles River Laboratories",
+          "Age at Launch": "12",
+          "Material Type": "Bone Marrow"
+        },
+        "factors": {
+          "Genotype": "Nrf2KO",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "Diet": "Charles River Formula 1 (CRF-1)",
+          "light cycle": "12 h light/dark cycle",
+          "Housing Temperature": "22.9",
+          "Humidity": "48.4",
+          "Airflow": "0.2",
+          "duration": "31",
+          "Euthanasia Method": "Exsanguination",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "age at euthanasia": "16"
+        },
+        "comments": {
+          "Feeding Schedule": "The block food (approximately 35g) is contained in the cartridge, which supports 1-week habitation."
+        }
+      },
+      {
+        "sample_name": "GSM7706831",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Sex": "Male",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Charles River Laboratories",
+          "Age at Launch": "12",
+          "Material Type": "Bone Marrow"
+        },
+        "factors": {
+          "Genotype": "Nrf2KO",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "Diet": "Charles River Formula 1 (CRF-1)",
+          "light cycle": "12 h light/dark cycle",
+          "Housing Temperature": "22.9",
+          "Humidity": "48.4",
+          "Airflow": "0.2",
+          "duration": "31",
+          "Euthanasia Method": "Exsanguination",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "age at euthanasia": "16"
+        },
+        "comments": {
+          "Feeding Schedule": "The block food (approximately 35g) is contained in the cartridge, which supports 1-week habitation."
+        }
+      },
+      {
+        "sample_name": "GSM7706832",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Sex": "Male",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Charles River Laboratories",
+          "Age at Launch": "12",
+          "Material Type": "Bone Marrow"
+        },
+        "factors": {
+          "Genotype": "Nrf2KO",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "Diet": "Charles River Formula 1 (CRF-1)",
+          "light cycle": "12 h light/dark cycle",
+          "Housing Temperature": "22.9",
+          "Humidity": "48.4",
+          "Airflow": "0.2",
+          "duration": "31",
+          "Euthanasia Method": "Exsanguination",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "age at euthanasia": "16"
+        },
+        "comments": {
+          "Feeding Schedule": "The block food (approximately 35g) is contained in the cartridge, which supports 1-week habitation."
+        }
+      },
+      {
+        "sample_name": "GSM7706833",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Sex": "Male",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Charles River Laboratories",
+          "Age at Launch": "12",
+          "Material Type": "Bone Marrow"
+        },
+        "factors": {
+          "Genotype": "Nrf2KO",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "Diet": "Charles River Formula 1 (CRF-1)",
+          "light cycle": "12 h light/dark cycle",
+          "Housing Temperature": "22.9",
+          "Humidity": "48.4",
+          "Airflow": "0.2",
+          "duration": "31",
+          "Euthanasia Method": "Exsanguination",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "age at euthanasia": "16"
+        },
+        "comments": {
+          "Feeding Schedule": "The block food (approximately 35g) is contained in the cartridge, which supports 1-week habitation."
+        }
+      },
+      {
+        "sample_name": "GSM7706834",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Sex": "Male",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Charles River Laboratories",
+          "Age at Launch": "12",
+          "Material Type": "Bone Marrow"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "Diet": "Charles River Formula 1 (CRF-1)",
+          "light cycle": "12 h light/dark cycle",
+          "Housing Temperature": "20-26",
+          "Humidity": "40-65",
+          "Airflow": "0.2",
+          "duration": "31",
+          "Euthanasia Method": "Exsanguination",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "age at euthanasia": "16"
+        },
+        "comments": {
+          "Feeding Schedule": "The block food (approximately 35g) is contained in the cartridge, which supports 1-week habitation."
+        }
+      },
+      {
+        "sample_name": "GSM7706835",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Sex": "Male",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Charles River Laboratories",
+          "Age at Launch": "12",
+          "Material Type": "Bone Marrow"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "Diet": "Charles River Formula 1 (CRF-1)",
+          "light cycle": "12 h light/dark cycle",
+          "Housing Temperature": "20-26",
+          "Humidity": "40-65",
+          "Airflow": "0.2",
+          "duration": "31",
+          "Euthanasia Method": "Exsanguination",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "age at euthanasia": "16"
+        },
+        "comments": {
+          "Feeding Schedule": "The block food (approximately 35g) is contained in the cartridge, which supports 1-week habitation."
+        }
+      },
+      {
+        "sample_name": "GSM7706836",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Sex": "Male",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Charles River Laboratories",
+          "Age at Launch": "12",
+          "Material Type": "Bone Marrow"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "Diet": "Charles River Formula 1 (CRF-1)",
+          "light cycle": "12 h light/dark cycle",
+          "Housing Temperature": "20-26",
+          "Humidity": "40-65",
+          "Airflow": "0.2",
+          "duration": "31",
+          "Euthanasia Method": "Exsanguination",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "age at euthanasia": "16"
+        },
+        "comments": {
+          "Feeding Schedule": "The block food (approximately 35g) is contained in the cartridge, which supports 1-week habitation."
+        }
+      },
+      {
+        "sample_name": "GSM7706837",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Sex": "Male",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Charles River Laboratories",
+          "Age at Launch": "12",
+          "Material Type": "Bone Marrow"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "Diet": "Charles River Formula 1 (CRF-1)",
+          "light cycle": "12 h light/dark cycle",
+          "Housing Temperature": "20-26",
+          "Humidity": "40-65",
+          "Airflow": "0.2",
+          "duration": "31",
+          "Euthanasia Method": "Exsanguination",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "age at euthanasia": "16"
+        },
+        "comments": {
+          "Feeding Schedule": "The block food (approximately 35g) is contained in the cartridge, which supports 1-week habitation."
+        }
+      },
+      {
+        "sample_name": "GSM7706838",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Sex": "Male",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Charles River Laboratories",
+          "Age at Launch": "12",
+          "Material Type": "Bone Marrow"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "Diet": "Charles River Formula 1 (CRF-1)",
+          "light cycle": "12 h light/dark cycle",
+          "Housing Temperature": "20-26",
+          "Humidity": "40-65",
+          "Airflow": "0.2",
+          "duration": "31",
+          "Euthanasia Method": "Exsanguination",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "age at euthanasia": "16"
+        },
+        "comments": {
+          "Feeding Schedule": "The block food (approximately 35g) is contained in the cartridge, which supports 1-week habitation."
+        }
+      },
+      {
+        "sample_name": "GSM7706839",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Sex": "Male",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Charles River Laboratories",
+          "Age at Launch": "12",
+          "Material Type": "Bone Marrow"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "Diet": "Charles River Formula 1 (CRF-1)",
+          "light cycle": "12 h light/dark cycle",
+          "Housing Temperature": "20-26",
+          "Humidity": "40-65",
+          "Airflow": "0.2",
+          "duration": "31",
+          "Euthanasia Method": "Exsanguination",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "age at euthanasia": "16"
+        },
+        "comments": {
+          "Feeding Schedule": "The block food (approximately 35g) is contained in the cartridge, which supports 1-week habitation."
+        }
+      },
+      {
+        "sample_name": "GSM7706840",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Sex": "Male",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Charles River Laboratories",
+          "Age at Launch": "12",
+          "Material Type": "Bone Marrow"
+        },
+        "factors": {
+          "Genotype": "Nrf2KO",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "Diet": "Charles River Formula 1 (CRF-1)",
+          "light cycle": "12 h light/dark cycle",
+          "Housing Temperature": "20-26",
+          "Humidity": "40-65",
+          "Airflow": "0.2",
+          "duration": "31",
+          "Euthanasia Method": "Exsanguination",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "age at euthanasia": "16"
+        },
+        "comments": {
+          "Feeding Schedule": "The block food (approximately 35g) is contained in the cartridge, which supports 1-week habitation."
+        }
+      },
+      {
+        "sample_name": "GSM7706841",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Sex": "Male",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Charles River Laboratories",
+          "Age at Launch": "12",
+          "Material Type": "Bone Marrow"
+        },
+        "factors": {
+          "Genotype": "Nrf2KO",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "Diet": "Charles River Formula 1 (CRF-1)",
+          "light cycle": "12 h light/dark cycle",
+          "Housing Temperature": "20-26",
+          "Humidity": "40-65",
+          "Airflow": "0.2",
+          "duration": "31",
+          "Euthanasia Method": "Exsanguination",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "age at euthanasia": "16"
+        },
+        "comments": {
+          "Feeding Schedule": "The block food (approximately 35g) is contained in the cartridge, which supports 1-week habitation."
+        }
+      },
+      {
+        "sample_name": "GSM7706842",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Sex": "Male",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Charles River Laboratories",
+          "Age at Launch": "12",
+          "Material Type": "Bone Marrow"
+        },
+        "factors": {
+          "Genotype": "Nrf2KO",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "Diet": "Charles River Formula 1 (CRF-1)",
+          "light cycle": "12 h light/dark cycle",
+          "Housing Temperature": "20-26",
+          "Humidity": "40-65",
+          "Airflow": "0.2",
+          "duration": "31",
+          "Euthanasia Method": "Exsanguination",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "age at euthanasia": "16"
+        },
+        "comments": {
+          "Feeding Schedule": "The block food (approximately 35g) is contained in the cartridge, which supports 1-week habitation."
+        }
+      },
+      {
+        "sample_name": "GSM7706843",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Sex": "Male",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Charles River Laboratories",
+          "Age at Launch": "12",
+          "Material Type": "Bone Marrow"
+        },
+        "factors": {
+          "Genotype": "Nrf2KO",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "Diet": "Charles River Formula 1 (CRF-1)",
+          "light cycle": "12 h light/dark cycle",
+          "Housing Temperature": "20-26",
+          "Humidity": "40-65",
+          "Airflow": "0.2",
+          "duration": "31",
+          "Euthanasia Method": "Exsanguination",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "age at euthanasia": "16"
+        },
+        "comments": {
+          "Feeding Schedule": "The block food (approximately 35g) is contained in the cartridge, which supports 1-week habitation."
+        }
+      },
+      {
+        "sample_name": "GSM7706844",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Sex": "Male",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Charles River Laboratories",
+          "Age at Launch": "12",
+          "Material Type": "Bone Marrow"
+        },
+        "factors": {
+          "Genotype": "Nrf2KO",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "Diet": "Charles River Formula 1 (CRF-1)",
+          "light cycle": "12 h light/dark cycle",
+          "Housing Temperature": "20-26",
+          "Humidity": "40-65",
+          "Airflow": "0.2",
+          "duration": "31",
+          "Euthanasia Method": "Exsanguination",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "age at euthanasia": "16"
+        },
+        "comments": {
+          "Feeding Schedule": "The block food (approximately 35g) is contained in the cartridge, which supports 1-week habitation."
+        }
+      },
+      {
+        "sample_name": "GSM7706845",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Sex": "Male",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Charles River Laboratories",
+          "Age at Launch": "12",
+          "Material Type": "Bone Marrow"
+        },
+        "factors": {
+          "Genotype": "Nrf2KO",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "Diet": "Charles River Formula 1 (CRF-1)",
+          "light cycle": "12 h light/dark cycle",
+          "Housing Temperature": "20-26",
+          "Humidity": "40-65",
+          "Airflow": "0.2",
+          "duration": "31",
+          "Euthanasia Method": "Exsanguination",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "age at euthanasia": "16"
+        },
+        "comments": {
+          "Feeding Schedule": "The block food (approximately 35g) is contained in the cartridge, which supports 1-week habitation."
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "DNBSEQ-G400 (MGI)",
+      "qc": {
+        "QA Instrument": "Agilent 2200 TapeStation",
+        "Read Depth": "34429884",
+        "rRNA Contamination": "26.1"
+      },
+      "library": {
+        "Library Selection": "rRNA depletion",
+        "Library Layout": "PAIRED",
+        "Stranded": "STRANDED"
+      },
+      "files": {
+        "raw": [
+          "GLDS-620_rna-seq_GSM7706822_R1_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706822_R2_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706823_R1_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706823_R2_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706824_R1_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706824_R2_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706825_R1_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706825_R2_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706826_R1_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706826_R2_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706827_R1_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706827_R2_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706828_R1_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706828_R2_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706829_R1_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706829_R2_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706830_R1_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706830_R2_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706831_R1_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706831_R2_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706832_R1_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706832_R2_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706833_R1_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706833_R2_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706834_R1_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706834_R2_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706835_R1_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706835_R2_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706836_R1_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706836_R2_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706837_R1_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706837_R2_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706838_R1_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706838_R2_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706839_R1_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706839_R2_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706840_R1_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706840_R2_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706841_R1_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706841_R2_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706842_R1_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706842_R2_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706843_R1_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706843_R2_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706844_R1_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706844_R2_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706845_R1_raw.fastq.gz",
+          "GLDS-620_rna-seq_GSM7706845_R2_raw.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706822_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706822_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706823_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706823_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706824_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706824_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706825_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706825_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706826_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706826_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706827_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706827_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706828_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706828_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706829_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706829_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706830_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706830_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706831_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706831_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706832_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706832_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706833_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706833_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706834_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706834_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706835_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706835_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706836_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706836_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706837_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706837_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706838_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706838_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706839_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706839_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706840_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706840_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706841_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706841_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706842_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706842_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706843_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706843_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706844_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706844_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706845_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706845_R2_trimmed.fastq.gz"
+        ],
+        "processed": [
+          "GLDS-620_rna-seq_GSE240654_Space_BM_data_TPM.csv",
+          "GLDS-620_rna_seq_GSM7706822_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706822_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706822_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-620_rna_seq_GSM7706822_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-620_rna_seq_GSM7706822_Aligned.toTranscriptome.out.bam",
+          "GLDS-620_rna_seq_GSM7706822_SJ.out.tab",
+          "GLDS-620_rna_seq_GSM7706823_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706823_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706823_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-620_rna_seq_GSM7706823_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-620_rna_seq_GSM7706823_Aligned.toTranscriptome.out.bam",
+          "GLDS-620_rna_seq_GSM7706823_SJ.out.tab",
+          "GLDS-620_rna_seq_GSM7706824_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706824_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706824_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-620_rna_seq_GSM7706824_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-620_rna_seq_GSM7706824_Aligned.toTranscriptome.out.bam",
+          "GLDS-620_rna_seq_GSM7706824_SJ.out.tab",
+          "GLDS-620_rna_seq_GSM7706825_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706825_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706825_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-620_rna_seq_GSM7706825_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-620_rna_seq_GSM7706825_Aligned.toTranscriptome.out.bam",
+          "GLDS-620_rna_seq_GSM7706825_SJ.out.tab",
+          "GLDS-620_rna_seq_GSM7706826_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706826_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706826_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-620_rna_seq_GSM7706826_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-620_rna_seq_GSM7706826_Aligned.toTranscriptome.out.bam",
+          "GLDS-620_rna_seq_GSM7706826_SJ.out.tab",
+          "GLDS-620_rna_seq_GSM7706827_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706827_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706827_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-620_rna_seq_GSM7706827_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-620_rna_seq_GSM7706827_Aligned.toTranscriptome.out.bam",
+          "GLDS-620_rna_seq_GSM7706827_SJ.out.tab",
+          "GLDS-620_rna_seq_GSM7706828_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706828_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706828_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-620_rna_seq_GSM7706828_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-620_rna_seq_GSM7706828_Aligned.toTranscriptome.out.bam",
+          "GLDS-620_rna_seq_GSM7706828_SJ.out.tab",
+          "GLDS-620_rna_seq_GSM7706829_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706829_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706829_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-620_rna_seq_GSM7706829_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-620_rna_seq_GSM7706829_Aligned.toTranscriptome.out.bam",
+          "GLDS-620_rna_seq_GSM7706829_SJ.out.tab",
+          "GLDS-620_rna_seq_GSM7706830_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706830_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706830_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-620_rna_seq_GSM7706830_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-620_rna_seq_GSM7706830_Aligned.toTranscriptome.out.bam",
+          "GLDS-620_rna_seq_GSM7706830_SJ.out.tab",
+          "GLDS-620_rna_seq_GSM7706831_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706831_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706831_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-620_rna_seq_GSM7706831_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-620_rna_seq_GSM7706831_Aligned.toTranscriptome.out.bam",
+          "GLDS-620_rna_seq_GSM7706831_SJ.out.tab",
+          "GLDS-620_rna_seq_GSM7706832_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706832_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706832_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-620_rna_seq_GSM7706832_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-620_rna_seq_GSM7706832_Aligned.toTranscriptome.out.bam",
+          "GLDS-620_rna_seq_GSM7706832_SJ.out.tab",
+          "GLDS-620_rna_seq_GSM7706833_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706833_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706833_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-620_rna_seq_GSM7706833_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-620_rna_seq_GSM7706833_Aligned.toTranscriptome.out.bam",
+          "GLDS-620_rna_seq_GSM7706833_SJ.out.tab",
+          "GLDS-620_rna_seq_GSM7706834_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706834_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706834_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-620_rna_seq_GSM7706834_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-620_rna_seq_GSM7706834_Aligned.toTranscriptome.out.bam",
+          "GLDS-620_rna_seq_GSM7706834_SJ.out.tab",
+          "GLDS-620_rna_seq_GSM7706835_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706835_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706835_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-620_rna_seq_GSM7706835_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-620_rna_seq_GSM7706835_Aligned.toTranscriptome.out.bam",
+          "GLDS-620_rna_seq_GSM7706835_SJ.out.tab",
+          "GLDS-620_rna_seq_GSM7706836_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706836_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706836_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-620_rna_seq_GSM7706836_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-620_rna_seq_GSM7706836_Aligned.toTranscriptome.out.bam",
+          "GLDS-620_rna_seq_GSM7706836_SJ.out.tab",
+          "GLDS-620_rna_seq_GSM7706837_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706837_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706837_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-620_rna_seq_GSM7706837_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-620_rna_seq_GSM7706837_Aligned.toTranscriptome.out.bam",
+          "GLDS-620_rna_seq_GSM7706837_SJ.out.tab",
+          "GLDS-620_rna_seq_GSM7706838_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706838_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706838_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-620_rna_seq_GSM7706838_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-620_rna_seq_GSM7706838_Aligned.toTranscriptome.out.bam",
+          "GLDS-620_rna_seq_GSM7706838_SJ.out.tab",
+          "GLDS-620_rna_seq_GSM7706839_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706839_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706839_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-620_rna_seq_GSM7706839_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-620_rna_seq_GSM7706839_Aligned.toTranscriptome.out.bam",
+          "GLDS-620_rna_seq_GSM7706839_SJ.out.tab",
+          "GLDS-620_rna_seq_GSM7706840_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706840_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706840_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-620_rna_seq_GSM7706840_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-620_rna_seq_GSM7706840_Aligned.toTranscriptome.out.bam",
+          "GLDS-620_rna_seq_GSM7706840_SJ.out.tab",
+          "GLDS-620_rna_seq_GSM7706841_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706841_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706841_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-620_rna_seq_GSM7706841_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-620_rna_seq_GSM7706841_Aligned.toTranscriptome.out.bam",
+          "GLDS-620_rna_seq_GSM7706841_SJ.out.tab",
+          "GLDS-620_rna_seq_GSM7706842_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706842_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706842_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-620_rna_seq_GSM7706842_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-620_rna_seq_GSM7706842_Aligned.toTranscriptome.out.bam",
+          "GLDS-620_rna_seq_GSM7706842_SJ.out.tab",
+          "GLDS-620_rna_seq_GSM7706843_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706843_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706843_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-620_rna_seq_GSM7706843_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-620_rna_seq_GSM7706843_Aligned.toTranscriptome.out.bam",
+          "GLDS-620_rna_seq_GSM7706843_SJ.out.tab",
+          "GLDS-620_rna_seq_GSM7706844_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706844_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706844_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-620_rna_seq_GSM7706844_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-620_rna_seq_GSM7706844_Aligned.toTranscriptome.out.bam",
+          "GLDS-620_rna_seq_GSM7706844_SJ.out.tab",
+          "GLDS-620_rna_seq_GSM7706845_R1_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706845_R2_trimmed.fastq.gz",
+          "GLDS-620_rna_seq_GSM7706845_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-620_rna_seq_GSM7706845_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-620_rna_seq_GSM7706845_Aligned.toTranscriptome.out.bam",
+          "GLDS-620_rna_seq_GSM7706845_SJ.out.tab",
+          "GSM7706822",
+          "GeneLab RNAseq data processing protocol",
+          "Agilent 2200 TapeStation",
+          "rRNA depletion",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000187",
+          "PAIRED",
+          "STRANDED",
+          "DNBSEQ-G400 (MGI)",
+          "rna-seq",
+          "150",
+          "percent",
+          "34429884",
+          "26.1",
+          "GLDS-620_rna_seq_GSM7706822.genes.results",
+          "GLDS-620_rna_seq_GSM7706822.isoforms.results",
+          "GLDS-620_rna_seq_RSEM_Unnormalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-620_rna_seq_STAR_Unnormalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-620_rna_seq_Normalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-620_rna_seq_SampleTable_GLbulkRNAseq.csv",
+          "GLDS-620_rna_seq_contrasts_GLbulkRNAseq.csv",
+          "GLDS-620_rna_seq_differential_expression_GLbulkRNAseq.csv",
+          "GSM7706823",
+          "37701622",
+          "22.73",
+          "GLDS-620_rna_seq_GSM7706823.genes.results",
+          "GLDS-620_rna_seq_GSM7706823.isoforms.results",
+          "GSM7706824",
+          "37253099",
+          "15.83",
+          "GLDS-620_rna_seq_GSM7706824.genes.results",
+          "GLDS-620_rna_seq_GSM7706824.isoforms.results",
+          "GSM7706825",
+          "37507754",
+          "21.41",
+          "GLDS-620_rna_seq_GSM7706825.genes.results",
+          "GLDS-620_rna_seq_GSM7706825.isoforms.results",
+          "GSM7706826",
+          "38643876",
+          "22.97",
+          "GLDS-620_rna_seq_GSM7706826.genes.results",
+          "GLDS-620_rna_seq_GSM7706826.isoforms.results",
+          "GSM7706827",
+          "36872443",
+          "20.65",
+          "GLDS-620_rna_seq_GSM7706827.genes.results",
+          "GLDS-620_rna_seq_GSM7706827.isoforms.results",
+          "GSM7706828",
+          "35062471",
+          "17.81",
+          "GLDS-620_rna_seq_GSM7706828.genes.results",
+          "GLDS-620_rna_seq_GSM7706828.isoforms.results",
+          "GSM7706829",
+          "35464677",
+          "20.5",
+          "GLDS-620_rna_seq_GSM7706829.genes.results",
+          "GLDS-620_rna_seq_GSM7706829.isoforms.results",
+          "GSM7706830",
+          "34190066",
+          "16.07",
+          "GLDS-620_rna_seq_GSM7706830.genes.results",
+          "GLDS-620_rna_seq_GSM7706830.isoforms.results",
+          "GSM7706831",
+          "42142312",
+          "10.94",
+          "GLDS-620_rna_seq_GSM7706831.genes.results",
+          "GLDS-620_rna_seq_GSM7706831.isoforms.results",
+          "GSM7706832",
+          "35365512",
+          "13.98",
+          "GLDS-620_rna_seq_GSM7706832.genes.results",
+          "GLDS-620_rna_seq_GSM7706832.isoforms.results",
+          "GSM7706833",
+          "34582771",
+          "23.95",
+          "GLDS-620_rna_seq_GSM7706833.genes.results",
+          "GLDS-620_rna_seq_GSM7706833.isoforms.results",
+          "GSM7706834",
+          "36169489",
+          "25",
+          "GLDS-620_rna_seq_GSM7706834.genes.results",
+          "GLDS-620_rna_seq_GSM7706834.isoforms.results",
+          "GSM7706835",
+          "40928156",
+          "30.16",
+          "GLDS-620_rna_seq_GSM7706835.genes.results",
+          "GLDS-620_rna_seq_GSM7706835.isoforms.results",
+          "GSM7706836",
+          "39495874",
+          "30.77",
+          "GLDS-620_rna_seq_GSM7706836.genes.results",
+          "GLDS-620_rna_seq_GSM7706836.isoforms.results",
+          "GSM7706837",
+          "38543362",
+          "28.23",
+          "GLDS-620_rna_seq_GSM7706837.genes.results",
+          "GLDS-620_rna_seq_GSM7706837.isoforms.results",
+          "GSM7706838",
+          "39536606",
+          "27.46",
+          "GLDS-620_rna_seq_GSM7706838.genes.results",
+          "GLDS-620_rna_seq_GSM7706838.isoforms.results",
+          "GSM7706839",
+          "34575596",
+          "17.87",
+          "GLDS-620_rna_seq_GSM7706839.genes.results",
+          "GLDS-620_rna_seq_GSM7706839.isoforms.results",
+          "GSM7706840",
+          "35583524",
+          "8.3",
+          "GLDS-620_rna_seq_GSM7706840.genes.results",
+          "GLDS-620_rna_seq_GSM7706840.isoforms.results",
+          "GSM7706841",
+          "40308747",
+          "8.81",
+          "GLDS-620_rna_seq_GSM7706841.genes.results",
+          "GLDS-620_rna_seq_GSM7706841.isoforms.results",
+          "GSM7706842",
+          "36445400",
+          "8.49",
+          "GLDS-620_rna_seq_GSM7706842.genes.results",
+          "GLDS-620_rna_seq_GSM7706842.isoforms.results",
+          "GSM7706843",
+          "38482284",
+          "6.01",
+          "GLDS-620_rna_seq_GSM7706843.genes.results",
+          "GLDS-620_rna_seq_GSM7706843.isoforms.results",
+          "GSM7706844",
+          "38418885",
+          "9.91",
+          "GLDS-620_rna_seq_GSM7706844.genes.results",
+          "GLDS-620_rna_seq_GSM7706844.isoforms.results",
+          "GSM7706845",
+          "36495532",
+          "6.69",
+          "GLDS-620_rna_seq_GSM7706845.genes.results",
+          "GLDS-620_rna_seq_GSM7706845.isoforms.results"
+        ],
+        "reports": [
+          "GLDS-620_rna_seq_raw_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-620_rna_seq_trimmed_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-620_rna_seq_GSM7706822_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706822_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706822_Log.final.out",
+          "GLDS-620_rna_seq_align_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-620_rna_seq_geneBody_cov_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-620_rna_seq_infer_exp_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-620_rna_seq_inner_dist_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-620_rna_seq_read_dist_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-620_rna_seq_RSEM_count_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-620_rna_seq_GSM7706823_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706823_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706823_Log.final.out",
+          "GLDS-620_rna_seq_GSM7706824_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706824_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706824_Log.final.out",
+          "GLDS-620_rna_seq_GSM7706825_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706825_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706825_Log.final.out",
+          "GLDS-620_rna_seq_GSM7706826_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706826_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706826_Log.final.out",
+          "GLDS-620_rna_seq_GSM7706827_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706827_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706827_Log.final.out",
+          "GLDS-620_rna_seq_GSM7706828_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706828_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706828_Log.final.out",
+          "GLDS-620_rna_seq_GSM7706829_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706829_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706829_Log.final.out",
+          "GLDS-620_rna_seq_GSM7706830_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706830_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706830_Log.final.out",
+          "GLDS-620_rna_seq_GSM7706831_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706831_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706831_Log.final.out",
+          "GLDS-620_rna_seq_GSM7706832_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706832_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706832_Log.final.out",
+          "GLDS-620_rna_seq_GSM7706833_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706833_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706833_Log.final.out",
+          "GLDS-620_rna_seq_GSM7706834_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706834_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706834_Log.final.out",
+          "GLDS-620_rna_seq_GSM7706835_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706835_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706835_Log.final.out",
+          "GLDS-620_rna_seq_GSM7706836_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706836_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706836_Log.final.out",
+          "GLDS-620_rna_seq_GSM7706837_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706837_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706837_Log.final.out",
+          "GLDS-620_rna_seq_GSM7706838_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706838_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706838_Log.final.out",
+          "GLDS-620_rna_seq_GSM7706839_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706839_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706839_Log.final.out",
+          "GLDS-620_rna_seq_GSM7706840_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706840_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706840_Log.final.out",
+          "GLDS-620_rna_seq_GSM7706841_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706841_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706841_Log.final.out",
+          "GLDS-620_rna_seq_GSM7706842_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706842_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706842_Log.final.out",
+          "GLDS-620_rna_seq_GSM7706843_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706843_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706843_Log.final.out",
+          "GLDS-620_rna_seq_GSM7706844_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706844_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706844_Log.final.out",
+          "GLDS-620_rna_seq_GSM7706845_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706845_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-620_rna_seq_GSM7706845_Log.final.out"
+        ]
+      }
+    }
+  ]
+}

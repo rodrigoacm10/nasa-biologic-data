@@ -1,0 +1,1932 @@
+{
+  "investigation": {
+    "id": "OSD-138",
+    "title": "BRIC-23 GeneLab Process Verification Test: Bacillus subtilis transcriptomic, proteomic, and metabolomic data",
+    "description": "Microbes interact with humans in complex ways and understanding how they respond to the spaceflight environment is important to the success of future manned spaceflight missions. The BRIC-23 mission was designed to measure the response of Bacillus subtilis and Staphylococcus aureus to the spaceflight environment.",
+    "mission": {
+      "name": "SpaceX-9",
+      "start_date": "7/18/16",
+      "end_date": "9/26/16",
+      "link": "https://osdr.nasa.gov/bio/repo/data/missions/SpaceX-9"
+    },
+    "project": {
+      "identifier": "BRIC-23",
+      "title": "GeneLab Process Verification Test",
+      "type": "Spaceflight Study",
+      "link": "https://lsda.jsc.nasa.gov/scripts/experiment/exper.aspx?exp_index=13900",
+      "funding": "This investigation was funded by the NASA Space Biology Program Office, Space Life and Physical Sciences Research and Applications Division, and additional funding from the International Space Station Research Integration Office to the Space Biology GeneLab Project",
+      "managing_center": "Kennedy Space Center (KSC)"
+    },
+    "protocols": [
+      "protein extraction",
+      "proteomics labeling",
+      "proteomics mass spectrometry",
+      "proteomics data transformation",
+      "metabolite extraction",
+      "metabolomics labeling",
+      "metabolomics mass spectrometry",
+      "metabolomics data transformation",
+      "sample collection",
+      "sample processing",
+      "nucleic acid extraction",
+      "nucleic acid sequencing",
+      "GeneLab RNAseq data processing protocol",
+      "library construction"
+    ],
+    "publications": [
+      {
+        "title": "Establishing Standard Protocols for Bacterial Culture in Biological Research in Canisters (BRIC) Hardware",
+        "doi": "10.2478/gsr-2016-0013",
+        "authors": [
+          "Fajardo-Cavazos Patricia",
+          "Nicholson Wayne L."
+        ],
+        "summary": "Establishing Standard Protocols for Bacterial Culture in Biological Research in Canisters (BRIC) Hardware — 10.2478/gsr-2016-0013"
+      },
+      {
+        "title": "Meta-analysis of data from spaceflight transcriptome experiments does not support the idea of a common bacterial ''spaceflight response''.",
+        "doi": "10.1038/s41598-018-32818-z",
+        "authors": [
+          "Morrison MD",
+          "Nicholson WL."
+        ],
+        "summary": "Meta-analysis of data from spaceflight transcriptome experiments does not support the idea of a common bacterial ''spaceflight response''. — 10.1038/s41598-018-32818-z"
+      }
+    ],
+    "factors": [
+      "Spaceflight",
+      "Freezing"
+    ],
+    "contacts": [
+      {
+        "first_name": "Wayne",
+        "last_name": "Nicholson",
+        "role": "Conceptualization",
+        "email": "wln@ufl.edu"
+      },
+      {
+        "first_name": "Oana",
+        "last_name": "Marcu",
+        "role": "Conceptualization",
+        "email": ""
+      },
+      {
+        "first_name": "Jonathan",
+        "last_name": "Galazka",
+        "role": "Conceptualization",
+        "email": ""
+      },
+      {
+        "first_name": "Sigrid",
+        "last_name": "Reinsch",
+        "role": "Conceptualization",
+        "email": ""
+      },
+      {
+        "first_name": "David",
+        "last_name": "Smith",
+        "role": "Conceptualization",
+        "email": ""
+      },
+      {
+        "first_name": "Samrawit",
+        "last_name": "Gebre",
+        "role": "Data Curation",
+        "email": ""
+      },
+      {
+        "first_name": "San-Huei",
+        "last_name": "Lai Polo",
+        "role": "Data Curation",
+        "email": ""
+      },
+      {
+        "first_name": "Amanda",
+        "last_name": "Saravia-Butler",
+        "role": "Formal Analysis",
+        "email": ""
+      },
+      {
+        "first_name": "Homer",
+        "last_name": "Fogle",
+        "role": "Formal Analysis",
+        "email": ""
+      },
+      {
+        "first_name": "Kaushik",
+        "last_name": "Chakravarty",
+        "role": "Investigation",
+        "email": ""
+      },
+      {
+        "first_name": "San-Huei",
+        "last_name": "Lai Polo",
+        "role": "Investigation",
+        "email": ""
+      },
+      {
+        "first_name": "Valery",
+        "last_name": "Boyko",
+        "role": "Investigation",
+        "email": ""
+      },
+      {
+        "first_name": "Samrawit",
+        "last_name": "Gebre",
+        "role": "Investigation",
+        "email": ""
+      },
+      {
+        "first_name": "Rick",
+        "last_name": "Chen",
+        "role": "Investigation",
+        "email": ""
+      },
+      {
+        "first_name": "Michael",
+        "last_name": "Skidmore",
+        "role": "Project Administration",
+        "email": ""
+      },
+      {
+        "first_name": "Olga",
+        "last_name": "Stotzky",
+        "role": "Project Administration",
+        "email": ""
+      },
+      {
+        "first_name": "Howard",
+        "last_name": "Levine",
+        "role": "Project Administration",
+        "email": ""
+      },
+      {
+        "first_name": "Stephanie",
+        "last_name": "Richards",
+        "role": "Project Administration",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "Bsub_168_cells_FLT_Rep1",
+        "characteristics": {
+          "organism": "Bacillus subtilis",
+          "Strain": "168",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Freezing": "Frozen"
+        },
+        "parameters": {
+          "Growth time": "36",
+          "Growth Temperature": "20-30",
+          "Sample Media Information": "8.5mL TSY + 10% Glycerol",
+          "Canister and Position": "A1",
+          "Total CFU Count": "1.34E+08",
+          "Sample Storage Method": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "FLT_BS-A1"
+        }
+      },
+      {
+        "sample_name": "Bsub_168_cells_FLT_Rep2",
+        "characteristics": {
+          "organism": "Bacillus subtilis",
+          "Strain": "168",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Freezing": "Frozen"
+        },
+        "parameters": {
+          "Growth time": "36",
+          "Growth Temperature": "20-30",
+          "Sample Media Information": "8.5mL TSY + 10% Glycerol",
+          "Canister and Position": "A2",
+          "Total CFU Count": "1.83E+08",
+          "Sample Storage Method": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "FLT_BS-A2"
+        }
+      },
+      {
+        "sample_name": "Bsub_168_cells_FLT_Rep3",
+        "characteristics": {
+          "organism": "Bacillus subtilis",
+          "Strain": "168",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Freezing": "Frozen"
+        },
+        "parameters": {
+          "Growth time": "36",
+          "Growth Temperature": "20-30",
+          "Sample Media Information": "8.5mL TSY + 10% Glycerol",
+          "Canister and Position": "A3",
+          "Total CFU Count": "2.89E+08",
+          "Sample Storage Method": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "FLT_BS-A3"
+        }
+      },
+      {
+        "sample_name": "Bsub_168_cells_FLT_Rep4",
+        "characteristics": {
+          "organism": "Bacillus subtilis",
+          "Strain": "168",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Freezing": "Frozen"
+        },
+        "parameters": {
+          "Growth time": "36",
+          "Growth Temperature": "20-30",
+          "Sample Media Information": "8.5mL TSY + 10% Glycerol",
+          "Canister and Position": "A4",
+          "Total CFU Count": "2.18E+08",
+          "Sample Storage Method": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "FLT_BS-A4"
+        }
+      },
+      {
+        "sample_name": "Bsub_168_cells_FLT_Rep5",
+        "characteristics": {
+          "organism": "Bacillus subtilis",
+          "Strain": "168",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Freezing": "Frozen"
+        },
+        "parameters": {
+          "Growth time": "36",
+          "Growth Temperature": "20-30",
+          "Sample Media Information": "8.5mL TSY + 10% Glycerol",
+          "Canister and Position": "A5",
+          "Total CFU Count": "2.78E+08",
+          "Sample Storage Method": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "FLT_BS-A5"
+        }
+      },
+      {
+        "sample_name": "Bsub_168_cells_FLT_Rep6",
+        "characteristics": {
+          "organism": "Bacillus subtilis",
+          "Strain": "168",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Freezing": "Frozen"
+        },
+        "parameters": {
+          "Growth time": "36",
+          "Growth Temperature": "20-30",
+          "Sample Media Information": "8.5mL TSY + 10% Glycerol",
+          "Canister and Position": "C1",
+          "Total CFU Count": "2.54E+08",
+          "Sample Storage Method": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "FLT_BS-C1"
+        }
+      },
+      {
+        "sample_name": "Bsub_168_cells_FLT_Rep7",
+        "characteristics": {
+          "organism": "Bacillus subtilis",
+          "Strain": "168",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Freezing": "Frozen"
+        },
+        "parameters": {
+          "Growth time": "36",
+          "Growth Temperature": "20-30",
+          "Sample Media Information": "8.5mL TSY + 10% Glycerol",
+          "Canister and Position": "C2",
+          "Total CFU Count": "1.21E+08",
+          "Sample Storage Method": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "FLT_BS-C2"
+        }
+      },
+      {
+        "sample_name": "Bsub_168_cells_FLT_Rep8",
+        "characteristics": {
+          "organism": "Bacillus subtilis",
+          "Strain": "168",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Freezing": "Frozen"
+        },
+        "parameters": {
+          "Growth time": "36",
+          "Growth Temperature": "20-30",
+          "Sample Media Information": "8.5mL TSY + 10% Glycerol",
+          "Canister and Position": "C3",
+          "Total CFU Count": "3.21E+08",
+          "Sample Storage Method": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "FLT_BS-C3"
+        }
+      },
+      {
+        "sample_name": "Bsub_168_cells_FLT_Rep9",
+        "characteristics": {
+          "organism": "Bacillus subtilis",
+          "Strain": "168",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Freezing": "Frozen"
+        },
+        "parameters": {
+          "Growth time": "36",
+          "Growth Temperature": "20-30",
+          "Sample Media Information": "8.5mL TSY + 10% Glycerol",
+          "Canister and Position": "C4",
+          "Total CFU Count": "3.53E+08",
+          "Sample Storage Method": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "FLT_BS-C4"
+        }
+      },
+      {
+        "sample_name": "Bsub_168_cells_GC_Rep1",
+        "characteristics": {
+          "organism": "Bacillus subtilis",
+          "Strain": "168",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Freezing": "Frozen"
+        },
+        "parameters": {
+          "Growth time": "36",
+          "Growth Temperature": "20-30",
+          "Sample Media Information": "8.5mL TSY + 10% Glycerol",
+          "Canister and Position": "A1",
+          "Total CFU Count": "1.01E+08",
+          "Sample Storage Method": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GC_BS-A1"
+        }
+      },
+      {
+        "sample_name": "Bsub_168_cells_GC_Rep2",
+        "characteristics": {
+          "organism": "Bacillus subtilis",
+          "Strain": "168",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Freezing": "Frozen"
+        },
+        "parameters": {
+          "Growth time": "36",
+          "Growth Temperature": "20-30",
+          "Sample Media Information": "8.5mL TSY + 10% Glycerol",
+          "Canister and Position": "A2",
+          "Total CFU Count": "1.27E+08",
+          "Sample Storage Method": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GC_BS-A2"
+        }
+      },
+      {
+        "sample_name": "Bsub_168_cells_GC_Rep3",
+        "characteristics": {
+          "organism": "Bacillus subtilis",
+          "Strain": "168",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Freezing": "Frozen"
+        },
+        "parameters": {
+          "Growth time": "36",
+          "Growth Temperature": "20-30",
+          "Sample Media Information": "8.5mL TSY + 10% Glycerol",
+          "Canister and Position": "A3",
+          "Total CFU Count": "1.53E+08",
+          "Sample Storage Method": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GC_BS-A3"
+        }
+      },
+      {
+        "sample_name": "Bsub_168_cells_GC_Rep4",
+        "characteristics": {
+          "organism": "Bacillus subtilis",
+          "Strain": "168",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Freezing": "Frozen"
+        },
+        "parameters": {
+          "Growth time": "36",
+          "Growth Temperature": "20-30",
+          "Sample Media Information": "8.5mL TSY + 10% Glycerol",
+          "Canister and Position": "A4",
+          "Total CFU Count": "",
+          "Sample Storage Method": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GC_BS-A4"
+        }
+      },
+      {
+        "sample_name": "Bsub_168_cells_GC_Rep5",
+        "characteristics": {
+          "organism": "Bacillus subtilis",
+          "Strain": "168",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Freezing": "Frozen"
+        },
+        "parameters": {
+          "Growth time": "36",
+          "Growth Temperature": "20-30",
+          "Sample Media Information": "8.5mL TSY + 10% Glycerol",
+          "Canister and Position": "A5",
+          "Total CFU Count": "1.83E+08",
+          "Sample Storage Method": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GC_BS-A5"
+        }
+      },
+      {
+        "sample_name": "Bsub_168_cells_GC_Rep6",
+        "characteristics": {
+          "organism": "Bacillus subtilis",
+          "Strain": "168",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Freezing": "Frozen"
+        },
+        "parameters": {
+          "Growth time": "36",
+          "Growth Temperature": "20-30",
+          "Sample Media Information": "8.5mL TSY + 10% Glycerol",
+          "Canister and Position": "C1",
+          "Total CFU Count": "1.47E+08",
+          "Sample Storage Method": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GC_BS-C1"
+        }
+      },
+      {
+        "sample_name": "Bsub_168_cells_GC_Rep7",
+        "characteristics": {
+          "organism": "Bacillus subtilis",
+          "Strain": "168",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Freezing": "Frozen"
+        },
+        "parameters": {
+          "Growth time": "36",
+          "Growth Temperature": "20-30",
+          "Sample Media Information": "8.5mL TSY + 10% Glycerol",
+          "Canister and Position": "C2",
+          "Total CFU Count": "1.59E+08",
+          "Sample Storage Method": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GC_BS-C2"
+        }
+      },
+      {
+        "sample_name": "Bsub_168_cells_GC_Rep8",
+        "characteristics": {
+          "organism": "Bacillus subtilis",
+          "Strain": "168",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Freezing": "Frozen"
+        },
+        "parameters": {
+          "Growth time": "36",
+          "Growth Temperature": "20-30",
+          "Sample Media Information": "8.5mL TSY + 10% Glycerol",
+          "Canister and Position": "C3",
+          "Total CFU Count": "4.50E+08",
+          "Sample Storage Method": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GC_BS-C3"
+        }
+      },
+      {
+        "sample_name": "Bsub_168_cells_GC_Rep9",
+        "characteristics": {
+          "organism": "Bacillus subtilis",
+          "Strain": "168",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Freezing": "Frozen"
+        },
+        "parameters": {
+          "Growth time": "36",
+          "Growth Temperature": "20-30",
+          "Sample Media Information": "8.5mL TSY + 10% Glycerol",
+          "Canister and Position": "C4",
+          "Total CFU Count": "1.28E+08",
+          "Sample Storage Method": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GC_BS-C4"
+        }
+      },
+      {
+        "sample_name": "Bsub_168_cells_CTRL_ASAP_Rep1",
+        "characteristics": {
+          "organism": "Bacillus subtilis",
+          "Strain": "168",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Laboratory Control",
+          "Freezing": "Not frozen"
+        },
+        "parameters": {
+          "Growth time": "36",
+          "Growth Temperature": "~22.5",
+          "Sample Media Information": "8.5mL TSY + 10% Glycerol",
+          "Canister and Position": "",
+          "Total CFU Count": "1.11E+09",
+          "Sample Storage Method": ""
+        },
+        "comments": {
+          "Original Submitted Sample Name": "PC_BS-ASAP1"
+        }
+      },
+      {
+        "sample_name": "Bsub_168_cells_CTRL_ASAP_Rep2",
+        "characteristics": {
+          "organism": "Bacillus subtilis",
+          "Strain": "168",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Laboratory Control",
+          "Freezing": "Not frozen"
+        },
+        "parameters": {
+          "Growth time": "36",
+          "Growth Temperature": "~22.5",
+          "Sample Media Information": "8.5mL TSY + 10% Glycerol",
+          "Canister and Position": "",
+          "Total CFU Count": "1.60E+09",
+          "Sample Storage Method": ""
+        },
+        "comments": {
+          "Original Submitted Sample Name": "PC_BS-ASAP2"
+        }
+      },
+      {
+        "sample_name": "Bsub_168_cells_CTRL_ASAP_Rep3",
+        "characteristics": {
+          "organism": "Bacillus subtilis",
+          "Strain": "168",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Laboratory Control",
+          "Freezing": "Not frozen"
+        },
+        "parameters": {
+          "Growth time": "36",
+          "Growth Temperature": "~22.5",
+          "Sample Media Information": "8.5mL TSY + 10% Glycerol",
+          "Canister and Position": "",
+          "Total CFU Count": "1.17E+09",
+          "Sample Storage Method": ""
+        },
+        "comments": {
+          "Original Submitted Sample Name": "PC_BS-ASAP3"
+        }
+      },
+      {
+        "sample_name": "Bsub_168_cells_CTRL_ASAP_Rep4",
+        "characteristics": {
+          "organism": "Bacillus subtilis",
+          "Strain": "168",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Laboratory Control",
+          "Freezing": "Not frozen"
+        },
+        "parameters": {
+          "Growth time": "36",
+          "Growth Temperature": "~22.5",
+          "Sample Media Information": "8.5mL TSY + 10% Glycerol",
+          "Canister and Position": "",
+          "Total CFU Count": "1.38E+09",
+          "Sample Storage Method": ""
+        },
+        "comments": {
+          "Original Submitted Sample Name": "PC_BS-ASAP4"
+        }
+      },
+      {
+        "sample_name": "Bsub_168_cells_CTRL_ASAP_Rep5",
+        "characteristics": {
+          "organism": "Bacillus subtilis",
+          "Strain": "168",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Laboratory Control",
+          "Freezing": "Not frozen"
+        },
+        "parameters": {
+          "Growth time": "36",
+          "Growth Temperature": "~22.5",
+          "Sample Media Information": "8.5mL TSY + 10% Glycerol",
+          "Canister and Position": "",
+          "Total CFU Count": "1.15E+09",
+          "Sample Storage Method": ""
+        },
+        "comments": {
+          "Original Submitted Sample Name": "PC_BS-ASAP5"
+        }
+      },
+      {
+        "sample_name": "Bsub_168_cells_CTRL_ASAP_Rep6",
+        "characteristics": {
+          "organism": "Bacillus subtilis",
+          "Strain": "168",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Laboratory Control",
+          "Freezing": "Not frozen"
+        },
+        "parameters": {
+          "Growth time": "36",
+          "Growth Temperature": "~22.5",
+          "Sample Media Information": "8.5mL TSY + 10% Glycerol",
+          "Canister and Position": "",
+          "Total CFU Count": "1.26E+09",
+          "Sample Storage Method": ""
+        },
+        "comments": {
+          "Original Submitted Sample Name": "PC_BS-ASAP6"
+        }
+      },
+      {
+        "sample_name": "Bsub_168_cells_CTRL_ASAP_Rep7",
+        "characteristics": {
+          "organism": "Bacillus subtilis",
+          "Strain": "168",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Laboratory Control",
+          "Freezing": "Not frozen"
+        },
+        "parameters": {
+          "Growth time": "36",
+          "Growth Temperature": "~22.5",
+          "Sample Media Information": "8.5mL TSY + 10% Glycerol",
+          "Canister and Position": "",
+          "Total CFU Count": "1.34E+09",
+          "Sample Storage Method": ""
+        },
+        "comments": {
+          "Original Submitted Sample Name": "PC_BS-ASAP7"
+        }
+      },
+      {
+        "sample_name": "Bsub_168_cells_CTRL_FRZN_Rep1",
+        "characteristics": {
+          "organism": "Bacillus subtilis",
+          "Strain": "168",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Laboratory Control",
+          "Freezing": "Frozen"
+        },
+        "parameters": {
+          "Growth time": "36",
+          "Growth Temperature": "~22.5",
+          "Sample Media Information": "8.5mL TSY + 10% Glycerol",
+          "Canister and Position": "",
+          "Total CFU Count": "1.95E+09",
+          "Sample Storage Method": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "PC_BS-FRZN8"
+        }
+      },
+      {
+        "sample_name": "Bsub_168_cells_CTRL_FRZN_Rep2",
+        "characteristics": {
+          "organism": "Bacillus subtilis",
+          "Strain": "168",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Laboratory Control",
+          "Freezing": "Frozen"
+        },
+        "parameters": {
+          "Growth time": "36",
+          "Growth Temperature": "~22.5",
+          "Sample Media Information": "8.5mL TSY + 10% Glycerol",
+          "Canister and Position": "",
+          "Total CFU Count": "2.19E+09",
+          "Sample Storage Method": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "PC_BS-FRZN9"
+        }
+      },
+      {
+        "sample_name": "Bsub_168_cells_CTRL_FRZN_Rep3",
+        "characteristics": {
+          "organism": "Bacillus subtilis",
+          "Strain": "168",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Laboratory Control",
+          "Freezing": "Frozen"
+        },
+        "parameters": {
+          "Growth time": "36",
+          "Growth Temperature": "~22.5",
+          "Sample Media Information": "8.5mL TSY + 10% Glycerol",
+          "Canister and Position": "",
+          "Total CFU Count": "1.46E+09",
+          "Sample Storage Method": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "PC_BS-FRZN10"
+        }
+      },
+      {
+        "sample_name": "Bsub_168_cells_CTRL_FRZN_Rep4",
+        "characteristics": {
+          "organism": "Bacillus subtilis",
+          "Strain": "168",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Laboratory Control",
+          "Freezing": "Frozen"
+        },
+        "parameters": {
+          "Growth time": "36",
+          "Growth Temperature": "~22.5",
+          "Sample Media Information": "8.5mL TSY + 10% Glycerol",
+          "Canister and Position": "",
+          "Total CFU Count": "1.67E+09",
+          "Sample Storage Method": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "PC_BS-FRZN11"
+        }
+      },
+      {
+        "sample_name": "Bsub_168_cells_CTRL_FRZN_Rep5",
+        "characteristics": {
+          "organism": "Bacillus subtilis",
+          "Strain": "168",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Laboratory Control",
+          "Freezing": "Frozen"
+        },
+        "parameters": {
+          "Growth time": "36",
+          "Growth Temperature": "~22.5",
+          "Sample Media Information": "8.5mL TSY + 10% Glycerol",
+          "Canister and Position": "",
+          "Total CFU Count": "2.04E+09",
+          "Sample Storage Method": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "PC_BS-FRZN12"
+        }
+      },
+      {
+        "sample_name": "Bsub_168_cells_CTRL_FRZN_Rep6",
+        "characteristics": {
+          "organism": "Bacillus subtilis",
+          "Strain": "168",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Laboratory Control",
+          "Freezing": "Frozen"
+        },
+        "parameters": {
+          "Growth time": "36",
+          "Growth Temperature": "~22.5",
+          "Sample Media Information": "8.5mL TSY + 10% Glycerol",
+          "Canister and Position": "",
+          "Total CFU Count": "1.61E+09",
+          "Sample Storage Method": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "PC_BS-FRZN13"
+        }
+      },
+      {
+        "sample_name": "Bsub_168_cells_CTRL_FRZN_Rep7",
+        "characteristics": {
+          "organism": "Bacillus subtilis",
+          "Strain": "168",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Laboratory Control",
+          "Freezing": "Frozen"
+        },
+        "parameters": {
+          "Growth time": "36",
+          "Growth Temperature": "~22.5",
+          "Sample Media Information": "8.5mL TSY + 10% Glycerol",
+          "Canister and Position": "",
+          "Total CFU Count": "1.71E+09",
+          "Sample Storage Method": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "PC_BS-FRZN14"
+        }
+      },
+      {
+        "sample_name": "TSY_blank",
+        "characteristics": {
+          "organism": "",
+          "Strain": "",
+          "Material Type": ""
+        },
+        "factors": {
+          "Spaceflight": "",
+          "Freezing": ""
+        },
+        "parameters": {
+          "Growth time": "",
+          "Growth Temperature": "",
+          "Sample Media Information": "",
+          "Canister and Position": "",
+          "Total CFU Count": "",
+          "Sample Storage Method": ""
+        },
+        "comments": {
+          "Original Submitted Sample Name": "TSY_blank"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "mass-spectrometry",
+      "platform": "LTQ Orbitrap Fusion (Thermo Scientific)",
+      "qc": {},
+      "library": {},
+      "files": {
+        "raw": [
+          "*BRIC-23_BS_LC_raw.tar.gz",
+          "*BRIC-23_BS_LC_raw_mzML.tar.gz"
+        ],
+        "processed": [
+          "Bsub_168_cells_FLT_Rep1",
+          "metabolomics data transformation",
+          "FLT_BS-A1_Med",
+          "FLT_BS-A1_Med_001",
+          "67",
+          "liquid chromatography separation",
+          "Agilent 1290 Infinity",
+          "ACQUITY UPLC CSH C18 Column",
+          "Agilent Quadropole - Time of Flight 6530",
+          "Electro-spray Ionization",
+          "Positive and Negative",
+          "collision-induced dissociation",
+          "Q-Tof",
+          "Lipidomics",
+          "067_posCSH_FLT_BS-A1_Med_001_MX340473.d",
+          "067_negCSH_FLT_BS-A1_Med_001_MX340473.d",
+          "067_posCSH_FLT_BS-A1_Med_001_MX340473.mzML",
+          "067_negCSH_FLT_BS-A1_Med_001_MX340473.mzML",
+          "MS-Dial",
+          "Lipid blast and MSP library",
+          "*mx 340473_349158_CSH-QTOF MSMS_lipidomics_09-2017_submit.csv",
+          "Bsub_168_cells_FLT_Rep2",
+          "FLT_BS-A2_Med",
+          "FLT_BS-A2_Med_002",
+          "101",
+          "101_posCSH_FLT_BS-A2_Med_002_MX340473.d",
+          "101_negCSH_FLT_BS-A2_Med_002_MX340473.d",
+          "101_posCSH_FLT_BS-A2_Med_002_MX340473.mzML",
+          "101_negCSH_FLT_BS-A2_Med_002_MX340473.mzML",
+          "Bsub_168_cells_FLT_Rep3",
+          "FLT_BS-A3_Med",
+          "FLT_BS-A3_Med_003",
+          "32",
+          "032_posCSH_FLT_BS-A3_Med_003_MX340473.d",
+          "032_negCSH_FLT_BS-A3_Med_003_MX340473.d",
+          "032_posCSH_FLT_BS-A3_Med_003_MX340473.mzML",
+          "032_negCSH_FLT_BS-A3_Med_003_MX340473.mzML",
+          "Bsub_168_cells_FLT_Rep4",
+          "FLT_BS-A4_Med",
+          "FLT_BS-A4_Med_004",
+          "38",
+          "038_posCSH_FLT_BS-A4_Med_004_MX340473.d",
+          "038_negCSH_FLT_BS-A4_Med_004_MX340473.d",
+          "038_posCSH_FLT_BS-A4_Med_004_MX340473.mzML",
+          "038_negCSH_FLT_BS-A4_Med_004_MX340473.mzML",
+          "Bsub_168_cells_FLT_Rep5",
+          "FLT_BS-A5_Med",
+          "FLT_BS-A5_Med_005",
+          "9",
+          "009_posCSH_FLT_BS-A5_Med_005_MX340473.d",
+          "009_negCSH_FLT_BS-A5_Med_005_MX340473.d",
+          "009_posCSH_FLT_BS-A5_Med_005_MX340473.mzML",
+          "009_negCSH_FLT_BS-A5_Med_005_MX340473.mzML",
+          "Bsub_168_cells_FLT_Rep6",
+          "FLT_BS-C1_Med",
+          "FLT_BS-C1_Med_006",
+          "37",
+          "037_posCSH_FLT_BS-C1_Med_006_MX340473.d",
+          "037_negCSH_FLT_BS-C1_Med_006_MX340473.d",
+          "037_posCSH_FLT_BS-C1_Med_006_MX340473.mzML",
+          "037_negCSH_FLT_BS-C1_Med_006_MX340473.mzML",
+          "Bsub_168_cells_FLT_Rep7",
+          "FLT_BS-C2_Med",
+          "FLT_BS-C2_Med_007",
+          "19",
+          "019_posCSH_FLT_BS-C2_Med_007_MX340473.d",
+          "019_negCSH_FLT_BS-C2_Med_007_MX340473.d",
+          "019_posCSH_FLT_BS-C2_Med_007_MX340473.mzML",
+          "019_negCSH_FLT_BS-C2_Med_007_MX340473.mzML",
+          "Bsub_168_cells_FLT_Rep8",
+          "FLT_BS-C3_Med",
+          "FLT_BS-C3_Med_008",
+          "95",
+          "095_posCSH_FLT_BS-C3_Med_008_MX340473.d",
+          "095_negCSH_FLT_BS-C3_Med_008_MX340473.d",
+          "095_posCSH_FLT_BS-C3_Med_008_MX340473.mzML",
+          "095_negCSH_FLT_BS-C3_Med_008_MX340473.mzML",
+          "Bsub_168_cells_FLT_Rep9",
+          "FLT_BS-C4_Med",
+          "FLT_BS-C4_Med_009",
+          "27",
+          "027_posCSH_FLT_BS-C4_Med_009_MX340473.d",
+          "027_negCSH_FLT_BS-C4_Med_009_MX340473.d",
+          "027_posCSH_FLT_BS-C4_Med_009_MX340473.mzML",
+          "027_negCSH_FLT_BS-C4_Med_009_MX340473.mzML",
+          "Bsub_168_cells_GC_Rep1",
+          "GC_BS-A1_Med",
+          "GC_BS-A1_Med_010",
+          "34",
+          "034_posCSH_GC_BS-A1_Med_010_MX340473.d",
+          "034_negCSH_GC_BS-A1_Med_010_MX340473.d",
+          "034_posCSH_GC_BS-A1_Med_010_MX340473.mzML",
+          "034_negCSH_GC_BS-A1_Med_010_MX340473.mzML",
+          "Bsub_168_cells_GC_Rep2",
+          "GC_BS-A2_Med",
+          "GC_BS-A2_Med_011",
+          "77",
+          "077_posCSH_GC_BS-A2_Med_011_MX340473.d",
+          "077_negCSH_GC_BS-A2_Med_011_MX340473.d",
+          "077_posCSH_GC_BS-A2_Med_011_MX340473.mzML",
+          "077_negCSH_GC_BS-A2_Med_011_MX340473.mzML",
+          "Bsub_168_cells_GC_Rep3",
+          "GC_BS-A3_Med",
+          "GC_BS-A3_Med_012",
+          "21",
+          "021_posCSH_GC_BS-A3_Med_012_MX340473.d",
+          "021_negCSH_GC_BS-A3_Med_012_MX340473.d",
+          "021_posCSH_GC_BS-A3_Med_012_MX340473.mzML",
+          "021_negCSH_GC_BS-A3_Med_012_MX340473.mzML",
+          "Bsub_168_cells_GC_Rep4",
+          "GC_BS-A4_Med",
+          "GC_BS-A4_Med_013",
+          "97",
+          "097_posCSH_GC_BS-A4_Med_013_MX340473.d",
+          "097_negCSH_GC_BS-A4_Med_013_MX340473.d",
+          "097_posCSH_GC_BS-A4_Med_013_MX340473.mzML",
+          "097_negCSH_GC_BS-A4_Med_013_MX340473.mzML",
+          "Bsub_168_cells_GC_Rep5",
+          "GC_BS-A5_Med",
+          "GC_BS-A5_Med_014",
+          "50",
+          "050_posCSH_GC_BS-A5_Med_014_MX340473_*.d",
+          "050_negCSH_GC_BS-A5_Med_014_MX340473_*.d",
+          "050_posCSH_GC_BS-A5_Med_014_MX340473_*.mzML",
+          "050_negCSH_GC_BS-A5_Med_014_MX340473_*.mzML",
+          "Bsub_168_cells_GC_Rep6",
+          "GC_BS-C1_Med",
+          "GC_BS-C1_Med_015",
+          "92",
+          "092_posCSH_GC_BS-C1_Med_015_MX340473.d",
+          "092_negCSH_GC_BS-C1_Med_015_MX340473.d",
+          "092_posCSH_GC_BS-C1_Med_015_MX340473.mzML",
+          "092_negCSH_GC_BS-C1_Med_015_MX340473.mzML",
+          "Bsub_168_cells_GC_Rep7",
+          "GC_BS-C2_Med",
+          "GC_BS-C2_Med_016",
+          "36",
+          "036_posCSH_GC_BS-C2_Med_016_MX340473.d",
+          "036_negCSH_GC_BS-C2_Med_016_MX340473.d",
+          "036_posCSH_GC_BS-C2_Med_016_MX340473.mzML",
+          "036_negCSH_GC_BS-C2_Med_016_MX340473.mzML",
+          "Bsub_168_cells_GC_Rep8",
+          "GC_BS-C3_Med",
+          "GC_BS-C3_Med_017",
+          "10",
+          "010_posCSH_GC_BS-C3_Med_017_MX340473.d",
+          "010_negCSH_GC_BS-C3_Med_017_MX340473.d",
+          "010_posCSH_GC_BS-C3_Med_017_MX340473.mzML",
+          "010_negCSH_GC_BS-C3_Med_017_MX340473.mzML",
+          "Bsub_168_cells_GC_Rep9",
+          "GC_BS-C4_Med",
+          "GC_BS-C4_Med_018",
+          "12",
+          "012_posCSH_GC_BS-C4_Med_018_MX340473.d",
+          "012_negCSH_GC_BS-C4_Med_018_MX340473.d",
+          "012_posCSH_GC_BS-C4_Med_018_MX340473.mzML",
+          "012_negCSH_GC_BS-C4_Med_018_MX340473.mzML",
+          "Bsub_168_cells_CTRL_ASAP_Rep1",
+          "PC_BS-ASAP1_Med",
+          "PC_BS-ASAP1_Med_037",
+          "5",
+          "005_posCSH_PC_BS-ASAP1_Med_037_MX349158.d",
+          "005_negCSH_PC_BS-ASAP1_Med_037_MX349158.d",
+          "005_posCSH_PC_BS-ASAP1_Med_037_MX349158.mzML",
+          "005_negCSH_PC_BS-ASAP1_Med_037_MX349158.mzML",
+          "Bsub_168_cells_CTRL_ASAP_Rep2",
+          "PC_BS-ASAP2_Med",
+          "PC_BS-ASAP2_Med_038",
+          "99",
+          "099_posCSH_PC_BS-ASAP2_Med_038_MX349158.d",
+          "099_negCSH_PC_BS-ASAP2_Med_038_MX349158.d",
+          "099_posCSH_PC_BS-ASAP2_Med_038_MX349158.mzML",
+          "099_negCSH_PC_BS-ASAP2_Med_038_MX349158.mzML",
+          "Bsub_168_cells_CTRL_ASAP_Rep3",
+          "PC_BS-ASAP3_Med",
+          "PC_BS-ASAP3_Med_039",
+          "25",
+          "025_posCSH_PC_BS-ASAP3_Med_039_MX349158.d",
+          "025_negCSH_PC_BS-ASAP3_Med_039_MX349158.d",
+          "025_posCSH_PC_BS-ASAP3_Med_039_MX349158.mzML",
+          "025_negCSH_PC_BS-ASAP3_Med_039_MX349158.mzML",
+          "Bsub_168_cells_CTRL_ASAP_Rep4",
+          "PC_BS-ASAP4_Med",
+          "PC_BS-ASAP4_Med_040",
+          "96",
+          "096_posCSH_PC_BS-ASAP4_Med_040_MX349158.d",
+          "096_negCSH_PC_BS-ASAP4_Med_040_MX349158.d",
+          "096_posCSH_PC_BS-ASAP4_Med_040_MX349158.mzML",
+          "096_negCSH_PC_BS-ASAP4_Med_040_MX349158.mzML",
+          "Bsub_168_cells_CTRL_FRZN_Rep1",
+          "PC_BS-FRZN8_Med",
+          "PC_BS-FRZN8_Med_041",
+          "49",
+          "049_posCSH_PC_BS-FRZN8_Med_041_MX349158.d",
+          "049_negCSH_PC_BS-FRZN8_Med_041_MX349158.d",
+          "049_posCSH_PC_BS-FRZN8_Med_041_MX349158.mzML",
+          "049_negCSH_PC_BS-FRZN8_Med_041_MX349158.mzML",
+          "Bsub_168_cells_CTRL_FRZN_Rep2",
+          "PC_BS-FRZN9_Med",
+          "PC_BS-FRZN9_Med_042",
+          "88",
+          "088_posCSH_PC_BS-FRZN9_Med_042_MX349158.d",
+          "088_negCSH_PC_BS-FRZN9_Med_042_MX349158.d",
+          "088_posCSH_PC_BS-FRZN9_Med_042_MX349158.mzML",
+          "088_negCSH_PC_BS-FRZN9_Med_042_MX349158.mzML",
+          "Bsub_168_cells_CTRL_FRZN_Rep3",
+          "PC_BS-FRZN10_Med",
+          "PC_BS-FRZN10_Med_043",
+          "3",
+          "003_posCSH_PC_BS-FRZN10_Med_043_MX349158.d",
+          "003_negCSH_PC_BS-FRZN10_Med_043_MX349158.d",
+          "003_posCSH_PC_BS-FRZN10_Med_043_MX349158.mzML",
+          "003_negCSH_PC_BS-FRZN10_Med_043_MX349158.mzML",
+          "Bsub_168_cells_CTRL_FRZN_Rep4",
+          "PC_BS-FRZN11_Med",
+          "PC_BS-FRZN11_Med_044",
+          "41",
+          "041_posCSH_PC_BS-FRZN11_Med_044_MX349158.d",
+          "041_negCSH_PC_BS-FRZN11_Med_044_MX349158.d",
+          "041_posCSH_PC_BS-FRZN11_Med_044_MX349158.mzML",
+          "041_negCSH_PC_BS-FRZN11_Med_044_MX349158.mzML",
+          "FLT_BS-A1_Pellet",
+          "FLT_BS-A1_Pellet_019",
+          "8",
+          "008_posCSH_FLT_BS-A1_Pellet_019_MX340473.d",
+          "008_negCSH_FLT_BS-A1_Pellet_019_MX340473.d",
+          "008_posCSH_FLT_BS-A1_Pellet_019_MX340473.mzML",
+          "008_negCSH_FLT_BS-A1_Pellet_019_MX340473.mzML",
+          "FLT_BS-A2_Pellet",
+          "FLT_BS-A2_Pellet_020",
+          "1",
+          "001_posCSH_FLT_BS-A2_Pellet_020_MX340473.d",
+          "001_negCSH_FLT_BS-A2_Pellet_020_MX340473.d",
+          "001_posCSH_FLT_BS-A2_Pellet_020_MX340473.mzML",
+          "001_negCSH_FLT_BS-A2_Pellet_020_MX340473.mzML",
+          "FLT_BS-A3_Pellet",
+          "FLT_BS-A3_Pellet_021",
+          "11",
+          "011_posCSH_FLT_BS-A3_Pellet_021_MX340473.d",
+          "011_negCSH_FLT_BS-A3_Pellet_021_MX340473.d",
+          "011_posCSH_FLT_BS-A3_Pellet_021_MX340473.mzML",
+          "011_negCSH_FLT_BS-A3_Pellet_021_MX340473.mzML",
+          "FLT_BS-A4_Pellet",
+          "FLT_BS-A4_Pellet_022",
+          "43",
+          "043_posCSH_FLT_BS-A4_Pellet_022_MX340473.d",
+          "043_negCSH_FLT_BS-A4_Pellet_022_MX340473.d",
+          "043_posCSH_FLT_BS-A4_Pellet_022_MX340473.mzML",
+          "043_negCSH_FLT_BS-A4_Pellet_022_MX340473.mzML",
+          "FLT_BS-A5_Pellet",
+          "FLT_BS-A5_Pellet_023",
+          "100",
+          "100_posCSH_FLT_BS-A5_Pellet_023_MX340473.d",
+          "100_negCSH_FLT_BS-A5_Pellet_023_MX340473.d",
+          "100_posCSH_FLT_BS-A5_Pellet_023_MX340473.mzML",
+          "100_negCSH_FLT_BS-A5_Pellet_023_MX340473.mzML",
+          "FLT_BS-C1_Pellet",
+          "FLT_BS-C1_Pellet_024",
+          "76",
+          "076_posCSH_FLT_BS-C1_Pellet_024_MX340473.d",
+          "076_negCSH_FLT_BS-C1_Pellet_024_MX340473.d",
+          "076_posCSH_FLT_BS-C1_Pellet_024_MX340473.mzML",
+          "076_negCSH_FLT_BS-C1_Pellet_024_MX340473.mzML",
+          "FLT_BS-C2_Pellet",
+          "FLT_BS-C2_Pellet_025",
+          "47",
+          "047_posCSH_FLT_BS-C2_Pellet_025_MX340473.d",
+          "047_negCSH_FLT_BS-C2_Pellet_025_MX340473.d",
+          "047_posCSH_FLT_BS-C2_Pellet_025_MX340473.mzML",
+          "047_negCSH_FLT_BS-C2_Pellet_025_MX340473.mzML",
+          "FLT_BS-C3_Pellet",
+          "FLT_BS-C3_Pellet_026",
+          "61",
+          "061_posCSH_FLT_BS-C3_Pellet_026_MX340473.d",
+          "061_negCSH_FLT_BS-C3_Pellet_026_MX340473.d",
+          "061_posCSH_FLT_BS-C3_Pellet_026_MX340473.mzML",
+          "061_negCSH_FLT_BS-C3_Pellet_026_MX340473.mzML",
+          "FLT_BS-C4_Pellet",
+          "FLT_BS-C4_Pellet_027",
+          "66",
+          "066_posCSH_FLT_BS-C4_Pellet_027_MX340473.d",
+          "066_negCSH_FLT_BS-C4_Pellet_027_MX340473.d",
+          "066_posCSH_FLT_BS-C4_Pellet_027_MX340473.mzML",
+          "066_negCSH_FLT_BS-C4_Pellet_027_MX340473.mzML",
+          "GC_BS-A1_Pellet",
+          "GC_BS-A1_Pellet_028",
+          "87",
+          "087_posCSH_GC_BS-A1_Pellet_028_MX340473.d",
+          "087_negCSH_GC_BS-A1_Pellet_028_MX340473.d",
+          "087_posCSH_GC_BS-A1_Pellet_028_MX340473.mzML",
+          "087_negCSH_GC_BS-A1_Pellet_028_MX340473.mzML",
+          "GC_BS-A2_Pellet",
+          "GC_BS-A2_Pellet_029",
+          "89",
+          "089_posCSH_GC_BS-A2_Pellet_029_MX340473.d",
+          "089_negCSH_GC_BS-A2_Pellet_029_MX340473.d",
+          "089_posCSH_GC_BS-A2_Pellet_029_MX340473.mzML",
+          "089_negCSH_GC_BS-A2_Pellet_029_MX340473.mzML",
+          "GC_BS-A3_Pellet",
+          "GC_BS-A3_Pellet_030",
+          "40",
+          "040_posCSH_GC_BS-A3_Pellet_030_MX340473.d",
+          "040_negCSH_GC_BS-A3_Pellet_030_MX340473.d",
+          "040_posCSH_GC_BS-A3_Pellet_030_MX340473.mzML",
+          "040_negCSH_GC_BS-A3_Pellet_030_MX340473.mzML",
+          "GC_BS-A4_Pellet",
+          "GC_BS-A4_Pellet_031",
+          "54",
+          "054_posCSH_GC_BS-A4_Pellet_031_MX340473.d",
+          "054_negCSH_GC_BS-A4_Pellet_031_MX340473.d",
+          "054_posCSH_GC_BS-A4_Pellet_031_MX340473.mzML",
+          "054_negCSH_GC_BS-A4_Pellet_031_MX340473.mzML",
+          "GC_BS-A5_Pellet",
+          "GC_BS-A5_Pellet_032",
+          "29",
+          "029_posCSH_GC_BS-A5_Pellet_032_MX340473.d",
+          "029_negCSH_GC_BS-A5_Pellet_032_MX340473.d",
+          "029_posCSH_GC_BS-A5_Pellet_032_MX340473.mzML",
+          "029_negCSH_GC_BS-A5_Pellet_032_MX340473.mzML",
+          "GC_BS-C1_Pellet",
+          "GC_BS-C1_Pellet_033",
+          "94",
+          "094_posCSH_GC_BS-C1_Pellet_033_MX340473.d",
+          "094_negCSH_GC_BS-C1_Pellet_033_MX340473.d",
+          "094_posCSH_GC_BS-C1_Pellet_033_MX340473.mzML",
+          "094_negCSH_GC_BS-C1_Pellet_033_MX340473.mzML",
+          "GC_BS-C2_Pellet",
+          "GC_BS-C2_Pellet_034",
+          "65",
+          "065_posCSH_GC_BS-C2_Pellet_034_MX340473.d",
+          "065_negCSH_GC_BS-C2_Pellet_034_MX340473.d",
+          "065_posCSH_GC_BS-C2_Pellet_034_MX340473.mzML",
+          "065_negCSH_GC_BS-C2_Pellet_034_MX340473.mzML",
+          "GC_BS-C3_Pellet",
+          "GC_BS-C3_Pellet_035",
+          "74",
+          "074_posCSH_GC_BS-C3_Pellet_035_MX340473.d",
+          "074_negCSH_GC_BS-C3_Pellet_035_MX340473.d",
+          "074_posCSH_GC_BS-C3_Pellet_035_MX340473.mzML",
+          "074_negCSH_GC_BS-C3_Pellet_035_MX340473.mzML",
+          "GC_BS-C4_Pellet",
+          "GC_BS-C4_Pellet_036",
+          "59",
+          "059_posCSH_GC_BS-C4_Pellet_036_MX340473_*.d",
+          "059_negCSH_GC_BS-C4_Pellet_036_MX340473_*.d",
+          "059_posCSH_GC_BS-C4_Pellet_036_MX340473_*.mzML",
+          "059_negCSH_GC_BS-C4_Pellet_036_MX340473_*.mzML",
+          "PC_BS-ASAP1_Pellet",
+          "PC_BS-ASAP1_Pellet_045",
+          "63",
+          "063_posCSH_PC_BS-ASAP1_Pellet_045_MX349158_*.d",
+          "063_negCSH_PC_BS-ASAP1_Pellet_045_MX349158_*.d",
+          "063_posCSH_PC_BS-ASAP1_Pellet_045_MX349158_*.mzML",
+          "063_negCSH_PC_BS-ASAP1_Pellet_045_MX349158_*.mzML",
+          "PC_BS-ASAP2_Pellet",
+          "PC_BS-ASAP2_Pellet_046",
+          "30",
+          "030_posCSH_PC_BS-ASAP2_Pellet_046_MX349158.d",
+          "030_negCSH_PC_BS-ASAP2_Pellet_046_MX349158.d",
+          "030_posCSH_PC_BS-ASAP2_Pellet_046_MX349158.mzML",
+          "030_negCSH_PC_BS-ASAP2_Pellet_046_MX349158.mzML",
+          "PC_BS-ASAP3_Pellet",
+          "PC_BS-ASAP3_Pellet_047",
+          "23",
+          "023_posCSH_PC_BS-ASAP3_Pellet_047_MX349158.d",
+          "023_negCSH_PC_BS-ASAP3_Pellet_047_MX349158.d",
+          "023_posCSH_PC_BS-ASAP3_Pellet_047_MX349158.mzML",
+          "023_negCSH_PC_BS-ASAP3_Pellet_047_MX349158.mzML",
+          "PC_BS-ASAP4_Pellet",
+          "PC_BS-ASAP4_Pellet_048",
+          "35",
+          "035_posCSH_PC_BS-ASAP4_Pellet_048_MX349158.d",
+          "035_negCSH_PC_BS-ASAP4_Pellet_048_MX349158.d",
+          "035_posCSH_PC_BS-ASAP4_Pellet_048_MX349158.mzML",
+          "035_negCSH_PC_BS-ASAP4_Pellet_048_MX349158.mzML",
+          "PC_BS-FRZN8_Pellet",
+          "PC_BS-FRZN8_Pellet_049",
+          "75",
+          "075_posCSH_PC_BS-FRZN8_Pellet_049_MX349158.d",
+          "075_negCSH_PC_BS-FRZN8_Pellet_049_MX349158.d",
+          "075_posCSH_PC_BS-FRZN8_Pellet_049_MX349158.mzML",
+          "075_negCSH_PC_BS-FRZN8_Pellet_049_MX349158.mzML",
+          "PC_BS-FRZN9_Pellet",
+          "PC_BS-FRZN9_Pellet_050",
+          "14",
+          "014_posCSH_PC_BS-FRZN9_Pellet_050_MX349158.d",
+          "014_negCSH_PC_BS-FRZN9_Pellet_050_MX349158.d",
+          "014_posCSH_PC_BS-FRZN9_Pellet_050_MX349158.mzML",
+          "014_negCSH_PC_BS-FRZN9_Pellet_050_MX349158.mzML",
+          "PC_BS-FRZN10_Pellet",
+          "PC_BS-FRZN10_Pellet_051",
+          "48",
+          "048_posCSH_PC_BS-FRZN10_Pellet_051_MX349158.d",
+          "048_negCSH_PC_BS-FRZN10_Pellet_051_MX349158.d",
+          "048_posCSH_PC_BS-FRZN10_Pellet_051_MX349158.mzML",
+          "048_negCSH_PC_BS-FRZN10_Pellet_051_MX349158.mzML",
+          "PC_BS-FRZN11_Pellet",
+          "PC_BS-FRZN11_Pellet_052",
+          "51",
+          "051_posCSH_PC_BS-FRZN11_Pellet_052_MX349158.d",
+          "051_negCSH_PC_BS-FRZN11_Pellet_052_MX349158.d",
+          "051_posCSH_PC_BS-FRZN11_Pellet_052_MX349158.mzML",
+          "051_negCSH_PC_BS-FRZN11_Pellet_052_MX349158.mzML"
+        ],
+        "reports": [
+          "*Data Dictionary Fiehn laboratory_Lipidomics_CSH QTOF lipidomics .pdf"
+        ]
+      }
+    },
+    {
+      "type": "mass-spectrometry",
+      "platform": "LTQ Orbitrap Fusion (Thermo Scientific)",
+      "qc": {},
+      "library": {},
+      "files": {
+        "raw": [
+          "*BRIC-23_BS_raw_GC.tar.gz"
+        ],
+        "processed": [
+          "Bsub_168_cells_FLT_Rep1",
+          "metabolomics data transformation",
+          "FLT_BS-A1_Med",
+          "FLT_BS-A1_Med_001",
+          "36",
+          "gas chromatography separation",
+          "Agilent 6890N",
+          "Restek  Rtx-5Sil MS w/Intergra-Guard",
+          "Pegasus",
+          "electron ionization",
+          "positive mode",
+          "time-of-flight",
+          "in-source fragmentation",
+          "Primary Metabolomics",
+          "170828dngsa36_2.cdf",
+          "Binbase",
+          "*mx 367428_NASA_bacteria cells_09-2017_submit .csv",
+          "Bsub_168_cells_FLT_Rep2",
+          "FLT_BS-A2_Med",
+          "FLT_BS-A2_Med_002",
+          "31",
+          "170828dngsa31_1.cdf",
+          "Bsub_168_cells_FLT_Rep3",
+          "FLT_BS-A3_Med",
+          "FLT_BS-A3_Med_003",
+          "23",
+          "170828dngsa23_1.cdf",
+          "Bsub_168_cells_FLT_Rep4",
+          "FLT_BS-A4_Med",
+          "FLT_BS-A4_Med_004",
+          "2",
+          "170828dngsa02_1.cdf",
+          "Bsub_168_cells_FLT_Rep5",
+          "FLT_BS-A5_Med",
+          "FLT_BS-A5_Med_005",
+          "32",
+          "170828dngsa32_2.cdf",
+          "Bsub_168_cells_FLT_Rep6",
+          "FLT_BS-C1_Med",
+          "FLT_BS-C1_Med_006",
+          "34",
+          "170828dngsa34_2.cdf",
+          "Bsub_168_cells_FLT_Rep7",
+          "FLT_BS-C2_Med",
+          "FLT_BS-C2_Med_007",
+          "27",
+          "170828dngsa27_1.cdf",
+          "Bsub_168_cells_FLT_Rep8",
+          "FLT_BS-C3_Med",
+          "FLT_BS-C3_Med_008",
+          "3",
+          "170828dngsa03_1.cdf",
+          "Bsub_168_cells_FLT_Rep9",
+          "FLT_BS-C4_Med",
+          "FLT_BS-C4_Med_009",
+          "10",
+          "170828dngsa10_1.cdf",
+          "Bsub_168_cells_GC_Rep1",
+          "GC_BS-A1_Med",
+          "GC_BS-A1_Med_010",
+          "11",
+          "170828dngsa11_1.cdf",
+          "Bsub_168_cells_GC_Rep2",
+          "GC_BS-A2_Med",
+          "GC_BS-A2_Med_011",
+          "22",
+          "170828dngsa22_1.cdf",
+          "Bsub_168_cells_GC_Rep3",
+          "GC_BS-A3_Med",
+          "GC_BS-A3_Med_012",
+          "5",
+          "170828dngsa05_1.cdf",
+          "Bsub_168_cells_GC_Rep4",
+          "GC_BS-A4_Med",
+          "GC_BS-A4_Med_013",
+          "8",
+          "170828dngsa08_1.cdf",
+          "Bsub_168_cells_GC_Rep5",
+          "GC_BS-A5_Med",
+          "GC_BS-A5_Med_014",
+          "16",
+          "170828dngsa16_1.cdf",
+          "Bsub_168_cells_GC_Rep6",
+          "GC_BS-C1_Med",
+          "GC_BS-C1_Med_015",
+          "29",
+          "170828dngsa29_2.cdf",
+          "Bsub_168_cells_GC_Rep7",
+          "GC_BS-C2_Med",
+          "GC_BS-C2_Med_016",
+          "13",
+          "170828dngsa13_1.cdf",
+          "Bsub_168_cells_GC_Rep8",
+          "GC_BS-C3_Med",
+          "GC_BS-C3_Med_017",
+          "20",
+          "170828dngsa20_1.cdf",
+          "Bsub_168_cells_GC_Rep9",
+          "GC_BS-C4_Med",
+          "GC_BS-C4_Med_018",
+          "35",
+          "170828dngsa35_2.cdf",
+          "Bsub_168_cells_CTRL_ASAP_Rep1",
+          "PC_BS-ASAP1_Med",
+          "PC_BS-ASAP1_Med_037",
+          "85",
+          "170905dngsa48_1.cdf",
+          "Bsub_168_cells_CTRL_ASAP_Rep2",
+          "PC_BS-ASAP2_Med",
+          "PC_BS-ASAP2_Med_038",
+          "88",
+          "170906dngsa01_1.cdf",
+          "Bsub_168_cells_CTRL_ASAP_Rep3",
+          "PC_BS-ASAP3_Med",
+          "PC_BS-ASAP3_Med_039",
+          "62",
+          "170905dngsa25_2.cdf",
+          "Bsub_168_cells_CTRL_ASAP_Rep4",
+          "PC_BS-ASAP4_Med",
+          "PC_BS-ASAP4_Med_040",
+          "64",
+          "170905dngsa27_2.cdf",
+          "Bsub_168_cells_CTRL_FRZN_Rep1",
+          "PC_BS-FRZN8_Med",
+          "PC_BS-FRZN8_Med_041",
+          "80",
+          "170905dngsa43_1.cdf",
+          "Bsub_168_cells_CTRL_FRZN_Rep2",
+          "PC_BS-FRZN9_Med",
+          "PC_BS-FRZN9_Med_042",
+          "84",
+          "170905dngsa47_1.cdf",
+          "Bsub_168_cells_CTRL_FRZN_Rep3",
+          "PC_BS-FRZN10_Med",
+          "PC_BS-FRZN10_Med_043",
+          "72",
+          "170905dngsa35_2.cdf",
+          "Bsub_168_cells_CTRL_FRZN_Rep4",
+          "PC_BS-FRZN11_Med",
+          "PC_BS-FRZN11_Med_044",
+          "38",
+          "170905dngsa01_2.cdf",
+          "TSY_blank",
+          "TSY_blank_037",
+          "14",
+          "170828dngsa14_1.cdf",
+          "FLT_BS-A1_Pellet",
+          "FLT_BS-A1_Pellet_019",
+          "26",
+          "170828dngsa26_1.cdf",
+          "FLT_BS-A2_Pellet",
+          "FLT_BS-A2_Pellet_020",
+          "4",
+          "170828dngsa04_1.cdf",
+          "FLT_BS-A3_Pellet",
+          "FLT_BS-A3_Pellet_021",
+          "12",
+          "170828dngsa12_1.cdf",
+          "FLT_BS-A4_Pellet",
+          "FLT_BS-A4_Pellet_022",
+          "25",
+          "170828dngsa25_1.cdf",
+          "FLT_BS-A5_Pellet",
+          "FLT_BS-A5_Pellet_023",
+          "21",
+          "170828dngsa21_1.cdf",
+          "FLT_BS-C1_Pellet",
+          "FLT_BS-C1_Pellet_024",
+          "7",
+          "170828dngsa07_1.cdf",
+          "FLT_BS-C2_Pellet",
+          "FLT_BS-C2_Pellet_025",
+          "1",
+          "170828dngsa01_1.cdf",
+          "FLT_BS-C3_Pellet",
+          "FLT_BS-C3_Pellet_026",
+          "15",
+          "170828dngsa15_1.cdf",
+          "FLT_BS-C4_Pellet",
+          "FLT_BS-C4_Pellet_027",
+          "18",
+          "170828dngsa18_1.cdf",
+          "GC_BS-A1_Pellet",
+          "GC_BS-A1_Pellet_028",
+          "24",
+          "170828dngsa24_1.cdf",
+          "GC_BS-A2_Pellet",
+          "GC_BS-A2_Pellet_029",
+          "28",
+          "170828dngsa28_1.cdf",
+          "GC_BS-A3_Pellet",
+          "GC_BS-A3_Pellet_030",
+          "17",
+          "170828dngsa17_1.cdf",
+          "GC_BS-A4_Pellet",
+          "GC_BS-A4_Pellet_031",
+          "33",
+          "170828dngsa33_2.cdf",
+          "GC_BS-A5_Pellet",
+          "GC_BS-A5_Pellet_032",
+          "30",
+          "170828dngsa30_1.cdf",
+          "GC_BS-C1_Pellet",
+          "GC_BS-C1_Pellet_033",
+          "9",
+          "170828dngsa09_1.cdf",
+          "GC_BS-C2_Pellet",
+          "GC_BS-C2_Pellet_034",
+          "6",
+          "170828dngsa06_1.cdf",
+          "GC_BS-C3_Pellet",
+          "GC_BS-C3_Pellet_035",
+          "37",
+          "170828dngsa37_2.cdf",
+          "GC_BS-C4_Pellet",
+          "GC_BS-C4_Pellet_036",
+          "19",
+          "170828dngsa19_1.cdf",
+          "PC_BS-ASAP1_Pellet",
+          "PC_BS-ASAP1_Pellet_045",
+          "70",
+          "170905dngsa33_2.cdf",
+          "PC_BS-ASAP2_Pellet",
+          "PC_BS-ASAP2_Pellet_046",
+          "97",
+          "170906dngsa10_1.cdf",
+          "PC_BS-ASAP4_Pellet",
+          "PC_BS-ASAP4_Pellet_048",
+          "41",
+          "170905dngsa04_2.cdf",
+          "PC_BS-FRZN8_Pellet",
+          "PC_BS-FRZN8_Pellet_049",
+          "39",
+          "170905dngsa02_2.cdf",
+          "PC_BS-FRZN9_Pellet",
+          "PC_BS-FRZN9_Pellet_050",
+          "65",
+          "170905dngsa28_2.cdf",
+          "PC_BS-FRZN10_Pellet",
+          "PC_BS-FRZN10_Pellet_051",
+          "73",
+          "170905dngsa36_2.cdf"
+        ],
+        "reports": [
+          "*Data_Dictionary_Fiehn_laboratory_GCTOF_MS_primary_metabolism_10-15-2013_general .pdf"
+        ]
+      }
+    },
+    {
+      "type": "protein-expression-profiling",
+      "platform": "LTQ Orbitrap Fusion (Thermo Scientific)",
+      "qc": {},
+      "library": {},
+      "files": {
+        "raw": [
+          "*BRIC_23_Bacillus_raw.tar.gz",
+          "170623_KC_NASA_MS3TMT_S1_F*.raw",
+          "*BRIC_23_Bacillus_processed.tar.gz",
+          "170623_KC_NASA_MS3TMT_S2_F*.raw",
+          "170720_NASA_Bric23_6923_BS_Series_1_Frac*.raw",
+          "170720_NASA_Bric23_6923_BS_Series_2_Frac*.raw"
+        ],
+        "processed": [
+          "Bsub_168_cells_FLT_Rep2",
+          "4.59E7",
+          "proteomics data transformation",
+          "FLT_BS-A2_PRT",
+          "NASA_PRT_10",
+          "FLT_BS-A2_PRT_TMT",
+          "129N",
+          "LTQ Orbitrap Fusion (Thermo Scientific)",
+          "Reverse Phase Liquid Chromatography",
+          "Electrospray Ionization",
+          "positive",
+          "CID/HCD",
+          "Ion Trap & Orbitrap",
+          "Series 1",
+          "MS3 isobaric ten plex analysis",
+          "170623_KC_NASA_MS3TMT_S1_F*.mzML",
+          "Proteome Discoverer/ Byonic",
+          "170623_KC_NASA_MS3TMT_S1_TargetPeptideSpectrumMatch.txt",
+          "170623_KC_NASA_MS3TMT_S1_TargetPeptideGroup.txt",
+          "170623_KC_NASA_MS3TMT_S1_TargetProtein.txt",
+          "170623_KC_NASA_MS3TMT_S1_TargetProteinGroup.txt",
+          "170623_KC_NA....byspec2_20170627_Byonic_S1.mgf",
+          "170623_KC_NA....byspec2_20170627_Byonic_S1.mzid",
+          "Bsub_168_cells_FLT_Rep3",
+          "9.82E7",
+          "FLT_BS-A3_PRT",
+          "NASA_PRT_13",
+          "FLT_BS-A3_PRT_TMT",
+          "128C",
+          "Series 2",
+          "170623_KC_NASA_MS3TMT_S2_F*.mzML",
+          "170623_KC_NASA_MS3TMT_S2_TargetPeptideSpectrumMatch.txt",
+          "170623_KC_NASA_MS3TMT_S2_TargetPeptideGroup.txt",
+          "170623_KC_NASA_MS3TMT_S2_TargetProtein.txt",
+          "170623_KC_NASA_MS3TMT_S2_TargetProteinGroup.txt",
+          "170623_KC_NA....byspec2_20170627_Byonic_S2.mgf",
+          "170623_KC_NA....byspec2_20170627_Byonic_S2.mzid",
+          "Bsub_168_cells_FLT_Rep4",
+          "8.4E7",
+          "FLT_BS-A4_PRT",
+          "NASA_PRT_15",
+          "FLT_BS-A4_PRT_TMT",
+          "129C",
+          "Bsub_168_cells_FLT_Rep5",
+          "1.22E8",
+          "FLT_BS-A5_PRT",
+          "NASA_PRT_11",
+          "FLT_BS-A5_PRT_TMT",
+          "Bsub_168_cells_FLT_Rep6",
+          "1.15E8",
+          "FLT_BS-C1_PRT",
+          "NASA_PRT_12",
+          "FLT_BS-C1_PRT_TMT",
+          "130N",
+          "Bsub_168_cells_FLT_Rep8",
+          "9.29E7",
+          "FLT_BS-C3_PRT",
+          "NASA_PRT_16",
+          "FLT_BS-C3_PRT_TMT",
+          "Bsub_168_cells_FLT_Rep9",
+          "1.02E8",
+          "FLT_BS-C4_PRT",
+          "NASA_PRT_14",
+          "FLT_BS-C4_PRT_TMT",
+          "Bsub_168_cells_GC_Rep1",
+          "2.66E7",
+          "GC_BS-A1_PRT",
+          "NASA_PRT_1",
+          "GC_BS-A1_PRT_TMT",
+          "126",
+          "Bsub_168_cells_GC_Rep2",
+          "3.7E7",
+          "GC_BS-A2_PRT",
+          "NASA_PRT_2",
+          "GC_BS-A2_PRT_TMT",
+          "127N",
+          "Bsub_168_cells_GC_Rep3",
+          "6.69E7",
+          "GC_BS-A3_PRT",
+          "NASA_PRT_6",
+          "GC_BS-A3_PRT_TMT",
+          "Bsub_168_cells_GC_Rep4",
+          "~2.00E8",
+          "GC_BS-A4_PRT",
+          "NASA_PRT_8",
+          "GC_BS-A4_PRT_TMT",
+          "127C",
+          "Bsub_168_cells_GC_Rep5",
+          "7.23E7",
+          "GC_BS-A5_PRT",
+          "NASA_PRT_4",
+          "GC_BS-A5_PRT_TMT",
+          "128N",
+          "Bsub_168_cells_GC_Rep6",
+          "6.57E7",
+          "GC_BS-C1_PRT",
+          "NASA_PRT_5",
+          "GC_BS-C1_PRT_TMT",
+          "Bsub_168_cells_GC_Rep7",
+          "4.96E7",
+          "GC_BS-C2_PRT",
+          "NASA_PRT_3",
+          "GC_BS-C2_PRT_TMT",
+          "Bsub_168_cells_GC_Rep8",
+          "1.54E8",
+          "GC_BS-C3_PRT",
+          "NASA_PRT_9",
+          "GC_BS-C3_PRT_TMT",
+          "Bsub_168_cells_GC_Rep9",
+          "4.7E7",
+          "GC_BS-C4_PRT",
+          "NASA_PRT_7",
+          "GC_BS-C4_PRT_TMT",
+          "Bsub_168_cells_CTRL_ASAP_Rep1",
+          "3.59E8",
+          "PC_BS-ASAP1_PRT",
+          "BS_ASAP1",
+          "PC_BS-ASAP1_PRT_TMT",
+          "BS_Series 1",
+          "170720_NASA_Bric23_6923_BS_Series_1_Frac*.mzML",
+          "170720_NASA_Bric23_6923_BS_Series_1_TargetPeptideSpectrumMatch.txt",
+          "170720_NASA_Bric23_6923_BS_Series_1_TargetPeptideGrout.txt",
+          "170720_NASA_Bric23_6923_BS_Series_1_TargetProtein.txt",
+          "170720_NASA_Bric23_6923_BS_Series_1_TargetProteinGroup.txt",
+          "170720_NASA_....byspec2_20170731_Byonic_BS_S1.mgf",
+          "170720_NASA_....byspec2_20170731_Byonic_BS_S1.mzid",
+          "Bsub_168_cells_CTRL_ASAP_Rep2",
+          "5.12E8",
+          "PC_BS-ASAP2_PRT",
+          "BS_ASAP2",
+          "PC_BS-ASAP2_PRT_TMT",
+          "Bsub_168_cells_CTRL_ASAP_Rep3",
+          "3.84E8",
+          "PC_BS-ASAP3_PRT",
+          "BS_ASAP3",
+          "PC_BS-ASAP3_PRT_TMT",
+          "Bsub_168_cells_CTRL_ASAP_Rep4",
+          "4.38E8",
+          "PC_BS-ASAP4_PRT",
+          "BS_ASAP4",
+          "PC_BS-ASAP4_PRT_TMT",
+          "BS_Series 2",
+          "170720_NASA_Bric23_6923_BS_Series_2_Frac*.mzML",
+          "170720_NASA_Bric23_6923_BS_Series_2_TargetPeptideSpectrumMatch.txt",
+          "170720_NASA_Bric23_6923_BS_Series_2_TargetPeptideGrout.txt",
+          "170720_NASA_Bric23_6923_BS_Series_2_TargetProtein.txt",
+          "170720_NASA_Bric23_6923_BS_Series_2_TargetProteinGroup.txt",
+          "170720_NASA_....byspec2_20170731_Byonic_BS_S2.mgf",
+          "170720_NASA_....byspec2_20170731_Byonic_BS_S2.mzid",
+          "Bsub_168_cells_CTRL_ASAP_Rep5",
+          "3.69E8",
+          "PC_BS-ASAP5_PRT",
+          "BS_ASAP5",
+          "PC_BS-ASAP5_PRT_TMT",
+          "Bsub_168_cells_CTRL_ASAP_Rep6",
+          "3.99E8",
+          "PC_BS-ASAP6_PRT",
+          "BS_ASAP6",
+          "PC_BS-ASAP6_PRT_TMT",
+          "Bsub_168_cells_CTRL_FRZN_Rep1",
+          "6.33E8",
+          "PC_BS-FRZN8_PRT",
+          "BS_FRZN 8",
+          "PC_BS-FRZN8_PRT_TMT",
+          "Bsub_168_cells_CTRL_FRZN_Rep2",
+          "7.19E8",
+          "PC_BS-FRZN9_PRT",
+          "BS_FRZN 9",
+          "PC_BS-FRZN9_PRT_TMT",
+          "Bsub_168_cells_CTRL_FRZN_Rep3",
+          "6.49E8",
+          "PC_BS-FRZN10_PRT",
+          "BS_FRZN 10",
+          "PC_BS-FRZN10_PRT_TMT",
+          "Bsub_168_cells_CTRL_FRZN_Rep4",
+          "5.22E8",
+          "PC_BS-FRZN11_PRT",
+          "BS_FRZN 11",
+          "PC_BS-FRZN11_PRT_TMT",
+          "Bsub_168_cells_CTRL_FRZN_Rep5",
+          "6.63E8",
+          "PC_BS-FRZN12_PRT",
+          "BS_FRZN 12",
+          "PC_BS-FRZN12_PRT_TMT",
+          "Bsub_168_cells_CTRL_FRZN_Rep6",
+          "5.1E8",
+          "PC_BS-FRZN13_PRT",
+          "BS_FRZN 13",
+          "PC_BS-FRZN13_PRT_TMT"
+        ],
+        "reports": []
+      }
+    },
+    {
+      "type": "transcription-profiling",
+      "platform": "nucleic acid sequencing",
+      "qc": {
+        "QA Instrument": "Agilent 2100 Bioanalyzer",
+        "QA Assay": "\"RNA 6000 Pico Assay",
+        "QA Score": "\"",
+        "Read Depth": "http://purl.obolibrary.org/obo/UO_0000187",
+        "rRNA Contamination": "GeneLab RNAseq data processing protocol"
+      },
+      "library": {},
+      "files": {
+        "raw": [
+          "rna-seq",
+          "GLDS-138_rna-seq_FLT-BS-A1-RNA.tar.gz",
+          "GLDS-138_rna-seq_FLT-BS-A2-RNA.tar.gz",
+          "GLDS-138_rna-seq_FLT-BS-A3-RNA.tar.gz",
+          "GLDS-138_rna-seq_FLT-BS-A4-RNA.tar.gz",
+          "GLDS-138_rna-seq_FLT-BS-A5-RNA.tar.gz",
+          "GLDS-138_rna-seq_FLT-BS-C1-RNA.tar.gz",
+          "GLDS-138_rna-seq_FLT-BS-C2-RNA.tar.gz",
+          "GLDS-138_rna-seq_FLT-BS-C3-RNA.tar.gz",
+          "GLDS-138_rna-seq_FLT-BS-C4-RNA.tar.gz",
+          "GLDS-138_rna-seq_GC-BS-A1-RNA.tar.gz",
+          "GLDS-138_rna-seq_GC-BS-A2-RNA.tar.gz",
+          "GLDS-138_rna-seq_GC-BS-A3-RNA.tar.gz",
+          "GLDS-138_rna-seq_GC-BS-A4-RNA.tar.gz",
+          "GLDS-138_rna-seq_GC-BS-A5-RNA.tar.gz",
+          "GLDS-138_rna-seq_GC-BS-C1-RNA.tar.gz",
+          "GLDS-138_rna-seq_GC-BS-C2-RNA.tar.gz",
+          "GLDS-138_rna-seq_GC-BS-C3-RNA.tar.gz",
+          "GLDS-138_rna-seq_GC-BS-C4-RNA.tar.gz"
+        ],
+        "processed": [
+          "http://purl.obolibrary.org/obo/SO_0000150",
+          "Bsub_168_cells_FLT_Rep1",
+          "1.03E8",
+          "46584831",
+          "\"GLDS-138_rna_seq_SampleTable_GLbulkRNAseq.csv",
+          "GLDS-138_rna_seq_contrasts_GLbulkRNAseq.csv",
+          "GLDS-138_rna_seq_differential_expression_GLbulkRNAseq.csv\"",
+          "Agilent 2100 Bioanalyzer",
+          "\"RNA 6000 Pico Assay",
+          "\"",
+          "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C63637",
+          "library construction",
+          "Ribo-depletion",
+          "SINGLE",
+          "STRANDED",
+          "nucleic acid sequencing",
+          "Illumina HiSeq 4000",
+          "http://purl.obolibrary.org/obo/UO_0000244",
+          "rna-seq",
+          "GeneLab RNAseq data processing protocol",
+          "http://purl.obolibrary.org/obo/UO_0000187",
+          "Bsub_168_cells_FLT_Rep2",
+          "1.08E8",
+          "38045127",
+          "Bsub_168_cells_FLT_Rep3",
+          "6.38E7",
+          "44491049",
+          "Bsub_168_cells_FLT_Rep4",
+          "5.46E7",
+          "46942377",
+          "Bsub_168_cells_FLT_Rep5",
+          "7.93E7",
+          "44450887",
+          "Bsub_168_cells_FLT_Rep6",
+          "9.65E7",
+          "49904922",
+          "Bsub_168_cells_FLT_Rep7",
+          "9.36E7",
+          "45492798",
+          "Bsub_168_cells_FLT_Rep8",
+          "6.04E7",
+          "45696973",
+          "Bsub_168_cells_FLT_Rep9",
+          "6.66E7",
+          "40010065",
+          "Bsub_168_cells_GC_Rep1",
+          "4.78E7",
+          "42779550",
+          "Bsub_168_cells_GC_Rep2",
+          "6.74E7",
+          "45201154",
+          "Bsub_168_cells_GC_Rep3",
+          "4.89E7",
+          "40978822",
+          "Bsub_168_cells_GC_Rep4",
+          "around 1.30E8",
+          "47448836",
+          "Bsub_168_cells_GC_Rep5",
+          "4.7E7",
+          "45349930",
+          "Bsub_168_cells_GC_Rep6",
+          "4.27E7",
+          "42144697",
+          "Bsub_168_cells_GC_Rep7",
+          "8.17E7",
+          "44307471",
+          "Bsub_168_cells_GC_Rep8",
+          "1.74E8",
+          "45656788",
+          "Bsub_168_cells_GC_Rep9",
+          "5.48E7",
+          "48983929"
+        ],
+        "reports": []
+      }
+    }
+  ]
+}

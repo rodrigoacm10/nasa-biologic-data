@@ -1,0 +1,871 @@
+{
+  "investigation": {
+    "id": "OSD-658",
+    "title": "Simulated Galactic Cosmic Ray Exposure Activates Dose-Dependent DNA Repair Response and Downregulates Glucosinolate Pathway in Arabidopsis Seedlings",
+    "description": "This study's objective was to develop an understanding of the biological effects of space radiation on plants with the goal of producing fresh food during long duration space missions to support astronauts' nutritional and psychological needs.10-day-old Arabidopsis seedlings were exposed to simulated Galactic Cosmic Rays (GCR) and assessed for transcriptomic changes. The simulated GCR irradiation was carried out in the NASA Space Radiation Laboratory (NSRL) at Brookhaven National Lab (BNL).",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "High_Dose_Irradiation, Low_Dose_Irradiation, Multiple_Radiation_Types, Heavy_Ion_HZE_Irradiation, Simplified_Galactic_Cosmic_Ray_Simulation_Irradiation",
+      "title": "",
+      "type": "Ground Study",
+      "link": "",
+      "funding": "Biological and Physical Sciences Division (BPS) and Human Research Program (HRP)",
+      "managing_center": "Kennedy Space Center (KSC)"
+    },
+    "protocols": [
+      "growth protocol",
+      "irradiation protocol",
+      "sample collection",
+      "Nucleic Acid Extraction",
+      "Library Construction",
+      "Nucleic Acid Sequencing",
+      "GeneLab raw data processing protocol",
+      "GeneLab RNAseq data processing protocol"
+    ],
+    "publications": [],
+    "factors": [
+      "Ionizing Radiation",
+      "Absorbed Radiation Dose"
+    ],
+    "contacts": [
+      {
+        "first_name": "Anirudha",
+        "last_name": "Dixit",
+        "role": "scientist",
+        "email": "anirudha.dixit@nasa.gov"
+      },
+      {
+        "first_name": "Ye",
+        "last_name": "Zhang",
+        "role": "investigation role",
+        "email": "ye.zhang-1@nasa.gov"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "CWRU004174_S1",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "strain": "Columbia ecotype",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Absorbed Radiation Dose": ""
+        },
+        "parameters": {
+          "Growth Medium": "0.5X Murashige and Skoog (MS) phytagel media (with 0.5% sucrose and 1x Gamborg vitamins)",
+          "light cycle": "16:8 light:dark",
+          "Mean Growth Temperature": "22",
+          "Light Intensity": "150",
+          "Growth Time": "10",
+          "number of particle types": "",
+          "ionizing radiation categorized by source": "",
+          "absorbed radiation dose rate": "",
+          "time between exposures": "",
+          "ionizing radiation energy (in order of administration)": "",
+          "exposure duration": "",
+          "particle charge": "",
+          "linear energy transfer": "",
+          "ionizing radiation device": "",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Did samples remain in the beamline between exposures?": "",
+          "Tissue": "10 day old seedlings",
+          "Exposure order of administration": "",
+          "Particles": ""
+        }
+      },
+      {
+        "sample_name": "CWRU004175_S2",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "strain": "Columbia ecotype",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Absorbed Radiation Dose": ""
+        },
+        "parameters": {
+          "Growth Medium": "0.5X Murashige and Skoog (MS) phytagel media (with 0.5% sucrose and 1x Gamborg vitamins)",
+          "light cycle": "16:8 light:dark",
+          "Mean Growth Temperature": "22",
+          "Light Intensity": "150",
+          "Growth Time": "10",
+          "number of particle types": "",
+          "ionizing radiation categorized by source": "",
+          "absorbed radiation dose rate": "",
+          "time between exposures": "",
+          "ionizing radiation energy (in order of administration)": "",
+          "exposure duration": "",
+          "particle charge": "",
+          "linear energy transfer": "",
+          "ionizing radiation device": "",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Did samples remain in the beamline between exposures?": "",
+          "Tissue": "10 day old seedlings",
+          "Exposure order of administration": "",
+          "Particles": ""
+        }
+      },
+      {
+        "sample_name": "CWRU004176_S3",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "strain": "Columbia ecotype",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Absorbed Radiation Dose": ""
+        },
+        "parameters": {
+          "Growth Medium": "0.5X Murashige and Skoog (MS) phytagel media (with 0.5% sucrose and 1x Gamborg vitamins)",
+          "light cycle": "16:8 light:dark",
+          "Mean Growth Temperature": "22",
+          "Light Intensity": "150",
+          "Growth Time": "10",
+          "number of particle types": "",
+          "ionizing radiation categorized by source": "",
+          "absorbed radiation dose rate": "",
+          "time between exposures": "",
+          "ionizing radiation energy (in order of administration)": "",
+          "exposure duration": "",
+          "particle charge": "",
+          "linear energy transfer": "",
+          "ionizing radiation device": "",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Did samples remain in the beamline between exposures?": "",
+          "Tissue": "10 day old seedlings",
+          "Exposure order of administration": "",
+          "Particles": ""
+        }
+      },
+      {
+        "sample_name": "CWRU004177_S4",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "strain": "Columbia ecotype",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Ionizing Radiation": "mixed radiation",
+          "Absorbed Radiation Dose": "40"
+        },
+        "parameters": {
+          "Growth Medium": "0.5X Murashige and Skoog (MS) phytagel media (with 0.5% sucrose and 1x Gamborg vitamins)",
+          "light cycle": "16:8 light:dark",
+          "Mean Growth Temperature": "22",
+          "Light Intensity": "150",
+          "Growth Time": "10",
+          "number of particle types": "6",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "absorbed radiation dose rate": "",
+          "time between exposures": "Exposures were done sequentially and completed in approximately 20 minutes.",
+          "ionizing radiation energy (in order of administration)": "1000, 250, 250, 350, 600, 600",
+          "exposure duration": "20",
+          "particle charge": "NSRL Simplified Galactic Cosmic Ray Simulation",
+          "linear energy transfer": "see protocol description",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Did samples remain in the beamline between exposures?": "",
+          "Tissue": "10 day old seedlings",
+          "Exposure order of administration": "H1 + H1 + He4 + O16 + Si + Fe56",
+          "Particles": "35% 1000 MeV/n H1, 39% 250 MeV/n H1, 18% 250 MeV/n He4, 6% 350 MeV/n O16, 1% 600 MeV/n Si, 1% 600 MeV/n Fe56"
+        }
+      },
+      {
+        "sample_name": "CWRU004178_S5",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "strain": "Columbia ecotype",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Ionizing Radiation": "mixed radiation",
+          "Absorbed Radiation Dose": "40"
+        },
+        "parameters": {
+          "Growth Medium": "0.5X Murashige and Skoog (MS) phytagel media (with 0.5% sucrose and 1x Gamborg vitamins)",
+          "light cycle": "16:8 light:dark",
+          "Mean Growth Temperature": "22",
+          "Light Intensity": "150",
+          "Growth Time": "10",
+          "number of particle types": "6",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "absorbed radiation dose rate": "",
+          "time between exposures": "Exposures were done sequentially and completed in approximately 20 minutes.",
+          "ionizing radiation energy (in order of administration)": "1001, 250, 250, 350, 600, 600",
+          "exposure duration": "20",
+          "particle charge": "NSRL Simplified Galactic Cosmic Ray Simulation",
+          "linear energy transfer": "see protocol description",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Did samples remain in the beamline between exposures?": "",
+          "Tissue": "10 day old seedlings",
+          "Exposure order of administration": "H1 + H1 + He4 + O16 + Si + Fe56",
+          "Particles": "35% 1000 MeV/n H1, 39% 250 MeV/n H1, 18% 250 MeV/n He4, 6% 350 MeV/n O16, 1% 600 MeV/n Si, 1% 600 MeV/n Fe56"
+        }
+      },
+      {
+        "sample_name": "CWRU004179_S6",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "strain": "Columbia ecotype",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Ionizing Radiation": "mixed radiation",
+          "Absorbed Radiation Dose": "40"
+        },
+        "parameters": {
+          "Growth Medium": "0.5X Murashige and Skoog (MS) phytagel media (with 0.5% sucrose and 1x Gamborg vitamins)",
+          "light cycle": "16:8 light:dark",
+          "Mean Growth Temperature": "22",
+          "Light Intensity": "150",
+          "Growth Time": "10",
+          "number of particle types": "6",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "absorbed radiation dose rate": "",
+          "time between exposures": "Exposures were done sequentially and completed in approximately 20 minutes.",
+          "ionizing radiation energy (in order of administration)": "1002, 250, 250, 350, 600, 600",
+          "exposure duration": "20",
+          "particle charge": "NSRL Simplified Galactic Cosmic Ray Simulation",
+          "linear energy transfer": "see protocol description",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Did samples remain in the beamline between exposures?": "",
+          "Tissue": "10 day old seedlings",
+          "Exposure order of administration": "H1 + H1 + He4 + O16 + Si + Fe56",
+          "Particles": "35% 1000 MeV/n H1, 39% 250 MeV/n H1, 18% 250 MeV/n He4, 6% 350 MeV/n O16, 1% 600 MeV/n Si, 1% 600 MeV/n Fe56"
+        }
+      },
+      {
+        "sample_name": "CWRU004180_S7",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "strain": "Columbia ecotype",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Ionizing Radiation": "mixed radiation",
+          "Absorbed Radiation Dose": "40"
+        },
+        "parameters": {
+          "Growth Medium": "0.5X Murashige and Skoog (MS) phytagel media (with 0.5% sucrose and 1x Gamborg vitamins)",
+          "light cycle": "16:8 light:dark",
+          "Mean Growth Temperature": "22",
+          "Light Intensity": "150",
+          "Growth Time": "10",
+          "number of particle types": "6",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "absorbed radiation dose rate": "",
+          "time between exposures": "Exposures were done sequentially and completed in approximately 20 minutes.",
+          "ionizing radiation energy (in order of administration)": "1003, 250, 250, 350, 600, 600",
+          "exposure duration": "20",
+          "particle charge": "NSRL Simplified Galactic Cosmic Ray Simulation",
+          "linear energy transfer": "see protocol description",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Did samples remain in the beamline between exposures?": "",
+          "Tissue": "10 day old seedlings",
+          "Exposure order of administration": "H1 + H1 + He4 + O16 + Si + Fe56",
+          "Particles": "35% 1000 MeV/n H1, 39% 250 MeV/n H1, 18% 250 MeV/n He4, 6% 350 MeV/n O16, 1% 600 MeV/n Si, 1% 600 MeV/n Fe56"
+        }
+      },
+      {
+        "sample_name": "CWRU004181_S8",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "strain": "Columbia ecotype",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Absorbed Radiation Dose": ""
+        },
+        "parameters": {
+          "Growth Medium": "0.5X Murashige and Skoog (MS) phytagel media (with 0.5% sucrose and 1x Gamborg vitamins)",
+          "light cycle": "16:8 light:dark",
+          "Mean Growth Temperature": "22",
+          "Light Intensity": "150",
+          "Growth Time": "10",
+          "number of particle types": "",
+          "ionizing radiation categorized by source": "",
+          "absorbed radiation dose rate": "",
+          "time between exposures": "",
+          "ionizing radiation energy (in order of administration)": "",
+          "exposure duration": "",
+          "particle charge": "",
+          "linear energy transfer": "",
+          "ionizing radiation device": "",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Did samples remain in the beamline between exposures?": "",
+          "Tissue": "10 day old seedlings",
+          "Exposure order of administration": "",
+          "Particles": ""
+        }
+      },
+      {
+        "sample_name": "CWRU004182_S9",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "strain": "Columbia ecotype",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Absorbed Radiation Dose": ""
+        },
+        "parameters": {
+          "Growth Medium": "0.5X Murashige and Skoog (MS) phytagel media (with 0.5% sucrose and 1x Gamborg vitamins)",
+          "light cycle": "16:8 light:dark",
+          "Mean Growth Temperature": "22",
+          "Light Intensity": "150",
+          "Growth Time": "10",
+          "number of particle types": "",
+          "ionizing radiation categorized by source": "",
+          "absorbed radiation dose rate": "",
+          "time between exposures": "",
+          "ionizing radiation energy (in order of administration)": "",
+          "exposure duration": "",
+          "particle charge": "",
+          "linear energy transfer": "",
+          "ionizing radiation device": "",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Did samples remain in the beamline between exposures?": "",
+          "Tissue": "10 day old seedlings",
+          "Exposure order of administration": "",
+          "Particles": ""
+        }
+      },
+      {
+        "sample_name": "CWRU004183_S10",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "strain": "Columbia ecotype",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Absorbed Radiation Dose": ""
+        },
+        "parameters": {
+          "Growth Medium": "0.5X Murashige and Skoog (MS) phytagel media (with 0.5% sucrose and 1x Gamborg vitamins)",
+          "light cycle": "16:8 light:dark",
+          "Mean Growth Temperature": "22",
+          "Light Intensity": "150",
+          "Growth Time": "10",
+          "number of particle types": "",
+          "ionizing radiation categorized by source": "",
+          "absorbed radiation dose rate": "",
+          "time between exposures": "",
+          "ionizing radiation energy (in order of administration)": "",
+          "exposure duration": "",
+          "particle charge": "",
+          "linear energy transfer": "",
+          "ionizing radiation device": "",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Did samples remain in the beamline between exposures?": "",
+          "Tissue": "10 day old seedlings",
+          "Exposure order of administration": "",
+          "Particles": ""
+        }
+      },
+      {
+        "sample_name": "CWRU004184_S11",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "strain": "Columbia ecotype",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Ionizing Radiation": "mixed radiation",
+          "Absorbed Radiation Dose": "80"
+        },
+        "parameters": {
+          "Growth Medium": "0.5X Murashige and Skoog (MS) phytagel media (with 0.5% sucrose and 1x Gamborg vitamins)",
+          "light cycle": "16:8 light:dark",
+          "Mean Growth Temperature": "22",
+          "Light Intensity": "150",
+          "Growth Time": "10",
+          "number of particle types": "6",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "absorbed radiation dose rate": "",
+          "time between exposures": "Exposures were done sequentially and completed in approximately 20 minutes.",
+          "ionizing radiation energy (in order of administration)": "1000, 250, 250, 350, 600, 600",
+          "exposure duration": "20",
+          "particle charge": "NSRL Simplified Galactic Cosmic Ray Simulation",
+          "linear energy transfer": "see protocol description",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Did samples remain in the beamline between exposures?": "",
+          "Tissue": "10 day old seedlings",
+          "Exposure order of administration": "H1 + H1 + He4 + O16 + Si + Fe56",
+          "Particles": "35% 1000 MeV/n H1, 39% 250 MeV/n H1, 18% 250 MeV/n He4, 6% 350 MeV/n O16, 1% 600 MeV/n Si, 1% 600 MeV/n Fe56"
+        }
+      },
+      {
+        "sample_name": "CWRU004185_S12",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "strain": "Columbia ecotype",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Ionizing Radiation": "mixed radiation",
+          "Absorbed Radiation Dose": "80"
+        },
+        "parameters": {
+          "Growth Medium": "0.5X Murashige and Skoog (MS) phytagel media (with 0.5% sucrose and 1x Gamborg vitamins)",
+          "light cycle": "16:8 light:dark",
+          "Mean Growth Temperature": "22",
+          "Light Intensity": "150",
+          "Growth Time": "10",
+          "number of particle types": "6",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "absorbed radiation dose rate": "",
+          "time between exposures": "Exposures were done sequentially and completed in approximately 20 minutes.",
+          "ionizing radiation energy (in order of administration)": "1001, 250, 250, 350, 600, 600",
+          "exposure duration": "20",
+          "particle charge": "NSRL Simplified Galactic Cosmic Ray Simulation",
+          "linear energy transfer": "see protocol description",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Did samples remain in the beamline between exposures?": "",
+          "Tissue": "10 day old seedlings",
+          "Exposure order of administration": "H1 + H1 + He4 + O16 + Si + Fe56",
+          "Particles": "35% 1000 MeV/n H1, 39% 250 MeV/n H1, 18% 250 MeV/n He4, 6% 350 MeV/n O16, 1% 600 MeV/n Si, 1% 600 MeV/n Fe56"
+        }
+      },
+      {
+        "sample_name": "CWRU004186_S13",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "strain": "Columbia ecotype",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Ionizing Radiation": "mixed radiation",
+          "Absorbed Radiation Dose": "80"
+        },
+        "parameters": {
+          "Growth Medium": "0.5X Murashige and Skoog (MS) phytagel media (with 0.5% sucrose and 1x Gamborg vitamins)",
+          "light cycle": "16:8 light:dark",
+          "Mean Growth Temperature": "22",
+          "Light Intensity": "150",
+          "Growth Time": "10",
+          "number of particle types": "6",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "absorbed radiation dose rate": "",
+          "time between exposures": "Exposures were done sequentially and completed in approximately 20 minutes.",
+          "ionizing radiation energy (in order of administration)": "1002, 250, 250, 350, 600, 600",
+          "exposure duration": "20",
+          "particle charge": "NSRL Simplified Galactic Cosmic Ray Simulation",
+          "linear energy transfer": "see protocol description",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Did samples remain in the beamline between exposures?": "",
+          "Tissue": "10 day old seedlings",
+          "Exposure order of administration": "H1 + H1 + He4 + O16 + Si + Fe56",
+          "Particles": "35% 1000 MeV/n H1, 39% 250 MeV/n H1, 18% 250 MeV/n He4, 6% 350 MeV/n O16, 1% 600 MeV/n Si, 1% 600 MeV/n Fe56"
+        }
+      },
+      {
+        "sample_name": "CWRU004187_S14",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "strain": "Columbia ecotype",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Ionizing Radiation": "mixed radiation",
+          "Absorbed Radiation Dose": "80"
+        },
+        "parameters": {
+          "Growth Medium": "0.5X Murashige and Skoog (MS) phytagel media (with 0.5% sucrose and 1x Gamborg vitamins)",
+          "light cycle": "16:8 light:dark",
+          "Mean Growth Temperature": "22",
+          "Light Intensity": "150",
+          "Growth Time": "10",
+          "number of particle types": "6",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "absorbed radiation dose rate": "",
+          "time between exposures": "Exposures were done sequentially and completed in approximately 20 minutes.",
+          "ionizing radiation energy (in order of administration)": "1003, 250, 250, 350, 600, 600",
+          "exposure duration": "20",
+          "particle charge": "NSRL Simplified Galactic Cosmic Ray Simulation",
+          "linear energy transfer": "see protocol description",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Did samples remain in the beamline between exposures?": "",
+          "Tissue": "10 day old seedlings",
+          "Exposure order of administration": "H1 + H1 + He4 + O16 + Si + Fe56",
+          "Particles": "35% 1000 MeV/n H1, 39% 250 MeV/n H1, 18% 250 MeV/n He4, 6% 350 MeV/n O16, 1% 600 MeV/n Si, 1% 600 MeV/n Fe56"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina NextSeq 550",
+      "qc": {
+        "Read Depth": "35586738",
+        "rRNA Contamination": "18.44"
+      },
+      "library": {
+        "Library Selection": "ribo-depletion",
+        "Library Layout": "PAIRED",
+        "Stranded": "STRANDED"
+      },
+      "files": {
+        "raw": [
+          "GLDS-603_rna-seq_CWRU004174_S1_R1_raw.fastq.gz",
+          "GLDS-603_rna-seq_CWRU004174_S1_R2_raw.fastq.gz",
+          "GLDS-603_rna-seq_CWRU004175_S2_R1_raw.fastq.gz",
+          "GLDS-603_rna-seq_CWRU004175_S2_R2_raw.fastq.gz",
+          "GLDS-603_rna-seq_CWRU004176_S3_R1_raw.fastq.gz",
+          "GLDS-603_rna-seq_CWRU004176_S3_R2_raw.fastq.gz",
+          "GLDS-603_rna-seq_CWRU004177_S4_R1_raw.fastq.gz",
+          "GLDS-603_rna-seq_CWRU004177_S4_R2_raw.fastq.gz",
+          "GLDS-603_rna-seq_CWRU004178_S5_R1_raw.fastq.gz",
+          "GLDS-603_rna-seq_CWRU004178_S5_R2_raw.fastq.gz",
+          "GLDS-603_rna-seq_CWRU004179_S6_R1_raw.fastq.gz",
+          "GLDS-603_rna-seq_CWRU004179_S6_R2_raw.fastq.gz",
+          "GLDS-603_rna-seq_CWRU004180_S7_R1_raw.fastq.gz",
+          "GLDS-603_rna-seq_CWRU004180_S7_R2_raw.fastq.gz",
+          "GLDS-603_rna-seq_CWRU004181_S8_R1_raw.fastq.gz",
+          "GLDS-603_rna-seq_CWRU004181_S8_R2_raw.fastq.gz",
+          "GLDS-603_rna-seq_CWRU004182_S9_R1_raw.fastq.gz",
+          "GLDS-603_rna-seq_CWRU004182_S9_R2_raw.fastq.gz",
+          "GLDS-603_rna-seq_CWRU004183_S10_R1_raw.fastq.gz",
+          "GLDS-603_rna-seq_CWRU004183_S10_R2_raw.fastq.gz",
+          "GLDS-603_rna-seq_CWRU004184_S11_R1_raw.fastq.gz",
+          "GLDS-603_rna-seq_CWRU004184_S11_R2_raw.fastq.gz",
+          "GLDS-603_rna-seq_CWRU004185_S12_R1_raw.fastq.gz",
+          "GLDS-603_rna-seq_CWRU004185_S12_R2_raw.fastq.gz",
+          "GLDS-603_rna-seq_CWRU004186_S13_R1_raw.fastq.gz",
+          "GLDS-603_rna-seq_CWRU004186_S13_R2_raw.fastq.gz",
+          "GLDS-603_rna-seq_CWRU004187_S14_R1_raw.fastq.gz",
+          "GLDS-603_rna-seq_CWRU004187_S14_R2_raw.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004174_S1_R1_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004174_S1_R2_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004175_S2_R1_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004175_S2_R2_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004176_S3_R1_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004176_S3_R2_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004177_S4_R1_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004177_S4_R2_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004178_S5_R1_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004178_S5_R2_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004179_S6_R1_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004179_S6_R2_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004180_S7_R1_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004180_S7_R2_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004181_S8_R1_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004181_S8_R2_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004182_S9_R1_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004182_S9_R2_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004183_S10_R1_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004183_S10_R2_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004184_S11_R1_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004184_S11_R2_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004185_S12_R1_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004185_S12_R2_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004186_S13_R1_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004186_S13_R2_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004187_S14_R1_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004187_S14_R2_trimmed.fastq.gz"
+        ],
+        "processed": [
+          "GLDS-603_rna_seq_CWRU004174_S1_R1_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004174_S1_R2_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004174_S1_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-603_rna_seq_CWRU004174_S1_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-603_rna_seq_CWRU004174_S1_Aligned.toTranscriptome.out.bam",
+          "GLDS-603_rna_seq_CWRU004174_S1_SJ.out.tab",
+          "GLDS-603_rna_seq_CWRU004175_S2_R1_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004175_S2_R2_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004175_S2_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-603_rna_seq_CWRU004175_S2_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-603_rna_seq_CWRU004175_S2_Aligned.toTranscriptome.out.bam",
+          "GLDS-603_rna_seq_CWRU004175_S2_SJ.out.tab",
+          "GLDS-603_rna_seq_CWRU004176_S3_R1_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004176_S3_R2_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004176_S3_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-603_rna_seq_CWRU004176_S3_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-603_rna_seq_CWRU004176_S3_Aligned.toTranscriptome.out.bam",
+          "GLDS-603_rna_seq_CWRU004176_S3_SJ.out.tab",
+          "GLDS-603_rna_seq_CWRU004177_S4_R1_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004177_S4_R2_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004177_S4_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-603_rna_seq_CWRU004177_S4_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-603_rna_seq_CWRU004177_S4_Aligned.toTranscriptome.out.bam",
+          "GLDS-603_rna_seq_CWRU004177_S4_SJ.out.tab",
+          "GLDS-603_rna_seq_CWRU004178_S5_R1_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004178_S5_R2_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004178_S5_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-603_rna_seq_CWRU004178_S5_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-603_rna_seq_CWRU004178_S5_Aligned.toTranscriptome.out.bam",
+          "GLDS-603_rna_seq_CWRU004178_S5_SJ.out.tab",
+          "GLDS-603_rna_seq_CWRU004179_S6_R1_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004179_S6_R2_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004179_S6_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-603_rna_seq_CWRU004179_S6_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-603_rna_seq_CWRU004179_S6_Aligned.toTranscriptome.out.bam",
+          "GLDS-603_rna_seq_CWRU004179_S6_SJ.out.tab",
+          "GLDS-603_rna_seq_CWRU004180_S7_R1_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004180_S7_R2_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004180_S7_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-603_rna_seq_CWRU004180_S7_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-603_rna_seq_CWRU004180_S7_Aligned.toTranscriptome.out.bam",
+          "GLDS-603_rna_seq_CWRU004180_S7_SJ.out.tab",
+          "GLDS-603_rna_seq_CWRU004181_S8_R1_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004181_S8_R2_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004181_S8_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-603_rna_seq_CWRU004181_S8_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-603_rna_seq_CWRU004181_S8_Aligned.toTranscriptome.out.bam",
+          "GLDS-603_rna_seq_CWRU004181_S8_SJ.out.tab",
+          "GLDS-603_rna_seq_CWRU004182_S9_R1_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004182_S9_R2_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004182_S9_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-603_rna_seq_CWRU004182_S9_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-603_rna_seq_CWRU004182_S9_Aligned.toTranscriptome.out.bam",
+          "GLDS-603_rna_seq_CWRU004182_S9_SJ.out.tab",
+          "GLDS-603_rna_seq_CWRU004183_S10_R1_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004183_S10_R2_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004183_S10_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-603_rna_seq_CWRU004183_S10_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-603_rna_seq_CWRU004183_S10_Aligned.toTranscriptome.out.bam",
+          "GLDS-603_rna_seq_CWRU004183_S10_SJ.out.tab",
+          "GLDS-603_rna_seq_CWRU004184_S11_R1_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004184_S11_R2_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004184_S11_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-603_rna_seq_CWRU004184_S11_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-603_rna_seq_CWRU004184_S11_Aligned.toTranscriptome.out.bam",
+          "GLDS-603_rna_seq_CWRU004184_S11_SJ.out.tab",
+          "GLDS-603_rna_seq_CWRU004185_S12_R1_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004185_S12_R2_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004185_S12_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-603_rna_seq_CWRU004185_S12_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-603_rna_seq_CWRU004185_S12_Aligned.toTranscriptome.out.bam",
+          "GLDS-603_rna_seq_CWRU004185_S12_SJ.out.tab",
+          "GLDS-603_rna_seq_CWRU004186_S13_R1_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004186_S13_R2_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004186_S13_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-603_rna_seq_CWRU004186_S13_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-603_rna_seq_CWRU004186_S13_Aligned.toTranscriptome.out.bam",
+          "GLDS-603_rna_seq_CWRU004186_S13_SJ.out.tab",
+          "GLDS-603_rna_seq_CWRU004187_S14_R1_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004187_S14_R2_trimmed.fastq.gz",
+          "GLDS-603_rna_seq_CWRU004187_S14_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-603_rna_seq_CWRU004187_S14_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-603_rna_seq_CWRU004187_S14_Aligned.toTranscriptome.out.bam",
+          "GLDS-603_rna_seq_CWRU004187_S14_SJ.out.tab",
+          "CWRU004174_S1",
+          "GeneLab RNAseq data processing protocol",
+          "ribo-depletion",
+          "PAIRED",
+          "STRANDED",
+          "Illumina NextSeq 550",
+          "75",
+          "read",
+          "SO",
+          "http://purl.obolibrary.org/obo/SO_0000150",
+          "rna-seq",
+          "18.44",
+          "35586738",
+          "GLDS-603_rna_seq_CWRU004174_S1.genes.results",
+          "GLDS-603_rna_seq_CWRU004174_S1.isoforms.results",
+          "GLDS-603_rna_seq_RSEM_Unnormalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-603_rna_seq_STAR_Unnormalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-603_rna_seq_Normalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-603_rna_seq_SampleTable_GLbulkRNAseq.csv",
+          "GLDS-603_rna_seq_contrasts_GLbulkRNAseq.csv",
+          "GLDS-603_rna_seq_differential_expression_GLbulkRNAseq.csv",
+          "CWRU004175_S2",
+          "19.78",
+          "35946876",
+          "GLDS-603_rna_seq_CWRU004175_S2.genes.results",
+          "GLDS-603_rna_seq_CWRU004175_S2.isoforms.results",
+          "CWRU004176_S3",
+          "7.25",
+          "30442073",
+          "GLDS-603_rna_seq_CWRU004176_S3.genes.results",
+          "GLDS-603_rna_seq_CWRU004176_S3.isoforms.results",
+          "CWRU004177_S4",
+          "16.86",
+          "38449771",
+          "GLDS-603_rna_seq_CWRU004177_S4.genes.results",
+          "GLDS-603_rna_seq_CWRU004177_S4.isoforms.results",
+          "CWRU004178_S5",
+          "14.04",
+          "33194756",
+          "GLDS-603_rna_seq_CWRU004178_S5.genes.results",
+          "GLDS-603_rna_seq_CWRU004178_S5.isoforms.results",
+          "CWRU004179_S6",
+          "10.57",
+          "33620417",
+          "GLDS-603_rna_seq_CWRU004179_S6.genes.results",
+          "GLDS-603_rna_seq_CWRU004179_S6.isoforms.results",
+          "CWRU004180_S7",
+          "3.91",
+          "31262299",
+          "GLDS-603_rna_seq_CWRU004180_S7.genes.results",
+          "GLDS-603_rna_seq_CWRU004180_S7.isoforms.results",
+          "CWRU004181_S8",
+          "10.21",
+          "25340036",
+          "GLDS-603_rna_seq_CWRU004181_S8.genes.results",
+          "GLDS-603_rna_seq_CWRU004181_S8.isoforms.results",
+          "CWRU004182_S9",
+          "5.12",
+          "33709312",
+          "GLDS-603_rna_seq_CWRU004182_S9.genes.results",
+          "GLDS-603_rna_seq_CWRU004182_S9.isoforms.results",
+          "CWRU004183_S10",
+          "17.8",
+          "31120925",
+          "GLDS-603_rna_seq_CWRU004183_S10.genes.results",
+          "GLDS-603_rna_seq_CWRU004183_S10.isoforms.results",
+          "CWRU004184_S11",
+          "18.47",
+          "37810940",
+          "GLDS-603_rna_seq_CWRU004184_S11.genes.results",
+          "GLDS-603_rna_seq_CWRU004184_S11.isoforms.results",
+          "CWRU004185_S12",
+          "20.18",
+          "31122474",
+          "GLDS-603_rna_seq_CWRU004185_S12.genes.results",
+          "GLDS-603_rna_seq_CWRU004185_S12.isoforms.results",
+          "CWRU004186_S13",
+          "4.84",
+          "29203730",
+          "GLDS-603_rna_seq_CWRU004186_S13.genes.results",
+          "GLDS-603_rna_seq_CWRU004186_S13.isoforms.results",
+          "CWRU004187_S14",
+          "7.4",
+          "31968213",
+          "GLDS-603_rna_seq_CWRU004187_S14.genes.results",
+          "GLDS-603_rna_seq_CWRU004187_S14.isoforms.results"
+        ],
+        "reports": [
+          "GLDS-603_rna_seq_raw_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-603_rna_seq_trimmed_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-603_rna_seq_CWRU004174_S1_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-603_rna_seq_CWRU004174_S1_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-603_rna_seq_CWRU004174_S1_Log.final.out",
+          "GLDS-603_rna_seq_align_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-603_rna_seq_geneBody_cov_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-603_rna_seq_infer_exp_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-603_rna_seq_inner_dist_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-603_rna_seq_read_dist_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-603_rna_seq_RSEM_count_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-603_rna_seq_CWRU004175_S2_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-603_rna_seq_CWRU004175_S2_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-603_rna_seq_CWRU004175_S2_Log.final.out",
+          "GLDS-603_rna_seq_CWRU004176_S3_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-603_rna_seq_CWRU004176_S3_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-603_rna_seq_CWRU004176_S3_Log.final.out",
+          "GLDS-603_rna_seq_CWRU004177_S4_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-603_rna_seq_CWRU004177_S4_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-603_rna_seq_CWRU004177_S4_Log.final.out",
+          "GLDS-603_rna_seq_CWRU004178_S5_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-603_rna_seq_CWRU004178_S5_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-603_rna_seq_CWRU004178_S5_Log.final.out",
+          "GLDS-603_rna_seq_CWRU004179_S6_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-603_rna_seq_CWRU004179_S6_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-603_rna_seq_CWRU004179_S6_Log.final.out",
+          "GLDS-603_rna_seq_CWRU004180_S7_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-603_rna_seq_CWRU004180_S7_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-603_rna_seq_CWRU004180_S7_Log.final.out",
+          "GLDS-603_rna_seq_CWRU004181_S8_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-603_rna_seq_CWRU004181_S8_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-603_rna_seq_CWRU004181_S8_Log.final.out",
+          "GLDS-603_rna_seq_CWRU004182_S9_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-603_rna_seq_CWRU004182_S9_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-603_rna_seq_CWRU004182_S9_Log.final.out",
+          "GLDS-603_rna_seq_CWRU004183_S10_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-603_rna_seq_CWRU004183_S10_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-603_rna_seq_CWRU004183_S10_Log.final.out",
+          "GLDS-603_rna_seq_CWRU004184_S11_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-603_rna_seq_CWRU004184_S11_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-603_rna_seq_CWRU004184_S11_Log.final.out",
+          "GLDS-603_rna_seq_CWRU004185_S12_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-603_rna_seq_CWRU004185_S12_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-603_rna_seq_CWRU004185_S12_Log.final.out",
+          "GLDS-603_rna_seq_CWRU004186_S13_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-603_rna_seq_CWRU004186_S13_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-603_rna_seq_CWRU004186_S13_Log.final.out",
+          "GLDS-603_rna_seq_CWRU004187_S14_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-603_rna_seq_CWRU004187_S14_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-603_rna_seq_CWRU004187_S14_Log.final.out"
+        ]
+      }
+    }
+  ]
+}

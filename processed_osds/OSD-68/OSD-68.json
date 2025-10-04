@@ -1,0 +1,135 @@
+{
+  "investigation": {
+    "id": "OSD-68",
+    "title": "Microbial Observatory (ISS-MO): Draft Genome Sequence of two Aspergillus fumigatus Strains Isolated from the International Space Station",
+    "description": "Aspergillus fumigatus is a saprophytic, filamentous fungus that is ubiquitous outdoors (soil, decaying vegetation) and indoors (hospitals, simulated closed habitats, etc.). A.",
+    "mission": {
+      "name": "SpaceX-5",
+      "start_date": "01/10/2015",
+      "end_date": "02/11/2015",
+      "link": "https://osdr.nasa.gov/bio/repo/data/missions/SpaceX-5"
+    },
+    "project": {
+      "identifier": "Microbial Tracking-1A",
+      "title": "Microbial Tracking Payload Series (Microbial Observatory-1)",
+      "type": "Spaceflight Study",
+      "link": "https://lsda.jsc.nasa.gov/scripts/experiment/exper.aspx?exp_index=13867",
+      "funding": "Funding provided by NASA, ISS-based experiment and Space Biology experiment, under NNH12ZTT001N grant no. 19-12829-26 and 19-12829-27",
+      "managing_center": "Jet Propulsion Laboratory (JPL)"
+    },
+    "protocols": [
+      "sample collection",
+      "nucleic acid extraction",
+      "library construction",
+      "nucleic acid sequencing",
+      "sequence assembly"
+    ],
+    "publications": [
+      {
+        "title": "Draft Genome Sequence of two Aspergillus fumigatus Strains Isolated from the International Space Station",
+        "doi": "10.1128/genomeA.00553-16",
+        "authors": [
+          "Nitin Kumar Singh",
+          "Adriana Blachowicz",
+          "Aleksandra Checinska",
+          "Clay Wang",
+          "Kasthuri Venkateswaran"
+        ],
+        "summary": "Draft Genome Sequence of two Aspergillus fumigatus Strains Isolated from the International Space Station — 10.1128/genomeA.00553-16"
+      },
+      {
+        "title": "Characterization of Aspergillus fumigatus Isolates from Air and Surfaces of the International Space Station.",
+        "doi": "10.1128/mSphere.00227-16",
+        "authors": [
+          "Knox BP",
+          "Blachowicz A",
+          "Palmer JM",
+          "Romsdahl J",
+          "Huttenlocher A",
+          "Wang CC",
+          "Keller NP",
+          "Venkateswaran K."
+        ],
+        "summary": "Characterization of Aspergillus fumigatus Isolates from Air and Surfaces of the International Space Station. — 10.1128/mSphere.00227-16"
+      }
+    ],
+    "factors": [
+      "Spaceflight"
+    ],
+    "contacts": [
+      {
+        "first_name": "Kasthuri",
+        "last_name": "Venkateswaran",
+        "role": "Principal Investigator",
+        "email": "kjvenkat@jpl.nasa.gov"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "ISSFT-021",
+        "characteristics": {
+          "organism": "Aspergillus fumigatus",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Sample type": "wipe",
+          "Location": "HEPA Filter",
+          "Completion Date": "",
+          "Flight Number": ""
+        }
+      },
+      {
+        "sample_name": "IF1SW-F4",
+        "characteristics": {
+          "organism": "Aspergillus fumigatus",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "4"
+        },
+        "comments": {
+          "Sample type": "wipe",
+          "Location": "Port panel next to cupola",
+          "Completion Date": "15-Apr-2015",
+          "Flight Number": "Flight 1"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "genome-sequencing",
+      "platform": "Illumina HiSeq 2500",
+      "qc": {},
+      "library": {},
+      "files": {
+        "raw": [],
+        "processed": [
+          "GLDS-68_wgs_ISSFT_021.fasta.gz",
+          "GLDS-68_wgs_1F1SW_F4.fasta.gz",
+          "ISSFT-021",
+          "sequence assembly",
+          "GENOMIC",
+          "WGS",
+          "DNA",
+          "PAIRED",
+          "Illumina HiSeq 2500",
+          "Q20",
+          "IF1SW-F4"
+        ],
+        "reports": []
+      }
+    }
+  ]
+}

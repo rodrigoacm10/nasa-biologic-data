@@ -1,0 +1,664 @@
+{
+  "investigation": {
+    "id": "OSD-271",
+    "title": "Global gene expression profiling of radiation-induced rat mammary carcinomas",
+    "description": "To investigate gene expression patterns in rat mammary carcinomas induced by ionizing radiation. Gene expression patterns were analyzed in radiation-induced rat mammary carcinomas and normal mammary gland tissues.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "Gamma_Irradiation, High_Dose_Irradiation, Low_LET_Irradiation",
+      "title": "",
+      "type": "Ground study",
+      "link": "",
+      "funding": "Japan Society for the Promotion of Science and Ministry of Health, Labor and Welfare of Japan",
+      "managing_center": ""
+    },
+    "protocols": [
+      "Animal Husbandry",
+      "irradiation protocol",
+      "sample collection",
+      "RNA extraction",
+      "labeling",
+      "nucleic acid hybridization",
+      "data collection",
+      "normalization data transformation",
+      "GeneLab microarray data processing protocol"
+    ],
+    "publications": [
+      {
+        "title": "Epigenetic dysregulation of key developmental genes in radiation-induced rat mammary carcinomas",
+        "doi": "10.1002/ijc.31309",
+        "authors": [
+          "Daino K",
+          "Nishimura M",
+          "Takabatake M",
+          "Morioka T",
+          "Mishimura Y",
+          "Shimada Y",
+          "Kakinuma S"
+        ],
+        "summary": "Epigenetic dysregulation of key developmental genes in radiation-induced rat mammary carcinomas — 10.1002/ijc.31309"
+      }
+    ],
+    "factors": [
+      "Ionizing Radiation"
+    ],
+    "contacts": [
+      {
+        "first_name": "Kazuhiro",
+        "last_name": "Daino",
+        "role": "",
+        "email": "daino.kazuhiro@qst.go.jp"
+      },
+      {
+        "first_name": "S",
+        "last_name": "Kakinuma",
+        "role": "",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "GSM2532938",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "F1 hybrid of Spraqgue-Dawley (SD) and Copenhaguen (COP)",
+          "Animal Source": "Female: CLEA Japan, Inc.; Male and female COP: Harlan Sprague Dawley, Inc.",
+          "age": "7",
+          "sex": "female",
+          "Diet": "standard CE-2 diet (CLEA, Japan)",
+          "Material Type": "mammary gland"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated"
+        },
+        "parameters": {
+          "light cycle": "12:12 hour light/dark cycle",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM2532939",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "F1 hybrid of Spraqgue-Dawley (SD) and Copenhaguen (COP)",
+          "Animal Source": "Female: CLEA Japan, Inc.; Male and female COP: Harlan Sprague Dawley, Inc.",
+          "age": "7",
+          "sex": "female",
+          "Diet": "standard CE-2 diet (CLEA, Japan)",
+          "Material Type": "mammary gland"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated"
+        },
+        "parameters": {
+          "light cycle": "12:12 hour light/dark cycle",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM2532940",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "F1 hybrid of Spraqgue-Dawley (SD) and Copenhaguen (COP)",
+          "Animal Source": "Female: CLEA Japan, Inc.; Male and female COP: Harlan Sprague Dawley, Inc.",
+          "age": "7",
+          "sex": "female",
+          "Diet": "standard CE-2 diet (CLEA, Japan)",
+          "Material Type": "mammary gland"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated"
+        },
+        "parameters": {
+          "light cycle": "12:12 hour light/dark cycle",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM2532941",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "F1 hybrid of Spraqgue-Dawley (SD) and Copenhaguen (COP)",
+          "Animal Source": "Female: CLEA Japan, Inc.; Male and female COP: Harlan Sprague Dawley, Inc.",
+          "age": "7",
+          "sex": "female",
+          "Diet": "standard CE-2 diet (CLEA, Japan)",
+          "Material Type": "mammary gland"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated"
+        },
+        "parameters": {
+          "light cycle": "12:12 hour light/dark cycle",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM2532942",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "F1 hybrid of Spraqgue-Dawley (SD) and Copenhaguen (COP)",
+          "Animal Source": "Female: CLEA Japan, Inc.; Male and female COP: Harlan Sprague Dawley, Inc.",
+          "age": "7",
+          "sex": "female",
+          "Diet": "standard CE-2 diet (CLEA, Japan)",
+          "Material Type": "mammary gland"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated"
+        },
+        "parameters": {
+          "light cycle": "12:12 hour light/dark cycle",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM2532943",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "F1 hybrid of Spraqgue-Dawley (SD) and Copenhaguen (COP)",
+          "Animal Source": "Female: CLEA Japan, Inc.; Male and female COP: Harlan Sprague Dawley, Inc.",
+          "age": "7",
+          "sex": "female",
+          "Diet": "standard CE-2 diet (CLEA, Japan)",
+          "Material Type": "mammary gland"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated"
+        },
+        "parameters": {
+          "light cycle": "12:12 hour light/dark cycle",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM2532944",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "F1 hybrid of Spraqgue-Dawley (SD) and Copenhaguen (COP)",
+          "Animal Source": "Female: CLEA Japan, Inc.; Male and female COP: Harlan Sprague Dawley, Inc.",
+          "age": "7",
+          "sex": "female",
+          "Diet": "standard CE-2 diet (CLEA, Japan)",
+          "Material Type": "mammary gland"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation"
+        },
+        "parameters": {
+          "light cycle": "12:12 hour light/dark cycle",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose": "4",
+          "absorbed radiation dose rate": "0.5",
+          "exposure duration": "8",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM2532945",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "F1 hybrid of Spraqgue-Dawley (SD) and Copenhaguen (COP)",
+          "Animal Source": "Female: CLEA Japan, Inc.; Male and female COP: Harlan Sprague Dawley, Inc.",
+          "age": "7",
+          "sex": "female",
+          "Diet": "standard CE-2 diet (CLEA, Japan)",
+          "Material Type": "mammary gland"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation"
+        },
+        "parameters": {
+          "light cycle": "12:12 hour light/dark cycle",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose": "4",
+          "absorbed radiation dose rate": "0.5",
+          "exposure duration": "8",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM2532946",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "F1 hybrid of Spraqgue-Dawley (SD) and Copenhaguen (COP)",
+          "Animal Source": "Female: CLEA Japan, Inc.; Male and female COP: Harlan Sprague Dawley, Inc.",
+          "age": "7",
+          "sex": "female",
+          "Diet": "standard CE-2 diet (CLEA, Japan)",
+          "Material Type": "mammary gland"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation"
+        },
+        "parameters": {
+          "light cycle": "12:12 hour light/dark cycle",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose": "4",
+          "absorbed radiation dose rate": "0.5",
+          "exposure duration": "8",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM2532947",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "F1 hybrid of Spraqgue-Dawley (SD) and Copenhaguen (COP)",
+          "Animal Source": "Female: CLEA Japan, Inc.; Male and female COP: Harlan Sprague Dawley, Inc.",
+          "age": "7",
+          "sex": "female",
+          "Diet": "standard CE-2 diet (CLEA, Japan)",
+          "Material Type": "mammary gland"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation"
+        },
+        "parameters": {
+          "light cycle": "12:12 hour light/dark cycle",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose": "4",
+          "absorbed radiation dose rate": "0.5",
+          "exposure duration": "8",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM2532948",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "F1 hybrid of Spraqgue-Dawley (SD) and Copenhaguen (COP)",
+          "Animal Source": "Female: CLEA Japan, Inc.; Male and female COP: Harlan Sprague Dawley, Inc.",
+          "age": "7",
+          "sex": "female",
+          "Diet": "standard CE-2 diet (CLEA, Japan)",
+          "Material Type": "mammary gland"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation"
+        },
+        "parameters": {
+          "light cycle": "12:12 hour light/dark cycle",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose": "4",
+          "absorbed radiation dose rate": "0.5",
+          "exposure duration": "8",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM2532949",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "F1 hybrid of Spraqgue-Dawley (SD) and Copenhaguen (COP)",
+          "Animal Source": "Female: CLEA Japan, Inc.; Male and female COP: Harlan Sprague Dawley, Inc.",
+          "age": "7",
+          "sex": "female",
+          "Diet": "standard CE-2 diet (CLEA, Japan)",
+          "Material Type": "mammary gland"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation"
+        },
+        "parameters": {
+          "light cycle": "12:12 hour light/dark cycle",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose": "4",
+          "absorbed radiation dose rate": "0.5",
+          "exposure duration": "8",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM2532950",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "F1 hybrid of Spraqgue-Dawley (SD) and Copenhaguen (COP)",
+          "Animal Source": "Female: CLEA Japan, Inc.; Male and female COP: Harlan Sprague Dawley, Inc.",
+          "age": "7",
+          "sex": "female",
+          "Diet": "standard CE-2 diet (CLEA, Japan)",
+          "Material Type": "mammary gland"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation"
+        },
+        "parameters": {
+          "light cycle": "12:12 hour light/dark cycle",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose": "4",
+          "absorbed radiation dose rate": "0.5",
+          "exposure duration": "8",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM2532951",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "F1 hybrid of Spraqgue-Dawley (SD) and Copenhaguen (COP)",
+          "Animal Source": "Female: CLEA Japan, Inc.; Male and female COP: Harlan Sprague Dawley, Inc.",
+          "age": "7",
+          "sex": "female",
+          "Diet": "standard CE-2 diet (CLEA, Japan)",
+          "Material Type": "mammary gland"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation"
+        },
+        "parameters": {
+          "light cycle": "12:12 hour light/dark cycle",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose": "4",
+          "absorbed radiation dose rate": "0.5",
+          "exposure duration": "8",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM2532952",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "F1 hybrid of Spraqgue-Dawley (SD) and Copenhaguen (COP)",
+          "Animal Source": "Female: CLEA Japan, Inc.; Male and female COP: Harlan Sprague Dawley, Inc.",
+          "age": "7",
+          "sex": "female",
+          "Diet": "standard CE-2 diet (CLEA, Japan)",
+          "Material Type": "mammary gland"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation"
+        },
+        "parameters": {
+          "light cycle": "12:12 hour light/dark cycle",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose": "4",
+          "absorbed radiation dose rate": "0.5",
+          "exposure duration": "8",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM2532953",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "F1 hybrid of Spraqgue-Dawley (SD) and Copenhaguen (COP)",
+          "Animal Source": "Female: CLEA Japan, Inc.; Male and female COP: Harlan Sprague Dawley, Inc.",
+          "age": "7",
+          "sex": "female",
+          "Diet": "standard CE-2 diet (CLEA, Japan)",
+          "Material Type": "mammary gland"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation"
+        },
+        "parameters": {
+          "light cycle": "12:12 hour light/dark cycle",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose": "4",
+          "absorbed radiation dose rate": "0.5",
+          "exposure duration": "8",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM2532954",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "F1 hybrid of Spraqgue-Dawley (SD) and Copenhaguen (COP)",
+          "Animal Source": "Female: CLEA Japan, Inc.; Male and female COP: Harlan Sprague Dawley, Inc.",
+          "age": "7",
+          "sex": "female",
+          "Diet": "standard CE-2 diet (CLEA, Japan)",
+          "Material Type": "mammary gland"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation"
+        },
+        "parameters": {
+          "light cycle": "12:12 hour light/dark cycle",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose": "4",
+          "absorbed radiation dose rate": "0.5",
+          "exposure duration": "8",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM2532955",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "F1 hybrid of Spraqgue-Dawley (SD) and Copenhaguen (COP)",
+          "Animal Source": "Female: CLEA Japan, Inc.; Male and female COP: Harlan Sprague Dawley, Inc.",
+          "age": "7",
+          "sex": "female",
+          "Diet": "standard CE-2 diet (CLEA, Japan)",
+          "Material Type": "mammary gland"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation"
+        },
+        "parameters": {
+          "light cycle": "12:12 hour light/dark cycle",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose": "4",
+          "absorbed radiation dose rate": "0.5",
+          "exposure duration": "8",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM2532956",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "F1 hybrid of Spraqgue-Dawley (SD) and Copenhaguen (COP)",
+          "Animal Source": "Female: CLEA Japan, Inc.; Male and female COP: Harlan Sprague Dawley, Inc.",
+          "age": "7",
+          "sex": "female",
+          "Diet": "standard CE-2 diet (CLEA, Japan)",
+          "Material Type": "mammary gland"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation"
+        },
+        "parameters": {
+          "light cycle": "12:12 hour light/dark cycle",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose": "4",
+          "absorbed radiation dose rate": "0.5",
+          "exposure duration": "8",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Agilent",
+      "qc": {},
+      "library": {},
+      "files": {
+        "raw": [],
+        "processed": [
+          "GLDS-271_microarray_GSE96085_series_matrix.txt.gz",
+          "GSM2532938",
+          "GeneLab microarray data processing protocol",
+          "Cy3 dye",
+          "CHEBI",
+          "http://purl.obolibrary.org/obo/CHEBI_37987",
+          "AGILENT SurePrint G3 GE 8x60k",
+          "GLDS-271_microarray_GSM2532938_01_R3_MG.txt.gz",
+          "GLDS-271_array_raw_intensities.csv",
+          "GLDS-271_array_normalized_expression.csv",
+          "GLDS-271_array_SampleTable.csv",
+          "GLDS-271_array_contrasts.csv",
+          "GLDS-271_array_differential_expression.csv",
+          "GSM2532939",
+          "GLDS-271_microarray_GSM2532939_02_R5_MG.txt.gz",
+          "GSM2532940",
+          "GLDS-271_microarray_GSM2532940_03_R7_MG.txt.gz",
+          "GSM2532941",
+          "GLDS-271_microarray_GSM2532941_04_R11_MG.txt.gz",
+          "GSM2532942",
+          "GLDS-271_microarray_GSM2532942_05_R13_MG.txt.gz",
+          "GSM2532943",
+          "GLDS-271_microarray_GSM2532943_06_RG_MG.txt.gz",
+          "GSM2532944",
+          "GLDS-271_microarray_GSM2532944_07_R2_MT.txt.gz",
+          "GSM2532945",
+          "GLDS-271_microarray_GSM2532945_08_R4_MT.txt.gz",
+          "GSM2532946",
+          "GLDS-271_microarray_GSM2532946_09_R6_MT.txt.gz",
+          "GSM2532947",
+          "GLDS-271_microarray_GSM2532947_10_R8_MT.txt.gz",
+          "GSM2532948",
+          "GLDS-271_microarray_GSM2532948_11_R10_MT.txt.gz",
+          "GSM2532949",
+          "GLDS-271_microarray_GSM2532949_12_R12_MT.txt.gz",
+          "GSM2532950",
+          "GLDS-271_microarray_GSM2532950_13_R14_MT.txt.gz",
+          "GSM2532951",
+          "GLDS-271_microarray_GSM2532951_14_R16_MT.txt.gz",
+          "GSM2532952",
+          "GLDS-271_microarray_GSM2532952_15_R17_MT.txt.gz",
+          "GSM2532953",
+          "GLDS-271_microarray_GSM2532953_16_R19_MT.txt.gz",
+          "GSM2532954",
+          "GLDS-271_microarray_GSM2532954_17_RD_MT.txt.gz",
+          "GSM2532955",
+          "GLDS-271_microarray_GSM2532955_18_RE_MT.txt.gz",
+          "GSM2532956",
+          "GLDS-271_microarray_GSM2532956_19_RF_MT.txt.gz"
+        ],
+        "reports": []
+      }
+    }
+  ]
+}

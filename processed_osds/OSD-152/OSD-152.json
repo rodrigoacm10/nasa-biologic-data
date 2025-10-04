@@ -1,0 +1,1482 @@
+{
+  "investigation": {
+    "id": "OSD-152",
+    "title": "Transcription profiling of human peripheral blood to development gene expression signatures for practical radiation biodosimetry",
+    "description": "To further develop our gene expression approach to biodosimetry, we have employed whole genome microarray expression profiling as a discovery platform to identify genes with the potential to distinguish radiation dose across an exposure range relevant for medical decision-making in a radiological emergency. Human peripheral blood from healthy donors was irradiated ex vivo, and a 74-gene consensus signature was identified that distinguished between four radiation doses (0.5, 2, 5 and 8 Gy) and control samples.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "High_Dose_Irradiation, Gamma_Irradiation, Low_LET_Irradiation",
+      "title": "",
+      "type": "Ground Study",
+      "link": "",
+      "funding": "This work was supported by the Center for High-Throughput Minimally-Invasive Radiation Biodosimetry (NIAID grant U19 AI067773) and by the National Institutes of Health Grant CA 49062.",
+      "managing_center": ""
+    },
+    "protocols": [
+      "growth protocol",
+      "irradiation protocol",
+      "RNA extraction",
+      "Labeling",
+      "Nucleic Acid Hybridization",
+      "data collection",
+      "GeneLab microarray data processing protocol"
+    ],
+    "publications": [
+      {
+        "title": "Development of gene expression signatures for practical radiation biodosimetry.",
+        "doi": "10.1016/j.ijrobp.2008.03.043",
+        "authors": [
+          "Paul S",
+          "Amundson SA."
+        ],
+        "summary": "Development of gene expression signatures for practical radiation biodosimetry. — 10.1016/j.ijrobp.2008.03.043"
+      }
+    ],
+    "factors": [
+      "Time of Sample Collection After Treatment",
+      "Ionizing Radiation",
+      "Absorbed Radiation Dose"
+    ],
+    "contacts": [
+      {
+        "first_name": "Sally",
+        "last_name": "Amundson",
+        "role": "submitter",
+        "email": "saa2108@columbia.edu"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "GSM225984_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "age": "39",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "1"
+        },
+        "factors": {
+          "Ionizing Radiation": "sham-irradiated",
+          "Absorbed Radiation Dose": "0",
+          "Time of Sample Collection After Treatment": "6"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "ionizing radiation device": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM225985_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "age": "39",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "1"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Absorbed Radiation Dose": "0.5",
+          "Time of Sample Collection After Treatment": "6"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "0.82",
+          "ionizing radiation device": "Gammacell 40",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM225986_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "age": "39",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "1"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Absorbed Radiation Dose": "2",
+          "Time of Sample Collection After Treatment": "6"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "0.82",
+          "ionizing radiation device": "Gammacell 40",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM225987_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "age": "39",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "1"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Absorbed Radiation Dose": "5",
+          "Time of Sample Collection After Treatment": "6"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "0.82",
+          "ionizing radiation device": "Gammacell 40",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM225988_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "age": "39",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "1"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Absorbed Radiation Dose": "8",
+          "Time of Sample Collection After Treatment": "6"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "0.82",
+          "ionizing radiation device": "Gammacell 40",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM225989_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Female",
+          "age": "20",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "2"
+        },
+        "factors": {
+          "Ionizing Radiation": "sham-irradiated",
+          "Absorbed Radiation Dose": "0",
+          "Time of Sample Collection After Treatment": "6"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "ionizing radiation device": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM225990_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Female",
+          "age": "20",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "2"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Absorbed Radiation Dose": "0.5",
+          "Time of Sample Collection After Treatment": "6"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "0.82",
+          "ionizing radiation device": "Gammacell 40",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM225991_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Female",
+          "age": "20",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "2"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Absorbed Radiation Dose": "2",
+          "Time of Sample Collection After Treatment": "6"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "0.82",
+          "ionizing radiation device": "Gammacell 40",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM225992_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Female",
+          "age": "20",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "2"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Absorbed Radiation Dose": "5",
+          "Time of Sample Collection After Treatment": "6"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "0.82",
+          "ionizing radiation device": "Gammacell 40",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM225993_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Female",
+          "age": "20",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "2"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Absorbed Radiation Dose": "8",
+          "Time of Sample Collection After Treatment": "6"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "0.82",
+          "ionizing radiation device": "Gammacell 40",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM225994_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "age": "53",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "3"
+        },
+        "factors": {
+          "Ionizing Radiation": "sham-irradiated",
+          "Absorbed Radiation Dose": "0",
+          "Time of Sample Collection After Treatment": "6"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "ionizing radiation device": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM225995_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "age": "53",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "3"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Absorbed Radiation Dose": "0.5",
+          "Time of Sample Collection After Treatment": "6"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "0.82",
+          "ionizing radiation device": "Gammacell 40",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM225996_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "age": "53",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "3"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Absorbed Radiation Dose": "2",
+          "Time of Sample Collection After Treatment": "6"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "0.82",
+          "ionizing radiation device": "Gammacell 40",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM225997_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "age": "53",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "3"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Absorbed Radiation Dose": "5",
+          "Time of Sample Collection After Treatment": "6"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "0.82",
+          "ionizing radiation device": "Gammacell 40",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM225998_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "age": "53",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "3"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Absorbed Radiation Dose": "8",
+          "Time of Sample Collection After Treatment": "6"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "0.82",
+          "ionizing radiation device": "Gammacell 40",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM225999_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Female",
+          "age": "35",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "4"
+        },
+        "factors": {
+          "Ionizing Radiation": "sham-irradiated",
+          "Absorbed Radiation Dose": "0",
+          "Time of Sample Collection After Treatment": "6"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "ionizing radiation device": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM226000_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Female",
+          "age": "35",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "4"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Absorbed Radiation Dose": "0.5",
+          "Time of Sample Collection After Treatment": "6"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "0.82",
+          "ionizing radiation device": "Gammacell 40",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM226001_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Female",
+          "age": "35",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "4"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Absorbed Radiation Dose": "2",
+          "Time of Sample Collection After Treatment": "6"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "0.82",
+          "ionizing radiation device": "Gammacell 40",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM226002_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Female",
+          "age": "35",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "4"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Absorbed Radiation Dose": "5",
+          "Time of Sample Collection After Treatment": "6"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "0.82",
+          "ionizing radiation device": "Gammacell 40",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM226003_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Female",
+          "age": "35",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "4"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Absorbed Radiation Dose": "8",
+          "Time of Sample Collection After Treatment": "6"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "0.82",
+          "ionizing radiation device": "Gammacell 40",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM226004_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Female",
+          "age": "36",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "5"
+        },
+        "factors": {
+          "Ionizing Radiation": "sham-irradiated",
+          "Absorbed Radiation Dose": "0",
+          "Time of Sample Collection After Treatment": "6"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "ionizing radiation device": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM226005_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Female",
+          "age": "36",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "5"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Absorbed Radiation Dose": "0.5",
+          "Time of Sample Collection After Treatment": "6"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "0.82",
+          "ionizing radiation device": "Gammacell 40",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM226006_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Female",
+          "age": "36",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "5"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Absorbed Radiation Dose": "2",
+          "Time of Sample Collection After Treatment": "6"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "0.82",
+          "ionizing radiation device": "Gammacell 40",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM226007_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Female",
+          "age": "36",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "5"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Absorbed Radiation Dose": "5",
+          "Time of Sample Collection After Treatment": "6"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "0.82",
+          "ionizing radiation device": "Gammacell 40",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM226008_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Female",
+          "age": "36",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "5"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Absorbed Radiation Dose": "8",
+          "Time of Sample Collection After Treatment": "6"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "0.82",
+          "ionizing radiation device": "Gammacell 40",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM226009_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "age": "38",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "6"
+        },
+        "factors": {
+          "Ionizing Radiation": "sham-irradiated",
+          "Absorbed Radiation Dose": "0",
+          "Time of Sample Collection After Treatment": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "ionizing radiation device": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM226010_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "age": "38",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "6"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Absorbed Radiation Dose": "0.5",
+          "Time of Sample Collection After Treatment": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "0.82",
+          "ionizing radiation device": "Gammacell 40",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM226011_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "age": "38",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "6"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Absorbed Radiation Dose": "2",
+          "Time of Sample Collection After Treatment": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "0.82",
+          "ionizing radiation device": "Gammacell 40",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM226012_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "age": "38",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "6"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Absorbed Radiation Dose": "5",
+          "Time of Sample Collection After Treatment": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "0.82",
+          "ionizing radiation device": "Gammacell 40",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM226013_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "age": "38",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "6"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Absorbed Radiation Dose": "8",
+          "Time of Sample Collection After Treatment": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "0.82",
+          "ionizing radiation device": "Gammacell 40",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM226014_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "age": "47",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "7"
+        },
+        "factors": {
+          "Ionizing Radiation": "sham-irradiated",
+          "Absorbed Radiation Dose": "0",
+          "Time of Sample Collection After Treatment": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "ionizing radiation device": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM226015_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "age": "47",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "7"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Absorbed Radiation Dose": "0.5",
+          "Time of Sample Collection After Treatment": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "0.82",
+          "ionizing radiation device": "Gammacell 40",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM226016_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "age": "47",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "7"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Absorbed Radiation Dose": "2",
+          "Time of Sample Collection After Treatment": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "0.82",
+          "ionizing radiation device": "Gammacell 40",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM226017_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "age": "47",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "7"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Absorbed Radiation Dose": "5",
+          "Time of Sample Collection After Treatment": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "0.82",
+          "ionizing radiation device": "Gammacell 40",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM226018_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "age": "47",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "7"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Absorbed Radiation Dose": "8",
+          "Time of Sample Collection After Treatment": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "0.82",
+          "ionizing radiation device": "Gammacell 40",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM226019_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "age": "30",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "8"
+        },
+        "factors": {
+          "Ionizing Radiation": "sham-irradiated",
+          "Absorbed Radiation Dose": "0",
+          "Time of Sample Collection After Treatment": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "ionizing radiation device": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM226020_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "age": "30",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "8"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Absorbed Radiation Dose": "0.5",
+          "Time of Sample Collection After Treatment": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "0.82",
+          "ionizing radiation device": "Gammacell 40",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM226021_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "age": "30",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "8"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Absorbed Radiation Dose": "2",
+          "Time of Sample Collection After Treatment": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "0.82",
+          "ionizing radiation device": "Gammacell 40",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM226022_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "age": "30",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "8"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Absorbed Radiation Dose": "5",
+          "Time of Sample Collection After Treatment": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "0.82",
+          "ionizing radiation device": "Gammacell 40",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM226023_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "age": "30",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "8"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Absorbed Radiation Dose": "8",
+          "Time of Sample Collection After Treatment": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "0.82",
+          "ionizing radiation device": "Gammacell 40",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM226024_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Female",
+          "age": "46",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "9"
+        },
+        "factors": {
+          "Ionizing Radiation": "sham-irradiated",
+          "Absorbed Radiation Dose": "0",
+          "Time of Sample Collection After Treatment": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "ionizing radiation device": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM226025_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Female",
+          "age": "46",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "9"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Absorbed Radiation Dose": "0.5",
+          "Time of Sample Collection After Treatment": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "0.82",
+          "ionizing radiation device": "Gammacell 40",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM226026_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Female",
+          "age": "46",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "9"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Absorbed Radiation Dose": "2",
+          "Time of Sample Collection After Treatment": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "0.82",
+          "ionizing radiation device": "Gammacell 40",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM226027_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Female",
+          "age": "46",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "9"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Absorbed Radiation Dose": "5",
+          "Time of Sample Collection After Treatment": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "0.82",
+          "ionizing radiation device": "Gammacell 40",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM226028_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Female",
+          "age": "46",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "9"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Absorbed Radiation Dose": "8",
+          "Time of Sample Collection After Treatment": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "0.82",
+          "ionizing radiation device": "Gammacell 40",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM226029_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Female",
+          "age": "23",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "10"
+        },
+        "factors": {
+          "Ionizing Radiation": "sham-irradiated",
+          "Absorbed Radiation Dose": "0",
+          "Time of Sample Collection After Treatment": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "ionizing radiation device": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM226030_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Female",
+          "age": "23",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "10"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Absorbed Radiation Dose": "0.5",
+          "Time of Sample Collection After Treatment": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "0.82",
+          "ionizing radiation device": "Gammacell 40",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM226031_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Female",
+          "age": "23",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "10"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Absorbed Radiation Dose": "2",
+          "Time of Sample Collection After Treatment": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "0.82",
+          "ionizing radiation device": "Gammacell 40",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM226032_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Female",
+          "age": "23",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "10"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Absorbed Radiation Dose": "5",
+          "Time of Sample Collection After Treatment": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "0.82",
+          "ionizing radiation device": "Gammacell 40",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM226033_Cyanine-3 sample",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Female",
+          "age": "23",
+          "Material Type": "Peripheral blood cell",
+          "Study Subject": "10"
+        },
+        "factors": {
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Absorbed Radiation Dose": "8",
+          "Time of Sample Collection After Treatment": "24"
+        },
+        "parameters": {
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "0.82",
+          "ionizing radiation device": "Gammacell 40",
+          "ionizing radiation categorized by source": "gamma irradiator"
+        },
+        "comments": {}
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Agilent",
+      "qc": {},
+      "library": {},
+      "files": {
+        "raw": [],
+        "processed": [
+          "GSM225984_Cyanine-3 sample",
+          "GeneLab microarray data processing protocol",
+          "GSM225984_Cyanine-3 extract",
+          "GSM225984_Cyanine-3 LE",
+          "Cy3",
+          "SEP",
+          "http://purl.obolibrary.org/obo/sep_00184",
+          "GSM225984",
+          "AGILENT GPL6848",
+          "ExVivoBlood_6hr_0Gy_rep1",
+          "GLDS-152_microarray_GSM225984.txt.gz",
+          "GLDS-152_array_raw_intensities_GLmicroarray.csv",
+          "GLDS-152_array_normalized_expression_GLmicroarray.csv",
+          "GLDS-152_array_SampleTable_GLmicroarray.csv",
+          "GLDS-152_array_contrasts_GLmicroarray.csv",
+          "GLDS-152_array_differential_expression_GLmicroarray.csv",
+          "GSM225985_Cyanine-3 sample",
+          "GSM225985_Cyanine-3 extract",
+          "GSM225985_Cyanine-3 LE",
+          "GSM225985",
+          "ExVivoBlood_6hr_0.5Gy_rep1",
+          "GLDS-152_microarray_GSM225985.txt.gz",
+          "GSM225986_Cyanine-3 sample",
+          "GSM225986_Cyanine-3 extract",
+          "GSM225986_Cyanine-3 LE",
+          "GSM225986",
+          "ExVivoBlood_6hr_2Gy_rep1",
+          "GLDS-152_microarray_GSM225986.txt.gz",
+          "GSM225987_Cyanine-3 sample",
+          "GSM225987_Cyanine-3 extract",
+          "GSM225987_Cyanine-3 LE",
+          "GSM225987",
+          "ExVivoBlood_6hr_5Gy_rep1",
+          "GLDS-152_microarray_GSM225987.txt.gz",
+          "GSM225988_Cyanine-3 sample",
+          "GSM225988_Cyanine-3 extract",
+          "GSM225988_Cyanine-3 LE",
+          "GSM225988",
+          "ExVivoBlood_6hr_8Gy_rep1",
+          "GLDS-152_microarray_GSM225988.txt.gz",
+          "GSM225989_Cyanine-3 sample",
+          "GSM225989_Cyanine-3 extract",
+          "GSM225989_Cyanine-3 LE",
+          "GSM225989",
+          "ExVivoBlood_6hr_0Gy_rep2",
+          "GLDS-152_microarray_GSM225989.txt.gz",
+          "GSM225990_Cyanine-3 sample",
+          "GSM225990_Cyanine-3 extract",
+          "GSM225990_Cyanine-3 LE",
+          "GSM225990",
+          "ExVivoBlood_6hr_0.5Gy_rep2",
+          "GLDS-152_microarray_GSM225990.txt.gz",
+          "GSM225991_Cyanine-3 sample",
+          "GSM225991_Cyanine-3 extract",
+          "GSM225991_Cyanine-3 LE",
+          "GSM225991",
+          "ExVivoBlood_6hr_2Gy_rep2",
+          "GLDS-152_microarray_GSM225991.txt.gz",
+          "GSM225992_Cyanine-3 sample",
+          "GSM225992_Cyanine-3 extract",
+          "GSM225992_Cyanine-3 LE",
+          "GSM225992",
+          "ExVivoBlood_6hr_5Gy_rep2",
+          "GLDS-152_microarray_GSM225992.txt.gz",
+          "GSM225993_Cyanine-3 sample",
+          "GSM225993_Cyanine-3 extract",
+          "GSM225993_Cyanine-3 LE",
+          "GSM225993",
+          "ExVivoBlood_6hr_8Gy_rep2",
+          "GLDS-152_microarray_GSM225993.txt.gz",
+          "GSM225994_Cyanine-3 sample",
+          "GSM225994_Cyanine-3 extract",
+          "GSM225994_Cyanine-3 LE",
+          "GSM225994",
+          "ExVivoBlood_6hr_0Gy_rep3",
+          "GLDS-152_microarray_GSM225994.txt.gz",
+          "GSM225995_Cyanine-3 sample",
+          "GSM225995_Cyanine-3 extract",
+          "GSM225995_Cyanine-3 LE",
+          "GSM225995",
+          "ExVivoBlood_6hr_0.5Gy_rep3",
+          "GLDS-152_microarray_GSM225995.txt.gz",
+          "GSM225996_Cyanine-3 sample",
+          "GSM225996_Cyanine-3 extract",
+          "GSM225996_Cyanine-3 LE",
+          "GSM225996",
+          "ExVivoBlood_6hr_2Gy_rep3",
+          "GLDS-152_microarray_GSM225996.txt.gz",
+          "GSM225997_Cyanine-3 sample",
+          "GSM225997_Cyanine-3 extract",
+          "GSM225997_Cyanine-3 LE",
+          "GSM225997",
+          "ExVivoBlood_6hr_5Gy_rep3",
+          "GLDS-152_microarray_GSM225997.txt.gz",
+          "GSM225998_Cyanine-3 sample",
+          "GSM225998_Cyanine-3 extract",
+          "GSM225998_Cyanine-3 LE",
+          "GSM225998",
+          "ExVivoBlood_6hr_8Gy_rep3",
+          "GLDS-152_microarray_GSM225998.txt.gz",
+          "GSM225999_Cyanine-3 sample",
+          "GSM225999_Cyanine-3 extract",
+          "GSM225999_Cyanine-3 LE",
+          "GSM225999",
+          "ExVivoBlood_6hr_0Gy_rep4",
+          "GLDS-152_microarray_GSM225999.txt.gz",
+          "GSM226000_Cyanine-3 sample",
+          "GSM226000_Cyanine-3 extract",
+          "GSM226000_Cyanine-3 LE",
+          "GSM226000",
+          "ExVivoBlood_6hr_0.5Gy_rep4",
+          "GLDS-152_microarray_GSM226000.txt.gz",
+          "GSM226001_Cyanine-3 sample",
+          "GSM226001_Cyanine-3 extract",
+          "GSM226001_Cyanine-3 LE",
+          "GSM226001",
+          "ExVivoBlood_6hr_2Gy_rep4",
+          "GLDS-152_microarray_GSM226001.txt.gz",
+          "GSM226002_Cyanine-3 sample",
+          "GSM226002_Cyanine-3 extract",
+          "GSM226002_Cyanine-3 LE",
+          "GSM226002",
+          "ExVivoBlood_6hr_5Gy_rep4",
+          "GLDS-152_microarray_GSM226002.txt.gz",
+          "GSM226003_Cyanine-3 sample",
+          "GSM226003_Cyanine-3 extract",
+          "GSM226003_Cyanine-3 LE",
+          "GSM226003",
+          "ExVivoBlood_6hr_8Gy_rep4",
+          "GLDS-152_microarray_GSM226003.txt.gz",
+          "GSM226004_Cyanine-3 sample",
+          "GSM226004_Cyanine-3 extract",
+          "GSM226004_Cyanine-3 LE",
+          "GSM226004",
+          "ExVivoBlood_6hr_0Gy_rep5",
+          "GLDS-152_microarray_GSM226004.txt.gz",
+          "GSM226005_Cyanine-3 sample",
+          "GSM226005_Cyanine-3 extract",
+          "GSM226005_Cyanine-3 LE",
+          "GSM226005",
+          "ExVivoBlood_6hr_0.5Gy_rep5",
+          "GLDS-152_microarray_GSM226005.txt.gz",
+          "GSM226006_Cyanine-3 sample",
+          "GSM226006_Cyanine-3 extract",
+          "GSM226006_Cyanine-3 LE",
+          "GSM226006",
+          "ExVivoBlood_6hr_2Gy_rep5",
+          "GLDS-152_microarray_GSM226006.txt.gz",
+          "GSM226007_Cyanine-3 sample",
+          "GSM226007_Cyanine-3 extract",
+          "GSM226007_Cyanine-3 LE",
+          "GSM226007",
+          "ExVivoBlood_6hr_5Gy_rep5",
+          "GLDS-152_microarray_GSM226007.txt.gz",
+          "GSM226008_Cyanine-3 sample",
+          "GSM226008_Cyanine-3 extract",
+          "GSM226008_Cyanine-3 LE",
+          "GSM226008",
+          "ExVivoBlood_6hr_8Gy_rep5",
+          "GLDS-152_microarray_GSM226008.txt.gz",
+          "GSM226009_Cyanine-3 sample",
+          "GSM226009_Cyanine-3 extract",
+          "GSM226009_Cyanine-3 LE",
+          "GSM226009",
+          "ExVivoBlood_24hr_0Gy_rep1",
+          "GLDS-152_microarray_GSM226009.txt.gz",
+          "GSM226010_Cyanine-3 sample",
+          "GSM226010_Cyanine-3 extract",
+          "GSM226010_Cyanine-3 LE",
+          "GSM226010",
+          "ExVivoBlood_24hr_0.5Gy_rep1",
+          "GLDS-152_microarray_GSM226010.txt.gz",
+          "GSM226011_Cyanine-3 sample",
+          "GSM226011_Cyanine-3 extract",
+          "GSM226011_Cyanine-3 LE",
+          "GSM226011",
+          "ExVivoBlood_24hr_2Gy_rep1",
+          "GLDS-152_microarray_GSM226011.txt.gz",
+          "GSM226012_Cyanine-3 sample",
+          "GSM226012_Cyanine-3 extract",
+          "GSM226012_Cyanine-3 LE",
+          "GSM226012",
+          "ExVivoBlood_24hr_5Gy_rep1",
+          "GLDS-152_microarray_GSM226012.txt.gz",
+          "GSM226013_Cyanine-3 sample",
+          "GSM226013_Cyanine-3 extract",
+          "GSM226013_Cyanine-3 LE",
+          "GSM226013",
+          "ExVivoBlood_24hr_8Gy_rep1",
+          "GLDS-152_microarray_GSM226013.txt.gz",
+          "GSM226014_Cyanine-3 sample",
+          "GSM226014_Cyanine-3 extract",
+          "GSM226014_Cyanine-3 LE",
+          "GSM226014",
+          "ExVivoBlood_24hr_0Gy_rep2",
+          "GLDS-152_microarray_GSM226014.txt.gz",
+          "GSM226015_Cyanine-3 sample",
+          "GSM226015_Cyanine-3 extract",
+          "GSM226015_Cyanine-3 LE",
+          "GSM226015",
+          "ExVivoBlood_24hr_0.5Gy_rep2",
+          "GLDS-152_microarray_GSM226015.txt.gz",
+          "GSM226016_Cyanine-3 sample",
+          "GSM226016_Cyanine-3 extract",
+          "GSM226016_Cyanine-3 LE",
+          "GSM226016",
+          "ExVivoBlood_24hr_2Gy_rep2",
+          "GLDS-152_microarray_GSM226016.txt.gz",
+          "GSM226017_Cyanine-3 sample",
+          "GSM226017_Cyanine-3 extract",
+          "GSM226017_Cyanine-3 LE",
+          "GSM226017",
+          "ExVivoBlood_24hr_5Gy_rep2",
+          "GLDS-152_microarray_GSM226017.txt.gz",
+          "GSM226018_Cyanine-3 sample",
+          "GSM226018_Cyanine-3 extract",
+          "GSM226018_Cyanine-3 LE",
+          "GSM226018",
+          "ExVivoBlood_24hr_8Gy_rep2",
+          "GLDS-152_microarray_GSM226018.txt.gz",
+          "GSM226019_Cyanine-3 sample",
+          "GSM226019_Cyanine-3 extract",
+          "GSM226019_Cyanine-3 LE",
+          "GSM226019",
+          "ExVivoBlood_24hr_0Gy_rep3",
+          "GLDS-152_microarray_GSM226019.txt.gz",
+          "GSM226020_Cyanine-3 sample",
+          "GSM226020_Cyanine-3 extract",
+          "GSM226020_Cyanine-3 LE",
+          "GSM226020",
+          "ExVivoBlood_24hr_0.5Gy_rep3",
+          "GLDS-152_microarray_GSM226020.txt.gz",
+          "GSM226021_Cyanine-3 sample",
+          "GSM226021_Cyanine-3 extract",
+          "GSM226021_Cyanine-3 LE",
+          "GSM226021",
+          "ExVivoBlood_24hr_2Gy_rep3",
+          "GLDS-152_microarray_GSM226021.txt.gz",
+          "GSM226022_Cyanine-3 sample",
+          "GSM226022_Cyanine-3 extract",
+          "GSM226022_Cyanine-3 LE",
+          "GSM226022",
+          "ExVivoBlood_24hr_5Gy_rep3",
+          "GLDS-152_microarray_GSM226022.txt.gz",
+          "GSM226023_Cyanine-3 sample",
+          "GSM226023_Cyanine-3 extract",
+          "GSM226023_Cyanine-3 LE",
+          "GSM226023",
+          "ExVivoBlood_24hr_8Gy_rep3",
+          "GLDS-152_microarray_GSM226023.txt.gz",
+          "GSM226024_Cyanine-3 sample",
+          "GSM226024_Cyanine-3 extract",
+          "GSM226024_Cyanine-3 LE",
+          "GSM226024",
+          "ExVivoBlood_24hr_0Gy_rep4",
+          "GLDS-152_microarray_GSM226024.txt.gz",
+          "GSM226025_Cyanine-3 sample",
+          "GSM226025_Cyanine-3 extract",
+          "GSM226025_Cyanine-3 LE",
+          "GSM226025",
+          "ExVivoBlood_24hr_0.5Gy_rep4",
+          "GLDS-152_microarray_GSM226025.txt.gz",
+          "GSM226026_Cyanine-3 sample",
+          "GSM226026_Cyanine-3 extract",
+          "GSM226026_Cyanine-3 LE",
+          "GSM226026",
+          "ExVivoBlood_24hr_2Gy_rep4",
+          "GLDS-152_microarray_GSM226026.txt.gz",
+          "GSM226027_Cyanine-3 sample",
+          "GSM226027_Cyanine-3 extract",
+          "GSM226027_Cyanine-3 LE",
+          "GSM226027",
+          "ExVivoBlood_24hr_5Gy_rep4",
+          "GLDS-152_microarray_GSM226027.txt.gz",
+          "GSM226028_Cyanine-3 sample",
+          "GSM226028_Cyanine-3 extract",
+          "GSM226028_Cyanine-3 LE",
+          "GSM226028",
+          "ExVivoBlood_24hr_8Gy_rep4",
+          "GLDS-152_microarray_GSM226028.txt.gz",
+          "GSM226029_Cyanine-3 sample",
+          "GSM226029_Cyanine-3 extract",
+          "GSM226029_Cyanine-3 LE",
+          "GSM226029",
+          "ExVivoBlood_24hr_0Gy_rep5",
+          "GLDS-152_microarray_GSM226029.txt.gz",
+          "GSM226030_Cyanine-3 sample",
+          "GSM226030_Cyanine-3 extract",
+          "GSM226030_Cyanine-3 LE",
+          "GSM226030",
+          "ExVivoBlood_24hr_0.5Gy_rep5",
+          "GLDS-152_microarray_GSM226030.txt.gz",
+          "GSM226031_Cyanine-3 sample",
+          "GSM226031_Cyanine-3 extract",
+          "GSM226031_Cyanine-3 LE",
+          "GSM226031",
+          "ExVivoBlood_24hr_2Gy_rep5",
+          "GLDS-152_microarray_GSM226031.txt.gz",
+          "GSM226032_Cyanine-3 sample",
+          "GSM226032_Cyanine-3 extract",
+          "GSM226032_Cyanine-3 LE",
+          "GSM226032",
+          "ExVivoBlood_24hr_5Gy_rep5",
+          "GLDS-152_microarray_GSM226032.txt.gz",
+          "GSM226033_Cyanine-3 sample",
+          "GSM226033_Cyanine-3 extract",
+          "GSM226033_Cyanine-3 LE",
+          "GSM226033",
+          "ExVivoBlood_24hr_8Gy_rep5",
+          "GLDS-152_microarray_GSM226033.txt.gz"
+        ],
+        "reports": []
+      }
+    }
+  ]
+}

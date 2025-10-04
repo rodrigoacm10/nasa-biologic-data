@@ -1,0 +1,639 @@
+{
+  "investigation": {
+    "id": "OSD-288",
+    "title": "Transcriptome analysis of murine spleen in space",
+    "description": "Our study aims to comprehensively understand effects induced by the space environment on mammals. To achieve this aim, we analyze the male mice housed under environments as the artificial gravity and the microgravity (space environment) in Japanese Experiment Module JEM) of the International Space Station (ISS) on orbit for 35 days.",
+    "mission": {
+      "name": "SpaceX-9",
+      "start_date": "7/18/16",
+      "end_date": "9/26/16",
+      "link": "https://osdr.nasa.gov/bio/repo/data/missions/SpaceX-9"
+    },
+    "project": {
+      "identifier": "MHU-1",
+      "title": "Mouse Habitat Unit-1",
+      "type": "Spaceflight Study",
+      "link": "https://iss.jaxa.jp/en/kiboexp/pm/mhu/",
+      "funding": "JSPS, Princess Takamatsu Cancer Research Fund, Uehara Memorial Foundation, Novartis Foundation for the Promotion of Science, MEXT, Japan Aerospace Exploration Agency",
+      "managing_center": ""
+    },
+    "protocols": [
+      "Pre-launch animal acclimation",
+      "Animal Husbandry",
+      "sample collection",
+      "radiation dosimetry",
+      "nucleic acid extraction",
+      "library construction",
+      "nucleic acid sequencing",
+      "GeneLab raw data processing protocol",
+      "GeneLab RNAseq data processing protocol"
+    ],
+    "publications": [
+      {
+        "title": "Down-regulation of GATA1-dependent erythrocyte-related genes in the spleens of mice exposed to a space travel.",
+        "doi": "10.1038/s41598-019-44067-9",
+        "authors": [
+          "Horie K",
+          "Sasanuma H",
+          "Kudo T",
+          "Fujita S",
+          "Miyauchi M",
+          "Miyao T",
+          "Seki T",
+          "Akiyama N",
+          "Takakura Y",
+          "Shimbo M",
+          "Jeon H",
+          "Shirakawa M",
+          "Shiba D",
+          "Yoshida N",
+          "Muratani M",
+          "Takahashi S",
+          "Akiyama T"
+        ],
+        "summary": "Down-regulation of GATA1-dependent erythrocyte-related genes in the spleens of mice exposed to a space travel. — 10.1038/s41598-019-44067-9"
+      }
+    ],
+    "factors": [
+      "Spaceflight",
+      "Altered Gravity"
+    ],
+    "contacts": [
+      {
+        "first_name": "Horie",
+        "last_name": "Kenta",
+        "role": "Author",
+        "email": "taishin.akiyama@riken.jp"
+      },
+      {
+        "first_name": "Taishin",
+        "last_name": "Akiyama",
+        "role": "Author",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "Mmus_C57-6J_SPL_FLT_1G_Rep1_ag1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Genotype": "Wild Type",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory (USA)",
+          "Sex": "Male",
+          "Age(at launch)": "8",
+          "Material Type": "Spleen"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Altered Gravity": "1G by centrifugation"
+        },
+        "parameters": {
+          "Habitat": "Habitat Cage Unit (HCU)",
+          "duration": "39",
+          "Diet": "Charles River Formula 1 (CRF-1)",
+          "Feeding Schedule": "ad libitum",
+          "Light Cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Isoflurane-anesthetised and euthanized by exsanguination",
+          "ionizing radiation": "space radiation",
+          "absorbed radiation dose": "8.97",
+          "absorbed radiation dose rate": "0.23",
+          "exposure duration": "39",
+          "ionizing radiation categorized by source": "outer space",
+          "vehicle": "ISS-Japanese Experiment Module"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMD00159563"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SPL_FLT_1G_Rep2_ag2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Genotype": "Wild Type",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory (USA)",
+          "Sex": "Male",
+          "Age(at launch)": "8",
+          "Material Type": "Spleen"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Altered Gravity": "1G by centrifugation"
+        },
+        "parameters": {
+          "Habitat": "Habitat Cage Unit (HCU)",
+          "duration": "39",
+          "Diet": "Charles River Formula 1 (CRF-1)",
+          "Feeding Schedule": "ad libitum",
+          "Light Cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Isoflurane-anesthetised and euthanized by exsanguination",
+          "ionizing radiation": "space radiation",
+          "absorbed radiation dose": "8.97",
+          "absorbed radiation dose rate": "0.23",
+          "exposure duration": "39",
+          "ionizing radiation categorized by source": "outer space",
+          "vehicle": "ISS-Japanese Experiment Module"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMD00159564"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SPL_FLT_1G_Rep3_ag3",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Genotype": "Wild Type",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory (USA)",
+          "Sex": "Male",
+          "Age(at launch)": "8",
+          "Material Type": "Spleen"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Altered Gravity": "1G by centrifugation"
+        },
+        "parameters": {
+          "Habitat": "Habitat Cage Unit (HCU)",
+          "duration": "39",
+          "Diet": "Charles River Formula 1 (CRF-1)",
+          "Feeding Schedule": "ad libitum",
+          "Light Cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Isoflurane-anesthetised and euthanized by exsanguination",
+          "ionizing radiation": "space radiation",
+          "absorbed radiation dose": "8.97",
+          "absorbed radiation dose rate": "0.23",
+          "exposure duration": "39",
+          "ionizing radiation categorized by source": "outer space",
+          "vehicle": "ISS-Japanese Experiment Module"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMD00159565"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6CR_SPL_GC_1G_Rep1_gc1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Genotype": "Wild Type",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories (Japan)",
+          "Sex": "Male",
+          "Age(at launch)": "8",
+          "Material Type": "Spleen"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "Habitat": "Habitat Cage Unit (HCU)",
+          "duration": "39",
+          "Diet": "Charles River Formula 1 (CRF-1)",
+          "Feeding Schedule": "ad libitum",
+          "Light Cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Isoflurane-anesthetised and euthanized by exsanguination",
+          "ionizing radiation": "non-irradiated",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "vehicle": ""
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMD00159569"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6CR_SPL_GC_1G_Rep2_gc2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Genotype": "Wild Type",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories (Japan)",
+          "Sex": "Male",
+          "Age(at launch)": "8",
+          "Material Type": "Spleen"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "Habitat": "Habitat Cage Unit (HCU)",
+          "duration": "39",
+          "Diet": "Charles River Formula 1 (CRF-1)",
+          "Feeding Schedule": "ad libitum",
+          "Light Cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Isoflurane-anesthetised and euthanized by exsanguination",
+          "ionizing radiation": "non-irradiated",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "vehicle": ""
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMD00159570"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6CR_SPL_GC_1G_Rep3_gc3",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Genotype": "Wild Type",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories (Japan)",
+          "Sex": "Male",
+          "Age(at launch)": "8",
+          "Material Type": "Spleen"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "Habitat": "Habitat Cage Unit (HCU)",
+          "duration": "39",
+          "Diet": "Charles River Formula 1 (CRF-1)",
+          "Feeding Schedule": "ad libitum",
+          "Light Cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Isoflurane-anesthetised and euthanized by exsanguination",
+          "ionizing radiation": "non-irradiated",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "vehicle": ""
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMD00159571"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SPL_FLT_uG_Rep1_mg1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Genotype": "Wild Type",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory (USA)",
+          "Sex": "Male",
+          "Age(at launch)": "8",
+          "Material Type": "Spleen"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "Habitat": "Habitat Cage Unit (HCU)",
+          "duration": "39",
+          "Diet": "Charles River Formula 1 (CRF-1)",
+          "Feeding Schedule": "ad libitum",
+          "Light Cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Isoflurane-anesthetised and euthanized by exsanguination",
+          "ionizing radiation": "space radiation",
+          "absorbed radiation dose": "8.97",
+          "absorbed radiation dose rate": "0.23",
+          "exposure duration": "39",
+          "ionizing radiation categorized by source": "outer space",
+          "vehicle": "ISS-Japanese Experiment Module"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMD00159566"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SPL_FLT_uG_Rep2_mg2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Genotype": "Wild Type",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory (USA)",
+          "Sex": "Male",
+          "Age(at launch)": "8",
+          "Material Type": "Spleen"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "Habitat": "Habitat Cage Unit (HCU)",
+          "duration": "39",
+          "Diet": "Charles River Formula 1 (CRF-1)",
+          "Feeding Schedule": "ad libitum",
+          "Light Cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Isoflurane-anesthetised and euthanized by exsanguination",
+          "ionizing radiation": "space radiation",
+          "absorbed radiation dose": "8.97",
+          "absorbed radiation dose rate": "0.23",
+          "exposure duration": "39",
+          "ionizing radiation categorized by source": "outer space",
+          "vehicle": "ISS-Japanese Experiment Module"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMD00159567"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SPL_FLT_uG_Rep3_mg3",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Genotype": "Wild Type",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory (USA)",
+          "Sex": "Male",
+          "Age(at launch)": "8",
+          "Material Type": "Spleen"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "Habitat": "Habitat Cage Unit (HCU)",
+          "duration": "39",
+          "Diet": "Charles River Formula 1 (CRF-1)",
+          "Feeding Schedule": "ad libitum",
+          "Light Cycle": "12 h light/dark cycle",
+          "Euthanasia Method": "Isoflurane-anesthetised and euthanized by exsanguination",
+          "ionizing radiation": "space radiation",
+          "absorbed radiation dose": "8.97",
+          "absorbed radiation dose rate": "0.23",
+          "exposure duration": "39",
+          "ionizing radiation categorized by source": "outer space",
+          "vehicle": "ISS-Japanese Experiment Module"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMD00159568"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "NextSeq 500",
+      "qc": {
+        "QA Instrument": "Agilent 2100 Bioanalyzer",
+        "QA Assay": "RNA 6000 Pico Kit",
+        "Read Depth": "29157362",
+        "rRNA Contamination": "36.36"
+      },
+      "library": {
+        "Library Kit": "NEBNext Ultra Directional RNA Library Prep Kit"
+      },
+      "files": {
+        "raw": [
+          "GLDS-288_rna-seq_Mmus_C57-6J_SPL_FLT_1G_Rep1_ag1_R1_raw.fastq.gz",
+          "GLDS-288_rna-seq_Mmus_C57-6J_SPL_FLT_1G_Rep1_ag1_R2_raw.fastq.gz",
+          "GLDS-288_rna-seq_Mmus_C57-6J_SPL_FLT_1G_Rep2_ag2_R1_raw.fastq.gz",
+          "GLDS-288_rna-seq_Mmus_C57-6J_SPL_FLT_1G_Rep2_ag2_R2_raw.fastq.gz",
+          "GLDS-288_rna-seq_Mmus_C57-6J_SPL_FLT_1G_Rep3_ag3_R1_raw.fastq.gz",
+          "GLDS-288_rna-seq_Mmus_C57-6J_SPL_FLT_1G_Rep3_ag3_R2_raw.fastq.gz",
+          "GLDS-288_rna-seq_Mmus_C57-6CR_SPL_GC_1G_Rep1_gc1_R1_raw.fastq.gz",
+          "GLDS-288_rna-seq_Mmus_C57-6CR_SPL_GC_1G_Rep1_gc1_R2_raw.fastq.gz",
+          "GLDS-288_rna-seq_Mmus_C57-6CR_SPL_GC_1G_Rep2_gc2_R1_raw.fastq.gz",
+          "GLDS-288_rna-seq_Mmus_C57-6CR_SPL_GC_1G_Rep2_gc2_R2_raw.fastq.gz",
+          "GLDS-288_rna-seq_Mmus_C57-6CR_SPL_GC_1G_Rep3_gc3_R1_raw.fastq.gz",
+          "GLDS-288_rna-seq_Mmus_C57-6CR_SPL_GC_1G_Rep3_gc3_R2_raw.fastq.gz",
+          "GLDS-288_rna-seq_Mmus_C57-6J_SPL_FLT_uG_Rep1_mg1_R1_raw.fastq.gz",
+          "GLDS-288_rna-seq_Mmus_C57-6J_SPL_FLT_uG_Rep1_mg1_R2_raw.fastq.gz",
+          "GLDS-288_rna-seq_Mmus_C57-6J_SPL_FLT_uG_Rep2_mg2_R1_raw.fastq.gz",
+          "GLDS-288_rna-seq_Mmus_C57-6J_SPL_FLT_uG_Rep2_mg2_R2_raw.fastq.gz",
+          "GLDS-288_rna-seq_Mmus_C57-6J_SPL_FLT_uG_Rep3_mg3_R1_raw.fastq.gz",
+          "GLDS-288_rna-seq_Mmus_C57-6J_SPL_FLT_uG_Rep3_mg3_R2_raw.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep1_ag1_R1_trimmed.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep1_ag1_R2_trimmed.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep1_ag1_R1_unmapped.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep1_ag1_R2_unmapped.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep2_ag2_R1_trimmed.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep2_ag2_R2_trimmed.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep2_ag2_R1_unmapped.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep2_ag2_R2_unmapped.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep3_ag3_R1_trimmed.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep3_ag3_R2_trimmed.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep3_ag3_R1_unmapped.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep3_ag3_R2_unmapped.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep1_gc1_R1_trimmed.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep1_gc1_R2_trimmed.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep1_gc1_R1_unmapped.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep1_gc1_R2_unmapped.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep2_gc2_R1_trimmed.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep2_gc2_R2_trimmed.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep2_gc2_R1_unmapped.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep2_gc2_R2_unmapped.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep3_gc3_R1_trimmed.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep3_gc3_R2_trimmed.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep3_gc3_R1_unmapped.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep3_gc3_R2_unmapped.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep1_mg1_R1_trimmed.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep1_mg1_R2_trimmed.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep1_mg1_R1_unmapped.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep1_mg1_R2_unmapped.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep2_mg2_R1_trimmed.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep2_mg2_R2_trimmed.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep2_mg2_R1_unmapped.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep2_mg2_R2_unmapped.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep3_mg3_R1_trimmed.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep3_mg3_R2_trimmed.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep3_mg3_R1_unmapped.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep3_mg3_R2_unmapped.fastq.gz"
+        ],
+        "processed": [
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep1_ag1_R1_trimmed.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep1_ag1_R2_trimmed.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep1_ag1_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep1_ag1_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep1_ag1_Aligned.toTranscriptome.out.bam",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep1_ag1_SJ.out.tab",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep2_ag2_R1_trimmed.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep2_ag2_R2_trimmed.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep2_ag2_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep2_ag2_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep2_ag2_Aligned.toTranscriptome.out.bam",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep2_ag2_SJ.out.tab",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep3_ag3_R1_trimmed.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep3_ag3_R2_trimmed.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep3_ag3_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep3_ag3_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep3_ag3_Aligned.toTranscriptome.out.bam",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep3_ag3_SJ.out.tab",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep1_gc1_R1_trimmed.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep1_gc1_R2_trimmed.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep1_gc1_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep1_gc1_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep1_gc1_Aligned.toTranscriptome.out.bam",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep1_gc1_SJ.out.tab",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep2_gc2_R1_trimmed.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep2_gc2_R2_trimmed.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep2_gc2_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep2_gc2_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep2_gc2_Aligned.toTranscriptome.out.bam",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep2_gc2_SJ.out.tab",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep3_gc3_R1_trimmed.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep3_gc3_R2_trimmed.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep3_gc3_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep3_gc3_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep3_gc3_Aligned.toTranscriptome.out.bam",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep3_gc3_SJ.out.tab",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep1_mg1_R1_trimmed.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep1_mg1_R2_trimmed.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep1_mg1_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep1_mg1_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep1_mg1_Aligned.toTranscriptome.out.bam",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep1_mg1_SJ.out.tab",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep2_mg2_R1_trimmed.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep2_mg2_R2_trimmed.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep2_mg2_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep2_mg2_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep2_mg2_Aligned.toTranscriptome.out.bam",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep2_mg2_SJ.out.tab",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep3_mg3_R1_trimmed.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep3_mg3_R2_trimmed.fastq.gz",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep3_mg3_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep3_mg3_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep3_mg3_Aligned.toTranscriptome.out.bam",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep3_mg3_SJ.out.tab",
+          "Mmus_C57-6J_SPL_FLT_1G_Rep1_ag1",
+          "GeneLab RNAseq data processing protocol",
+          "Agilent 2100 Bioanalyzer",
+          "RNA 6000 Pico Kit",
+          "SAMD00159571",
+          "ribo-depletion",
+          "PAIRED",
+          "STRANDED",
+          "NEBNext Ultra Directional RNA Library Prep Kit",
+          "NextSeq 500",
+          "35",
+          "36",
+          "percent",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000187",
+          "rna-seq",
+          "29157362",
+          "36.36",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep1_ag1.genes.results",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep1_ag1.isoforms.results",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep1_ag1_rRNArm.genes.results",
+          "GLDS-288_rna_seq_RSEM_Unnormalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-288_rna_seq_STAR_Unnormalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-288_rna_seq_RSEM_Unnormalized_Counts_rRNArm_GLbulkRNAseq.csv",
+          "GLDS-288_rna_seq_Normalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-288_rna_seq_VST_Counts_GLbulkRNAseq.csv",
+          "GLDS-288_rna_seq_Normalized_Counts_rRNArm_GLbulkRNAseq.csv",
+          "GLDS-288_rna_seq_VST_Counts_rRNArm_GLbulkRNAseq.csv",
+          "GLDS-288_rna_seq_SampleTable_GLbulkRNAseq.csv",
+          "GLDS-288_rna_seq_contrasts_GLbulkRNAseq.csv",
+          "GLDS-288_rna_seq_differential_expression_GLbulkRNAseq.csv",
+          "GLDS-288_rna_seq_differential_expression_rRNArm_GLbulkRNAseq.csv",
+          "Mmus_C57-6J_SPL_FLT_1G_Rep2_ag2",
+          "SAMD00159570",
+          "21627702",
+          "10.75",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep2_ag2.genes.results",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep2_ag2.isoforms.results",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep2_ag2_rRNArm.genes.results",
+          "Mmus_C57-6J_SPL_FLT_1G_Rep3_ag3",
+          "SAMD00159569",
+          "28446056",
+          "9.72",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep3_ag3.genes.results",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep3_ag3.isoforms.results",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep3_ag3_rRNArm.genes.results",
+          "Mmus_C57-6CR_SPL_GC_1G_Rep1_gc1",
+          "SAMD00159568",
+          "28039510",
+          "9.25",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep1_gc1.genes.results",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep1_gc1.isoforms.results",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep1_gc1_rRNArm.genes.results",
+          "Mmus_C57-6CR_SPL_GC_1G_Rep2_gc2",
+          "SAMD00159567",
+          "26531804",
+          "8.24",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep2_gc2.genes.results",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep2_gc2.isoforms.results",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep2_gc2_rRNArm.genes.results",
+          "Mmus_C57-6CR_SPL_GC_1G_Rep3_gc3",
+          "SAMD00159566",
+          "29239895",
+          "7.47",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep3_gc3.genes.results",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep3_gc3.isoforms.results",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep3_gc3_rRNArm.genes.results",
+          "Mmus_C57-6J_SPL_FLT_uG_Rep1_mg1",
+          "SAMD00159565",
+          "22202913",
+          "10.62",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep1_mg1.genes.results",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep1_mg1.isoforms.results",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep1_mg1_rRNArm.genes.results",
+          "Mmus_C57-6J_SPL_FLT_uG_Rep2_mg2",
+          "SAMD00159564",
+          "30033310",
+          "7.11",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep2_mg2.genes.results",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep2_mg2.isoforms.results",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep2_mg2_rRNArm.genes.results",
+          "Mmus_C57-6J_SPL_FLT_uG_Rep3_mg3",
+          "SAMD00159563",
+          "25979958",
+          "6.59",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep3_mg3.genes.results",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep3_mg3.isoforms.results",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep3_mg3_rRNArm.genes.results"
+        ],
+        "reports": [
+          "GLDS-288_rna_seq_raw_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-288_rna_seq_raw_multiqc_GLbulkRNAseq.html",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep1_ag1_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep1_ag1_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-288_rna_seq_trimmed_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-288_rna_seq_trimmed_multiqc_GLbulkRNAseq.html",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep1_ag1_Log.final.out",
+          "GLDS-288_rna_seq_align_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-288_rna_seq_align_multiqc_GLbulkRNAseq.html",
+          "GLDS-288_rna_seq_geneBody_cov_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-288_rna_seq_geneBody_cov_multiqc_GLbulkRNAseq.html",
+          "GLDS-288_rna_seq_infer_exp_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-288_rna_seq_infer_exp_multiqc_GLbulkRNAseq.html",
+          "GLDS-288_rna_seq_inner_dist_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-288_rna_seq_inner_dist_multiqc_GLbulkRNAseq.html",
+          "GLDS-288_rna_seq_read_dist_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-288_rna_seq_read_dist_multiqc_GLbulkRNAseq.html",
+          "GLDS-288_rna_seq_RSEM_count_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-288_rna_seq_RSEM_count_multiqc_GLbulkRNAseq.html",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep2_ag2_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep2_ag2_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep2_ag2_Log.final.out",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep3_ag3_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep3_ag3_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_1G_Rep3_ag3_Log.final.out",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep1_gc1_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep1_gc1_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep1_gc1_Log.final.out",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep2_gc2_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep2_gc2_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep2_gc2_Log.final.out",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep3_gc3_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep3_gc3_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-288_rna_seq_Mmus_C57-6CR_SPL_GC_1G_Rep3_gc3_Log.final.out",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep1_mg1_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep1_mg1_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep1_mg1_Log.final.out",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep2_mg2_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep2_mg2_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep2_mg2_Log.final.out",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep3_mg3_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep3_mg3_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-288_rna_seq_Mmus_C57-6J_SPL_FLT_uG_Rep3_mg3_Log.final.out"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,1348 @@
+{
+  "investigation": {
+    "id": "OSD-530",
+    "title": "Cell-free RNA analysis of plasma samples collected from six astronauts in JAXA Cell-Free Epigenome (CFE) Study",
+    "description": "A detailed understanding of how the human body responds to spaceflight will be important to develop countermeasures for long-term space exploration. Liquid biopsies offer minimally invasive alternatives to traditional tissue biopsies, while also permitting the extraction of cell-free nucleic acids, which may resolve molecular heterogeneity and extend the multi-omics scope better than standard methods.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "",
+      "title": "",
+      "type": "Spaceflight Study",
+      "link": "",
+      "funding": "This study was supported by JAXA, NASA, and JSPS KAKENHI JP20H03234",
+      "managing_center": ""
+    },
+    "protocols": [
+      "sample collection",
+      "Nucleic Acid Extraction",
+      "Library Construction",
+      "Nucleic Acid Sequencing",
+      "Sequence Analysis Data Transformation",
+      "Nucleic Acid Extraction - CD36 plasma fraction",
+      "Sequence Analysis Data Transformation - CD36 plasma fraction"
+    ],
+    "publications": [
+      {
+        "title": "Release of CD36-associated cell-free mitochondrial DNA and RNA as a hallmark of space environment response.",
+        "doi": "10.1038/s41467-023-41995-z",
+        "authors": [
+          "Husna N",
+          "Aiba T",
+          "Fujita SI",
+          "Saito Y",
+          "Shiba D",
+          "Kudo T",
+          "Takahashi S",
+          "Furukawa S",
+          "Muratani M."
+        ],
+        "summary": "Release of CD36-associated cell-free mitochondrial DNA and RNA as a hallmark of space environment response. — 10.1038/s41467-023-41995-z"
+      }
+    ],
+    "factors": [
+      "Spaceflight",
+      "Time"
+    ],
+    "contacts": [
+      {
+        "first_name": "Masafumi",
+        "last_name": "Muratani",
+        "role": "Submitter",
+        "email": "muratanim@gmail.com"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "TGB_050_01",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "1"
+        },
+        "factors": {
+          "Spaceflight": "pre-flight",
+          "Time": "L-168(±14d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_050_02",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "1"
+        },
+        "factors": {
+          "Spaceflight": "pre-flight",
+          "Time": "L-112(±14d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_050_03",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "1"
+        },
+        "factors": {
+          "Spaceflight": "pre-flight",
+          "Time": "L-56(±14d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_050_04",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "1"
+        },
+        "factors": {
+          "Spaceflight": "in-flight",
+          "Time": "L+5(±1d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_050_05",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "1"
+        },
+        "factors": {
+          "Spaceflight": "in-flight",
+          "Time": "L+30(±7d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_050_06",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "1"
+        },
+        "factors": {
+          "Spaceflight": "in-flight",
+          "Time": "L+60(±14d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_050_07",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "1"
+        },
+        "factors": {
+          "Spaceflight": "in-flight",
+          "Time": "L+120(±14d) or R-8(-14d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_050_08",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "1"
+        },
+        "factors": {
+          "Spaceflight": "post-flight",
+          "Time": "R+3(±1d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_050_09",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "1"
+        },
+        "factors": {
+          "Spaceflight": "post-flight",
+          "Time": "R+30(±7d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_050_10",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "1"
+        },
+        "factors": {
+          "Spaceflight": "post-flight",
+          "Time": "R+60(±14d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_050_11",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "1"
+        },
+        "factors": {
+          "Spaceflight": "post-flight",
+          "Time": "R+120(±14d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_050_13",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "2"
+        },
+        "factors": {
+          "Spaceflight": "pre-flight",
+          "Time": "L-168(±14d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_050_15",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "2"
+        },
+        "factors": {
+          "Spaceflight": "pre-flight",
+          "Time": "L-56(±14d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_050_16",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "2"
+        },
+        "factors": {
+          "Spaceflight": "in-flight",
+          "Time": "L+5(±1d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_050_17",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "2"
+        },
+        "factors": {
+          "Spaceflight": "in-flight",
+          "Time": "L+30(±7d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_050_18",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "2"
+        },
+        "factors": {
+          "Spaceflight": "in-flight",
+          "Time": "L+60(±14d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_050_19",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "2"
+        },
+        "factors": {
+          "Spaceflight": "in-flight",
+          "Time": "L+120(±14d) or R-8(-14d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_050_20",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "2"
+        },
+        "factors": {
+          "Spaceflight": "post-flight",
+          "Time": "R+3(±1d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_050_21",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "2"
+        },
+        "factors": {
+          "Spaceflight": "post-flight",
+          "Time": "R+30(±7d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_050_22",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "2"
+        },
+        "factors": {
+          "Spaceflight": "post-flight",
+          "Time": "R+60(±14d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_050_23",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "2"
+        },
+        "factors": {
+          "Spaceflight": "post-flight",
+          "Time": "R+120(±14d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_051_01",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "3"
+        },
+        "factors": {
+          "Spaceflight": "pre-flight",
+          "Time": "L-168(±14d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_051_02",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "3"
+        },
+        "factors": {
+          "Spaceflight": "pre-flight",
+          "Time": "L-112(±14d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_051_03",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "3"
+        },
+        "factors": {
+          "Spaceflight": "pre-flight",
+          "Time": "L-56(±14d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_051_04",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "3"
+        },
+        "factors": {
+          "Spaceflight": "in-flight",
+          "Time": "L+5(±1d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_051_05",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "3"
+        },
+        "factors": {
+          "Spaceflight": "in-flight",
+          "Time": "L+30(±7d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_051_06",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "3"
+        },
+        "factors": {
+          "Spaceflight": "in-flight",
+          "Time": "L+60(±14d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_051_07",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "3"
+        },
+        "factors": {
+          "Spaceflight": "in-flight",
+          "Time": "L+120(±14d) or R-8(-14d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_051_08",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "3"
+        },
+        "factors": {
+          "Spaceflight": "post-flight",
+          "Time": "R+3(±1d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_051_09",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "3"
+        },
+        "factors": {
+          "Spaceflight": "post-flight",
+          "Time": "R+30(±7d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_051_10",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "3"
+        },
+        "factors": {
+          "Spaceflight": "post-flight",
+          "Time": "R+60(±14d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_051_13",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "4"
+        },
+        "factors": {
+          "Spaceflight": "pre-flight",
+          "Time": "L-168(±14d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_051_14",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "4"
+        },
+        "factors": {
+          "Spaceflight": "pre-flight",
+          "Time": "L-112(±14d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_051_15",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "4"
+        },
+        "factors": {
+          "Spaceflight": "pre-flight",
+          "Time": "L-56(±14d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_051_16",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "4"
+        },
+        "factors": {
+          "Spaceflight": "in-flight",
+          "Time": "L+5(±1d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_051_17",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "4"
+        },
+        "factors": {
+          "Spaceflight": "in-flight",
+          "Time": "L+30(±7d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_051_18",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "4"
+        },
+        "factors": {
+          "Spaceflight": "in-flight",
+          "Time": "L+60(±14d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_051_19",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "4"
+        },
+        "factors": {
+          "Spaceflight": "in-flight",
+          "Time": "L+120(±14d) or R-8(-14d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_051_20",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "4"
+        },
+        "factors": {
+          "Spaceflight": "post-flight",
+          "Time": "R+3(±1d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_051_21",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "4"
+        },
+        "factors": {
+          "Spaceflight": "post-flight",
+          "Time": "R+30(±7d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_051_22",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "4"
+        },
+        "factors": {
+          "Spaceflight": "post-flight",
+          "Time": "R+60(±14d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_051_23",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "4"
+        },
+        "factors": {
+          "Spaceflight": "post-flight",
+          "Time": "R+120(±14d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_052_01",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "5"
+        },
+        "factors": {
+          "Spaceflight": "pre-flight",
+          "Time": "L-168(±14d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_052_02",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "5"
+        },
+        "factors": {
+          "Spaceflight": "pre-flight",
+          "Time": "L-112(±14d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_052_03",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "5"
+        },
+        "factors": {
+          "Spaceflight": "pre-flight",
+          "Time": "L-56(±14d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_052_04",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "5"
+        },
+        "factors": {
+          "Spaceflight": "in-flight",
+          "Time": "L+5(±1d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_052_05",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "5"
+        },
+        "factors": {
+          "Spaceflight": "in-flight",
+          "Time": "L+30(±7d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_052_06",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "5"
+        },
+        "factors": {
+          "Spaceflight": "in-flight",
+          "Time": "L+60(±14d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_052_07",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "5"
+        },
+        "factors": {
+          "Spaceflight": "in-flight",
+          "Time": "L+120(±14d) or R-8(-14d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_052_08",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "5"
+        },
+        "factors": {
+          "Spaceflight": "post-flight",
+          "Time": "R+3(±1d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_052_09",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "5"
+        },
+        "factors": {
+          "Spaceflight": "post-flight",
+          "Time": "R+30(±7d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_052_10",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "5"
+        },
+        "factors": {
+          "Spaceflight": "post-flight",
+          "Time": "R+60(±14d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_052_11",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "5"
+        },
+        "factors": {
+          "Spaceflight": "post-flight",
+          "Time": "R+120(±14d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_052_13",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "6"
+        },
+        "factors": {
+          "Spaceflight": "pre-flight",
+          "Time": "L-168(±14d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_052_14",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "6"
+        },
+        "factors": {
+          "Spaceflight": "pre-flight",
+          "Time": "L-112(±14d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_052_15",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "6"
+        },
+        "factors": {
+          "Spaceflight": "pre-flight",
+          "Time": "L-56(±14d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_052_16",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "6"
+        },
+        "factors": {
+          "Spaceflight": "in-flight",
+          "Time": "L+5(±1d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_052_17",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "6"
+        },
+        "factors": {
+          "Spaceflight": "in-flight",
+          "Time": "L+30(±7d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_052_18",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "6"
+        },
+        "factors": {
+          "Spaceflight": "in-flight",
+          "Time": "L+60(±14d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_052_19",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "6"
+        },
+        "factors": {
+          "Spaceflight": "in-flight",
+          "Time": "L+120(±14d) or R-8(-14d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_052_20",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "6"
+        },
+        "factors": {
+          "Spaceflight": "post-flight",
+          "Time": "R+3(±1d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_052_21",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "6"
+        },
+        "factors": {
+          "Spaceflight": "post-flight",
+          "Time": "R+30(±7d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_052_22",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "6"
+        },
+        "factors": {
+          "Spaceflight": "post-flight",
+          "Time": "R+60(±14d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "TGB_052_23",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Plasma",
+          "Study Subject": "6"
+        },
+        "factors": {
+          "Spaceflight": "post-flight",
+          "Time": "R+120(±14d)"
+        },
+        "parameters": {
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina NextSeq500",
+      "qc": {
+        "QA Instrument": "Qubit Fluorometers",
+        "QA Assay": "Qubit RNA HS Assay"
+      },
+      "library": {
+        "Library Layout": "PAIRED",
+        "Stranded": "STRANDED"
+      },
+      "files": {
+        "raw": [],
+        "processed": [
+          "GLDS-530_rna-seq_TGB_063_Input_vs_IP_totalcount_all0removed_scalingnormalized.xlsx",
+          "TGB_050_01",
+          "Sequence Analysis Data Transformation - CD36 plasma fraction",
+          "Qubit Fluorometers",
+          "Qubit RNA HS Assay",
+          "PAIRED",
+          "STRANDED",
+          "Illumina NextSeq500",
+          "36",
+          "base pair",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000244",
+          "rna-seq",
+          "TGB_050_02",
+          "TGB_050_03",
+          "TGB_050_04",
+          "TGB_050_05",
+          "TGB_050_06",
+          "TGB_050_07",
+          "TGB_050_08",
+          "TGB_050_09",
+          "TGB_050_10",
+          "TGB_050_11",
+          "TGB_050_13",
+          "TGB_050_15",
+          "TGB_050_16",
+          "TGB_050_17",
+          "TGB_050_18",
+          "TGB_050_19",
+          "TGB_050_20",
+          "TGB_050_21",
+          "TGB_050_22",
+          "TGB_050_23",
+          "TGB_051_01",
+          "TGB_051_02",
+          "TGB_051_03",
+          "TGB_051_04",
+          "TGB_051_05",
+          "TGB_051_06",
+          "TGB_051_07",
+          "TGB_051_08",
+          "TGB_051_09",
+          "TGB_051_10",
+          "TGB_051_13",
+          "TGB_051_14",
+          "TGB_051_15",
+          "TGB_051_16",
+          "TGB_051_17",
+          "TGB_051_18",
+          "TGB_051_19",
+          "TGB_051_20",
+          "TGB_051_21",
+          "TGB_051_22",
+          "TGB_051_23",
+          "TGB_052_01",
+          "TGB_052_02",
+          "TGB_052_03",
+          "TGB_052_04",
+          "TGB_052_05",
+          "TGB_052_06",
+          "TGB_052_07",
+          "TGB_052_08",
+          "TGB_052_09",
+          "TGB_052_10",
+          "TGB_052_11",
+          "TGB_052_13",
+          "TGB_052_14",
+          "TGB_052_15",
+          "TGB_052_16",
+          "TGB_052_17",
+          "TGB_052_18",
+          "TGB_052_19",
+          "TGB_052_20",
+          "TGB_052_21",
+          "TGB_052_22",
+          "TGB_052_23"
+        ],
+        "reports": []
+      }
+    },
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina NextSeq500",
+      "qc": {
+        "QA Instrument": "Qubit Fluorometers",
+        "QA Assay": "Qubit RNA HS Assay Kit"
+      },
+      "library": {
+        "Library Layout": "PAIRED",
+        "Stranded": "STRANDED"
+      },
+      "files": {
+        "raw": [],
+        "processed": [
+          "\"GLDS-530_rna-seq_TGB_063_Input_vs_IP_totalcount_all0removed_scalingnormalized.xlsx",
+          "GLDS-530_rna-seq_TGB_050_64samples_3group_totalcount_all0removed_scalingnormalized_ANOVA_FDRpval005_2x_50difference_466genes.xlsx",
+          "GLDS-530_rna-seq_TGB_050_64samples_3group_totalcount_all0removed_scalingnormalized.xlsx",
+          "GLDS-530_rna-seq_TGB_050_1_2_64samples_9group_totalcount_all0removed_scalingnormalized_pairwise_analysis_included.xlsx\"",
+          "TGB_050_01",
+          "Sequence Analysis Data Transformation",
+          "Qubit Fluorometers",
+          "Qubit RNA HS Assay Kit",
+          "PAIRED",
+          "STRANDED",
+          "Illumina NextSeq500",
+          "36",
+          "base pair",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000244",
+          "rna-seq",
+          "GLDS-530_rna-seq_TGB_050_64samples_3group_totalcount.xlsx",
+          "\"GLDS-530_rna-seq_TGB_050_1_2_64samples_9group_totalcount_all0removed_scalingnormalized_SEM.xlsx",
+          "GLDS-530_rna-seq_TGB_050_1_2_64samples_11group_totalcount_all0removed_scalingnormalized_SEM.xlsx\"",
+          "TGB_050_02",
+          "TGB_050_03",
+          "TGB_050_04",
+          "TGB_050_05",
+          "TGB_050_06",
+          "TGB_050_07",
+          "TGB_050_08",
+          "TGB_050_09",
+          "TGB_050_10",
+          "TGB_050_11",
+          "TGB_050_13",
+          "TGB_050_15",
+          "TGB_050_16",
+          "TGB_050_17",
+          "TGB_050_18",
+          "TGB_050_19",
+          "TGB_050_20",
+          "TGB_050_21",
+          "TGB_050_22",
+          "TGB_050_23",
+          "TGB_051_01",
+          "TGB_051_02",
+          "TGB_051_03",
+          "TGB_051_04",
+          "TGB_051_05",
+          "TGB_051_06",
+          "TGB_051_07",
+          "TGB_051_08",
+          "TGB_051_09",
+          "TGB_051_10",
+          "TGB_051_13",
+          "TGB_051_14",
+          "TGB_051_15",
+          "TGB_051_16",
+          "TGB_051_17",
+          "TGB_051_18",
+          "TGB_051_19",
+          "TGB_051_20",
+          "TGB_051_21",
+          "TGB_051_22",
+          "TGB_051_23",
+          "TGB_052_01",
+          "TGB_052_02",
+          "TGB_052_03",
+          "TGB_052_04",
+          "TGB_052_05",
+          "TGB_052_06",
+          "TGB_052_07",
+          "TGB_052_08",
+          "TGB_052_09",
+          "TGB_052_10",
+          "TGB_052_11",
+          "TGB_052_13",
+          "TGB_052_14",
+          "TGB_052_15",
+          "TGB_052_16",
+          "TGB_052_17",
+          "TGB_052_18",
+          "TGB_052_19",
+          "TGB_052_20",
+          "TGB_052_21",
+          "TGB_052_22",
+          "TGB_052_23"
+        ],
+        "reports": []
+      }
+    }
+  ]
+}

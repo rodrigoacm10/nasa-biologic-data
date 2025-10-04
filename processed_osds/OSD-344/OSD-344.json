@@ -1,0 +1,539 @@
+{
+  "investigation": {
+    "id": "OSD-344",
+    "title": "Real-time quantitative PCR analysis of human cardiovascular progenitor cells flown aboard the International Space Station",
+    "description": "Adult and neonatal human cardiovacular progenitor cell clonal populations were flown aboard the ISS for 12 days prior to fixation in RNAprotect. Gene expression analysis was performed against clone-, patient-, and passage-matched ground control samples.",
+    "mission": {
+      "name": "SpaceX-11",
+      "start_date": "03-Jun-2017",
+      "end_date": "03-Jul-2017",
+      "link": "https://lsda.jsc.nasa.gov/Mission/miss/1401"
+    },
+    "project": {
+      "identifier": "",
+      "title": "",
+      "type": "Spaceflight Study",
+      "link": "",
+      "funding": "This work was supported by a grant from the Center for Advancement of Science in Space to M.K.J.",
+      "managing_center": ""
+    },
+    "protocols": [
+      "growth protocol",
+      "treatment protocol",
+      "nucleic acid extraction",
+      "reverse transcribed pcr - mRNA array",
+      "qPCR - mRNA array",
+      "data transformation - mRNA array",
+      "reverse transcribed pcr - miRNA array",
+      "qPCR - miRNA array",
+      "data transformation - miRNA array"
+    ],
+    "publications": [
+      {
+        "title": "Cardiovascular progenitor cells cultured aboard the International Space Station exhibit altered developmental and functional properties",
+        "doi": "10.1038/s41526-018-0048-x",
+        "authors": [
+          "Jonathan Baio",
+          "Aida F Martinez",
+          "Ivan Silva",
+          "Carla V Hoehn",
+          "Stephanie Countryman",
+          "Leonard Bailey",
+          "Nahidh Hasaniya",
+          "Michael J Pecaut",
+          "Mary Kearns-Jonker"
+        ],
+        "summary": "Cardiovascular progenitor cells cultured aboard the International Space Station exhibit altered developmental and functional properties — 10.1038/s41526-018-0048-x"
+      }
+    ],
+    "factors": [
+      "Spaceflight",
+      "Developmental Stage"
+    ],
+    "contacts": [
+      {
+        "first_name": "Baio",
+        "last_name": "Jonathan",
+        "role": "submitter",
+        "email": "jbaio@llu.edu"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "GSM3001053",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "cardiovascular progenitor cells"
+        },
+        "factors": {
+          "Developmental Stage": "neonate",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "duration": "12",
+          "Sample Preservation Method": "RNAProtect",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3001054",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "cardiovascular progenitor cells"
+        },
+        "factors": {
+          "Developmental Stage": "neonate",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "duration": "12",
+          "Sample Preservation Method": "RNAProtect",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3001055",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "cardiovascular progenitor cells"
+        },
+        "factors": {
+          "Developmental Stage": "neonate",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "duration": "12",
+          "Sample Preservation Method": "RNAProtect",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3001056",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "cardiovascular progenitor cells"
+        },
+        "factors": {
+          "Developmental Stage": "neonate",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "duration": "12",
+          "Sample Preservation Method": "RNAProtect",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3001057",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "cardiovascular progenitor cells"
+        },
+        "factors": {
+          "Developmental Stage": "neonate",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "duration": "12",
+          "Sample Preservation Method": "RNAProtect",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3001058",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "cardiovascular progenitor cells"
+        },
+        "factors": {
+          "Developmental Stage": "neonate",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "duration": "12",
+          "Sample Preservation Method": "RNAProtect",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3001059",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "cardiovascular progenitor cells"
+        },
+        "factors": {
+          "Developmental Stage": "adult",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "duration": "12",
+          "Sample Preservation Method": "RNAProtect",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3001060",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "cardiovascular progenitor cells"
+        },
+        "factors": {
+          "Developmental Stage": "adult",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "duration": "12",
+          "Sample Preservation Method": "RNAProtect",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3001061",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "cardiovascular progenitor cells"
+        },
+        "factors": {
+          "Developmental Stage": "adult",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "duration": "12",
+          "Sample Preservation Method": "RNAProtect",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3001062",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "cardiovascular progenitor cells"
+        },
+        "factors": {
+          "Developmental Stage": "adult",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "duration": "12",
+          "Sample Preservation Method": "RNAProtect",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3001063",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "cardiovascular progenitor cells"
+        },
+        "factors": {
+          "Developmental Stage": "adult",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "duration": "12",
+          "Sample Preservation Method": "RNAProtect",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3001064",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "cardiovascular progenitor cells"
+        },
+        "factors": {
+          "Developmental Stage": "adult",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "duration": "12",
+          "Sample Preservation Method": "RNAProtect",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3001065",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "cardiovascular progenitor cells"
+        },
+        "factors": {
+          "Developmental Stage": "neonate",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "duration": "12",
+          "Sample Preservation Method": "RNAProtect",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3001066",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "cardiovascular progenitor cells"
+        },
+        "factors": {
+          "Developmental Stage": "neonate",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "duration": "12",
+          "Sample Preservation Method": "RNAProtect",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3001067",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "cardiovascular progenitor cells"
+        },
+        "factors": {
+          "Developmental Stage": "neonate",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "duration": "12",
+          "Sample Preservation Method": "RNAProtect",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3001068",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "cardiovascular progenitor cells"
+        },
+        "factors": {
+          "Developmental Stage": "neonate",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "duration": "12",
+          "Sample Preservation Method": "RNAProtect",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3001069",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "cardiovascular progenitor cells"
+        },
+        "factors": {
+          "Developmental Stage": "neonate",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "duration": "12",
+          "Sample Preservation Method": "RNAProtect",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3001070",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "cardiovascular progenitor cells"
+        },
+        "factors": {
+          "Developmental Stage": "neonate",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "duration": "12",
+          "Sample Preservation Method": "RNAProtect",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3001071",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "cardiovascular progenitor cells"
+        },
+        "factors": {
+          "Developmental Stage": "adult",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "duration": "12",
+          "Sample Preservation Method": "RNAProtect",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3001072",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "cardiovascular progenitor cells"
+        },
+        "factors": {
+          "Developmental Stage": "adult",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "duration": "12",
+          "Sample Preservation Method": "RNAProtect",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3001073",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "cardiovascular progenitor cells"
+        },
+        "factors": {
+          "Developmental Stage": "adult",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "duration": "12",
+          "Sample Preservation Method": "RNAProtect",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3001074",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "cardiovascular progenitor cells"
+        },
+        "factors": {
+          "Developmental Stage": "adult",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "duration": "12",
+          "Sample Preservation Method": "RNAProtect",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3001075",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "cardiovascular progenitor cells"
+        },
+        "factors": {
+          "Developmental Stage": "adult",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "duration": "12",
+          "Sample Preservation Method": "RNAProtect",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM3001076",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "cardiovascular progenitor cells"
+        },
+        "factors": {
+          "Developmental Stage": "adult",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "duration": "12",
+          "Sample Preservation Method": "RNAProtect",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "BioRad",
+      "qc": {},
+      "library": {},
+      "files": {
+        "raw": [],
+        "processed": [
+          "\"GSM3001065\"",
+          "\"data transformation - miRNA array\"",
+          "\"SYBR Green I\"",
+          "\"CHEBI\"",
+          "\"http://purl.obolibrary.org/obo/CHEBI_51461\"",
+          "\"RT-PCR-miRNA\"",
+          "\"GLDS-344_RT-PCR_GSE110561_series_matrix.txt.gz\"",
+          "\"GLDS-344_RT-PCR_GSE110561_fold-change_data.txt.gz\"",
+          "\"GSM3001066\"",
+          "\"GSM3001067\"",
+          "\"GSM3001068\"",
+          "\"GSM3001069\"",
+          "\"GSM3001070\"",
+          "\"GSM3001071\"",
+          "\"GSM3001072\"",
+          "\"GSM3001073\"",
+          "\"GSM3001074\"",
+          "\"GSM3001075\"",
+          "\"GSM3001076\""
+        ],
+        "reports": []
+      }
+    },
+    {
+      "type": "transcription-profiling",
+      "platform": "BioRad",
+      "qc": {},
+      "library": {},
+      "files": {
+        "raw": [
+          "GLDS-344_RT-PCR_GSE110560_series_matrix.txt.gz"
+        ],
+        "processed": [
+          "GLDS-344_RT-PCR_GSE110560_fold-change_data.txt.gz",
+          "GSM3001053",
+          "data transformation - mRNA array",
+          "SYBR Green I",
+          "GLDS-344_RT-PCR_GPL24606-tbl-1.txt",
+          "RT-PCR-mRNA",
+          "GLDS-344_RT-PCR_GSE110560_series_matrix.txt.gz",
+          "GSM3001054",
+          "GSM3001055",
+          "GSM3001056",
+          "GSM3001057",
+          "GSM3001058",
+          "GSM3001059",
+          "GSM3001060",
+          "GSM3001061",
+          "GSM3001062",
+          "GSM3001063",
+          "GSM3001064"
+        ],
+        "reports": []
+      }
+    }
+  ]
+}

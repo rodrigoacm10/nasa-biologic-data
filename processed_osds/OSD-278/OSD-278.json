@@ -1,0 +1,735 @@
+{
+  "investigation": {
+    "id": "OSD-278",
+    "title": "Spaceflight and simulated microgravity conditions increase virulence of Serratia marcescens in the Drosophila melanogaster infection model",
+    "description": "While it has been shown that astronauts suffer immune disorders after spaceflight, the underlying causes are still poorly understood and there are many variables to consider when investigating the immune system in a complex environment. Additionally, there is growing evidence that suggests that not only is the immune system being altered, but the pathogens that infect the host are significantly influenced by spaceflight and ground-based spaceflight conditions.",
+    "mission": {
+      "name": "SpaceX-5",
+      "start_date": "01/10/2015",
+      "end_date": "02/11/2015",
+      "link": "https://osdr.nasa.gov/bio/repo/data/missions/SpaceX-5"
+    },
+    "project": {
+      "identifier": "FFL01",
+      "title": "",
+      "type": "Spaceflight Study",
+      "link": "https://lsda.jsc.nasa.gov/Experiment/exper/13623",
+      "funding": "NASA’s Space Life and Physical Sciences Research Program (SLPSRA) for the following grants to S.B.: NNX13AN38G and NNX15AB42G",
+      "managing_center": "Ames Research Center (ARC)"
+    },
+    "protocols": [
+      "growth protocol",
+      "treatment protocol",
+      "sample collection",
+      "nucleic acid extraction",
+      "library construction",
+      "nucleic acid sequencing",
+      "GeneLab raw data processing protocol",
+      "GeneLab RNAseq data processing protocol"
+    ],
+    "publications": [
+      {
+        "title": "Spaceflight and simulated microgravity conditions increase virulence of Serratia marcescens in the Drosophila melanogaster infection model",
+        "doi": "10.1038/s41526-019-0091-2",
+        "authors": [
+          "Rachel Gilbert",
+          "Medaya Torres",
+          "Rachel Clemens",
+          "Shannon Hateley",
+          "Ravikumar Hosamani",
+          "William Wade",
+          "and Sharmila Bhattacharya"
+        ],
+        "summary": "Spaceflight and simulated microgravity conditions increase virulence of Serratia marcescens in the Drosophila melanogaster infection model — 10.1038/s41526-019-0091-2"
+      }
+    ],
+    "factors": [
+      "Spaceflight",
+      "Infection"
+    ],
+    "contacts": [
+      {
+        "first_name": "Rachel",
+        "last_name": "Gilbert",
+        "role": "submitter",
+        "email": "rachel.r.gilbert@nasa.gov"
+      },
+      {
+        "first_name": "Medaya",
+        "last_name": "Torres",
+        "role": "conceptualization role",
+        "email": "sharmila.bhattacharya@nasa.gov"
+      },
+      {
+        "first_name": "Rachel",
+        "last_name": "Clemens",
+        "role": "",
+        "email": ""
+      },
+      {
+        "first_name": "Shannon",
+        "last_name": "Hateley",
+        "role": "",
+        "email": ""
+      },
+      {
+        "first_name": "Ravikumar",
+        "last_name": "Hosamani",
+        "role": "",
+        "email": ""
+      },
+      {
+        "first_name": "William",
+        "last_name": "Wade",
+        "role": "",
+        "email": ""
+      },
+      {
+        "first_name": "Sharmila",
+        "last_name": "Bhattacharya",
+        "role": "",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "Dmel_w1118_wo_FLT_infdw-Smar_Rep1",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "w1118",
+          "age": "2 to 3",
+          "Animal Source": "Bloomington Stock Center",
+          "Sex": "Female",
+          "generation": "F1",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Infection": "Infected with Serratia marcescens"
+        },
+        "parameters": {
+          "Growth Temperature": "25",
+          "duration": "2 - 3",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "standard dextrose food"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM4100378",
+          "Comment": "2 whole organisms pooled"
+        }
+      },
+      {
+        "sample_name": "Dmel_w1118_wo_FLT_infdw-Smar_Rep2",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "w1118",
+          "age": "2 to 3",
+          "Animal Source": "Bloomington Stock Center",
+          "Sex": "Female",
+          "generation": "F1",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Infection": "Infected with Serratia marcescens"
+        },
+        "parameters": {
+          "Growth Temperature": "25",
+          "duration": "2 - 3",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "standard dextrose food"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM4100379",
+          "Comment": "2 whole organisms pooled"
+        }
+      },
+      {
+        "sample_name": "Dmel_w1118_wo_FLT_infdw-Smar_Rep3",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "w1118",
+          "age": "2 to 3",
+          "Animal Source": "Bloomington Stock Center",
+          "Sex": "Female",
+          "generation": "F1",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Infection": "Infected with Serratia marcescens"
+        },
+        "parameters": {
+          "Growth Temperature": "25",
+          "duration": "2 - 3",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "standard dextrose food"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM4100380",
+          "Comment": "2 whole organisms pooled"
+        }
+      },
+      {
+        "sample_name": "Dmel_w1118_wo_GC_infdw-Smar_Rep1",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "w1118",
+          "age": "2 to 3",
+          "Animal Source": "Bloomington Stock Center",
+          "Sex": "Female",
+          "generation": "F1",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Infection": "Infected with Serratia marcescens"
+        },
+        "parameters": {
+          "Growth Temperature": "25",
+          "duration": "2 - 3",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "standard dextrose food"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM4100375",
+          "Comment": "2 whole organisms pooled"
+        }
+      },
+      {
+        "sample_name": "Dmel_w1118_wo_GC_infdw-Smar_Rep2",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "w1118",
+          "age": "2 to 3",
+          "Animal Source": "Bloomington Stock Center",
+          "Sex": "Female",
+          "generation": "F1",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Infection": "Infected with Serratia marcescens"
+        },
+        "parameters": {
+          "Growth Temperature": "25",
+          "duration": "2 - 3",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "standard dextrose food"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM4100376",
+          "Comment": "2 whole organisms pooled"
+        }
+      },
+      {
+        "sample_name": "Dmel_w1118_wo_GC_infdw-Smar_Rep3",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "w1118",
+          "age": "2 to 3",
+          "Animal Source": "Bloomington Stock Center",
+          "Sex": "Female",
+          "generation": "F1",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Infection": "Infected with Serratia marcescens"
+        },
+        "parameters": {
+          "Growth Temperature": "25",
+          "duration": "2 - 3",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "standard dextrose food"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM4100377",
+          "Comment": "2 whole organisms pooled"
+        }
+      },
+      {
+        "sample_name": "Dmel_w1118_wo_GC_sham-infd_Rep1",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "w1118",
+          "age": "2 to 3",
+          "Animal Source": "Bloomington Stock Center",
+          "Sex": "Female",
+          "generation": "F1",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Infection": "Sham-infected"
+        },
+        "parameters": {
+          "Growth Temperature": "25",
+          "duration": "2 - 3",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "standard dextrose food"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM4100372",
+          "Comment": "2 whole organisms pooled"
+        }
+      },
+      {
+        "sample_name": "Dmel_w1118_wo_GC_sham-infd_Rep2",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "w1118",
+          "age": "2 to 3",
+          "Animal Source": "Bloomington Stock Center",
+          "Sex": "Female",
+          "generation": "F1",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Infection": "Sham-infected"
+        },
+        "parameters": {
+          "Growth Temperature": "25",
+          "duration": "2 - 3",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "standard dextrose food"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM4100373",
+          "Comment": "2 whole organisms pooled"
+        }
+      },
+      {
+        "sample_name": "Dmel_w1118_wo_GC_sham-infd_Rep3",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "w1118",
+          "age": "2 to 3",
+          "Animal Source": "Bloomington Stock Center",
+          "Sex": "Female",
+          "generation": "F1",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Infection": "Sham-infected"
+        },
+        "parameters": {
+          "Growth Temperature": "25",
+          "duration": "2 - 3",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "standard dextrose food"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM4100374",
+          "Comment": "2 whole organisms pooled"
+        }
+      },
+      {
+        "sample_name": "Dmel_w1118_wo_GC_uninfd_Rep1",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "w1118",
+          "age": "2 to 3",
+          "Animal Source": "Bloomington Stock Center",
+          "Sex": "Female",
+          "generation": "F1",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Infection": "uninfected"
+        },
+        "parameters": {
+          "Growth Temperature": "25",
+          "duration": "2 - 3",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "standard dextrose food"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM4100369",
+          "Comment": "2 whole organisms pooled"
+        }
+      },
+      {
+        "sample_name": "Dmel_w1118_wo_GC_uninfd_Rep2",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "w1118",
+          "age": "2 to 3",
+          "Animal Source": "Bloomington Stock Center",
+          "Sex": "Female",
+          "generation": "F1",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Infection": "uninfected"
+        },
+        "parameters": {
+          "Growth Temperature": "25",
+          "duration": "2 - 3",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "standard dextrose food"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM4100370",
+          "Comment": "2 whole organisms pooled"
+        }
+      },
+      {
+        "sample_name": "Dmel_w1118_wo_GC_uninfd_Rep3",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "w1118",
+          "age": "2 to 3",
+          "Animal Source": "Bloomington Stock Center",
+          "Sex": "Female",
+          "generation": "F1",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Infection": "uninfected"
+        },
+        "parameters": {
+          "Growth Temperature": "25",
+          "duration": "2 - 3",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "standard dextrose food"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM4100371",
+          "Comment": "2 whole organisms pooled"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina HiSeq 4000",
+      "qc": {
+        "Read Depth": "28622329",
+        "rRNA Contamination": "1.15"
+      },
+      "library": {
+        "Stranded": "STRANDED",
+        "Library Kit": "NEBNext UltraExpres RNA Library Prep Kit"
+      },
+      "files": {
+        "raw": [
+          "GLDS-278_rna-seq_GSM4100369_R1_raw.fastq.gz",
+          "GLDS-278_rna-seq_GSM4100369_R2_raw.fastq.gz",
+          "GLDS-278_rna-seq_GSM4100370_R1_raw.fastq.gz",
+          "GLDS-278_rna-seq_GSM4100370_R2_raw.fastq.gz",
+          "GLDS-278_rna-seq_GSM4100371_R1_raw.fastq.gz",
+          "GLDS-278_rna-seq_GSM4100371_R2_raw.fastq.gz",
+          "GLDS-278_rna-seq_GSM4100372_R1_raw.fastq.gz",
+          "GLDS-278_rna-seq_GSM4100372_R2_raw.fastq.gz",
+          "GLDS-278_rna-seq_GSM4100373_R1_raw.fastq.gz",
+          "GLDS-278_rna-seq_GSM4100373_R2_raw.fastq.gz",
+          "GLDS-278_rna-seq_GSM4100374_R1_raw.fastq.gz",
+          "GLDS-278_rna-seq_GSM4100374_R2_raw.fastq.gz",
+          "GLDS-278_rna-seq_GSM4100375_R1_raw.fastq.gz",
+          "GLDS-278_rna-seq_GSM4100375_R2_raw.fastq.gz",
+          "GLDS-278_rna-seq_GSM4100376_R1_raw.fastq.gz",
+          "GLDS-278_rna-seq_GSM4100376_R2_raw.fastq.gz",
+          "GLDS-278_rna-seq_GSM4100377_R1_raw.fastq.gz",
+          "GLDS-278_rna-seq_GSM4100377_R2_raw.fastq.gz",
+          "GLDS-278_rna-seq_GSM4100378_R1_raw.fastq.gz",
+          "GLDS-278_rna-seq_GSM4100378_R2_raw.fastq.gz",
+          "GLDS-278_rna-seq_GSM4100379_R1_raw.fastq.gz",
+          "GLDS-278_rna-seq_GSM4100379_R2_raw.fastq.gz",
+          "GLDS-278_rna-seq_GSM4100380_R1_raw.fastq.gz",
+          "GLDS-278_rna-seq_GSM4100380_R2_raw.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep1_GLbulkRNAseq_R1_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep1_GLbulkRNAseq_R2_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep1_GLbulkRNAseq_R1_unmapped.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep1_GLbulkRNAseq_R2_unmapped.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep2_GLbulkRNAseq_R1_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep2_GLbulkRNAseq_R2_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep2_GLbulkRNAseq_R1_unmapped.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep2_GLbulkRNAseq_R2_unmapped.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep3_GLbulkRNAseq_R1_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep3_GLbulkRNAseq_R2_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep3_GLbulkRNAseq_R1_unmapped.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep3_GLbulkRNAseq_R2_unmapped.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep1_GLbulkRNAseq_R1_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep1_GLbulkRNAseq_R2_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep1_GLbulkRNAseq_R1_unmapped.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep1_GLbulkRNAseq_R2_unmapped.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep2_GLbulkRNAseq_R1_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep2_GLbulkRNAseq_R2_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep2_GLbulkRNAseq_R1_unmapped.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep2_GLbulkRNAseq_R2_unmapped.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep3_GLbulkRNAseq_R1_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep3_GLbulkRNAseq_R2_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep3_GLbulkRNAseq_R1_unmapped.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep3_GLbulkRNAseq_R2_unmapped.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep1_GLbulkRNAseq_R1_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep1_GLbulkRNAseq_R2_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep1_GLbulkRNAseq_R1_unmapped.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep1_GLbulkRNAseq_R2_unmapped.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep2_GLbulkRNAseq_R1_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep2_GLbulkRNAseq_R2_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep2_GLbulkRNAseq_R1_unmapped.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep2_GLbulkRNAseq_R2_unmapped.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep3_GLbulkRNAseq_R1_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep3_GLbulkRNAseq_R2_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep3_GLbulkRNAseq_R1_unmapped.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep3_GLbulkRNAseq_R2_unmapped.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep1_GLbulkRNAseq_R1_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep1_GLbulkRNAseq_R2_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep1_GLbulkRNAseq_R1_unmapped.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep1_GLbulkRNAseq_R2_unmapped.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep2_GLbulkRNAseq_R1_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep2_GLbulkRNAseq_R2_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep2_GLbulkRNAseq_R1_unmapped.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep2_GLbulkRNAseq_R2_unmapped.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep3_GLbulkRNAseq_R1_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep3_GLbulkRNAseq_R2_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep3_GLbulkRNAseq_R1_unmapped.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep3_GLbulkRNAseq_R2_unmapped.fastq.gz"
+        ],
+        "processed": [
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep1_GLbulkRNAseq_R1_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep1_GLbulkRNAseq_R2_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep1_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep1_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep1_GLbulkRNAseq_Aligned.toTranscriptome.out.bam",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep1_GLbulkRNAseq_SJ.out.tab",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep2_GLbulkRNAseq_R1_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep2_GLbulkRNAseq_R2_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep2_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep2_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep2_GLbulkRNAseq_Aligned.toTranscriptome.out.bam",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep2_GLbulkRNAseq_SJ.out.tab",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep3_GLbulkRNAseq_R1_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep3_GLbulkRNAseq_R2_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep3_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep3_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep3_GLbulkRNAseq_Aligned.toTranscriptome.out.bam",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep3_GLbulkRNAseq_SJ.out.tab",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep1_GLbulkRNAseq_R1_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep1_GLbulkRNAseq_R2_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep1_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep1_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep1_GLbulkRNAseq_Aligned.toTranscriptome.out.bam",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep1_GLbulkRNAseq_SJ.out.tab",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep2_GLbulkRNAseq_R1_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep2_GLbulkRNAseq_R2_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep2_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep2_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep2_GLbulkRNAseq_Aligned.toTranscriptome.out.bam",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep2_GLbulkRNAseq_SJ.out.tab",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep3_GLbulkRNAseq_R1_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep3_GLbulkRNAseq_R2_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep3_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep3_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep3_GLbulkRNAseq_Aligned.toTranscriptome.out.bam",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep3_GLbulkRNAseq_SJ.out.tab",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep1_GLbulkRNAseq_R1_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep1_GLbulkRNAseq_R2_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep1_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep1_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep1_GLbulkRNAseq_Aligned.toTranscriptome.out.bam",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep1_GLbulkRNAseq_SJ.out.tab",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep2_GLbulkRNAseq_R1_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep2_GLbulkRNAseq_R2_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep2_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep2_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep2_GLbulkRNAseq_Aligned.toTranscriptome.out.bam",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep2_GLbulkRNAseq_SJ.out.tab",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep3_GLbulkRNAseq_R1_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep3_GLbulkRNAseq_R2_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep3_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep3_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep3_GLbulkRNAseq_Aligned.toTranscriptome.out.bam",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep3_GLbulkRNAseq_SJ.out.tab",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep1_GLbulkRNAseq_R1_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep1_GLbulkRNAseq_R2_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep1_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep1_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep1_GLbulkRNAseq_Aligned.toTranscriptome.out.bam",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep1_GLbulkRNAseq_SJ.out.tab",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep2_GLbulkRNAseq_R1_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep2_GLbulkRNAseq_R2_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep2_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep2_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep2_GLbulkRNAseq_Aligned.toTranscriptome.out.bam",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep2_GLbulkRNAseq_SJ.out.tab",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep3_GLbulkRNAseq_R1_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep3_GLbulkRNAseq_R2_trimmed.fastq.gz",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep3_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep3_GLbulkRNAseq_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep3_GLbulkRNAseq_Aligned.toTranscriptome.out.bam",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep3_GLbulkRNAseq_SJ.out.tab",
+          "Dmel_w1118_wo_GC_uninfd_Rep1",
+          "GeneLab RNAseq data processing protocol",
+          "GSM4100369",
+          "polyA enrichment",
+          "PAIRED",
+          "NEBNext UltraExpres RNA Library Prep Kit",
+          "STRANDED",
+          "Illumina HiSeq 4000",
+          "101",
+          "percent",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000187",
+          "RNA-seq",
+          "28622329",
+          "1.15",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep1_GLbulkRNAseq.genes.results",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep1_GLbulkRNAseq.isoforms.results",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep1_GLbulkRNAseq_rRNArm.genes.results",
+          "GLDS-278_rna_seq_RSEM_Unnormalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-278_rna_seq_STAR_Unnormalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-278_rna_seq_RSEM_Unnormalized_Counts_rRNArm_GLbulkRNAseq.csv",
+          "GLDS-278_rna_seq_Normalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-278_rna_seq_VST_Counts_GLbulkRNAseq.csv",
+          "GLDS-278_rna_seq_Normalized_Counts_rRNArm_GLbulkRNAseq.csv",
+          "GLDS-278_rna_seq_VST_Counts_rRNArm_GLbulkRNAseq.csv",
+          "GLDS-278_rna_seq_SampleTable_GLbulkRNAseq.csv",
+          "GLDS-278_rna_seq_contrasts_GLbulkRNAseq.csv",
+          "GLDS-278_rna_seq_differential_expression_GLbulkRNAseq.csv",
+          "GLDS-278_rna_seq_differential_expression_rRNArm_GLbulkRNAseq.csv",
+          "Dmel_w1118_wo_GC_uninfd_Rep2",
+          "GSM4100370",
+          "24911957",
+          "1.13",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep2_GLbulkRNAseq.genes.results",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep2_GLbulkRNAseq.isoforms.results",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep2_GLbulkRNAseq_rRNArm.genes.results",
+          "Dmel_w1118_wo_GC_uninfd_Rep3",
+          "GSM4100371",
+          "23714251",
+          "1.61",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep3_GLbulkRNAseq.genes.results",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep3_GLbulkRNAseq.isoforms.results",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep3_GLbulkRNAseq_rRNArm.genes.results",
+          "Dmel_w1118_wo_GC_sham-infd_Rep1",
+          "GSM4100372",
+          "20699923",
+          "1.53",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep1_GLbulkRNAseq.genes.results",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep1_GLbulkRNAseq.isoforms.results",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep1_GLbulkRNAseq_rRNArm.genes.results",
+          "Dmel_w1118_wo_GC_sham-infd_Rep2",
+          "GSM4100373",
+          "28894530",
+          "1.37",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep2_GLbulkRNAseq.genes.results",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep2_GLbulkRNAseq.isoforms.results",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep2_GLbulkRNAseq_rRNArm.genes.results",
+          "Dmel_w1118_wo_GC_sham-infd_Rep3",
+          "GSM4100374",
+          "26636702",
+          "1.27",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep3_GLbulkRNAseq.genes.results",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep3_GLbulkRNAseq.isoforms.results",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep3_GLbulkRNAseq_rRNArm.genes.results",
+          "Dmel_w1118_wo_GC_infdw-Smar_Rep1",
+          "GSM4100375",
+          "42715055",
+          "1.4",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep1_GLbulkRNAseq.genes.results",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep1_GLbulkRNAseq.isoforms.results",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep1_GLbulkRNAseq_rRNArm.genes.results",
+          "Dmel_w1118_wo_GC_infdw-Smar_Rep2",
+          "GSM4100376",
+          "42318480",
+          "2.3",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep2_GLbulkRNAseq.genes.results",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep2_GLbulkRNAseq.isoforms.results",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep2_GLbulkRNAseq_rRNArm.genes.results",
+          "Dmel_w1118_wo_GC_infdw-Smar_Rep3",
+          "GSM4100377",
+          "26324528",
+          "1.66",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep3_GLbulkRNAseq.genes.results",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep3_GLbulkRNAseq.isoforms.results",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep3_GLbulkRNAseq_rRNArm.genes.results",
+          "Dmel_w1118_wo_FLT_infdw-Smar_Rep1",
+          "GSM4100378",
+          "23578342",
+          "1.36",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep1_GLbulkRNAseq.genes.results",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep1_GLbulkRNAseq.isoforms.results",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep1_GLbulkRNAseq_rRNArm.genes.results",
+          "Dmel_w1118_wo_FLT_infdw-Smar_Rep2",
+          "GSM4100379",
+          "22145024",
+          "1.72",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep2_GLbulkRNAseq.genes.results",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep2_GLbulkRNAseq.isoforms.results",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep2_GLbulkRNAseq_rRNArm.genes.results",
+          "Dmel_w1118_wo_FLT_infdw-Smar_Rep3",
+          "GSM4100380",
+          "19600525",
+          "2.47",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep3_GLbulkRNAseq.genes.results",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep3_GLbulkRNAseq.isoforms.results",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep3_GLbulkRNAseq_rRNArm.genes.results"
+        ],
+        "reports": [
+          "GLDS-278_rna_seq_raw_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-278_rna_seq_raw_multiqc_GLbulkRNAseq.html",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep1_R1_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep1_R2_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-278_rna_seq_trimmed_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-278_rna_seq_trimmed_multiqc_GLbulkRNAseq.html",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep1_GLbulkRNAseq_Log.final.out",
+          "GLDS-278_rna_seq_align_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-278_rna_seq_align_multiqc_GLbulkRNAseq.html",
+          "GLDS-278_rna_seq_geneBody_cov_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-278_rna_seq_geneBody_cov_multiqc_GLbulkRNAseq.html",
+          "GLDS-278_rna_seq_infer_exp_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-278_rna_seq_infer_exp_multiqc_GLbulkRNAseq.html",
+          "GLDS-278_rna_seq_inner_dist_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-278_rna_seq_inner_dist_multiqc_GLbulkRNAseq.html",
+          "GLDS-278_rna_seq_read_dist_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-278_rna_seq_read_dist_multiqc_GLbulkRNAseq.html",
+          "GLDS-278_rna_seq_RSEM_count_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-278_rna_seq_RSEM_count_multiqc_GLbulkRNAseq.html",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep2_R1_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep2_R2_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep2_GLbulkRNAseq_Log.final.out",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep3_R1_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep3_R2_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_uninfd_Rep3_GLbulkRNAseq_Log.final.out",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep1_R1_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep1_R2_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep1_GLbulkRNAseq_Log.final.out",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep2_R1_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep2_R2_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep2_GLbulkRNAseq_Log.final.out",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep3_R1_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep3_R2_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_sham-infd_Rep3_GLbulkRNAseq_Log.final.out",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep1_R1_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep1_R2_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep1_GLbulkRNAseq_Log.final.out",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep2_R1_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep2_R2_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep2_GLbulkRNAseq_Log.final.out",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep3_R1_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep3_R2_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_GC_infdw-Smar_Rep3_GLbulkRNAseq_Log.final.out",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep1_R1_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep1_R2_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep1_GLbulkRNAseq_Log.final.out",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep2_R1_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep2_R2_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep2_GLbulkRNAseq_Log.final.out",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep3_R1_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep3_R2_GLbulkRNAseq_trimming_report.txt",
+          "GLDS-278_rna_seq_Dmel_w1118_wo_FLT_infdw-Smar_Rep3_GLbulkRNAseq_Log.final.out"
+        ]
+      }
+    }
+  ]
+}

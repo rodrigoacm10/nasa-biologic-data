@@ -1,0 +1,756 @@
+{
+  "investigation": {
+    "id": "OSD-467",
+    "title": "Transcriptomic profiling of cortical bone from hindlimb unloaded mice",
+    "description": "The goal of this study was to perform RNA-sequencing of cortical bone isolated from 11-week-old female hindlimb unloaded and control mice. Mice were subjected to hindlimb unloading for 7 days, followed by RNA isolation of cortical bone.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "Hindlimb_Unloading",
+      "title": "Maintenance of Skeletal Integrity in Spaceflight: Interaction among Partial Weight Bearing, Microgravity and Novel Therapeutics",
+      "type": "Ground Study",
+      "link": "https://lsda.jsc.nasa.gov/Experiment/exper/2078",
+      "funding": "This work supported by funding from National Aeronautics and Space Administration (NNX10AE39G) and from the National Institutes of Health (R21AR057522 and R01AR053237).",
+      "managing_center": ""
+    },
+    "protocols": [
+      "treatment protocol",
+      "sample collection",
+      "Nucleic Acid Extraction",
+      "Library Construction",
+      "Nucleic Acid Sequencing",
+      "GeneLab raw data processing protocol",
+      "GeneLab RNAseq data processing protocol"
+    ],
+    "publications": [
+      {
+        "title": "RNAseq and RNA molecular barcoding reveal differential gene expression in cortical bone following hindlimb unloading in female mice.",
+        "doi": "10.1371/journal.pone.0250715",
+        "authors": [
+          "Spatz JM",
+          "Ko FC",
+          "Ayturk UM",
+          "Warman ML",
+          "Bouxsein ML."
+        ],
+        "summary": "RNAseq and RNA molecular barcoding reveal differential gene expression in cortical bone following hindlimb unloading in female mice. — 10.1371/journal.pone.0250715"
+      }
+    ],
+    "factors": [
+      "Hindlimb Unloading"
+    ],
+    "contacts": [
+      {
+        "first_name": "Frank",
+        "last_name": "Ko",
+        "role": "Submitter",
+        "email": "frankcko@gmail.com"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "GSM5194612",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Material Type": "Cortical Bone",
+          "Animal Source": "Jackson Laboratory",
+          "age": "11",
+          "Sex": "Female"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normal Loading Control"
+        },
+        "parameters": {
+          "duration": "7",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "standard laboratory rodent chow",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "CO2 inhalation",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5194613",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Material Type": "Cortical Bone",
+          "Animal Source": "Jackson Laboratory",
+          "age": "11",
+          "Sex": "Female"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normal Loading Control"
+        },
+        "parameters": {
+          "duration": "7",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "standard laboratory rodent chow",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "CO2 inhalation",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5194614",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Material Type": "Cortical Bone",
+          "Animal Source": "Jackson Laboratory",
+          "age": "11",
+          "Sex": "Female"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normal Loading Control"
+        },
+        "parameters": {
+          "duration": "7",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "standard laboratory rodent chow",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "CO2 inhalation",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5194615",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Material Type": "Cortical Bone",
+          "Animal Source": "Jackson Laboratory",
+          "age": "11",
+          "Sex": "Female"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normal Loading Control"
+        },
+        "parameters": {
+          "duration": "7",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "standard laboratory rodent chow",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "CO2 inhalation",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5194616",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Material Type": "Cortical Bone",
+          "Animal Source": "Jackson Laboratory",
+          "age": "11",
+          "Sex": "Female"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normal Loading Control"
+        },
+        "parameters": {
+          "duration": "7",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "standard laboratory rodent chow",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "CO2 inhalation",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5194617",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Material Type": "Cortical Bone",
+          "Animal Source": "Jackson Laboratory",
+          "age": "11",
+          "Sex": "Female"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normal Loading Control"
+        },
+        "parameters": {
+          "duration": "7",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "standard laboratory rodent chow",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "CO2 inhalation",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5194618",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Material Type": "Cortical Bone",
+          "Animal Source": "Jackson Laboratory",
+          "age": "11",
+          "Sex": "Female"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normal Loading Control"
+        },
+        "parameters": {
+          "duration": "7",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "standard laboratory rodent chow",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "CO2 inhalation",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5194619",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Material Type": "Cortical Bone",
+          "Animal Source": "Jackson Laboratory",
+          "age": "11",
+          "Sex": "Female"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normal Loading Control"
+        },
+        "parameters": {
+          "duration": "7",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "standard laboratory rodent chow",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "CO2 inhalation",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5194620",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Material Type": "Cortical Bone",
+          "Animal Source": "Jackson Laboratory",
+          "age": "11",
+          "Sex": "Female"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded"
+        },
+        "parameters": {
+          "duration": "7",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "standard laboratory rodent chow",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "CO2 inhalation",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5194621",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Material Type": "Cortical Bone",
+          "Animal Source": "Jackson Laboratory",
+          "age": "11",
+          "Sex": "Female"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded"
+        },
+        "parameters": {
+          "duration": "7",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "standard laboratory rodent chow",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "CO2 inhalation",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5194622",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Material Type": "Cortical Bone",
+          "Animal Source": "Jackson Laboratory",
+          "age": "11",
+          "Sex": "Female"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded"
+        },
+        "parameters": {
+          "duration": "7",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "standard laboratory rodent chow",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "CO2 inhalation",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5194623",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Material Type": "Cortical Bone",
+          "Animal Source": "Jackson Laboratory",
+          "age": "11",
+          "Sex": "Female"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded"
+        },
+        "parameters": {
+          "duration": "7",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "standard laboratory rodent chow",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "CO2 inhalation",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5194626",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Material Type": "Cortical Bone",
+          "Animal Source": "Jackson Laboratory",
+          "age": "11",
+          "Sex": "Female"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded"
+        },
+        "parameters": {
+          "duration": "7",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "standard laboratory rodent chow",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "CO2 inhalation",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5194629",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Material Type": "Cortical Bone",
+          "Animal Source": "Jackson Laboratory",
+          "age": "11",
+          "Sex": "Female"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded"
+        },
+        "parameters": {
+          "duration": "7",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "standard laboratory rodent chow",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "CO2 inhalation",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5194632",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Material Type": "Cortical Bone",
+          "Animal Source": "Jackson Laboratory",
+          "age": "11",
+          "Sex": "Female"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded"
+        },
+        "parameters": {
+          "duration": "7",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "standard laboratory rodent chow",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "CO2 inhalation",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5194635",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Material Type": "Cortical Bone",
+          "Animal Source": "Jackson Laboratory",
+          "age": "11",
+          "Sex": "Female"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded"
+        },
+        "parameters": {
+          "duration": "7",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "standard laboratory rodent chow",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "CO2 inhalation",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {}
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina HiSeq 2000",
+      "qc": {
+        "QA Score": "greater than 7.5",
+        "Read Depth": "18909051",
+        "rRNA Contamination": "0.29"
+      },
+      "library": {
+        "Library Selection": "polyA enrichment",
+        "Library Layout": "PAIRED"
+      },
+      "files": {
+        "raw": [
+          "GLDS-467_rna-seq_SRX10404564_R1_raw.fastq.gz",
+          "GLDS-467_rna-seq_SRX10404564_R2_raw.fastq.gz",
+          "GLDS-467_rna-seq_SRX10404565_R1_raw.fastq.gz",
+          "GLDS-467_rna-seq_SRX10404565_R2_raw.fastq.gz",
+          "GLDS-467_rna-seq_SRX10404566_R1_raw.fastq.gz",
+          "GLDS-467_rna-seq_SRX10404566_R2_raw.fastq.gz",
+          "GLDS-467_rna-seq_SRX10404567_R1_raw.fastq.gz",
+          "GLDS-467_rna-seq_SRX10404567_R2_raw.fastq.gz",
+          "GLDS-467_rna-seq_SRX10404568_R1_raw.fastq.gz",
+          "GLDS-467_rna-seq_SRX10404568_R2_raw.fastq.gz",
+          "GLDS-467_rna-seq_SRX10404569_R1_raw.fastq.gz",
+          "GLDS-467_rna-seq_SRX10404569_R2_raw.fastq.gz",
+          "GLDS-467_rna-seq_SRX10404570_R1_raw.fastq.gz",
+          "GLDS-467_rna-seq_SRX10404570_R2_raw.fastq.gz",
+          "GLDS-467_rna-seq_SRX10404571_R1_raw.fastq.gz",
+          "GLDS-467_rna-seq_SRX10404571_R2_raw.fastq.gz",
+          "GLDS-467_rna-seq_SRX10404572_R1_raw.fastq.gz",
+          "GLDS-467_rna-seq_SRX10404572_R2_raw.fastq.gz",
+          "GLDS-467_rna-seq_SRX10404573_R1_raw.fastq.gz",
+          "GLDS-467_rna-seq_SRX10404573_R2_raw.fastq.gz",
+          "GLDS-467_rna-seq_SRX10404574_R1_raw.fastq.gz",
+          "GLDS-467_rna-seq_SRX10404574_R2_raw.fastq.gz",
+          "GLDS-467_rna-seq_SRX10404575_R1_raw.fastq.gz",
+          "GLDS-467_rna-seq_SRX10404575_R2_raw.fastq.gz",
+          "GLDS-467_rna-seq_SRX10404576_R1_raw.fastq.gz",
+          "GLDS-467_rna-seq_SRX10404576_R2_raw.fastq.gz",
+          "GLDS-467_rna-seq_SRX10404577_R1_raw.fastq.gz",
+          "GLDS-467_rna-seq_SRX10404577_R2_raw.fastq.gz",
+          "GLDS-467_rna-seq_SRX10404578_R1_raw.fastq.gz",
+          "GLDS-467_rna-seq_SRX10404578_R2_raw.fastq.gz",
+          "GLDS-467_rna-seq_SRX10404579_R1_raw.fastq.gz",
+          "GLDS-467_rna-seq_SRX10404579_R2_raw.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194612_R1_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194612_R2_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194613_R1_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194613_R2_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194614_R1_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194614_R2_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194615_R1_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194615_R2_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194616_R1_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194616_R2_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194617_R1_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194617_R2_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194618_R1_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194618_R2_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194619_R1_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194619_R2_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194620_R1_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194620_R2_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194621_R1_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194621_R2_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194622_R1_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194622_R2_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194623_R1_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194623_R2_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194626_R1_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194626_R2_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194629_R1_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194629_R2_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194632_R1_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194632_R2_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194635_R1_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194635_R2_trimmed.fastq.gz"
+        ],
+        "processed": [
+          "GLDS-467_rna_seq_GSM5194612_R1_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194612_R2_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194612_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-467_rna_seq_GSM5194612_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-467_rna_seq_GSM5194612_Aligned.toTranscriptome.out.bam",
+          "GLDS-467_rna_seq_GSM5194612_SJ.out.tab",
+          "GLDS-467_rna_seq_GSM5194613_R1_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194613_R2_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194613_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-467_rna_seq_GSM5194613_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-467_rna_seq_GSM5194613_Aligned.toTranscriptome.out.bam",
+          "GLDS-467_rna_seq_GSM5194613_SJ.out.tab",
+          "GLDS-467_rna_seq_GSM5194614_R1_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194614_R2_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194614_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-467_rna_seq_GSM5194614_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-467_rna_seq_GSM5194614_Aligned.toTranscriptome.out.bam",
+          "GLDS-467_rna_seq_GSM5194614_SJ.out.tab",
+          "GLDS-467_rna_seq_GSM5194615_R1_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194615_R2_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194615_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-467_rna_seq_GSM5194615_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-467_rna_seq_GSM5194615_Aligned.toTranscriptome.out.bam",
+          "GLDS-467_rna_seq_GSM5194615_SJ.out.tab",
+          "GLDS-467_rna_seq_GSM5194616_R1_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194616_R2_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194616_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-467_rna_seq_GSM5194616_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-467_rna_seq_GSM5194616_Aligned.toTranscriptome.out.bam",
+          "GLDS-467_rna_seq_GSM5194616_SJ.out.tab",
+          "GLDS-467_rna_seq_GSM5194617_R1_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194617_R2_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194617_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-467_rna_seq_GSM5194617_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-467_rna_seq_GSM5194617_Aligned.toTranscriptome.out.bam",
+          "GLDS-467_rna_seq_GSM5194617_SJ.out.tab",
+          "GLDS-467_rna_seq_GSM5194618_R1_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194618_R2_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194618_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-467_rna_seq_GSM5194618_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-467_rna_seq_GSM5194618_Aligned.toTranscriptome.out.bam",
+          "GLDS-467_rna_seq_GSM5194618_SJ.out.tab",
+          "GLDS-467_rna_seq_GSM5194619_R1_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194619_R2_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194619_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-467_rna_seq_GSM5194619_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-467_rna_seq_GSM5194619_Aligned.toTranscriptome.out.bam",
+          "GLDS-467_rna_seq_GSM5194619_SJ.out.tab",
+          "GLDS-467_rna_seq_GSM5194620_R1_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194620_R2_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194620_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-467_rna_seq_GSM5194620_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-467_rna_seq_GSM5194620_Aligned.toTranscriptome.out.bam",
+          "GLDS-467_rna_seq_GSM5194620_SJ.out.tab",
+          "GLDS-467_rna_seq_GSM5194621_R1_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194621_R2_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194621_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-467_rna_seq_GSM5194621_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-467_rna_seq_GSM5194621_Aligned.toTranscriptome.out.bam",
+          "GLDS-467_rna_seq_GSM5194621_SJ.out.tab",
+          "GLDS-467_rna_seq_GSM5194622_R1_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194622_R2_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194622_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-467_rna_seq_GSM5194622_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-467_rna_seq_GSM5194622_Aligned.toTranscriptome.out.bam",
+          "GLDS-467_rna_seq_GSM5194622_SJ.out.tab",
+          "GLDS-467_rna_seq_GSM5194623_R1_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194623_R2_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194623_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-467_rna_seq_GSM5194623_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-467_rna_seq_GSM5194623_Aligned.toTranscriptome.out.bam",
+          "GLDS-467_rna_seq_GSM5194623_SJ.out.tab",
+          "GLDS-467_rna_seq_GSM5194626_R1_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194626_R2_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194626_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-467_rna_seq_GSM5194626_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-467_rna_seq_GSM5194626_Aligned.toTranscriptome.out.bam",
+          "GLDS-467_rna_seq_GSM5194626_SJ.out.tab",
+          "GLDS-467_rna_seq_GSM5194629_R1_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194629_R2_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194629_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-467_rna_seq_GSM5194629_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-467_rna_seq_GSM5194629_Aligned.toTranscriptome.out.bam",
+          "GLDS-467_rna_seq_GSM5194629_SJ.out.tab",
+          "GLDS-467_rna_seq_GSM5194632_R1_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194632_R2_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194632_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-467_rna_seq_GSM5194632_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-467_rna_seq_GSM5194632_Aligned.toTranscriptome.out.bam",
+          "GLDS-467_rna_seq_GSM5194632_SJ.out.tab",
+          "GLDS-467_rna_seq_GSM5194635_R1_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194635_R2_trimmed.fastq.gz",
+          "GLDS-467_rna_seq_GSM5194635_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-467_rna_seq_GSM5194635_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-467_rna_seq_GSM5194635_Aligned.toTranscriptome.out.bam",
+          "GLDS-467_rna_seq_GSM5194635_SJ.out.tab",
+          "GSM5194612",
+          "GeneLab RNAseq data processing protocol",
+          "greater than 7.5",
+          "percent",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000187",
+          "polyA enrichment",
+          "PAIRED",
+          "Illumina HiSeq 2000",
+          "50",
+          "rna-seq",
+          "18909051",
+          "0.29",
+          "GLDS-467_rna_seq_GSM5194612.genes.results",
+          "GLDS-467_rna_seq_GSM5194612.isoforms.results",
+          "GLDS-467_rna_seq_RSEM_Unnormalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-467_rna_seq_STAR_Unnormalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-467_rna_seq_Normalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-467_rna_seq_SampleTable_GLbulkRNAseq.csv",
+          "GLDS-467_rna_seq_contrasts_GLbulkRNAseq.csv",
+          "GLDS-467_rna_seq_differential_expression_GLbulkRNAseq.csv",
+          "GSM5194613",
+          "19865659",
+          "0.2",
+          "GLDS-467_rna_seq_GSM5194613.genes.results",
+          "GLDS-467_rna_seq_GSM5194613.isoforms.results",
+          "GSM5194614",
+          "17918850",
+          "0.26",
+          "GLDS-467_rna_seq_GSM5194614.genes.results",
+          "GLDS-467_rna_seq_GSM5194614.isoforms.results",
+          "GSM5194615",
+          "23357637",
+          "0.3",
+          "GLDS-467_rna_seq_GSM5194615.genes.results",
+          "GLDS-467_rna_seq_GSM5194615.isoforms.results",
+          "GSM5194616",
+          "20763760",
+          "0.24",
+          "GLDS-467_rna_seq_GSM5194616.genes.results",
+          "GLDS-467_rna_seq_GSM5194616.isoforms.results",
+          "GSM5194617",
+          "35436018",
+          "0.27",
+          "GLDS-467_rna_seq_GSM5194617.genes.results",
+          "GLDS-467_rna_seq_GSM5194617.isoforms.results",
+          "GSM5194618",
+          "35311658",
+          "GLDS-467_rna_seq_GSM5194618.genes.results",
+          "GLDS-467_rna_seq_GSM5194618.isoforms.results",
+          "GSM5194619",
+          "17725460",
+          "0.32",
+          "GLDS-467_rna_seq_GSM5194619.genes.results",
+          "GLDS-467_rna_seq_GSM5194619.isoforms.results",
+          "GSM5194620",
+          "26195127",
+          "0.25",
+          "GLDS-467_rna_seq_GSM5194620.genes.results",
+          "GLDS-467_rna_seq_GSM5194620.isoforms.results",
+          "GSM5194621",
+          "27308027",
+          "GLDS-467_rna_seq_GSM5194621.genes.results",
+          "GLDS-467_rna_seq_GSM5194621.isoforms.results",
+          "GSM5194622",
+          "16475290",
+          "GLDS-467_rna_seq_GSM5194622.genes.results",
+          "GLDS-467_rna_seq_GSM5194622.isoforms.results",
+          "GSM5194623",
+          "21855791",
+          "GLDS-467_rna_seq_GSM5194623.genes.results",
+          "GLDS-467_rna_seq_GSM5194623.isoforms.results",
+          "GSM5194626",
+          "19602645",
+          "GLDS-467_rna_seq_GSM5194626.genes.results",
+          "GLDS-467_rna_seq_GSM5194626.isoforms.results",
+          "GSM5194629",
+          "18815353",
+          "0.21",
+          "GLDS-467_rna_seq_GSM5194629.genes.results",
+          "GLDS-467_rna_seq_GSM5194629.isoforms.results",
+          "GSM5194632",
+          "25188430",
+          "0.28",
+          "GLDS-467_rna_seq_GSM5194632.genes.results",
+          "GLDS-467_rna_seq_GSM5194632.isoforms.results",
+          "GSM5194635",
+          "25768166",
+          "GLDS-467_rna_seq_GSM5194635.genes.results",
+          "GLDS-467_rna_seq_GSM5194635.isoforms.results"
+        ],
+        "reports": [
+          "GLDS-467_rna_seq_raw_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-467_rna_seq_trimmed_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-467_rna_seq_GSM5194612_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-467_rna_seq_GSM5194612_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-467_rna_seq_GSM5194612_Log.final.out",
+          "GLDS-467_rna_seq_align_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-467_rna_seq_geneBody_cov_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-467_rna_seq_infer_exp_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-467_rna_seq_inner_dist_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-467_rna_seq_read_dist_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-467_rna_seq_RSEM_count_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-467_rna_seq_GSM5194613_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-467_rna_seq_GSM5194613_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-467_rna_seq_GSM5194613_Log.final.out",
+          "GLDS-467_rna_seq_GSM5194614_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-467_rna_seq_GSM5194614_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-467_rna_seq_GSM5194614_Log.final.out",
+          "GLDS-467_rna_seq_GSM5194615_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-467_rna_seq_GSM5194615_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-467_rna_seq_GSM5194615_Log.final.out",
+          "GLDS-467_rna_seq_GSM5194616_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-467_rna_seq_GSM5194616_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-467_rna_seq_GSM5194616_Log.final.out",
+          "GLDS-467_rna_seq_GSM5194617_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-467_rna_seq_GSM5194617_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-467_rna_seq_GSM5194617_Log.final.out",
+          "GLDS-467_rna_seq_GSM5194618_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-467_rna_seq_GSM5194618_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-467_rna_seq_GSM5194618_Log.final.out",
+          "GLDS-467_rna_seq_GSM5194619_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-467_rna_seq_GSM5194619_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-467_rna_seq_GSM5194619_Log.final.out",
+          "GLDS-467_rna_seq_GSM5194620_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-467_rna_seq_GSM5194620_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-467_rna_seq_GSM5194620_Log.final.out",
+          "GLDS-467_rna_seq_GSM5194621_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-467_rna_seq_GSM5194621_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-467_rna_seq_GSM5194621_Log.final.out",
+          "GLDS-467_rna_seq_GSM5194622_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-467_rna_seq_GSM5194622_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-467_rna_seq_GSM5194622_Log.final.out",
+          "GLDS-467_rna_seq_GSM5194623_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-467_rna_seq_GSM5194623_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-467_rna_seq_GSM5194623_Log.final.out",
+          "GLDS-467_rna_seq_GSM5194626_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-467_rna_seq_GSM5194626_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-467_rna_seq_GSM5194626_Log.final.out",
+          "GLDS-467_rna_seq_GSM5194629_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-467_rna_seq_GSM5194629_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-467_rna_seq_GSM5194629_Log.final.out",
+          "GLDS-467_rna_seq_GSM5194632_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-467_rna_seq_GSM5194632_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-467_rna_seq_GSM5194632_Log.final.out",
+          "GLDS-467_rna_seq_GSM5194635_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-467_rna_seq_GSM5194635_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-467_rna_seq_GSM5194635_Log.final.out"
+        ]
+      }
+    }
+  ]
+}

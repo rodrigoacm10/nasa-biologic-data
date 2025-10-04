@@ -1,0 +1,1386 @@
+{
+  "investigation": {
+    "id": "OSD-34",
+    "title": "Environmental and simulation facility conditions can modulate a behavioral-driven altered gravity response of Drosophila imagoes transcriptome",
+    "description": "Genome-wide transcriptional profiling shows that reducing gravity levels in the International Space Station (ISS) causes important alterations in Drosophila gene expression. However, simulation experiments on ground, without space constraints, show weaker effects than space environment.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "Simulated_Microgravity, Simulated_Hypergravity",
+      "title": "",
+      "type": "Ground Study",
+      "link": "",
+      "funding": "This work was supported by grants from the Spanish Space Program [ESP2006-13600-C02-01] and MICINN [AYA2009-07792-E]; the Dutch NWO-ALW-SRON grant [MG-057] and the UK Engineering and Physical Sciences Research Council, Basic Technology grant [GR/S83005/01] and Basic Technology Translation grant [EP/G037647/1].",
+      "managing_center": ""
+    },
+    "protocols": [
+      "P-GSE33801-3",
+      "P-GSE33801-2",
+      "P-GSE33801-4",
+      "P-GSE33801-5",
+      "P-GSE33801-7",
+      "P-GSE33801-6",
+      "GeneLab microarray data processing protocol"
+    ],
+    "publications": [
+      {
+        "title": "The behavioural-driven response of the Drosophila imago transcriptome to different types of modified gravity.",
+        "doi": "10.7243/2052-7993-1-1",
+        "authors": [
+          "Herranz R",
+          "Hill R J",
+          "Dijkstra C E",
+          "Eaves L",
+          "van Loon J J and Medina F J."
+        ],
+        "summary": "The behavioural-driven response of the Drosophila imago transcriptome to different types of modified gravity. — 10.7243/2052-7993-1-1"
+      }
+    ],
+    "factors": [
+      "Age",
+      "Sex",
+      "Temperature",
+      "Altered Gravity",
+      "Altered Gravity Simulator"
+    ],
+    "contacts": [
+      {
+        "first_name": "Raul",
+        "last_name": "Herranz",
+        "role": "Submitter",
+        "email": "r.herranz@csic.es"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "Dmel_OR_wo_LDC_1G_22C_females_20do_Rep1_GSM836112",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "20",
+          "Sex": "Female",
+          "Temperature": "22",
+          "Altered Gravity Simulator": "LDC rotational control",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836112 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_LDC_1G_22C_females_20do_Rep2_GSM836113",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "20",
+          "Sex": "Female",
+          "Temperature": "22",
+          "Altered Gravity Simulator": "LDC rotational control",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836113 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_LDC_1G_22C_females_5do_Rep1_GSM836104",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "5",
+          "Sex": "Female",
+          "Temperature": "22",
+          "Altered Gravity Simulator": "LDC rotational control",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836104 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_LDC_1G_22C_females_5do_Rep2_GSM836105",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "5",
+          "Sex": "Female",
+          "Temperature": "22",
+          "Altered Gravity Simulator": "LDC rotational control",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836105 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_LDC_2G_22C_females_20do_Rep1_GSM836108",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "20",
+          "Sex": "Female",
+          "Temperature": "22",
+          "Altered Gravity Simulator": "LDC",
+          "Altered Gravity": "2G with centrifugation"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836108 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_LDC_2G_22C_females_20do_Rep2_GSM836109",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "20",
+          "Sex": "Female",
+          "Temperature": "22",
+          "Altered Gravity Simulator": "LDC",
+          "Altered Gravity": "2G with centrifugation"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836109 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_LDC_2G_22C_females_20do_Rep3_GSM836110",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "20",
+          "Sex": "Female",
+          "Temperature": "22",
+          "Altered Gravity Simulator": "LDC",
+          "Altered Gravity": "2G with centrifugation"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836110 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_LDC_2G_22C_females_20do_Rep4_GSM836111",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "20",
+          "Sex": "Female",
+          "Temperature": "22",
+          "Altered Gravity Simulator": "LDC",
+          "Altered Gravity": "2G with centrifugation"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836111 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_LDC_2G_22C_females_5do_Rep1_GSM836100",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "5",
+          "Sex": "Female",
+          "Temperature": "22",
+          "Altered Gravity Simulator": "LDC",
+          "Altered Gravity": "2G with centrifugation"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836100 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_LDC_2G_22C_females_5do_Rep2_GSM836101",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "5",
+          "Sex": "Female",
+          "Temperature": "22",
+          "Altered Gravity Simulator": "LDC",
+          "Altered Gravity": "2G with centrifugation"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836101 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_LDC_2G_22C_females_5do_Rep3_GSM836102",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "5",
+          "Sex": "Female",
+          "Temperature": "22",
+          "Altered Gravity Simulator": "LDC",
+          "Altered Gravity": "2G with centrifugation"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836102 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_LDC_2G_22C_females_5do_Rep4_GSM836103",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "5",
+          "Sex": "Female",
+          "Temperature": "22",
+          "Altered Gravity Simulator": "LDC",
+          "Altered Gravity": "2G with centrifugation"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836103 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_ML_0G_14C_females_5do_Rep1_GSM836079",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "5",
+          "Sex": "Female",
+          "Temperature": "14",
+          "Altered Gravity Simulator": "Magnetic Levitator",
+          "Altered Gravity": "uG with magnetic levitation"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836079 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_ML_0G_14C_females_5do_Rep2_GSM836080",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "5",
+          "Sex": "Female",
+          "Temperature": "14",
+          "Altered Gravity Simulator": "Magnetic Levitator",
+          "Altered Gravity": "uG with magnetic levitation"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836080 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_ML_0G_14C_females_5do_Rep3_GSM836081",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "5",
+          "Sex": "Female",
+          "Temperature": "14",
+          "Altered Gravity Simulator": "Magnetic Levitator",
+          "Altered Gravity": "uG with magnetic levitation"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836081 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_ML_0G_14C_females_5do_Rep4_GSM836093",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "5",
+          "Sex": "Female",
+          "Temperature": "14",
+          "Altered Gravity Simulator": "Magnetic Levitator",
+          "Altered Gravity": "uG with magnetic levitation"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836093 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_ML_0G_14C_females_5do_Rep5_GSM836094",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "5",
+          "Sex": "Female",
+          "Temperature": "14",
+          "Altered Gravity Simulator": "Magnetic Levitator",
+          "Altered Gravity": "uG with magnetic levitation"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836094 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_ML_1G_14C_females_5do_Rep1_GSM836082",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "5",
+          "Sex": "Female",
+          "Temperature": "14",
+          "Altered Gravity Simulator": "Magnetic Levitator",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836082 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_ML_1G_14C_females_5do_Rep2_GSM836083",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "5",
+          "Sex": "Female",
+          "Temperature": "14",
+          "Altered Gravity Simulator": "Magnetic Levitator",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836083 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_ML_1G_14C_females_5do_Rep3_GSM836084",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "5",
+          "Sex": "Female",
+          "Temperature": "14",
+          "Altered Gravity Simulator": "Magnetic Levitator",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836084 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_ML_1G_14C_females_5do_Rep4_GSM836095",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "5",
+          "Sex": "Female",
+          "Temperature": "14",
+          "Altered Gravity Simulator": "Magnetic Levitator",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836095 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_ML_1G_14C_females_5do_Rep5_GSM836096",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "5",
+          "Sex": "Female",
+          "Temperature": "14",
+          "Altered Gravity Simulator": "Magnetic Levitator",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836096 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_ML_2G_14C_females_5do_Rep1_GSM836085",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "5",
+          "Sex": "Female",
+          "Temperature": "14",
+          "Altered Gravity Simulator": "Magnetic Levitator",
+          "Altered Gravity": "2G with magnetic levitation"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836085 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_ML_2G_14C_females_5do_Rep2_GSM836086",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "5",
+          "Sex": "Female",
+          "Temperature": "14",
+          "Altered Gravity Simulator": "Magnetic Levitator",
+          "Altered Gravity": "2G with magnetic levitation"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836086 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_ML_2G_14C_females_5do_Rep3_GSM836087",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "5",
+          "Sex": "Female",
+          "Temperature": "14",
+          "Altered Gravity Simulator": "Magnetic Levitator",
+          "Altered Gravity": "2G with magnetic levitation"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836087 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oLDC_CTRL_22C_females_20do_Rep1_GSM836114",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "20",
+          "Sex": "Female",
+          "Temperature": "22",
+          "Altered Gravity Simulator": "Outside LDC",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836114 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oLDC_CTRL_22C_females_20do_Rep2_GSM836115",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "20",
+          "Sex": "Female",
+          "Temperature": "22",
+          "Altered Gravity Simulator": "Outside LDC",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836115 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oLDC_CTRL_22C_females_5do_Rep1_GSM836106",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "5",
+          "Sex": "Female",
+          "Temperature": "22",
+          "Altered Gravity Simulator": "Outside LDC",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836106 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oLDC_CTRL_22C_females_5do_Rep2_GSM836107",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "5",
+          "Sex": "Female",
+          "Temperature": "22",
+          "Altered Gravity Simulator": "Outside LDC",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836107 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oML_CTRL_14C_females_5do_Rep1_GSM836088",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "5",
+          "Sex": "Female",
+          "Temperature": "14",
+          "Altered Gravity Simulator": "Outside Magnetic Levitator",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836088 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oML_CTRL_14C_females_5do_Rep2_GSM836089",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "5",
+          "Sex": "Female",
+          "Temperature": "14",
+          "Altered Gravity Simulator": "Outside Magnetic Levitator",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836089 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oML_CTRL_24C_females_5do_Rep1_GSM836090",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "5",
+          "Sex": "Female",
+          "Temperature": "24",
+          "Altered Gravity Simulator": "Outside Magnetic Levitator",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836090 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oML_CTRL_24C_females_5do_Rep2_GSM836091",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "5",
+          "Sex": "Female",
+          "Temperature": "24",
+          "Altered Gravity Simulator": "Outside Magnetic Levitator",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836091 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oML_CTRL_24C_females_5do_Rep3_GSM836092",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "5",
+          "Sex": "Female",
+          "Temperature": "24",
+          "Altered Gravity Simulator": "Outside Magnetic Levitator",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836092 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oML_CTRL_24C_females_5do_Rep4_GSM836097",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "5",
+          "Sex": "Female",
+          "Temperature": "24",
+          "Altered Gravity Simulator": "Outside Magnetic Levitator",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836097 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oML_CTRL_24C_females_5do_Rep5_GSM836098",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "5",
+          "Sex": "Female",
+          "Temperature": "24",
+          "Altered Gravity Simulator": "Outside Magnetic Levitator",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836098 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oML_CTRL_24C_females_5do_Rep6_GSM836099",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "5",
+          "Sex": "Female",
+          "Temperature": "24",
+          "Altered Gravity Simulator": "Outside Magnetic Levitator",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836099 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oRPoM_CTRL_14C_females_5do_Rep1_GSM836069",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "5",
+          "Sex": "Female",
+          "Temperature": "14",
+          "Altered Gravity Simulator": "Outside RPM",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836069 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oRPoM_CTRL_14C_females_5do_Rep2_GSM836070",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "5",
+          "Sex": "Female",
+          "Temperature": "14",
+          "Altered Gravity Simulator": "Outside RPM",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836070 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oRPoM_CTRL_14C_females_5do_Rep3_GSM836071",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "5",
+          "Sex": "Female",
+          "Temperature": "14",
+          "Altered Gravity Simulator": "Outside RPM",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836071 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oRPoM_CTRL_14C_males_5do_Rep1_GSM836076",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "5",
+          "Sex": "Male",
+          "Temperature": "14",
+          "Altered Gravity Simulator": "Outside RPM",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836076 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oRPoM_CTRL_14C_males_5do_Rep2_GSM836077",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "5",
+          "Sex": "Male",
+          "Temperature": "14",
+          "Altered Gravity Simulator": "Outside RPM",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836077 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_oRPoM_CTRL_14C_males_5do_Rep3_GSM836078",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "5",
+          "Sex": "Male",
+          "Temperature": "14",
+          "Altered Gravity Simulator": "Outside RPM",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836078 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_RPoM_0G_14C_females_5do_Rep1_GSM836066",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "5",
+          "Sex": "Female",
+          "Temperature": "14",
+          "Altered Gravity Simulator": "RPM",
+          "Altered Gravity": "uG with random positioning machine"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836066 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_RPoM_0G_14C_females_5do_Rep2_GSM836067",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "5",
+          "Sex": "Female",
+          "Temperature": "14",
+          "Altered Gravity Simulator": "RPM",
+          "Altered Gravity": "uG with random positioning machine"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836067 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_RPoM_0G_14C_females_5do_Rep3_GSM836068",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "5",
+          "Sex": "Female",
+          "Temperature": "14",
+          "Altered Gravity Simulator": "RPM",
+          "Altered Gravity": "uG with random positioning machine"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836068 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_RPoM_0G_14C_males_5do_Rep1_GSM836072",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "5",
+          "Sex": "Male",
+          "Temperature": "14",
+          "Altered Gravity Simulator": "RPM",
+          "Altered Gravity": "uG with random positioning machine"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836072 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_RPoM_0G_14C_males_5do_Rep2_GSM836073",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "5",
+          "Sex": "Male",
+          "Temperature": "14",
+          "Altered Gravity Simulator": "RPM",
+          "Altered Gravity": "uG with random positioning machine"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836073 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_RPoM_0G_14C_males_5do_Rep3_GSM836074",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "5",
+          "Sex": "Male",
+          "Temperature": "14",
+          "Altered Gravity Simulator": "RPM",
+          "Altered Gravity": "uG with random positioning machine"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836074 extract 1"
+        }
+      },
+      {
+        "sample_name": "Dmel_OR_wo_RPoM_0G_14C_males_5do_Rep4_GSM836075",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Strain": "Oregon-R",
+          "developmental stage": "imago",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Age": "5",
+          "Sex": "Male",
+          "Temperature": "14",
+          "Altered Gravity Simulator": "RPM",
+          "Altered Gravity": "uG with random positioning machine"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Trizol"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "GSM836075 extract 1"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Affymetrix",
+      "qc": {},
+      "library": {},
+      "files": {
+        "raw": [],
+        "processed": [
+          "Dmel_OR_wo_LDC_1G_22C_females_20do_Rep1_GSM836112",
+          "GeneLab microarray data processing protocol",
+          "GSM836112 extract 1",
+          "GSM836112 LE 1",
+          "biotin",
+          "AFFY DrosGenome2",
+          "GLDS-34_microarray_GSM836112.CEL",
+          "GLDS-34_array_raw_intensities_probe_GLmicroarray.csv",
+          "GLDS-34_array_normalized_expression_probeset_GLmicroarray.csv",
+          "GLDS-34_array_normalized_intensities_probe_GLmicroarray.csv",
+          "GLDS-34_array_SampleTable_GLmicroarray.csv",
+          "GLDS-34_array_contrasts_GLmicroarray.csv",
+          "GLDS-34_array_differential_expression_GLmicroarray.csv",
+          "Dmel_OR_wo_LDC_1G_22C_females_20do_Rep2_GSM836113",
+          "GSM836113 extract 1",
+          "GSM836113 LE 1",
+          "GLDS-34_microarray_GSM836113.CEL",
+          "Dmel_OR_wo_LDC_1G_22C_females_5do_Rep1_GSM836104",
+          "GSM836104 extract 1",
+          "GSM836104 LE 1",
+          "GLDS-34_microarray_GSM836104.CEL",
+          "Dmel_OR_wo_LDC_1G_22C_females_5do_Rep2_GSM836105",
+          "GSM836105 extract 1",
+          "GSM836105 LE 1",
+          "GLDS-34_microarray_GSM836105.CEL",
+          "Dmel_OR_wo_LDC_2G_22C_females_20do_Rep1_GSM836108",
+          "GSM836108 extract 1",
+          "GSM836108 LE 1",
+          "GLDS-34_microarray_GSM836108.CEL",
+          "Dmel_OR_wo_LDC_2G_22C_females_20do_Rep2_GSM836109",
+          "GSM836109 extract 1",
+          "GSM836109 LE 1",
+          "GLDS-34_microarray_GSM836109.CEL",
+          "Dmel_OR_wo_LDC_2G_22C_females_20do_Rep3_GSM836110",
+          "GSM836110 extract 1",
+          "GSM836110 LE 1",
+          "GLDS-34_microarray_GSM836110.CEL",
+          "Dmel_OR_wo_LDC_2G_22C_females_20do_Rep4_GSM836111",
+          "GSM836111 extract 1",
+          "GSM836111 LE 1",
+          "GLDS-34_microarray_GSM836111.CEL",
+          "Dmel_OR_wo_LDC_2G_22C_females_5do_Rep1_GSM836100",
+          "GSM836100 extract 1",
+          "GSM836100 LE 1",
+          "GLDS-34_microarray_GSM836100.CEL",
+          "Dmel_OR_wo_LDC_2G_22C_females_5do_Rep2_GSM836101",
+          "GSM836101 extract 1",
+          "GSM836101 LE 1",
+          "GLDS-34_microarray_GSM836101.CEL",
+          "Dmel_OR_wo_LDC_2G_22C_females_5do_Rep3_GSM836102",
+          "GSM836102 extract 1",
+          "GSM836102 LE 1",
+          "GLDS-34_microarray_GSM836102.CEL",
+          "Dmel_OR_wo_LDC_2G_22C_females_5do_Rep4_GSM836103",
+          "GSM836103 extract 1",
+          "GSM836103 LE 1",
+          "GLDS-34_microarray_GSM836103.CEL",
+          "Dmel_OR_wo_ML_0G_14C_females_5do_Rep1_GSM836079",
+          "GSM836079 extract 1",
+          "GSM836079 LE 1",
+          "GLDS-34_microarray_GSM836079.CEL",
+          "Dmel_OR_wo_ML_0G_14C_females_5do_Rep2_GSM836080",
+          "GSM836080 extract 1",
+          "GSM836080 LE 1",
+          "GLDS-34_microarray_GSM836080.CEL",
+          "Dmel_OR_wo_ML_0G_14C_females_5do_Rep3_GSM836081",
+          "GSM836081 extract 1",
+          "GSM836081 LE 1",
+          "GLDS-34_microarray_GSM836081.CEL",
+          "Dmel_OR_wo_ML_0G_14C_females_5do_Rep4_GSM836093",
+          "GSM836093 extract 1",
+          "GSM836093 LE 1",
+          "GLDS-34_microarray_GSM836093.CEL",
+          "Dmel_OR_wo_ML_0G_14C_females_5do_Rep5_GSM836094",
+          "GSM836094 extract 1",
+          "GSM836094 LE 1",
+          "GLDS-34_microarray_GSM836094.CEL",
+          "Dmel_OR_wo_ML_1G_14C_females_5do_Rep1_GSM836082",
+          "GSM836082 extract 1",
+          "GSM836082 LE 1",
+          "GLDS-34_microarray_GSM836082.CEL",
+          "Dmel_OR_wo_ML_1G_14C_females_5do_Rep2_GSM836083",
+          "GSM836083 extract 1",
+          "GSM836083 LE 1",
+          "GLDS-34_microarray_GSM836083.CEL",
+          "Dmel_OR_wo_ML_1G_14C_females_5do_Rep3_GSM836084",
+          "GSM836084 extract 1",
+          "GSM836084 LE 1",
+          "GLDS-34_microarray_GSM836084.CEL",
+          "Dmel_OR_wo_ML_1G_14C_females_5do_Rep4_GSM836095",
+          "GSM836095 extract 1",
+          "GSM836095 LE 1",
+          "GLDS-34_microarray_GSM836095.CEL",
+          "Dmel_OR_wo_ML_1G_14C_females_5do_Rep5_GSM836096",
+          "GSM836096 extract 1",
+          "GSM836096 LE 1",
+          "GLDS-34_microarray_GSM836096.CEL",
+          "Dmel_OR_wo_ML_2G_14C_females_5do_Rep1_GSM836085",
+          "GSM836085 extract 1",
+          "GSM836085 LE 1",
+          "GLDS-34_microarray_GSM836085.CEL",
+          "Dmel_OR_wo_ML_2G_14C_females_5do_Rep2_GSM836086",
+          "GSM836086 extract 1",
+          "GSM836086 LE 1",
+          "GLDS-34_microarray_GSM836086.CEL",
+          "Dmel_OR_wo_ML_2G_14C_females_5do_Rep3_GSM836087",
+          "GSM836087 extract 1",
+          "GSM836087 LE 1",
+          "GLDS-34_microarray_GSM836087.CEL",
+          "Dmel_OR_wo_oLDC_CTRL_22C_females_20do_Rep1_GSM836114",
+          "GSM836114 extract 1",
+          "GSM836114 LE 1",
+          "GLDS-34_microarray_GSM836114.CEL",
+          "Dmel_OR_wo_oLDC_CTRL_22C_females_20do_Rep2_GSM836115",
+          "GSM836115 extract 1",
+          "GSM836115 LE 1",
+          "GLDS-34_microarray_GSM836115.CEL",
+          "Dmel_OR_wo_oLDC_CTRL_22C_females_5do_Rep1_GSM836106",
+          "GSM836106 extract 1",
+          "GSM836106 LE 1",
+          "GLDS-34_microarray_GSM836106.CEL",
+          "Dmel_OR_wo_oLDC_CTRL_22C_females_5do_Rep2_GSM836107",
+          "GSM836107 extract 1",
+          "GSM836107 LE 1",
+          "GLDS-34_microarray_GSM836107.CEL",
+          "Dmel_OR_wo_oML_CTRL_14C_females_5do_Rep1_GSM836088",
+          "GSM836088 extract 1",
+          "GSM836088 LE 1",
+          "GLDS-34_microarray_GSM836088.CEL",
+          "Dmel_OR_wo_oML_CTRL_14C_females_5do_Rep2_GSM836089",
+          "GSM836089 extract 1",
+          "GSM836089 LE 1",
+          "GLDS-34_microarray_GSM836089.CEL",
+          "Dmel_OR_wo_oML_CTRL_24C_females_5do_Rep1_GSM836090",
+          "GSM836090 extract 1",
+          "GSM836090 LE 1",
+          "GLDS-34_microarray_GSM836090.CEL",
+          "Dmel_OR_wo_oML_CTRL_24C_females_5do_Rep2_GSM836091",
+          "GSM836091 extract 1",
+          "GSM836091 LE 1",
+          "GLDS-34_microarray_GSM836091.CEL",
+          "Dmel_OR_wo_oML_CTRL_24C_females_5do_Rep3_GSM836092",
+          "GSM836092 extract 1",
+          "GSM836092 LE 1",
+          "GLDS-34_microarray_GSM836092.CEL",
+          "Dmel_OR_wo_oML_CTRL_24C_females_5do_Rep4_GSM836097",
+          "GSM836097 extract 1",
+          "GSM836097 LE 1",
+          "GLDS-34_microarray_GSM836097.CEL",
+          "Dmel_OR_wo_oML_CTRL_24C_females_5do_Rep5_GSM836098",
+          "GSM836098 extract 1",
+          "GSM836098 LE 1",
+          "GLDS-34_microarray_GSM836098.CEL",
+          "Dmel_OR_wo_oML_CTRL_24C_females_5do_Rep6_GSM836099",
+          "GSM836099 extract 1",
+          "GSM836099 LE 1",
+          "GLDS-34_microarray_GSM836099.CEL",
+          "Dmel_OR_wo_oRPoM_CTRL_14C_females_5do_Rep1_GSM836069",
+          "GSM836069 extract 1",
+          "GSM836069 LE 1",
+          "GLDS-34_microarray_GSM836069.CEL",
+          "Dmel_OR_wo_oRPoM_CTRL_14C_females_5do_Rep2_GSM836070",
+          "GSM836070 extract 1",
+          "GSM836070 LE 1",
+          "GLDS-34_microarray_GSM836070.CEL",
+          "Dmel_OR_wo_oRPoM_CTRL_14C_females_5do_Rep3_GSM836071",
+          "GSM836071 extract 1",
+          "GSM836071 LE 1",
+          "GLDS-34_microarray_GSM836071.CEL",
+          "Dmel_OR_wo_oRPoM_CTRL_14C_males_5do_Rep1_GSM836076",
+          "GSM836076 extract 1",
+          "GSM836076 LE 1",
+          "GLDS-34_microarray_GSM836076.CEL",
+          "Dmel_OR_wo_oRPoM_CTRL_14C_males_5do_Rep2_GSM836077",
+          "GSM836077 extract 1",
+          "GSM836077 LE 1",
+          "GLDS-34_microarray_GSM836077.CEL",
+          "Dmel_OR_wo_oRPoM_CTRL_14C_males_5do_Rep3_GSM836078",
+          "GSM836078 extract 1",
+          "GSM836078 LE 1",
+          "GLDS-34_microarray_GSM836078.CEL",
+          "Dmel_OR_wo_RPoM_0G_14C_females_5do_Rep1_GSM836066",
+          "GSM836066 extract 1",
+          "GSM836066 LE 1",
+          "GLDS-34_microarray_GSM836066.CEL",
+          "Dmel_OR_wo_RPoM_0G_14C_females_5do_Rep2_GSM836067",
+          "GSM836067 extract 1",
+          "GSM836067 LE 1",
+          "GLDS-34_microarray_GSM836067.CEL",
+          "Dmel_OR_wo_RPoM_0G_14C_females_5do_Rep3_GSM836068",
+          "GSM836068 extract 1",
+          "GSM836068 LE 1",
+          "GLDS-34_microarray_GSM836068.CEL",
+          "Dmel_OR_wo_RPoM_0G_14C_males_5do_Rep1_GSM836072",
+          "GSM836072 extract 1",
+          "GSM836072 LE 1",
+          "GLDS-34_microarray_GSM836072.CEL",
+          "Dmel_OR_wo_RPoM_0G_14C_males_5do_Rep2_GSM836073",
+          "GSM836073 extract 1",
+          "GSM836073 LE 1",
+          "GLDS-34_microarray_GSM836073.CEL",
+          "Dmel_OR_wo_RPoM_0G_14C_males_5do_Rep3_GSM836074",
+          "GSM836074 extract 1",
+          "GSM836074 LE 1",
+          "GLDS-34_microarray_GSM836074.CEL",
+          "Dmel_OR_wo_RPoM_0G_14C_males_5do_Rep4_GSM836075",
+          "GSM836075 extract 1",
+          "GSM836075 LE 1",
+          "GLDS-34_microarray_GSM836075.CEL"
+        ],
+        "reports": []
+      }
+    }
+  ]
+}

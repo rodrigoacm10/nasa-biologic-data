@@ -1,0 +1,3312 @@
+{
+  "investigation": {
+    "id": "OSD-146",
+    "title": "Mouse fecal microbiome after exposure to high LET radiation",
+    "description": "Space travel is associated with continuous low-dose-rate exposure to high Linear Energy Transfer (LET) radiation. Pathophysiological manifestations after low-dose radiation exposure are strongly influenced by non-cytocidal radiation effects including microbiome and cellular gene expression.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "Heavy_Ion_HZE_Irradiation, High_Dose_Irradiation, Low_Dose_Irradiation, High_LET_Irradiation",
+      "title": "",
+      "type": "Ground Study",
+      "link": "",
+      "funding": "This study was supported by the National Space Biomedical Research Institute [RE03701 through NCC 9-58] and the NIH National Center for Advancing Translational Science (NCATS) UCLA CTSI Grant Number UL1TR00188.",
+      "managing_center": ""
+    },
+    "protocols": [
+      "Animal Husbandry",
+      "irradiation protocol",
+      "sample collection",
+      "nucleic acid extraction",
+      "library construction",
+      "nucleic acid sequencing",
+      "GeneLab amplicon-seq data processing protocol"
+    ],
+    "publications": [
+      {
+        "title": "Space-type radiation induces multimodal responses in the mouse gut microbiome and metabolome",
+        "doi": "10.1186/s40168-017-0325-z",
+        "authors": [
+          "Casero D",
+          "Gill K",
+          "Sridharan V",
+          "Koturbash I",
+          "Nelson G",
+          "Hauer-Jensen M",
+          "Boerma M",
+          "Braun J",
+          "Cheema AK"
+        ],
+        "summary": "Space-type radiation induces multimodal responses in the mouse gut microbiome and metabolome — 10.1186/s40168-017-0325-z"
+      }
+    ],
+    "factors": [
+      "Ionizing Radiation",
+      "Absorbed Radiation Dose",
+      "Time of Sample Collection After Treatment"
+    ],
+    "contacts": [
+      {
+        "first_name": "David",
+        "last_name": "Casero",
+        "role": "submitter",
+        "email": "akc27@georgetown.edu"
+      },
+      {
+        "first_name": "Amrita",
+        "last_name": "Cheema",
+        "role": "principal investigator",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep1_10dM1",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "0.1",
+          "Time of Sample Collection After Treatment": "10"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "0.36-0.48",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277231"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep2_10dM2",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "0.1",
+          "Time of Sample Collection After Treatment": "10"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "0.36-0.48",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277232"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep3_10dM3",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "0.1",
+          "Time of Sample Collection After Treatment": "10"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "0.36-0.48",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277233"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep4_10dM4",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "0.1",
+          "Time of Sample Collection After Treatment": "10"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "0.36-0.48",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277234"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep5_10dM5",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "0.1",
+          "Time of Sample Collection After Treatment": "10"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "0.36-0.48",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277235"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep6_10dM6",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "0.1",
+          "Time of Sample Collection After Treatment": "10"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "0.36-0.48",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277236"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep7_10dM7",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "0.1",
+          "Time of Sample Collection After Treatment": "10"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "0.36-0.48",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277237"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep8_10dM8",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "0.1",
+          "Time of Sample Collection After Treatment": "10"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "0.36-0.48",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277238"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep9_10dM9",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "0.1",
+          "Time of Sample Collection After Treatment": "10"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "0.36-0.48",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277239"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep10_10dM10",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "0.1",
+          "Time of Sample Collection After Treatment": "10"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "0.36-0.48",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277240"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep1_10dM11",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "0.25",
+          "Time of Sample Collection After Treatment": "10"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "0.89-1.19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277241"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep2_10dM12",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "0.25",
+          "Time of Sample Collection After Treatment": "10"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "0.89-1.19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277242"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep3_10dM13",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "0.25",
+          "Time of Sample Collection After Treatment": "10"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "0.89-1.19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277243"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep4_10dM14",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "0.25",
+          "Time of Sample Collection After Treatment": "10"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "0.89-1.19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277244"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep5_10dM15",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "0.25",
+          "Time of Sample Collection After Treatment": "10"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "0.89-1.19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277245"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep6_10dM16",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "0.25",
+          "Time of Sample Collection After Treatment": "10"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "0.89-1.19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277246"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep7_10dM17",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "0.25",
+          "Time of Sample Collection After Treatment": "10"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "0.89-1.19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277247"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep8_10dM18",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "0.25",
+          "Time of Sample Collection After Treatment": "10"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "0.89-1.19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277248"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep9_10dM19",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "0.25",
+          "Time of Sample Collection After Treatment": "10"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "0.89-1.19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277249"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep10_10dM20",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "0.25",
+          "Time of Sample Collection After Treatment": "10"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "0.89-1.19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277250"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep1_10dM21",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "1",
+          "Time of Sample Collection After Treatment": "10"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "3.57-4.76",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277251"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep2_10dM22",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "1",
+          "Time of Sample Collection After Treatment": "10"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "3.57-4.76",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277252"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep3_10dM23",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "1",
+          "Time of Sample Collection After Treatment": "10"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "3.57-4.76",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277253"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep4_10dM24",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "1",
+          "Time of Sample Collection After Treatment": "10"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "3.57-4.76",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277254"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep5_10dM25",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "1",
+          "Time of Sample Collection After Treatment": "10"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "3.57-4.76",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277255"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep6_10dM26",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "1",
+          "Time of Sample Collection After Treatment": "10"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "3.57-4.76",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277256"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep7_10dM27",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "1",
+          "Time of Sample Collection After Treatment": "10"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "3.57-4.76",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277257"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep8_10dM28",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "1",
+          "Time of Sample Collection After Treatment": "10"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "3.57-4.76",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277258"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep9_10dM29",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "1",
+          "Time of Sample Collection After Treatment": "10"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "3.57-4.76",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277259"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep10_10dM30",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "1",
+          "Time of Sample Collection After Treatment": "10"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "3.57-4.76",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277260"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep1_10dM31",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "sham-irradiated",
+          "Absorbed Radiation Dose": "0",
+          "Time of Sample Collection After Treatment": "10"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277261"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep2_10dM32",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "sham-irradiated",
+          "Absorbed Radiation Dose": "0",
+          "Time of Sample Collection After Treatment": "10"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277262"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep3_10dM33",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "sham-irradiated",
+          "Absorbed Radiation Dose": "0",
+          "Time of Sample Collection After Treatment": "10"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277263"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep4_10dM34",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "sham-irradiated",
+          "Absorbed Radiation Dose": "0",
+          "Time of Sample Collection After Treatment": "10"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277264"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep5_10dM35",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "sham-irradiated",
+          "Absorbed Radiation Dose": "0",
+          "Time of Sample Collection After Treatment": "10"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277265"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep6_10dM36",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "sham-irradiated",
+          "Absorbed Radiation Dose": "0",
+          "Time of Sample Collection After Treatment": "10"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277266"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep7_10dM37",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "sham-irradiated",
+          "Absorbed Radiation Dose": "0",
+          "Time of Sample Collection After Treatment": "10"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277267"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep8_10dM38",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "sham-irradiated",
+          "Absorbed Radiation Dose": "0",
+          "Time of Sample Collection After Treatment": "10"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277268"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep9_10dM39",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "sham-irradiated",
+          "Absorbed Radiation Dose": "0",
+          "Time of Sample Collection After Treatment": "10"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277269"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep10_10dM40",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "sham-irradiated",
+          "Absorbed Radiation Dose": "0",
+          "Time of Sample Collection After Treatment": "10"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277270"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep1_30dM1",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "0.1",
+          "Time of Sample Collection After Treatment": "30"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "0.36-0.48",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277271"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep2_30dM2",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "0.1",
+          "Time of Sample Collection After Treatment": "30"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "0.36-0.48",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277272"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep3_30dM3",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "0.1",
+          "Time of Sample Collection After Treatment": "30"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "0.36-0.48",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277273"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep4_30dM4",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "0.1",
+          "Time of Sample Collection After Treatment": "30"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "0.36-0.48",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277274"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep5_30dM5",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "0.1",
+          "Time of Sample Collection After Treatment": "30"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "0.36-0.48",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277275"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep6_30dM6",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "0.1",
+          "Time of Sample Collection After Treatment": "30"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "0.36-0.48",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277276"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep7_30dM7",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "0.1",
+          "Time of Sample Collection After Treatment": "30"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "0.36-0.48",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277277"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep8_30dM8",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "0.1",
+          "Time of Sample Collection After Treatment": "30"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "0.36-0.48",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277278"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep9_30dM9",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "0.1",
+          "Time of Sample Collection After Treatment": "30"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "0.36-0.48",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277279"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep10_30dM10",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "0.1",
+          "Time of Sample Collection After Treatment": "30"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "0.36-0.48",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277280"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep1_30dM11",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "0.25",
+          "Time of Sample Collection After Treatment": "30"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "0.89-1.19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277281"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep2_30dM12",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "0.25",
+          "Time of Sample Collection After Treatment": "30"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "0.89-1.19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277282"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep3_30dM13",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "0.25",
+          "Time of Sample Collection After Treatment": "30"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "0.89-1.19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277283"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep4_30dM14",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "0.25",
+          "Time of Sample Collection After Treatment": "30"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "0.89-1.19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277284"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep5_30dM15",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "0.25",
+          "Time of Sample Collection After Treatment": "30"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "0.89-1.19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277285"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep6_30dM16",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "0.25",
+          "Time of Sample Collection After Treatment": "30"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "0.89-1.19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277286"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep7_30dM17",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "0.25",
+          "Time of Sample Collection After Treatment": "30"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "0.89-1.19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277287"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep8_30dM18",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "0.25",
+          "Time of Sample Collection After Treatment": "30"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "0.89-1.19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277288"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep9_30dM19",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "0.25",
+          "Time of Sample Collection After Treatment": "30"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "0.89-1.19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277289"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep10_30dM20",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "0.25",
+          "Time of Sample Collection After Treatment": "30"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "0.89-1.19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277290"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep1_30dM21",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "1",
+          "Time of Sample Collection After Treatment": "30"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "3.57-4.76",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277291"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep2_30dM22",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "1",
+          "Time of Sample Collection After Treatment": "30"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "3.57-4.76",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277292"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep3_30dM23",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "1",
+          "Time of Sample Collection After Treatment": "30"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "3.57-4.76",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277293"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep4_30dM24",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "1",
+          "Time of Sample Collection After Treatment": "30"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "3.57-4.76",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277294"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep5_30dM25",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "1",
+          "Time of Sample Collection After Treatment": "30"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "3.57-4.76",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277295"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep6_30dM26",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "1",
+          "Time of Sample Collection After Treatment": "30"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "3.57-4.76",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277296"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep7_30dM27",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "1",
+          "Time of Sample Collection After Treatment": "30"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "3.57-4.76",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277297"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep8_30dM28",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "1",
+          "Time of Sample Collection After Treatment": "30"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "3.57-4.76",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277298"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep9_30dM29",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "1",
+          "Time of Sample Collection After Treatment": "30"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "3.57-4.76",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277299"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep10_30dM30",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Absorbed Radiation Dose": "1",
+          "Time of Sample Collection After Treatment": "30"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose rate": "0.21-0.28",
+          "exposure duration": "3.57-4.76",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277300"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep1_30dM31",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "sham-irradiated",
+          "Absorbed Radiation Dose": "0",
+          "Time of Sample Collection After Treatment": "30"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277301"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep2_30dM32",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "sham-irradiated",
+          "Absorbed Radiation Dose": "0",
+          "Time of Sample Collection After Treatment": "30"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277302"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep3_30dM33",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "sham-irradiated",
+          "Absorbed Radiation Dose": "0",
+          "Time of Sample Collection After Treatment": "30"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277303"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep4_30dM34",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "sham-irradiated",
+          "Absorbed Radiation Dose": "0",
+          "Time of Sample Collection After Treatment": "30"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277304"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep5_30dM35",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "sham-irradiated",
+          "Absorbed Radiation Dose": "0",
+          "Time of Sample Collection After Treatment": "30"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277305"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep6_30dM36",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "sham-irradiated",
+          "Absorbed Radiation Dose": "0",
+          "Time of Sample Collection After Treatment": "30"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277306"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep7_30dM37",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "sham-irradiated",
+          "Absorbed Radiation Dose": "0",
+          "Time of Sample Collection After Treatment": "30"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277307"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep8_30dM38",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "sham-irradiated",
+          "Absorbed Radiation Dose": "0",
+          "Time of Sample Collection After Treatment": "30"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277308"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep9_30dM39",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "sham-irradiated",
+          "Absorbed Radiation Dose": "0",
+          "Time of Sample Collection After Treatment": "30"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277309"
+        }
+      },
+      {
+        "sample_name": "16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep10_30dM40",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Animal Source": "Jackson Laboratory",
+          "Host Sex": "Male",
+          "Host Strain": "C57BL/6J",
+          "age": "6",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Ionizing Radiation": "sham-irradiated",
+          "Absorbed Radiation Dose": "0",
+          "Time of Sample Collection After Treatment": "30"
+        },
+        "parameters": {
+          "Diet": "soy-free rodent diet 2020X",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12h light/dark",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "SAMN06277310"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "amplicon-sequencing",
+      "platform": "Illumina HiSeq 2500",
+      "qc": {
+        "Read Depth": "249858"
+      },
+      "library": {},
+      "files": {
+        "raw": [
+          "GLDS-146_Amplicon_4A1_S289_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4A1_S289_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4A2_S290_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4A2_S290_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4A3_S291_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4A3_S291_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4A4_S292_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4A4_S292_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4A5_S293_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4A5_S293_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4A6_S294_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4A6_S294_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4A7_S295_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4A7_S295_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4A8_S296_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4A8_S296_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4A9_S297_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4A9_S297_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4A10_S298_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4A10_S298_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4A11_S299_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4A11_S299_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4A12_S300_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4A12_S300_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4B1_S301_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4B1_S301_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4B2_S302_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4B2_S302_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4B3_S303_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4B3_S303_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4B4_S304_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4B4_S304_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4B5_S305_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4B5_S305_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4B6_S306_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4B6_S306_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4B7_S307_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4B7_S307_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4B8_S308_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4B8_S308_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4B9_S309_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4B9_S309_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4B10_S310_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4B10_S310_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4B11_S311_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4B11_S311_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4B12_S312_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4B12_S312_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4C1_S313_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4C1_S313_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4C2_S314_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4C2_S314_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4C3_S315_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4C3_S315_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4C4_S316_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4C4_S316_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4C5_S317_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4C5_S317_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4C6_S318_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4C6_S318_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4C7_S319_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4C7_S319_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4C8_S320_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4C8_S320_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4C9_S321_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4C9_S321_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4C10_S322_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4C10_S322_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4C11_S323_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4C11_S323_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4C12_S324_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4C12_S324_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4D1_S325_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4D1_S325_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4D2_S326_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4D2_S326_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4D3_S327_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4D3_S327_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4D4_S328_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4D4_S328_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4D5_S329_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4D5_S329_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4D6_S330_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4D6_S330_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4D7_S331_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4D7_S331_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4D8_S332_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4D8_S332_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4D9_S333_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4D9_S333_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4D10_S334_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4D10_S334_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4D11_S335_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4D11_S335_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4D12_S336_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4D12_S336_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4E1_S337_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4E1_S337_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4E2_S338_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4E2_S338_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4E3_S339_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4E3_S339_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4E4_S340_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4E4_S340_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4E5_S341_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4E5_S341_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4E6_S342_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4E6_S342_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4E7_S343_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4E7_S343_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4E8_S344_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4E8_S344_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4E9_S345_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4E9_S345_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4E10_S346_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4E10_S346_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4E11_S347_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4E11_S347_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4E12_S348_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4E12_S348_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4F1_S349_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4F1_S349_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4F2_S350_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4F2_S350_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4F3_S351_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4F3_S351_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4F4_S352_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4F4_S352_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4F5_S353_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4F5_S353_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4F6_S354_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4F6_S354_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4F7_S355_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4F7_S355_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4F8_S356_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4F8_S356_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4F9_S357_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4F9_S357_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4F10_S358_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4F10_S358_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4F11_S359_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4F11_S359_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4F12_S360_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4F12_S360_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4G1_S361_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4G1_S361_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4G2_S362_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4G2_S362_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4G3_S363_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4G3_S363_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4G4_S364_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4G4_S364_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4G5_S365_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4G5_S365_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4G6_S366_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4G6_S366_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4G7_S367_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4G7_S367_L002_R2_001.fastq.gz",
+          "GLDS-146_Amplicon_4G8_S368_L002_R1_001.fastq.gz",
+          "GLDS-146_Amplicon_4G8_S368_L002_R2_001.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep1_10dM1_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep1_10dM1_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep1_10dM1-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep1_10dM1-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep2_10dM2_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep2_10dM2_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep2_10dM2-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep2_10dM2-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep3_10dM3_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep3_10dM3_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep3_10dM3-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep3_10dM3-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep4_10dM4_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep4_10dM4_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep4_10dM4-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep4_10dM4-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep5_10dM5_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep5_10dM5_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep5_10dM5-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep5_10dM5-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep6_10dM6_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep6_10dM6_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep6_10dM6-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep6_10dM6-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep7_10dM7_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep7_10dM7_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep7_10dM7-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep7_10dM7-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep8_10dM8_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep8_10dM8_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep8_10dM8-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep8_10dM8-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep9_10dM9_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep9_10dM9_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep9_10dM9-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep9_10dM9-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep10_10dM10_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep10_10dM10_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep10_10dM10-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep10_10dM10-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep1_10dM11_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep1_10dM11_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep1_10dM11-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep1_10dM11-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep2_10dM12_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep2_10dM12_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep2_10dM12-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep2_10dM12-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep3_10dM13_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep3_10dM13_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep3_10dM13-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep3_10dM13-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep4_10dM14_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep4_10dM14_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep4_10dM14-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep4_10dM14-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep5_10dM15_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep5_10dM15_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep5_10dM15-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep5_10dM15-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep6_10dM16_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep6_10dM16_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep6_10dM16-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep6_10dM16-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep7_10dM17_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep7_10dM17_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep7_10dM17-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep7_10dM17-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep8_10dM18_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep8_10dM18_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep8_10dM18-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep8_10dM18-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep9_10dM19_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep9_10dM19_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep9_10dM19-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep9_10dM19-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep10_10dM20_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep10_10dM20_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep10_10dM20-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep10_10dM20-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep1_10dM21_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep1_10dM21_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep1_10dM21-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep1_10dM21-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep2_10dM22_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep2_10dM22_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep2_10dM22-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep2_10dM22-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep3_10dM23_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep3_10dM23_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep3_10dM23-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep3_10dM23-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep4_10dM24_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep4_10dM24_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep4_10dM24-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep4_10dM24-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep5_10dM25_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep5_10dM25_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep5_10dM25-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep5_10dM25-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep6_10dM26_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep6_10dM26_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep6_10dM26-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep6_10dM26-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep7_10dM27_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep7_10dM27_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep7_10dM27-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep7_10dM27-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep8_10dM28_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep8_10dM28_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep8_10dM28-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep8_10dM28-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep9_10dM29_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep9_10dM29_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep9_10dM29-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep9_10dM29-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep10_10dM30_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep10_10dM30_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep10_10dM30-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep10_10dM30-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep1_10dM31_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep1_10dM31_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep1_10dM31-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep1_10dM31-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep2_10dM32_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep2_10dM32_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep2_10dM32-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep2_10dM32-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep3_10dM33_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep3_10dM33_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep3_10dM33-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep3_10dM33-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep4_10dM34_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep4_10dM34_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep4_10dM34-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep4_10dM34-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep5_10dM35_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep5_10dM35_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep5_10dM35-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep5_10dM35-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep6_10dM36_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep6_10dM36_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep6_10dM36-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep6_10dM36-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep7_10dM37_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep7_10dM37_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep7_10dM37-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep7_10dM37-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep8_10dM38_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep8_10dM38_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep8_10dM38-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep8_10dM38-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep9_10dM39_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep9_10dM39_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep9_10dM39-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep9_10dM39-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep10_10dM40_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep10_10dM40_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep10_10dM40-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep10_10dM40-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep1_30dM1_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep1_30dM1_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep1_30dM1-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep1_30dM1-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep2_30dM2_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep2_30dM2_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep2_30dM2-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep2_30dM2-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep3_30dM3_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep3_30dM3_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep3_30dM3-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep3_30dM3-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep4_30dM4_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep4_30dM4_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep4_30dM4-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep4_30dM4-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep5_30dM5_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep5_30dM5_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep5_30dM5-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep5_30dM5-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep6_30dM6_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep6_30dM6_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep6_30dM6-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep6_30dM6-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep7_30dM7_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep7_30dM7_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep7_30dM7-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep7_30dM7-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep8_30dM8_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep8_30dM8_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep8_30dM8-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep8_30dM8-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep9_30dM9_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep9_30dM9_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep9_30dM9-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep9_30dM9-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep10_30dM10_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep10_30dM10_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep10_30dM10-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep10_30dM10-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep1_30dM11_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep1_30dM11_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep1_30dM11-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep1_30dM11-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep2_30dM12_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep2_30dM12_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep2_30dM12-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep2_30dM12-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep3_30dM13_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep3_30dM13_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep3_30dM13-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep3_30dM13-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep4_30dM14_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep4_30dM14_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep4_30dM14-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep4_30dM14-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep5_30dM15_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep5_30dM15_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep5_30dM15-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep5_30dM15-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep6_30dM16_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep6_30dM16_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep6_30dM16-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep6_30dM16-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep7_30dM17_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep7_30dM17_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep7_30dM17-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep7_30dM17-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep8_30dM18_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep8_30dM18_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep8_30dM18-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep8_30dM18-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep9_30dM19_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep9_30dM19_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep9_30dM19-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep9_30dM19-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep10_30dM20_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep10_30dM20_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep10_30dM20-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep10_30dM20-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep1_30dM21_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep1_30dM21_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep1_30dM21-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep1_30dM21-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep2_30dM22_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep2_30dM22_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep2_30dM22-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep2_30dM22-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep3_30dM23_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep3_30dM23_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep3_30dM23-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep3_30dM23-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep4_30dM24_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep4_30dM24_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep4_30dM24-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep4_30dM24-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep5_30dM25_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep5_30dM25_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep5_30dM25-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep5_30dM25-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep6_30dM26_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep6_30dM26_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep6_30dM26-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep6_30dM26-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep7_30dM27_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep7_30dM27_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep7_30dM27-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep7_30dM27-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep8_30dM28_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep8_30dM28_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep8_30dM28-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep8_30dM28-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep9_30dM29_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep9_30dM29_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep9_30dM29-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep9_30dM29-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep10_30dM30_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep10_30dM30_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep10_30dM30-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep10_30dM30-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep1_30dM31_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep1_30dM31_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep1_30dM31-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep1_30dM31-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep2_30dM32_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep2_30dM32_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep2_30dM32-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep2_30dM32-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep3_30dM33_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep3_30dM33_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep3_30dM33-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep3_30dM33-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep4_30dM34_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep4_30dM34_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep4_30dM34-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep4_30dM34-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep5_30dM35_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep5_30dM35_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep5_30dM35-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep5_30dM35-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep6_30dM36_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep6_30dM36_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep6_30dM36-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep6_30dM36-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep7_30dM37_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep7_30dM37_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep7_30dM37-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep7_30dM37-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep8_30dM38_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep8_30dM38_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep8_30dM38-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep8_30dM38-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep9_30dM39_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep9_30dM39_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep9_30dM39-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep9_30dM39-R2-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep10_30dM40_R1_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep10_30dM40_R2_raw.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep10_30dM40-R1-filtered.fastq.gz",
+          "GLDS-146_GAmplicon_16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep10_30dM40-R2-filtered.fastq.gz"
+        ],
+        "processed": [
+          "16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep1_10dM1",
+          "GeneLab amplicon-seq data processing protocol",
+          "SAMN06277231 Extract",
+          "AMPLICON",
+          "PCR",
+          "PAIRED",
+          "16S",
+          "16S-universal V4; 515F-5-GTGYCAGCMGCCGCGGTAA-3; 806R-5-GGACTACNVGGGTWTCTAAT-3",
+          "Illumina HiSeq 2500",
+          "150",
+          "read",
+          "amplicon sequencing",
+          "GLDS-146_GAmplicon_README.txt",
+          "249858",
+          "GLDS-146_GAmplicon_filtered-read-counts.tsv",
+          "GLDS-146_GAmplicon_ASVs.fasta",
+          "GLDS-146_GAmplicon_counts.tsv",
+          "GLDS-146_GAmplicon_read-count-tracking.tsv",
+          "GLDS-146_GAmplicon_taxonomy-and-counts.biom.zip",
+          "GLDS-146_GAmplicon_taxonomy-and-counts.tsv",
+          "GLDS-146_GAmplicon_taxonomy.tsv",
+          "GLDS-146_GAmplicon_processing_info.tar",
+          "16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep2_10dM2",
+          "SAMN06277232 Extract",
+          "281608",
+          "16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep3_10dM3",
+          "SAMN06277233 Extract",
+          "245913",
+          "16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep4_10dM4",
+          "SAMN06277234 Extract",
+          "225268",
+          "16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep5_10dM5",
+          "SAMN06277235 Extract",
+          "232660",
+          "16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep6_10dM6",
+          "SAMN06277236 Extract",
+          "231958",
+          "16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep7_10dM7",
+          "SAMN06277237 Extract",
+          "222687",
+          "16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep8_10dM8",
+          "SAMN06277238 Extract",
+          "248251",
+          "16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep9_10dM9",
+          "SAMN06277239 Extract",
+          "252035",
+          "16S_FCS_Mmus_C57-6J_0.1Gy_10d-post-IR_Rep10_10dM10",
+          "SAMN06277240 Extract",
+          "214630",
+          "16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep1_10dM11",
+          "SAMN06277241 Extract",
+          "261940",
+          "16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep2_10dM12",
+          "SAMN06277242 Extract",
+          "177805",
+          "16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep3_10dM13",
+          "SAMN06277243 Extract",
+          "220129",
+          "16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep4_10dM14",
+          "SAMN06277244 Extract",
+          "190044",
+          "16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep5_10dM15",
+          "SAMN06277245 Extract",
+          "232314",
+          "16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep6_10dM16",
+          "SAMN06277246 Extract",
+          "188153",
+          "16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep7_10dM17",
+          "SAMN06277247 Extract",
+          "280361",
+          "16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep8_10dM18",
+          "SAMN06277248 Extract",
+          "219377",
+          "16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep9_10dM19",
+          "SAMN06277249 Extract",
+          "232668",
+          "16S_FCS_Mmus_C57-6J_0.25Gy_10d-post-IR_Rep10_10dM20",
+          "SAMN06277250 Extract",
+          "221776",
+          "16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep1_10dM21",
+          "SAMN06277251 Extract",
+          "211894",
+          "16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep2_10dM22",
+          "SAMN06277252 Extract",
+          "257237",
+          "16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep3_10dM23",
+          "SAMN06277253 Extract",
+          "228892",
+          "16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep4_10dM24",
+          "SAMN06277254 Extract",
+          "138832",
+          "16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep5_10dM25",
+          "SAMN06277255 Extract",
+          "262506",
+          "16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep6_10dM26",
+          "SAMN06277256 Extract",
+          "278787",
+          "16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep7_10dM27",
+          "SAMN06277257 Extract",
+          "224509",
+          "16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep8_10dM28",
+          "SAMN06277258 Extract",
+          "184114",
+          "16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep9_10dM29",
+          "SAMN06277259 Extract",
+          "230067",
+          "16S_FCS_Mmus_C57-6J_1Gy_10d-post-IR_Rep10_10dM30",
+          "SAMN06277260 Extract",
+          "249801",
+          "16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep1_10dM31",
+          "SAMN06277261 Extract",
+          "227322",
+          "16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep2_10dM32",
+          "SAMN06277262 Extract",
+          "223020",
+          "16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep3_10dM33",
+          "SAMN06277263 Extract",
+          "213154",
+          "16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep4_10dM34",
+          "SAMN06277264 Extract",
+          "211281",
+          "16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep5_10dM35",
+          "SAMN06277265 Extract",
+          "238599",
+          "16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep6_10dM36",
+          "SAMN06277266 Extract",
+          "162850",
+          "16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep7_10dM37",
+          "SAMN06277267 Extract",
+          "258217",
+          "16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep8_10dM38",
+          "SAMN06277268 Extract",
+          "243103",
+          "16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep9_10dM39",
+          "SAMN06277269 Extract",
+          "243562",
+          "16S_FCS_Mmus_C57-6J_0Gy_10d-post-shamIR_Rep10_10dM40",
+          "SAMN06277270 Extract",
+          "231812",
+          "16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep1_30dM1",
+          "SAMN06277271 Extract",
+          "213010",
+          "16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep2_30dM2",
+          "SAMN06277272 Extract",
+          "232461",
+          "16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep3_30dM3",
+          "SAMN06277273 Extract",
+          "209405",
+          "16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep4_30dM4",
+          "SAMN06277274 Extract",
+          "183841",
+          "16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep5_30dM5",
+          "SAMN06277275 Extract",
+          "272436",
+          "16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep6_30dM6",
+          "SAMN06277276 Extract",
+          "246295",
+          "16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep7_30dM7",
+          "SAMN06277277 Extract",
+          "271777",
+          "16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep8_30dM8",
+          "SAMN06277278 Extract",
+          "260991",
+          "16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep9_30dM9",
+          "SAMN06277279 Extract",
+          "261837",
+          "16S_FCS_Mmus_C57-6J_0.1Gy_30d-post-IR_Rep10_30dM10",
+          "SAMN06277280 Extract",
+          "248485",
+          "16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep1_30dM11",
+          "SAMN06277281 Extract",
+          "185940",
+          "16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep2_30dM12",
+          "SAMN06277282 Extract",
+          "304230",
+          "16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep3_30dM13",
+          "SAMN06277283 Extract",
+          "233891",
+          "16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep4_30dM14",
+          "SAMN06277284 Extract",
+          "275313",
+          "16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep5_30dM15",
+          "SAMN06277285 Extract",
+          "205380",
+          "16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep6_30dM16",
+          "SAMN06277286 Extract",
+          "253298",
+          "16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep7_30dM17",
+          "SAMN06277287 Extract",
+          "227363",
+          "16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep8_30dM18",
+          "SAMN06277288 Extract",
+          "273608",
+          "16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep9_30dM19",
+          "SAMN06277289 Extract",
+          "255022",
+          "16S_FCS_Mmus_C57-6J_0.25Gy_30d-post-IR_Rep10_30dM20",
+          "SAMN06277290 Extract",
+          "211608",
+          "16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep1_30dM21",
+          "SAMN06277291 Extract",
+          "268169",
+          "16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep2_30dM22",
+          "SAMN06277292 Extract",
+          "266260",
+          "16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep3_30dM23",
+          "SAMN06277293 Extract",
+          "248343",
+          "16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep4_30dM24",
+          "SAMN06277294 Extract",
+          "242436",
+          "16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep5_30dM25",
+          "SAMN06277295 Extract",
+          "239154",
+          "16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep6_30dM26",
+          "SAMN06277296 Extract",
+          "20484",
+          "16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep7_30dM27",
+          "SAMN06277297 Extract",
+          "282382",
+          "16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep8_30dM28",
+          "SAMN06277298 Extract",
+          "206377",
+          "16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep9_30dM29",
+          "SAMN06277299 Extract",
+          "263018",
+          "16S_FCS_Mmus_C57-6J_1Gy_30d-post-IR_Rep10_30dM30",
+          "SAMN06277300 Extract",
+          "201652",
+          "16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep1_30dM31",
+          "SAMN06277301 Extract",
+          "482738",
+          "16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep2_30dM32",
+          "SAMN06277302 Extract",
+          "240431",
+          "16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep3_30dM33",
+          "SAMN06277303 Extract",
+          "237933",
+          "16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep4_30dM34",
+          "SAMN06277304 Extract",
+          "240289",
+          "16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep5_30dM35",
+          "SAMN06277305 Extract",
+          "224323",
+          "16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep6_30dM36",
+          "SAMN06277306 Extract",
+          "211876",
+          "16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep7_30dM37",
+          "SAMN06277307 Extract",
+          "206902",
+          "16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep8_30dM38",
+          "SAMN06277308 Extract",
+          "232443",
+          "16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep9_30dM39",
+          "SAMN06277309 Extract",
+          "206102",
+          "16S_FCS_Mmus_C57-6J_0Gy_30d-post-shamIR_Rep10_30dM40",
+          "SAMN06277310 Extract",
+          "210575"
+        ],
+        "reports": [
+          "GLDS-146_GAmplicon_raw_multiqc_data.zip",
+          "GLDS-146_GAmplicon_raw_multiqc_report.html.zip",
+          "GLDS-146_GAmplicon_filtered_multiqc_data.zip",
+          "GLDS-146_GAmplicon_filtered_multiqc_report.html.zip"
+        ]
+      }
+    }
+  ]
+}

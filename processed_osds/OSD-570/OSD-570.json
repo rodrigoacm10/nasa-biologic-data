@@ -1,0 +1,1233 @@
+{
+  "investigation": {
+    "id": "OSD-570",
+    "title": "SpaceX Inspiration4 PBMC Profiling: snRNA-seq, snATAC-seq, and T-cell and B-cell repertoire profiling",
+    "description": "The SpaceX Inspiration4 mission was a 3-day mission with four private astronauts to low Earth orbit that occurred in September 2021. The crew collected biospecimen samples before and after flight.",
+    "mission": {
+      "name": "SpaceX Inspiration4",
+      "start_date": "09/16/2021",
+      "end_date": "09/18/2021",
+      "link": "https://osdr.nasa.gov/bio/repo/data/missions/SpaceX Inspiration4"
+    },
+    "project": {
+      "identifier": "Inspiration4 Crew",
+      "title": "",
+      "type": "Spaceflight Study",
+      "link": "",
+      "funding": "Funding provided by NASA, NIH, and philanthropic donations. NNX14AH50G, NNX17AB26G, 80NSSC22K0254, NNH18ZTT001N-FG2, NNX16AO69A.  The National Institutes of Health (R01MH117406, P01CA214274 R01CA249054), the LLS (MCL7001-18, LLS 9238-16).",
+      "managing_center": ""
+    },
+    "protocols": [
+      "Cell Isolation",
+      "Nucleus Isolation - snRNA sequencing and snATAC sequencing",
+      "Library Construction - snRNA sequencing and snATAC sequencing",
+      "Nucleic Acid Sequencing - snATAC sequencing",
+      "Data Analysis - snRNA sequencing and snATAC sequencing",
+      "GeneLab raw data processing protocol - snRNA/snATAC sequencing",
+      "Library Construction - single-cell immune profiling",
+      "Nucleic Acid Sequencing - single-cell immune profiling",
+      "Data Analysis - single-cell immune profiling",
+      "GeneLab raw data processing protocol - single-cell immune profiling",
+      "Nucleic Acid Sequencing - snRNA sequencing",
+      "Treatment protocol",
+      "sample collection"
+    ],
+    "publications": [
+      {
+        "title": "The Space Omics and Medical Atlas (SOMA) and international astronaut biobank",
+        "doi": "10.1038/s41586-024-07639-y",
+        "authors": [
+          "Eliah G. Overbey",
+          "JangKeun Kim",
+          "Braden T. Tierney",
+          "Jiwoon Park",
+          "Nadia Houerbi",
+          "Alexander G. Lucaci",
+          "Sebastian Garcia Medina",
+          "Namita Damle",
+          "Deena Najjar",
+          "Kirill Grigorev",
+          "Evan E. Afshin",
+          "Krista A. Ryon",
+          "Karolina Sienkiewicz",
+          "Laura Patras",
+          "Remi Klotz",
+          "Veronica Ortiz",
+          "Matthew MacKay",
+          "Annalise Schweickart",
+          "Christopher R. Chin",
+          "Maria A. Sierra",
+          "Matias F. Valenzuela",
+          "Ezequiel Dantas",
+          "Theodore M. Nelson",
+          "Egle Cekanaviciute",
+          "Gabriel Deards",
+          "Jonathan Foox",
+          "S. Anand Narayanan",
+          "Caleb M. Schmidt",
+          "Michael A. Schmidt",
+          "Julian C. Schmidt",
+          "Sean Mullane",
+          "Seth Stravers Tigchelaar",
+          "Steven Levitte",
+          "Craig Westover",
+          "Chandrima Bhattacharya",
+          "Serena Lucotti",
+          "Jeremy Wain Hirschberg",
+          "Jacqueline Proszynski",
+          "Marissa Burke",
+          "Ashley Kleinman",
+          "Daniel J. Butler",
+          "Conor Loy",
+          "Omary Mzava",
+          "Joan Lenz",
+          "Doru Paul",
+          "Christopher Mozsary",
+          "Lauren M. Sanders",
+          "Lynn E. Taylor",
+          "Chintan O. Patel",
+          "Sharib A. Khan",
+          "Mir Suhail",
+          "Syed G. Byhaqui",
+          "Burhan Aslam",
+          "Aaron S Gajadhar",
+          "Lucy Williamson",
+          "Purvi Tandel",
+          "Qiu Yang",
+          "Jessica Chu",
+          "Ryan W. Benz",
+          "Asim Siddiqui",
+          "Daniel Hornburg",
+          "Kelly Blease",
+          "Juan Moreno",
+          "Andrew Boddicker",
+          "Junhua Zhao",
+          "Bryan Lajoie",
+          "Ryan T. Scott",
+          "Rachel R. Gilbert",
+          "San-huei Lai Polo",
+          "Andrew Altomare",
+          "Semyon Kruglyak",
+          "Shawn Levy",
+          "Ishara Ariyapala",
+          "Joanne Beer",
+          "Bingqing Zhang",
+          "Briana M. Hudson",
+          "Aric Rininger",
+          "Sarah E. Church",
+          "Afshin Beheshti",
+          "George M. Church",
+          "Scott M. Smith",
+          "Brian E. Crucian",
+          "Sara R. Zwart",
+          "Irina Matei",
+          "David C. Lyden",
+          "Francine Garrett-Bakelman",
+          "Jan Krumsiek",
+          "Qiuying Chen",
+          "Dawson Miller",
+          "Joe Shuga",
+          "Stephen Williams",
+          "Corey Nemec",
+          "Guy Trudel",
+          "Martin Pelchat",
+          "Odette Laneuville",
+          "Iwijn De Vlaminck",
+          "Steven Gross",
+          "Kelly L. Bolton",
+          "Susan M. Bailey",
+          "Richard Granstein",
+          "David Furman",
+          "Ari M. Melnick",
+          "Sylvain V. Costes",
+          "Bader Shirah",
+          "Min Yu",
+          "Anil S. Menon",
+          "Jaime Mateus",
+          "Cem Meydan",
+          "Christopher E. Mason"
+        ],
+        "summary": "The Space Omics and Medical Atlas (SOMA) and international astronaut biobank — 10.1038/s41586-024-07639-y"
+      },
+      {
+        "title": "Single-cell multi-ome and immune profiles of the Inspiration4 crew reveal conserved, cell-type, and sex-specific responses to spaceflight",
+        "doi": "10.1038/s41467-024-49211-2",
+        "authors": [
+          "JangKeun Kim",
+          "Braden T. Tierney",
+          "Eliah G. Overbey",
+          "Ezequiel Dantas",
+          "Matias Fuentealba Valenzuela",
+          "Jiwoon Park",
+          "S. Anand Narayanan",
+          "Fei Wu",
+          "Deena Najjar",
+          "Christopher R. Chin",
+          "Cem Meydan",
+          "Conor Loy",
+          "Begum Mathyk",
+          "Remi Klotz",
+          "Veronica Ortiz",
+          "Khiem Nguyen",
+          "Krista A. Ryon",
+          "Namita Damle",
+          "Nadia Houerbi",
+          "Laura I. Patras",
+          "Nathan Schanzer",
+          "Gwyneth A. Hutchinson",
+          "Jonathan Foox",
+          "Chandrima Bhattacharya",
+          "Matthew Mackay",
+          "Evan E. Afshin",
+          "Jeremy Wain Hirschberg",
+          "Ashley Kleinman",
+          "Julian C. Schmidt",
+          "Caleb M. Schmidt",
+          "Michael Schmidt",
+          "Afshin Beheshti",
+          "Irina Matei",
+          "David Lyden",
+          "Sean Mullane",
+          "Amran Asadi",
+          "Joan S. Lenz",
+          "Omary Mzava",
+          "Min Yu",
+          "Saravanan Ganesan",
+          "Iwijn De Vlaminck",
+          "Ari M. Melnick",
+          "Darko Barisic",
+          "Daniel A. Winer",
+          "Sara R. Zwart",
+          "Brian E. Crucian",
+          "Scott M. Smith",
+          "Jaime Mateus",
+          "David Furman",
+          "Christopher E. Mason"
+        ],
+        "summary": "Single-cell multi-ome and immune profiles of the Inspiration4 crew reveal conserved, cell-type, and sex-specific responses to spaceflight — 10.1038/s41467-024-49211-2"
+      },
+      {
+        "title": "Collection of Biospecimens from the Inspiration4 Mission Establishes the Standards for the Space Omics and Medical Atlas (SOMA)",
+        "doi": "10.1038/s41467-024-48806-z",
+        "authors": [
+          "Eliah G. Overbey",
+          "Krista Ryon",
+          "JangKeun Kim",
+          "Braden Tierney",
+          "Remi Klotz",
+          "Veronica Ortiz",
+          "Sean Mullane",
+          "Julian C. Schmidt",
+          "Matthew MacKay",
+          "Namita Damle",
+          "Deena Najjar",
+          "Irina Matei",
+          "Laura Patras",
+          "J. Sebastian Garcia Medina",
+          "Ashley Kleinman",
+          "Jeremy Wain Hirschberg",
+          "Jacqueline Proszynski",
+          "S. Anand Narayanan",
+          "Caleb M. Schmidt",
+          "Evan E. Afshin",
+          "Lucinda Innes",
+          "Mateo Mejia Saldarriaga",
+          "Michael A. Schmidt",
+          "Richard D. Granstein",
+          "Bader Shirah",
+          "Min Yu",
+          "David Lyden",
+          "Jaime Mateus",
+          "Christopher E. Mason"
+        ],
+        "summary": "Collection of Biospecimens from the Inspiration4 Mission Establishes the Standards for the Space Omics and Medical Atlas (SOMA) — 10.1038/s41467-024-48806-z"
+      },
+      {
+        "title": "Longitudinal multi-omics analysis of host microbiome architecture and immune responses during short-term spaceflight",
+        "doi": "10.1038/s41564-024-01635-8",
+        "authors": [
+          "Braden T. Tierney",
+          "JangKeun Kim",
+          "Eliah G. Overbey",
+          "Krista A. Ryon",
+          "Jonathan Foox",
+          "Maria Sierra",
+          "Chandrima Bhattacharya",
+          "Namita Damle",
+          "Deena Najjar",
+          "Jiwoon Park",
+          "Sebastian Garcia Medina",
+          "Nadia Houerbi",
+          "Cem Meydan",
+          "Jeremy Wain Hershberg",
+          "Jake Qiu",
+          "Ashley Kleinman",
+          "Gabriel A. Al-Ghalith",
+          "Matthew MacKay",
+          "Evan E Afshin",
+          "Raja Dhir",
+          "Joseph Borg",
+          "Christine Gatt",
+          "Nicholas Brereton",
+          "Ben Readhead",
+          "Semir Beyaz",
+          "Kasthuri J Venkateswaran",
+          "Kelly Blease",
+          "Juan Moreno",
+          "Andrew Boddicker",
+          "Junhua Zhao",
+          "Bryan Lajoie",
+          "Ryan T. Scott",
+          "Andrew Altomare",
+          "Semyon Kruglyak",
+          "Shawn Levy",
+          "George Church",
+          "Christopher E. Mason"
+        ],
+        "summary": "Longitudinal multi-omics analysis of host microbiome architecture and immune responses during short-term spaceflight — 10.1038/s41564-024-01635-8"
+      },
+      {
+        "title": "CAMbank: CPT Field Processing v1",
+        "doi": "10.17504/protocols.io.kxygx338kg8j/v1",
+        "authors": [
+          "Eliah G. Overbey",
+          "Krista A. Ryon",
+          "JangKeun Kim",
+          "Christopher E Mason"
+        ],
+        "summary": "CAMbank: CPT Field Processing v1 — 10.17504/protocols.io.kxygx338kg8j/v1"
+      }
+    ],
+    "factors": [
+      "Time",
+      "Spaceflight"
+    ],
+    "contacts": [
+      {
+        "first_name": "Christopher",
+        "last_name": "Mason",
+        "role": "principal investigator",
+        "email": "chm2042@med.cornell.edu"
+      },
+      {
+        "first_name": "Eliah",
+        "last_name": "Overbey",
+        "role": "co-investigator",
+        "email": "elo4004@med.cornell.edu"
+      },
+      {
+        "first_name": "JangKeun",
+        "last_name": "Kim",
+        "role": "co-investigator",
+        "email": "jak4013@med.cornell.edu"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "C001_PBMC_L-92",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Peripheral Blood Mononuclear Cell"
+        },
+        "factors": {
+          "Spaceflight": "pre-flight",
+          "Time": "Launch minus 92"
+        },
+        "parameters": {},
+        "comments": {
+          "Comment": "Samples were processed immediately after collection"
+        }
+      },
+      {
+        "sample_name": "C001_PBMC_L-44",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Peripheral Blood Mononuclear Cell"
+        },
+        "factors": {
+          "Spaceflight": "pre-flight",
+          "Time": "Launch minus 44"
+        },
+        "parameters": {},
+        "comments": {
+          "Comment": "Samples were processed immediately after collection"
+        }
+      },
+      {
+        "sample_name": "C001_PBMC_L-3",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Peripheral Blood Mononuclear Cell"
+        },
+        "factors": {
+          "Spaceflight": "pre-flight",
+          "Time": "Launch minus 3"
+        },
+        "parameters": {},
+        "comments": {
+          "Comment": "Samples were processed immediately after collection"
+        }
+      },
+      {
+        "sample_name": "C001_PBMC_R+1",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Peripheral Blood Mononuclear Cell"
+        },
+        "factors": {
+          "Spaceflight": "post-flight",
+          "Time": "Return plus 1"
+        },
+        "parameters": {},
+        "comments": {
+          "Comment": "Samples were processed immediately after collection"
+        }
+      },
+      {
+        "sample_name": "C001_PBMC_R+45",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Peripheral Blood Mononuclear Cell"
+        },
+        "factors": {
+          "Spaceflight": "post-flight",
+          "Time": "Return plus 45"
+        },
+        "parameters": {},
+        "comments": {
+          "Comment": "Samples were processed immediately after collection"
+        }
+      },
+      {
+        "sample_name": "C001_PBMC_R+82",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Peripheral Blood Mononuclear Cell"
+        },
+        "factors": {
+          "Spaceflight": "post-flight",
+          "Time": "Return plus 82"
+        },
+        "parameters": {},
+        "comments": {
+          "Comment": "Samples were processed immediately after collection"
+        }
+      },
+      {
+        "sample_name": "C002_PBMC_L-92",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Female",
+          "Material Type": "Peripheral Blood Mononuclear Cell"
+        },
+        "factors": {
+          "Spaceflight": "pre-flight",
+          "Time": "Launch minus 92"
+        },
+        "parameters": {},
+        "comments": {
+          "Comment": "Samples were processed immediately after collection"
+        }
+      },
+      {
+        "sample_name": "C002_PBMC_L-44",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Female",
+          "Material Type": "Peripheral Blood Mononuclear Cell"
+        },
+        "factors": {
+          "Spaceflight": "pre-flight",
+          "Time": "Launch minus 44"
+        },
+        "parameters": {},
+        "comments": {
+          "Comment": "Samples were processed immediately after collection"
+        }
+      },
+      {
+        "sample_name": "C002_PBMC_L-3",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Female",
+          "Material Type": "Peripheral Blood Mononuclear Cell"
+        },
+        "factors": {
+          "Spaceflight": "pre-flight",
+          "Time": "Launch minus 3"
+        },
+        "parameters": {},
+        "comments": {
+          "Comment": "Samples were processed immediately after collection"
+        }
+      },
+      {
+        "sample_name": "C002_PBMC_R+1",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Female",
+          "Material Type": "Peripheral Blood Mononuclear Cell"
+        },
+        "factors": {
+          "Spaceflight": "post-flight",
+          "Time": "Return plus 1"
+        },
+        "parameters": {},
+        "comments": {
+          "Comment": "Samples were processed immediately after collection"
+        }
+      },
+      {
+        "sample_name": "C002_PBMC_R+45",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Female",
+          "Material Type": "Peripheral Blood Mononuclear Cell"
+        },
+        "factors": {
+          "Spaceflight": "post-flight",
+          "Time": "Return plus 45"
+        },
+        "parameters": {},
+        "comments": {
+          "Comment": "Samples were processed immediately after collection"
+        }
+      },
+      {
+        "sample_name": "C002_PBMC_R+82",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Female",
+          "Material Type": "Peripheral Blood Mononuclear Cell"
+        },
+        "factors": {
+          "Spaceflight": "post-flight",
+          "Time": "Return plus 82"
+        },
+        "parameters": {},
+        "comments": {
+          "Comment": "Samples were processed immediately after collection"
+        }
+      },
+      {
+        "sample_name": "C003_PBMC_L-92",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Female",
+          "Material Type": "Peripheral Blood Mononuclear Cell"
+        },
+        "factors": {
+          "Spaceflight": "pre-flight",
+          "Time": "Launch minus 92"
+        },
+        "parameters": {},
+        "comments": {
+          "Comment": "Samples were processed immediately after collection"
+        }
+      },
+      {
+        "sample_name": "C003_PBMC_L-44",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Female",
+          "Material Type": "Peripheral Blood Mononuclear Cell"
+        },
+        "factors": {
+          "Spaceflight": "pre-flight",
+          "Time": "Launch minus 44"
+        },
+        "parameters": {},
+        "comments": {
+          "Comment": "Samples were processed immediately after collection"
+        }
+      },
+      {
+        "sample_name": "C003_PBMC_L-3",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Female",
+          "Material Type": "Peripheral Blood Mononuclear Cell"
+        },
+        "factors": {
+          "Spaceflight": "pre-flight",
+          "Time": "Launch minus 3"
+        },
+        "parameters": {},
+        "comments": {
+          "Comment": "Samples were processed immediately after collection"
+        }
+      },
+      {
+        "sample_name": "C003_PBMC_R+1",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Female",
+          "Material Type": "Peripheral Blood Mononuclear Cell"
+        },
+        "factors": {
+          "Spaceflight": "post-flight",
+          "Time": "Return plus 1"
+        },
+        "parameters": {},
+        "comments": {
+          "Comment": "Samples were processed immediately after collection"
+        }
+      },
+      {
+        "sample_name": "C003_PBMC_R+45",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Female",
+          "Material Type": "Peripheral Blood Mononuclear Cell"
+        },
+        "factors": {
+          "Spaceflight": "post-flight",
+          "Time": "Return plus 45"
+        },
+        "parameters": {},
+        "comments": {
+          "Comment": "Samples were processed immediately after collection"
+        }
+      },
+      {
+        "sample_name": "C003_PBMC_R+82",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Female",
+          "Material Type": "Peripheral Blood Mononuclear Cell"
+        },
+        "factors": {
+          "Spaceflight": "post-flight",
+          "Time": "Return plus 82"
+        },
+        "parameters": {},
+        "comments": {
+          "Comment": "Samples were processed immediately after collection"
+        }
+      },
+      {
+        "sample_name": "C004_PBMC_L-92",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Peripheral Blood Mononuclear Cell"
+        },
+        "factors": {
+          "Spaceflight": "pre-flight",
+          "Time": "Launch minus 92"
+        },
+        "parameters": {},
+        "comments": {
+          "Comment": "Samples were processed immediately after collection"
+        }
+      },
+      {
+        "sample_name": "C004_PBMC_L-44",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Peripheral Blood Mononuclear Cell"
+        },
+        "factors": {
+          "Spaceflight": "pre-flight",
+          "Time": "Launch minus 44"
+        },
+        "parameters": {},
+        "comments": {
+          "Comment": "Samples were processed immediately after collection"
+        }
+      },
+      {
+        "sample_name": "C004_PBMC_L-3",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Peripheral Blood Mononuclear Cell"
+        },
+        "factors": {
+          "Spaceflight": "pre-flight",
+          "Time": "Launch minus 3"
+        },
+        "parameters": {},
+        "comments": {
+          "Comment": "Samples were processed immediately after collection"
+        }
+      },
+      {
+        "sample_name": "C004_PBMC_R+1",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Peripheral Blood Mononuclear Cell"
+        },
+        "factors": {
+          "Spaceflight": "post-flight",
+          "Time": "Return plus 1"
+        },
+        "parameters": {},
+        "comments": {
+          "Comment": "Samples were processed immediately after collection"
+        }
+      },
+      {
+        "sample_name": "C004_PBMC_R+45",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Peripheral Blood Mononuclear Cell"
+        },
+        "factors": {
+          "Spaceflight": "post-flight",
+          "Time": "Return plus 45"
+        },
+        "parameters": {},
+        "comments": {
+          "Comment": "Samples were processed immediately after collection"
+        }
+      },
+      {
+        "sample_name": "C004_PBMC_R+82",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Peripheral Blood Mononuclear Cell"
+        },
+        "factors": {
+          "Spaceflight": "post-flight",
+          "Time": "Return plus 82"
+        },
+        "parameters": {},
+        "comments": {
+          "Comment": "Samples were processed immediately after collection"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "chromatin-accessibility",
+      "platform": "Illumina NovaSeq 6000",
+      "qc": {
+        "Read Depth": "865912014"
+      },
+      "library": {
+        "Library Selection": "DNA",
+        "Library Layout": "Paired",
+        "Library QA Instrument": "Agilent TapeStation",
+        "Library Kit": "Chromium Next GEM Single Cell Multiome ATAC and Gene Expression kit"
+      },
+      "files": {
+        "raw": [],
+        "processed": [
+          "C001_PBMC_L-92",
+          "GeneLab raw data processing protocol - snRNA/snATAC sequencing",
+          "single nuclei",
+          "SO",
+          "http://purl.obolibrary.org/obo/SO_0000150",
+          "11776",
+          "DNA",
+          "Paired",
+          "Agilent TapeStation",
+          "High Sensitivity D5000 Screentape",
+          "953",
+          "read",
+          "Chromium Next GEM Single Cell Multiome ATAC and Gene Expression kit",
+          "Illumina NovaSeq 6000",
+          "bcl2fastq",
+          "51",
+          "24",
+          "snATACseq",
+          "GLDS-562_snATAC-Seq_PBMC_Chromatin_Accessibility_snATAC-seq_Processed_Data.xlsx",
+          "865912014",
+          "C001_PBMC_L-44",
+          "16990",
+          "587",
+          "751357060",
+          "C001_PBMC_L-3",
+          "1335",
+          "1234",
+          "244637727",
+          "C001_PBMC_R+1",
+          "1255",
+          "878",
+          "276566290",
+          "C001_PBMC_R+45",
+          "420",
+          "1474",
+          "193947648",
+          "C001_PBMC_R+82",
+          "10055",
+          "596",
+          "259184969",
+          "C002_PBMC_L-92",
+          "5673",
+          "860",
+          "2488463281",
+          "C002_PBMC_L-44",
+          "17699",
+          "582",
+          "741439861",
+          "C002_PBMC_L-3",
+          "1340",
+          "1094",
+          "212508604",
+          "C002_PBMC_R+1",
+          "1495",
+          "838",
+          "270884478",
+          "C002_PBMC_R+45",
+          "576",
+          "1267",
+          "352664422",
+          "C002_PBMC_R+82",
+          "9191",
+          "548",
+          "251879641",
+          "C003_PBMC_L-92",
+          "6032",
+          "863",
+          "2215007618",
+          "C003_PBMC_L-44",
+          "20000",
+          "575",
+          "685460275",
+          "C003_PBMC_L-3",
+          "1206",
+          "1059",
+          "219919701",
+          "C003_PBMC_R+1",
+          "1553",
+          "802",
+          "277528475",
+          "C003_PBMC_R+45",
+          "527",
+          "1189",
+          "367297591",
+          "C003_PBMC_R+82",
+          "12623",
+          "633",
+          "381270101",
+          "C004_PBMC_L-92",
+          "5179",
+          "831",
+          "1434878445",
+          "C004_PBMC_L-44",
+          "14667",
+          "623",
+          "710481419",
+          "C004_PBMC_L-3",
+          "3562",
+          "1296",
+          "244476570",
+          "C004_PBMC_R+1",
+          "1752",
+          "217714943",
+          "C004_PBMC_R+45",
+          "806",
+          "1096",
+          "359409692",
+          "C004_PBMC_R+82",
+          "14450",
+          "642",
+          "452150632"
+        ],
+        "reports": [
+          "GLDS-562_GsnATAC-Seq_raw_multiqc_GLsnATACseq_report.zip"
+        ]
+      }
+    },
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina NovaSeq 6000",
+      "qc": {
+        "Read Depth": "44441400",
+        "rRNA Contamination": "12.91"
+      },
+      "library": {
+        "Library Layout": "Paired",
+        "Library QA Instrument": "Agilent TapeStation",
+        "Library Kit": "Chromium Next GEM Single Cell 5’ Reagent Kits v2",
+        "Library Type": "TCR"
+      },
+      "files": {
+        "raw": [],
+        "processed": [
+          "C001_PBMC_L-3",
+          "GeneLab raw data processing protocol - single-cell immune profiling",
+          "single cell",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000187",
+          "572",
+          "Paired",
+          "Agilent TapeStation",
+          "High Sensitivity D5000 Screentape",
+          "708",
+          "percent",
+          "Chromium Next GEM Single Cell 5’ Reagent Kits v2",
+          "TCR",
+          "Illumina NovaSeq 6000",
+          "bcl2fastq",
+          "151",
+          "scRNAseq",
+          "GLDS-562_scRNA-Seq_VDJ_Results.xlsx",
+          "44441400",
+          "12.91",
+          "C001_PBMC_R+1",
+          "18821",
+          "703",
+          "56669483",
+          "18.43",
+          "C001_PBMC_R+45",
+          "8059",
+          "650",
+          "63924432",
+          "10.31",
+          "C001_PBMC_R+82",
+          "9433",
+          "684",
+          "111987650",
+          "20.22",
+          "C002_PBMC_L-3",
+          "394",
+          "827",
+          "56945791",
+          "21.59",
+          "C002_PBMC_R+1",
+          "16150",
+          "690",
+          "53284406",
+          "19.9",
+          "C002_PBMC_R+45",
+          "10165",
+          "642",
+          "57030483",
+          "16.98",
+          "C002_PBMC_R+82",
+          "7970",
+          "87560279",
+          "19.32",
+          "C003_PBMC_L-3",
+          "40",
+          "730",
+          "49167595",
+          "21.57",
+          "C003_PBMC_R+1",
+          "15849",
+          "698",
+          "52151904",
+          "20.69",
+          "C003_PBMC_R+45",
+          "12092",
+          "665",
+          "62610445",
+          "15.02",
+          "C003_PBMC_R+82",
+          "8977",
+          "675",
+          "85069408",
+          "20.51",
+          "C004_PBMC_L-3",
+          "632",
+          "716",
+          "54007190",
+          "21.51",
+          "C004_PBMC_R+1",
+          "15765",
+          "64663042",
+          "25.67",
+          "C004_PBMC_R+45",
+          "9615",
+          "649",
+          "56296634",
+          "19.85",
+          "C004_PBMC_R+82",
+          "10765",
+          "671",
+          "102752988",
+          "25.07"
+        ],
+        "reports": [
+          "GLDS-562_scRNA_Seq_raw_multiqc_GLscRNAseq_TCR_report.zip"
+        ]
+      }
+    },
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina NovaSeq 6000",
+      "qc": {
+        "Read Depth": "51514692",
+        "rRNA Contamination": "12.17"
+      },
+      "library": {
+        "Library Layout": "Paired",
+        "Library QA Instrument": "Agilent TapeStation",
+        "Library Kit": "Chromium Next GEM Single Cell 5’ Reagent Kits v2",
+        "Library Type": "BCR"
+      },
+      "files": {
+        "raw": [],
+        "processed": [
+          "C001_PBMC_L-3",
+          "GeneLab raw data processing protocol - single-cell immune profiling",
+          "single cell",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000187",
+          "686",
+          "Paired",
+          "Agilent TapeStation",
+          "High Sensitivity D5000 Screentape",
+          "732",
+          "percent",
+          "Chromium Next GEM Single Cell 5’ Reagent Kits v2",
+          "BCR",
+          "Illumina NovaSeq 6000",
+          "bcl2fastq",
+          "151",
+          "scRNAseq",
+          "GLDS-562_scRNA-Seq_VDJ_Results.xlsx",
+          "51514692",
+          "12.17",
+          "C001_PBMC_R+1",
+          "4936",
+          "684",
+          "71741337",
+          "24.33",
+          "C001_PBMC_R+45",
+          "1105",
+          "724",
+          "61919866",
+          "14.95",
+          "C001_PBMC_R+82",
+          "1498",
+          "718",
+          "62528724",
+          "25.68",
+          "C002_PBMC_L-3",
+          "583",
+          "726",
+          "69771061",
+          "19.71",
+          "C002_PBMC_R+1",
+          "4590",
+          "644",
+          "130285585",
+          "15.14",
+          "C002_PBMC_R+45",
+          "1894",
+          "707",
+          "68264043",
+          "22.14",
+          "C002_PBMC_R+82",
+          "1321",
+          "73062868",
+          "22.58",
+          "C003_PBMC_L-3",
+          "83",
+          "997",
+          "70152122",
+          "20.02",
+          "C003_PBMC_R+1",
+          "3983",
+          "675",
+          "169391939",
+          "16.77",
+          "C003_PBMC_R+45",
+          "1053",
+          "715",
+          "66566474",
+          "14.62",
+          "C003_PBMC_R+82",
+          "913",
+          "725",
+          "63370734",
+          "16.48",
+          "C004_PBMC_L-3",
+          "814",
+          "733",
+          "53357447",
+          "18.46",
+          "C004_PBMC_R+1",
+          "6186",
+          "119963896",
+          "26.3",
+          "C004_PBMC_R+45",
+          "1391",
+          "736",
+          "77489369",
+          "22.02",
+          "C004_PBMC_R+82",
+          "1816",
+          "690",
+          "83193284",
+          "27.42"
+        ],
+        "reports": [
+          "GLDS-562_scRNA_Seq_raw_multiqc_GLscRNAseq_BCR_report.zip"
+        ]
+      }
+    },
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina NovaSeq 6000",
+      "qc": {
+        "Read Depth": "638575194",
+        "rRNA Contamination": "6.17"
+      },
+      "library": {
+        "Library Selection": "polyA enrichment",
+        "Library Layout": "Paired",
+        "Library QA Instrument": "Agilent TapeStation",
+        "Library Kit": "Chromium Next GEM Single Cell Multiome ATAC and Gene Expression kit"
+      },
+      "files": {
+        "raw": [],
+        "processed": [
+          "C001_PBMC_L-92",
+          "GeneLab raw data processing protocol - snRNA/snATAC sequencing",
+          "single nuclei",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000187",
+          "11776",
+          "polyA enrichment",
+          "Paired",
+          "Agilent TapeStation",
+          "High Sensitivity D5000 Screentape",
+          "464",
+          "percent",
+          "Chromium Next GEM Single Cell Multiome ATAC and Gene Expression kit",
+          "Illumina NovaSeq 6000",
+          "bcl2fastq",
+          "28",
+          "90",
+          "snRNA-Seq",
+          "GLDS-562_snRNA-Seq_PBMC_Gene_Expression_snRNA-seq_Processed_Data.xlsx",
+          "638575194",
+          "6.17",
+          "C001_PBMC_L-44",
+          "16990",
+          "440",
+          "371825892",
+          "2.05",
+          "C001_PBMC_L-3",
+          "1335",
+          "487",
+          "282420820",
+          "8.6",
+          "C001_PBMC_R+1",
+          "1255",
+          "460",
+          "208015191",
+          "5.82",
+          "C001_PBMC_R+45",
+          "420",
+          "540",
+          "282529840",
+          "1.66",
+          "C001_PBMC_R+82",
+          "10055",
+          "560",
+          "243987826",
+          "3.92",
+          "C002_PBMC_L-92",
+          "5673",
+          "471",
+          "821856397",
+          "5.87",
+          "C002_PBMC_L-44",
+          "17699",
+          "450",
+          "272241531",
+          "2.12",
+          "C002_PBMC_L-3",
+          "1340",
+          "490",
+          "284129967",
+          "8.85",
+          "C002_PBMC_R+1",
+          "1495",
+          "497",
+          "214389120",
+          "7.41",
+          "C002_PBMC_R+45",
+          "576",
+          "559",
+          "305442877",
+          "2.01",
+          "C002_PBMC_R+82",
+          "9191",
+          "503",
+          "237851711",
+          "3.98",
+          "C003_PBMC_L-92",
+          "6032",
+          "424",
+          "799570986",
+          "5.14",
+          "C003_PBMC_L-44",
+          "20000",
+          "461",
+          "402436384",
+          "C003_PBMC_L-3",
+          "1206",
+          "473",
+          "293148512",
+          "9.44",
+          "C003_PBMC_R+1",
+          "1553",
+          "510",
+          "271305769",
+          "8.7",
+          "C003_PBMC_R+45",
+          "527",
+          "506",
+          "282800693",
+          "1.96",
+          "C003_PBMC_R+82",
+          "12623",
+          "496",
+          "339984410",
+          "3.87",
+          "C004_PBMC_L-92",
+          "5179",
+          "616293095",
+          "5.18",
+          "C004_PBMC_L-44",
+          "14667",
+          "466",
+          "400956795",
+          "1.92",
+          "C004_PBMC_L-3",
+          "3562",
+          "465",
+          "271320154",
+          "9.16",
+          "C004_PBMC_R+1",
+          "1752",
+          "292550622",
+          "7.43",
+          "C004_PBMC_R+45",
+          "806",
+          "486",
+          "288167212",
+          "2.39",
+          "C004_PBMC_R+82",
+          "14450",
+          "534",
+          "227289526",
+          "5.9"
+        ],
+        "reports": [
+          "GLDS-562_GsnRNA-Seq_raw_multiqc_GLsnRNAseq_report.zip"
+        ]
+      }
+    }
+  ]
+}

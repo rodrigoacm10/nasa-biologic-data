@@ -1,0 +1,2821 @@
+{
+  "investigation": {
+    "id": "OSD-334",
+    "title": "miRNA signature detection and countermeasures against HZE radiation exposure for tissue degeneration-Heart tissue",
+    "description": "Biological risks associated with space radiation and microgravity are major concerns for long-term space travel. Through a Systems Biology approach, our previous NASA work has shown both TGFÎ² signaling pathways and miRNAs have a critical impact on defining health risks with and without space irradiation.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "Hindlimb_Unloading, Simplified_Galactic_Cosmic_Ray_Simulation_Irradiation, High_Dose_Irradiation, Heavy_Ion_HZE_Irradiation, Multiple_Radiation_Types, Solar_Particle_Event_Simulation_Irradiation, Gamma_Irradiation, Low_LET_Irradiation",
+      "title": "miRNA signature detection and countermeasures against HZE radiation exposure for tissue degeneration",
+      "type": "Ground Study",
+      "link": "",
+      "funding": "This work was also supported by 15 NASA grant 16-ROSBFP_GL-0005: NNH16ZTT001N-FG Appendix G: Solicitation of Proposals for Flight and Ground Space Biology Research (Award Number: 80NSSC19K0883) and The Translational Research Institute for Space Health through NASA Cooperative Agreement NNX16AO69A (T-0404) awarded to AB.",
+      "managing_center": ""
+    },
+    "protocols": [
+      "nucleic acid extraction",
+      "library construction",
+      "nucleic acid sequencing",
+      "treatment protocol",
+      "irradiation protocol",
+      "sample collection"
+    ],
+    "publications": [
+      {
+        "title": "LET-Dependent Low Dose and Synergistic Inhibition of Human Angiogenesis by Charged Particles: Validation of miRNAs that Drive Inhibition",
+        "doi": "10.1016/j.isci.2020.101771",
+        "authors": [
+          "Yen-Ruh Wuu",
+          "Burong Hu",
+          "Hazeem Okunola",
+          "Amber M. Paul",
+          "Elizabeth A. Blaber",
+          "Margareth Cheng-Campbell",
+          "Afshin Beheshti",
+          "and Peter Grabham"
+        ],
+        "summary": "LET-Dependent Low Dose and Synergistic Inhibition of Human Angiogenesis by Charged Particles: Validation of miRNAs that Drive Inhibition — 10.1016/j.isci.2020.101771"
+      },
+      {
+        "title": "Circulating miRNA Spaceflight Signature Reveals Targets for Countermeasure Development",
+        "doi": "10.1016/j.celrep.2020.108448",
+        "authors": [
+          "Sherina Malkani",
+          "Christopher R. Chin",
+          "Egle Cekanaviciute",
+          "Marie Mortreux",
+          "Hazeem Okinula",
+          "Marcel Tarbier",
+          "Ann-Sofie Schreurs",
+          "Yasaman Shirazi-Fard",
+          "Candice G.T. Tahimic",
+          "Deyra N. Rodriguez",
+          "Brittany S. Sexton",
+          "Daniel Butler",
+          "Akanksha Verma",
+          "Daniela Bezdan",
+          "Ceyda Durmaz",
+          "Matthew MacKay",
+          "Ari Melnick",
+          "Cem Meydan",
+          "Sheng Li",
+          "Francine Garrett-Bakelman",
+          "Bastian Fromm",
+          "Ebrahim Afshinnekoo",
+          "Brad W. Langhorst",
+          "Eileen T. Dimalanta",
+          "Margareth Cheng-Campbell",
+          "Elizabeth Blaber",
+          "Jonathan C. Schisler",
+          "Charles Vanderburg",
+          "Marc R. Friedlander",
+          "J. Tyson McDonald",
+          "Sylvain V. Costes",
+          "Seward Rutkove",
+          "Peter Grabham",
+          "Christopher E. Mason",
+          "Afshin Beheshti"
+        ],
+        "summary": "Circulating miRNA Spaceflight Signature Reveals Targets for Countermeasure Development — 10.1016/j.celrep.2020.108448"
+      }
+    ],
+    "factors": [
+      "Hindlimb Unloading",
+      "Ionizing Radiation",
+      "Particle Charge"
+    ],
+    "contacts": [
+      {
+        "first_name": "Afshin",
+        "last_name": "Beheshti",
+        "role": "principal investigator",
+        "email": "afshin.beheshti@nasa.gov"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "F1-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F2-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F3-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F4-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F5-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F6-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F7-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F8-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F9-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F10-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F11-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F12-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F13-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F14-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F15-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F16-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F17-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F18-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F19-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F20-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Simplified Galactic Cosmic Ray Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "0.5",
+          "exposure duration": "25",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F21-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F22-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F23-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F24-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F25-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F26-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F27-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F28-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F29-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F30-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F31-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F32-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F33-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F34-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F35-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F36-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F37-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F38-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F39-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F40-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "mixed radiation field",
+          "Particle Charge": "NSRL Solar Particle Event Simulation"
+        },
+        "parameters": {
+          "linear energy transfer": "see protocol",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "",
+          "absorbed radiation dose": "1",
+          "exposure duration": "18-19",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F41-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F43-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F44-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F45-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F46-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F47-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F48-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F49-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F50-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F51-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F52-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F53-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F54-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F55-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F56-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F57-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F58-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F59-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F60-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "sham-irradiated",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose rate": "0",
+          "absorbed radiation dose": "0",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F61-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F62-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F63-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F64-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F65-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F66-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F67-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F68-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F69-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F70-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F71-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F72-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F73-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F74-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F75-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F76-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F77-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F78-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F79-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "F80-Heart",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "15",
+          "Genotype": "Wild Type",
+          "Material Type": "Heart"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "Cesium-137 gamma radiation",
+          "Particle Charge": ""
+        },
+        "parameters": {
+          "linear energy transfer": "",
+          "ionizing radiation energy": "0.662",
+          "absorbed radiation dose rate": "138.36",
+          "absorbed radiation dose": "5",
+          "exposure duration": "3.61",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "ionizing radiation device": "BNL-GRSF",
+          "Time of Sample Collection After Irradiation": "24",
+          "Euthanasia Method": "CO2 followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina Hiseq 2500",
+      "qc": {
+        "QA Instrument": "Agilent 2100 Bioanalyzer",
+        "QA Score": "> 7"
+      },
+      "library": {},
+      "files": {
+        "raw": [
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F1-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F2-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F3-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F4-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F5-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F6-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F7-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F8-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F9-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F10-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F11-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F12-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F13-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F14-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F15-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F16-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F17-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F18-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F19-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F20-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F21-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F22-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F23-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F24-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F25-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F26-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F27-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F28-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F29-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F30-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F31-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F32-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F33-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F34-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F35-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F36-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F37-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F38-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F39-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F40-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F41-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F43-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F44-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F45-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F46-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F47-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F48-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F49-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F50-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F51-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F52-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F53-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F54-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F55-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F56-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F57-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F58-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F59-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F60-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F61-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F62-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F63-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F64-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F65-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F66-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F67-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F68-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F69-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F70-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F71-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F72-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F73-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F74-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F75-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F76-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F77-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F78-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F79-Heart_RawData.fq.gz",
+          "GLDS-334_miRNA-Seq_LCS7565_AB_F80-Heart_RawData.fq.gz"
+        ],
+        "processed": [
+          "F1-Heart",
+          "nucleic acid sequencing",
+          "Agilent 2100 Bioanalyzer",
+          "> 7",
+          "base pair",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000244",
+          "cDNA",
+          "SINGLE",
+          "STRANDED",
+          "Illumina Hiseq 2500",
+          "50",
+          "miRNA-Seq",
+          "F2-Heart",
+          "F3-Heart",
+          "F4-Heart",
+          "F5-Heart",
+          "F6-Heart",
+          "F7-Heart",
+          "F8-Heart",
+          "F9-Heart",
+          "F10-Heart",
+          "F11-Heart",
+          "F12-Heart",
+          "F13-Heart",
+          "F14-Heart",
+          "F15-Heart",
+          "F16-Heart",
+          "F17-Heart",
+          "F18-Heart",
+          "F19-Heart",
+          "F20-Heart",
+          "F21-Heart",
+          "F22-Heart",
+          "F23-Heart",
+          "F24-Heart",
+          "F25-Heart",
+          "F26-Heart",
+          "F27-Heart",
+          "F28-Heart",
+          "F29-Heart",
+          "F30-Heart",
+          "F31-Heart",
+          "F32-Heart",
+          "F33-Heart",
+          "F34-Heart",
+          "F35-Heart",
+          "F36-Heart",
+          "F37-Heart",
+          "F38-Heart",
+          "F39-Heart",
+          "F40-Heart",
+          "F41-Heart",
+          "F43-Heart",
+          "F44-Heart",
+          "F45-Heart",
+          "F46-Heart",
+          "F47-Heart",
+          "F48-Heart",
+          "F49-Heart",
+          "F50-Heart",
+          "F51-Heart",
+          "F52-Heart",
+          "F53-Heart",
+          "F54-Heart",
+          "F55-Heart",
+          "F56-Heart",
+          "F57-Heart",
+          "F58-Heart",
+          "F59-Heart",
+          "F60-Heart",
+          "F61-Heart",
+          "F62-Heart",
+          "F63-Heart",
+          "F64-Heart",
+          "F65-Heart",
+          "F66-Heart",
+          "F67-Heart",
+          "F68-Heart",
+          "F69-Heart",
+          "F70-Heart",
+          "F71-Heart",
+          "F72-Heart",
+          "F73-Heart",
+          "F74-Heart",
+          "F75-Heart",
+          "F76-Heart",
+          "F77-Heart",
+          "F78-Heart",
+          "F79-Heart",
+          "F80-Heart"
+        ],
+        "reports": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,1522 @@
+{
+  "investigation": {
+    "id": "OSD-294",
+    "title": "Efficient Identification of Multiple Pathways: RNA-Seq Analysis of Livers from 56Fe Ion Irradiated Mice",
+    "description": "Background: mRNA interactions with each other and other signaling molecules define different biological pathways and functions. Researchers have been investigating various tools to analyze these types of interactions.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "Low_Dose_Irradiation, Heavy_Ion_HZE_Irradiation, High_LET_Irradiation",
+      "title": "",
+      "type": "Ground Study",
+      "link": "",
+      "funding": "This work was supported by the Ground-Based Studies in Space Radiobiology through the National Aeronautics and Space Administration NASA (NNX15AD65G). The funders did not participate in the design of the study and collection, analysis, and interpretation of data and in writing the manuscript.",
+      "managing_center": ""
+    },
+    "protocols": [
+      "irradiation protocol",
+      "sample collection",
+      "nucleic acid extraction",
+      "library construction",
+      "nucleic acid sequencing",
+      "sequence analysis data transformation",
+      "GeneLab raw data processing protocol",
+      "GeneLab RNAseq data processing protocol"
+    ],
+    "publications": [
+      {
+        "title": "Efficient identification of multiple pathways: RNA-Seq analysis of livers from 56Fe ion irradiated mice",
+        "doi": "10.1186/s12859-020-3446-5",
+        "authors": [
+          "Anna M. Nia",
+          "Tianlong Chen",
+          "Brooke L. Barnette",
+          "Kamil Khanipov",
+          "Robert L. Ullrich",
+          "Suresh K. Bhavnani",
+          "and Mark R. Emmett"
+        ],
+        "summary": "Efficient identification of multiple pathways: RNA-Seq analysis of livers from 56Fe ion irradiated mice — 10.1186/s12859-020-3446-5"
+      }
+    ],
+    "factors": [
+      "Ionizing Radiation",
+      "Time of Sample Collection After Treatment"
+    ],
+    "contacts": [
+      {
+        "first_name": "Anna M.",
+        "last_name": "Nia",
+        "role": "submitter",
+        "email": "anna.nia@ucla.edu"
+      },
+      {
+        "first_name": "Mark R",
+        "last_name": "Emmett",
+        "role": "conceptualization role",
+        "email": "mremmett@UTMB.EDU"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "SRR10011581",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Left Lobe of the Liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Time of Sample Collection After Treatment": "1"
+        },
+        "parameters": {
+          "particle charge": "",
+          "ionizing radiation energy": "",
+          "linear energy transfer": "",
+          "absorbed radiation dose": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Sample Preservation Method": "dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "SRR10011582",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Left Lobe of the Liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Time of Sample Collection After Treatment": "1"
+        },
+        "parameters": {
+          "particle charge": "",
+          "ionizing radiation energy": "",
+          "linear energy transfer": "",
+          "absorbed radiation dose": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Sample Preservation Method": "dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "SRR10011583",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Left Lobe of the Liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Time of Sample Collection After Treatment": "1"
+        },
+        "parameters": {
+          "particle charge": "",
+          "ionizing radiation energy": "",
+          "linear energy transfer": "",
+          "absorbed radiation dose": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Sample Preservation Method": "dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "SRR10011584",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Left Lobe of the Liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Time of Sample Collection After Treatment": "2"
+        },
+        "parameters": {
+          "particle charge": "",
+          "ionizing radiation energy": "",
+          "linear energy transfer": "",
+          "absorbed radiation dose": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Sample Preservation Method": "dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "SRR10011585",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Left Lobe of the Liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Time of Sample Collection After Treatment": "2"
+        },
+        "parameters": {
+          "particle charge": "",
+          "ionizing radiation energy": "",
+          "linear energy transfer": "",
+          "absorbed radiation dose": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Sample Preservation Method": "dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "SRR10011586",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Left Lobe of the Liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Time of Sample Collection After Treatment": "2"
+        },
+        "parameters": {
+          "particle charge": "",
+          "ionizing radiation energy": "",
+          "linear energy transfer": "",
+          "absorbed radiation dose": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Sample Preservation Method": "dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "SRR10011587",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Left Lobe of the Liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Time of Sample Collection After Treatment": "4"
+        },
+        "parameters": {
+          "particle charge": "",
+          "ionizing radiation energy": "",
+          "linear energy transfer": "",
+          "absorbed radiation dose": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Sample Preservation Method": "dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "SRR10011588",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Left Lobe of the Liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Time of Sample Collection After Treatment": "4"
+        },
+        "parameters": {
+          "particle charge": "",
+          "ionizing radiation energy": "",
+          "linear energy transfer": "",
+          "absorbed radiation dose": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Sample Preservation Method": "dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "SRR10011589",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Left Lobe of the Liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Time of Sample Collection After Treatment": "4"
+        },
+        "parameters": {
+          "particle charge": "",
+          "ionizing radiation energy": "",
+          "linear energy transfer": "",
+          "absorbed radiation dose": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Sample Preservation Method": "dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "SRR10011590",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Left Lobe of the Liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Time of Sample Collection After Treatment": "9"
+        },
+        "parameters": {
+          "particle charge": "",
+          "ionizing radiation energy": "",
+          "linear energy transfer": "",
+          "absorbed radiation dose": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Sample Preservation Method": "dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "SRR10011591",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Left Lobe of the Liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Time of Sample Collection After Treatment": "9"
+        },
+        "parameters": {
+          "particle charge": "",
+          "ionizing radiation energy": "",
+          "linear energy transfer": "",
+          "absorbed radiation dose": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Sample Preservation Method": "dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "SRR10011592",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Left Lobe of the Liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Time of Sample Collection After Treatment": "9"
+        },
+        "parameters": {
+          "particle charge": "",
+          "ionizing radiation energy": "",
+          "linear energy transfer": "",
+          "absorbed radiation dose": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Sample Preservation Method": "dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "SRR10011593",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Left Lobe of the Liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Time of Sample Collection After Treatment": "12"
+        },
+        "parameters": {
+          "particle charge": "",
+          "ionizing radiation energy": "",
+          "linear energy transfer": "",
+          "absorbed radiation dose": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Sample Preservation Method": "dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "SRR10011594",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Left Lobe of the Liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Time of Sample Collection After Treatment": "12"
+        },
+        "parameters": {
+          "particle charge": "",
+          "ionizing radiation energy": "",
+          "linear energy transfer": "",
+          "absorbed radiation dose": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Sample Preservation Method": "dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "SRR10011595",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Left Lobe of the Liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Time of Sample Collection After Treatment": "12"
+        },
+        "parameters": {
+          "particle charge": "",
+          "ionizing radiation energy": "",
+          "linear energy transfer": "",
+          "absorbed radiation dose": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Sample Preservation Method": "dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "SRR10011596",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Left Lobe of the Liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Time of Sample Collection After Treatment": "1"
+        },
+        "parameters": {
+          "particle charge": "26",
+          "ionizing radiation energy": "600",
+          "linear energy transfer": "~ 175",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Preservation Method": "dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "SRR10011597",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Left Lobe of the Liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Time of Sample Collection After Treatment": "1"
+        },
+        "parameters": {
+          "particle charge": "26",
+          "ionizing radiation energy": "600",
+          "linear energy transfer": "~ 175",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Preservation Method": "dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "SRR10011598",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Left Lobe of the Liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Time of Sample Collection After Treatment": "1"
+        },
+        "parameters": {
+          "particle charge": "26",
+          "ionizing radiation energy": "600",
+          "linear energy transfer": "~ 175",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Preservation Method": "dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "SRR10011599",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Left Lobe of the Liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Time of Sample Collection After Treatment": "2"
+        },
+        "parameters": {
+          "particle charge": "26",
+          "ionizing radiation energy": "600",
+          "linear energy transfer": "~ 175",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Preservation Method": "dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "SRR10011600",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Left Lobe of the Liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Time of Sample Collection After Treatment": "2"
+        },
+        "parameters": {
+          "particle charge": "26",
+          "ionizing radiation energy": "600",
+          "linear energy transfer": "~ 175",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Preservation Method": "dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "SRR10011601",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Left Lobe of the Liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Time of Sample Collection After Treatment": "2"
+        },
+        "parameters": {
+          "particle charge": "26",
+          "ionizing radiation energy": "600",
+          "linear energy transfer": "~ 175",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Preservation Method": "dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "SRR10011602",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Left Lobe of the Liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Time of Sample Collection After Treatment": "4"
+        },
+        "parameters": {
+          "particle charge": "26",
+          "ionizing radiation energy": "600",
+          "linear energy transfer": "~ 175",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Preservation Method": "dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "SRR10011603",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Left Lobe of the Liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Time of Sample Collection After Treatment": "4"
+        },
+        "parameters": {
+          "particle charge": "26",
+          "ionizing radiation energy": "600",
+          "linear energy transfer": "~ 175",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Preservation Method": "dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "SRR10011604",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Left Lobe of the Liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Time of Sample Collection After Treatment": "4"
+        },
+        "parameters": {
+          "particle charge": "26",
+          "ionizing radiation energy": "600",
+          "linear energy transfer": "~ 175",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Preservation Method": "dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "SRR10011605",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Left Lobe of the Liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Time of Sample Collection After Treatment": "9"
+        },
+        "parameters": {
+          "particle charge": "26",
+          "ionizing radiation energy": "600",
+          "linear energy transfer": "~ 175",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Preservation Method": "dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "SRR10011606",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Left Lobe of the Liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Time of Sample Collection After Treatment": "9"
+        },
+        "parameters": {
+          "particle charge": "26",
+          "ionizing radiation energy": "600",
+          "linear energy transfer": "~ 175",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Preservation Method": "dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "SRR10011607",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Left Lobe of the Liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Time of Sample Collection After Treatment": "9"
+        },
+        "parameters": {
+          "particle charge": "26",
+          "ionizing radiation energy": "600",
+          "linear energy transfer": "~ 175",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Preservation Method": "dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "SRR10011608",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Left Lobe of the Liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Time of Sample Collection After Treatment": "12"
+        },
+        "parameters": {
+          "particle charge": "26",
+          "ionizing radiation energy": "600",
+          "linear energy transfer": "~ 175",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Preservation Method": "dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "SRR10011609",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Left Lobe of the Liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Time of Sample Collection After Treatment": "12"
+        },
+        "parameters": {
+          "particle charge": "26",
+          "ionizing radiation energy": "600",
+          "linear energy transfer": "~ 175",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Preservation Method": "dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "SRR10011610",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Animal Source": "Charles River Laboratories",
+          "Sex": "Male",
+          "Material Type": "Left Lobe of the Liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Time of Sample Collection After Treatment": "12"
+        },
+        "parameters": {
+          "particle charge": "26",
+          "ionizing radiation energy": "600",
+          "linear energy transfer": "~ 175",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Sample Preservation Method": "dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina HiSeq 1500",
+      "qc": {
+        "Read Depth": "32905344",
+        "rRNA Contamination": "10.02"
+      },
+      "library": {},
+      "files": {
+        "raw": [
+          "GLDS-294_rna-seq_SRR10011581_1.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011581_2.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011582_1.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011582_2.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011583_1.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011583_2.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011584_1.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011584_2.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011585_1.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011585_2.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011586_1.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011586_2.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011587_1.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011587_2.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011588_1.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011588_2.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011589_1.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011589_2.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011590_1.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011590_2.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011591_1.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011591_2.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011592_1.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011592_2.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011593_1.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011593_2.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011594_1.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011594_2.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011595_1.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011595_2.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011596_1.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011596_2.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011597_1.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011597_2.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011598_1.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011598_2.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011599_1.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011599_2.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011600_1.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011600_2.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011601_1.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011601_2.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011602_1.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011602_2.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011603_1.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011603_2.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011604_1.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011604_2.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011605_1.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011605_2.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011606_1.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011606_2.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011607_1.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011607_2.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011608_1.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011608_2.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011609_1.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011609_2.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011610_1.fastq.gz",
+          "GLDS-294_rna-seq_SRR10011610_2.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011581_R1_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011581_R2_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011581_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011581_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011582_R1_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011582_R2_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011582_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011582_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011583_R1_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011583_R2_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011583_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011583_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011584_R1_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011584_R2_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011584_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011584_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011585_R1_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011585_R2_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011585_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011585_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011586_R1_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011586_R2_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011586_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011586_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011587_R1_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011587_R2_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011587_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011587_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011588_R1_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011588_R2_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011588_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011588_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011589_R1_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011589_R2_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011589_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011589_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011590_R1_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011590_R2_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011590_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011590_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011591_R1_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011591_R2_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011591_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011591_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011592_R1_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011592_R2_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011592_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011592_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011593_R1_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011593_R2_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011593_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011593_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011594_R1_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011594_R2_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011594_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011594_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011595_R1_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011595_R2_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011595_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011595_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011596_R1_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011596_R2_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011596_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011596_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011597_R1_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011597_R2_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011597_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011597_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011598_R1_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011598_R2_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011598_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011598_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011599_R1_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011599_R2_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011599_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011599_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011600_R1_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011600_R2_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011600_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011600_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011601_R1_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011601_R2_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011601_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011601_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011602_R1_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011602_R2_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011602_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011602_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011603_R1_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011603_R2_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011603_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011603_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011604_R1_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011604_R2_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011604_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011604_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011605_R1_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011605_R2_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011605_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011605_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011606_R1_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011606_R2_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011606_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011606_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011607_R1_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011607_R2_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011607_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011607_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011608_R1_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011608_R2_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011608_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011608_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011609_R1_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011609_R2_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011609_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011609_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011610_R1_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011610_R2_raw.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011610_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011610_R2_trimmed.fastq.gz"
+        ],
+        "processed": [
+          "GLDS-294_rna-seq_GSE136165_Expression_Data.csv.gz",
+          "GLDS-294_rna_seq_SRR10011581_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011581_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011581_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-294_rna_seq_SRR10011581_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-294_rna_seq_SRR10011581_Aligned.toTranscriptome.out.bam",
+          "GLDS-294_rna_seq_SRR10011581_SJ.out.tab",
+          "GLDS-294_rna_seq_SRR10011582_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011582_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011582_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-294_rna_seq_SRR10011582_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-294_rna_seq_SRR10011582_Aligned.toTranscriptome.out.bam",
+          "GLDS-294_rna_seq_SRR10011582_SJ.out.tab",
+          "GLDS-294_rna_seq_SRR10011583_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011583_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011583_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-294_rna_seq_SRR10011583_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-294_rna_seq_SRR10011583_Aligned.toTranscriptome.out.bam",
+          "GLDS-294_rna_seq_SRR10011583_SJ.out.tab",
+          "GLDS-294_rna_seq_SRR10011584_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011584_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011584_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-294_rna_seq_SRR10011584_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-294_rna_seq_SRR10011584_Aligned.toTranscriptome.out.bam",
+          "GLDS-294_rna_seq_SRR10011584_SJ.out.tab",
+          "GLDS-294_rna_seq_SRR10011585_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011585_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011585_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-294_rna_seq_SRR10011585_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-294_rna_seq_SRR10011585_Aligned.toTranscriptome.out.bam",
+          "GLDS-294_rna_seq_SRR10011585_SJ.out.tab",
+          "GLDS-294_rna_seq_SRR10011586_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011586_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011586_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-294_rna_seq_SRR10011586_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-294_rna_seq_SRR10011586_Aligned.toTranscriptome.out.bam",
+          "GLDS-294_rna_seq_SRR10011586_SJ.out.tab",
+          "GLDS-294_rna_seq_SRR10011587_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011587_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011587_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-294_rna_seq_SRR10011587_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-294_rna_seq_SRR10011587_Aligned.toTranscriptome.out.bam",
+          "GLDS-294_rna_seq_SRR10011587_SJ.out.tab",
+          "GLDS-294_rna_seq_SRR10011588_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011588_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011588_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-294_rna_seq_SRR10011588_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-294_rna_seq_SRR10011588_Aligned.toTranscriptome.out.bam",
+          "GLDS-294_rna_seq_SRR10011588_SJ.out.tab",
+          "GLDS-294_rna_seq_SRR10011589_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011589_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011589_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-294_rna_seq_SRR10011589_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-294_rna_seq_SRR10011589_Aligned.toTranscriptome.out.bam",
+          "GLDS-294_rna_seq_SRR10011589_SJ.out.tab",
+          "GLDS-294_rna_seq_SRR10011590_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011590_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011590_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-294_rna_seq_SRR10011590_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-294_rna_seq_SRR10011590_Aligned.toTranscriptome.out.bam",
+          "GLDS-294_rna_seq_SRR10011590_SJ.out.tab",
+          "GLDS-294_rna_seq_SRR10011591_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011591_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011591_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-294_rna_seq_SRR10011591_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-294_rna_seq_SRR10011591_Aligned.toTranscriptome.out.bam",
+          "GLDS-294_rna_seq_SRR10011591_SJ.out.tab",
+          "GLDS-294_rna_seq_SRR10011592_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011592_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011592_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-294_rna_seq_SRR10011592_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-294_rna_seq_SRR10011592_Aligned.toTranscriptome.out.bam",
+          "GLDS-294_rna_seq_SRR10011592_SJ.out.tab",
+          "GLDS-294_rna_seq_SRR10011593_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011593_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011593_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-294_rna_seq_SRR10011593_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-294_rna_seq_SRR10011593_Aligned.toTranscriptome.out.bam",
+          "GLDS-294_rna_seq_SRR10011593_SJ.out.tab",
+          "GLDS-294_rna_seq_SRR10011594_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011594_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011594_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-294_rna_seq_SRR10011594_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-294_rna_seq_SRR10011594_Aligned.toTranscriptome.out.bam",
+          "GLDS-294_rna_seq_SRR10011594_SJ.out.tab",
+          "GLDS-294_rna_seq_SRR10011595_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011595_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011595_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-294_rna_seq_SRR10011595_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-294_rna_seq_SRR10011595_Aligned.toTranscriptome.out.bam",
+          "GLDS-294_rna_seq_SRR10011595_SJ.out.tab",
+          "GLDS-294_rna_seq_SRR10011596_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011596_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011596_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-294_rna_seq_SRR10011596_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-294_rna_seq_SRR10011596_Aligned.toTranscriptome.out.bam",
+          "GLDS-294_rna_seq_SRR10011596_SJ.out.tab",
+          "GLDS-294_rna_seq_SRR10011597_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011597_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011597_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-294_rna_seq_SRR10011597_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-294_rna_seq_SRR10011597_Aligned.toTranscriptome.out.bam",
+          "GLDS-294_rna_seq_SRR10011597_SJ.out.tab",
+          "GLDS-294_rna_seq_SRR10011598_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011598_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011598_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-294_rna_seq_SRR10011598_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-294_rna_seq_SRR10011598_Aligned.toTranscriptome.out.bam",
+          "GLDS-294_rna_seq_SRR10011598_SJ.out.tab",
+          "GLDS-294_rna_seq_SRR10011599_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011599_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011599_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-294_rna_seq_SRR10011599_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-294_rna_seq_SRR10011599_Aligned.toTranscriptome.out.bam",
+          "GLDS-294_rna_seq_SRR10011599_SJ.out.tab",
+          "GLDS-294_rna_seq_SRR10011600_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011600_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011600_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-294_rna_seq_SRR10011600_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-294_rna_seq_SRR10011600_Aligned.toTranscriptome.out.bam",
+          "GLDS-294_rna_seq_SRR10011600_SJ.out.tab",
+          "GLDS-294_rna_seq_SRR10011601_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011601_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011601_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-294_rna_seq_SRR10011601_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-294_rna_seq_SRR10011601_Aligned.toTranscriptome.out.bam",
+          "GLDS-294_rna_seq_SRR10011601_SJ.out.tab",
+          "GLDS-294_rna_seq_SRR10011602_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011602_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011602_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-294_rna_seq_SRR10011602_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-294_rna_seq_SRR10011602_Aligned.toTranscriptome.out.bam",
+          "GLDS-294_rna_seq_SRR10011602_SJ.out.tab",
+          "GLDS-294_rna_seq_SRR10011603_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011603_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011603_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-294_rna_seq_SRR10011603_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-294_rna_seq_SRR10011603_Aligned.toTranscriptome.out.bam",
+          "GLDS-294_rna_seq_SRR10011603_SJ.out.tab",
+          "GLDS-294_rna_seq_SRR10011604_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011604_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011604_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-294_rna_seq_SRR10011604_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-294_rna_seq_SRR10011604_Aligned.toTranscriptome.out.bam",
+          "GLDS-294_rna_seq_SRR10011604_SJ.out.tab",
+          "GLDS-294_rna_seq_SRR10011605_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011605_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011605_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-294_rna_seq_SRR10011605_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-294_rna_seq_SRR10011605_Aligned.toTranscriptome.out.bam",
+          "GLDS-294_rna_seq_SRR10011605_SJ.out.tab",
+          "GLDS-294_rna_seq_SRR10011606_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011606_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011606_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-294_rna_seq_SRR10011606_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-294_rna_seq_SRR10011606_Aligned.toTranscriptome.out.bam",
+          "GLDS-294_rna_seq_SRR10011606_SJ.out.tab",
+          "GLDS-294_rna_seq_SRR10011607_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011607_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011607_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-294_rna_seq_SRR10011607_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-294_rna_seq_SRR10011607_Aligned.toTranscriptome.out.bam",
+          "GLDS-294_rna_seq_SRR10011607_SJ.out.tab",
+          "GLDS-294_rna_seq_SRR10011608_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011608_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011608_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-294_rna_seq_SRR10011608_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-294_rna_seq_SRR10011608_Aligned.toTranscriptome.out.bam",
+          "GLDS-294_rna_seq_SRR10011608_SJ.out.tab",
+          "GLDS-294_rna_seq_SRR10011609_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011609_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011609_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-294_rna_seq_SRR10011609_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-294_rna_seq_SRR10011609_Aligned.toTranscriptome.out.bam",
+          "GLDS-294_rna_seq_SRR10011609_SJ.out.tab",
+          "GLDS-294_rna_seq_SRR10011610_R1_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011610_R2_trimmed.fastq.gz",
+          "GLDS-294_rna_seq_SRR10011610_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-294_rna_seq_SRR10011610_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-294_rna_seq_SRR10011610_Aligned.toTranscriptome.out.bam",
+          "GLDS-294_rna_seq_SRR10011610_SJ.out.tab",
+          "SRR10011581",
+          "GeneLab RNAseq data processing protocol",
+          "PAIRED",
+          "ribo-depletion",
+          "Illumina HiSeq 1500",
+          "50",
+          "percent",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000187",
+          "RNAseq",
+          "32905344",
+          "10.02",
+          "GLDS-294_rna_seq_SRR10011581.genes.results",
+          "GLDS-294_rna_seq_SRR10011581.isoforms.results",
+          "GLDS-294_rna_seq_RSEM_Unnormalized_Counts.csv",
+          "GLDS-294_rna_seq_STAR_Unnormalized_Counts.csv",
+          "GLDS-294_rna_seq_Normalized_Counts.csv",
+          "GLDS-294_rna_seq_SampleTable.csv",
+          "GLDS-294_rna_seq_contrasts.csv",
+          "GLDS-294_rna_seq_differential_expression.csv",
+          "SRR10011582",
+          "28318081",
+          "19.03",
+          "GLDS-294_rna_seq_SRR10011582.genes.results",
+          "GLDS-294_rna_seq_SRR10011582.isoforms.results",
+          "SRR10011583",
+          "27220319",
+          "18.68",
+          "GLDS-294_rna_seq_SRR10011583.genes.results",
+          "GLDS-294_rna_seq_SRR10011583.isoforms.results",
+          "SRR10011584",
+          "31264466",
+          "17.81",
+          "GLDS-294_rna_seq_SRR10011584.genes.results",
+          "GLDS-294_rna_seq_SRR10011584.isoforms.results",
+          "SRR10011585",
+          "31375164",
+          "15.24",
+          "GLDS-294_rna_seq_SRR10011585.genes.results",
+          "GLDS-294_rna_seq_SRR10011585.isoforms.results",
+          "SRR10011586",
+          "34782071",
+          "17.12",
+          "GLDS-294_rna_seq_SRR10011586.genes.results",
+          "GLDS-294_rna_seq_SRR10011586.isoforms.results",
+          "SRR10011587",
+          "24449063",
+          "1.87",
+          "GLDS-294_rna_seq_SRR10011587.genes.results",
+          "GLDS-294_rna_seq_SRR10011587.isoforms.results",
+          "SRR10011588",
+          "27944559",
+          "2.99",
+          "GLDS-294_rna_seq_SRR10011588.genes.results",
+          "GLDS-294_rna_seq_SRR10011588.isoforms.results",
+          "SRR10011589",
+          "23137137",
+          "1.8",
+          "GLDS-294_rna_seq_SRR10011589.genes.results",
+          "GLDS-294_rna_seq_SRR10011589.isoforms.results",
+          "SRR10011590",
+          "27983872",
+          "3.24",
+          "GLDS-294_rna_seq_SRR10011590.genes.results",
+          "GLDS-294_rna_seq_SRR10011590.isoforms.results",
+          "SRR10011591",
+          "30149494",
+          "2.36",
+          "GLDS-294_rna_seq_SRR10011591.genes.results",
+          "GLDS-294_rna_seq_SRR10011591.isoforms.results",
+          "SRR10011592",
+          "29855702",
+          "4.78",
+          "GLDS-294_rna_seq_SRR10011592.genes.results",
+          "GLDS-294_rna_seq_SRR10011592.isoforms.results",
+          "SRR10011593",
+          "26910777",
+          "6.46",
+          "GLDS-294_rna_seq_SRR10011593.genes.results",
+          "GLDS-294_rna_seq_SRR10011593.isoforms.results",
+          "SRR10011594",
+          "31877754",
+          "8.91",
+          "GLDS-294_rna_seq_SRR10011594.genes.results",
+          "GLDS-294_rna_seq_SRR10011594.isoforms.results",
+          "SRR10011595",
+          "33432277",
+          "11.05",
+          "GLDS-294_rna_seq_SRR10011595.genes.results",
+          "GLDS-294_rna_seq_SRR10011595.isoforms.results",
+          "SRR10011596",
+          "31868688",
+          "31.36",
+          "GLDS-294_rna_seq_SRR10011596.genes.results",
+          "GLDS-294_rna_seq_SRR10011596.isoforms.results",
+          "SRR10011597",
+          "37890611",
+          "25.14",
+          "GLDS-294_rna_seq_SRR10011597.genes.results",
+          "GLDS-294_rna_seq_SRR10011597.isoforms.results",
+          "SRR10011598",
+          "25953453",
+          "20.27",
+          "GLDS-294_rna_seq_SRR10011598.genes.results",
+          "GLDS-294_rna_seq_SRR10011598.isoforms.results",
+          "SRR10011599",
+          "47994834",
+          "31.14",
+          "GLDS-294_rna_seq_SRR10011599.genes.results",
+          "GLDS-294_rna_seq_SRR10011599.isoforms.results",
+          "SRR10011600",
+          "34603257",
+          "25.85",
+          "GLDS-294_rna_seq_SRR10011600.genes.results",
+          "GLDS-294_rna_seq_SRR10011600.isoforms.results",
+          "SRR10011601",
+          "32128695",
+          "28.75",
+          "GLDS-294_rna_seq_SRR10011601.genes.results",
+          "GLDS-294_rna_seq_SRR10011601.isoforms.results",
+          "SRR10011602",
+          "27386313",
+          "5.02",
+          "GLDS-294_rna_seq_SRR10011602.genes.results",
+          "GLDS-294_rna_seq_SRR10011602.isoforms.results",
+          "SRR10011603",
+          "29914981",
+          "7.18",
+          "GLDS-294_rna_seq_SRR10011603.genes.results",
+          "GLDS-294_rna_seq_SRR10011603.isoforms.results",
+          "SRR10011604",
+          "28626258",
+          "5.1",
+          "GLDS-294_rna_seq_SRR10011604.genes.results",
+          "GLDS-294_rna_seq_SRR10011604.isoforms.results",
+          "SRR10011605",
+          "24669187",
+          "2.13",
+          "GLDS-294_rna_seq_SRR10011605.genes.results",
+          "GLDS-294_rna_seq_SRR10011605.isoforms.results",
+          "SRR10011606",
+          "24014552",
+          "2.34",
+          "GLDS-294_rna_seq_SRR10011606.genes.results",
+          "GLDS-294_rna_seq_SRR10011606.isoforms.results",
+          "SRR10011607",
+          "28179114",
+          "1.89",
+          "GLDS-294_rna_seq_SRR10011607.genes.results",
+          "GLDS-294_rna_seq_SRR10011607.isoforms.results",
+          "SRR10011608",
+          "28350658",
+          "3.76",
+          "GLDS-294_rna_seq_SRR10011608.genes.results",
+          "GLDS-294_rna_seq_SRR10011608.isoforms.results",
+          "SRR10011609",
+          "31439904",
+          "4.45",
+          "GLDS-294_rna_seq_SRR10011609.genes.results",
+          "GLDS-294_rna_seq_SRR10011609.isoforms.results",
+          "SRR10011610",
+          "25132399",
+          "2.78",
+          "GLDS-294_rna_seq_SRR10011610.genes.results",
+          "GLDS-294_rna_seq_SRR10011610.isoforms.results"
+        ],
+        "reports": [
+          "GLDS-294_rna_seq_raw_multiqc_report.zip",
+          "GLDS-294_rna_seq_trimmed_multiqc_report.zip",
+          "GLDS-294_rna_seq_SRR10011581_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011581_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011581_Log.final.out",
+          "GLDS-294_rna_seq_align_multiqc_report.zip",
+          "GLDS-294_rna_seq_geneBody_cov_multiqc_report.zip",
+          "GLDS-294_rna_seq_infer_exp_multiqc_report.zip",
+          "GLDS-294_rna_seq_inner_dist_multiqc_report.zip",
+          "GLDS-294_rna_seq_read_dist_multiqc_report.zip",
+          "GLDS-294_rna_seq_RSEM_count_multiqc_report.zip",
+          "GLDS-294_rna_seq_SRR10011582_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011582_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011582_Log.final.out",
+          "GLDS-294_rna_seq_SRR10011583_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011583_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011583_Log.final.out",
+          "GLDS-294_rna_seq_SRR10011584_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011584_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011584_Log.final.out",
+          "GLDS-294_rna_seq_SRR10011585_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011585_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011585_Log.final.out",
+          "GLDS-294_rna_seq_SRR10011586_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011586_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011586_Log.final.out",
+          "GLDS-294_rna_seq_SRR10011587_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011587_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011587_Log.final.out",
+          "GLDS-294_rna_seq_SRR10011588_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011588_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011588_Log.final.out",
+          "GLDS-294_rna_seq_SRR10011589_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011589_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011589_Log.final.out",
+          "GLDS-294_rna_seq_SRR10011590_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011590_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011590_Log.final.out",
+          "GLDS-294_rna_seq_SRR10011591_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011591_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011591_Log.final.out",
+          "GLDS-294_rna_seq_SRR10011592_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011592_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011592_Log.final.out",
+          "GLDS-294_rna_seq_SRR10011593_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011593_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011593_Log.final.out",
+          "GLDS-294_rna_seq_SRR10011594_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011594_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011594_Log.final.out",
+          "GLDS-294_rna_seq_SRR10011595_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011595_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011595_Log.final.out",
+          "GLDS-294_rna_seq_SRR10011596_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011596_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011596_Log.final.out",
+          "GLDS-294_rna_seq_SRR10011597_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011597_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011597_Log.final.out",
+          "GLDS-294_rna_seq_SRR10011598_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011598_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011598_Log.final.out",
+          "GLDS-294_rna_seq_SRR10011599_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011599_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011599_Log.final.out",
+          "GLDS-294_rna_seq_SRR10011600_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011600_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011600_Log.final.out",
+          "GLDS-294_rna_seq_SRR10011601_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011601_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011601_Log.final.out",
+          "GLDS-294_rna_seq_SRR10011602_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011602_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011602_Log.final.out",
+          "GLDS-294_rna_seq_SRR10011603_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011603_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011603_Log.final.out",
+          "GLDS-294_rna_seq_SRR10011604_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011604_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011604_Log.final.out",
+          "GLDS-294_rna_seq_SRR10011605_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011605_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011605_Log.final.out",
+          "GLDS-294_rna_seq_SRR10011606_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011606_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011606_Log.final.out",
+          "GLDS-294_rna_seq_SRR10011607_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011607_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011607_Log.final.out",
+          "GLDS-294_rna_seq_SRR10011608_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011608_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011608_Log.final.out",
+          "GLDS-294_rna_seq_SRR10011609_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011609_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011609_Log.final.out",
+          "GLDS-294_rna_seq_SRR10011610_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011610_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-294_rna_seq_SRR10011610_Log.final.out"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,915 @@
+{
+  "investigation": {
+    "id": "OSD-784",
+    "title": "Multidirectional effect of low-intensity electrical myostimulation on gene expression and phenotype in thigh and calf muscles after one week of disuse - vastus lateralis data",
+    "description": "Low-intensity neuromuscular electrical stimulation (NMES) is often used as an alternative to exercise and high-intensity electrical stimulation to prevent the loss of muscle mass, strength, and endurance in spaceflight and in patients with severe chronic diseases. This study assessed the efficiency of low-intensity (~10% of maximal voluntary contraction) combined (low- and high-frequency) electrical stimulation in preventing the negative effects of weekly disuse (dry immersion without [DI, see a related dataset GSE271607] and with [DI+NMES] daily stimulation; 10 males in each group) on the strength and aerobic performance of the ankle plantar flexors and knee extensors, mitochondrial function in permeabilized muscle fibers, and the proteomic (quantitative mass spectrometry-based analysis) and transcriptomic (RNA-sequencing) profiles of the soleus muscle and vastus lateralis muscle.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "",
+      "title": "",
+      "type": "Ground Study",
+      "link": "",
+      "funding": "The study was supported by the Ministry of Science and Higher Education of the Russian Federation under agreement No 075-15-2022-298",
+      "managing_center": ""
+    },
+    "protocols": [
+      "Treatment protocol",
+      "sample collection",
+      "Nucleic Acid Extraction",
+      "Library Construction",
+      "Nucleic Acid Sequencing",
+      "GeneLab raw data processing protocol",
+      "GeneLab RNAseq data processing protocol"
+    ],
+    "publications": [
+      {
+        "title": "Multidirectional effect of low-intensity electrical myostimulation on gene expression and phenotype in thigh and calf muscles after one week of disuse",
+        "doi": "10.1101/2024.09.18.613609",
+        "authors": [
+          "Borzykh Anna A.",
+          "Zhedyaev Roman Y.",
+          "Ponomarev Ivan I.",
+          "Vepkhvadze Tatiana F.",
+          "Zgoda Viktor G.",
+          "Orlova Mira A.",
+          "Vavilov Nikita E.",
+          "Lednev Egor M.",
+          "Sharlo Kristina A.",
+          "Babkova Anastasia R.",
+          "Makhnovskii Pavel A.",
+          "Shenkman Boris S.",
+          "Rukavishnikov Ilya V.",
+          "Orlov Oleg I.",
+          "Tomilovskaya Elena S.",
+          "Popov Daniil V."
+        ],
+        "summary": "Multidirectional effect of low-intensity electrical myostimulation on gene expression and phenotype in thigh and calf muscles after one week of disuse — 10.1101/2024.09.18.613609"
+      }
+    ],
+    "factors": [
+      "Treatment"
+    ],
+    "contacts": [
+      {
+        "first_name": "Pavel",
+        "last_name": "Makhnovsky",
+        "role": "conceptualization role",
+        "email": "maxpauel@gmail.com"
+      },
+      {
+        "first_name": "Daniil",
+        "last_name": "Popov",
+        "role": "conceptualization role",
+        "email": "danil-popov@yandex.ru"
+      },
+      {
+        "first_name": "Anna",
+        "last_name": "Borzykh",
+        "role": "Author",
+        "email": "finegold@yandex.ru"
+      },
+      {
+        "first_name": "Roman",
+        "last_name": "Zhedyaev",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Ivan",
+        "last_name": "Ponomarev",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Tatiana",
+        "last_name": "Vepkhvadze",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Viktor",
+        "last_name": "Zgoda",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Mira",
+        "last_name": "Orlova",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Nikita",
+        "last_name": "Vavilov",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Egor",
+        "last_name": "Lednev",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Kristina",
+        "last_name": "Sharlo",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Anastasia",
+        "last_name": "Babkova",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Pavel",
+        "last_name": "Makhnovskii",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Boris",
+        "last_name": "Shenkman",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Ilya",
+        "last_name": "Rukavishnikov",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Oleg",
+        "last_name": "Orlov",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Elena",
+        "last_name": "Tomilovskaya",
+        "role": "Author",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "GSM8380486",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Vastus Lateralis",
+          "Sex": "Male",
+          "age": "38",
+          "Body Mass": "70-79",
+          "Body Height": "1.70-1.76",
+          "Body Mass Index": "24"
+        },
+        "factors": {
+          "Treatment": "before treatment"
+        },
+        "parameters": {
+          "Time": "Treatment - 14",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM8380488",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Vastus Lateralis",
+          "Sex": "Male",
+          "age": "38",
+          "Body Mass": "70-79",
+          "Body Height": "1.70-1.76",
+          "Body Mass Index": "24"
+        },
+        "factors": {
+          "Treatment": "6-day dry immersion + NMES"
+        },
+        "parameters": {
+          "Time": "Treatment + 6",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM8380490",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Vastus Lateralis",
+          "Sex": "Male",
+          "age": "34",
+          "Body Mass": "70-79",
+          "Body Height": "1.70-1.76",
+          "Body Mass Index": "26"
+        },
+        "factors": {
+          "Treatment": "before treatment"
+        },
+        "parameters": {
+          "Time": "Treatment - 14",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM8380492",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Vastus Lateralis",
+          "Sex": "Male",
+          "age": "34",
+          "Body Mass": "70-79",
+          "Body Height": "1.70-1.76",
+          "Body Mass Index": "26"
+        },
+        "factors": {
+          "Treatment": "6-day dry immersion + NMES"
+        },
+        "parameters": {
+          "Time": "Treatment + 6",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM8380494",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Vastus Lateralis",
+          "Sex": "Male",
+          "age": "39",
+          "Body Mass": "70-79",
+          "Body Height": "1.70-1.76",
+          "Body Mass Index": "23"
+        },
+        "factors": {
+          "Treatment": "before treatment"
+        },
+        "parameters": {
+          "Time": "Treatment - 14",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM8380496",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Vastus Lateralis",
+          "Sex": "Male",
+          "age": "39",
+          "Body Mass": "70-79",
+          "Body Height": "1.70-1.76",
+          "Body Mass Index": "23"
+        },
+        "factors": {
+          "Treatment": "6-day dry immersion + NMES"
+        },
+        "parameters": {
+          "Time": "Treatment + 6",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM8380498",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Vastus Lateralis",
+          "Sex": "Male",
+          "age": "29",
+          "Body Mass": "70-79",
+          "Body Height": "1.70-1.76",
+          "Body Mass Index": "24"
+        },
+        "factors": {
+          "Treatment": "before treatment"
+        },
+        "parameters": {
+          "Time": "Treatment - 14",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM8380500",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Vastus Lateralis",
+          "Sex": "Male",
+          "age": "29",
+          "Body Mass": "70-79",
+          "Body Height": "1.70-1.76",
+          "Body Mass Index": "24"
+        },
+        "factors": {
+          "Treatment": "6-day dry immersion + NMES"
+        },
+        "parameters": {
+          "Time": "Treatment + 6",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM8380502",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Vastus Lateralis",
+          "Sex": "Male",
+          "age": "30",
+          "Body Mass": "70-79",
+          "Body Height": "1.70-1.76",
+          "Body Mass Index": "25"
+        },
+        "factors": {
+          "Treatment": "before treatment"
+        },
+        "parameters": {
+          "Time": "Treatment - 14",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM8380504",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Vastus Lateralis",
+          "Sex": "Male",
+          "age": "30",
+          "Body Mass": "70-79",
+          "Body Height": "1.70-1.76",
+          "Body Mass Index": "25"
+        },
+        "factors": {
+          "Treatment": "6-day dry immersion + NMES"
+        },
+        "parameters": {
+          "Time": "Treatment + 6",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM8380506",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Vastus Lateralis",
+          "Sex": "Male",
+          "age": "37",
+          "Body Mass": "70-79",
+          "Body Height": "1.70-1.76",
+          "Body Mass Index": "24"
+        },
+        "factors": {
+          "Treatment": "before treatment"
+        },
+        "parameters": {
+          "Time": "Treatment - 14",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM8380508",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Vastus Lateralis",
+          "Sex": "Male",
+          "age": "37",
+          "Body Mass": "70-79",
+          "Body Height": "1.70-1.76",
+          "Body Mass Index": "24"
+        },
+        "factors": {
+          "Treatment": "6-day dry immersion + NMES"
+        },
+        "parameters": {
+          "Time": "Treatment + 6",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM8380510",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Vastus Lateralis",
+          "Sex": "Male",
+          "age": "34",
+          "Body Mass": "70-79",
+          "Body Height": "1.70-1.76",
+          "Body Mass Index": "26"
+        },
+        "factors": {
+          "Treatment": "before treatment"
+        },
+        "parameters": {
+          "Time": "Treatment - 14",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM8380512",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Vastus Lateralis",
+          "Sex": "Male",
+          "age": "34",
+          "Body Mass": "70-79",
+          "Body Height": "1.70-1.76",
+          "Body Mass Index": "26"
+        },
+        "factors": {
+          "Treatment": "6-day dry immersion + NMES"
+        },
+        "parameters": {
+          "Time": "Treatment + 6",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM8380514",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Vastus Lateralis",
+          "Sex": "Male",
+          "age": "26",
+          "Body Mass": "70-79",
+          "Body Height": "1.70-1.76",
+          "Body Mass Index": "28"
+        },
+        "factors": {
+          "Treatment": "before treatment"
+        },
+        "parameters": {
+          "Time": "Treatment - 14",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM8380516",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Vastus Lateralis",
+          "Sex": "Male",
+          "age": "26",
+          "Body Mass": "70-79",
+          "Body Height": "1.70-1.76",
+          "Body Mass Index": "28"
+        },
+        "factors": {
+          "Treatment": "6-day dry immersion + NMES"
+        },
+        "parameters": {
+          "Time": "Treatment + 6",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM8380518",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Vastus Lateralis",
+          "Sex": "Male",
+          "age": "37",
+          "Body Mass": "70-79",
+          "Body Height": "1.70-1.76",
+          "Body Mass Index": "20"
+        },
+        "factors": {
+          "Treatment": "before treatment"
+        },
+        "parameters": {
+          "Time": "Treatment - 14",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM8380520",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Vastus Lateralis",
+          "Sex": "Male",
+          "age": "37",
+          "Body Mass": "70-79",
+          "Body Height": "1.70-1.76",
+          "Body Mass Index": "20"
+        },
+        "factors": {
+          "Treatment": "6-day dry immersion + NMES"
+        },
+        "parameters": {
+          "Time": "Treatment + 6",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM8380522",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Vastus Lateralis",
+          "Sex": "Male",
+          "age": "29",
+          "Body Mass": "70-79",
+          "Body Height": "1.70-1.76",
+          "Body Mass Index": "23"
+        },
+        "factors": {
+          "Treatment": "before treatment"
+        },
+        "parameters": {
+          "Time": "Treatment - 14",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM8380524",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Material Type": "Vastus Lateralis",
+          "Sex": "Male",
+          "age": "29",
+          "Body Mass": "70-79",
+          "Body Height": "1.70-1.76",
+          "Body Mass Index": "23"
+        },
+        "factors": {
+          "Treatment": "6-day dry immersion + NMES"
+        },
+        "parameters": {
+          "Time": "Treatment + 6",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina NextSeq 550",
+      "qc": {
+        "QA Instrument": "Agilent TapeStation",
+        "QA Score": "greater than 7.8",
+        "Read Depth": "57070949",
+        "rRNA Contamination": "1.14"
+      },
+      "library": {
+        "Library Selection": "polyA enrichment",
+        "Library Layout": "SINGLE",
+        "Stranded": "STRANDED"
+      },
+      "files": {
+        "raw": [
+          "GLDS-681_rna-seq_GSM8380486_raw.fastq.gz",
+          "GLDS-681_rna-seq_GSM8380488_raw.fastq.gz",
+          "GLDS-681_rna-seq_GSM8380490_raw.fastq.gz",
+          "GLDS-681_rna-seq_GSM8380492_raw.fastq.gz",
+          "GLDS-681_rna-seq_GSM8380494_raw.fastq.gz",
+          "GLDS-681_rna-seq_GSM8380496_raw.fastq.gz",
+          "GLDS-681_rna-seq_GSM8380498_raw.fastq.gz",
+          "GLDS-681_rna-seq_GSM8380500_raw.fastq.gz",
+          "GLDS-681_rna-seq_GSM8380502_raw.fastq.gz",
+          "GLDS-681_rna-seq_GSM8380504_raw.fastq.gz",
+          "GLDS-681_rna-seq_GSM8380506_raw.fastq.gz",
+          "GLDS-681_rna-seq_GSM8380508_raw.fastq.gz",
+          "GLDS-681_rna-seq_GSM8380510_raw.fastq.gz",
+          "GLDS-681_rna-seq_GSM8380512_raw.fastq.gz",
+          "GLDS-681_rna-seq_GSM8380514_raw.fastq.gz",
+          "GLDS-681_rna-seq_GSM8380516_raw.fastq.gz",
+          "GLDS-681_rna-seq_GSM8380518_raw.fastq.gz",
+          "GLDS-681_rna-seq_GSM8380520_raw.fastq.gz",
+          "GLDS-681_rna-seq_GSM8380522_raw.fastq.gz",
+          "GLDS-681_rna-seq_GSM8380524_raw.fastq.gz",
+          "GLDS-681_rna_seq_GSM8380486_trimmed.fastq.gz",
+          "GLDS-681_rna_seq_GSM8380488_trimmed.fastq.gz",
+          "GLDS-681_rna_seq_GSM8380490_trimmed.fastq.gz",
+          "GLDS-681_rna_seq_GSM8380492_trimmed.fastq.gz",
+          "GLDS-681_rna_seq_GSM8380494_trimmed.fastq.gz",
+          "GLDS-681_rna_seq_GSM8380496_trimmed.fastq.gz",
+          "GLDS-681_rna_seq_GSM8380498_trimmed.fastq.gz",
+          "GLDS-681_rna_seq_GSM8380500_trimmed.fastq.gz",
+          "GLDS-681_rna_seq_GSM8380502_trimmed.fastq.gz",
+          "GLDS-681_rna_seq_GSM8380504_trimmed.fastq.gz",
+          "GLDS-681_rna_seq_GSM8380506_trimmed.fastq.gz",
+          "GLDS-681_rna_seq_GSM8380508_trimmed.fastq.gz",
+          "GLDS-681_rna_seq_GSM8380510_trimmed.fastq.gz",
+          "GLDS-681_rna_seq_GSM8380512_trimmed.fastq.gz",
+          "GLDS-681_rna_seq_GSM8380514_trimmed.fastq.gz",
+          "GLDS-681_rna_seq_GSM8380516_trimmed.fastq.gz",
+          "GLDS-681_rna_seq_GSM8380518_trimmed.fastq.gz",
+          "GLDS-681_rna_seq_GSM8380520_trimmed.fastq.gz",
+          "GLDS-681_rna_seq_GSM8380522_trimmed.fastq.gz",
+          "GLDS-681_rna_seq_GSM8380524_trimmed.fastq.gz"
+        ],
+        "processed": [
+          "GLDS-681_rna_seq_GSM8380486_trimmed.fastq.gz",
+          "GLDS-681_rna_seq_GSM8380486_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-681_rna_seq_GSM8380486_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-681_rna_seq_GSM8380486_Aligned.toTranscriptome.out.bam",
+          "GLDS-681_rna_seq_GSM8380486_SJ.out.tab",
+          "GLDS-681_rna_seq_GSM8380488_trimmed.fastq.gz",
+          "GLDS-681_rna_seq_GSM8380488_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-681_rna_seq_GSM8380488_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-681_rna_seq_GSM8380488_Aligned.toTranscriptome.out.bam",
+          "GLDS-681_rna_seq_GSM8380488_SJ.out.tab",
+          "GLDS-681_rna_seq_GSM8380490_trimmed.fastq.gz",
+          "GLDS-681_rna_seq_GSM8380490_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-681_rna_seq_GSM8380490_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-681_rna_seq_GSM8380490_Aligned.toTranscriptome.out.bam",
+          "GLDS-681_rna_seq_GSM8380490_SJ.out.tab",
+          "GLDS-681_rna_seq_GSM8380492_trimmed.fastq.gz",
+          "GLDS-681_rna_seq_GSM8380492_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-681_rna_seq_GSM8380492_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-681_rna_seq_GSM8380492_Aligned.toTranscriptome.out.bam",
+          "GLDS-681_rna_seq_GSM8380492_SJ.out.tab",
+          "GLDS-681_rna_seq_GSM8380494_trimmed.fastq.gz",
+          "GLDS-681_rna_seq_GSM8380494_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-681_rna_seq_GSM8380494_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-681_rna_seq_GSM8380494_Aligned.toTranscriptome.out.bam",
+          "GLDS-681_rna_seq_GSM8380494_SJ.out.tab",
+          "GLDS-681_rna_seq_GSM8380496_trimmed.fastq.gz",
+          "GLDS-681_rna_seq_GSM8380496_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-681_rna_seq_GSM8380496_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-681_rna_seq_GSM8380496_Aligned.toTranscriptome.out.bam",
+          "GLDS-681_rna_seq_GSM8380496_SJ.out.tab",
+          "GLDS-681_rna_seq_GSM8380498_trimmed.fastq.gz",
+          "GLDS-681_rna_seq_GSM8380498_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-681_rna_seq_GSM8380498_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-681_rna_seq_GSM8380498_Aligned.toTranscriptome.out.bam",
+          "GLDS-681_rna_seq_GSM8380498_SJ.out.tab",
+          "GLDS-681_rna_seq_GSM8380500_trimmed.fastq.gz",
+          "GLDS-681_rna_seq_GSM8380500_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-681_rna_seq_GSM8380500_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-681_rna_seq_GSM8380500_Aligned.toTranscriptome.out.bam",
+          "GLDS-681_rna_seq_GSM8380500_SJ.out.tab",
+          "GLDS-681_rna_seq_GSM8380502_trimmed.fastq.gz",
+          "GLDS-681_rna_seq_GSM8380502_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-681_rna_seq_GSM8380502_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-681_rna_seq_GSM8380502_Aligned.toTranscriptome.out.bam",
+          "GLDS-681_rna_seq_GSM8380502_SJ.out.tab",
+          "GLDS-681_rna_seq_GSM8380504_trimmed.fastq.gz",
+          "GLDS-681_rna_seq_GSM8380504_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-681_rna_seq_GSM8380504_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-681_rna_seq_GSM8380504_Aligned.toTranscriptome.out.bam",
+          "GLDS-681_rna_seq_GSM8380504_SJ.out.tab",
+          "GLDS-681_rna_seq_GSM8380506_trimmed.fastq.gz",
+          "GLDS-681_rna_seq_GSM8380506_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-681_rna_seq_GSM8380506_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-681_rna_seq_GSM8380506_Aligned.toTranscriptome.out.bam",
+          "GLDS-681_rna_seq_GSM8380506_SJ.out.tab",
+          "GLDS-681_rna_seq_GSM8380508_trimmed.fastq.gz",
+          "GLDS-681_rna_seq_GSM8380508_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-681_rna_seq_GSM8380508_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-681_rna_seq_GSM8380508_Aligned.toTranscriptome.out.bam",
+          "GLDS-681_rna_seq_GSM8380508_SJ.out.tab",
+          "GLDS-681_rna_seq_GSM8380510_trimmed.fastq.gz",
+          "GLDS-681_rna_seq_GSM8380510_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-681_rna_seq_GSM8380510_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-681_rna_seq_GSM8380510_Aligned.toTranscriptome.out.bam",
+          "GLDS-681_rna_seq_GSM8380510_SJ.out.tab",
+          "GLDS-681_rna_seq_GSM8380512_trimmed.fastq.gz",
+          "GLDS-681_rna_seq_GSM8380512_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-681_rna_seq_GSM8380512_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-681_rna_seq_GSM8380512_Aligned.toTranscriptome.out.bam",
+          "GLDS-681_rna_seq_GSM8380512_SJ.out.tab",
+          "GLDS-681_rna_seq_GSM8380514_trimmed.fastq.gz",
+          "GLDS-681_rna_seq_GSM8380514_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-681_rna_seq_GSM8380514_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-681_rna_seq_GSM8380514_Aligned.toTranscriptome.out.bam",
+          "GLDS-681_rna_seq_GSM8380514_SJ.out.tab",
+          "GLDS-681_rna_seq_GSM8380516_trimmed.fastq.gz",
+          "GLDS-681_rna_seq_GSM8380516_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-681_rna_seq_GSM8380516_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-681_rna_seq_GSM8380516_Aligned.toTranscriptome.out.bam",
+          "GLDS-681_rna_seq_GSM8380516_SJ.out.tab",
+          "GLDS-681_rna_seq_GSM8380518_trimmed.fastq.gz",
+          "GLDS-681_rna_seq_GSM8380518_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-681_rna_seq_GSM8380518_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-681_rna_seq_GSM8380518_Aligned.toTranscriptome.out.bam",
+          "GLDS-681_rna_seq_GSM8380518_SJ.out.tab",
+          "GLDS-681_rna_seq_GSM8380520_trimmed.fastq.gz",
+          "GLDS-681_rna_seq_GSM8380520_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-681_rna_seq_GSM8380520_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-681_rna_seq_GSM8380520_Aligned.toTranscriptome.out.bam",
+          "GLDS-681_rna_seq_GSM8380520_SJ.out.tab",
+          "GLDS-681_rna_seq_GSM8380522_trimmed.fastq.gz",
+          "GLDS-681_rna_seq_GSM8380522_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-681_rna_seq_GSM8380522_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-681_rna_seq_GSM8380522_Aligned.toTranscriptome.out.bam",
+          "GLDS-681_rna_seq_GSM8380522_SJ.out.tab",
+          "GLDS-681_rna_seq_GSM8380524_trimmed.fastq.gz",
+          "GLDS-681_rna_seq_GSM8380524_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-681_rna_seq_GSM8380524_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-681_rna_seq_GSM8380524_Aligned.toTranscriptome.out.bam",
+          "GLDS-681_rna_seq_GSM8380524_SJ.out.tab",
+          "GSM8380486",
+          "GeneLab RNAseq data processing protocol",
+          "~15",
+          "read",
+          "SO",
+          "http://purl.obolibrary.org/obo/SO_0000150",
+          "Agilent TapeStation",
+          "greater than 7.8",
+          "polyA enrichment",
+          "SINGLE",
+          "STRANDED",
+          "Illumina NextSeq 550",
+          "rna-seq",
+          "76",
+          "1.14",
+          "57070949",
+          "GLDS-681_rna_seq_GSM8380486.genes.results",
+          "GLDS-681_rna_seq_GSM8380486.isoforms.results",
+          "GLDS-681_rna_seq_RSEM_Unnormalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-681_rna_seq_STAR_Unnormalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-681_rna_seq_Normalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-681_rna_seq_SampleTable_GLbulkRNAseq.csv",
+          "GLDS-681_rna_seq_contrasts_GLbulkRNAseq.csv",
+          "GLDS-681_rna_seq_differential_expression_GLbulkRNAseq.csv",
+          "GSM8380488",
+          "1.55",
+          "53792335",
+          "GLDS-681_rna_seq_GSM8380488.genes.results",
+          "GLDS-681_rna_seq_GSM8380488.isoforms.results",
+          "GSM8380490",
+          "1.28",
+          "62390194",
+          "GLDS-681_rna_seq_GSM8380490.genes.results",
+          "GLDS-681_rna_seq_GSM8380490.isoforms.results",
+          "GSM8380492",
+          "1.08",
+          "58099888",
+          "GLDS-681_rna_seq_GSM8380492.genes.results",
+          "GLDS-681_rna_seq_GSM8380492.isoforms.results",
+          "GSM8380494",
+          "1.36",
+          "67593218",
+          "GLDS-681_rna_seq_GSM8380494.genes.results",
+          "GLDS-681_rna_seq_GSM8380494.isoforms.results",
+          "GSM8380496",
+          "1.44",
+          "65259267",
+          "GLDS-681_rna_seq_GSM8380496.genes.results",
+          "GLDS-681_rna_seq_GSM8380496.isoforms.results",
+          "GSM8380498",
+          "1.33",
+          "71731095",
+          "GLDS-681_rna_seq_GSM8380498.genes.results",
+          "GLDS-681_rna_seq_GSM8380498.isoforms.results",
+          "GSM8380500",
+          "1.24",
+          "55347835",
+          "GLDS-681_rna_seq_GSM8380500.genes.results",
+          "GLDS-681_rna_seq_GSM8380500.isoforms.results",
+          "GSM8380502",
+          "1.03",
+          "56813522",
+          "GLDS-681_rna_seq_GSM8380502.genes.results",
+          "GLDS-681_rna_seq_GSM8380502.isoforms.results",
+          "GSM8380504",
+          "1.32",
+          "64175208",
+          "GLDS-681_rna_seq_GSM8380504.genes.results",
+          "GLDS-681_rna_seq_GSM8380504.isoforms.results",
+          "GSM8380506",
+          "1.5",
+          "124490806",
+          "GLDS-681_rna_seq_GSM8380506.genes.results",
+          "GLDS-681_rna_seq_GSM8380506.isoforms.results",
+          "GSM8380508",
+          "1.83",
+          "65285962",
+          "GLDS-681_rna_seq_GSM8380508.genes.results",
+          "GLDS-681_rna_seq_GSM8380508.isoforms.results",
+          "GSM8380510",
+          "1.66",
+          "55924963",
+          "GLDS-681_rna_seq_GSM8380510.genes.results",
+          "GLDS-681_rna_seq_GSM8380510.isoforms.results",
+          "GSM8380512",
+          "0.76",
+          "59566994",
+          "GLDS-681_rna_seq_GSM8380512.genes.results",
+          "GLDS-681_rna_seq_GSM8380512.isoforms.results",
+          "GSM8380514",
+          "0.86",
+          "54272622",
+          "GLDS-681_rna_seq_GSM8380514.genes.results",
+          "GLDS-681_rna_seq_GSM8380514.isoforms.results",
+          "GSM8380516",
+          "57881762",
+          "GLDS-681_rna_seq_GSM8380516.genes.results",
+          "GLDS-681_rna_seq_GSM8380516.isoforms.results",
+          "GSM8380518",
+          "0.64",
+          "40427777",
+          "GLDS-681_rna_seq_GSM8380518.genes.results",
+          "GLDS-681_rna_seq_GSM8380518.isoforms.results",
+          "GSM8380520",
+          "0.73",
+          "41622065",
+          "GLDS-681_rna_seq_GSM8380520.genes.results",
+          "GLDS-681_rna_seq_GSM8380520.isoforms.results",
+          "GSM8380522",
+          "57517778",
+          "GLDS-681_rna_seq_GSM8380522.genes.results",
+          "GLDS-681_rna_seq_GSM8380522.isoforms.results",
+          "GSM8380524",
+          "1.2",
+          "71978742",
+          "GLDS-681_rna_seq_GSM8380524.genes.results",
+          "GLDS-681_rna_seq_GSM8380524.isoforms.results"
+        ],
+        "reports": [
+          "GLDS-681_rna_seq_raw_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-681_rna_seq_trimmed_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-681_rna_seq_GSM8380486_raw.fastq.gz_trimming_report.txt",
+          "GLDS-681_rna_seq_GSM8380486_Log.final.out",
+          "GLDS-681_rna_seq_align_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-681_rna_seq_geneBody_cov_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-681_rna_seq_infer_exp_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-681_rna_seq_read_dist_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-681_rna_seq_RSEM_count_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-681_rna_seq_GSM8380488_raw.fastq.gz_trimming_report.txt",
+          "GLDS-681_rna_seq_GSM8380488_Log.final.out",
+          "GLDS-681_rna_seq_GSM8380490_raw.fastq.gz_trimming_report.txt",
+          "GLDS-681_rna_seq_GSM8380490_Log.final.out",
+          "GLDS-681_rna_seq_GSM8380492_raw.fastq.gz_trimming_report.txt",
+          "GLDS-681_rna_seq_GSM8380492_Log.final.out",
+          "GLDS-681_rna_seq_GSM8380494_raw.fastq.gz_trimming_report.txt",
+          "GLDS-681_rna_seq_GSM8380494_Log.final.out",
+          "GLDS-681_rna_seq_GSM8380496_raw.fastq.gz_trimming_report.txt",
+          "GLDS-681_rna_seq_GSM8380496_Log.final.out",
+          "GLDS-681_rna_seq_GSM8380498_raw.fastq.gz_trimming_report.txt",
+          "GLDS-681_rna_seq_GSM8380498_Log.final.out",
+          "GLDS-681_rna_seq_GSM8380500_raw.fastq.gz_trimming_report.txt",
+          "GLDS-681_rna_seq_GSM8380500_Log.final.out",
+          "GLDS-681_rna_seq_GSM8380502_raw.fastq.gz_trimming_report.txt",
+          "GLDS-681_rna_seq_GSM8380502_Log.final.out",
+          "GLDS-681_rna_seq_GSM8380504_raw.fastq.gz_trimming_report.txt",
+          "GLDS-681_rna_seq_GSM8380504_Log.final.out",
+          "GLDS-681_rna_seq_GSM8380506_raw.fastq.gz_trimming_report.txt",
+          "GLDS-681_rna_seq_GSM8380506_Log.final.out",
+          "GLDS-681_rna_seq_GSM8380508_raw.fastq.gz_trimming_report.txt",
+          "GLDS-681_rna_seq_GSM8380508_Log.final.out",
+          "GLDS-681_rna_seq_GSM8380510_raw.fastq.gz_trimming_report.txt",
+          "GLDS-681_rna_seq_GSM8380510_Log.final.out",
+          "GLDS-681_rna_seq_GSM8380512_raw.fastq.gz_trimming_report.txt",
+          "GLDS-681_rna_seq_GSM8380512_Log.final.out",
+          "GLDS-681_rna_seq_GSM8380514_raw.fastq.gz_trimming_report.txt",
+          "GLDS-681_rna_seq_GSM8380514_Log.final.out",
+          "GLDS-681_rna_seq_GSM8380516_raw.fastq.gz_trimming_report.txt",
+          "GLDS-681_rna_seq_GSM8380516_Log.final.out",
+          "GLDS-681_rna_seq_GSM8380518_raw.fastq.gz_trimming_report.txt",
+          "GLDS-681_rna_seq_GSM8380518_Log.final.out",
+          "GLDS-681_rna_seq_GSM8380520_raw.fastq.gz_trimming_report.txt",
+          "GLDS-681_rna_seq_GSM8380520_Log.final.out",
+          "GLDS-681_rna_seq_GSM8380522_raw.fastq.gz_trimming_report.txt",
+          "GLDS-681_rna_seq_GSM8380522_Log.final.out",
+          "GLDS-681_rna_seq_GSM8380524_raw.fastq.gz_trimming_report.txt",
+          "GLDS-681_rna_seq_GSM8380524_Log.final.out"
+        ]
+      }
+    }
+  ]
+}

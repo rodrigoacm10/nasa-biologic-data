@@ -1,0 +1,963 @@
+{
+  "investigation": {
+    "id": "OSD-135",
+    "title": "Global gene expression analysis highlights microgravity sensitive key genes in longissimus dorsi and tongue of 30 days space-flown mice",
+    "description": "Microgravity as well as chronic muscle disuse are two causes of low back pain originated at least in part from paraspinal muscle deconditioning. At present no study investigated the complexity of the molecular changes in human or mouse paraspinal muscles exposed to microgravity.",
+    "mission": {
+      "name": "Bion_M1",
+      "start_date": "04/19/2013",
+      "end_date": "05/19/2013",
+      "link": "https://osdr.nasa.gov/bio/repo/data/missions/Bion_M1"
+    },
+    "project": {
+      "identifier": "Bion-M1",
+      "title": "",
+      "type": "Spaceflight Study",
+      "link": "",
+      "funding": "This work was supported from grants of the Department of Economics and Technology of the German Government (BMWi) through the German AeroSpace Board, Deutsches Zentrum fur Luft- und Raumfahrt (DLR), e.V. Bonn, Germany (grant # 50 WB821, 1121, and 1421 to DB).",
+      "managing_center": ""
+    },
+    "protocols": [
+      "animal husbandry protocol",
+      "animal and tissue sampling",
+      "radiation dosimetry",
+      "RNA extraction",
+      "labeling",
+      "nucleic acid hybridization",
+      "data collection",
+      "GeneLab microarray data processing protocol"
+    ],
+    "publications": [
+      {
+        "title": "Microgravity-Induced Transcriptome Adaptation in Mouse Paraspinal longissimus dorsi Muscle Highlights Insulin Resistance-Linked Genes.",
+        "doi": "10.3389/fphys.2017.00279",
+        "authors": [
+          "Gambara G",
+          "Salanova M",
+          "Ciciliot S",
+          "Furlan S",
+          "Gutsmann M",
+          "Schiffl G",
+          "Ungethuem U",
+          "Volpe P",
+          "Gunga HC",
+          "Blottner D"
+        ],
+        "summary": "Microgravity-Induced Transcriptome Adaptation in Mouse Paraspinal longissimus dorsi Muscle Highlights Insulin Resistance-Linked Genes. — 10.3389/fphys.2017.00279"
+      }
+    ],
+    "factors": [
+      "Spaceflight",
+      "Tissue"
+    ],
+    "contacts": [
+      {
+        "first_name": "Dieter",
+        "last_name": "Blottner",
+        "role": "principal investigator",
+        "email": "dieter.blottner@charite.de"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "Mmus_C57-6IBCh_LD_FLT_Rep1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6N",
+          "Sex": "Male",
+          "Animal Source": "Animal Breeding Facility - Branch of Shemyakin and Ovchinnikov Institute of Bioorganic Chemistry",
+          "Age at Launch": "19-20"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Tissue": "longissimus dorsi muscle"
+        },
+        "parameters": {
+          "Exposure Duration": "29.85",
+          "Absorbed Radiation Dose": "30.07",
+          "Low LET Average Abs. Dose (SPDs only)": "26.37",
+          "Low LET Average Abs. Dose (all detectors)": "26.54",
+          "High LET Average Abs. Dose (all detectors)": "4.51",
+          "Abs. Dose (GCR) RD3-B3": "3.07",
+          "Abs. Dose (ORB) RD3-B3": "0.13",
+          "Abs. Dose (Total) RD3-B3": "30.3",
+          "Low LET Max. Abs. Dose (all detectors)": "37.82",
+          "High LET Min. Abs. Dose (all detectors)": "2.51",
+          "High LET Max. Abs. Dose (all detectors)": "4.51",
+          "ionizing radiation": "space radiation"
+        },
+        "comments": {
+          "Original Submitted Sample": "GSM2474364",
+          "Source Description": "mouse flown aboard on Bion M1",
+          "Enclosure/Habitat": "Bion M1 Habitat"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6IBCh_LD_FLT_Rep2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6N",
+          "Sex": "Male",
+          "Animal Source": "Animal Breeding Facility - Branch of Shemyakin and Ovchinnikov Institute of Bioorganic Chemistry",
+          "Age at Launch": "19-20"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Tissue": "longissimus dorsi muscle"
+        },
+        "parameters": {
+          "Exposure Duration": "29.85",
+          "Absorbed Radiation Dose": "30.07",
+          "Low LET Average Abs. Dose (SPDs only)": "26.37",
+          "Low LET Average Abs. Dose (all detectors)": "26.54",
+          "High LET Average Abs. Dose (all detectors)": "4.51",
+          "Abs. Dose (GCR) RD3-B3": "3.07",
+          "Abs. Dose (ORB) RD3-B3": "0.13",
+          "Abs. Dose (Total) RD3-B3": "30.3",
+          "Low LET Max. Abs. Dose (all detectors)": "37.82",
+          "High LET Min. Abs. Dose (all detectors)": "2.51",
+          "High LET Max. Abs. Dose (all detectors)": "4.51",
+          "ionizing radiation": "space radiation"
+        },
+        "comments": {
+          "Original Submitted Sample": "GSM2474365",
+          "Source Description": "mouse flown aboard on Bion M1",
+          "Enclosure/Habitat": "Bion M1 Habitat"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6IBCh_LD_FLT_Rep3",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6N",
+          "Sex": "Male",
+          "Animal Source": "Animal Breeding Facility - Branch of Shemyakin and Ovchinnikov Institute of Bioorganic Chemistry",
+          "Age at Launch": "19-20"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Tissue": "longissimus dorsi muscle"
+        },
+        "parameters": {
+          "Exposure Duration": "29.85",
+          "Absorbed Radiation Dose": "30.07",
+          "Low LET Average Abs. Dose (SPDs only)": "26.37",
+          "Low LET Average Abs. Dose (all detectors)": "26.54",
+          "High LET Average Abs. Dose (all detectors)": "4.51",
+          "Abs. Dose (GCR) RD3-B3": "3.07",
+          "Abs. Dose (ORB) RD3-B3": "0.13",
+          "Abs. Dose (Total) RD3-B3": "30.3",
+          "Low LET Max. Abs. Dose (all detectors)": "37.82",
+          "High LET Min. Abs. Dose (all detectors)": "2.51",
+          "High LET Max. Abs. Dose (all detectors)": "4.51",
+          "ionizing radiation": "space radiation"
+        },
+        "comments": {
+          "Original Submitted Sample": "GSM2474366",
+          "Source Description": "mouse flown aboard on Bion M1",
+          "Enclosure/Habitat": "Bion M1 Habitat"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6IBCh_LD_FLT_Rep4",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6N",
+          "Sex": "Male",
+          "Animal Source": "Animal Breeding Facility - Branch of Shemyakin and Ovchinnikov Institute of Bioorganic Chemistry",
+          "Age at Launch": "19-20"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Tissue": "longissimus dorsi muscle"
+        },
+        "parameters": {
+          "Exposure Duration": "29.85",
+          "Absorbed Radiation Dose": "30.07",
+          "Low LET Average Abs. Dose (SPDs only)": "26.37",
+          "Low LET Average Abs. Dose (all detectors)": "26.54",
+          "High LET Average Abs. Dose (all detectors)": "4.51",
+          "Abs. Dose (GCR) RD3-B3": "3.07",
+          "Abs. Dose (ORB) RD3-B3": "0.13",
+          "Abs. Dose (Total) RD3-B3": "30.3",
+          "Low LET Max. Abs. Dose (all detectors)": "37.82",
+          "High LET Min. Abs. Dose (all detectors)": "2.51",
+          "High LET Max. Abs. Dose (all detectors)": "4.51",
+          "ionizing radiation": "space radiation"
+        },
+        "comments": {
+          "Original Submitted Sample": "GSM2474367",
+          "Source Description": "mouse flown aboard on Bion M1",
+          "Enclosure/Habitat": "Bion M1 Habitat"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6IBCh_LD_FLT_Rep5",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6N",
+          "Sex": "Male",
+          "Animal Source": "Animal Breeding Facility - Branch of Shemyakin and Ovchinnikov Institute of Bioorganic Chemistry",
+          "Age at Launch": "19-20"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Tissue": "longissimus dorsi muscle"
+        },
+        "parameters": {
+          "Exposure Duration": "29.85",
+          "Absorbed Radiation Dose": "30.07",
+          "Low LET Average Abs. Dose (SPDs only)": "26.37",
+          "Low LET Average Abs. Dose (all detectors)": "26.54",
+          "High LET Average Abs. Dose (all detectors)": "4.51",
+          "Abs. Dose (GCR) RD3-B3": "3.07",
+          "Abs. Dose (ORB) RD3-B3": "0.13",
+          "Abs. Dose (Total) RD3-B3": "30.3",
+          "Low LET Max. Abs. Dose (all detectors)": "37.82",
+          "High LET Min. Abs. Dose (all detectors)": "2.51",
+          "High LET Max. Abs. Dose (all detectors)": "4.51",
+          "ionizing radiation": "space radiation"
+        },
+        "comments": {
+          "Original Submitted Sample": "GSM2474368",
+          "Source Description": "mouse flown aboard on Bion M1",
+          "Enclosure/Habitat": "Bion M1 Habitat"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6IBCh_LD_GC_Rep1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6N",
+          "Sex": "Male",
+          "Animal Source": "Animal Breeding Facility - Branch of Shemyakin and Ovchinnikov Institute of Bioorganic Chemistry",
+          "Age at Launch": "19-20"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Tissue": "longissimus dorsi muscle"
+        },
+        "parameters": {
+          "Exposure Duration": "0",
+          "Absorbed Radiation Dose": "0",
+          "Low LET Average Abs. Dose (SPDs only)": "0",
+          "Low LET Average Abs. Dose (all detectors)": "0",
+          "High LET Average Abs. Dose (all detectors)": "0",
+          "Abs. Dose (GCR) RD3-B3": "0",
+          "Abs. Dose (ORB) RD3-B3": "0",
+          "Abs. Dose (Total) RD3-B3": "0",
+          "Low LET Max. Abs. Dose (all detectors)": "0",
+          "High LET Min. Abs. Dose (all detectors)": "0",
+          "High LET Max. Abs. Dose (all detectors)": "0",
+          "ionizing radiation": "non-irradiated"
+        },
+        "comments": {
+          "Original Submitted Sample": "GSM2474369",
+          "Source Description": "mouse housed in a replicate habitat of  Bion M1 biosatellite",
+          "Enclosure/Habitat": "Replicate habitat of Bion M1 biosatellite"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6IBCh_LD_GC_Rep2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6N",
+          "Sex": "Male",
+          "Animal Source": "Animal Breeding Facility - Branch of Shemyakin and Ovchinnikov Institute of Bioorganic Chemistry",
+          "Age at Launch": "19-20"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Tissue": "longissimus dorsi muscle"
+        },
+        "parameters": {
+          "Exposure Duration": "0",
+          "Absorbed Radiation Dose": "0",
+          "Low LET Average Abs. Dose (SPDs only)": "0",
+          "Low LET Average Abs. Dose (all detectors)": "0",
+          "High LET Average Abs. Dose (all detectors)": "0",
+          "Abs. Dose (GCR) RD3-B3": "0",
+          "Abs. Dose (ORB) RD3-B3": "0",
+          "Abs. Dose (Total) RD3-B3": "0",
+          "Low LET Max. Abs. Dose (all detectors)": "0",
+          "High LET Min. Abs. Dose (all detectors)": "0",
+          "High LET Max. Abs. Dose (all detectors)": "0",
+          "ionizing radiation": "non-irradiated"
+        },
+        "comments": {
+          "Original Submitted Sample": "GSM2474370",
+          "Source Description": "mouse housed in a replicate habitat of  Bion M1 biosatellite",
+          "Enclosure/Habitat": "Replicate habitat of Bion M1 biosatellite"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6IBCh_LD_GC_Rep3",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6N",
+          "Sex": "Male",
+          "Animal Source": "Animal Breeding Facility - Branch of Shemyakin and Ovchinnikov Institute of Bioorganic Chemistry",
+          "Age at Launch": "19-20"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Tissue": "longissimus dorsi muscle"
+        },
+        "parameters": {
+          "Exposure Duration": "0",
+          "Absorbed Radiation Dose": "0",
+          "Low LET Average Abs. Dose (SPDs only)": "0",
+          "Low LET Average Abs. Dose (all detectors)": "0",
+          "High LET Average Abs. Dose (all detectors)": "0",
+          "Abs. Dose (GCR) RD3-B3": "0",
+          "Abs. Dose (ORB) RD3-B3": "0",
+          "Abs. Dose (Total) RD3-B3": "0",
+          "Low LET Max. Abs. Dose (all detectors)": "0",
+          "High LET Min. Abs. Dose (all detectors)": "0",
+          "High LET Max. Abs. Dose (all detectors)": "0",
+          "ionizing radiation": "non-irradiated"
+        },
+        "comments": {
+          "Original Submitted Sample": "GSM2474371",
+          "Source Description": "mouse housed in a replicate habitat of  Bion M1 biosatellite",
+          "Enclosure/Habitat": "Replicate habitat of Bion M1 biosatellite"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6IBCh_LD_GC_Rep4",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6N",
+          "Sex": "Male",
+          "Animal Source": "Animal Breeding Facility - Branch of Shemyakin and Ovchinnikov Institute of Bioorganic Chemistry",
+          "Age at Launch": "19-20"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Tissue": "longissimus dorsi muscle"
+        },
+        "parameters": {
+          "Exposure Duration": "0",
+          "Absorbed Radiation Dose": "0",
+          "Low LET Average Abs. Dose (SPDs only)": "0",
+          "Low LET Average Abs. Dose (all detectors)": "0",
+          "High LET Average Abs. Dose (all detectors)": "0",
+          "Abs. Dose (GCR) RD3-B3": "0",
+          "Abs. Dose (ORB) RD3-B3": "0",
+          "Abs. Dose (Total) RD3-B3": "0",
+          "Low LET Max. Abs. Dose (all detectors)": "0",
+          "High LET Min. Abs. Dose (all detectors)": "0",
+          "High LET Max. Abs. Dose (all detectors)": "0",
+          "ionizing radiation": "non-irradiated"
+        },
+        "comments": {
+          "Original Submitted Sample": "GSM2474372",
+          "Source Description": "mouse housed in a replicate habitat of  Bion M1 biosatellite",
+          "Enclosure/Habitat": "Replicate habitat of Bion M1 biosatellite"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6IBCh_LD_GC_Rep5",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6N",
+          "Sex": "Male",
+          "Animal Source": "Animal Breeding Facility - Branch of Shemyakin and Ovchinnikov Institute of Bioorganic Chemistry",
+          "Age at Launch": "19-20"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Tissue": "longissimus dorsi muscle"
+        },
+        "parameters": {
+          "Exposure Duration": "0",
+          "Absorbed Radiation Dose": "0",
+          "Low LET Average Abs. Dose (SPDs only)": "0",
+          "Low LET Average Abs. Dose (all detectors)": "0",
+          "High LET Average Abs. Dose (all detectors)": "0",
+          "Abs. Dose (GCR) RD3-B3": "0",
+          "Abs. Dose (ORB) RD3-B3": "0",
+          "Abs. Dose (Total) RD3-B3": "0",
+          "Low LET Max. Abs. Dose (all detectors)": "0",
+          "High LET Min. Abs. Dose (all detectors)": "0",
+          "High LET Max. Abs. Dose (all detectors)": "0",
+          "ionizing radiation": "non-irradiated"
+        },
+        "comments": {
+          "Original Submitted Sample": "GSM2474373",
+          "Source Description": "mouse housed in a replicate habitat of  Bion M1 biosatellite",
+          "Enclosure/Habitat": "Replicate habitat of Bion M1 biosatellite"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6IBCh_LD_VIV_Rep1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6N",
+          "Sex": "Male",
+          "Animal Source": "Animal Breeding Facility - Branch of Shemyakin and Ovchinnikov Institute of Bioorganic Chemistry",
+          "Age at Launch": "19-20"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control",
+          "Tissue": "longissimus dorsi muscle"
+        },
+        "parameters": {
+          "Exposure Duration": "0",
+          "Absorbed Radiation Dose": "0",
+          "Low LET Average Abs. Dose (SPDs only)": "0",
+          "Low LET Average Abs. Dose (all detectors)": "0",
+          "High LET Average Abs. Dose (all detectors)": "0",
+          "Abs. Dose (GCR) RD3-B3": "0",
+          "Abs. Dose (ORB) RD3-B3": "0",
+          "Abs. Dose (Total) RD3-B3": "0",
+          "Low LET Max. Abs. Dose (all detectors)": "0",
+          "High LET Min. Abs. Dose (all detectors)": "0",
+          "High LET Max. Abs. Dose (all detectors)": "0",
+          "ionizing radiation": "non-irradiated"
+        },
+        "comments": {
+          "Original Submitted Sample": "GSM2474374",
+          "Source Description": "mouse housed in a standard animal facility (during the Bion flight)",
+          "Enclosure/Habitat": "Standard animal facility"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6IBCh_LD_VIV_Rep2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6N",
+          "Sex": "Male",
+          "Animal Source": "Animal Breeding Facility - Branch of Shemyakin and Ovchinnikov Institute of Bioorganic Chemistry",
+          "Age at Launch": "19-20"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control",
+          "Tissue": "longissimus dorsi muscle"
+        },
+        "parameters": {
+          "Exposure Duration": "0",
+          "Absorbed Radiation Dose": "0",
+          "Low LET Average Abs. Dose (SPDs only)": "0",
+          "Low LET Average Abs. Dose (all detectors)": "0",
+          "High LET Average Abs. Dose (all detectors)": "0",
+          "Abs. Dose (GCR) RD3-B3": "0",
+          "Abs. Dose (ORB) RD3-B3": "0",
+          "Abs. Dose (Total) RD3-B3": "0",
+          "Low LET Max. Abs. Dose (all detectors)": "0",
+          "High LET Min. Abs. Dose (all detectors)": "0",
+          "High LET Max. Abs. Dose (all detectors)": "0",
+          "ionizing radiation": "non-irradiated"
+        },
+        "comments": {
+          "Original Submitted Sample": "GSM2474375",
+          "Source Description": "mouse housed in a standard animal facility (during the Bion flight)",
+          "Enclosure/Habitat": "Standard animal facility"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6IBCh_LD_VIV_Rep3",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6N",
+          "Sex": "Male",
+          "Animal Source": "Animal Breeding Facility - Branch of Shemyakin and Ovchinnikov Institute of Bioorganic Chemistry",
+          "Age at Launch": "19-20"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control",
+          "Tissue": "longissimus dorsi muscle"
+        },
+        "parameters": {
+          "Exposure Duration": "0",
+          "Absorbed Radiation Dose": "0",
+          "Low LET Average Abs. Dose (SPDs only)": "0",
+          "Low LET Average Abs. Dose (all detectors)": "0",
+          "High LET Average Abs. Dose (all detectors)": "0",
+          "Abs. Dose (GCR) RD3-B3": "0",
+          "Abs. Dose (ORB) RD3-B3": "0",
+          "Abs. Dose (Total) RD3-B3": "0",
+          "Low LET Max. Abs. Dose (all detectors)": "0",
+          "High LET Min. Abs. Dose (all detectors)": "0",
+          "High LET Max. Abs. Dose (all detectors)": "0",
+          "ionizing radiation": "non-irradiated"
+        },
+        "comments": {
+          "Original Submitted Sample": "GSM2474376",
+          "Source Description": "mouse housed in a standard animal facility (during the Bion flight)",
+          "Enclosure/Habitat": "Standard animal facility"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6IBCh_LD_VIV_Rep4",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6N",
+          "Sex": "Male",
+          "Animal Source": "Animal Breeding Facility - Branch of Shemyakin and Ovchinnikov Institute of Bioorganic Chemistry",
+          "Age at Launch": "19-20"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control",
+          "Tissue": "longissimus dorsi muscle"
+        },
+        "parameters": {
+          "Exposure Duration": "0",
+          "Absorbed Radiation Dose": "0",
+          "Low LET Average Abs. Dose (SPDs only)": "0",
+          "Low LET Average Abs. Dose (all detectors)": "0",
+          "High LET Average Abs. Dose (all detectors)": "0",
+          "Abs. Dose (GCR) RD3-B3": "0",
+          "Abs. Dose (ORB) RD3-B3": "0",
+          "Abs. Dose (Total) RD3-B3": "0",
+          "Low LET Max. Abs. Dose (all detectors)": "0",
+          "High LET Min. Abs. Dose (all detectors)": "0",
+          "High LET Max. Abs. Dose (all detectors)": "0",
+          "ionizing radiation": "non-irradiated"
+        },
+        "comments": {
+          "Original Submitted Sample": "GSM2474377",
+          "Source Description": "mouse housed in a standard animal facility (during the Bion flight)",
+          "Enclosure/Habitat": "Standard animal facility"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6IBCh_LD_VIV_Rep5",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6N",
+          "Sex": "Male",
+          "Animal Source": "Animal Breeding Facility - Branch of Shemyakin and Ovchinnikov Institute of Bioorganic Chemistry",
+          "Age at Launch": "19-20"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control",
+          "Tissue": "longissimus dorsi muscle"
+        },
+        "parameters": {
+          "Exposure Duration": "0",
+          "Absorbed Radiation Dose": "0",
+          "Low LET Average Abs. Dose (SPDs only)": "0",
+          "Low LET Average Abs. Dose (all detectors)": "0",
+          "High LET Average Abs. Dose (all detectors)": "0",
+          "Abs. Dose (GCR) RD3-B3": "0",
+          "Abs. Dose (ORB) RD3-B3": "0",
+          "Abs. Dose (Total) RD3-B3": "0",
+          "Low LET Max. Abs. Dose (all detectors)": "0",
+          "High LET Min. Abs. Dose (all detectors)": "0",
+          "High LET Max. Abs. Dose (all detectors)": "0",
+          "ionizing radiation": "non-irradiated"
+        },
+        "comments": {
+          "Original Submitted Sample": "GSM2474378",
+          "Source Description": "mouse housed in a standard animal facility (during the Bion flight)",
+          "Enclosure/Habitat": "Standard animal facility"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6IBCh_TNG_FLT_Rep1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6N",
+          "Sex": "Male",
+          "Animal Source": "Animal Breeding Facility - Branch of Shemyakin and Ovchinnikov Institute of Bioorganic Chemistry",
+          "Age at Launch": "19-20"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Tissue": "tongue muscle"
+        },
+        "parameters": {
+          "Exposure Duration": "29.85",
+          "Absorbed Radiation Dose": "30.07",
+          "Low LET Average Abs. Dose (SPDs only)": "26.37",
+          "Low LET Average Abs. Dose (all detectors)": "26.54",
+          "High LET Average Abs. Dose (all detectors)": "4.51",
+          "Abs. Dose (GCR) RD3-B3": "3.07",
+          "Abs. Dose (ORB) RD3-B3": "0.13",
+          "Abs. Dose (Total) RD3-B3": "30.3",
+          "Low LET Max. Abs. Dose (all detectors)": "37.82",
+          "High LET Min. Abs. Dose (all detectors)": "2.51",
+          "High LET Max. Abs. Dose (all detectors)": "4.51",
+          "ionizing radiation": "space radiation"
+        },
+        "comments": {
+          "Original Submitted Sample": "GSM2474379",
+          "Source Description": "mouse flown aboard on Bion M1",
+          "Enclosure/Habitat": "Bion M1 Habitat"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6IBCh_TNG_FLT_Rep2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6N",
+          "Sex": "Male",
+          "Animal Source": "Animal Breeding Facility - Branch of Shemyakin and Ovchinnikov Institute of Bioorganic Chemistry",
+          "Age at Launch": "19-20"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Tissue": "tongue muscle"
+        },
+        "parameters": {
+          "Exposure Duration": "29.85",
+          "Absorbed Radiation Dose": "30.07",
+          "Low LET Average Abs. Dose (SPDs only)": "26.37",
+          "Low LET Average Abs. Dose (all detectors)": "26.54",
+          "High LET Average Abs. Dose (all detectors)": "4.51",
+          "Abs. Dose (GCR) RD3-B3": "3.07",
+          "Abs. Dose (ORB) RD3-B3": "0.13",
+          "Abs. Dose (Total) RD3-B3": "30.3",
+          "Low LET Max. Abs. Dose (all detectors)": "37.82",
+          "High LET Min. Abs. Dose (all detectors)": "2.51",
+          "High LET Max. Abs. Dose (all detectors)": "4.51",
+          "ionizing radiation": "space radiation"
+        },
+        "comments": {
+          "Original Submitted Sample": "GSM2474380",
+          "Source Description": "mouse flown aboard on Bion M1",
+          "Enclosure/Habitat": "Bion M1 Habitat"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6IBCh_TNG_FLT_Rep3",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6N",
+          "Sex": "Male",
+          "Animal Source": "Animal Breeding Facility - Branch of Shemyakin and Ovchinnikov Institute of Bioorganic Chemistry",
+          "Age at Launch": "19-20"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Tissue": "tongue muscle"
+        },
+        "parameters": {
+          "Exposure Duration": "29.85",
+          "Absorbed Radiation Dose": "30.07",
+          "Low LET Average Abs. Dose (SPDs only)": "26.37",
+          "Low LET Average Abs. Dose (all detectors)": "26.54",
+          "High LET Average Abs. Dose (all detectors)": "4.51",
+          "Abs. Dose (GCR) RD3-B3": "3.07",
+          "Abs. Dose (ORB) RD3-B3": "0.13",
+          "Abs. Dose (Total) RD3-B3": "30.3",
+          "Low LET Max. Abs. Dose (all detectors)": "37.82",
+          "High LET Min. Abs. Dose (all detectors)": "2.51",
+          "High LET Max. Abs. Dose (all detectors)": "4.51",
+          "ionizing radiation": "space radiation"
+        },
+        "comments": {
+          "Original Submitted Sample": "GSM2474381",
+          "Source Description": "mouse flown aboard on Bion M1",
+          "Enclosure/Habitat": "Bion M1 Habitat"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6IBCh_TNG_GC_Rep1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6N",
+          "Sex": "Male",
+          "Animal Source": "Animal Breeding Facility - Branch of Shemyakin and Ovchinnikov Institute of Bioorganic Chemistry",
+          "Age at Launch": "19-20"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Tissue": "tongue muscle"
+        },
+        "parameters": {
+          "Exposure Duration": "0",
+          "Absorbed Radiation Dose": "0",
+          "Low LET Average Abs. Dose (SPDs only)": "0",
+          "Low LET Average Abs. Dose (all detectors)": "0",
+          "High LET Average Abs. Dose (all detectors)": "0",
+          "Abs. Dose (GCR) RD3-B3": "0",
+          "Abs. Dose (ORB) RD3-B3": "0",
+          "Abs. Dose (Total) RD3-B3": "0",
+          "Low LET Max. Abs. Dose (all detectors)": "0",
+          "High LET Min. Abs. Dose (all detectors)": "0",
+          "High LET Max. Abs. Dose (all detectors)": "0",
+          "ionizing radiation": "non-irradiated"
+        },
+        "comments": {
+          "Original Submitted Sample": "GSM2474382",
+          "Source Description": "mouse housed in a replicate habitat of Bion M1 biosatellite",
+          "Enclosure/Habitat": "Replicate habitat of Bion M1 biosatellite"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6IBCh_TNG_GC_Rep2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6N",
+          "Sex": "Male",
+          "Animal Source": "Animal Breeding Facility - Branch of Shemyakin and Ovchinnikov Institute of Bioorganic Chemistry",
+          "Age at Launch": "19-20"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Tissue": "tongue muscle"
+        },
+        "parameters": {
+          "Exposure Duration": "0",
+          "Absorbed Radiation Dose": "0",
+          "Low LET Average Abs. Dose (SPDs only)": "0",
+          "Low LET Average Abs. Dose (all detectors)": "0",
+          "High LET Average Abs. Dose (all detectors)": "0",
+          "Abs. Dose (GCR) RD3-B3": "0",
+          "Abs. Dose (ORB) RD3-B3": "0",
+          "Abs. Dose (Total) RD3-B3": "0",
+          "Low LET Max. Abs. Dose (all detectors)": "0",
+          "High LET Min. Abs. Dose (all detectors)": "0",
+          "High LET Max. Abs. Dose (all detectors)": "0",
+          "ionizing radiation": "non-irradiated"
+        },
+        "comments": {
+          "Original Submitted Sample": "GSM2474383",
+          "Source Description": "mouse housed in a replicate habitat of Bion M1 biosatellite",
+          "Enclosure/Habitat": "Replicate habitat of Bion M1 biosatellite"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6IBCh_TNG_GC_Rep3",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6N",
+          "Sex": "Male",
+          "Animal Source": "Animal Breeding Facility - Branch of Shemyakin and Ovchinnikov Institute of Bioorganic Chemistry",
+          "Age at Launch": "19-20"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Tissue": "tongue muscle"
+        },
+        "parameters": {
+          "Exposure Duration": "0",
+          "Absorbed Radiation Dose": "0",
+          "Low LET Average Abs. Dose (SPDs only)": "0",
+          "Low LET Average Abs. Dose (all detectors)": "0",
+          "High LET Average Abs. Dose (all detectors)": "0",
+          "Abs. Dose (GCR) RD3-B3": "0",
+          "Abs. Dose (ORB) RD3-B3": "0",
+          "Abs. Dose (Total) RD3-B3": "0",
+          "Low LET Max. Abs. Dose (all detectors)": "0",
+          "High LET Min. Abs. Dose (all detectors)": "0",
+          "High LET Max. Abs. Dose (all detectors)": "0",
+          "ionizing radiation": "non-irradiated"
+        },
+        "comments": {
+          "Original Submitted Sample": "GSM2474384",
+          "Source Description": "mouse housed in a replicate habitat of Bion M1 biosatellite",
+          "Enclosure/Habitat": "Replicate habitat of Bion M1 biosatellite"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6IBCh_TNG_VIV_Rep1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6N",
+          "Sex": "Male",
+          "Animal Source": "Animal Breeding Facility - Branch of Shemyakin and Ovchinnikov Institute of Bioorganic Chemistry",
+          "Age at Launch": "19-20"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control",
+          "Tissue": "tongue muscle"
+        },
+        "parameters": {
+          "Exposure Duration": "0",
+          "Absorbed Radiation Dose": "0",
+          "Low LET Average Abs. Dose (SPDs only)": "0",
+          "Low LET Average Abs. Dose (all detectors)": "0",
+          "High LET Average Abs. Dose (all detectors)": "0",
+          "Abs. Dose (GCR) RD3-B3": "0",
+          "Abs. Dose (ORB) RD3-B3": "0",
+          "Abs. Dose (Total) RD3-B3": "0",
+          "Low LET Max. Abs. Dose (all detectors)": "0",
+          "High LET Min. Abs. Dose (all detectors)": "0",
+          "High LET Max. Abs. Dose (all detectors)": "0",
+          "ionizing radiation": "non-irradiated"
+        },
+        "comments": {
+          "Original Submitted Sample": "GSM2474385",
+          "Source Description": "mouse housed in a standard animal facility (during the Bion flight)",
+          "Enclosure/Habitat": "Standard animal facility"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6IBCh_TNG_VIV_Rep2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6N",
+          "Sex": "Male",
+          "Animal Source": "Animal Breeding Facility - Branch of Shemyakin and Ovchinnikov Institute of Bioorganic Chemistry",
+          "Age at Launch": "19-20"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control",
+          "Tissue": "tongue muscle"
+        },
+        "parameters": {
+          "Exposure Duration": "0",
+          "Absorbed Radiation Dose": "0",
+          "Low LET Average Abs. Dose (SPDs only)": "0",
+          "Low LET Average Abs. Dose (all detectors)": "0",
+          "High LET Average Abs. Dose (all detectors)": "0",
+          "Abs. Dose (GCR) RD3-B3": "0",
+          "Abs. Dose (ORB) RD3-B3": "0",
+          "Abs. Dose (Total) RD3-B3": "0",
+          "Low LET Max. Abs. Dose (all detectors)": "0",
+          "High LET Min. Abs. Dose (all detectors)": "0",
+          "High LET Max. Abs. Dose (all detectors)": "0",
+          "ionizing radiation": "non-irradiated"
+        },
+        "comments": {
+          "Original Submitted Sample": "GSM2474386",
+          "Source Description": "mouse housed in a standard animal facility (during the Bion flight)",
+          "Enclosure/Habitat": "Standard animal facility"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Affymetrix",
+      "qc": {
+        "QA Instrument": "2100 Bioanalyzer"
+      },
+      "library": {},
+      "files": {
+        "raw": [],
+        "processed": [
+          "Mmus_C57-6IBCh_LD_FLT_Rep1",
+          "GeneLab microarray data processing protocol",
+          "2100 Bioanalyzer",
+          "GSM2474364 E",
+          "GSM2474364 LE",
+          "biotin",
+          "GSM2474364",
+          "AFFY Mouse430A 2",
+          "GLDS-135_microarray_GSM2474364_DB_60_BF_LD_1.CEL.gz",
+          "GLDS-135_array_raw_intensities_probe_GLmicroarray.csv",
+          "GLDS-135_array_normalized_expression_probeset_GLmicroarray.csv",
+          "GLDS-135_array_normalized_intensities_probe_GLmicroarray.csv",
+          "Mmus_C57-6IBCh_LD_FLT_Rep2",
+          "GSM2474365 E",
+          "GSM2474365 LE",
+          "GSM2474365",
+          "GLDS-135_microarray_GSM2474365_DB_61_BF_LD_2.CEL.gz",
+          "Mmus_C57-6IBCh_LD_FLT_Rep3",
+          "GSM2474366 E",
+          "GSM2474366 LE",
+          "GSM2474366",
+          "GLDS-135_microarray_GSM2474366_DB_62_BF_LD_3.CEL.gz",
+          "Mmus_C57-6IBCh_LD_FLT_Rep4",
+          "GSM2474367 E",
+          "GSM2474367 LE",
+          "GSM2474367",
+          "GLDS-135_microarray_GSM2474367_DB_63_BF_LD4.CEL.gz",
+          "Mmus_C57-6IBCh_LD_FLT_Rep5",
+          "GSM2474368 E",
+          "GSM2474368 LE",
+          "GSM2474368",
+          "GLDS-135_microarray_GSM2474368_DB_64_BF_LD5.CEL.gz",
+          "Mmus_C57-6IBCh_LD_GC_Rep1",
+          "GSM2474369 E",
+          "GSM2474369 LE",
+          "GSM2474369",
+          "GLDS-135_microarray_GSM2474369_DB_75_BG_LD1.CEL.gz",
+          "Mmus_C57-6IBCh_LD_GC_Rep2",
+          "GSM2474370 E",
+          "GSM2474370 LE",
+          "GSM2474370",
+          "GLDS-135_microarray_GSM2474370_DB_76_BG_LD2.CEL.gz",
+          "Mmus_C57-6IBCh_LD_GC_Rep3",
+          "GSM2474371 E",
+          "GSM2474371 LE",
+          "GSM2474371",
+          "GLDS-135_microarray_GSM2474371_DB_77_BG_LD3.CEL.gz",
+          "Mmus_C57-6IBCh_LD_GC_Rep4",
+          "GSM2474372 E",
+          "GSM2474372 LE",
+          "GSM2474372",
+          "GLDS-135_microarray_GSM2474372_DB_78_BG_LD4.CEL.gz",
+          "Mmus_C57-6IBCh_LD_GC_Rep5",
+          "GSM2474373 E",
+          "GSM2474373 LE",
+          "GSM2474373",
+          "GLDS-135_microarray_GSM2474373_DB_79_BG_LD_5.CEL.gz",
+          "Mmus_C57-6IBCh_LD_VIV_Rep1",
+          "GSM2474374 E",
+          "GSM2474374 LE",
+          "GSM2474374",
+          "GLDS-135_microarray_GSM2474374_DB_53FC_LD_2.CEL.gz",
+          "Mmus_C57-6IBCh_LD_VIV_Rep2",
+          "GSM2474375 E",
+          "GSM2474375 LE",
+          "GSM2474375",
+          "GLDS-135_microarray_GSM2474375_DB_88_FC_LD_4_2.CEL.gz",
+          "Mmus_C57-6IBCh_LD_VIV_Rep3",
+          "GSM2474376 E",
+          "GSM2474376 LE",
+          "GSM2474376",
+          "GLDS-135_microarray_GSM2474376_DB_89_FC_LD_5.CEL.gz",
+          "Mmus_C57-6IBCh_LD_VIV_Rep4",
+          "GSM2474377 E",
+          "GSM2474377 LE",
+          "GSM2474377",
+          "GLDS-135_microarray_GSM2474377_DB_90_FC_LD_6.CEL.gz",
+          "Mmus_C57-6IBCh_LD_VIV_Rep5",
+          "GSM2474378 E",
+          "GSM2474378 LE",
+          "GSM2474378",
+          "GLDS-135_microarray_GSM2474378_DB_91_FC_LD_7.CEL.gz",
+          "Mmus_C57-6IBCh_TNG_FLT_Rep1",
+          "GSM2474379 E",
+          "GSM2474379 LE",
+          "GSM2474379",
+          "GLDS-135_microarray_GSM2474379_DB_65_BF_tan1.CEL.gz",
+          "Mmus_C57-6IBCh_TNG_FLT_Rep2",
+          "GSM2474380 E",
+          "GSM2474380 LE",
+          "GSM2474380",
+          "GLDS-135_microarray_GSM2474380_DB_66_BF_tan2.CEL.gz",
+          "Mmus_C57-6IBCh_TNG_FLT_Rep3",
+          "GSM2474381 E",
+          "GSM2474381 LE",
+          "GSM2474381",
+          "GLDS-135_microarray_GSM2474381_DB_67_BF_tan_3_2.CEL.gz",
+          "Mmus_C57-6IBCh_TNG_GC_Rep1",
+          "GSM2474382 E",
+          "GSM2474382 LE",
+          "GSM2474382",
+          "GLDS-135_microarray_GSM2474382_DB_80_BG_tan_1_2.CEL.gz",
+          "Mmus_C57-6IBCh_TNG_GC_Rep2",
+          "GSM2474383 E",
+          "GSM2474383 LE",
+          "GSM2474383",
+          "GLDS-135_microarray_GSM2474383_DB_81_BG_tan2.CEL.gz",
+          "Mmus_C57-6IBCh_TNG_GC_Rep3",
+          "GSM2474384 E",
+          "GSM2474384 LE",
+          "GSM2474384",
+          "GLDS-135_microarray_GSM2474384_DB_82_BG_tan_3.CEL.gz",
+          "Mmus_C57-6IBCh_TNG_VIV_Rep1",
+          "GSM2474385 E",
+          "GSM2474385 LE",
+          "GSM2474385",
+          "GLDS-135_microarray_GSM2474385_DB_92_FC_tan1_Mouse430A_2_.CEL.gz",
+          "Mmus_C57-6IBCh_TNG_VIV_Rep2",
+          "GSM2474386 E",
+          "GSM2474386 LE",
+          "GSM2474386",
+          "GLDS-135_microarray_GSM2474386_DB_93_FC_tan_2.CEL.gz"
+        ],
+        "reports": []
+      }
+    }
+  ]
+}

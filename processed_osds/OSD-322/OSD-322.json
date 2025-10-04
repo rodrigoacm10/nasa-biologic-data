@@ -1,0 +1,1946 @@
+{
+  "investigation": {
+    "id": "OSD-322",
+    "title": "Comparative RNA-Seq transcriptome analyses reveal dynamic time dependent effects of 56Fe, 16O, and 28Si irradiation on the induction of murine hepatocellular carcinoma",
+    "description": "One of the health risks posed to astronauts during deep space flights is exposure to high charge, high-energy (HZE) ions (Z>13) which can lead to induction of hepatocellular carcinoma (HCC). We performed comparative RNA-Seq transcriptomic analysis to assess the carcinogenic effects of 600 MeV/n 56Fe (0.2 Gy), 1 GeV/n 16O (0.2 Gy), and 350 MeV/n 28Si (0.2 Gy) ions in a mouse model for radiation-induced hepatocellular carcinoma.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "Heavy_Ion_HZE_Irradiation, Low_Dose_Irradiation, High_LET_Irradiation",
+      "title": "",
+      "type": "Ground Study",
+      "link": "",
+      "funding": "This work was supported by the Ground-Based Studies in Space Radiobiology through the National Aeronautics and Space Administration NASA (NNX15AD65G). The research was also funded in part through DOE award DE-HS0000031 to the National Academy of Sciences. Additionally, this research was partially supported by NASA/Texas Space Grant Consortium Fellowship (BLB), and Shirley Patricia Parker and Katherina Siebert Award for Excellence in Oncologic Scholarship (AMN and BLB).",
+      "managing_center": ""
+    },
+    "protocols": [
+      "sample collection",
+      "irradiation protocol",
+      "nucleic acid extraction",
+      "library construction",
+      "nucleic acid sequencing",
+      "sequence analysis data transformation"
+    ],
+    "publications": [
+      {
+        "title": "Comparative RNA-Seq transcriptome analyses reveal dynamic time-dependent effects of 56Fe, 16O, and 28Si irradiation on the induction of murine hepatocellular carcinoma.",
+        "doi": "10.1186/s12864-020-06869-4",
+        "authors": [
+          "Nia AM",
+          "Khanipov K",
+          "Barnette BL",
+          "Ullrich RL",
+          "Golovko G",
+          "Emmet MR"
+        ],
+        "summary": "Comparative RNA-Seq transcriptome analyses reveal dynamic time-dependent effects of 56Fe, 16O, and 28Si irradiation on the induction of murine hepatocellular carcinoma. — 10.1186/s12864-020-06869-4"
+      }
+    ],
+    "factors": [
+      "Ionizing Radiation",
+      "Time of Sample Collection After Treatment"
+    ],
+    "contacts": [
+      {
+        "first_name": "Anna",
+        "last_name": "Nia",
+        "role": "submitter",
+        "email": "anna.nia@ucla.edu"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "GSM4368976",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Time of Sample Collection After Treatment": "1"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "8",
+          "ionizing radiation energy": "1",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4368977",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Time of Sample Collection After Treatment": "1"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "8",
+          "ionizing radiation energy": "1",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4368978",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Time of Sample Collection After Treatment": "1"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "8",
+          "ionizing radiation energy": "1",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4368979",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Time of Sample Collection After Treatment": "12"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "8",
+          "ionizing radiation energy": "1",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4368980",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Time of Sample Collection After Treatment": "12"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "8",
+          "ionizing radiation energy": "1",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4368981",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Time of Sample Collection After Treatment": "12"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "8",
+          "ionizing radiation energy": "1",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4368982",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Time of Sample Collection After Treatment": "2"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "8",
+          "ionizing radiation energy": "1",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4368983",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Time of Sample Collection After Treatment": "2"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "8",
+          "ionizing radiation energy": "1",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4368984",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Time of Sample Collection After Treatment": "2"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "8",
+          "ionizing radiation energy": "1",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4368985",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Time of Sample Collection After Treatment": "4"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "8",
+          "ionizing radiation energy": "1",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4368986",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Time of Sample Collection After Treatment": "4"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "8",
+          "ionizing radiation energy": "1",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4368987",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Time of Sample Collection After Treatment": "4"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "8",
+          "ionizing radiation energy": "1",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4368988",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Time of Sample Collection After Treatment": "9"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "8",
+          "ionizing radiation energy": "1",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4368989",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Time of Sample Collection After Treatment": "9"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "8",
+          "ionizing radiation energy": "1",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4368990",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "O-16 ion radiation",
+          "Time of Sample Collection After Treatment": "9"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "8",
+          "ionizing radiation energy": "1",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4368991",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Si-28 ion radiation",
+          "Time of Sample Collection After Treatment": "1"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "14",
+          "ionizing radiation energy": "350",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4368992",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Si-28 ion radiation",
+          "Time of Sample Collection After Treatment": "1"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "14",
+          "ionizing radiation energy": "350",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4368993",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Si-28 ion radiation",
+          "Time of Sample Collection After Treatment": "1"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "14",
+          "ionizing radiation energy": "350",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4368994",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Si-28 ion radiation",
+          "Time of Sample Collection After Treatment": "12"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "14",
+          "ionizing radiation energy": "350",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4368995",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Si-28 ion radiation",
+          "Time of Sample Collection After Treatment": "12"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "14",
+          "ionizing radiation energy": "350",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4368996",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Si-28 ion radiation",
+          "Time of Sample Collection After Treatment": "12"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "14",
+          "ionizing radiation energy": "350",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4368997",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Si-28 ion radiation",
+          "Time of Sample Collection After Treatment": "2"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "14",
+          "ionizing radiation energy": "350",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4368998",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Si-28 ion radiation",
+          "Time of Sample Collection After Treatment": "2"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "14",
+          "ionizing radiation energy": "350",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4368999",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Si-28 ion radiation",
+          "Time of Sample Collection After Treatment": "2"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "14",
+          "ionizing radiation energy": "350",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4369000",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Si-28 ion radiation",
+          "Time of Sample Collection After Treatment": "4"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "14",
+          "ionizing radiation energy": "350",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4369001",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Si-28 ion radiation",
+          "Time of Sample Collection After Treatment": "4"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "14",
+          "ionizing radiation energy": "350",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4369002",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Si-28 ion radiation",
+          "Time of Sample Collection After Treatment": "4"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "14",
+          "ionizing radiation energy": "350",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4369003",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Si-28 ion radiation",
+          "Time of Sample Collection After Treatment": "9"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "14",
+          "ionizing radiation energy": "350",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4369004",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Si-28 ion radiation",
+          "Time of Sample Collection After Treatment": "9"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "14",
+          "ionizing radiation energy": "350",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4369005",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Si-28 ion radiation",
+          "Time of Sample Collection After Treatment": "9"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "14",
+          "ionizing radiation energy": "350",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4369006",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Time of Sample Collection After Treatment": "1"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "26",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4369007",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Time of Sample Collection After Treatment": "1"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "26",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4369008",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Time of Sample Collection After Treatment": "1"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "26",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4369009",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Time of Sample Collection After Treatment": "12"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "26",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4369010",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Time of Sample Collection After Treatment": "12"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "26",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4369011",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Time of Sample Collection After Treatment": "12"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "26",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4369012",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Time of Sample Collection After Treatment": "2"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "26",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4369013",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Time of Sample Collection After Treatment": "2"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "26",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4369014",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Time of Sample Collection After Treatment": "2"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "26",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4369015",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Time of Sample Collection After Treatment": "4"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "26",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4369016",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Time of Sample Collection After Treatment": "4"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "26",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4369017",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Time of Sample Collection After Treatment": "4"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "26",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4369018",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Time of Sample Collection After Treatment": "9"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "26",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4369019",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Time of Sample Collection After Treatment": "9"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "26",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4369020",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Time of Sample Collection After Treatment": "9"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "26",
+          "ionizing radiation energy": "600",
+          "absorbed radiation dose": "0.2",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory"
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4369021",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Time of Sample Collection After Treatment": "1"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": ""
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4369022",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Time of Sample Collection After Treatment": "1"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": ""
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4369023",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Time of Sample Collection After Treatment": "1"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": ""
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4369024",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Time of Sample Collection After Treatment": "12"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": ""
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4369025",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Time of Sample Collection After Treatment": "12"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": ""
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4369026",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Time of Sample Collection After Treatment": "12"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": ""
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4369027",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Time of Sample Collection After Treatment": "2"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": ""
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4369028",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Time of Sample Collection After Treatment": "2"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": ""
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4369029",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Time of Sample Collection After Treatment": "2"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": ""
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4369030",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Time of Sample Collection After Treatment": "4"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": ""
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4369031",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Time of Sample Collection After Treatment": "4"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": ""
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4369032",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Time of Sample Collection After Treatment": "4"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": ""
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4369033",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Time of Sample Collection After Treatment": "9"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": ""
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4369034",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Time of Sample Collection After Treatment": "9"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": ""
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM4369035",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C3H/HeNCrl",
+          "sex": "male",
+          "age": "8 to 10",
+          "Material Type": "Left lobe of liver"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Time of Sample Collection After Treatment": "9"
+        },
+        "parameters": {
+          "Euthanasia Method": "Carbon Dioxide",
+          "Sample Preservation Method": "snap-frozen on either dry ice or liquid nitrogen",
+          "Sample Storage Temperature": "-80",
+          "particle charge": "",
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": ""
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories",
+          "Feeding Schedule": "ad libitum"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina HiSeq 1500",
+      "qc": {},
+      "library": {},
+      "files": {
+        "raw": [
+          "GLDS-322_rna-seq_SRR11216505_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216505_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216506_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216506_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216507_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216507_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216508_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216508_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216509_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216509_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216510_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216510_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216511_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216511_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216512_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216512_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216513_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216513_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216514_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216514_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216515_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216515_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216516_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216516_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216517_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216517_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216518_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216518_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216519_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216519_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216520_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216520_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216521_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216521_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216522_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216522_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216523_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216523_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216524_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216524_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216525_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216525_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216526_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216526_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216527_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216527_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216528_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216528_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216529_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216529_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216530_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216530_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216531_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216531_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216532_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216532_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216533_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216533_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216534_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216534_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216535_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216535_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216536_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216536_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216537_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216537_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216538_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216538_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216539_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216539_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216540_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216540_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216541_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216541_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216542_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216542_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216543_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216543_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216544_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216544_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216545_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216545_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216546_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216546_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216547_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216547_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216548_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216548_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216549_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216549_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216550_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216550_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216551_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216551_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216552_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216552_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216553_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216553_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216554_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216554_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216555_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216555_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216556_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216556_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216557_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216557_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216558_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216558_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216559_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216559_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216560_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216560_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216561_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216561_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216562_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216562_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216563_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216563_2.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216564_1.fastq.gz",
+          "GLDS-322_rna-seq_SRR11216564_2.fastq.gz"
+        ],
+        "processed": [
+          "GLDS-322_rna-seq_GSE146254_Expression_Data.csv.gz",
+          "GSM4368976",
+          "sequence analysis data transformation",
+          "cDNA",
+          "PAIRED",
+          "STRANDED",
+          "50",
+          "base pair",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000244",
+          "Illumina HiSeq 1500",
+          "RNA-seq",
+          "GSM4368977",
+          "GSM4368978",
+          "GSM4368979",
+          "GSM4368980",
+          "GSM4368981",
+          "GSM4368982",
+          "GSM4368983",
+          "GSM4368984",
+          "GSM4368985",
+          "GSM4368986",
+          "GSM4368987",
+          "GSM4368988",
+          "GSM4368989",
+          "GSM4368990",
+          "GSM4368991",
+          "GSM4368992",
+          "GSM4368993",
+          "GSM4368994",
+          "GSM4368995",
+          "GSM4368996",
+          "GSM4368997",
+          "GSM4368998",
+          "GSM4368999",
+          "GSM4369000",
+          "GSM4369001",
+          "GSM4369002",
+          "GSM4369003",
+          "GSM4369004",
+          "GSM4369005",
+          "GSM4369006",
+          "GSM4369007",
+          "GSM4369008",
+          "GSM4369009",
+          "GSM4369010",
+          "GSM4369011",
+          "GSM4369012",
+          "GSM4369013",
+          "GSM4369014",
+          "GSM4369015",
+          "GSM4369016",
+          "GSM4369017",
+          "GSM4369018",
+          "GSM4369019",
+          "GSM4369020",
+          "GSM4369021",
+          "GSM4369022",
+          "GSM4369023",
+          "GSM4369024",
+          "GSM4369025",
+          "GSM4369026",
+          "GSM4369027",
+          "GSM4369028",
+          "GSM4369029",
+          "GSM4369030",
+          "GSM4369031",
+          "GSM4369032",
+          "GSM4369033",
+          "GSM4369034",
+          "GSM4369035"
+        ],
+        "reports": []
+      }
+    }
+  ]
+}

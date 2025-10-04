@@ -1,0 +1,763 @@
+{
+  "investigation": {
+    "id": "OSD-684",
+    "title": "Human skeletal muscle tissue chip autonomous payload reveals changes in fiber type and metabolic gene expression due to spaceflight.",
+    "description": "Microphysiological systems provide the opportunity to model accelerated changes at the human tissue level in the extreme space environment. Spaceflight-induced muscle atrophy experienced by astronauts shares similar physiological changes to muscle wasting in older adults, known as sarcopenia.",
+    "mission": {
+      "name": "SpaceX-21",
+      "start_date": "12/05/2020",
+      "end_date": "01/13/2021",
+      "link": "https://osdr.nasa.gov/bio/repo/data/missions/SpaceX-21"
+    },
+    "project": {
+      "identifier": "CUBELAB",
+      "title": "",
+      "type": "Spaceflight Study",
+      "link": "",
+      "funding": "We thank the Interdisciplinary Center for Biotechnology Research (ICBR) at the University of Florida NextGen Sequencing Core (RRID:SCR_019152) and Alberto Riva in the Bioinformatics Core (RRID:SCR_019120). The authors acknowledge that this study was supported by the National Institutes of Health National Center for Advancement of Translational Sciences (5UG3TR002598 to S.M.) and the Center for the Advancement of Science in Space (CASIS) user agreement #UA-2019-011 to the University of Florida. Space Tango, Micro-gRx and Micro Aerospace Solutions were funded under a National Aeronautics and Space Administration (NASA) task order award (to T.C. at Space Tango, L.K.M at Micro-gRx, and D.P. at Micro Aerospace Solutions).",
+      "managing_center": "Kennedy Space Center (KSC)"
+    },
+    "protocols": [
+      "Growth protocol",
+      "Treatment protocol",
+      "sample collection",
+      "Nucleic Acid Extraction",
+      "Library Construction",
+      "Nucleic Acid Sequencing",
+      "Sequence Analysis Data Transformation",
+      "GeneLab raw data processing protocol",
+      "GeneLab RNAseq data processing protocol"
+    ],
+    "publications": [
+      {
+        "title": "Human skeletal muscle tissue chip autonomous payload reveals changes in fiber type and metabolic gene expression due to spaceflight.",
+        "doi": "10.1038/s41526-023-00322-y",
+        "authors": [
+          "Parafati M",
+          "Giza S",
+          "Shenoy TS",
+          "Mojica-Santiago JA",
+          "Hopf M",
+          "Malany LK",
+          "Platt D",
+          "Moore I",
+          "Jacobs ZA",
+          "Kuehl P",
+          "Rexroat J",
+          "Barnett G",
+          "Schmidt CE",
+          "McLamb WT",
+          "Clements T",
+          "Coen PM",
+          "Malany S."
+        ],
+        "summary": "Human skeletal muscle tissue chip autonomous payload reveals changes in fiber type and metabolic gene expression due to spaceflight. — 10.1038/s41526-023-00322-y"
+      }
+    ],
+    "factors": [
+      "Spaceflight",
+      "Donor Age"
+    ],
+    "contacts": [
+      {
+        "first_name": "Maddalena",
+        "last_name": "Parafati",
+        "role": "conceptualization role",
+        "email": "smalany@cop.ufl.edu"
+      },
+      {
+        "first_name": "Shelby",
+        "last_name": "Giza",
+        "role": "conceptualization role",
+        "email": ""
+      },
+      {
+        "first_name": "Tushar S",
+        "last_name": "Shenoy",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Jorge A",
+        "last_name": "Mojica-Santiago",
+        "role": "conceptualization role",
+        "email": ""
+      },
+      {
+        "first_name": "Meghan",
+        "last_name": "Hopf",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Legrand K",
+        "last_name": "Malany",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Don",
+        "last_name": "Platt",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Isabel",
+        "last_name": "Moore",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Zachary A",
+        "last_name": "Jacobs",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Paul",
+        "last_name": "Kuehl",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Jason",
+        "last_name": "Rexroat",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Gentry",
+        "last_name": "Barnett",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Christine E",
+        "last_name": "Schmidt",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "William T",
+        "last_name": "McLamb",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Twyman",
+        "last_name": "Clements",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Paul M",
+        "last_name": "Coen",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Siobhan",
+        "last_name": "Malany",
+        "role": "conceptualization role",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "GSM7469191",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Primary Cell Source": "Vastus Lateralis",
+          "Material Type": "Myoblasts",
+          "Physical Activity Measurement": "3 or more"
+        },
+        "factors": {
+          "Donor Age": "21-40",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Source Tissue Preservation Method": "Cryopreservation",
+          "Immunopurification Marker": "CD56+",
+          "Growth temperature": "37",
+          "carbon dioxide": "5",
+          "Pre-Flight Medium": "differentiation media I",
+          "Pre-Flight Growth Time": "6",
+          "Flight Medium": "differentiation media II",
+          "duration": "10",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM7469192",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Primary Cell Source": "Vastus Lateralis",
+          "Material Type": "Myoblasts",
+          "Physical Activity Measurement": "3 or more"
+        },
+        "factors": {
+          "Donor Age": "21-40",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Source Tissue Preservation Method": "Cryopreservation",
+          "Immunopurification Marker": "CD56+",
+          "Growth temperature": "37",
+          "carbon dioxide": "5",
+          "Pre-Flight Medium": "differentiation media I",
+          "Pre-Flight Growth Time": "6",
+          "Flight Medium": "differentiation media II",
+          "duration": "10",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM7469193",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Primary Cell Source": "Vastus Lateralis",
+          "Material Type": "Myoblasts",
+          "Physical Activity Measurement": "3 or more"
+        },
+        "factors": {
+          "Donor Age": "21-40",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Source Tissue Preservation Method": "Cryopreservation",
+          "Immunopurification Marker": "CD56+",
+          "Growth temperature": "37",
+          "carbon dioxide": "5",
+          "Pre-Flight Medium": "differentiation media I",
+          "Pre-Flight Growth Time": "6",
+          "Flight Medium": "differentiation media II",
+          "duration": "10",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM7469194",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Primary Cell Source": "Vastus Lateralis",
+          "Material Type": "Myoblasts",
+          "Physical Activity Measurement": "1 or less"
+        },
+        "factors": {
+          "Donor Age": "65-80",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Source Tissue Preservation Method": "Cryopreservation",
+          "Immunopurification Marker": "CD56+",
+          "Growth temperature": "37",
+          "carbon dioxide": "5",
+          "Pre-Flight Medium": "differentiation media I",
+          "Pre-Flight Growth Time": "6",
+          "Flight Medium": "differentiation media II",
+          "duration": "10",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM7469195",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Primary Cell Source": "Vastus Lateralis",
+          "Material Type": "Myoblasts",
+          "Physical Activity Measurement": "1 or less"
+        },
+        "factors": {
+          "Donor Age": "65-80",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Source Tissue Preservation Method": "Cryopreservation",
+          "Immunopurification Marker": "CD56+",
+          "Growth temperature": "37",
+          "carbon dioxide": "5",
+          "Pre-Flight Medium": "differentiation media I",
+          "Pre-Flight Growth Time": "6",
+          "Flight Medium": "differentiation media II",
+          "duration": "10",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM7469196",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Primary Cell Source": "Vastus Lateralis",
+          "Material Type": "Myoblasts",
+          "Physical Activity Measurement": "1 or less"
+        },
+        "factors": {
+          "Donor Age": "65-80",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Source Tissue Preservation Method": "Cryopreservation",
+          "Immunopurification Marker": "CD56+",
+          "Growth temperature": "37",
+          "carbon dioxide": "5",
+          "Pre-Flight Medium": "differentiation media I",
+          "Pre-Flight Growth Time": "6",
+          "Flight Medium": "differentiation media II",
+          "duration": "10",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM7469197",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Primary Cell Source": "Vastus Lateralis",
+          "Material Type": "Myoblasts",
+          "Physical Activity Measurement": "3 or more"
+        },
+        "factors": {
+          "Donor Age": "21-40",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Source Tissue Preservation Method": "Cryopreservation",
+          "Immunopurification Marker": "CD56+",
+          "Growth temperature": "37",
+          "carbon dioxide": "5",
+          "Pre-Flight Medium": "differentiation media I",
+          "Pre-Flight Growth Time": "6",
+          "Flight Medium": "differentiation media II",
+          "duration": "10",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM7469198",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Primary Cell Source": "Vastus Lateralis",
+          "Material Type": "Myoblasts",
+          "Physical Activity Measurement": "3 or more"
+        },
+        "factors": {
+          "Donor Age": "21-40",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Source Tissue Preservation Method": "Cryopreservation",
+          "Immunopurification Marker": "CD56+",
+          "Growth temperature": "37",
+          "carbon dioxide": "5",
+          "Pre-Flight Medium": "differentiation media I",
+          "Pre-Flight Growth Time": "6",
+          "Flight Medium": "differentiation media II",
+          "duration": "10",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM7469199",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Primary Cell Source": "Vastus Lateralis",
+          "Material Type": "Myoblasts",
+          "Physical Activity Measurement": "3 or more"
+        },
+        "factors": {
+          "Donor Age": "21-40",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Source Tissue Preservation Method": "Cryopreservation",
+          "Immunopurification Marker": "CD56+",
+          "Growth temperature": "37",
+          "carbon dioxide": "5",
+          "Pre-Flight Medium": "differentiation media I",
+          "Pre-Flight Growth Time": "6",
+          "Flight Medium": "differentiation media II",
+          "duration": "10",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM7469200",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Primary Cell Source": "Vastus Lateralis",
+          "Material Type": "Myoblasts",
+          "Physical Activity Measurement": "1 or less"
+        },
+        "factors": {
+          "Donor Age": "65-80",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Source Tissue Preservation Method": "Cryopreservation",
+          "Immunopurification Marker": "CD56+",
+          "Growth temperature": "37",
+          "carbon dioxide": "5",
+          "Pre-Flight Medium": "differentiation media I",
+          "Pre-Flight Growth Time": "6",
+          "Flight Medium": "differentiation media II",
+          "duration": "10",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM7469201",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Primary Cell Source": "Vastus Lateralis",
+          "Material Type": "Myoblasts",
+          "Physical Activity Measurement": "1 or less"
+        },
+        "factors": {
+          "Donor Age": "65-80",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Source Tissue Preservation Method": "Cryopreservation",
+          "Immunopurification Marker": "CD56+",
+          "Growth temperature": "37",
+          "carbon dioxide": "5",
+          "Pre-Flight Medium": "differentiation media I",
+          "Pre-Flight Growth Time": "6",
+          "Flight Medium": "differentiation media II",
+          "duration": "10",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM7469202",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Primary Cell Source": "Vastus Lateralis",
+          "Material Type": "Myoblasts",
+          "Physical Activity Measurement": "1 or less"
+        },
+        "factors": {
+          "Donor Age": "65-80",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Source Tissue Preservation Method": "Cryopreservation",
+          "Immunopurification Marker": "CD56+",
+          "Growth temperature": "37",
+          "carbon dioxide": "5",
+          "Pre-Flight Medium": "differentiation media I",
+          "Pre-Flight Growth Time": "6",
+          "Flight Medium": "differentiation media II",
+          "duration": "10",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina NovaSeq 6000",
+      "qc": {
+        "QA Instrument": "Agilent 2200 Tapestation",
+        "QA Score": "9.0-9.5",
+        "Read Depth": "30883154",
+        "rRNA Contamination": "4.48"
+      },
+      "library": {
+        "Library Selection": "polyA enrichment",
+        "Library Layout": "PAIRED",
+        "Stranded": "STRANDED"
+      },
+      "files": {
+        "raw": [
+          "GLDS-615_rna-seq_GSM7469191_R1_raw.fastq.gz",
+          "GLDS-615_rna-seq_GSM7469191_R2_raw.fastq.gz",
+          "GLDS-615_rna-seq_GSM7469192_R1_raw.fastq.gz",
+          "GLDS-615_rna-seq_GSM7469192_R2_raw.fastq.gz",
+          "GLDS-615_rna-seq_GSM7469193_R1_raw.fastq.gz",
+          "GLDS-615_rna-seq_GSM7469193_R2_raw.fastq.gz",
+          "GLDS-615_rna-seq_GSM7469194_R1_raw.fastq.gz",
+          "GLDS-615_rna-seq_GSM7469194_R2_raw.fastq.gz",
+          "GLDS-615_rna-seq_GSM7469195_R1_raw.fastq.gz",
+          "GLDS-615_rna-seq_GSM7469195_R2_raw.fastq.gz",
+          "GLDS-615_rna-seq_GSM7469196_R1_raw.fastq.gz",
+          "GLDS-615_rna-seq_GSM7469196_R2_raw.fastq.gz",
+          "GLDS-615_rna-seq_GSM7469197_R1_raw.fastq.gz",
+          "GLDS-615_rna-seq_GSM7469197_R2_raw.fastq.gz",
+          "GLDS-615_rna-seq_GSM7469198_R1_raw.fastq.gz",
+          "GLDS-615_rna-seq_GSM7469198_R2_raw.fastq.gz",
+          "GLDS-615_rna-seq_GSM7469199_R1_raw.fastq.gz",
+          "GLDS-615_rna-seq_GSM7469199_R2_raw.fastq.gz",
+          "GLDS-615_rna-seq_GSM7469200_R1_raw.fastq.gz",
+          "GLDS-615_rna-seq_GSM7469200_R2_raw.fastq.gz",
+          "GLDS-615_rna-seq_GSM7469201_R1_raw.fastq.gz",
+          "GLDS-615_rna-seq_GSM7469201_R2_raw.fastq.gz",
+          "GLDS-615_rna-seq_GSM7469202_R1_raw.fastq.gz",
+          "GLDS-615_rna-seq_GSM7469202_R2_raw.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469191_R1_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469191_R2_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469192_R1_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469192_R2_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469193_R1_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469193_R2_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469194_R1_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469194_R2_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469195_R1_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469195_R2_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469196_R1_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469196_R2_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469197_R1_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469197_R2_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469198_R1_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469198_R2_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469199_R1_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469199_R2_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469200_R1_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469200_R2_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469201_R1_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469201_R2_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469202_R1_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469202_R2_trimmed.fastq.gz"
+        ],
+        "processed": [
+          "GLDS-615_rna-seq_GSE234465_FPKM.txt",
+          "GLDS-615_rna_seq_GSM7469191_R1_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469191_R2_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469191_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-615_rna_seq_GSM7469191_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-615_rna_seq_GSM7469191_Aligned.toTranscriptome.out.bam",
+          "GLDS-615_rna_seq_GSM7469191_SJ.out.tab",
+          "GLDS-615_rna_seq_GSM7469192_R1_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469192_R2_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469192_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-615_rna_seq_GSM7469192_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-615_rna_seq_GSM7469192_Aligned.toTranscriptome.out.bam",
+          "GLDS-615_rna_seq_GSM7469192_SJ.out.tab",
+          "GLDS-615_rna_seq_GSM7469193_R1_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469193_R2_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469193_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-615_rna_seq_GSM7469193_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-615_rna_seq_GSM7469193_Aligned.toTranscriptome.out.bam",
+          "GLDS-615_rna_seq_GSM7469193_SJ.out.tab",
+          "GLDS-615_rna_seq_GSM7469194_R1_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469194_R2_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469194_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-615_rna_seq_GSM7469194_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-615_rna_seq_GSM7469194_Aligned.toTranscriptome.out.bam",
+          "GLDS-615_rna_seq_GSM7469194_SJ.out.tab",
+          "GLDS-615_rna_seq_GSM7469195_R1_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469195_R2_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469195_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-615_rna_seq_GSM7469195_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-615_rna_seq_GSM7469195_Aligned.toTranscriptome.out.bam",
+          "GLDS-615_rna_seq_GSM7469195_SJ.out.tab",
+          "GLDS-615_rna_seq_GSM7469196_R1_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469196_R2_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469196_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-615_rna_seq_GSM7469196_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-615_rna_seq_GSM7469196_Aligned.toTranscriptome.out.bam",
+          "GLDS-615_rna_seq_GSM7469196_SJ.out.tab",
+          "GLDS-615_rna_seq_GSM7469197_R1_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469197_R2_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469197_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-615_rna_seq_GSM7469197_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-615_rna_seq_GSM7469197_Aligned.toTranscriptome.out.bam",
+          "GLDS-615_rna_seq_GSM7469197_SJ.out.tab",
+          "GLDS-615_rna_seq_GSM7469198_R1_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469198_R2_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469198_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-615_rna_seq_GSM7469198_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-615_rna_seq_GSM7469198_Aligned.toTranscriptome.out.bam",
+          "GLDS-615_rna_seq_GSM7469198_SJ.out.tab",
+          "GLDS-615_rna_seq_GSM7469199_R1_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469199_R2_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469199_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-615_rna_seq_GSM7469199_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-615_rna_seq_GSM7469199_Aligned.toTranscriptome.out.bam",
+          "GLDS-615_rna_seq_GSM7469199_SJ.out.tab",
+          "GLDS-615_rna_seq_GSM7469200_R1_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469200_R2_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469200_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-615_rna_seq_GSM7469200_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-615_rna_seq_GSM7469200_Aligned.toTranscriptome.out.bam",
+          "GLDS-615_rna_seq_GSM7469200_SJ.out.tab",
+          "GLDS-615_rna_seq_GSM7469201_R1_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469201_R2_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469201_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-615_rna_seq_GSM7469201_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-615_rna_seq_GSM7469201_Aligned.toTranscriptome.out.bam",
+          "GLDS-615_rna_seq_GSM7469201_SJ.out.tab",
+          "GLDS-615_rna_seq_GSM7469202_R1_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469202_R2_trimmed.fastq.gz",
+          "GLDS-615_rna_seq_GSM7469202_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-615_rna_seq_GSM7469202_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-615_rna_seq_GSM7469202_Aligned.toTranscriptome.out.bam",
+          "GLDS-615_rna_seq_GSM7469202_SJ.out.tab",
+          "GSM7469191",
+          "GeneLab RNAseq data processing protocol",
+          "Agilent 2200 Tapestation",
+          "9.0-9.5",
+          "percent",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000187",
+          "polyA enrichment",
+          "PAIRED",
+          "STRANDED",
+          "Illumina NovaSeq 6000",
+          "151",
+          "rna-seq",
+          "30883154",
+          "4.48",
+          "GLDS-615_rna_seq_GSM7469191.genes.results",
+          "GLDS-615_rna_seq_GSM7469191.isoforms.results",
+          "GLDS-615_rna_seq_RSEM_Unnormalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-615_rna_seq_STAR_Unnormalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-615_rna_seq_Normalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-615_rna_seq_SampleTable_GLbulkRNAseq.csv",
+          "GLDS-615_rna_seq_contrasts_GLbulkRNAseq.csv",
+          "GLDS-615_rna_seq_differential_expression_GLbulkRNAseq.csv",
+          "GSM7469192",
+          "33342065",
+          "5.17",
+          "GLDS-615_rna_seq_GSM7469192.genes.results",
+          "GLDS-615_rna_seq_GSM7469192.isoforms.results",
+          "GSM7469193",
+          "62681966",
+          "2.19",
+          "GLDS-615_rna_seq_GSM7469193.genes.results",
+          "GLDS-615_rna_seq_GSM7469193.isoforms.results",
+          "GSM7469194",
+          "79577884",
+          "1.70",
+          "GLDS-615_rna_seq_GSM7469194.genes.results",
+          "GLDS-615_rna_seq_GSM7469194.isoforms.results",
+          "GSM7469195",
+          "66912068",
+          "2.59",
+          "GLDS-615_rna_seq_GSM7469195.genes.results",
+          "GLDS-615_rna_seq_GSM7469195.isoforms.results",
+          "GSM7469196",
+          "152262828",
+          "1.90",
+          "GLDS-615_rna_seq_GSM7469196.genes.results",
+          "GLDS-615_rna_seq_GSM7469196.isoforms.results",
+          "GSM7469197",
+          "7.2-9.0",
+          "45174169",
+          "3.19",
+          "GLDS-615_rna_seq_GSM7469197.genes.results",
+          "GLDS-615_rna_seq_GSM7469197.isoforms.results",
+          "GSM7469198",
+          "48854290",
+          "3.44",
+          "GLDS-615_rna_seq_GSM7469198.genes.results",
+          "GLDS-615_rna_seq_GSM7469198.isoforms.results",
+          "GSM7469199",
+          "47131216",
+          "2.58",
+          "GLDS-615_rna_seq_GSM7469199.genes.results",
+          "GLDS-615_rna_seq_GSM7469199.isoforms.results",
+          "GSM7469200",
+          "55767367",
+          "2.27",
+          "GLDS-615_rna_seq_GSM7469200.genes.results",
+          "GLDS-615_rna_seq_GSM7469200.isoforms.results",
+          "GSM7469201",
+          "51674392",
+          "2.05",
+          "GLDS-615_rna_seq_GSM7469201.genes.results",
+          "GLDS-615_rna_seq_GSM7469201.isoforms.results",
+          "GSM7469202",
+          "50821629",
+          "1.95",
+          "GLDS-615_rna_seq_GSM7469202.genes.results",
+          "GLDS-615_rna_seq_GSM7469202.isoforms.results"
+        ],
+        "reports": [
+          "GLDS-615_rna_seq_raw_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-615_rna_seq_trimmed_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-615_rna_seq_GSM7469191_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-615_rna_seq_GSM7469191_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-615_rna_seq_GSM7469191_Log.final.out",
+          "GLDS-615_rna_seq_align_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-615_rna_seq_geneBody_cov_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-615_rna_seq_infer_exp_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-615_rna_seq_inner_dist_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-615_rna_seq_read_dist_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-615_rna_seq_RSEM_count_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-615_rna_seq_GSM7469192_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-615_rna_seq_GSM7469192_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-615_rna_seq_GSM7469192_Log.final.out",
+          "GLDS-615_rna_seq_GSM7469193_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-615_rna_seq_GSM7469193_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-615_rna_seq_GSM7469193_Log.final.out",
+          "GLDS-615_rna_seq_GSM7469194_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-615_rna_seq_GSM7469194_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-615_rna_seq_GSM7469194_Log.final.out",
+          "GLDS-615_rna_seq_GSM7469195_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-615_rna_seq_GSM7469195_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-615_rna_seq_GSM7469195_Log.final.out",
+          "GLDS-615_rna_seq_GSM7469196_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-615_rna_seq_GSM7469196_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-615_rna_seq_GSM7469196_Log.final.out",
+          "GLDS-615_rna_seq_GSM7469197_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-615_rna_seq_GSM7469197_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-615_rna_seq_GSM7469197_Log.final.out",
+          "GLDS-615_rna_seq_GSM7469198_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-615_rna_seq_GSM7469198_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-615_rna_seq_GSM7469198_Log.final.out",
+          "GLDS-615_rna_seq_GSM7469199_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-615_rna_seq_GSM7469199_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-615_rna_seq_GSM7469199_Log.final.out",
+          "GLDS-615_rna_seq_GSM7469200_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-615_rna_seq_GSM7469200_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-615_rna_seq_GSM7469200_Log.final.out",
+          "GLDS-615_rna_seq_GSM7469201_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-615_rna_seq_GSM7469201_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-615_rna_seq_GSM7469201_Log.final.out",
+          "GLDS-615_rna_seq_GSM7469202_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-615_rna_seq_GSM7469202_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-615_rna_seq_GSM7469202_Log.final.out"
+        ]
+      }
+    }
+  ]
+}

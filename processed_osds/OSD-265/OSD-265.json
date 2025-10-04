@@ -1,0 +1,1424 @@
+{
+  "investigation": {
+    "id": "OSD-265",
+    "title": "Selecting for Chlamydomonas reinhardtii fitness in the KSC Veggie Unit",
+    "description": "The Space Algae Experiment Verification Test completed a competitive growth selection on mutagenized microalgae in a series of batch cultures that were passaged for three growth cycles. The experiment was conducted with ground control conditions similar to those actually used in spaceflight.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "UV_Ionizing_Irradiation, Simulated_Environmental_Factors",
+      "title": "Domesticating algae for sustainable production of feedstocks in space",
+      "type": "Ground Study",
+      "link": "",
+      "funding": "CASIS, Florida Space Research Intitute; GA-2017-254",
+      "managing_center": "Kennedy Space Center (KSC)"
+    },
+    "protocols": [
+      "growth protocol",
+      "treatment protocol",
+      "sample collection",
+      "nucleic acid extraction",
+      "library construction",
+      "nucleic acid sequencing"
+    ],
+    "publications": [
+      {
+        "title": "Competitive Growth Assay of Mutagenized Chlamydomonas reinhardtii Compatible With the International Space Station Veggie Plant Growth Chamber",
+        "doi": "10.3389/fpls.2020.00631",
+        "authors": [
+          "Zhang J",
+          "Muller BS",
+          "Tyre KN",
+          "Hersh HL",
+          "Bai F",
+          "Hu Y",
+          "Resende MFR",
+          "Rathinasabapathi B",
+          "Settles AM"
+        ],
+        "summary": "Competitive Growth Assay of Mutagenized Chlamydomonas reinhardtii Compatible With the International Space Station Veggie Plant Growth Chamber — 10.3389/fpls.2020.00631"
+      }
+    ],
+    "factors": [
+      "Growth Cycle",
+      "Strain",
+      "Sample Storage",
+      "UV Mutagenesis",
+      "Organism Part"
+    ],
+    "contacts": [
+      {
+        "first_name": "Mark",
+        "last_name": "Settles",
+        "role": "Principal Investigator",
+        "email": "settles@ufl.edu"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "WT-wk0-preUV",
+        "characteristics": {
+          "Organism": "Chlamydomonas reinhardtii",
+          "Genotype": "wild-type mt+",
+          "Material Type": "Whole Organism",
+          "Strain Source": "Chlamydomonas Resource Center",
+          "developmental stage": ""
+        },
+        "factors": {
+          "Strain": "CC-5082",
+          "UV Mutagenesis": "No UV Mutagenesis",
+          "Growth Cycle": "week 0",
+          "Sample Storage": "Frozen"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "light source": "Vegetable Production System (Veggie)",
+          "Light Quality": "red:green:blue 8:1:1",
+          "container": "120 mL PermaLife cell culture bag",
+          "Light intensity": "80-100",
+          "Culture Media": "Tris acetate-phosphate (TAP)",
+          "Minimum Growth Temperature": "20",
+          "Maximum Growth Temperature": "25",
+          "light cycle": "continuous light regimen",
+          "growth environment": "Kennedy Space Center",
+          "UV light exposure": "8",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "WT-wk1-rep1-Dark",
+        "characteristics": {
+          "Organism": "Chlamydomonas reinhardtii",
+          "Genotype": "wild-type mt+",
+          "Material Type": "Whole Organism",
+          "Strain Source": "Chlamydomonas Resource Center",
+          "developmental stage": ""
+        },
+        "factors": {
+          "Strain": "CC-5082",
+          "UV Mutagenesis": "UV Mutagenesis",
+          "Growth Cycle": "week 1",
+          "Sample Storage": "Dark"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "light source": "Vegetable Production System (Veggie)",
+          "Light Quality": "red:green:blue 8:1:1",
+          "container": "120 mL PermaLife cell culture bag",
+          "Light intensity": "80-100",
+          "Culture Media": "Tris acetate-phosphate (TAP)",
+          "Minimum Growth Temperature": "20",
+          "Maximum Growth Temperature": "25",
+          "light cycle": "continuous light regimen",
+          "growth environment": "Kennedy Space Center",
+          "UV light exposure": "8",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "WT-wk1-rep2-Dark",
+        "characteristics": {
+          "Organism": "Chlamydomonas reinhardtii",
+          "Genotype": "wild-type mt+",
+          "Material Type": "Whole Organism",
+          "Strain Source": "Chlamydomonas Resource Center",
+          "developmental stage": ""
+        },
+        "factors": {
+          "Strain": "CC-5082",
+          "UV Mutagenesis": "UV Mutagenesis",
+          "Growth Cycle": "week 1",
+          "Sample Storage": "Dark"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "light source": "Vegetable Production System (Veggie)",
+          "Light Quality": "red:green:blue 8:1:1",
+          "container": "120 mL PermaLife cell culture bag",
+          "Light intensity": "80-100",
+          "Culture Media": "Tris acetate-phosphate (TAP)",
+          "Minimum Growth Temperature": "20",
+          "Maximum Growth Temperature": "25",
+          "light cycle": "continuous light regimen",
+          "growth environment": "Kennedy Space Center",
+          "UV light exposure": "8",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "WT-wk1-rep3-Dark",
+        "characteristics": {
+          "Organism": "Chlamydomonas reinhardtii",
+          "Genotype": "wild-type mt+",
+          "Material Type": "Whole Organism",
+          "Strain Source": "Chlamydomonas Resource Center",
+          "developmental stage": ""
+        },
+        "factors": {
+          "Strain": "CC-5082",
+          "UV Mutagenesis": "UV Mutagenesis",
+          "Growth Cycle": "week 1",
+          "Sample Storage": "Dark"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "light source": "Vegetable Production System (Veggie)",
+          "Light Quality": "red:green:blue 8:1:1",
+          "container": "120 mL PermaLife cell culture bag",
+          "Light intensity": "80-100",
+          "Culture Media": "Tris acetate-phosphate (TAP)",
+          "Minimum Growth Temperature": "20",
+          "Maximum Growth Temperature": "25",
+          "light cycle": "continuous light regimen",
+          "growth environment": "Kennedy Space Center",
+          "UV light exposure": "8",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "WT-wk1-rep1-Frozen",
+        "characteristics": {
+          "Organism": "Chlamydomonas reinhardtii",
+          "Genotype": "wild-type mt+",
+          "Material Type": "Whole Organism",
+          "Strain Source": "Chlamydomonas Resource Center",
+          "developmental stage": ""
+        },
+        "factors": {
+          "Strain": "CC-5082",
+          "UV Mutagenesis": "UV Mutagenesis",
+          "Growth Cycle": "week 1",
+          "Sample Storage": "Frozen"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "light source": "Vegetable Production System (Veggie)",
+          "Light Quality": "red:green:blue 8:1:1",
+          "container": "120 mL PermaLife cell culture bag",
+          "Light intensity": "80-100",
+          "Culture Media": "Tris acetate-phosphate (TAP)",
+          "Minimum Growth Temperature": "20",
+          "Maximum Growth Temperature": "25",
+          "light cycle": "continuous light regimen",
+          "growth environment": "Kennedy Space Center",
+          "UV light exposure": "8",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "WT-wk1-rep2-Frozen",
+        "characteristics": {
+          "Organism": "Chlamydomonas reinhardtii",
+          "Genotype": "wild-type mt+",
+          "Material Type": "Whole Organism",
+          "Strain Source": "Chlamydomonas Resource Center",
+          "developmental stage": ""
+        },
+        "factors": {
+          "Strain": "CC-5082",
+          "UV Mutagenesis": "UV Mutagenesis",
+          "Growth Cycle": "week 1",
+          "Sample Storage": "Frozen"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "light source": "Vegetable Production System (Veggie)",
+          "Light Quality": "red:green:blue 8:1:1",
+          "container": "120 mL PermaLife cell culture bag",
+          "Light intensity": "80-100",
+          "Culture Media": "Tris acetate-phosphate (TAP)",
+          "Minimum Growth Temperature": "20",
+          "Maximum Growth Temperature": "25",
+          "light cycle": "continuous light regimen",
+          "growth environment": "Kennedy Space Center",
+          "UV light exposure": "8",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "WT-wk1-rep3-Frozen",
+        "characteristics": {
+          "Organism": "Chlamydomonas reinhardtii",
+          "Genotype": "wild-type mt+",
+          "Material Type": "Whole Organism",
+          "Strain Source": "Chlamydomonas Resource Center",
+          "developmental stage": ""
+        },
+        "factors": {
+          "Strain": "CC-5082",
+          "UV Mutagenesis": "UV Mutagenesis",
+          "Growth Cycle": "week 1",
+          "Sample Storage": "Frozen"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "light source": "Vegetable Production System (Veggie)",
+          "Light Quality": "red:green:blue 8:1:1",
+          "container": "120 mL PermaLife cell culture bag",
+          "Light intensity": "80-100",
+          "Culture Media": "Tris acetate-phosphate (TAP)",
+          "Minimum Growth Temperature": "20",
+          "Maximum Growth Temperature": "25",
+          "light cycle": "continuous light regimen",
+          "growth environment": "Kennedy Space Center",
+          "UV light exposure": "8",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "WT-wk2-rep1-Dark",
+        "characteristics": {
+          "Organism": "Chlamydomonas reinhardtii",
+          "Genotype": "wild-type mt+",
+          "Material Type": "Whole Organism",
+          "Strain Source": "Chlamydomonas Resource Center",
+          "developmental stage": ""
+        },
+        "factors": {
+          "Strain": "CC-5082",
+          "UV Mutagenesis": "UV Mutagenesis",
+          "Growth Cycle": "week 2",
+          "Sample Storage": "Dark"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "light source": "Vegetable Production System (Veggie)",
+          "Light Quality": "red:green:blue 8:1:1",
+          "container": "120 mL PermaLife cell culture bag",
+          "Light intensity": "80-100",
+          "Culture Media": "Tris acetate-phosphate (TAP)",
+          "Minimum Growth Temperature": "20",
+          "Maximum Growth Temperature": "25",
+          "light cycle": "continuous light regimen",
+          "growth environment": "Kennedy Space Center",
+          "UV light exposure": "8",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "WT-wk2-rep2-Dark",
+        "characteristics": {
+          "Organism": "Chlamydomonas reinhardtii",
+          "Genotype": "wild-type mt+",
+          "Material Type": "Whole Organism",
+          "Strain Source": "Chlamydomonas Resource Center",
+          "developmental stage": ""
+        },
+        "factors": {
+          "Strain": "CC-5082",
+          "UV Mutagenesis": "UV Mutagenesis",
+          "Growth Cycle": "week 2",
+          "Sample Storage": "Dark"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "light source": "Vegetable Production System (Veggie)",
+          "Light Quality": "red:green:blue 8:1:1",
+          "container": "120 mL PermaLife cell culture bag",
+          "Light intensity": "80-100",
+          "Culture Media": "Tris acetate-phosphate (TAP)",
+          "Minimum Growth Temperature": "20",
+          "Maximum Growth Temperature": "25",
+          "light cycle": "continuous light regimen",
+          "growth environment": "Kennedy Space Center",
+          "UV light exposure": "8",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "WT-wk2-rep3-Dark",
+        "characteristics": {
+          "Organism": "Chlamydomonas reinhardtii",
+          "Genotype": "wild-type mt+",
+          "Material Type": "Whole Organism",
+          "Strain Source": "Chlamydomonas Resource Center",
+          "developmental stage": ""
+        },
+        "factors": {
+          "Strain": "CC-5082",
+          "UV Mutagenesis": "UV Mutagenesis",
+          "Growth Cycle": "week 2",
+          "Sample Storage": "Dark"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "light source": "Vegetable Production System (Veggie)",
+          "Light Quality": "red:green:blue 8:1:1",
+          "container": "120 mL PermaLife cell culture bag",
+          "Light intensity": "80-100",
+          "Culture Media": "Tris acetate-phosphate (TAP)",
+          "Minimum Growth Temperature": "20",
+          "Maximum Growth Temperature": "25",
+          "light cycle": "continuous light regimen",
+          "growth environment": "Kennedy Space Center",
+          "UV light exposure": "8",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "WT-wk2-rep1-Frozen",
+        "characteristics": {
+          "Organism": "Chlamydomonas reinhardtii",
+          "Genotype": "wild-type mt+",
+          "Material Type": "Whole Organism",
+          "Strain Source": "Chlamydomonas Resource Center",
+          "developmental stage": ""
+        },
+        "factors": {
+          "Strain": "CC-5082",
+          "UV Mutagenesis": "UV Mutagenesis",
+          "Growth Cycle": "week 2",
+          "Sample Storage": "Frozen"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "light source": "Vegetable Production System (Veggie)",
+          "Light Quality": "red:green:blue 8:1:1",
+          "container": "120 mL PermaLife cell culture bag",
+          "Light intensity": "80-100",
+          "Culture Media": "Tris acetate-phosphate (TAP)",
+          "Minimum Growth Temperature": "20",
+          "Maximum Growth Temperature": "25",
+          "light cycle": "continuous light regimen",
+          "growth environment": "Kennedy Space Center",
+          "UV light exposure": "8",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "WT-wk2-rep2-Frozen",
+        "characteristics": {
+          "Organism": "Chlamydomonas reinhardtii",
+          "Genotype": "wild-type mt+",
+          "Material Type": "Whole Organism",
+          "Strain Source": "Chlamydomonas Resource Center",
+          "developmental stage": ""
+        },
+        "factors": {
+          "Strain": "CC-5082",
+          "UV Mutagenesis": "UV Mutagenesis",
+          "Growth Cycle": "week 2",
+          "Sample Storage": "Frozen"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "light source": "Vegetable Production System (Veggie)",
+          "Light Quality": "red:green:blue 8:1:1",
+          "container": "120 mL PermaLife cell culture bag",
+          "Light intensity": "80-100",
+          "Culture Media": "Tris acetate-phosphate (TAP)",
+          "Minimum Growth Temperature": "20",
+          "Maximum Growth Temperature": "25",
+          "light cycle": "continuous light regimen",
+          "growth environment": "Kennedy Space Center",
+          "UV light exposure": "8",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "WT-wk2-rep3-Frozen",
+        "characteristics": {
+          "Organism": "Chlamydomonas reinhardtii",
+          "Genotype": "wild-type mt+",
+          "Material Type": "Whole Organism",
+          "Strain Source": "Chlamydomonas Resource Center",
+          "developmental stage": ""
+        },
+        "factors": {
+          "Strain": "CC-5082",
+          "UV Mutagenesis": "UV Mutagenesis",
+          "Growth Cycle": "week 2",
+          "Sample Storage": "Frozen"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "light source": "Vegetable Production System (Veggie)",
+          "Light Quality": "red:green:blue 8:1:1",
+          "container": "120 mL PermaLife cell culture bag",
+          "Light intensity": "80-100",
+          "Culture Media": "Tris acetate-phosphate (TAP)",
+          "Minimum Growth Temperature": "20",
+          "Maximum Growth Temperature": "25",
+          "light cycle": "continuous light regimen",
+          "growth environment": "Kennedy Space Center",
+          "UV light exposure": "8",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "WT-wk3-rep1-Dark",
+        "characteristics": {
+          "Organism": "Chlamydomonas reinhardtii",
+          "Genotype": "wild-type mt+",
+          "Material Type": "Whole Organism",
+          "Strain Source": "Chlamydomonas Resource Center",
+          "developmental stage": ""
+        },
+        "factors": {
+          "Strain": "CC-5082",
+          "UV Mutagenesis": "UV Mutagenesis",
+          "Growth Cycle": "week 3",
+          "Sample Storage": "Dark"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "light source": "Vegetable Production System (Veggie)",
+          "Light Quality": "red:green:blue 8:1:1",
+          "container": "120 mL PermaLife cell culture bag",
+          "Light intensity": "80-100",
+          "Culture Media": "Tris acetate-phosphate (TAP)",
+          "Minimum Growth Temperature": "20",
+          "Maximum Growth Temperature": "25",
+          "light cycle": "continuous light regimen",
+          "growth environment": "Kennedy Space Center",
+          "UV light exposure": "8",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "WT-wk3-rep2-Dark",
+        "characteristics": {
+          "Organism": "Chlamydomonas reinhardtii",
+          "Genotype": "wild-type mt+",
+          "Material Type": "Whole Organism",
+          "Strain Source": "Chlamydomonas Resource Center",
+          "developmental stage": ""
+        },
+        "factors": {
+          "Strain": "CC-5082",
+          "UV Mutagenesis": "UV Mutagenesis",
+          "Growth Cycle": "week 3",
+          "Sample Storage": "Dark"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "light source": "Vegetable Production System (Veggie)",
+          "Light Quality": "red:green:blue 8:1:1",
+          "container": "120 mL PermaLife cell culture bag",
+          "Light intensity": "80-100",
+          "Culture Media": "Tris acetate-phosphate (TAP)",
+          "Minimum Growth Temperature": "20",
+          "Maximum Growth Temperature": "25",
+          "light cycle": "continuous light regimen",
+          "growth environment": "Kennedy Space Center",
+          "UV light exposure": "8",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "WT-wk3-rep3-Dark",
+        "characteristics": {
+          "Organism": "Chlamydomonas reinhardtii",
+          "Genotype": "wild-type mt+",
+          "Material Type": "Whole Organism",
+          "Strain Source": "Chlamydomonas Resource Center",
+          "developmental stage": ""
+        },
+        "factors": {
+          "Strain": "CC-5082",
+          "UV Mutagenesis": "UV Mutagenesis",
+          "Growth Cycle": "week 3",
+          "Sample Storage": "Dark"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "light source": "Vegetable Production System (Veggie)",
+          "Light Quality": "red:green:blue 8:1:1",
+          "container": "120 mL PermaLife cell culture bag",
+          "Light intensity": "80-100",
+          "Culture Media": "Tris acetate-phosphate (TAP)",
+          "Minimum Growth Temperature": "20",
+          "Maximum Growth Temperature": "25",
+          "light cycle": "continuous light regimen",
+          "growth environment": "Kennedy Space Center",
+          "UV light exposure": "8",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "WT-wk3-rep1-Frozen",
+        "characteristics": {
+          "Organism": "Chlamydomonas reinhardtii",
+          "Genotype": "wild-type mt+",
+          "Material Type": "Whole Organism",
+          "Strain Source": "Chlamydomonas Resource Center",
+          "developmental stage": ""
+        },
+        "factors": {
+          "Strain": "CC-5082",
+          "UV Mutagenesis": "UV Mutagenesis",
+          "Growth Cycle": "week 3",
+          "Sample Storage": "Frozen"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "light source": "Vegetable Production System (Veggie)",
+          "Light Quality": "red:green:blue 8:1:1",
+          "container": "120 mL PermaLife cell culture bag",
+          "Light intensity": "80-100",
+          "Culture Media": "Tris acetate-phosphate (TAP)",
+          "Minimum Growth Temperature": "20",
+          "Maximum Growth Temperature": "25",
+          "light cycle": "continuous light regimen",
+          "growth environment": "Kennedy Space Center",
+          "UV light exposure": "8",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "WT-wk3-rep2-Frozen",
+        "characteristics": {
+          "Organism": "Chlamydomonas reinhardtii",
+          "Genotype": "wild-type mt+",
+          "Material Type": "Whole Organism",
+          "Strain Source": "Chlamydomonas Resource Center",
+          "developmental stage": ""
+        },
+        "factors": {
+          "Strain": "CC-5082",
+          "UV Mutagenesis": "UV Mutagenesis",
+          "Growth Cycle": "week 3",
+          "Sample Storage": "Frozen"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "light source": "Vegetable Production System (Veggie)",
+          "Light Quality": "red:green:blue 8:1:1",
+          "container": "120 mL PermaLife cell culture bag",
+          "Light intensity": "80-100",
+          "Culture Media": "Tris acetate-phosphate (TAP)",
+          "Minimum Growth Temperature": "20",
+          "Maximum Growth Temperature": "25",
+          "light cycle": "continuous light regimen",
+          "growth environment": "Kennedy Space Center",
+          "UV light exposure": "8",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "WT-wk3-rep3-Frozen",
+        "characteristics": {
+          "Organism": "Chlamydomonas reinhardtii",
+          "Genotype": "wild-type mt+",
+          "Material Type": "Whole Organism",
+          "Strain Source": "Chlamydomonas Resource Center",
+          "developmental stage": ""
+        },
+        "factors": {
+          "Strain": "CC-5082",
+          "UV Mutagenesis": "UV Mutagenesis",
+          "Growth Cycle": "week 3",
+          "Sample Storage": "Frozen"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "light source": "Vegetable Production System (Veggie)",
+          "Light Quality": "red:green:blue 8:1:1",
+          "container": "120 mL PermaLife cell culture bag",
+          "Light intensity": "80-100",
+          "Culture Media": "Tris acetate-phosphate (TAP)",
+          "Minimum Growth Temperature": "20",
+          "Maximum Growth Temperature": "25",
+          "light cycle": "continuous light regimen",
+          "growth environment": "Kennedy Space Center",
+          "UV light exposure": "8",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "cw15-wk0-preUV",
+        "characteristics": {
+          "Organism": "Chlamydomonas reinhardtii",
+          "Genotype": "cw15 mt-",
+          "Material Type": "Whole Organism",
+          "Strain Source": "Chlamydomonas Resource Center",
+          "developmental stage": ""
+        },
+        "factors": {
+          "Strain": "CC-1883",
+          "UV Mutagenesis": "No UV Mutagenesis",
+          "Growth Cycle": "week 0",
+          "Sample Storage": "Frozen"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "light source": "Vegetable Production System (Veggie)",
+          "Light Quality": "red:green:blue 8:1:1",
+          "container": "120 mL PermaLife cell culture bag",
+          "Light intensity": "80-100",
+          "Culture Media": "Tris acetate-phosphate (TAP)",
+          "Minimum Growth Temperature": "20",
+          "Maximum Growth Temperature": "25",
+          "light cycle": "continuous light regimen",
+          "growth environment": "Kennedy Space Center",
+          "UV light exposure": "8",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "cw15-wk1-rep1-Dark",
+        "characteristics": {
+          "Organism": "Chlamydomonas reinhardtii",
+          "Genotype": "cw15 mt-",
+          "Material Type": "Whole Organism",
+          "Strain Source": "Chlamydomonas Resource Center",
+          "developmental stage": ""
+        },
+        "factors": {
+          "Strain": "CC-1883",
+          "UV Mutagenesis": "UV Mutagenesis",
+          "Growth Cycle": "week 1",
+          "Sample Storage": "Dark"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "light source": "Vegetable Production System (Veggie)",
+          "Light Quality": "red:green:blue 8:1:1",
+          "container": "120 mL PermaLife cell culture bag",
+          "Light intensity": "80-100",
+          "Culture Media": "Tris acetate-phosphate (TAP)",
+          "Minimum Growth Temperature": "20",
+          "Maximum Growth Temperature": "25",
+          "light cycle": "continuous light regimen",
+          "growth environment": "Kennedy Space Center",
+          "UV light exposure": "8",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "cw15-wk1-rep2-Dark",
+        "characteristics": {
+          "Organism": "Chlamydomonas reinhardtii",
+          "Genotype": "cw15 mt-",
+          "Material Type": "Whole Organism",
+          "Strain Source": "Chlamydomonas Resource Center",
+          "developmental stage": ""
+        },
+        "factors": {
+          "Strain": "CC-1883",
+          "UV Mutagenesis": "UV Mutagenesis",
+          "Growth Cycle": "week 1",
+          "Sample Storage": "Dark"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "light source": "Vegetable Production System (Veggie)",
+          "Light Quality": "red:green:blue 8:1:1",
+          "container": "120 mL PermaLife cell culture bag",
+          "Light intensity": "80-100",
+          "Culture Media": "Tris acetate-phosphate (TAP)",
+          "Minimum Growth Temperature": "20",
+          "Maximum Growth Temperature": "25",
+          "light cycle": "continuous light regimen",
+          "growth environment": "Kennedy Space Center",
+          "UV light exposure": "8",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "cw15-wk1-rep3-Dark",
+        "characteristics": {
+          "Organism": "Chlamydomonas reinhardtii",
+          "Genotype": "cw15 mt-",
+          "Material Type": "Whole Organism",
+          "Strain Source": "Chlamydomonas Resource Center",
+          "developmental stage": ""
+        },
+        "factors": {
+          "Strain": "CC-1883",
+          "UV Mutagenesis": "UV Mutagenesis",
+          "Growth Cycle": "week 1",
+          "Sample Storage": "Dark"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "light source": "Vegetable Production System (Veggie)",
+          "Light Quality": "red:green:blue 8:1:1",
+          "container": "120 mL PermaLife cell culture bag",
+          "Light intensity": "80-100",
+          "Culture Media": "Tris acetate-phosphate (TAP)",
+          "Minimum Growth Temperature": "20",
+          "Maximum Growth Temperature": "25",
+          "light cycle": "continuous light regimen",
+          "growth environment": "Kennedy Space Center",
+          "UV light exposure": "8",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "cw15-wk1-rep1-Frozen",
+        "characteristics": {
+          "Organism": "Chlamydomonas reinhardtii",
+          "Genotype": "cw15 mt-",
+          "Material Type": "Whole Organism",
+          "Strain Source": "Chlamydomonas Resource Center",
+          "developmental stage": ""
+        },
+        "factors": {
+          "Strain": "CC-1883",
+          "UV Mutagenesis": "UV Mutagenesis",
+          "Growth Cycle": "week 1",
+          "Sample Storage": "Frozen"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "light source": "Vegetable Production System (Veggie)",
+          "Light Quality": "red:green:blue 8:1:1",
+          "container": "120 mL PermaLife cell culture bag",
+          "Light intensity": "80-100",
+          "Culture Media": "Tris acetate-phosphate (TAP)",
+          "Minimum Growth Temperature": "20",
+          "Maximum Growth Temperature": "25",
+          "light cycle": "continuous light regimen",
+          "growth environment": "Kennedy Space Center",
+          "UV light exposure": "8",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "cw15-wk1-rep2-Frozen",
+        "characteristics": {
+          "Organism": "Chlamydomonas reinhardtii",
+          "Genotype": "cw15 mt-",
+          "Material Type": "Whole Organism",
+          "Strain Source": "Chlamydomonas Resource Center",
+          "developmental stage": ""
+        },
+        "factors": {
+          "Strain": "CC-1883",
+          "UV Mutagenesis": "UV Mutagenesis",
+          "Growth Cycle": "week 1",
+          "Sample Storage": "Frozen"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "light source": "Vegetable Production System (Veggie)",
+          "Light Quality": "red:green:blue 8:1:1",
+          "container": "120 mL PermaLife cell culture bag",
+          "Light intensity": "80-100",
+          "Culture Media": "Tris acetate-phosphate (TAP)",
+          "Minimum Growth Temperature": "20",
+          "Maximum Growth Temperature": "25",
+          "light cycle": "continuous light regimen",
+          "growth environment": "Kennedy Space Center",
+          "UV light exposure": "8",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "cw15-wk1-rep3-Frozen",
+        "characteristics": {
+          "Organism": "Chlamydomonas reinhardtii",
+          "Genotype": "cw15 mt-",
+          "Material Type": "Whole Organism",
+          "Strain Source": "Chlamydomonas Resource Center",
+          "developmental stage": ""
+        },
+        "factors": {
+          "Strain": "CC-1883",
+          "UV Mutagenesis": "UV Mutagenesis",
+          "Growth Cycle": "week 1",
+          "Sample Storage": "Frozen"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "light source": "Vegetable Production System (Veggie)",
+          "Light Quality": "red:green:blue 8:1:1",
+          "container": "120 mL PermaLife cell culture bag",
+          "Light intensity": "80-100",
+          "Culture Media": "Tris acetate-phosphate (TAP)",
+          "Minimum Growth Temperature": "20",
+          "Maximum Growth Temperature": "25",
+          "light cycle": "continuous light regimen",
+          "growth environment": "Kennedy Space Center",
+          "UV light exposure": "8",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "cw15-wk2-rep1-Dark",
+        "characteristics": {
+          "Organism": "Chlamydomonas reinhardtii",
+          "Genotype": "cw15 mt-",
+          "Material Type": "Whole Organism",
+          "Strain Source": "Chlamydomonas Resource Center",
+          "developmental stage": ""
+        },
+        "factors": {
+          "Strain": "CC-1883",
+          "UV Mutagenesis": "UV Mutagenesis",
+          "Growth Cycle": "week 2",
+          "Sample Storage": "Dark"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "light source": "Vegetable Production System (Veggie)",
+          "Light Quality": "red:green:blue 8:1:1",
+          "container": "120 mL PermaLife cell culture bag",
+          "Light intensity": "80-100",
+          "Culture Media": "Tris acetate-phosphate (TAP)",
+          "Minimum Growth Temperature": "20",
+          "Maximum Growth Temperature": "25",
+          "light cycle": "continuous light regimen",
+          "growth environment": "Kennedy Space Center",
+          "UV light exposure": "8",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "cw15-wk2-rep2-Dark",
+        "characteristics": {
+          "Organism": "Chlamydomonas reinhardtii",
+          "Genotype": "cw15 mt-",
+          "Material Type": "Whole Organism",
+          "Strain Source": "Chlamydomonas Resource Center",
+          "developmental stage": ""
+        },
+        "factors": {
+          "Strain": "CC-1883",
+          "UV Mutagenesis": "UV Mutagenesis",
+          "Growth Cycle": "week 2",
+          "Sample Storage": "Dark"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "light source": "Vegetable Production System (Veggie)",
+          "Light Quality": "red:green:blue 8:1:1",
+          "container": "120 mL PermaLife cell culture bag",
+          "Light intensity": "80-100",
+          "Culture Media": "Tris acetate-phosphate (TAP)",
+          "Minimum Growth Temperature": "20",
+          "Maximum Growth Temperature": "25",
+          "light cycle": "continuous light regimen",
+          "growth environment": "Kennedy Space Center",
+          "UV light exposure": "8",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "cw15-wk2-rep3-Dark",
+        "characteristics": {
+          "Organism": "Chlamydomonas reinhardtii",
+          "Genotype": "cw15 mt-",
+          "Material Type": "Whole Organism",
+          "Strain Source": "Chlamydomonas Resource Center",
+          "developmental stage": ""
+        },
+        "factors": {
+          "Strain": "CC-1883",
+          "UV Mutagenesis": "UV Mutagenesis",
+          "Growth Cycle": "week 2",
+          "Sample Storage": "Dark"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "light source": "Vegetable Production System (Veggie)",
+          "Light Quality": "red:green:blue 8:1:1",
+          "container": "120 mL PermaLife cell culture bag",
+          "Light intensity": "80-100",
+          "Culture Media": "Tris acetate-phosphate (TAP)",
+          "Minimum Growth Temperature": "20",
+          "Maximum Growth Temperature": "25",
+          "light cycle": "continuous light regimen",
+          "growth environment": "Kennedy Space Center",
+          "UV light exposure": "8",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "cw15-wk2-rep1-Frozen",
+        "characteristics": {
+          "Organism": "Chlamydomonas reinhardtii",
+          "Genotype": "cw15 mt-",
+          "Material Type": "Whole Organism",
+          "Strain Source": "Chlamydomonas Resource Center",
+          "developmental stage": ""
+        },
+        "factors": {
+          "Strain": "CC-1883",
+          "UV Mutagenesis": "UV Mutagenesis",
+          "Growth Cycle": "week 2",
+          "Sample Storage": "Frozen"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "light source": "Vegetable Production System (Veggie)",
+          "Light Quality": "red:green:blue 8:1:1",
+          "container": "120 mL PermaLife cell culture bag",
+          "Light intensity": "80-100",
+          "Culture Media": "Tris acetate-phosphate (TAP)",
+          "Minimum Growth Temperature": "20",
+          "Maximum Growth Temperature": "25",
+          "light cycle": "continuous light regimen",
+          "growth environment": "Kennedy Space Center",
+          "UV light exposure": "8",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "cw15-wk2-rep2-Frozen",
+        "characteristics": {
+          "Organism": "Chlamydomonas reinhardtii",
+          "Genotype": "cw15 mt-",
+          "Material Type": "Whole Organism",
+          "Strain Source": "Chlamydomonas Resource Center",
+          "developmental stage": ""
+        },
+        "factors": {
+          "Strain": "CC-1883",
+          "UV Mutagenesis": "UV Mutagenesis",
+          "Growth Cycle": "week 2",
+          "Sample Storage": "Frozen"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "light source": "Vegetable Production System (Veggie)",
+          "Light Quality": "red:green:blue 8:1:1",
+          "container": "120 mL PermaLife cell culture bag",
+          "Light intensity": "80-100",
+          "Culture Media": "Tris acetate-phosphate (TAP)",
+          "Minimum Growth Temperature": "20",
+          "Maximum Growth Temperature": "25",
+          "light cycle": "continuous light regimen",
+          "growth environment": "Kennedy Space Center",
+          "UV light exposure": "8",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "cw15-wk2-rep3-Frozen",
+        "characteristics": {
+          "Organism": "Chlamydomonas reinhardtii",
+          "Genotype": "cw15 mt-",
+          "Material Type": "Whole Organism",
+          "Strain Source": "Chlamydomonas Resource Center",
+          "developmental stage": ""
+        },
+        "factors": {
+          "Strain": "CC-1883",
+          "UV Mutagenesis": "UV Mutagenesis",
+          "Growth Cycle": "week 2",
+          "Sample Storage": "Frozen"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "light source": "Vegetable Production System (Veggie)",
+          "Light Quality": "red:green:blue 8:1:1",
+          "container": "120 mL PermaLife cell culture bag",
+          "Light intensity": "80-100",
+          "Culture Media": "Tris acetate-phosphate (TAP)",
+          "Minimum Growth Temperature": "20",
+          "Maximum Growth Temperature": "25",
+          "light cycle": "continuous light regimen",
+          "growth environment": "Kennedy Space Center",
+          "UV light exposure": "8",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "cw15-wk3-rep1-Dark",
+        "characteristics": {
+          "Organism": "Chlamydomonas reinhardtii",
+          "Genotype": "cw15 mt-",
+          "Material Type": "Whole Organism",
+          "Strain Source": "Chlamydomonas Resource Center",
+          "developmental stage": ""
+        },
+        "factors": {
+          "Strain": "CC-1883",
+          "UV Mutagenesis": "UV Mutagenesis",
+          "Growth Cycle": "week 3",
+          "Sample Storage": "Dark"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "light source": "Vegetable Production System (Veggie)",
+          "Light Quality": "red:green:blue 8:1:1",
+          "container": "120 mL PermaLife cell culture bag",
+          "Light intensity": "80-100",
+          "Culture Media": "Tris acetate-phosphate (TAP)",
+          "Minimum Growth Temperature": "20",
+          "Maximum Growth Temperature": "25",
+          "light cycle": "continuous light regimen",
+          "growth environment": "Kennedy Space Center",
+          "UV light exposure": "8",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "cw15-wk3-rep2-Dark",
+        "characteristics": {
+          "Organism": "Chlamydomonas reinhardtii",
+          "Genotype": "cw15 mt-",
+          "Material Type": "Whole Organism",
+          "Strain Source": "Chlamydomonas Resource Center",
+          "developmental stage": ""
+        },
+        "factors": {
+          "Strain": "CC-1883",
+          "UV Mutagenesis": "UV Mutagenesis",
+          "Growth Cycle": "week 3",
+          "Sample Storage": "Dark"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "light source": "Vegetable Production System (Veggie)",
+          "Light Quality": "red:green:blue 8:1:1",
+          "container": "120 mL PermaLife cell culture bag",
+          "Light intensity": "80-100",
+          "Culture Media": "Tris acetate-phosphate (TAP)",
+          "Minimum Growth Temperature": "20",
+          "Maximum Growth Temperature": "25",
+          "light cycle": "continuous light regimen",
+          "growth environment": "Kennedy Space Center",
+          "UV light exposure": "8",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "cw15-wk3-rep3-Dark",
+        "characteristics": {
+          "Organism": "Chlamydomonas reinhardtii",
+          "Genotype": "cw15 mt-",
+          "Material Type": "Whole Organism",
+          "Strain Source": "Chlamydomonas Resource Center",
+          "developmental stage": ""
+        },
+        "factors": {
+          "Strain": "CC-1883",
+          "UV Mutagenesis": "UV Mutagenesis",
+          "Growth Cycle": "week 3",
+          "Sample Storage": "Dark"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "light source": "Vegetable Production System (Veggie)",
+          "Light Quality": "red:green:blue 8:1:1",
+          "container": "120 mL PermaLife cell culture bag",
+          "Light intensity": "80-100",
+          "Culture Media": "Tris acetate-phosphate (TAP)",
+          "Minimum Growth Temperature": "20",
+          "Maximum Growth Temperature": "25",
+          "light cycle": "continuous light regimen",
+          "growth environment": "Kennedy Space Center",
+          "UV light exposure": "8",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "cw15-wk3-rep1-Frozen",
+        "characteristics": {
+          "Organism": "Chlamydomonas reinhardtii",
+          "Genotype": "cw15 mt-",
+          "Material Type": "Whole Organism",
+          "Strain Source": "Chlamydomonas Resource Center",
+          "developmental stage": ""
+        },
+        "factors": {
+          "Strain": "CC-1883",
+          "UV Mutagenesis": "UV Mutagenesis",
+          "Growth Cycle": "week 3",
+          "Sample Storage": "Frozen"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "light source": "Vegetable Production System (Veggie)",
+          "Light Quality": "red:green:blue 8:1:1",
+          "container": "120 mL PermaLife cell culture bag",
+          "Light intensity": "80-100",
+          "Culture Media": "Tris acetate-phosphate (TAP)",
+          "Minimum Growth Temperature": "20",
+          "Maximum Growth Temperature": "25",
+          "light cycle": "continuous light regimen",
+          "growth environment": "Kennedy Space Center",
+          "UV light exposure": "8",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "cw15-wk3-rep2-Frozen",
+        "characteristics": {
+          "Organism": "Chlamydomonas reinhardtii",
+          "Genotype": "cw15 mt-",
+          "Material Type": "Whole Organism",
+          "Strain Source": "Chlamydomonas Resource Center",
+          "developmental stage": ""
+        },
+        "factors": {
+          "Strain": "CC-1883",
+          "UV Mutagenesis": "UV Mutagenesis",
+          "Growth Cycle": "week 3",
+          "Sample Storage": "Frozen"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "light source": "Vegetable Production System (Veggie)",
+          "Light Quality": "red:green:blue 8:1:1",
+          "container": "120 mL PermaLife cell culture bag",
+          "Light intensity": "80-100",
+          "Culture Media": "Tris acetate-phosphate (TAP)",
+          "Minimum Growth Temperature": "20",
+          "Maximum Growth Temperature": "25",
+          "light cycle": "continuous light regimen",
+          "growth environment": "Kennedy Space Center",
+          "UV light exposure": "8",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "cw15-wk3-rep3-Frozen",
+        "characteristics": {
+          "Organism": "Chlamydomonas reinhardtii",
+          "Genotype": "cw15 mt-",
+          "Material Type": "Whole Organism",
+          "Strain Source": "Chlamydomonas Resource Center",
+          "developmental stage": ""
+        },
+        "factors": {
+          "Strain": "CC-1883",
+          "UV Mutagenesis": "UV Mutagenesis",
+          "Growth Cycle": "week 3",
+          "Sample Storage": "Frozen"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "light source": "Vegetable Production System (Veggie)",
+          "Light Quality": "red:green:blue 8:1:1",
+          "container": "120 mL PermaLife cell culture bag",
+          "Light intensity": "80-100",
+          "Culture Media": "Tris acetate-phosphate (TAP)",
+          "Minimum Growth Temperature": "20",
+          "Maximum Growth Temperature": "25",
+          "light cycle": "continuous light regimen",
+          "growth environment": "Kennedy Space Center",
+          "UV light exposure": "8",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "genome-sequencing",
+      "platform": "Illumina HiSeq X platform",
+      "qc": {
+        "QA Instrument": "Agilent TapeStation",
+        "QA Assay": "Qubit dsDNA HS Assay Kit"
+      },
+      "library": {},
+      "files": {
+        "raw": [
+          "GLDS-265_wgs_D710_D501_R1.fastq.gz",
+          "GLDS-265_wgs_D710_D501_R2.fastq.gz",
+          "GLDS-265_wgs_D701_D501_R1.fastq.gz",
+          "GLDS-265_wgs_D701_D501_R2.fastq.gz",
+          "GLDS-265_wgs_D702_D501_R1.fastq.gz",
+          "GLDS-265_wgs_D702_D501_R2.fastq.gz",
+          "GLDS-265_wgs_D703_D501_R1.fastq.gz",
+          "GLDS-265_wgs_D703_D501_R2.fastq.gz",
+          "GLDS-265_wgs_D701_D503_R1.fastq.gz",
+          "GLDS-265_wgs_D701_D503_R2.fastq.gz",
+          "GLDS-265_wgs_D702_D503_R1.fastq.gz",
+          "GLDS-265_wgs_D702_D503_R2.fastq.gz",
+          "GLDS-265_wgs_D703_D503_R1.fastq.gz",
+          "GLDS-265_wgs_D703_D503_R2.fastq.gz",
+          "GLDS-265_wgs_D704_D501_R1.fastq.gz",
+          "GLDS-265_wgs_D704_D501_R2.fastq.gz",
+          "GLDS-265_wgs_D707_D504_R1.fastq.gz",
+          "GLDS-265_wgs_D707_D504_R2.fastq.gz",
+          "GLDS-265_wgs_D706_D501_R1.fastq.gz",
+          "GLDS-265_wgs_D706_D501_R2.fastq.gz",
+          "GLDS-265_wgs_D704_D503_R1.fastq.gz",
+          "GLDS-265_wgs_D704_D503_R2.fastq.gz",
+          "GLDS-265_wgs_D705_D503_R1.fastq.gz",
+          "GLDS-265_wgs_D705_D503_R2.fastq.gz",
+          "GLDS-265_wgs_D706_D503_R1.fastq.gz",
+          "GLDS-265_wgs_D706_D503_R2.fastq.gz",
+          "GLDS-265_wgs_D707_D501_R1.fastq.gz",
+          "GLDS-265_wgs_D707_D501_R2.fastq.gz",
+          "GLDS-265_wgs_D708_D501_R1.fastq.gz",
+          "GLDS-265_wgs_D708_D501_R2.fastq.gz",
+          "GLDS-265_wgs_D709_D501_R1.fastq.gz",
+          "GLDS-265_wgs_D709_D501_R2.fastq.gz",
+          "GLDS-265_wgs_D707_D503_R1.fastq.gz",
+          "GLDS-265_wgs_D707_D503_R2.fastq.gz",
+          "GLDS-265_wgs_D708_D503_R1.fastq.gz",
+          "GLDS-265_wgs_D708_D503_R2.fastq.gz",
+          "GLDS-265_wgs_D709_D503_R1.fastq.gz",
+          "GLDS-265_wgs_D709_D503_R2.fastq.gz",
+          "GLDS-265_wgs_D708_D502_R1.fastq.gz",
+          "GLDS-265_wgs_D708_D502_R2.fastq.gz",
+          "GLDS-265_wgs_D711_D501_R1.fastq.gz",
+          "GLDS-265_wgs_D711_D501_R2.fastq.gz",
+          "GLDS-265_wgs_D712_D501_R1.fastq.gz",
+          "GLDS-265_wgs_D712_D501_R2.fastq.gz",
+          "GLDS-265_wgs_D708_D504_R1.fastq.gz",
+          "GLDS-265_wgs_D708_D504_R2.fastq.gz",
+          "GLDS-265_wgs_D710_D503_R1.fastq.gz",
+          "GLDS-265_wgs_D710_D503_R2.fastq.gz",
+          "GLDS-265_wgs_D711_D503_R1.fastq.gz",
+          "GLDS-265_wgs_D711_D503_R2.fastq.gz",
+          "GLDS-265_wgs_D712_D503_R1.fastq.gz",
+          "GLDS-265_wgs_D712_D503_R2.fastq.gz",
+          "GLDS-265_wgs_D702_D502_R1.fastq.gz",
+          "GLDS-265_wgs_D702_D502_R2.fastq.gz",
+          "GLDS-265_wgs_D703_D502_R1.fastq.gz",
+          "GLDS-265_wgs_D703_D502_R2.fastq.gz",
+          "GLDS-265_wgs_D704_D502_R1.fastq.gz",
+          "GLDS-265_wgs_D704_D502_R2.fastq.gz",
+          "GLDS-265_wgs_D701_D504_R1.fastq.gz",
+          "GLDS-265_wgs_D701_D504_R2.fastq.gz",
+          "GLDS-265_wgs_D702_D504_R1.fastq.gz",
+          "GLDS-265_wgs_D702_D504_R2.fastq.gz",
+          "GLDS-265_wgs_D703_D504_R1.fastq.gz",
+          "GLDS-265_wgs_D703_D504_R2.fastq.gz",
+          "GLDS-265_wgs_D705_D502_R1.fastq.gz",
+          "GLDS-265_wgs_D705_D502_R2.fastq.gz",
+          "GLDS-265_wgs_D706_D502_R1.fastq.gz",
+          "GLDS-265_wgs_D706_D502_R2.fastq.gz",
+          "GLDS-265_wgs_D709_D504_R1.fastq.gz",
+          "GLDS-265_wgs_D709_D504_R2.fastq.gz",
+          "GLDS-265_wgs_D704_D504_R1.fastq.gz",
+          "GLDS-265_wgs_D704_D504_R2.fastq.gz",
+          "GLDS-265_wgs_D705_D504_R1.fastq.gz",
+          "GLDS-265_wgs_D705_D504_R2.fastq.gz",
+          "GLDS-265_wgs_D706_D504_R1.fastq.gz",
+          "GLDS-265_wgs_D706_D504_R2.fastq.gz"
+        ],
+        "processed": [
+          "WT-wk0-preUV",
+          "nucleic acid sequencing",
+          "Agilent TapeStation",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000244",
+          "Qubit dsDNA HS Assay Kit",
+          "D710_D501",
+          "WGS",
+          "PAIRED",
+          "Illumina HiSeq X platform",
+          "150",
+          "base pair",
+          "WT-wk1-rep1-Dark",
+          "D701_D501",
+          "WT-wk1-rep2-Dark",
+          "D702_D501",
+          "WT-wk1-rep3-Dark",
+          "D703_D501",
+          "WT-wk1-rep1-Frozen",
+          "D701_D503",
+          "WT-wk1-rep2-Frozen",
+          "D702_D503",
+          "WT-wk1-rep3-Frozen",
+          "D703_D503",
+          "WT-wk2-rep1-Dark",
+          "D704_D501",
+          "WT-wk2-rep2-Dark",
+          "D707_D504",
+          "WT-wk2-rep3-Dark",
+          "D706_D501",
+          "WT-wk2-rep1-Frozen",
+          "D704_D503",
+          "WT-wk2-rep2-Frozen",
+          "D705_D503",
+          "WT-wk2-rep3-Frozen",
+          "D706_D503",
+          "WT-wk3-rep1-Dark",
+          "D707_D501",
+          "WT-wk3-rep2-Dark",
+          "D708_D501",
+          "WT-wk3-rep3-Dark",
+          "D709_D501",
+          "WT-wk3-rep1-Frozen",
+          "D707_D503",
+          "WT-wk3-rep2-Frozen",
+          "D708_D503",
+          "WT-wk3-rep3-Frozen",
+          "D709_D503",
+          "cw15-wk0-preUV",
+          "D708_D502",
+          "cw15-wk1-rep1-Dark",
+          "D711_D501",
+          "cw15-wk1-rep2-Dark",
+          "D712_D501",
+          "cw15-wk1-rep3-Dark",
+          "D708_D504",
+          "cw15-wk1-rep1-Frozen",
+          "D710_D503",
+          "cw15-wk1-rep2-Frozen",
+          "D711_D503",
+          "cw15-wk1-rep3-Frozen",
+          "D712_D503",
+          "cw15-wk2-rep1-Dark",
+          "D702_D502",
+          "cw15-wk2-rep2-Dark",
+          "D703_D502",
+          "cw15-wk2-rep3-Dark",
+          "D704_D502",
+          "cw15-wk2-rep1-Frozen",
+          "D701_D504",
+          "cw15-wk2-rep2-Frozen",
+          "D702_D504",
+          "cw15-wk2-rep3-Frozen",
+          "D703_D504",
+          "cw15-wk3-rep1-Dark",
+          "D705_D502",
+          "cw15-wk3-rep2-Dark",
+          "D706_D502",
+          "cw15-wk3-rep3-Dark",
+          "D709_D504",
+          "cw15-wk3-rep1-Frozen",
+          "D704_D504",
+          "cw15-wk3-rep2-Frozen",
+          "D705_D504",
+          "cw15-wk3-rep3-Frozen",
+          "D706_D504"
+        ],
+        "reports": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,1704 @@
+{
+  "investigation": {
+    "id": "OSD-207",
+    "title": "Correlated Gene and Protein Expression in heads from Drosophila reared in microgravity",
+    "description": "Omics analyses of RNA and protein isolated from heads of microgravity reared adult Drosophila.",
+    "mission": {
+      "name": "SpaceX-11",
+      "start_date": "06/03/2017",
+      "end_date": "07/03/2017",
+      "link": "https://osdr.nasa.gov/bio/repo/data/missions/SpaceX-11"
+    },
+    "project": {
+      "identifier": "FFL-02",
+      "title": "Microgravity-induced alterations in gene expression in the Drosophila CNS",
+      "type": "Spaceflight Study",
+      "link": "https://lsda.jsc.nasa.gov/Experiment/exper/13465",
+      "funding": "Space Florida, Nanoracks & NASA GeneLab",
+      "managing_center": "Ames Research Center (ARC)"
+    },
+    "protocols": [
+      "treatment",
+      "sample collection",
+      "nucleic acid extraction",
+      "spike-in control protocol",
+      "RNA sequencing library construction",
+      "nucleic acid sequencing",
+      "GeneLab raw data processing protocol",
+      "GeneLab RNAseq data processing protocol",
+      "protein extraction",
+      "mass spectrometry"
+    ],
+    "publications": [],
+    "factors": [
+      "Spaceflight",
+      "Genotype",
+      "Strain"
+    ],
+    "contacts": [
+      {
+        "first_name": "Karen",
+        "last_name": "Ocorr",
+        "role": "Co-Investigator",
+        "email": "kocorr@sbpdiscovery.org"
+      },
+      {
+        "first_name": "Bodmer",
+        "last_name": "Rolf",
+        "role": "Co-Investigator",
+        "email": "rolf@sbpdiscovery.org"
+      },
+      {
+        "first_name": "Bhattacharya",
+        "last_name": "Sharmila",
+        "role": "Co-Investigator",
+        "email": "sharmila.bhattacharya@nasa.gov"
+      },
+      {
+        "first_name": "Diop",
+        "last_name": "Soda",
+        "role": "Staff Scientist",
+        "email": "sdiop@sbpdiscovery.org"
+      },
+      {
+        "first_name": "James",
+        "last_name": "Brian",
+        "role": "Director, SBP Genomics Facility",
+        "email": "bjames@sbpdiscovery.org"
+      },
+      {
+        "first_name": "Rosa Campos",
+        "last_name": "Alexander",
+        "role": "Director, SBP Proteomics Core",
+        "email": "arosacampos@sbpdiscovery.org"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "CS-Female Ground Control-13",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Sex": "Female",
+          "Age": "1 to 3",
+          "diet": "regular cornmeal/molasses diet",
+          "Material Type": "Head"
+        },
+        "factors": {
+          "Strain": "Canton-S",
+          "Genotype": "Wild Type",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Duration": "30",
+          "Housing Temperature": "~ 21",
+          "Sample Preservation Method": "Qiazol",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Genotype Info": "CantonS, wildtype genetic background for generation of sei ts1 mutant"
+        }
+      },
+      {
+        "sample_name": "CS-Female Ground Control-14",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Sex": "Female",
+          "Age": "1 to 3",
+          "diet": "regular cornmeal/molasses diet",
+          "Material Type": "Head"
+        },
+        "factors": {
+          "Strain": "Canton-S",
+          "Genotype": "Wild Type",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Duration": "30",
+          "Housing Temperature": "~ 21",
+          "Sample Preservation Method": "Qiazol",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Genotype Info": "CantonS, wildtype genetic background for generation of sei ts1 mutant"
+        }
+      },
+      {
+        "sample_name": "CS-Female Ground Control-15",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Sex": "Female",
+          "Age": "1 to 3",
+          "diet": "regular cornmeal/molasses diet",
+          "Material Type": "Head"
+        },
+        "factors": {
+          "Strain": "Canton-S",
+          "Genotype": "Wild Type",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Duration": "30",
+          "Housing Temperature": "~ 21",
+          "Sample Preservation Method": "Qiazol",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Genotype Info": "CantonS, wildtype genetic background for generation of sei ts1 mutant"
+        }
+      },
+      {
+        "sample_name": "CS-Female Ground Control-16",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Sex": "Female",
+          "Age": "1 to 3",
+          "diet": "regular cornmeal/molasses diet",
+          "Material Type": "Head"
+        },
+        "factors": {
+          "Strain": "Canton-S",
+          "Genotype": "Wild Type",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Duration": "30",
+          "Housing Temperature": "~ 21",
+          "Sample Preservation Method": "Qiazol",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Genotype Info": "CantonS, wildtype genetic background for generation of sei ts1 mutant"
+        }
+      },
+      {
+        "sample_name": "CS-Female Space Flown-29",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Sex": "Female",
+          "Age": "1 to 3",
+          "diet": "regular cornmeal/molasses diet",
+          "Material Type": "Head"
+        },
+        "factors": {
+          "Strain": "Canton-S",
+          "Genotype": "Wild Type",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Duration": "30",
+          "Housing Temperature": "~ 21",
+          "Sample Preservation Method": "Qiazol",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Genotype Info": "CantonS, wildtype genetic background for generation of sei ts1 mutant"
+        }
+      },
+      {
+        "sample_name": "CS-Female Space Flown-30",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Sex": "Female",
+          "Age": "1 to 3",
+          "diet": "regular cornmeal/molasses diet",
+          "Material Type": "Head"
+        },
+        "factors": {
+          "Strain": "Canton-S",
+          "Genotype": "Wild Type",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Duration": "30",
+          "Housing Temperature": "~ 21",
+          "Sample Preservation Method": "Qiazol",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Genotype Info": "CantonS, wildtype genetic background for generation of sei ts1 mutant"
+        }
+      },
+      {
+        "sample_name": "CS-Female Space Flown-31",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Sex": "Female",
+          "Age": "1 to 3",
+          "diet": "regular cornmeal/molasses diet",
+          "Material Type": "Head"
+        },
+        "factors": {
+          "Strain": "Canton-S",
+          "Genotype": "Wild Type",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Duration": "30",
+          "Housing Temperature": "~ 21",
+          "Sample Preservation Method": "Qiazol",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Genotype Info": "CantonS, wildtype genetic background for generation of sei ts1 mutant"
+        }
+      },
+      {
+        "sample_name": "CS-Female Space Flown-32",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Sex": "Female",
+          "Age": "1 to 3",
+          "diet": "regular cornmeal/molasses diet",
+          "Material Type": "Head"
+        },
+        "factors": {
+          "Strain": "Canton-S",
+          "Genotype": "Wild Type",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Duration": "30",
+          "Housing Temperature": "~ 21",
+          "Sample Preservation Method": "Qiazol",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Genotype Info": "CantonS, wildtype genetic background for generation of sei ts1 mutant"
+        }
+      },
+      {
+        "sample_name": "KCNQ370 Female Ground Control-01",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Sex": "Female",
+          "Age": "1 to 3",
+          "diet": "regular cornmeal/molasses diet",
+          "Material Type": "Head"
+        },
+        "factors": {
+          "Strain": "w1118",
+          "Genotype": "KCNQ370",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Duration": "30",
+          "Housing Temperature": "~ 21",
+          "Sample Preservation Method": "Qiazol",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Genotype Info": "KCNQ mutant, early stop codon, KCNQ K+ channel homolog"
+        }
+      },
+      {
+        "sample_name": "KCNQ370 Female Ground Control-02",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Sex": "Female",
+          "Age": "1 to 3",
+          "diet": "regular cornmeal/molasses diet",
+          "Material Type": "Head"
+        },
+        "factors": {
+          "Strain": "w1118",
+          "Genotype": "KCNQ370",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Duration": "30",
+          "Housing Temperature": "~ 21",
+          "Sample Preservation Method": "Qiazol",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Genotype Info": "KCNQ mutant, early stop codon, KCNQ K+ channel homolog"
+        }
+      },
+      {
+        "sample_name": "KCNQ370 Female Ground Control-03",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Sex": "Female",
+          "Age": "1 to 3",
+          "diet": "regular cornmeal/molasses diet",
+          "Material Type": "Head"
+        },
+        "factors": {
+          "Strain": "w1118",
+          "Genotype": "KCNQ370",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Duration": "30",
+          "Housing Temperature": "~ 21",
+          "Sample Preservation Method": "Qiazol",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Genotype Info": "KCNQ mutant, early stop codon, KCNQ K+ channel homolog"
+        }
+      },
+      {
+        "sample_name": "KCNQ370 Female Ground Control-04",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Sex": "Female",
+          "Age": "1 to 3",
+          "diet": "regular cornmeal/molasses diet",
+          "Material Type": "Head"
+        },
+        "factors": {
+          "Strain": "w1118",
+          "Genotype": "KCNQ370",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Duration": "30",
+          "Housing Temperature": "~ 21",
+          "Sample Preservation Method": "Qiazol",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Genotype Info": "KCNQ mutant, early stop codon, KCNQ K+ channel homolog"
+        }
+      },
+      {
+        "sample_name": "KCNQ370 Female Space Flown-17",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Sex": "Female",
+          "Age": "1 to 3",
+          "diet": "regular cornmeal/molasses diet",
+          "Material Type": "Head"
+        },
+        "factors": {
+          "Strain": "w1118",
+          "Genotype": "KCNQ370",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Duration": "30",
+          "Housing Temperature": "~ 21",
+          "Sample Preservation Method": "Qiazol",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Genotype Info": "KCNQ mutant, early stop codon, KCNQ K+ channel homolog"
+        }
+      },
+      {
+        "sample_name": "KCNQ370 Female Space Flown-18",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Sex": "Female",
+          "Age": "1 to 3",
+          "diet": "regular cornmeal/molasses diet",
+          "Material Type": "Head"
+        },
+        "factors": {
+          "Strain": "w1118",
+          "Genotype": "KCNQ370",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Duration": "30",
+          "Housing Temperature": "~ 21",
+          "Sample Preservation Method": "Qiazol",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Genotype Info": "KCNQ mutant, early stop codon, KCNQ K+ channel homolog"
+        }
+      },
+      {
+        "sample_name": "KCNQ370 Female Space Flown-19",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Sex": "Female",
+          "Age": "1 to 3",
+          "diet": "regular cornmeal/molasses diet",
+          "Material Type": "Head"
+        },
+        "factors": {
+          "Strain": "w1118",
+          "Genotype": "KCNQ370",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Duration": "30",
+          "Housing Temperature": "~ 21",
+          "Sample Preservation Method": "Qiazol",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Genotype Info": "KCNQ mutant, early stop codon, KCNQ K+ channel homolog"
+        }
+      },
+      {
+        "sample_name": "KCNQ370 Female Space Flown-20",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Sex": "Female",
+          "Age": "1 to 3",
+          "diet": "regular cornmeal/molasses diet",
+          "Material Type": "Head"
+        },
+        "factors": {
+          "Strain": "w1118",
+          "Genotype": "KCNQ370",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Duration": "30",
+          "Housing Temperature": "~ 21",
+          "Sample Preservation Method": "Qiazol",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Genotype Info": "KCNQ mutant, early stop codon, KCNQ K+ channel homolog"
+        }
+      },
+      {
+        "sample_name": "KCNQ97 Female Ground Control-05",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Sex": "Female",
+          "Age": "1 to 3",
+          "diet": "regular cornmeal/molasses diet",
+          "Material Type": "Head"
+        },
+        "factors": {
+          "Strain": "w1118",
+          "Genotype": "Wild Type",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Duration": "30",
+          "Housing Temperature": "~ 21",
+          "Sample Preservation Method": "Qiazol",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Genotype Info": "wildtype genetic background of KCNQ370 mutant"
+        }
+      },
+      {
+        "sample_name": "KCNQ97 Female Ground Control-06",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Sex": "Female",
+          "Age": "1 to 3",
+          "diet": "regular cornmeal/molasses diet",
+          "Material Type": "Head"
+        },
+        "factors": {
+          "Strain": "w1118",
+          "Genotype": "Wild Type",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Duration": "30",
+          "Housing Temperature": "~ 21",
+          "Sample Preservation Method": "Qiazol",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Genotype Info": "wildtype genetic background of KCNQ370 mutant"
+        }
+      },
+      {
+        "sample_name": "KCNQ97 Female Ground Control-07",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Sex": "Female",
+          "Age": "1 to 3",
+          "diet": "regular cornmeal/molasses diet",
+          "Material Type": "Head"
+        },
+        "factors": {
+          "Strain": "w1118",
+          "Genotype": "Wild Type",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Duration": "30",
+          "Housing Temperature": "~ 21",
+          "Sample Preservation Method": "Qiazol",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Genotype Info": "wildtype genetic background of KCNQ370 mutant"
+        }
+      },
+      {
+        "sample_name": "KCNQ97 Female Ground Control-08",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Sex": "Female",
+          "Age": "1 to 3",
+          "diet": "regular cornmeal/molasses diet",
+          "Material Type": "Head"
+        },
+        "factors": {
+          "Strain": "w1118",
+          "Genotype": "Wild Type",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Duration": "30",
+          "Housing Temperature": "~ 21",
+          "Sample Preservation Method": "Qiazol",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Genotype Info": "wildtype genetic background of KCNQ370 mutant"
+        }
+      },
+      {
+        "sample_name": "KCNQ97 Female Space Flown-21",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Sex": "Female",
+          "Age": "1 to 3",
+          "diet": "regular cornmeal/molasses diet",
+          "Material Type": "Head"
+        },
+        "factors": {
+          "Strain": "w1118",
+          "Genotype": "Wild Type",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Duration": "30",
+          "Housing Temperature": "~ 21",
+          "Sample Preservation Method": "Qiazol",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Genotype Info": "wildtype genetic background of KCNQ370 mutant"
+        }
+      },
+      {
+        "sample_name": "KCNQ97 Female Space Flown-22",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Sex": "Female",
+          "Age": "1 to 3",
+          "diet": "regular cornmeal/molasses diet",
+          "Material Type": "Head"
+        },
+        "factors": {
+          "Strain": "w1118",
+          "Genotype": "Wild Type",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Duration": "30",
+          "Housing Temperature": "~ 21",
+          "Sample Preservation Method": "Qiazol",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Genotype Info": "wildtype genetic background of KCNQ370 mutant"
+        }
+      },
+      {
+        "sample_name": "KCNQ97 Female Space Flown-23",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Sex": "Female",
+          "Age": "1 to 3",
+          "diet": "regular cornmeal/molasses diet",
+          "Material Type": "Head"
+        },
+        "factors": {
+          "Strain": "w1118",
+          "Genotype": "Wild Type",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Duration": "30",
+          "Housing Temperature": "~ 21",
+          "Sample Preservation Method": "Qiazol",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Genotype Info": "wildtype genetic background of KCNQ370 mutant"
+        }
+      },
+      {
+        "sample_name": "KCNQ97 Female Space Flown-24",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Sex": "Female",
+          "Age": "1 to 3",
+          "diet": "regular cornmeal/molasses diet",
+          "Material Type": "Head"
+        },
+        "factors": {
+          "Strain": "w1118",
+          "Genotype": "Wild Type",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Duration": "30",
+          "Housing Temperature": "~ 21",
+          "Sample Preservation Method": "Qiazol",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Genotype Info": "wildtype genetic background of KCNQ370 mutant"
+        }
+      },
+      {
+        "sample_name": "Sei ts1-Female Ground Control-09",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Sex": "Female",
+          "Age": "1 to 3",
+          "diet": "regular cornmeal/molasses diet",
+          "Material Type": "Head"
+        },
+        "factors": {
+          "Strain": "Canton-S",
+          "Genotype": "Sei ts1",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Duration": "30",
+          "Housing Temperature": "~ 21",
+          "Sample Preservation Method": "Qiazol",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Genotype Info": "seizure mutant, early stop codon, hERG K+ channel homolog"
+        }
+      },
+      {
+        "sample_name": "Sei ts1-Female Ground Control-10",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Sex": "Female",
+          "Age": "1 to 3",
+          "diet": "regular cornmeal/molasses diet",
+          "Material Type": "Head"
+        },
+        "factors": {
+          "Strain": "Canton-S",
+          "Genotype": "Sei ts1",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Duration": "30",
+          "Housing Temperature": "~ 21",
+          "Sample Preservation Method": "Qiazol",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Genotype Info": "seizure mutant, early stop codon, hERG K+ channel homolog"
+        }
+      },
+      {
+        "sample_name": "Sei ts1-Female Ground Control-11",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Sex": "Female",
+          "Age": "1 to 3",
+          "diet": "regular cornmeal/molasses diet",
+          "Material Type": "Head"
+        },
+        "factors": {
+          "Strain": "Canton-S",
+          "Genotype": "Sei ts1",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Duration": "30",
+          "Housing Temperature": "~ 21",
+          "Sample Preservation Method": "Qiazol",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Genotype Info": "seizure mutant, early stop codon, hERG K+ channel homolog"
+        }
+      },
+      {
+        "sample_name": "Sei ts1-Female Ground Control-12",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Sex": "Female",
+          "Age": "1 to 3",
+          "diet": "regular cornmeal/molasses diet",
+          "Material Type": "Head"
+        },
+        "factors": {
+          "Strain": "Canton-S",
+          "Genotype": "Sei ts1",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Duration": "30",
+          "Housing Temperature": "~ 21",
+          "Sample Preservation Method": "Qiazol",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Genotype Info": "seizure mutant, early stop codon, hERG K+ channel homolog"
+        }
+      },
+      {
+        "sample_name": "Sei ts1-Female Space Flown-25",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Sex": "Female",
+          "Age": "1 to 3",
+          "diet": "regular cornmeal/molasses diet",
+          "Material Type": "Head"
+        },
+        "factors": {
+          "Strain": "Canton-S",
+          "Genotype": "Sei ts1",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Duration": "30",
+          "Housing Temperature": "~ 21",
+          "Sample Preservation Method": "Qiazol",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Genotype Info": "seizure mutant, early stop codon, hERG K+ channel homolog"
+        }
+      },
+      {
+        "sample_name": "Sei ts1-Female Space Flown-26",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Sex": "Female",
+          "Age": "1 to 3",
+          "diet": "regular cornmeal/molasses diet",
+          "Material Type": "Head"
+        },
+        "factors": {
+          "Strain": "Canton-S",
+          "Genotype": "Sei ts1",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Duration": "30",
+          "Housing Temperature": "~ 21",
+          "Sample Preservation Method": "Qiazol",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Genotype Info": "seizure mutant, early stop codon, hERG K+ channel homolog"
+        }
+      },
+      {
+        "sample_name": "Sei ts1-Female Space Flown-27",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Sex": "Female",
+          "Age": "1 to 3",
+          "diet": "regular cornmeal/molasses diet",
+          "Material Type": "Head"
+        },
+        "factors": {
+          "Strain": "Canton-S",
+          "Genotype": "Sei ts1",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Duration": "30",
+          "Housing Temperature": "~ 21",
+          "Sample Preservation Method": "Qiazol",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Genotype Info": "seizure mutant, early stop codon, hERG K+ channel homolog"
+        }
+      },
+      {
+        "sample_name": "Sei ts1-Female Space Flown-28",
+        "characteristics": {
+          "Organism": "Drosophila melanogaster",
+          "Sex": "Female",
+          "Age": "1 to 3",
+          "diet": "regular cornmeal/molasses diet",
+          "Material Type": "Head"
+        },
+        "factors": {
+          "Strain": "Canton-S",
+          "Genotype": "Sei ts1",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Duration": "30",
+          "Housing Temperature": "~ 21",
+          "Sample Preservation Method": "Qiazol",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Genotype Info": "seizure mutant, early stop codon, hERG K+ channel homolog"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "protein-expression-profiling",
+      "platform": "",
+      "qc": {
+        "QA Instrument": "SpectraMax microplate reader",
+        "QA Assay": "BCA protein Assay",
+        "QA Score": "7.7"
+      },
+      "library": {},
+      "files": {
+        "raw": [
+          "GLDS-207_proteomics_GC_KCNQ370_R1.raw.gz",
+          "GLDS-207_proteomics_GC_KCNQ370_R2.raw.gz",
+          "GLDS-207_proteomics_GC_KCNQ370_R3.raw.gz",
+          "GLDS-207_proteomics_GC_KCNQ370_R4.raw.gz",
+          "GLDS-207_proteomics_GC_KCNQ97_R1.raw.gz",
+          "GLDS-207_proteomics_GC_KCNQ97_R2.raw.gz",
+          "GLDS-207_proteomics_GC_KCNQ97_R3.raw.gz",
+          "GLDS-207_proteomics_GC_KCNQ97_R4.raw.gz",
+          "GLDS-207_proteomics_GC_SeiTS1_R1.raw.gz",
+          "GLDS-207_proteomics_GC_SeiTS1_R2.raw.gz",
+          "GLDS-207_proteomics_GC_SeiTS1_R3.raw.gz",
+          "GLDS-207_proteomics_GC_SeiTS1_R4.raw.gz",
+          "GLDS-207_proteomics_GC_CS_R1.raw.gz",
+          "GLDS-207_proteomics_GC_CS_R2.raw.gz",
+          "GLDS-207_proteomics_GC_CS_R3.raw.gz",
+          "GLDS-207_proteomics_GC_CS_R4.raw.gz",
+          "GLDS-207_proteomics_Space_KCNQ370_R1.raw.gz",
+          "GLDS-207_proteomics_Space_KCNQ370_R2.raw.gz",
+          "GLDS-207_proteomics_Space_KCNQ370_R3.raw.gz",
+          "GLDS-207_proteomics_Space_KCNQ370_R4.raw.gz",
+          "GLDS-207_proteomics_Space_KCNQ97_R1.raw.gz",
+          "GLDS-207_proteomics_Space_KCNQ97_R2.raw.gz",
+          "GLDS-207_proteomics_Space_KCNQ97_R3.raw.gz",
+          "GLDS-207_proteomics_Space_KCNQ97_R4.raw.gz",
+          "GLDS-207_proteomics_Space_SeiTS_R1.raw.gz",
+          "GLDS-207_proteomics_Space_SeiTS_R2.raw.gz",
+          "GLDS-207_proteomics_Space_SeiTS_R3.raw.gz",
+          "GLDS-207_proteomics_Space_SeiTS_R4.raw.gz",
+          "GLDS-207_proteomics_Space_CS_R1.raw.gz",
+          "GLDS-207_proteomics_Space_CS_R2.raw.gz",
+          "GLDS-207_proteomics_Space_CS_R3.raw.gz",
+          "GLDS-207_proteomics_Space_CS_R4.raw.gz"
+        ],
+        "processed": [
+          "KCNQ370 Female Ground Control-01",
+          "mass spectrometry",
+          "SpectraMax microplate reader",
+          "BCA protein Assay",
+          "7.7",
+          "microgram",
+          "Orbitrap Fusion Lumos (Thermo)",
+          "nano ESI",
+          "Orbitrap",
+          "mass spec",
+          "GLDS-207_proteomics_GC_KCNQ370_R1.raw.gz",
+          "GLDS-207_proteomics_GC_KCNQ370_R1.mzML.gz",
+          "GLDS-207_proteomics_processed_data_files.zip",
+          "KCNQ370 Female Ground Control-02",
+          "23.35",
+          "GLDS-207_proteomics_GC_KCNQ370_R2.raw.gz",
+          "GLDS-207_proteomics_GC_KCNQ370_R2.mzML.gz",
+          "KCNQ370 Female Ground Control-03",
+          "19.25",
+          "GLDS-207_proteomics_GC_KCNQ370_R3.raw.gz",
+          "GLDS-207_proteomics_GC_KCNQ370_R3.mzML.gz",
+          "KCNQ370 Female Ground Control-04",
+          "9.1",
+          "GLDS-207_proteomics_GC_KCNQ370_R4.raw.gz",
+          "GLDS-207_proteomics_GC_KCNQ370_R4.mzML.gz",
+          "KCNQ97 Female Ground Control-05",
+          "15.9",
+          "GLDS-207_proteomics_GC_KCNQ97_R1.raw.gz",
+          "GLDS-207_proteomics_GC_KCNQ97_R1.mzML.gz",
+          "KCNQ97 Female Ground Control-06",
+          "14.8",
+          "GLDS-207_proteomics_GC_KCNQ97_R2.raw.gz",
+          "GLDS-207_proteomics_GC_KCNQ97_R2.mzML.gz",
+          "KCNQ97 Female Ground Control-07",
+          "16.8",
+          "GLDS-207_proteomics_GC_KCNQ97_R3.raw.gz",
+          "GLDS-207_proteomics_GC_KCNQ97_R3.mzML.gz",
+          "KCNQ97 Female Ground Control-08",
+          "20.65",
+          "GLDS-207_proteomics_GC_KCNQ97_R4.raw.gz",
+          "GLDS-207_proteomics_GC_KCNQ97_R4.mzML.gz",
+          "Sei ts1-Female Ground Control-09",
+          "GLDS-207_proteomics_GC_SeiTS1_R1.raw.gz",
+          "GLDS-207_proteomics_GC_SeiTS1_R1.mzML.gz",
+          "Sei ts1-Female Ground Control-10",
+          "19.55",
+          "GLDS-207_proteomics_GC_SeiTS1_R2.raw.gz",
+          "GLDS-207_proteomics_GC_SeiTS1_R2.mzML.gz",
+          "Sei ts1-Female Ground Control-11",
+          "12.75",
+          "GLDS-207_proteomics_GC_SeiTS1_R3.raw.gz",
+          "GLDS-207_proteomics_GC_SeiTS1_R3.mzML.gz",
+          "Sei ts1-Female Ground Control-12",
+          "12.2",
+          "GLDS-207_proteomics_GC_SeiTS1_R4.raw.gz",
+          "GLDS-207_proteomics_GC_SeiTS1_R4.mzML.gz",
+          "CS-Female Ground Control-13",
+          "13.65",
+          "GLDS-207_proteomics_GC_CS_R1.raw.gz",
+          "GLDS-207_proteomics_GC_CS_R1.mzML.gz",
+          "CS-Female Ground Control-14",
+          "24.95",
+          "GLDS-207_proteomics_GC_CS_R2.raw.gz",
+          "GLDS-207_proteomics_GC_CS_R2.mzML.gz",
+          "CS-Female Ground Control-15",
+          "12.95",
+          "GLDS-207_proteomics_GC_CS_R3.raw.gz",
+          "GLDS-207_proteomics_GC_CS_R3.mzML.gz",
+          "CS-Female Ground Control-16",
+          "7.35",
+          "GLDS-207_proteomics_GC_CS_R4.raw.gz",
+          "GLDS-207_proteomics_GC_CS_R4.mzML.gz",
+          "KCNQ370 Female Space Flown-17",
+          "18.3",
+          "GLDS-207_proteomics_Space_KCNQ370_R1.raw.gz",
+          "GLDS-207_proteomics_Space_KCNQ370_R1.mzML.gz",
+          "KCNQ370 Female Space Flown-18",
+          "13.55",
+          "GLDS-207_proteomics_Space_KCNQ370_R2.raw.gz",
+          "GLDS-207_proteomics_Space_KCNQ370_R2.mzML.gz",
+          "KCNQ370 Female Space Flown-19",
+          "8.75",
+          "GLDS-207_proteomics_Space_KCNQ370_R3.raw.gz",
+          "GLDS-207_proteomics_Space_KCNQ370_R3.mzML.gz",
+          "KCNQ370 Female Space Flown-20",
+          "15.15",
+          "GLDS-207_proteomics_Space_KCNQ370_R4.raw.gz",
+          "GLDS-207_proteomics_Space_KCNQ370_R4.mzML.gz",
+          "KCNQ97 Female Space Flown-21",
+          "19.35",
+          "GLDS-207_proteomics_Space_KCNQ97_R1.raw.gz",
+          "GLDS-207_proteomics_Space_KCNQ97_R1.mzML.gz",
+          "KCNQ97 Female Space Flown-22",
+          "GLDS-207_proteomics_Space_KCNQ97_R2.raw.gz",
+          "GLDS-207_proteomics_Space_KCNQ97_R2.mzML.gz",
+          "KCNQ97 Female Space Flown-23",
+          "19.6",
+          "GLDS-207_proteomics_Space_KCNQ97_R3.raw.gz",
+          "GLDS-207_proteomics_Space_KCNQ97_R3.mzML.gz",
+          "KCNQ97 Female Space Flown-24",
+          "19.7",
+          "GLDS-207_proteomics_Space_KCNQ97_R4.raw.gz",
+          "GLDS-207_proteomics_Space_KCNQ97_R4.mzML.gz",
+          "Sei ts1-Female Space Flown-25",
+          "17.45",
+          "GLDS-207_proteomics_Space_SeiTS_R1.raw.gz",
+          "GLDS-207_proteomics_Space_SeiTS_R1.mzML.gz",
+          "Sei ts1-Female Space Flown-26",
+          "19.05",
+          "GLDS-207_proteomics_Space_SeiTS_R2.raw.gz",
+          "GLDS-207_proteomics_Space_SeiTS_R2.mzML.gz",
+          "Sei ts1-Female Space Flown-27",
+          "GLDS-207_proteomics_Space_SeiTS_R3.raw.gz",
+          "GLDS-207_proteomics_Space_SeiTS_R3.mzML.gz",
+          "Sei ts1-Female Space Flown-28",
+          "16.75",
+          "GLDS-207_proteomics_Space_SeiTS_R4.raw.gz",
+          "GLDS-207_proteomics_Space_SeiTS_R4.mzML.gz",
+          "CS-Female Space Flown-29",
+          "13.2",
+          "GLDS-207_proteomics_Space_CS_R1.raw.gz",
+          "GLDS-207_proteomics_Space_CS_R1.mzML.gz",
+          "CS-Female Space Flown-30",
+          "16.65",
+          "GLDS-207_proteomics_Space_CS_R2.raw.gz",
+          "GLDS-207_proteomics_Space_CS_R2.mzML.gz",
+          "CS-Female Space Flown-31",
+          "18.2",
+          "GLDS-207_proteomics_Space_CS_R3.raw.gz",
+          "GLDS-207_proteomics_Space_CS_R3.mzML.gz",
+          "CS-Female Space Flown-32",
+          "17",
+          "GLDS-207_proteomics_Space_CS_R4.raw.gz",
+          "GLDS-207_proteomics_Space_CS_R4.mzML.gz"
+        ],
+        "reports": []
+      }
+    },
+    {
+      "type": "transcription-profiling",
+      "platform": "NextSeq 500",
+      "qc": {
+        "QA Instrument": "NanoDrop",
+        "Read Depth": "27202983",
+        "rRNA Contamination": "0.28"
+      },
+      "library": {},
+      "files": {
+        "raw": [
+          "GLDS-207_rna-seq_01Mix_1-KCNQ_370-Female.tar.gz",
+          "GLDS-207_rna-seq_02Mix_2-KCNQ_370-Female.tar.gz",
+          "GLDS-207_rna-seq_03Mix_1-KCNQ_370-Female.tar.gz",
+          "GLDS-207_rna-seq_04Mix_2-KCNQ_370-Female.tar.gz",
+          "GLDS-207_rna-seq_06Mix_2-KCNQ_97-Female.tar.gz",
+          "GLDS-207_rna-seq_07Mix_1-KCNQ_97-Female.tar.gz",
+          "GLDS-207_rna-seq_08Mix_2-KCNQ_97-Female.tar.gz",
+          "GLDS-207_rna-seq_09Mix_1-Sei_ts1-Female.tar.gz",
+          "GLDS-207_rna-seq_10Mix_2-Sei_ts1-Female.tar.gz",
+          "GLDS-207_rna-seq_11Mix_1-Sei_ts1-Female.tar.gz",
+          "GLDS-207_rna-seq_12Mix_2-Sei_ts1-Female.tar.gz",
+          "GLDS-207_rna-seq_13Mix_1-CS-Female.tar.gz",
+          "GLDS-207_rna-seq_14Mix_2-136036906.zip",
+          "GLDS-207_rna-seq_15Mix_1-CS-Female.tar.gz",
+          "GLDS-207_rna-seq_16Mix_2-136065930.zip",
+          "GLDS-207_rna-seq_17Mix_1-140243119.zip",
+          "GLDS-207_rna-seq_18Mix_2-140248116.zip",
+          "GLDS-207_rna-seq_19Mix_1-140545412.zip",
+          "GLDS-207_rna-seq_20Mix_2-140251112.zip",
+          "GLDS-207_rna-seq_21Mix_1-140251114.zip",
+          "GLDS-207_rna-seq_22Mix_2-140248121.zip",
+          "GLDS-207_rna-seq_23Mix_1-140246117.zip",
+          "GLDS-207_rna-seq_24Mix_2-KCNQ_97-Female.tar.gz",
+          "GLDS-207_rna-seq_25Mix_1-Sei_ts1-Female.tar.gz",
+          "GLDS-207_rna-seq_26Mix_2-Sei_ts1-Female.tar.gz",
+          "GLDS-207_rna-seq_27Mix_1-Sei_ts1-Female.tar.gz",
+          "GLDS-207_rna-seq_28Mix_2-Sei_ts1-Female.tar.gz",
+          "GLDS-207_rna-seq_29Mix_1-CS-Female.tar.gz",
+          "GLDS-207_rna-seq_30Mix_2-CS-Female.tar.gz",
+          "GLDS-207_rna-seq_31Mix_1-CS-Female.tar.gz",
+          "GLDS-207_rna-seq_32Mix_2-CS-Female.tar.gz",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_GC_01_R1_raw.fastq.gz",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-01_R1_trimmed.fastq.gz",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_GC_02_R1_raw.fastq.gz",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-02_R1_trimmed.fastq.gz",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_GC_03_R1_raw.fastq.gz",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-03_R1_trimmed.fastq.gz",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_GC_04_R1_raw.fastq.gz",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-04_R1_trimmed.fastq.gz",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_GC_05_R1_raw.fastq.gz",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-05_R1_trimmed.fastq.gz",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_GC_06_R1_raw.fastq.gz",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-06_R1_trimmed.fastq.gz",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_GC_07_R1_raw.fastq.gz",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-07_R1_trimmed.fastq.gz",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_GC_08_R1_raw.fastq.gz",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-08_R1_trimmed.fastq.gz",
+          "\"GLDS-207_rna_seq_Seits1_Female_GC_09_R1_raw.fastq.gz",
+          "\"GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-09_R1_trimmed.fastq.gz",
+          "\"GLDS-207_rna_seq_Seits1_Female_GC_10_R1_raw.fastq.gz",
+          "\"GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-10_R1_trimmed.fastq.gz",
+          "\"GLDS-207_rna_seq_Seits1_Female_GC_11_R1_raw.fastq.gz",
+          "\"GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-11_R1_trimmed.fastq.gz",
+          "\"GLDS-207_rna_seq_Seits1_Female_GC_12_R1_raw.fastq.gz",
+          "\"GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-12_R1_trimmed.fastq.gz",
+          "\"GLDS-207_rna_seq_CS_Female_GC_13_R1_raw.fastq.gz",
+          "\"GLDS-207_rna_seq_CS-Female_Ground_Control-13_R1_trimmed.fastq.gz",
+          "\"GLDS-207_rna_seq_CS_Female_GC_14_R1_raw.fastq.gz",
+          "\"GLDS-207_rna_seq_CS-Female_Ground_Control-14_R1_trimmed.fastq.gz",
+          "\"GLDS-207_rna_seq_CS_Female_GC_15_R1_raw.fastq.gz",
+          "\"GLDS-207_rna_seq_CS-Female_Ground_Control-15_R1_trimmed.fastq.gz",
+          "\"GLDS-207_rna_seq_CS_Female_GC_16_R1_raw.fastq.gz",
+          "\"GLDS-207_rna_seq_CS-Female_Ground_Control-16_R1_trimmed.fastq.gz",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_FLT_17_R1_raw.fastq.gz",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-17_R1_trimmed.fastq.gz",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_FLT_18_R1_raw.fastq.gz",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-18_R1_trimmed.fastq.gz",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_FLT_19_R1_raw.fastq.gz",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-19_R1_trimmed.fastq.gz",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_FLT_20_R1_raw.fastq.gz",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-20_R1_trimmed.fastq.gz",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_FLT_21_R1_raw.fastq.gz",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-21_R1_trimmed.fastq.gz",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_FLT_22_R1_raw.fastq.gz",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-22_R1_trimmed.fastq.gz",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_FLT_23_R1_raw.fastq.gz",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-23_R1_trimmed.fastq.gz",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_FLT_24_R1_raw.fastq.gz",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-24_R1_trimmed.fastq.gz",
+          "\"GLDS-207_rna_seq_Seits1_Female_FLT_25_R1_raw.fastq.gz",
+          "\"GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-25_R1_trimmed.fastq.gz",
+          "\"GLDS-207_rna_seq_Seits1_Female_FLT_26_R1_raw.fastq.gz",
+          "\"GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-26_R1_trimmed.fastq.gz",
+          "\"GLDS-207_rna_seq_Seits1_Female_FLT_27_R1_raw.fastq.gz",
+          "\"GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-27_R1_trimmed.fastq.gz",
+          "\"GLDS-207_rna_seq_Seits1_Female_FLT_28_R1_raw.fastq.gz",
+          "\"GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-28_R1_trimmed.fastq.gz",
+          "\"GLDS-207_rna_seq_CS_Female_FLT_29_R1_raw.fastq.gz",
+          "\"GLDS-207_rna_seq_CS-Female_Space_Flown-29_R1_trimmed.fastq.gz",
+          "\"GLDS-207_rna_seq_CS_Female_FLT_30_R1_raw.fastq.gz",
+          "\"GLDS-207_rna_seq_CS-Female_Space_Flown-30_R1_trimmed.fastq.gz",
+          "\"GLDS-207_rna_seq_CS_Female_FLT_31_R1_raw.fastq.gz",
+          "\"GLDS-207_rna_seq_CS-Female_Space_Flown-31_R1_trimmed.fastq.gz",
+          "\"GLDS-207_rna_seq_CS_Female_FLT_32_R1_raw.fastq.gz",
+          "\"GLDS-207_rna_seq_CS-Female_Space_Flown-32_R1_trimmed.fastq.gz"
+        ],
+        "processed": [
+          "\"GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-01_R1_trimmed.fastq.gz",
+          "GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-01_R2_trimmed.fastq.gz\"",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-01_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-01_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-01_Aligned.toTranscriptome.out.bam",
+          "GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-01_SJ.out.tab\"",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-02_R1_trimmed.fastq.gz",
+          "GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-02_R2_trimmed.fastq.gz\"",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-02_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-02_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-02_Aligned.toTranscriptome.out.bam",
+          "GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-02_SJ.out.tab\"",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-03_R1_trimmed.fastq.gz",
+          "GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-03_R2_trimmed.fastq.gz\"",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-03_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-03_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-03_Aligned.toTranscriptome.out.bam",
+          "GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-03_SJ.out.tab\"",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-04_R1_trimmed.fastq.gz",
+          "GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-04_R2_trimmed.fastq.gz\"",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-04_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-04_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-04_Aligned.toTranscriptome.out.bam",
+          "GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-04_SJ.out.tab\"",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-05_R1_trimmed.fastq.gz",
+          "GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-05_R2_trimmed.fastq.gz\"",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-05_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-05_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-05_Aligned.toTranscriptome.out.bam",
+          "GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-05_SJ.out.tab\"",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-06_R1_trimmed.fastq.gz",
+          "GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-06_R2_trimmed.fastq.gz\"",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-06_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-06_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-06_Aligned.toTranscriptome.out.bam",
+          "GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-06_SJ.out.tab\"",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-07_R1_trimmed.fastq.gz",
+          "GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-07_R2_trimmed.fastq.gz\"",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-07_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-07_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-07_Aligned.toTranscriptome.out.bam",
+          "GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-07_SJ.out.tab\"",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-08_R1_trimmed.fastq.gz",
+          "GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-08_R2_trimmed.fastq.gz\"",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-08_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-08_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-08_Aligned.toTranscriptome.out.bam",
+          "GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-08_SJ.out.tab\"",
+          "\"GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-09_R1_trimmed.fastq.gz",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-09_R2_trimmed.fastq.gz\"",
+          "\"GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-09_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-09_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-09_Aligned.toTranscriptome.out.bam",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-09_SJ.out.tab\"",
+          "\"GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-10_R1_trimmed.fastq.gz",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-10_R2_trimmed.fastq.gz\"",
+          "\"GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-10_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-10_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-10_Aligned.toTranscriptome.out.bam",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-10_SJ.out.tab\"",
+          "\"GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-11_R1_trimmed.fastq.gz",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-11_R2_trimmed.fastq.gz\"",
+          "\"GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-11_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-11_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-11_Aligned.toTranscriptome.out.bam",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-11_SJ.out.tab\"",
+          "\"GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-12_R1_trimmed.fastq.gz",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-12_R2_trimmed.fastq.gz\"",
+          "\"GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-12_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-12_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-12_Aligned.toTranscriptome.out.bam",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-12_SJ.out.tab\"",
+          "\"GLDS-207_rna_seq_CS-Female_Ground_Control-13_R1_trimmed.fastq.gz",
+          "GLDS-207_rna_seq_CS-Female_Ground_Control-13_R2_trimmed.fastq.gz\"",
+          "\"GLDS-207_rna_seq_CS-Female_Ground_Control-13_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-207_rna_seq_CS-Female_Ground_Control-13_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-207_rna_seq_CS-Female_Ground_Control-13_Aligned.toTranscriptome.out.bam",
+          "GLDS-207_rna_seq_CS-Female_Ground_Control-13_SJ.out.tab\"",
+          "\"GLDS-207_rna_seq_CS-Female_Ground_Control-14_R1_trimmed.fastq.gz",
+          "GLDS-207_rna_seq_CS-Female_Ground_Control-14_R2_trimmed.fastq.gz\"",
+          "\"GLDS-207_rna_seq_CS-Female_Ground_Control-14_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-207_rna_seq_CS-Female_Ground_Control-14_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-207_rna_seq_CS-Female_Ground_Control-14_Aligned.toTranscriptome.out.bam",
+          "GLDS-207_rna_seq_CS-Female_Ground_Control-14_SJ.out.tab\"",
+          "\"GLDS-207_rna_seq_CS-Female_Ground_Control-15_R1_trimmed.fastq.gz",
+          "GLDS-207_rna_seq_CS-Female_Ground_Control-15_R2_trimmed.fastq.gz\"",
+          "\"GLDS-207_rna_seq_CS-Female_Ground_Control-15_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-207_rna_seq_CS-Female_Ground_Control-15_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-207_rna_seq_CS-Female_Ground_Control-15_Aligned.toTranscriptome.out.bam",
+          "GLDS-207_rna_seq_CS-Female_Ground_Control-15_SJ.out.tab\"",
+          "\"GLDS-207_rna_seq_CS-Female_Ground_Control-16_R1_trimmed.fastq.gz",
+          "GLDS-207_rna_seq_CS-Female_Ground_Control-16_R2_trimmed.fastq.gz\"",
+          "\"GLDS-207_rna_seq_CS-Female_Ground_Control-16_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-207_rna_seq_CS-Female_Ground_Control-16_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-207_rna_seq_CS-Female_Ground_Control-16_Aligned.toTranscriptome.out.bam",
+          "GLDS-207_rna_seq_CS-Female_Ground_Control-16_SJ.out.tab\"",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-17_R1_trimmed.fastq.gz",
+          "GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-17_R2_trimmed.fastq.gz\"",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-17_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-17_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-17_Aligned.toTranscriptome.out.bam",
+          "GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-17_SJ.out.tab\"",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-18_R1_trimmed.fastq.gz",
+          "GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-18_R2_trimmed.fastq.gz\"",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-18_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-18_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-18_Aligned.toTranscriptome.out.bam",
+          "GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-18_SJ.out.tab\"",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-19_R1_trimmed.fastq.gz",
+          "GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-19_R2_trimmed.fastq.gz\"",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-19_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-19_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-19_Aligned.toTranscriptome.out.bam",
+          "GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-19_SJ.out.tab\"",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-20_R1_trimmed.fastq.gz",
+          "GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-20_R2_trimmed.fastq.gz\"",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-20_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-20_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-20_Aligned.toTranscriptome.out.bam",
+          "GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-20_SJ.out.tab\"",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-21_R1_trimmed.fastq.gz",
+          "GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-21_R2_trimmed.fastq.gz\"",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-21_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-21_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-21_Aligned.toTranscriptome.out.bam",
+          "GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-21_SJ.out.tab\"",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-22_R1_trimmed.fastq.gz",
+          "GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-22_R2_trimmed.fastq.gz\"",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-22_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-22_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-22_Aligned.toTranscriptome.out.bam",
+          "GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-22_SJ.out.tab\"",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-23_R1_trimmed.fastq.gz",
+          "GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-23_R2_trimmed.fastq.gz\"",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-23_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-23_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-23_Aligned.toTranscriptome.out.bam",
+          "GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-23_SJ.out.tab\"",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-24_R1_trimmed.fastq.gz",
+          "GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-24_R2_trimmed.fastq.gz\"",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-24_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-24_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-24_Aligned.toTranscriptome.out.bam",
+          "GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-24_SJ.out.tab\"",
+          "\"GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-25_R1_trimmed.fastq.gz",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-25_R2_trimmed.fastq.gz\"",
+          "\"GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-25_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-25_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-25_Aligned.toTranscriptome.out.bam",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-25_SJ.out.tab\"",
+          "\"GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-26_R1_trimmed.fastq.gz",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-26_R2_trimmed.fastq.gz\"",
+          "\"GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-26_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-26_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-26_Aligned.toTranscriptome.out.bam",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-26_SJ.out.tab\"",
+          "\"GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-27_R1_trimmed.fastq.gz",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-27_R2_trimmed.fastq.gz\"",
+          "\"GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-27_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-27_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-27_Aligned.toTranscriptome.out.bam",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-27_SJ.out.tab\"",
+          "\"GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-28_R1_trimmed.fastq.gz",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-28_R2_trimmed.fastq.gz\"",
+          "\"GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-28_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-28_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-28_Aligned.toTranscriptome.out.bam",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-28_SJ.out.tab\"",
+          "\"GLDS-207_rna_seq_CS-Female_Space_Flown-29_R1_trimmed.fastq.gz",
+          "GLDS-207_rna_seq_CS-Female_Space_Flown-29_R2_trimmed.fastq.gz\"",
+          "\"GLDS-207_rna_seq_CS-Female_Space_Flown-29_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-207_rna_seq_CS-Female_Space_Flown-29_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-207_rna_seq_CS-Female_Space_Flown-29_Aligned.toTranscriptome.out.bam",
+          "GLDS-207_rna_seq_CS-Female_Space_Flown-29_SJ.out.tab\"",
+          "\"GLDS-207_rna_seq_CS-Female_Space_Flown-30_R1_trimmed.fastq.gz",
+          "GLDS-207_rna_seq_CS-Female_Space_Flown-30_R2_trimmed.fastq.gz\"",
+          "\"GLDS-207_rna_seq_CS-Female_Space_Flown-30_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-207_rna_seq_CS-Female_Space_Flown-30_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-207_rna_seq_CS-Female_Space_Flown-30_Aligned.toTranscriptome.out.bam",
+          "GLDS-207_rna_seq_CS-Female_Space_Flown-30_SJ.out.tab\"",
+          "\"GLDS-207_rna_seq_CS-Female_Space_Flown-31_R1_trimmed.fastq.gz",
+          "GLDS-207_rna_seq_CS-Female_Space_Flown-31_R2_trimmed.fastq.gz\"",
+          "\"GLDS-207_rna_seq_CS-Female_Space_Flown-31_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-207_rna_seq_CS-Female_Space_Flown-31_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-207_rna_seq_CS-Female_Space_Flown-31_Aligned.toTranscriptome.out.bam",
+          "GLDS-207_rna_seq_CS-Female_Space_Flown-31_SJ.out.tab\"",
+          "\"GLDS-207_rna_seq_CS-Female_Space_Flown-32_R1_trimmed.fastq.gz",
+          "GLDS-207_rna_seq_CS-Female_Space_Flown-32_R2_trimmed.fastq.gz\"",
+          "\"GLDS-207_rna_seq_CS-Female_Space_Flown-32_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-207_rna_seq_CS-Female_Space_Flown-32_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-207_rna_seq_CS-Female_Space_Flown-32_Aligned.toTranscriptome.out.bam",
+          "GLDS-207_rna_seq_CS-Female_Space_Flown-32_SJ.out.tab\"",
+          "KCNQ370 Female Ground Control-01",
+          "GeneLab RNAseq data processing protocol",
+          "NanoDrop",
+          "2.2",
+          "SO",
+          "http://purl.obolibrary.org/obo/SO_0000150",
+          "2.05",
+          "ERCC ExFold RNA Spike-In Mixes",
+          "Mix 1",
+          "poly-A enrichment",
+          "PAIRED",
+          "STRANDED",
+          "NextSeq 500",
+          "RNAseq",
+          "75",
+          "read",
+          "0.28",
+          "27202983",
+          "GLDS-207_rna_seq_KCNQ370_Female_GC_01_R2_raw.fastq.gz\"",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-01.genes.results",
+          "GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-01.isoforms.results\"",
+          "\"GLDS-207_rna_seq_RSEM_Unnormalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-207_rna_seq_STAR_Unnormalized_Counts_GLbulkRNAseq.csv\"",
+          "GLDS-207_rna_seq_Normalized_Counts_GLbulkRNAseq.csv",
+          "\"GLDS-207_rna_seq_SampleTable_GLbulkRNAseq.csv",
+          "GLDS-207_rna_seq_contrasts_GLbulkRNAseq.csv",
+          "GLDS-207_rna_seq_differential_expression_GLbulkRNAseq.csv\"",
+          "GLDS-207_rna_seq_ERCC_analysis_GLbulkRNAseq.html",
+          "KCNQ370 Female Ground Control-02",
+          "2.22",
+          "2.37",
+          "Mix 2",
+          "0.42",
+          "28612802",
+          "GLDS-207_rna_seq_KCNQ370_Female_GC_02_R2_raw.fastq.gz\"",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-02.genes.results",
+          "GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-02.isoforms.results\"",
+          "KCNQ370 Female Ground Control-03",
+          "2.38",
+          "2.15",
+          "0.33",
+          "28423956",
+          "GLDS-207_rna_seq_KCNQ370_Female_GC_03_R2_raw.fastq.gz\"",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-03.genes.results",
+          "GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-03.isoforms.results\"",
+          "KCNQ370 Female Ground Control-04",
+          "3.16",
+          "1.9",
+          "31673327",
+          "GLDS-207_rna_seq_KCNQ370_Female_GC_04_R2_raw.fastq.gz\"",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-04.genes.results",
+          "GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-04.isoforms.results\"",
+          "KCNQ97 Female Ground Control-05",
+          "2.4",
+          "2.04",
+          "0.31",
+          "30983863",
+          "GLDS-207_rna_seq_KCNQ97_Female_GC_05_R2_raw.fastq.gz\"",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-05.genes.results",
+          "GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-05.isoforms.results\"",
+          "KCNQ97 Female Ground Control-06",
+          "2.5",
+          "2.69",
+          "0.37",
+          "34196044",
+          "GLDS-207_rna_seq_KCNQ97_Female_GC_06_R2_raw.fastq.gz\"",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-06.genes.results",
+          "GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-06.isoforms.results\"",
+          "KCNQ97 Female Ground Control-07",
+          "2.63",
+          "2.32",
+          "0.39",
+          "32774959",
+          "GLDS-207_rna_seq_KCNQ97_Female_GC_07_R2_raw.fastq.gz\"",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-07.genes.results",
+          "GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-07.isoforms.results\"",
+          "KCNQ97 Female Ground Control-08",
+          "2.82",
+          "0.4",
+          "33281224",
+          "GLDS-207_rna_seq_KCNQ97_Female_GC_08_R2_raw.fastq.gz\"",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-08.genes.results",
+          "GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-08.isoforms.results\"",
+          "Sei ts1-Female Ground Control-09",
+          "2.72",
+          "2.44",
+          "0.32",
+          "50192550",
+          "GLDS-207_rna_seq_Seits1_Female_GC_09_R2_raw.fastq.gz\"",
+          "\"GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-09.genes.results",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-09.isoforms.results\"",
+          "Sei ts1-Female Ground Control-10",
+          "2.24",
+          "1.61",
+          "0.25",
+          "35216957",
+          "GLDS-207_rna_seq_Seits1_Female_GC_10_R2_raw.fastq.gz\"",
+          "\"GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-10.genes.results",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-10.isoforms.results\"",
+          "Sei ts1-Female Ground Control-11",
+          "2.29",
+          "2.1",
+          "0.26",
+          "41524950",
+          "GLDS-207_rna_seq_Seits1_Female_GC_11_R2_raw.fastq.gz\"",
+          "\"GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-11.genes.results",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-11.isoforms.results\"",
+          "Sei ts1-Female Ground Control-12",
+          "2.31",
+          "2.03",
+          "40523748",
+          "GLDS-207_rna_seq_Seits1_Female_GC_12_R2_raw.fastq.gz\"",
+          "\"GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-12.genes.results",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-12.isoforms.results\"",
+          "CS-Female Ground Control-13",
+          "34642851",
+          "GLDS-207_rna_seq_CS_Female_GC_13_R2_raw.fastq.gz\"",
+          "\"GLDS-207_rna_seq_CS-Female_Ground_Control-13.genes.results",
+          "GLDS-207_rna_seq_CS-Female_Ground_Control-13.isoforms.results\"",
+          "CS-Female Ground Control-14",
+          "3.61",
+          "GLDS-207_rna-seq_14Mix_2-136036906.zip",
+          "48255365",
+          "GLDS-207_rna_seq_CS_Female_GC_14_R2_raw.fastq.gz\"",
+          "\"GLDS-207_rna_seq_CS-Female_Ground_Control-14.genes.results",
+          "GLDS-207_rna_seq_CS-Female_Ground_Control-14.isoforms.results\"",
+          "CS-Female Ground Control-15",
+          "2.33",
+          "0.52",
+          "37069011",
+          "GLDS-207_rna_seq_CS_Female_GC_15_R2_raw.fastq.gz\"",
+          "\"GLDS-207_rna_seq_CS-Female_Ground_Control-15.genes.results",
+          "GLDS-207_rna_seq_CS-Female_Ground_Control-15.isoforms.results\"",
+          "CS-Female Ground Control-16",
+          "2.55",
+          "2.76",
+          "GLDS-207_rna-seq_16Mix_2-136065930.zip",
+          "0.46",
+          "40377605",
+          "GLDS-207_rna_seq_CS_Female_GC_16_R2_raw.fastq.gz\"",
+          "\"GLDS-207_rna_seq_CS-Female_Ground_Control-16.genes.results",
+          "GLDS-207_rna_seq_CS-Female_Ground_Control-16.isoforms.results\"",
+          "KCNQ370 Female Space Flown-17",
+          "2.09",
+          "2.3",
+          "GLDS-207_rna-seq_17Mix_1-140243119.zip",
+          "0.35",
+          "40758620",
+          "GLDS-207_rna_seq_KCNQ370_Female_FLT_17_R2_raw.fastq.gz\"",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-17.genes.results",
+          "GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-17.isoforms.results\"",
+          "KCNQ370 Female Space Flown-18",
+          "2.17",
+          "1.37",
+          "GLDS-207_rna-seq_18Mix_2-140248116.zip",
+          "0.54",
+          "32387675",
+          "GLDS-207_rna_seq_KCNQ370_Female_FLT_18_R2_raw.fastq.gz\"",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-18.genes.results",
+          "GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-18.isoforms.results\"",
+          "KCNQ370 Female Space Flown-19",
+          "2.16",
+          "1.8",
+          "GLDS-207_rna-seq_19Mix_1-140545412.zip",
+          "14243506",
+          "GLDS-207_rna_seq_KCNQ370_Female_FLT_19_R2_raw.fastq.gz\"",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-19.genes.results",
+          "GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-19.isoforms.results\"",
+          "KCNQ370 Female Space Flown-20",
+          "2.19",
+          "GLDS-207_rna-seq_20Mix_2-140251112.zip",
+          "0.36",
+          "42329093",
+          "GLDS-207_rna_seq_KCNQ370_Female_FLT_20_R2_raw.fastq.gz\"",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-20.genes.results",
+          "GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-20.isoforms.results\"",
+          "KCNQ97 Female Space Flown-21",
+          "2.18",
+          "0.67",
+          "GLDS-207_rna-seq_21Mix_1-140251114.zip",
+          "0.34",
+          "33115934",
+          "GLDS-207_rna_seq_KCNQ97_Female_FLT_21_R2_raw.fastq.gz\"",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-21.genes.results",
+          "GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-21.isoforms.results\"",
+          "KCNQ97 Female Space Flown-22",
+          "GLDS-207_rna-seq_22Mix_2-140248121.zip",
+          "34051513",
+          "GLDS-207_rna_seq_KCNQ97_Female_FLT_22_R2_raw.fastq.gz\"",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-22.genes.results",
+          "GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-22.isoforms.results\"",
+          "KCNQ97 Female Space Flown-23",
+          "2.35",
+          "GLDS-207_rna-seq_23Mix_1-140246117.zip",
+          "0.43",
+          "37375448",
+          "GLDS-207_rna_seq_KCNQ97_Female_FLT_23_R2_raw.fastq.gz\"",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-23.genes.results",
+          "GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-23.isoforms.results\"",
+          "KCNQ97 Female Space Flown-24",
+          "2.66",
+          "0.18",
+          "37722190",
+          "GLDS-207_rna_seq_KCNQ97_Female_FLT_24_R2_raw.fastq.gz\"",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-24.genes.results",
+          "GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-24.isoforms.results\"",
+          "Sei ts1-Female Space Flown-25",
+          "1.87",
+          "0.2",
+          "47269135",
+          "GLDS-207_rna_seq_Seits1_Female_FLT_25_R2_raw.fastq.gz\"",
+          "\"GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-25.genes.results",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-25.isoforms.results\"",
+          "Sei ts1-Female Space Flown-26",
+          "2.25",
+          "1.93",
+          "37880053",
+          "GLDS-207_rna_seq_Seits1_Female_FLT_26_R2_raw.fastq.gz\"",
+          "\"GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-26.genes.results",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-26.isoforms.results\"",
+          "Sei ts1-Female Space Flown-27",
+          "2.28",
+          "0.5",
+          "42961066",
+          "GLDS-207_rna_seq_Seits1_Female_FLT_27_R2_raw.fastq.gz\"",
+          "\"GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-27.genes.results",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-27.isoforms.results\"",
+          "Sei ts1-Female Space Flown-28",
+          "37411386",
+          "GLDS-207_rna_seq_Seits1_Female_FLT_28_R2_raw.fastq.gz\"",
+          "\"GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-28.genes.results",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-28.isoforms.results\"",
+          "CS-Female Space Flown-29",
+          "2.08",
+          "2.41",
+          "0.27",
+          "37278499",
+          "GLDS-207_rna_seq_CS_Female_FLT_29_R2_raw.fastq.gz\"",
+          "\"GLDS-207_rna_seq_CS-Female_Space_Flown-29.genes.results",
+          "GLDS-207_rna_seq_CS-Female_Space_Flown-29.isoforms.results\"",
+          "CS-Female Space Flown-30",
+          "1.97",
+          "2.21",
+          "0.65",
+          "39215547",
+          "GLDS-207_rna_seq_CS_Female_FLT_30_R2_raw.fastq.gz\"",
+          "\"GLDS-207_rna_seq_CS-Female_Space_Flown-30.genes.results",
+          "GLDS-207_rna_seq_CS-Female_Space_Flown-30.isoforms.results\"",
+          "CS-Female Space Flown-31",
+          "2.11",
+          "0.24",
+          "38456863",
+          "GLDS-207_rna_seq_CS_Female_FLT_31_R2_raw.fastq.gz\"",
+          "\"GLDS-207_rna_seq_CS-Female_Space_Flown-31.genes.results",
+          "GLDS-207_rna_seq_CS-Female_Space_Flown-31.isoforms.results\"",
+          "CS-Female Space Flown-32",
+          "2.12",
+          "30228066",
+          "GLDS-207_rna_seq_CS_Female_FLT_32_R2_raw.fastq.gz\"",
+          "\"GLDS-207_rna_seq_CS-Female_Space_Flown-32.genes.results",
+          "GLDS-207_rna_seq_CS-Female_Space_Flown-32.isoforms.results\""
+        ],
+        "reports": [
+          "GLDS-207_rna_seq_raw_multiqc_report.zip",
+          "GLDS-207_rna_seq_trimmed_multiqc_GLbulkRNAseq_report.zip",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-01_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-01_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-01_Log.final.out",
+          "GLDS-207_rna_seq_align_multiqc_GLbulkRNAseq_report.zip",
+          "\"GLDS-207_rna_seq_geneBody_cov_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-207_rna_seq_infer_exp_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-207_rna_seq_inner_dist_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-207_rna_seq_read_dist_multiqc_GLbulkRNAseq_report.zip\"",
+          "GLDS-207_rna_seq_RSEM_count_multiqc_GLbulkRNAseq_report.zip",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-02_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-02_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-02_Log.final.out",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-03_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-03_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-03_Log.final.out",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-04_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-04_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-207_rna_seq_KCNQ370_Female_Ground_Control-04_Log.final.out",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-05_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-05_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-05_Log.final.out",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-06_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-06_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-06_Log.final.out",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-07_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-07_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-07_Log.final.out",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-08_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-08_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-207_rna_seq_KCNQ97_Female_Ground_Control-08_Log.final.out",
+          "\"GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-09_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-09_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-09_Log.final.out",
+          "\"GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-10_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-10_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-10_Log.final.out",
+          "\"GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-11_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-11_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-11_Log.final.out",
+          "\"GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-12_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-12_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Ground_Control-12_Log.final.out",
+          "\"GLDS-207_rna_seq_CS-Female_Ground_Control-13_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-207_rna_seq_CS-Female_Ground_Control-13_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-207_rna_seq_CS-Female_Ground_Control-13_Log.final.out",
+          "\"GLDS-207_rna_seq_CS-Female_Ground_Control-14_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-207_rna_seq_CS-Female_Ground_Control-14_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-207_rna_seq_CS-Female_Ground_Control-14_Log.final.out",
+          "\"GLDS-207_rna_seq_CS-Female_Ground_Control-15_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-207_rna_seq_CS-Female_Ground_Control-15_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-207_rna_seq_CS-Female_Ground_Control-15_Log.final.out",
+          "\"GLDS-207_rna_seq_CS-Female_Ground_Control-16_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-207_rna_seq_CS-Female_Ground_Control-16_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-207_rna_seq_CS-Female_Ground_Control-16_Log.final.out",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-17_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-17_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-17_Log.final.out",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-18_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-18_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-18_Log.final.out",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-19_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-19_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-19_Log.final.out",
+          "\"GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-20_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-20_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-207_rna_seq_KCNQ370_Female_Space_Flown-20_Log.final.out",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-21_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-21_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-21_Log.final.out",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-22_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-22_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-22_Log.final.out",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-23_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-23_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-23_Log.final.out",
+          "\"GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-24_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-24_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-207_rna_seq_KCNQ97_Female_Space_Flown-24_Log.final.out",
+          "\"GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-25_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-25_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-25_Log.final.out",
+          "\"GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-26_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-26_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-26_Log.final.out",
+          "\"GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-27_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-27_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-27_Log.final.out",
+          "\"GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-28_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-28_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-207_rna_seq_Sei_ts1-Female_Space_Flown-28_Log.final.out",
+          "\"GLDS-207_rna_seq_CS-Female_Space_Flown-29_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-207_rna_seq_CS-Female_Space_Flown-29_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-207_rna_seq_CS-Female_Space_Flown-29_Log.final.out",
+          "\"GLDS-207_rna_seq_CS-Female_Space_Flown-30_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-207_rna_seq_CS-Female_Space_Flown-30_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-207_rna_seq_CS-Female_Space_Flown-30_Log.final.out",
+          "\"GLDS-207_rna_seq_CS-Female_Space_Flown-31_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-207_rna_seq_CS-Female_Space_Flown-31_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-207_rna_seq_CS-Female_Space_Flown-31_Log.final.out",
+          "\"GLDS-207_rna_seq_CS-Female_Space_Flown-32_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-207_rna_seq_CS-Female_Space_Flown-32_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-207_rna_seq_CS-Female_Space_Flown-32_Log.final.out"
+        ]
+      }
+    }
+  ]
+}

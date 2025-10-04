@@ -1,0 +1,2220 @@
+{
+  "investigation": {
+    "id": "Rapid_Freeze_Soleus",
+    "title": "Transcriptional analysis of soleus from mice preserved with the Rapid Freeze hardware",
+    "description": "\"Data from the NASA Rodent Research-1 (RR-1) mission showed that gene-expression levels in mouse livers are different depending on what tissue preservation protocol is used and that slow freezing is not an effective method for preserving signals in gene-expression data. In response to these and other observations, the Rapid Freeze hardware was built for use on the International Space Station.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "",
+      "title": "",
+      "type": "Ground Study",
+      "link": "",
+      "funding": "",
+      "managing_center": ""
+    },
+    "protocols": [
+      "treatment protocol",
+      "sample collection",
+      "nucleic acid extraction",
+      "spike-in protocol",
+      "library construction",
+      "nucleic acid sequencing",
+      "GeneLab RNAseq data processing protocol"
+    ],
+    "publications": [],
+    "factors": [
+      "Dissection Condition",
+      "Preservation Method",
+      "Order of Preservation"
+    ],
+    "contacts": [
+      {
+        "first_name": "Amanda",
+        "last_name": "Saravia-Butler",
+        "role": "Conceptualization",
+        "email": ""
+      },
+      {
+        "first_name": "Jonathan",
+        "last_name": "Galazka",
+        "role": "Conceptualization",
+        "email": ""
+      },
+      {
+        "first_name": "Medaya",
+        "last_name": "Torres",
+        "role": "Conceptualization",
+        "email": ""
+      },
+      {
+        "first_name": "Yi-Chun",
+        "last_name": "Chen",
+        "role": "Conceptualization",
+        "email": ""
+      },
+      {
+        "first_name": "Sungshin",
+        "last_name": "Choi",
+        "role": "Conceptualization",
+        "email": ""
+      },
+      {
+        "first_name": "Rebecca",
+        "last_name": "Klotz",
+        "role": "Conceptualization",
+        "email": ""
+      },
+      {
+        "first_name": "Stephanie",
+        "last_name": "Perreau",
+        "role": "Conceptualization",
+        "email": ""
+      },
+      {
+        "first_name": "Dennis",
+        "last_name": "Leveson Gower",
+        "role": "Conceptualization",
+        "email": ""
+      },
+      {
+        "first_name": "Yasaman",
+        "last_name": "Shirazi",
+        "role": "Conceptualization",
+        "email": ""
+      },
+      {
+        "first_name": "San-Huei",
+        "last_name": "Lai Polo",
+        "role": "Data Curation",
+        "email": ""
+      },
+      {
+        "first_name": "Amanda",
+        "last_name": "Saravia-Butler",
+        "role": "Formal Analysis",
+        "email": ""
+      },
+      {
+        "first_name": "Homer",
+        "last_name": "Fogle",
+        "role": "Formal Analysis",
+        "email": ""
+      },
+      {
+        "first_name": "Medaya",
+        "last_name": "Torres",
+        "role": "Investigation",
+        "email": ""
+      },
+      {
+        "first_name": "Yi-Chun",
+        "last_name": "Chen",
+        "role": "Investigation",
+        "email": ""
+      },
+      {
+        "first_name": "Valery",
+        "last_name": "Boyko",
+        "role": "Investigation",
+        "email": ""
+      },
+      {
+        "first_name": "Marie",
+        "last_name": "Dinh",
+        "role": "Investigation",
+        "email": ""
+      },
+      {
+        "first_name": "Sungshin",
+        "last_name": "Choi",
+        "role": "Investigation",
+        "email": ""
+      },
+      {
+        "first_name": "America",
+        "last_name": "Reyes Wang",
+        "role": "Investigation",
+        "email": ""
+      },
+      {
+        "first_name": "Christina",
+        "last_name": "Lim",
+        "role": "Investigation",
+        "email": ""
+      },
+      {
+        "first_name": "Tyler",
+        "last_name": "Marsh",
+        "role": "Investigation",
+        "email": ""
+      },
+      {
+        "first_name": "Vandana",
+        "last_name": "Verma",
+        "role": "Investigation",
+        "email": ""
+      },
+      {
+        "first_name": "Rebecca",
+        "last_name": "Klotz",
+        "role": "Investigation",
+        "email": ""
+      },
+      {
+        "first_name": "Amanda",
+        "last_name": "Saravia-Butler",
+        "role": "Investigation",
+        "email": ""
+      },
+      {
+        "first_name": "Sylvain",
+        "last_name": "Costes",
+        "role": "Project Administration",
+        "email": ""
+      },
+      {
+        "first_name": "Samrawit",
+        "last_name": "Gebre",
+        "role": "Project Administration",
+        "email": ""
+      },
+      {
+        "first_name": "Afshin",
+        "last_name": "Beheshti",
+        "role": "Validation",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "Mmus_C57-6J_SLS_I_GF_FirstSet_Rep1_M2",
+        "characteristics": {
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "sex": "female",
+          "age": "26-27",
+          "diet": "Standard chow (5001 Rodent Diet from Newco)",
+          "Organism": "Mus musculus",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Dissection Condition": "Immediate",
+          "Preservation Method": "Glovebox Freezer",
+          "Order of Preservation": "First set of animals processed in a day of operations"
+        },
+        "parameters": {
+          "Habitat": "vivarium",
+          "Euthanasia Method": "Ketamine/xylazine IP followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "Animal Source": "Jackson Laboratory",
+          "Carcass Weight (g)": "28.93",
+          "Euthanasia Date": "13-Aug-2019 - 14-Aug-2019",
+          "Soleus Collection Date": "13-Aug-2019 - 14-Aug-2019"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SLS_I_GF_FirstSet_Rep2_M3",
+        "characteristics": {
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "sex": "female",
+          "age": "26-27",
+          "diet": "Standard chow (5001 Rodent Diet from Newco)",
+          "Organism": "Mus musculus",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Dissection Condition": "Immediate",
+          "Preservation Method": "Glovebox Freezer",
+          "Order of Preservation": "First set of animals processed in a day of operations"
+        },
+        "parameters": {
+          "Habitat": "vivarium",
+          "Euthanasia Method": "Ketamine/xylazine IP followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "Animal Source": "Jackson Laboratory",
+          "Carcass Weight (g)": "28.43",
+          "Euthanasia Date": "13-Aug-2019 - 14-Aug-2019",
+          "Soleus Collection Date": "13-Aug-2019 - 14-Aug-2019"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SLS_I_GF_FirstSet_Rep3_M4",
+        "characteristics": {
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "sex": "female",
+          "age": "26-27",
+          "diet": "Standard chow (5001 Rodent Diet from Newco)",
+          "Organism": "Mus musculus",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Dissection Condition": "Immediate",
+          "Preservation Method": "Glovebox Freezer",
+          "Order of Preservation": "First set of animals processed in a day of operations"
+        },
+        "parameters": {
+          "Habitat": "vivarium",
+          "Euthanasia Method": "Ketamine/xylazine IP followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "Animal Source": "Jackson Laboratory",
+          "Carcass Weight (g)": "24.83",
+          "Euthanasia Date": "13-Aug-2019 - 14-Aug-2019",
+          "Soleus Collection Date": "13-Aug-2019 - 14-Aug-2019"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SLS_I_GF_FirstSet_Rep4_M13",
+        "characteristics": {
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "sex": "female",
+          "age": "26-27",
+          "diet": "Standard chow (5001 Rodent Diet from Newco)",
+          "Organism": "Mus musculus",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Dissection Condition": "Immediate",
+          "Preservation Method": "Glovebox Freezer",
+          "Order of Preservation": "First set of animals processed in a day of operations"
+        },
+        "parameters": {
+          "Habitat": "vivarium",
+          "Euthanasia Method": "Ketamine/xylazine IP followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "Animal Source": "Jackson Laboratory",
+          "Carcass Weight (g)": "23.68",
+          "Euthanasia Date": "13-Aug-2019 - 14-Aug-2019",
+          "Soleus Collection Date": "13-Aug-2019 - 14-Aug-2019"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SLS_I_GF_SecondSet_Rep1_M7",
+        "characteristics": {
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "sex": "female",
+          "age": "26-27",
+          "diet": "Standard chow (5001 Rodent Diet from Newco)",
+          "Organism": "Mus musculus",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Dissection Condition": "Immediate",
+          "Preservation Method": "Glovebox Freezer",
+          "Order of Preservation": "Second set of animals processed in a day of operations"
+        },
+        "parameters": {
+          "Habitat": "vivarium",
+          "Euthanasia Method": "Ketamine/xylazine IP followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "Animal Source": "Jackson Laboratory",
+          "Carcass Weight (g)": "26.37",
+          "Euthanasia Date": "13-Aug-2019 - 14-Aug-2019",
+          "Soleus Collection Date": "13-Aug-2019 - 14-Aug-2019"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SLS_I_GF_SecondSet_Rep2_M11",
+        "characteristics": {
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "sex": "female",
+          "age": "26-27",
+          "diet": "Standard chow (5001 Rodent Diet from Newco)",
+          "Organism": "Mus musculus",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Dissection Condition": "Immediate",
+          "Preservation Method": "Glovebox Freezer",
+          "Order of Preservation": "Second set of animals processed in a day of operations"
+        },
+        "parameters": {
+          "Habitat": "vivarium",
+          "Euthanasia Method": "Ketamine/xylazine IP followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "Animal Source": "Jackson Laboratory",
+          "Carcass Weight (g)": "24.83",
+          "Euthanasia Date": "13-Aug-2019 - 14-Aug-2019",
+          "Soleus Collection Date": "13-Aug-2019 - 14-Aug-2019"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SLS_I_GF_SecondSet_Rep3_M15",
+        "characteristics": {
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "sex": "female",
+          "age": "26-27",
+          "diet": "Standard chow (5001 Rodent Diet from Newco)",
+          "Organism": "Mus musculus",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Dissection Condition": "Immediate",
+          "Preservation Method": "Glovebox Freezer",
+          "Order of Preservation": "Second set of animals processed in a day of operations"
+        },
+        "parameters": {
+          "Habitat": "vivarium",
+          "Euthanasia Method": "Ketamine/xylazine IP followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "Animal Source": "Jackson Laboratory",
+          "Carcass Weight (g)": "24.14",
+          "Euthanasia Date": "13-Aug-2019 - 14-Aug-2019",
+          "Soleus Collection Date": "13-Aug-2019 - 14-Aug-2019"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SLS_I_GF_SecondSet_Rep4_M18",
+        "characteristics": {
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "sex": "female",
+          "age": "26-27",
+          "diet": "Standard chow (5001 Rodent Diet from Newco)",
+          "Organism": "Mus musculus",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Dissection Condition": "Immediate",
+          "Preservation Method": "Glovebox Freezer",
+          "Order of Preservation": "Second set of animals processed in a day of operations"
+        },
+        "parameters": {
+          "Habitat": "vivarium",
+          "Euthanasia Method": "Ketamine/xylazine IP followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "Animal Source": "Jackson Laboratory",
+          "Carcass Weight (g)": "24.86",
+          "Euthanasia Date": "13-Aug-2019 - 14-Aug-2019",
+          "Soleus Collection Date": "13-Aug-2019 - 14-Aug-2019"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep1_M12",
+        "characteristics": {
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "sex": "female",
+          "age": "26-27",
+          "diet": "Standard chow (5001 Rodent Diet from Newco)",
+          "Organism": "Mus musculus",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Dissection Condition": "Immediate",
+          "Preservation Method": "Glovebox Freezer",
+          "Order of Preservation": "Third set of animals processed in a day of operations"
+        },
+        "parameters": {
+          "Habitat": "vivarium",
+          "Euthanasia Method": "Ketamine/xylazine IP followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "Animal Source": "Jackson Laboratory",
+          "Carcass Weight (g)": "21.51",
+          "Euthanasia Date": "13-Aug-2019 - 14-Aug-2019",
+          "Soleus Collection Date": "13-Aug-2019 - 14-Aug-2019"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep2_M20",
+        "characteristics": {
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "sex": "female",
+          "age": "26-27",
+          "diet": "Standard chow (5001 Rodent Diet from Newco)",
+          "Organism": "Mus musculus",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Dissection Condition": "Immediate",
+          "Preservation Method": "Glovebox Freezer",
+          "Order of Preservation": "Third set of animals processed in a day of operations"
+        },
+        "parameters": {
+          "Habitat": "vivarium",
+          "Euthanasia Method": "Ketamine/xylazine IP followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "Animal Source": "Jackson Laboratory",
+          "Carcass Weight (g)": "24.71",
+          "Euthanasia Date": "13-Aug-2019 - 14-Aug-2019",
+          "Soleus Collection Date": "13-Aug-2019 - 14-Aug-2019"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep3_M23",
+        "characteristics": {
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "sex": "female",
+          "age": "26-27",
+          "diet": "Standard chow (5001 Rodent Diet from Newco)",
+          "Organism": "Mus musculus",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Dissection Condition": "Immediate",
+          "Preservation Method": "Glovebox Freezer",
+          "Order of Preservation": "Third set of animals processed in a day of operations"
+        },
+        "parameters": {
+          "Habitat": "vivarium",
+          "Euthanasia Method": "Ketamine/xylazine IP followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "Animal Source": "Jackson Laboratory",
+          "Carcass Weight (g)": "22.43",
+          "Euthanasia Date": "13-Aug-2019 - 14-Aug-2019",
+          "Soleus Collection Date": "13-Aug-2019 - 14-Aug-2019"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep4_M25",
+        "characteristics": {
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "sex": "female",
+          "age": "26-27",
+          "diet": "Standard chow (5001 Rodent Diet from Newco)",
+          "Organism": "Mus musculus",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Dissection Condition": "Immediate",
+          "Preservation Method": "Glovebox Freezer",
+          "Order of Preservation": "Third set of animals processed in a day of operations"
+        },
+        "parameters": {
+          "Habitat": "vivarium",
+          "Euthanasia Method": "Ketamine/xylazine IP followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "Animal Source": "Jackson Laboratory",
+          "Carcass Weight (g)": "22.92",
+          "Euthanasia Date": "13-Aug-2019 - 14-Aug-2019",
+          "Soleus Collection Date": "13-Aug-2019 - 14-Aug-2019"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep1_M8",
+        "characteristics": {
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "sex": "female",
+          "age": "26-27",
+          "diet": "Standard chow (5001 Rodent Diet from Newco)",
+          "Organism": "Mus musculus",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Dissection Condition": "Immediate",
+          "Preservation Method": "Liquid Nitrogen",
+          "Order of Preservation": "Liquid Nitrogen Control Set"
+        },
+        "parameters": {
+          "Habitat": "vivarium",
+          "Euthanasia Method": "Ketamine/xylazine IP followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "Animal Source": "Jackson Laboratory",
+          "Carcass Weight (g)": "26.7",
+          "Euthanasia Date": "13-Aug-2019 - 14-Aug-2019",
+          "Soleus Collection Date": "13-Aug-2019 - 14-Aug-2019"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep2_M9",
+        "characteristics": {
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "sex": "female",
+          "age": "26-27",
+          "diet": "Standard chow (5001 Rodent Diet from Newco)",
+          "Organism": "Mus musculus",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Dissection Condition": "Immediate",
+          "Preservation Method": "Liquid Nitrogen",
+          "Order of Preservation": "Liquid Nitrogen Control Set"
+        },
+        "parameters": {
+          "Habitat": "vivarium",
+          "Euthanasia Method": "Ketamine/xylazine IP followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "Animal Source": "Jackson Laboratory",
+          "Carcass Weight (g)": "25.29",
+          "Euthanasia Date": "13-Aug-2019 - 14-Aug-2019",
+          "Soleus Collection Date": "13-Aug-2019 - 14-Aug-2019"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep3_M10",
+        "characteristics": {
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "sex": "female",
+          "age": "26-27",
+          "diet": "Standard chow (5001 Rodent Diet from Newco)",
+          "Organism": "Mus musculus",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Dissection Condition": "Immediate",
+          "Preservation Method": "Liquid Nitrogen",
+          "Order of Preservation": "Liquid Nitrogen Control Set"
+        },
+        "parameters": {
+          "Habitat": "vivarium",
+          "Euthanasia Method": "Ketamine/xylazine IP followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "Animal Source": "Jackson Laboratory",
+          "Carcass Weight (g)": "25.6",
+          "Euthanasia Date": "13-Aug-2019 - 14-Aug-2019",
+          "Soleus Collection Date": "13-Aug-2019 - 14-Aug-2019"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep4_M14",
+        "characteristics": {
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "sex": "female",
+          "age": "26-27",
+          "diet": "Standard chow (5001 Rodent Diet from Newco)",
+          "Organism": "Mus musculus",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Dissection Condition": "Immediate",
+          "Preservation Method": "Liquid Nitrogen",
+          "Order of Preservation": "Liquid Nitrogen Control Set"
+        },
+        "parameters": {
+          "Habitat": "vivarium",
+          "Euthanasia Method": "Ketamine/xylazine IP followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "Animal Source": "Jackson Laboratory",
+          "Carcass Weight (g)": "23.66",
+          "Euthanasia Date": "13-Aug-2019 - 14-Aug-2019",
+          "Soleus Collection Date": "13-Aug-2019 - 14-Aug-2019"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep5_M19",
+        "characteristics": {
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "sex": "female",
+          "age": "26-27",
+          "diet": "Standard chow (5001 Rodent Diet from Newco)",
+          "Organism": "Mus musculus",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Dissection Condition": "Immediate",
+          "Preservation Method": "Liquid Nitrogen",
+          "Order of Preservation": "Liquid Nitrogen Control Set"
+        },
+        "parameters": {
+          "Habitat": "vivarium",
+          "Euthanasia Method": "Ketamine/xylazine IP followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "Animal Source": "Jackson Laboratory",
+          "Carcass Weight (g)": "24.64",
+          "Euthanasia Date": "13-Aug-2019 - 14-Aug-2019",
+          "Soleus Collection Date": "13-Aug-2019 - 14-Aug-2019"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep1_M47",
+        "characteristics": {
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "sex": "female",
+          "age": "26-27",
+          "diet": "Standard chow (5001 Rodent Diet from Newco)",
+          "Organism": "Mus musculus",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Dissection Condition": "Whole Carcass",
+          "Preservation Method": "Cryochiller",
+          "Order of Preservation": "First set of animals processed in a day of operations"
+        },
+        "parameters": {
+          "Habitat": "vivarium",
+          "Euthanasia Method": "Ketamine/xylazine IP followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "Animal Source": "Jackson Laboratory",
+          "Carcass Weight (g)": "22.86",
+          "Euthanasia Date": "19-Aug-2019 - 20-Aug-2019",
+          "Soleus Collection Date": "16-Oct-19"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep2_M52",
+        "characteristics": {
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "sex": "female",
+          "age": "26-27",
+          "diet": "Standard chow (5001 Rodent Diet from Newco)",
+          "Organism": "Mus musculus",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Dissection Condition": "Whole Carcass",
+          "Preservation Method": "Cryochiller",
+          "Order of Preservation": "First set of animals processed in a day of operations"
+        },
+        "parameters": {
+          "Habitat": "vivarium",
+          "Euthanasia Method": "Ketamine/xylazine IP followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "Animal Source": "Jackson Laboratory",
+          "Carcass Weight (g)": "25.96",
+          "Euthanasia Date": "19-Aug-2019 - 20-Aug-2019",
+          "Soleus Collection Date": "16-Oct-19"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep3_M63",
+        "characteristics": {
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "sex": "female",
+          "age": "26-27",
+          "diet": "Standard chow (5001 Rodent Diet from Newco)",
+          "Organism": "Mus musculus",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Dissection Condition": "Whole Carcass",
+          "Preservation Method": "Cryochiller",
+          "Order of Preservation": "First set of animals processed in a day of operations"
+        },
+        "parameters": {
+          "Habitat": "vivarium",
+          "Euthanasia Method": "Ketamine/xylazine IP followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "Animal Source": "Jackson Laboratory",
+          "Carcass Weight (g)": "26.23",
+          "Euthanasia Date": "19-Aug-2019 - 20-Aug-2019",
+          "Soleus Collection Date": "16-Oct-19"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep4_M83",
+        "characteristics": {
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "sex": "female",
+          "age": "26-27",
+          "diet": "Standard chow (5001 Rodent Diet from Newco)",
+          "Organism": "Mus musculus",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Dissection Condition": "Whole Carcass",
+          "Preservation Method": "Cryochiller",
+          "Order of Preservation": "First set of animals processed in a day of operations"
+        },
+        "parameters": {
+          "Habitat": "vivarium",
+          "Euthanasia Method": "Ketamine/xylazine IP followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "Animal Source": "Jackson Laboratory",
+          "Carcass Weight (g)": "29",
+          "Euthanasia Date": "19-Aug-2019 - 20-Aug-2019",
+          "Soleus Collection Date": "16-Oct-19"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep1_M30",
+        "characteristics": {
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "sex": "female",
+          "age": "26-27",
+          "diet": "Standard chow (5001 Rodent Diet from Newco)",
+          "Organism": "Mus musculus",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Dissection Condition": "Whole Carcass",
+          "Preservation Method": "Cryochiller",
+          "Order of Preservation": "Second set of animals processed in a day of operations"
+        },
+        "parameters": {
+          "Habitat": "vivarium",
+          "Euthanasia Method": "Ketamine/xylazine IP followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "Animal Source": "Jackson Laboratory",
+          "Carcass Weight (g)": "28.98",
+          "Euthanasia Date": "19-Aug-2019 - 20-Aug-2019",
+          "Soleus Collection Date": "16-Oct-19"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep2_M49",
+        "characteristics": {
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "sex": "female",
+          "age": "26-27",
+          "diet": "Standard chow (5001 Rodent Diet from Newco)",
+          "Organism": "Mus musculus",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Dissection Condition": "Whole Carcass",
+          "Preservation Method": "Cryochiller",
+          "Order of Preservation": "Second set of animals processed in a day of operations"
+        },
+        "parameters": {
+          "Habitat": "vivarium",
+          "Euthanasia Method": "Ketamine/xylazine IP followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "Animal Source": "Jackson Laboratory",
+          "Carcass Weight (g)": "26.25",
+          "Euthanasia Date": "19-Aug-2019 - 20-Aug-2019",
+          "Soleus Collection Date": "16-Oct-19"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep3_M56",
+        "characteristics": {
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "sex": "female",
+          "age": "26-27",
+          "diet": "Standard chow (5001 Rodent Diet from Newco)",
+          "Organism": "Mus musculus",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Dissection Condition": "Whole Carcass",
+          "Preservation Method": "Cryochiller",
+          "Order of Preservation": "Second set of animals processed in a day of operations"
+        },
+        "parameters": {
+          "Habitat": "vivarium",
+          "Euthanasia Method": "Ketamine/xylazine IP followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "Animal Source": "Jackson Laboratory",
+          "Carcass Weight (g)": "26.6",
+          "Euthanasia Date": "19-Aug-2019 - 20-Aug-2019",
+          "Soleus Collection Date": "16-Oct-19"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep4_M62",
+        "characteristics": {
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "sex": "female",
+          "age": "26-27",
+          "diet": "Standard chow (5001 Rodent Diet from Newco)",
+          "Organism": "Mus musculus",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Dissection Condition": "Whole Carcass",
+          "Preservation Method": "Cryochiller",
+          "Order of Preservation": "Second set of animals processed in a day of operations"
+        },
+        "parameters": {
+          "Habitat": "vivarium",
+          "Euthanasia Method": "Ketamine/xylazine IP followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "Animal Source": "Jackson Laboratory",
+          "Carcass Weight (g)": "28.85",
+          "Euthanasia Date": "19-Aug-2019 - 20-Aug-2019",
+          "Soleus Collection Date": "16-Oct-19"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep1_M31",
+        "characteristics": {
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "sex": "female",
+          "age": "26-27",
+          "diet": "Standard chow (5001 Rodent Diet from Newco)",
+          "Organism": "Mus musculus",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Dissection Condition": "Whole Carcass",
+          "Preservation Method": "Cryochiller",
+          "Order of Preservation": "Third set of animals processed in a day of operations"
+        },
+        "parameters": {
+          "Habitat": "vivarium",
+          "Euthanasia Method": "Ketamine/xylazine IP followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "Animal Source": "Jackson Laboratory",
+          "Carcass Weight (g)": "22.8",
+          "Euthanasia Date": "19-Aug-2019 - 20-Aug-2019",
+          "Soleus Collection Date": "16-Oct-19"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep2_M41",
+        "characteristics": {
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "sex": "female",
+          "age": "26-27",
+          "diet": "Standard chow (5001 Rodent Diet from Newco)",
+          "Organism": "Mus musculus",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Dissection Condition": "Whole Carcass",
+          "Preservation Method": "Cryochiller",
+          "Order of Preservation": "Third set of animals processed in a day of operations"
+        },
+        "parameters": {
+          "Habitat": "vivarium",
+          "Euthanasia Method": "Ketamine/xylazine IP followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "Animal Source": "Jackson Laboratory",
+          "Carcass Weight (g)": "24.93",
+          "Euthanasia Date": "19-Aug-2019 - 20-Aug-2019",
+          "Soleus Collection Date": "16-Oct-19"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep3_M46",
+        "characteristics": {
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "sex": "female",
+          "age": "26-27",
+          "diet": "Standard chow (5001 Rodent Diet from Newco)",
+          "Organism": "Mus musculus",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Dissection Condition": "Whole Carcass",
+          "Preservation Method": "Cryochiller",
+          "Order of Preservation": "Third set of animals processed in a day of operations"
+        },
+        "parameters": {
+          "Habitat": "vivarium",
+          "Euthanasia Method": "Ketamine/xylazine IP followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "Animal Source": "Jackson Laboratory",
+          "Carcass Weight (g)": "23.96",
+          "Euthanasia Date": "19-Aug-2019 - 20-Aug-2019",
+          "Soleus Collection Date": "16-Oct-19"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep4_M60",
+        "characteristics": {
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "sex": "female",
+          "age": "26-27",
+          "diet": "Standard chow (5001 Rodent Diet from Newco)",
+          "Organism": "Mus musculus",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Dissection Condition": "Whole Carcass",
+          "Preservation Method": "Cryochiller",
+          "Order of Preservation": "Third set of animals processed in a day of operations"
+        },
+        "parameters": {
+          "Habitat": "vivarium",
+          "Euthanasia Method": "Ketamine/xylazine IP followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "Animal Source": "Jackson Laboratory",
+          "Carcass Weight (g)": "25.64",
+          "Euthanasia Date": "19-Aug-2019 - 20-Aug-2019",
+          "Soleus Collection Date": "16-Oct-19"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep1_M26",
+        "characteristics": {
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "sex": "female",
+          "age": "26-27",
+          "diet": "Standard chow (5001 Rodent Diet from Newco)",
+          "Organism": "Mus musculus",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Dissection Condition": "Whole Carcass",
+          "Preservation Method": "Cryochiller",
+          "Order of Preservation": "Fourth set of animals processed in a day of operations"
+        },
+        "parameters": {
+          "Habitat": "vivarium",
+          "Euthanasia Method": "Ketamine/xylazine IP followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "Animal Source": "Jackson Laboratory",
+          "Carcass Weight (g)": "27.61",
+          "Euthanasia Date": "19-Aug-2019 - 20-Aug-2019",
+          "Soleus Collection Date": "16-Oct-19"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep2_M53",
+        "characteristics": {
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "sex": "female",
+          "age": "26-27",
+          "diet": "Standard chow (5001 Rodent Diet from Newco)",
+          "Organism": "Mus musculus",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Dissection Condition": "Whole Carcass",
+          "Preservation Method": "Cryochiller",
+          "Order of Preservation": "Fourth set of animals processed in a day of operations"
+        },
+        "parameters": {
+          "Habitat": "vivarium",
+          "Euthanasia Method": "Ketamine/xylazine IP followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "Animal Source": "Jackson Laboratory",
+          "Carcass Weight (g)": "26.43",
+          "Euthanasia Date": "19-Aug-2019 - 20-Aug-2019",
+          "Soleus Collection Date": "16-Oct-19"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep3_M68",
+        "characteristics": {
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "sex": "female",
+          "age": "26-27",
+          "diet": "Standard chow (5001 Rodent Diet from Newco)",
+          "Organism": "Mus musculus",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Dissection Condition": "Whole Carcass",
+          "Preservation Method": "Cryochiller",
+          "Order of Preservation": "Fourth set of animals processed in a day of operations"
+        },
+        "parameters": {
+          "Habitat": "vivarium",
+          "Euthanasia Method": "Ketamine/xylazine IP followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "Animal Source": "Jackson Laboratory",
+          "Carcass Weight (g)": "30.26",
+          "Euthanasia Date": "19-Aug-2019 - 20-Aug-2019",
+          "Soleus Collection Date": "16-Oct-19"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep4_M73",
+        "characteristics": {
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "sex": "female",
+          "age": "26-27",
+          "diet": "Standard chow (5001 Rodent Diet from Newco)",
+          "Organism": "Mus musculus",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Dissection Condition": "Whole Carcass",
+          "Preservation Method": "Cryochiller",
+          "Order of Preservation": "Fourth set of animals processed in a day of operations"
+        },
+        "parameters": {
+          "Habitat": "vivarium",
+          "Euthanasia Method": "Ketamine/xylazine IP followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "Animal Source": "Jackson Laboratory",
+          "Carcass Weight (g)": "25.13",
+          "Euthanasia Date": "19-Aug-2019 - 20-Aug-2019",
+          "Soleus Collection Date": "16-Oct-19"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep1_M34",
+        "characteristics": {
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "sex": "female",
+          "age": "26-27",
+          "diet": "Standard chow (5001 Rodent Diet from Newco)",
+          "Organism": "Mus musculus",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Dissection Condition": "Whole Carcass",
+          "Preservation Method": "Dry Ice",
+          "Order of Preservation": "Dry Ice Control Set"
+        },
+        "parameters": {
+          "Habitat": "vivarium",
+          "Euthanasia Method": "Ketamine/xylazine IP followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "Animal Source": "Jackson Laboratory",
+          "Carcass Weight (g)": "26.96",
+          "Euthanasia Date": "19-Aug-2019 - 20-Aug-2019",
+          "Soleus Collection Date": "16-Oct-19"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep2_M43",
+        "characteristics": {
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "sex": "female",
+          "age": "26-27",
+          "diet": "Standard chow (5001 Rodent Diet from Newco)",
+          "Organism": "Mus musculus",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Dissection Condition": "Whole Carcass",
+          "Preservation Method": "Dry Ice",
+          "Order of Preservation": "Dry Ice Control Set"
+        },
+        "parameters": {
+          "Habitat": "vivarium",
+          "Euthanasia Method": "Ketamine/xylazine IP followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "Animal Source": "Jackson Laboratory",
+          "Carcass Weight (g)": "28.02",
+          "Euthanasia Date": "19-Aug-2019 - 20-Aug-2019",
+          "Soleus Collection Date": "16-Oct-19"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep3_M54",
+        "characteristics": {
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "sex": "female",
+          "age": "26-27",
+          "diet": "Standard chow (5001 Rodent Diet from Newco)",
+          "Organism": "Mus musculus",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Dissection Condition": "Whole Carcass",
+          "Preservation Method": "Dry Ice",
+          "Order of Preservation": "Dry Ice Control Set"
+        },
+        "parameters": {
+          "Habitat": "vivarium",
+          "Euthanasia Method": "Ketamine/xylazine IP followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "Animal Source": "Jackson Laboratory",
+          "Carcass Weight (g)": "24.27",
+          "Euthanasia Date": "19-Aug-2019 - 20-Aug-2019",
+          "Soleus Collection Date": "16-Oct-19"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep4_M77",
+        "characteristics": {
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "sex": "female",
+          "age": "26-27",
+          "diet": "Standard chow (5001 Rodent Diet from Newco)",
+          "Organism": "Mus musculus",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Dissection Condition": "Whole Carcass",
+          "Preservation Method": "Dry Ice",
+          "Order of Preservation": "Dry Ice Control Set"
+        },
+        "parameters": {
+          "Habitat": "vivarium",
+          "Euthanasia Method": "Ketamine/xylazine IP followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "Animal Source": "Jackson Laboratory",
+          "Carcass Weight (g)": "24.28",
+          "Euthanasia Date": "19-Aug-2019 - 20-Aug-2019",
+          "Soleus Collection Date": "16-Oct-19"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep1_M28",
+        "characteristics": {
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "sex": "female",
+          "age": "26-27",
+          "diet": "Standard chow (5001 Rodent Diet from Newco)",
+          "Organism": "Mus musculus",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Dissection Condition": "Whole Carcass",
+          "Preservation Method": "Liquid Nitrogen",
+          "Order of Preservation": "Liquid Nitrogen Control Set"
+        },
+        "parameters": {
+          "Habitat": "vivarium",
+          "Euthanasia Method": "Ketamine/xylazine IP followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "Animal Source": "Jackson Laboratory",
+          "Carcass Weight (g)": "28.17",
+          "Euthanasia Date": "19-Aug-2019 - 20-Aug-2019",
+          "Soleus Collection Date": "16-Oct-19"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep2_M51",
+        "characteristics": {
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "sex": "female",
+          "age": "26-27",
+          "diet": "Standard chow (5001 Rodent Diet from Newco)",
+          "Organism": "Mus musculus",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Dissection Condition": "Whole Carcass",
+          "Preservation Method": "Liquid Nitrogen",
+          "Order of Preservation": "Liquid Nitrogen Control Set"
+        },
+        "parameters": {
+          "Habitat": "vivarium",
+          "Euthanasia Method": "Ketamine/xylazine IP followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "Animal Source": "Jackson Laboratory",
+          "Carcass Weight (g)": "26.47",
+          "Euthanasia Date": "19-Aug-2019 - 20-Aug-2019",
+          "Soleus Collection Date": "16-Oct-19"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep3_M64",
+        "characteristics": {
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "sex": "female",
+          "age": "26-27",
+          "diet": "Standard chow (5001 Rodent Diet from Newco)",
+          "Organism": "Mus musculus",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Dissection Condition": "Whole Carcass",
+          "Preservation Method": "Liquid Nitrogen",
+          "Order of Preservation": "Liquid Nitrogen Control Set"
+        },
+        "parameters": {
+          "Habitat": "vivarium",
+          "Euthanasia Method": "Ketamine/xylazine IP followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "Animal Source": "Jackson Laboratory",
+          "Carcass Weight (g)": "25.32",
+          "Euthanasia Date": "19-Aug-2019 - 20-Aug-2019",
+          "Soleus Collection Date": "16-Oct-19"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep4_M80",
+        "characteristics": {
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "sex": "female",
+          "age": "26-27",
+          "diet": "Standard chow (5001 Rodent Diet from Newco)",
+          "Organism": "Mus musculus",
+          "Material Type": "Soleus"
+        },
+        "factors": {
+          "Dissection Condition": "Whole Carcass",
+          "Preservation Method": "Liquid Nitrogen",
+          "Order of Preservation": "Liquid Nitrogen Control Set"
+        },
+        "parameters": {
+          "Habitat": "vivarium",
+          "Euthanasia Method": "Ketamine/xylazine IP followed by cervical dislocation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Feeding Schedule": "ad libitum",
+          "Animal Source": "Jackson Laboratory",
+          "Carcass Weight (g)": "25.41",
+          "Euthanasia Date": "19-Aug-2019 - 20-Aug-2019",
+          "Soleus Collection Date": "16-Oct-19"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "rapid",
+      "platform": "Illumina NovaSeq 6000",
+      "qc": {
+        "QA Instrument": "Agilent 2100 Bioanalyzer",
+        "QA Assay": "RNA 6000 Nano Assay",
+        "QA Score": "8.9",
+        "Read Depth": "84476319",
+        "rRNA Contamination": "5.81"
+      },
+      "library": {
+        "Library QA Instrument": "Agilent 4200 TapeStation"
+      },
+      "files": {
+        "raw": [
+          "\"GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep1_M2_R1_raw.fastq.gz",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep1_M2_R2_raw.fastq.gz\"",
+          "\"GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep2_M3_R1_raw.fastq.gz",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep2_M3_R2_raw.fastq.gz\"",
+          "\"GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep3_M4_R1_raw.fastq.gz",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep3_M4_R2_raw.fastq.gz\"",
+          "\"GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep4_M13_R1_raw.fastq.gz",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep4_M13_R2_raw.fastq.gz\"",
+          "\"GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep1_M7_R1_raw.fastq.gz",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep1_M7_R2_raw.fastq.gz\"",
+          "\"GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep2_M11_R1_raw.fastq.gz",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep2_M11_R2_raw.fastq.gz\"",
+          "\"GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep3_M15_R1_raw.fastq.gz",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep3_M15_R2_raw.fastq.gz\"",
+          "\"GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep4_M18_R1_raw.fastq.gz",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep4_M18_R2_raw.fastq.gz\"",
+          "\"GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep1_M12_R1_raw.fastq.gz",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep1_M12_R2_raw.fastq.gz\"",
+          "\"GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep2_M20_R1_raw.fastq.gz",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep2_M20_R2_raw.fastq.gz\"",
+          "\"GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep3_M23_R1_raw.fastq.gz",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep3_M23_R2_raw.fastq.gz\"",
+          "\"GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep4_M25_R1_raw.fastq.gz",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep4_M25_R2_raw.fastq.gz\"",
+          "\"GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep1_M8_R1_raw.fastq.gz",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep1_M8_R2_raw.fastq.gz\"",
+          "\"GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep2_M9_R1_raw.fastq.gz",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep2_M9_R2_raw.fastq.gz\"",
+          "\"GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep3_M10_R1_raw.fastq.gz",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep3_M10_R2_raw.fastq.gz\"",
+          "\"GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep4_M14_R1_raw.fastq.gz",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep4_M14_R2_raw.fastq.gz\"",
+          "\"GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep5_M19_R1_raw.fastq.gz",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep5_M19_R2_raw.fastq.gz\"",
+          "\"GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep1_M47_R1_raw.fastq.gz",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep1_M47_R2_raw.fastq.gz\"",
+          "\"GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep2_M52_R1_raw.fastq.gz",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep2_M52_R2_raw.fastq.gz\"",
+          "\"GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep3_M63_R1_raw.fastq.gz",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep3_M63_R2_raw.fastq.gz\"",
+          "\"GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep4_M83_R1_raw.fastq.gz",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep4_M83_R2_raw.fastq.gz\"",
+          "\"GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep1_M30_R1_raw.fastq.gz",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep1_M30_R2_raw.fastq.gz\"",
+          "\"GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep2_M49_R1_raw.fastq.gz",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep2_M49_R2_raw.fastq.gz\"",
+          "\"GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep3_M56_R1_raw.fastq.gz",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep3_M56_R2_raw.fastq.gz\"",
+          "\"GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep4_M62_R1_raw.fastq.gz",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep4_M62_R2_raw.fastq.gz\"",
+          "\"GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep1_M31_R1_raw.fastq.gz",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep1_M31_R2_raw.fastq.gz\"",
+          "\"GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep2_M41_R1_raw.fastq.gz",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep2_M41_R2_raw.fastq.gz\"",
+          "\"GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep3_M46_R1_raw.fastq.gz",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep3_M46_R2_raw.fastq.gz\"",
+          "\"GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep4_M60_R1_raw.fastq.gz",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep4_M60_R2_raw.fastq.gz\"",
+          "\"GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep1_M26_R1_raw.fastq.gz",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep1_M26_R2_raw.fastq.gz\"",
+          "\"GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep2_M53_R1_raw.fastq.gz",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep2_M53_R2_raw.fastq.gz\"",
+          "\"GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep3_M68_R1_raw.fastq.gz",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep3_M68_R2_raw.fastq.gz\"",
+          "\"GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep4_M73_R1_raw.fastq.gz",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep4_M73_R2_raw.fastq.gz\"",
+          "\"GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep1_M34_R1_raw.fastq.gz",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep1_M34_R2_raw.fastq.gz\"",
+          "\"GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep2_M43_R1_raw.fastq.gz",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep2_M43_R2_raw.fastq.gz\"",
+          "\"GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep3_M54_R1_raw.fastq.gz",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep3_M54_R2_raw.fastq.gz\"",
+          "\"GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep4_M77_R1_raw.fastq.gz",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep4_M77_R2_raw.fastq.gz\"",
+          "\"GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep1_M28_R1_raw.fastq.gz",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep1_M28_R2_raw.fastq.gz\"",
+          "\"GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep2_M51_R1_raw.fastq.gz",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep2_M51_R2_raw.fastq.gz\"",
+          "\"GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep3_M64_R1_raw.fastq.gz",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep3_M64_R2_raw.fastq.gz\"",
+          "\"GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep4_M80_R1_raw.fastq.gz",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep4_M80_R2_raw.fastq.gz\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep1_M2_R1_trimmed.fastq.gz",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep2_M3_R1_trimmed.fastq.gz",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep3_M4_R1_trimmed.fastq.gz",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep4_M13_R1_trimmed.fastq.gz",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep1_M7_R1_trimmed.fastq.gz",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep2_M11_R1_trimmed.fastq.gz",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep3_M15_R1_trimmed.fastq.gz",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep4_M18_R1_trimmed.fastq.gz",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep1_M12_R1_trimmed.fastq.gz",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep2_M20_R1_trimmed.fastq.gz",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep3_M23_R1_trimmed.fastq.gz",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep4_M25_R1_trimmed.fastq.gz",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep1_M8_R1_trimmed.fastq.gz",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep2_M9_R1_trimmed.fastq.gz",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep3_M10_R1_trimmed.fastq.gz",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep4_M14_R1_trimmed.fastq.gz",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep5_M19_R1_trimmed.fastq.gz",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep1_M47_R1_trimmed.fastq.gz",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep2_M52_R1_trimmed.fastq.gz",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep3_M63_R1_trimmed.fastq.gz",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep4_M83_R1_trimmed.fastq.gz",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep1_M30_R1_trimmed.fastq.gz",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep2_M49_R1_trimmed.fastq.gz",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep3_M56_R1_trimmed.fastq.gz",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep4_M62_R1_trimmed.fastq.gz",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep1_M31_R1_trimmed.fastq.gz",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep2_M41_R1_trimmed.fastq.gz",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep3_M46_R1_trimmed.fastq.gz",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep4_M60_R1_trimmed.fastq.gz",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep1_M26_R1_trimmed.fastq.gz",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep2_M53_R1_trimmed.fastq.gz",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep3_M68_R1_trimmed.fastq.gz",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep4_M73_R1_trimmed.fastq.gz",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep1_M34_R1_trimmed.fastq.gz",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep2_M43_R1_trimmed.fastq.gz",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep3_M54_R1_trimmed.fastq.gz",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep4_M77_R1_trimmed.fastq.gz",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep1_M28_R1_trimmed.fastq.gz",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep2_M51_R1_trimmed.fastq.gz",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep3_M64_R1_trimmed.fastq.gz",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep4_M80_R1_trimmed.fastq.gz"
+        ],
+        "processed": [
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep1_M2_R1_trimmed.fastq.gz",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep1_M2_R2_trimmed.fastq.gz\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep1_M2_Aligned.sortedByCoord.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep1_M2_Aligned.toTranscriptome.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep1_M2_SJ.out.tab\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep1_M2.genes.results",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep1_M2.isoforms.results",
+          "GLDS-274_rna_seq_Unnormalized_Counts.csv\"",
+          "\"GLDS-274_rna_seq_Normalized_Counts.csv",
+          "GLDS-274_rna_seq_ERCC_Normalized_Counts.csv\"",
+          "\"GLDS-274_rna_seq_contrasts.csv",
+          "GLDS-274_rna_seq_differential_expression.csv",
+          "GLDS-274_rna_seq_ERCCnorm_contrasts.csv",
+          "GLDS-274_rna_seq_ERCCnorm_differential_expression.csv",
+          "GLDS-274_rna_seq_SampleTable.csv\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep2_M3_R1_trimmed.fastq.gz",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep2_M3_R2_trimmed.fastq.gz\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep2_M3_Aligned.sortedByCoord.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep2_M3_Aligned.toTranscriptome.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep2_M3_SJ.out.tab\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep2_M3.genes.results",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep2_M3.isoforms.results",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep3_M4_R1_trimmed.fastq.gz",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep3_M4_R2_trimmed.fastq.gz\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep3_M4_Aligned.sortedByCoord.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep3_M4_Aligned.toTranscriptome.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep3_M4_SJ.out.tab\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep3_M4.genes.results",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep3_M4.isoforms.results",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep4_M13_R1_trimmed.fastq.gz",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep4_M13_R2_trimmed.fastq.gz\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep4_M13_Aligned.sortedByCoord.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep4_M13_Aligned.toTranscriptome.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep4_M13_SJ.out.tab\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep4_M13.genes.results",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep4_M13.isoforms.results",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep1_M7_R1_trimmed.fastq.gz",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep1_M7_R2_trimmed.fastq.gz\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep1_M7_Aligned.sortedByCoord.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep1_M7_Aligned.toTranscriptome.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep1_M7_SJ.out.tab\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep1_M7.genes.results",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep1_M7.isoforms.results",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep2_M11_R1_trimmed.fastq.gz",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep2_M11_R2_trimmed.fastq.gz\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep2_M11_Aligned.sortedByCoord.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep2_M11_Aligned.toTranscriptome.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep2_M11_SJ.out.tab\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep2_M11.genes.results",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep2_M11.isoforms.results",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep3_M15_R1_trimmed.fastq.gz",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep3_M15_R2_trimmed.fastq.gz\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep3_M15_Aligned.sortedByCoord.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep3_M15_Aligned.toTranscriptome.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep3_M15_SJ.out.tab\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep3_M15.genes.results",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep3_M15.isoforms.results",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep4_M18_R1_trimmed.fastq.gz",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep4_M18_R2_trimmed.fastq.gz\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep4_M18_Aligned.sortedByCoord.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep4_M18_Aligned.toTranscriptome.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep4_M18_SJ.out.tab\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep4_M18.genes.results",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep4_M18.isoforms.results",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep1_M12_R1_trimmed.fastq.gz",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep1_M12_R2_trimmed.fastq.gz\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep1_M12_Aligned.sortedByCoord.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep1_M12_Aligned.toTranscriptome.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep1_M12_SJ.out.tab\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep1_M12.genes.results",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep1_M12.isoforms.results",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep2_M20_R1_trimmed.fastq.gz",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep2_M20_R2_trimmed.fastq.gz\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep2_M20_Aligned.sortedByCoord.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep2_M20_Aligned.toTranscriptome.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep2_M20_SJ.out.tab\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep2_M20.genes.results",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep2_M20.isoforms.results",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep3_M23_R1_trimmed.fastq.gz",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep3_M23_R2_trimmed.fastq.gz\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep3_M23_Aligned.sortedByCoord.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep3_M23_Aligned.toTranscriptome.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep3_M23_SJ.out.tab\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep3_M23.genes.results",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep3_M23.isoforms.results",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep4_M25_R1_trimmed.fastq.gz",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep4_M25_R2_trimmed.fastq.gz\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep4_M25_Aligned.sortedByCoord.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep4_M25_Aligned.toTranscriptome.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep4_M25_SJ.out.tab\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep4_M25.genes.results",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep4_M25.isoforms.results",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep1_M8_R1_trimmed.fastq.gz",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep1_M8_R2_trimmed.fastq.gz\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep1_M8_Aligned.sortedByCoord.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep1_M8_Aligned.toTranscriptome.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep1_M8_SJ.out.tab\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep1_M8.genes.results",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep1_M8.isoforms.results",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep2_M9_R1_trimmed.fastq.gz",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep2_M9_R2_trimmed.fastq.gz\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep2_M9_Aligned.sortedByCoord.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep2_M9_Aligned.toTranscriptome.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep2_M9_SJ.out.tab\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep2_M9.genes.results",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep2_M9.isoforms.results",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep3_M10_R1_trimmed.fastq.gz",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep3_M10_R2_trimmed.fastq.gz\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep3_M10_Aligned.sortedByCoord.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep3_M10_Aligned.toTranscriptome.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep3_M10_SJ.out.tab\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep3_M10.genes.results",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep3_M10.isoforms.results",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep4_M14_R1_trimmed.fastq.gz",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep4_M14_R2_trimmed.fastq.gz\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep4_M14_Aligned.sortedByCoord.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep4_M14_Aligned.toTranscriptome.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep4_M14_SJ.out.tab\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep4_M14.genes.results",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep4_M14.isoforms.results",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep5_M19_R1_trimmed.fastq.gz",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep5_M19_R2_trimmed.fastq.gz\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep5_M19_Aligned.sortedByCoord.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep5_M19_Aligned.toTranscriptome.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep5_M19_SJ.out.tab\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep5_M19.genes.results",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep5_M19.isoforms.results",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep1_M47_R1_trimmed.fastq.gz",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep1_M47_R2_trimmed.fastq.gz\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep1_M47_Aligned.sortedByCoord.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep1_M47_Aligned.toTranscriptome.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep1_M47_SJ.out.tab\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep1_M47.genes.results",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep1_M47.isoforms.results",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep2_M52_R1_trimmed.fastq.gz",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep2_M52_R2_trimmed.fastq.gz\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep2_M52_Aligned.sortedByCoord.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep2_M52_Aligned.toTranscriptome.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep2_M52_SJ.out.tab\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep2_M52.genes.results",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep2_M52.isoforms.results",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep3_M63_R1_trimmed.fastq.gz",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep3_M63_R2_trimmed.fastq.gz\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep3_M63_Aligned.sortedByCoord.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep3_M63_Aligned.toTranscriptome.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep3_M63_SJ.out.tab\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep3_M63.genes.results",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep3_M63.isoforms.results",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep4_M83_R1_trimmed.fastq.gz",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep4_M83_R2_trimmed.fastq.gz\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep4_M83_Aligned.sortedByCoord.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep4_M83_Aligned.toTranscriptome.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep4_M83_SJ.out.tab\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep4_M83.genes.results",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep4_M83.isoforms.results",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep1_M30_R1_trimmed.fastq.gz",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep1_M30_R2_trimmed.fastq.gz\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep1_M30_Aligned.sortedByCoord.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep1_M30_Aligned.toTranscriptome.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep1_M30_SJ.out.tab\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep1_M30.genes.results",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep1_M30.isoforms.results",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep2_M49_R1_trimmed.fastq.gz",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep2_M49_R2_trimmed.fastq.gz\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep2_M49_Aligned.sortedByCoord.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep2_M49_Aligned.toTranscriptome.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep2_M49_SJ.out.tab\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep2_M49.genes.results",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep2_M49.isoforms.results",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep3_M56_R1_trimmed.fastq.gz",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep3_M56_R2_trimmed.fastq.gz\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep3_M56_Aligned.sortedByCoord.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep3_M56_Aligned.toTranscriptome.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep3_M56_SJ.out.tab\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep3_M56.genes.results",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep3_M56.isoforms.results",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep4_M62_R1_trimmed.fastq.gz",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep4_M62_R2_trimmed.fastq.gz\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep4_M62_Aligned.sortedByCoord.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep4_M62_Aligned.toTranscriptome.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep4_M62_SJ.out.tab\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep4_M62.genes.results",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep4_M62.isoforms.results",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep1_M31_R1_trimmed.fastq.gz",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep1_M31_R2_trimmed.fastq.gz\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep1_M31_Aligned.sortedByCoord.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep1_M31_Aligned.toTranscriptome.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep1_M31_SJ.out.tab\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep1_M31.genes.results",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep1_M31.isoforms.results",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep2_M41_R1_trimmed.fastq.gz",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep2_M41_R2_trimmed.fastq.gz\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep2_M41_Aligned.sortedByCoord.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep2_M41_Aligned.toTranscriptome.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep2_M41_SJ.out.tab\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep2_M41.genes.results",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep2_M41.isoforms.results",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep3_M46_R1_trimmed.fastq.gz",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep3_M46_R2_trimmed.fastq.gz\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep3_M46_Aligned.sortedByCoord.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep3_M46_Aligned.toTranscriptome.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep3_M46_SJ.out.tab\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep3_M46.genes.results",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep3_M46.isoforms.results",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep4_M60_R1_trimmed.fastq.gz",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep4_M60_R2_trimmed.fastq.gz\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep4_M60_Aligned.sortedByCoord.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep4_M60_Aligned.toTranscriptome.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep4_M60_SJ.out.tab\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep4_M60.genes.results",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep4_M60.isoforms.results",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep1_M26_R1_trimmed.fastq.gz",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep1_M26_R2_trimmed.fastq.gz\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep1_M26_Aligned.sortedByCoord.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep1_M26_Aligned.toTranscriptome.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep1_M26_SJ.out.tab\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep1_M26.genes.results",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep1_M26.isoforms.results",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep2_M53_R1_trimmed.fastq.gz",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep2_M53_R2_trimmed.fastq.gz\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep2_M53_Aligned.sortedByCoord.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep2_M53_Aligned.toTranscriptome.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep2_M53_SJ.out.tab\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep2_M53.genes.results",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep2_M53.isoforms.results",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep3_M68_R1_trimmed.fastq.gz",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep3_M68_R2_trimmed.fastq.gz\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep3_M68_Aligned.sortedByCoord.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep3_M68_Aligned.toTranscriptome.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep3_M68_SJ.out.tab\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep3_M68.genes.results",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep3_M68.isoforms.results",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep4_M73_R1_trimmed.fastq.gz",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep4_M73_R2_trimmed.fastq.gz\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep4_M73_Aligned.sortedByCoord.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep4_M73_Aligned.toTranscriptome.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep4_M73_SJ.out.tab\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep4_M73.genes.results",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep4_M73.isoforms.results",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep1_M34_R1_trimmed.fastq.gz",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep1_M34_R2_trimmed.fastq.gz\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep1_M34_Aligned.sortedByCoord.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep1_M34_Aligned.toTranscriptome.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep1_M34_SJ.out.tab\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep1_M34.genes.results",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep1_M34.isoforms.results",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep2_M43_R1_trimmed.fastq.gz",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep2_M43_R2_trimmed.fastq.gz\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep2_M43_Aligned.sortedByCoord.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep2_M43_Aligned.toTranscriptome.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep2_M43_SJ.out.tab\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep2_M43.genes.results",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep2_M43.isoforms.results",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep3_M54_R1_trimmed.fastq.gz",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep3_M54_R2_trimmed.fastq.gz\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep3_M54_Aligned.sortedByCoord.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep3_M54_Aligned.toTranscriptome.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep3_M54_SJ.out.tab\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep3_M54.genes.results",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep3_M54.isoforms.results",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep4_M77_R1_trimmed.fastq.gz",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep4_M77_R2_trimmed.fastq.gz\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep4_M77_Aligned.sortedByCoord.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep4_M77_Aligned.toTranscriptome.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep4_M77_SJ.out.tab\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep4_M77.genes.results",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep4_M77.isoforms.results",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep1_M28_R1_trimmed.fastq.gz",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep1_M28_R2_trimmed.fastq.gz\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep1_M28_Aligned.sortedByCoord.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep1_M28_Aligned.toTranscriptome.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep1_M28_SJ.out.tab\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep1_M28.genes.results",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep1_M28.isoforms.results",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep2_M51_R1_trimmed.fastq.gz",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep2_M51_R2_trimmed.fastq.gz\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep2_M51_Aligned.sortedByCoord.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep2_M51_Aligned.toTranscriptome.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep2_M51_SJ.out.tab\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep2_M51.genes.results",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep2_M51.isoforms.results",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep3_M64_R1_trimmed.fastq.gz",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep3_M64_R2_trimmed.fastq.gz\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep3_M64_Aligned.sortedByCoord.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep3_M64_Aligned.toTranscriptome.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep3_M64_SJ.out.tab\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep3_M64.genes.results",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep3_M64.isoforms.results",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep4_M80_R1_trimmed.fastq.gz",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep4_M80_R2_trimmed.fastq.gz\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep4_M80_Aligned.sortedByCoord.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep4_M80_Aligned.toTranscriptome.out.bam",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep4_M80_SJ.out.tab\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep4_M80.genes.results",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep4_M80.isoforms.results",
+          "Mmus_C57-6J_SLS_I_GF_FirstSet_Rep1_M2",
+          "GeneLab RNAseq data processing protocol",
+          "Agilent 2100 Bioanalyzer",
+          "RNA 6000 Nano Assay",
+          "8.9",
+          "read",
+          "ERCC ExFold RNA Spike-In Mix",
+          "Mix 1",
+          "Ribo-depletion",
+          "PAIRED",
+          "STRANDED",
+          "Agilent 4200 TapeStation",
+          "D1000 ScreenTape",
+          "274",
+          "Illumina NovaSeq 6000",
+          "149",
+          "bcl2fastq",
+          "rna-seq",
+          "5.81",
+          "84476319",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep1_M2_R2_raw.fastq.gz\"",
+          "GLDS-274_rna_seq_ERCC_analysis.html",
+          "Mmus_C57-6J_SLS_I_GF_FirstSet_Rep2_M3",
+          "8.7",
+          "299",
+          "0.69",
+          "100790423",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep2_M3_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SLS_I_GF_FirstSet_Rep3_M4",
+          "9",
+          "294",
+          "3.12",
+          "92466934",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep3_M4_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SLS_I_GF_FirstSet_Rep4_M13",
+          "7.9",
+          "307",
+          "1.29",
+          "108698384",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep4_M13_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SLS_I_GF_SecondSet_Rep1_M7",
+          "Mix 2",
+          "279",
+          "4.96",
+          "97008455",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep1_M7_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SLS_I_GF_SecondSet_Rep2_M11",
+          "287",
+          "3.49",
+          "107920355",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep2_M11_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SLS_I_GF_SecondSet_Rep3_M15",
+          "267",
+          "4.99",
+          "107082439",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep3_M15_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SLS_I_GF_SecondSet_Rep4_M18",
+          "8.2",
+          "277",
+          "10.87",
+          "105186293",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep4_M18_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep1_M12",
+          "9.1",
+          "5.61",
+          "112859755",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep1_M12_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep2_M20",
+          "268",
+          "3.4",
+          "100558269",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep2_M20_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep3_M23",
+          "8.6",
+          "283",
+          "15.68",
+          "119344944",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep3_M23_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep4_M25",
+          "9.3",
+          "312",
+          "0.9",
+          "110196778",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep4_M25_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep1_M8",
+          "278",
+          "25.22",
+          "132138224",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep1_M8_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep2_M9",
+          "316",
+          "0.65",
+          "106586219",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep2_M9_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep3_M10",
+          "311",
+          "1.01",
+          "102494285",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep3_M10_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep4_M14",
+          "9.9",
+          "313",
+          "0.83",
+          "108134799",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep4_M14_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep5_M19",
+          "281",
+          "7.42",
+          "103520783",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep5_M19_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep1_M47",
+          "273",
+          "4.92",
+          "96162289",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep1_M47_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep2_M52",
+          "3.9",
+          "89107727",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep2_M52_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep3_M63",
+          "8.5",
+          "295",
+          "6.74",
+          "99984948",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep3_M63_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep4_M83",
+          "9.6",
+          "4.33",
+          "89207243",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep4_M83_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep1_M30",
+          "34.29",
+          "169628201",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep1_M30_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep2_M49",
+          "282",
+          "24.25",
+          "144346956",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep2_M49_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep3_M56",
+          "107873048",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep3_M56_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep4_M62",
+          "8.8",
+          "323",
+          "0.55",
+          "102735459",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep4_M62_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep1_M31",
+          "8.4",
+          "288",
+          "5.65",
+          "95988769",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep1_M31_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep2_M41",
+          "9.2",
+          "284",
+          "5.13",
+          "105573480",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep2_M41_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep3_M46",
+          "280",
+          "3.66",
+          "93407827",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep3_M46_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep4_M60",
+          "6.92",
+          "106160562",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep4_M60_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep1_M26",
+          "4.03",
+          "98223404",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep1_M26_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep2_M53",
+          "320",
+          "0.82",
+          "107968827",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep2_M53_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep3_M68",
+          "9.4",
+          "270",
+          "4",
+          "91223763",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep3_M68_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep4_M73",
+          "319",
+          "104726884",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep4_M73_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep1_M34",
+          "5.75",
+          "94895941",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep1_M34_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep2_M43",
+          "264",
+          "7.34",
+          "109828515",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep2_M43_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep3_M54",
+          "4.09",
+          "113928542",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep3_M54_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep4_M77",
+          "1.88",
+          "88652716",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep4_M77_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep1_M28",
+          "272",
+          "8.61",
+          "101557701",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep1_M28_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep2_M51",
+          "7.54",
+          "105561554",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep2_M51_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep3_M64",
+          "4.28",
+          "109665698",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep3_M64_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep4_M80",
+          "301",
+          "2.75",
+          "94021972",
+          "GLDS-274_rna-seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep4_M80_R2_raw.fastq.gz\""
+        ],
+        "reports": [
+          "GLDS-274_rna-seq_raw_multiqc_report.zip",
+          "\"GLDS-274_rna_seq_trimmed_multiqc.html.gz",
+          "GLDS-274_rna_seq_trimmed_multiqc_data.zip\"",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep1_M2_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep1_M2_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep1_M2_Log.final.out",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep2_M3_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep2_M3_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep2_M3_Log.final.out",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep3_M4_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep3_M4_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep3_M4_Log.final.out",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep4_M13_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep4_M13_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_FirstSet_Rep4_M13_Log.final.out",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep1_M7_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep1_M7_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep1_M7_Log.final.out",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep2_M11_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep2_M11_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep2_M11_Log.final.out",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep3_M15_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep3_M15_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep3_M15_Log.final.out",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep4_M18_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep4_M18_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_SecondSet_Rep4_M18_Log.final.out",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep1_M12_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep1_M12_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep1_M12_Log.final.out",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep2_M20_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep2_M20_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep2_M20_Log.final.out",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep3_M23_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep3_M23_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep3_M23_Log.final.out",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep4_M25_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep4_M25_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_GF_ThirdSet_Rep4_M25_Log.final.out",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep1_M8_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep1_M8_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep1_M8_Log.final.out",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep2_M9_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep2_M9_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep2_M9_Log.final.out",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep3_M10_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep3_M10_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep3_M10_Log.final.out",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep4_M14_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep4_M14_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep4_M14_Log.final.out",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep5_M19_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep5_M19_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_I_LN2_CTRLSet_Rep5_M19_Log.final.out",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep1_M47_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep1_M47_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep1_M47_Log.final.out",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep2_M52_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep2_M52_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep2_M52_Log.final.out",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep3_M63_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep3_M63_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep3_M63_Log.final.out",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep4_M83_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep4_M83_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FirstSet_Rep4_M83_Log.final.out",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep1_M30_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep1_M30_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep1_M30_Log.final.out",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep2_M49_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep2_M49_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep2_M49_Log.final.out",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep3_M56_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep3_M56_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep3_M56_Log.final.out",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep4_M62_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep4_M62_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_SecondSet_Rep4_M62_Log.final.out",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep1_M31_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep1_M31_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep1_M31_Log.final.out",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep2_M41_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep2_M41_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep2_M41_Log.final.out",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep3_M46_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep3_M46_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep3_M46_Log.final.out",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep4_M60_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep4_M60_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_ThirdSet_Rep4_M60_Log.final.out",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep1_M26_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep1_M26_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep1_M26_Log.final.out",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep2_M53_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep2_M53_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep2_M53_Log.final.out",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep3_M68_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep3_M68_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep3_M68_Log.final.out",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep4_M73_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep4_M73_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_CryoC_FourthSet_Rep4_M73_Log.final.out",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep1_M34_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep1_M34_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep1_M34_Log.final.out",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep2_M43_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep2_M43_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep2_M43_Log.final.out",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep3_M54_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep3_M54_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep3_M54_Log.final.out",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep4_M77_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep4_M77_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_DI_CTRLSet_Rep4_M77_Log.final.out",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep1_M28_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep1_M28_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep1_M28_Log.final.out",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep2_M51_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep2_M51_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep2_M51_Log.final.out",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep3_M64_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep3_M64_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep3_M64_Log.final.out",
+          "\"GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep4_M80_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep4_M80_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-274_rna_seq_Mmus_C57-6J_SLS_WCar_LN2_CTRLSet_Rep4_M80_Log.final.out",
+          "GLDS-274_rna_seq_infer_exp_multiqc_report.zip"
+        ]
+      }
+    }
+  ]
+}

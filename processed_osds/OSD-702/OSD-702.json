@@ -1,0 +1,1278 @@
+{
+  "investigation": {
+    "id": "OSD-702",
+    "title": "Effects of 32 Days Aboard the ISS on Quadricep Tendon Nanomechanics (Quadricep femoris tendon, RR-1 and Atomic Force Microscopy)",
+    "description": "Collagen is an essential component of connective tissue and plays a crucial role in elasticity, stability, and force distribution. While the adaptations of tendon to internal stimuli have been extensively researched, the impact of environmental factors (such as microgravity) on its structure and function at the nanoscopic scale (i.e., fibril level) remains largely unexplored.",
+    "mission": {
+      "name": "SpaceX-4",
+      "start_date": "09/21/2014",
+      "end_date": "10/25/2014",
+      "link": "https://osdr.nasa.gov/bio/repo/data/missions/SpaceX-4"
+    },
+    "project": {
+      "identifier": "RR-1",
+      "title": "",
+      "type": "Spaceflight Study",
+      "link": "",
+      "funding": "CSUBIOTECH; Rossi Family Foundation",
+      "managing_center": "Ames Research Center (ARC)"
+    },
+    "protocols": [
+      "Animal Husbandry",
+      "sample collection",
+      "AFM Hardware Settings And Qualities",
+      "AFM Operation Settings",
+      "AFM Sample Settings And Qualities",
+      "AFM Data Aquisition",
+      "ALSDA Transformed Data"
+    ],
+    "publications": [],
+    "factors": [
+      "Spaceflight"
+    ],
+    "contacts": [
+      {
+        "first_name": "Patrick",
+        "last_name": "Bialy",
+        "role": "project administration role",
+        "email": "pbialy@mail.sfsu.edu"
+      },
+      {
+        "first_name": "James",
+        "last_name": "Bagley",
+        "role": "conceptualization role",
+        "email": "jrbagley@sfsu.edu"
+      },
+      {
+        "first_name": "Julissa",
+        "last_name": "Delatorre",
+        "role": "project administration role",
+        "email": "jortizde@uoregon.edu"
+      },
+      {
+        "first_name": "Andrew",
+        "last_name": "Ichimura",
+        "role": "Co-investigator",
+        "email": "ichimura@sfsu.edu"
+      },
+      {
+        "first_name": "Kent",
+        "last_name": "Lorenz",
+        "role": "Co-investigator",
+        "email": "kalorenz@sfsu.edu"
+      },
+      {
+        "first_name": "Guillermo",
+        "last_name": "Bojorge",
+        "role": "project administration role",
+        "email": "gbojorge@mail.sfsu.edu"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "M30QUL2_Trial1_1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "Wild Type",
+          "Genotype": "C57BL/6J",
+          "Material Type": "Quadriceps femoris",
+          "Animal Source": "Jackson Laboratory",
+          "sex": "Female",
+          "duration": "37",
+          "Age at Launch": "16"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Euthanasia Method": "Euthasol",
+          "Carcass Weight": "20.66",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Tissue Weight": "0.2551",
+          "Age at Euthanasia": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "M30QUL2_Trial1_2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "Wild Type",
+          "Genotype": "C57BL/6J",
+          "Material Type": "Quadriceps femoris",
+          "Animal Source": "Jackson Laboratory",
+          "sex": "Female",
+          "duration": "37",
+          "Age at Launch": "16"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Euthanasia Method": "Euthasol",
+          "Carcass Weight": "20.66",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Tissue Weight": "0.2551",
+          "Age at Euthanasia": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "M30QUL2_Trial1_3",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "Wild Type",
+          "Genotype": "C57BL/6J",
+          "Material Type": "Quadriceps femoris",
+          "Animal Source": "Jackson Laboratory",
+          "sex": "Female",
+          "duration": "37",
+          "Age at Launch": "16"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Euthanasia Method": "Euthasol",
+          "Carcass Weight": "20.66",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Tissue Weight": "0.2551",
+          "Age at Euthanasia": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "M30QUL1_Trial2_1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "Wild Type",
+          "Genotype": "C57BL/6J",
+          "Material Type": "Quadriceps femoris",
+          "Animal Source": "Jackson Laboratory",
+          "sex": "Female",
+          "duration": "37",
+          "Age at Launch": "16"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Euthanasia Method": "Euthasol",
+          "Carcass Weight": "20.66",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Tissue Weight": "0.2551",
+          "Age at Euthanasia": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "M30QUL1_Trial2_2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "Wild Type",
+          "Genotype": "C57BL/6J",
+          "Material Type": "Quadriceps femoris",
+          "Animal Source": "Jackson Laboratory",
+          "sex": "Female",
+          "duration": "37",
+          "Age at Launch": "16"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Euthanasia Method": "Euthasol",
+          "Carcass Weight": "20.66",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Tissue Weight": "0.2551",
+          "Age at Euthanasia": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "M30QUL1_Trial2_3",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "Wild Type",
+          "Genotype": "C57BL/6J",
+          "Material Type": "Quadriceps femoris",
+          "Animal Source": "Jackson Laboratory",
+          "sex": "Female",
+          "duration": "37",
+          "Age at Launch": "16"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Euthanasia Method": "Euthasol",
+          "Carcass Weight": "20.66",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Tissue Weight": "0.2551",
+          "Age at Euthanasia": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "M30QUL1_Trial2_4",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "Wild Type",
+          "Genotype": "C57BL/6J",
+          "Material Type": "Quadriceps femoris",
+          "Animal Source": "Jackson Laboratory",
+          "sex": "Female",
+          "duration": "37",
+          "Age at Launch": "16"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Euthanasia Method": "Euthasol",
+          "Carcass Weight": "20.66",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Tissue Weight": "0.2551",
+          "Age at Euthanasia": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "M30QUL1_Trial2_5",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "Wild Type",
+          "Genotype": "C57BL/6J",
+          "Material Type": "Quadriceps femoris",
+          "Animal Source": "Jackson Laboratory",
+          "sex": "Female",
+          "duration": "37",
+          "Age at Launch": "16"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Euthanasia Method": "Euthasol",
+          "Carcass Weight": "20.66",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Tissue Weight": "0.2551",
+          "Age at Euthanasia": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "M39QUL1_Trial2_1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "Wild Type",
+          "Genotype": "C57BL/6J",
+          "Material Type": "Quadriceps femoris",
+          "Animal Source": "Jackson Laboratory",
+          "sex": "Female",
+          "duration": "",
+          "Age at Launch": "16"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Euthanasia Method": "Euthasol",
+          "Carcass Weight": "21.94",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Tissue Weight": "0.3038",
+          "Age at Euthanasia": "22"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "M39QUL1_Trial2_2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "Wild Type",
+          "Genotype": "C57BL/6J",
+          "Material Type": "Quadriceps femoris",
+          "Animal Source": "Jackson Laboratory",
+          "sex": "Female",
+          "duration": "",
+          "Age at Launch": "16"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Euthanasia Method": "Euthasol",
+          "Carcass Weight": "21.94",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Tissue Weight": "0.3038",
+          "Age at Euthanasia": "22"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "M39QUL1_Trial2_3",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "Wild Type",
+          "Genotype": "C57BL/6J",
+          "Material Type": "Quadriceps femoris",
+          "Animal Source": "Jackson Laboratory",
+          "sex": "Female",
+          "duration": "",
+          "Age at Launch": "16"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Euthanasia Method": "Euthasol",
+          "Carcass Weight": "21.94",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Tissue Weight": "0.3038",
+          "Age at Euthanasia": "22"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "M39QUL1_Trial2_4",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "Wild Type",
+          "Genotype": "C57BL/6J",
+          "Material Type": "Quadriceps femoris",
+          "Animal Source": "Jackson Laboratory",
+          "sex": "Female",
+          "duration": "",
+          "Age at Launch": "16"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Euthanasia Method": "Euthasol",
+          "Carcass Weight": "21.94",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Tissue Weight": "0.3038",
+          "Age at Euthanasia": "22"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "M39QUL1_Trial2_5",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "Wild Type",
+          "Genotype": "C57BL/6J",
+          "Material Type": "Quadriceps femoris",
+          "Animal Source": "Jackson Laboratory",
+          "sex": "Female",
+          "duration": "",
+          "Age at Launch": "16"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Euthanasia Method": "Euthasol",
+          "Carcass Weight": "21.94",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Tissue Weight": "0.3038",
+          "Age at Euthanasia": "22"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "M29QUL2_Trial3_1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "Wild Type",
+          "Genotype": "C57BL/6J",
+          "Material Type": "Quadriceps femoris",
+          "Animal Source": "Jackson Laboratory",
+          "sex": "Female",
+          "duration": "",
+          "Age at Launch": "16"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Euthanasia Method": "Euthasol",
+          "Carcass Weight": "20.25",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Tissue Weight": "0.2358",
+          "Age at Euthanasia": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "M29QUL2_Trial3_2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "Wild Type",
+          "Genotype": "C57BL/6J",
+          "Material Type": "Quadriceps femoris",
+          "Animal Source": "Jackson Laboratory",
+          "sex": "Female",
+          "duration": "",
+          "Age at Launch": "16"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Euthanasia Method": "Euthasol",
+          "Carcass Weight": "20.25",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Tissue Weight": "0.2358",
+          "Age at Euthanasia": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "M29QUL2_Trial3_3",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "Wild Type",
+          "Genotype": "C57BL/6J",
+          "Material Type": "Quadriceps femoris",
+          "Animal Source": "Jackson Laboratory",
+          "sex": "Female",
+          "duration": "",
+          "Age at Launch": "16"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Euthanasia Method": "Euthasol",
+          "Carcass Weight": "20.25",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Tissue Weight": "0.2358",
+          "Age at Euthanasia": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "M29QUL2_Trial3_4",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "Wild Type",
+          "Genotype": "C57BL/6J",
+          "Material Type": "Quadriceps femoris",
+          "Animal Source": "Jackson Laboratory",
+          "sex": "Female",
+          "duration": "",
+          "Age at Launch": "16"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Euthanasia Method": "Euthasol",
+          "Carcass Weight": "20.25",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Tissue Weight": "0.2358",
+          "Age at Euthanasia": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "M29QUL2_Trial3_5",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "Wild Type",
+          "Genotype": "C57BL/6J",
+          "Material Type": "Quadriceps femoris",
+          "Animal Source": "Jackson Laboratory",
+          "sex": "Female",
+          "duration": "",
+          "Age at Launch": "16"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Euthanasia Method": "Euthasol",
+          "Carcass Weight": "20.25",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Tissue Weight": "0.2358",
+          "Age at Euthanasia": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "M34QUL2_Trial3_1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "Wild Type",
+          "Genotype": "C57BL/6J",
+          "Material Type": "Quadriceps femoris",
+          "Animal Source": "Jackson Laboratory",
+          "sex": "Female",
+          "duration": "",
+          "Age at Launch": "16"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Euthanasia Method": "Euthasol",
+          "Carcass Weight": "21.18",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Tissue Weight": "0.2661",
+          "Age at Euthanasia": "22"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "M34QUL2_Trial3_2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "Wild Type",
+          "Genotype": "C57BL/6J",
+          "Material Type": "Quadriceps femoris",
+          "Animal Source": "Jackson Laboratory",
+          "sex": "Female",
+          "duration": "",
+          "Age at Launch": "16"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Euthanasia Method": "Euthasol",
+          "Carcass Weight": "21.18",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Tissue Weight": "0.2661",
+          "Age at Euthanasia": "22"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "M34QUL2_Trial3_3",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "Wild Type",
+          "Genotype": "C57BL/6J",
+          "Material Type": "Quadriceps femoris",
+          "Animal Source": "Jackson Laboratory",
+          "sex": "Female",
+          "duration": "",
+          "Age at Launch": "16"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Euthanasia Method": "Euthasol",
+          "Carcass Weight": "21.18",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Tissue Weight": "0.2661",
+          "Age at Euthanasia": "22"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "M34QUL2_Trial3_4",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "Wild Type",
+          "Genotype": "C57BL/6J",
+          "Material Type": "Quadriceps femoris",
+          "Animal Source": "Jackson Laboratory",
+          "sex": "Female",
+          "duration": "",
+          "Age at Launch": "16"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Euthanasia Method": "Euthasol",
+          "Carcass Weight": "21.18",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Tissue Weight": "0.2661",
+          "Age at Euthanasia": "22"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "M34QUL2_Trial3_5",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "Wild Type",
+          "Genotype": "C57BL/6J",
+          "Material Type": "Quadriceps femoris",
+          "Animal Source": "Jackson Laboratory",
+          "sex": "Female",
+          "duration": "",
+          "Age at Launch": "16"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Euthanasia Method": "Euthasol",
+          "Carcass Weight": "21.18",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Tissue Weight": "0.2661",
+          "Age at Euthanasia": "22"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "M25QUL2_Trial6_1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "Wild Type",
+          "Genotype": "C57BL/6J",
+          "Material Type": "Quadriceps femoris",
+          "Animal Source": "Jackson Laboratory",
+          "sex": "Female",
+          "duration": "37",
+          "Age at Launch": "16"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Euthanasia Method": "Euthasol",
+          "Carcass Weight": "20.75",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Tissue Weight": "0.2898",
+          "Age at Euthanasia": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "M25QUL2_Trial6_2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "Wild Type",
+          "Genotype": "C57BL/6J",
+          "Material Type": "Quadriceps femoris",
+          "Animal Source": "Jackson Laboratory",
+          "sex": "Female",
+          "duration": "37",
+          "Age at Launch": "16"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Euthanasia Method": "Euthasol",
+          "Carcass Weight": "20.75",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Tissue Weight": "0.2898",
+          "Age at Euthanasia": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "M25QUL2_Trial6_3",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "Wild Type",
+          "Genotype": "C57BL/6J",
+          "Material Type": "Quadriceps femoris",
+          "Animal Source": "Jackson Laboratory",
+          "sex": "Female",
+          "duration": "37",
+          "Age at Launch": "16"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Euthanasia Method": "Euthasol",
+          "Carcass Weight": "20.75",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Tissue Weight": "0.2898",
+          "Age at Euthanasia": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "M25QUL2_Trial6_4",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "Wild Type",
+          "Genotype": "C57BL/6J",
+          "Material Type": "Quadriceps femoris",
+          "Animal Source": "Jackson Laboratory",
+          "sex": "Female",
+          "duration": "37",
+          "Age at Launch": "16"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Euthanasia Method": "Euthasol",
+          "Carcass Weight": "20.75",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Tissue Weight": "0.2898",
+          "Age at Euthanasia": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "M25QUL2_Trial6_5",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "Wild Type",
+          "Genotype": "C57BL/6J",
+          "Material Type": "Quadriceps femoris",
+          "Animal Source": "Jackson Laboratory",
+          "sex": "Female",
+          "duration": "37",
+          "Age at Launch": "16"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Euthanasia Method": "Euthasol",
+          "Carcass Weight": "20.75",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Tissue Weight": "0.2898",
+          "Age at Euthanasia": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "M40QUL2_Trial6_1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "Wild Type",
+          "Genotype": "C57BL/6J",
+          "Material Type": "Quadriceps femoris",
+          "Animal Source": "Jackson Laboratory",
+          "sex": "Female",
+          "duration": "37",
+          "Age at Launch": "16"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Euthanasia Method": "Euthasol",
+          "Carcass Weight": "20.75",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Tissue Weight": "0.2614",
+          "Age at Euthanasia": "22"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "M40QUL2_Trial6_2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "Wild Type",
+          "Genotype": "C57BL/6J",
+          "Material Type": "Quadriceps femoris",
+          "Animal Source": "Jackson Laboratory",
+          "sex": "Female",
+          "duration": "37",
+          "Age at Launch": "16"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Euthanasia Method": "Euthasol",
+          "Carcass Weight": "20.75",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Tissue Weight": "0.2614",
+          "Age at Euthanasia": "22"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "M40QUL2_Trial6_3",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "Wild Type",
+          "Genotype": "C57BL/6J",
+          "Material Type": "Quadriceps femoris",
+          "Animal Source": "Jackson Laboratory",
+          "sex": "Female",
+          "duration": "37",
+          "Age at Launch": "16"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Euthanasia Method": "Euthasol",
+          "Carcass Weight": "20.75",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Tissue Weight": "0.2614",
+          "Age at Euthanasia": "22"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "M40QUL2_Trial6_4",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "Wild Type",
+          "Genotype": "C57BL/6J",
+          "Material Type": "Quadriceps femoris",
+          "Animal Source": "Jackson Laboratory",
+          "sex": "Female",
+          "duration": "37",
+          "Age at Launch": "16"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Euthanasia Method": "Euthasol",
+          "Carcass Weight": "20.75",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Tissue Weight": "0.2614",
+          "Age at Euthanasia": "22"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "M40QUL2_Trial6_5",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "Wild Type",
+          "Genotype": "C57BL/6J",
+          "Material Type": "Quadriceps femoris",
+          "Animal Source": "Jackson Laboratory",
+          "sex": "Female",
+          "duration": "37",
+          "Age at Launch": "16"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Euthanasia Method": "Euthasol",
+          "Carcass Weight": "20.75",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Tissue Weight": "0.2614",
+          "Age at Euthanasia": "22"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "M24QUL2_Trial5_1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "Wild Type",
+          "Genotype": "C57BL/6J",
+          "Material Type": "Quadriceps femoris",
+          "Animal Source": "Jackson Laboratory",
+          "sex": "Female",
+          "duration": "37",
+          "Age at Launch": "16"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Euthanasia Method": "Euthasol",
+          "Carcass Weight": "20.75",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Tissue Weight": "0.2898",
+          "Age at Euthanasia": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "M24QUL2_Trial5_2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "Wild Type",
+          "Genotype": "C57BL/6J",
+          "Material Type": "Quadriceps femoris",
+          "Animal Source": "Jackson Laboratory",
+          "sex": "Female",
+          "duration": "37",
+          "Age at Launch": "16"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Euthanasia Method": "Euthasol",
+          "Carcass Weight": "20.75",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Tissue Weight": "0.2898",
+          "Age at Euthanasia": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "M24QUL2_Trial5_3",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "Wild Type",
+          "Genotype": "C57BL/6J",
+          "Material Type": "Quadriceps femoris",
+          "Animal Source": "Jackson Laboratory",
+          "sex": "Female",
+          "duration": "37",
+          "Age at Launch": "16"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Euthanasia Method": "Euthasol",
+          "Carcass Weight": "20.75",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Tissue Weight": "0.2898",
+          "Age at Euthanasia": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "M24QUL2_Trial5_4",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "Wild Type",
+          "Genotype": "C57BL/6J",
+          "Material Type": "Quadriceps femoris",
+          "Animal Source": "Jackson Laboratory",
+          "sex": "Female",
+          "duration": "37",
+          "Age at Launch": "16"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Euthanasia Method": "Euthasol",
+          "Carcass Weight": "20.75",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Tissue Weight": "0.2898",
+          "Age at Euthanasia": "21"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "M24QUL2_Trial5_5",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "Wild Type",
+          "Genotype": "C57BL/6J",
+          "Material Type": "Quadriceps femoris",
+          "Animal Source": "Jackson Laboratory",
+          "sex": "Female",
+          "duration": "37",
+          "Age at Launch": "16"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Euthanasia Method": "Euthasol",
+          "Carcass Weight": "20.75",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Tissue Weight": "0.2898",
+          "Age at Euthanasia": "21"
+        },
+        "comments": {}
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "microscopy",
+      "platform": "JPK NanoWizard 4a NanoScience Atomic Force Microscope (Bruker)",
+      "qc": {},
+      "library": {},
+      "files": {
+        "raw": [],
+        "processed": [
+          "M30QUL2_Trial1_1",
+          "ALSDA Transformed Data",
+          "Nanowizard 4a",
+          "BIOAC-CB1 (Uniqprobe)",
+          "Tip",
+          "Silicon Nitride",
+          "Paraboloid",
+          "0.3",
+          "pixels",
+          "10",
+          "40",
+          "Quantitative Imaging Mode",
+          "~23-27",
+          "2",
+          "1.4",
+          "Compression",
+          "Monotonic",
+          "1.5 - 2.0",
+          "0",
+          "400",
+          "1",
+          "0.0024",
+          "150",
+          "100",
+          "Atomic Force Microscopy",
+          "Collagen",
+          "Glass",
+          "Self-Adherence",
+          "Aqueous",
+          "38",
+          "Center",
+          "JPK DP Software + Gwyddion",
+          "~10",
+          "000 Force Curves",
+          "6-Apr",
+          "1x1",
+          "RR1_qi_M30QUL2_SF1BIOAC_1",
+          "512x512",
+          "LSDS-99_Atomic_Force_Microscopy_Trial_I.zip",
+          "LSDS-99_Atomic_Force_Microscopy_Trial_I_Processed.zip",
+          "LSDS-99_Atomic_Force_Microscopy_Master Data Sheet.xlsx",
+          "LSDS-99_Atomic_Force_Microscopy_Master_Data_Sheet_Combined_Data_TRANSFORMED.csv",
+          "M30QUL2_Trial1_2",
+          "RR1_qi_M30QUL2_SF1BIOAC_2",
+          "M30QUL2_Trial1_3",
+          "RR1_qi_M30QUL2_SF1BIOAC_3",
+          "M30QUL1_Trial2_1",
+          "RR1_qi_M30QUL1_SF2BIOAC_1",
+          "LSDS-99_Atomic_Force_Microscopy_Trial_II.zip",
+          "LSDS-99_Atomic_Force_Microscopy_Trial_II_Processed.zip",
+          "M30QUL1_Trial2_2",
+          "RR1_qi_M30QUL1_SF2BIOAC_2",
+          "M30QUL1_Trial2_3",
+          "RR1_qi_M30QUL1_SF2BIOAC_3",
+          "M30QUL1_Trial2_4",
+          "RR1_qi_M30QUL1_SF2BIOAC_4",
+          "M30QUL1_Trial2_5",
+          "RR1_qi_M30QUL1_SF2BIOAC_5",
+          "M39QUL1_Trial2_1",
+          "RR1_qi_M39QUL1_GC2BIOAC_1",
+          "M39QUL1_Trial2_2",
+          "RR1_qi_M39QUL1_GC2BIOAC_2",
+          "M39QUL1_Trial2_3",
+          "RR1_qi_M39QUL1_GC2BIOAC_3",
+          "M39QUL1_Trial2_4",
+          "RR1_qi_M39QUL1_GC2BIOAC_4",
+          "M39QUL1_Trial2_5",
+          "RR1_qi_M39QUL1_GC2BIOAC_5",
+          "M29QUL2_Trial3_1",
+          "RR1_qi_M29QUL2_SF3BIOAC_1",
+          "LSDS-99_Atomic_Force_Microscopy_Trial_III.zip",
+          "LSDS-99_Atomic_Force_Microscopy_Trial_III_Processed.zip",
+          "M29QUL2_Trial3_2",
+          "RR1_qi_M29QUL2_SF3BIOAC_2",
+          "M29QUL2_Trial3_3",
+          "RR1_qi_M29QUL2_SF3BIOAC_3",
+          "M29QUL2_Trial3_4",
+          "RR1_qi_M29QUL2_SF3BIOAC_4",
+          "M29QUL2_Trial3_5",
+          "RR1_qi_M29QUL2_SF3BIOAC_5",
+          "M34QUL2_Trial3_1",
+          "RR1_qi_M34QUL2_GC3BIOAC_1",
+          "M34QUL2_Trial3_2",
+          "RR1_qi_M34QUL2_GC3BIOAC_2",
+          "M34QUL2_Trial3_3",
+          "RR1_qi_M34QUL2_GC3BIOAC_3",
+          "M34QUL2_Trial3_4",
+          "RR1_qi_M34QUL2_GC3BIOAC_4",
+          "M34QUL2_Trial3_5",
+          "RR1_qi_M34QUL2_GC3BIOAC_5",
+          "M25QUL2_Trial6_1",
+          "RR1_qi_M25QUL2_SF6BIOAC_1",
+          "LSDS-99_Atomic_Force_Microscopy_Trial_VI.zip",
+          "LSDS-99_Atomic_Force_Microscopy_Trial_VI_Processed.zip",
+          "M25QUL2_Trial6_2",
+          "RR1_qi_M25QUL2_SF6BIOAC_2",
+          "M25QUL2_Trial6_3",
+          "RR1_qi_M25QUL2_SF6BIOAC_3",
+          "M25QUL2_Trial6_4",
+          "RR1_qi_M25QUL2_SF6BIOAC_4",
+          "M25QUL2_Trial6_5",
+          "RR1_qi_M25QUL2_SF6BIOAC_5",
+          "M40QUL2_Trial6_1",
+          "RR1_qi_M40QUL2_GC6BIOAC_1",
+          "M40QUL2_Trial6_2",
+          "RR1_qi_M40QUL2_GC6BIOAC_2",
+          "M40QUL2_Trial6_3",
+          "RR1_qi_M40QUL2_GC6BIOAC_3",
+          "M40QUL2_Trial6_4",
+          "RR1_qi_M40QUL2_GC6BIOAC_4",
+          "M40QUL2_Trial6_5",
+          "RR1_qi_M40QUL2_GC6BIOAC_5",
+          "M24QUL2_Trial5_1",
+          "RR1_qi_M24QUL2_SF5BIOAC_1",
+          "LSDS-99_Atomic_Force_Microscopy_Trial_V.zip",
+          "LSDS-99_Atomic_Force_Microscopy_Trial_V_Processed.zip",
+          "M24QUL2_Trial5_2",
+          "RR1_qi_M24QUL2_SF5BIOAC_2",
+          "M24QUL2_Trial5_3",
+          "RR1_qi_M24QUL2_SF5BIOAC_3",
+          "M24QUL2_Trial5_4",
+          "RR1_qi_M24QUL2_SF5BIOAC_4",
+          "M24QUL2_Trial5_5",
+          "RR1_qi_M24QUL2_SF5BIOAC_5"
+        ],
+        "reports": []
+      }
+    }
+  ]
+}

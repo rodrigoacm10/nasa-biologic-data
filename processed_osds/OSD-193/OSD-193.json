@@ -1,0 +1,1447 @@
+{
+  "investigation": {
+    "id": "OSD-193",
+    "title": "During development, the Sku6 mutant roots engage different genes than wild type Col-0 roots, either on the ground or in spaceflight.",
+    "description": "The wild type Col-0 plants and the Sku-6 mutant plants of the Col-0 background were germinated on ISS or on the ground and the gene expression profiles in roots at 4 days or 8 days were established. The Sku6 gene (At2g03680) codes for a protein that localizes to microtubule within the cortical array and putatively acting as an intramolecular linker.",
+    "mission": {
+      "name": "SpaceX-5",
+      "start_date": "01/10/2015",
+      "end_date": "02/11/2015",
+      "link": "https://osdr.nasa.gov/bio/repo/data/missions/SpaceX-5"
+    },
+    "project": {
+      "identifier": "APEX03-2",
+      "title": "Molecular Biology of Growth and Cell Remodeling within the Spaceflight Environment (NNX12AN69G)",
+      "type": "Spaceflight Study",
+      "link": "https://lsda.jsc.nasa.gov/Experiment/exper/13840",
+      "funding": "2011 Space Biology NNH11ZTT002N",
+      "managing_center": "Kennedy Space Center (KSC)"
+    },
+    "protocols": [
+      "growth protocol",
+      "sample collection",
+      "nucleic acid extraction",
+      "library construction",
+      "nucleic acid sequencing",
+      "sequence analysis data transformation",
+      "GeneLab raw data processing protocol",
+      "GeneLab RNAseq data processing protocol"
+    ],
+    "publications": [
+      {
+        "title": "Root skewing-associated genes impact the spaceflight response of Arabidopsis thaliana",
+        "doi": "10.3389/fpls.2020.00239",
+        "authors": [
+          "Califar B",
+          "Sng NJ",
+          "Zupanska AK",
+          "Paul A-L",
+          "Ferl RJ"
+        ],
+        "summary": "Root skewing-associated genes impact the spaceflight response of Arabidopsis thaliana — 10.3389/fpls.2020.00239"
+      }
+    ],
+    "factors": [
+      "Time",
+      "Genotype",
+      "Spaceflight"
+    ],
+    "contacts": [
+      {
+        "first_name": "Robert",
+        "last_name": "Ferl",
+        "role": "principal investigator",
+        "email": "ferllabuf@gmail.com"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "GSM2516735",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "organism part": "Plant Roots",
+          "Seed Source": "Arabidopsis Biological Resource Center #CS70000"
+        },
+        "factors": {
+          "Genotype": "Col-0",
+          "Spaceflight": "Ground Control",
+          "Time": "4"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Light Intensity": "100-135",
+          "Growth Time": "4",
+          "light source": "Light Emitting Diode Device",
+          "growth environment": "International Space Station Environmental Simulator (ISSES)",
+          "Growth Medium": "0.5% Phytagel/0.5× Murashige and Skoog media",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM2516736",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "organism part": "Plant Roots",
+          "Seed Source": "Arabidopsis Biological Resource Center #CS70000"
+        },
+        "factors": {
+          "Genotype": "Col-0",
+          "Spaceflight": "Ground Control",
+          "Time": "4"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Light Intensity": "100-135",
+          "Growth Time": "4",
+          "light source": "Light Emitting Diode Device",
+          "growth environment": "International Space Station Environmental Simulator (ISSES)",
+          "Growth Medium": "0.5% Phytagel/0.5× Murashige and Skoog media",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM2516737",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "organism part": "Plant Roots",
+          "Seed Source": "Arabidopsis Biological Resource Center #CS70000"
+        },
+        "factors": {
+          "Genotype": "Col-0",
+          "Spaceflight": "Ground Control",
+          "Time": "4"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Light Intensity": "100-135",
+          "Growth Time": "4",
+          "light source": "Light Emitting Diode Device",
+          "growth environment": "International Space Station Environmental Simulator (ISSES)",
+          "Growth Medium": "0.5% Phytagel/0.5× Murashige and Skoog media",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM2516738",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "organism part": "Plant Roots",
+          "Seed Source": "Arabidopsis Biological Resource Center #CS70000"
+        },
+        "factors": {
+          "Genotype": "Col-0",
+          "Spaceflight": "Ground Control",
+          "Time": "4"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Light Intensity": "100-135",
+          "Growth Time": "4",
+          "light source": "Light Emitting Diode Device",
+          "growth environment": "International Space Station Environmental Simulator (ISSES)",
+          "Growth Medium": "0.5% Phytagel/0.5× Murashige and Skoog media",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM2516739",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "organism part": "Plant Roots",
+          "Seed Source": "Arabidopsis Biological Resource Center #CS70000"
+        },
+        "factors": {
+          "Genotype": "Col-0",
+          "Spaceflight": "Space Flight",
+          "Time": "4"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Light Intensity": "100-135",
+          "Growth Time": "4",
+          "light source": "Light Emitting Diode Device",
+          "growth environment": "ISS-Columbus",
+          "Growth Medium": "0.5% Phytagel/0.5× Murashige and Skoog media",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM2516740",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "organism part": "Plant Roots",
+          "Seed Source": "Arabidopsis Biological Resource Center #CS70000"
+        },
+        "factors": {
+          "Genotype": "Col-0",
+          "Spaceflight": "Space Flight",
+          "Time": "4"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Light Intensity": "100-135",
+          "Growth Time": "4",
+          "light source": "Light Emitting Diode Device",
+          "growth environment": "ISS-Columbus",
+          "Growth Medium": "0.5% Phytagel/0.5× Murashige and Skoog media",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM2516741",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "organism part": "Plant Roots",
+          "Seed Source": "Arabidopsis Biological Resource Center #CS70000"
+        },
+        "factors": {
+          "Genotype": "Col-0",
+          "Spaceflight": "Space Flight",
+          "Time": "4"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Light Intensity": "100-135",
+          "Growth Time": "4",
+          "light source": "Light Emitting Diode Device",
+          "growth environment": "ISS-Columbus",
+          "Growth Medium": "0.5% Phytagel/0.5× Murashige and Skoog media",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM2516742",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "organism part": "Plant Roots",
+          "Seed Source": "Arabidopsis Biological Resource Center #CS70000"
+        },
+        "factors": {
+          "Genotype": "Col-0",
+          "Spaceflight": "Space Flight",
+          "Time": "4"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Light Intensity": "100-135",
+          "Growth Time": "4",
+          "light source": "Light Emitting Diode Device",
+          "growth environment": "ISS-Columbus",
+          "Growth Medium": "0.5% Phytagel/0.5× Murashige and Skoog media",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM2516743",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "organism part": "Plant Roots",
+          "Seed Source": "Arabidopsis Biological Resource Center #CS16268"
+        },
+        "factors": {
+          "Genotype": "Sku6",
+          "Spaceflight": "Ground Control",
+          "Time": "4"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Light Intensity": "100-135",
+          "Growth Time": "4",
+          "light source": "Light Emitting Diode Device",
+          "growth environment": "ISS-Columbus",
+          "Growth Medium": "0.5% Phytagel/0.5× Murashige and Skoog media",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM2516744",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "organism part": "Plant Roots",
+          "Seed Source": ""
+        },
+        "factors": {
+          "Genotype": "Sku6",
+          "Spaceflight": "Ground Control",
+          "Time": "4"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Light Intensity": "100-135",
+          "Growth Time": "4",
+          "light source": "Light Emitting Diode Device",
+          "growth environment": "ISS-Columbus",
+          "Growth Medium": "0.5% Phytagel/0.5× Murashige and Skoog media",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM2516745",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "organism part": "Plant Roots",
+          "Seed Source": ""
+        },
+        "factors": {
+          "Genotype": "Sku6",
+          "Spaceflight": "Ground Control",
+          "Time": "4"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Light Intensity": "100-135",
+          "Growth Time": "4",
+          "light source": "Light Emitting Diode Device",
+          "growth environment": "ISS-Columbus",
+          "Growth Medium": "0.5% Phytagel/0.5× Murashige and Skoog media",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM2516746",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "organism part": "Plant Roots",
+          "Seed Source": ""
+        },
+        "factors": {
+          "Genotype": "Sku6",
+          "Spaceflight": "Ground Control",
+          "Time": "4"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Light Intensity": "100-135",
+          "Growth Time": "4",
+          "light source": "Light Emitting Diode Device",
+          "growth environment": "ISS-Columbus",
+          "Growth Medium": "0.5% Phytagel/0.5× Murashige and Skoog media",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM2516747",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "organism part": "Plant Roots",
+          "Seed Source": ""
+        },
+        "factors": {
+          "Genotype": "Sku6",
+          "Spaceflight": "Space Flight",
+          "Time": "4"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Light Intensity": "100-135",
+          "Growth Time": "4",
+          "light source": "Light Emitting Diode Device",
+          "growth environment": "ISS-Columbus",
+          "Growth Medium": "0.5% Phytagel/0.5× Murashige and Skoog media",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM2516748",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "organism part": "Plant Roots",
+          "Seed Source": ""
+        },
+        "factors": {
+          "Genotype": "Sku6",
+          "Spaceflight": "Space Flight",
+          "Time": "4"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Light Intensity": "100-135",
+          "Growth Time": "4",
+          "light source": "Light Emitting Diode Device",
+          "growth environment": "ISS-Columbus",
+          "Growth Medium": "0.5% Phytagel/0.5× Murashige and Skoog media",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM2516749",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "organism part": "Plant Roots",
+          "Seed Source": ""
+        },
+        "factors": {
+          "Genotype": "Sku6",
+          "Spaceflight": "Space Flight",
+          "Time": "4"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Light Intensity": "100-135",
+          "Growth Time": "4",
+          "light source": "Light Emitting Diode Device",
+          "growth environment": "ISS-Columbus",
+          "Growth Medium": "0.5% Phytagel/0.5× Murashige and Skoog media",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM2516750",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "organism part": "Plant Roots",
+          "Seed Source": ""
+        },
+        "factors": {
+          "Genotype": "Sku6",
+          "Spaceflight": "Space Flight",
+          "Time": "4"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Light Intensity": "100-135",
+          "Growth Time": "4",
+          "light source": "Light Emitting Diode Device",
+          "growth environment": "ISS-Columbus",
+          "Growth Medium": "0.5% Phytagel/0.5× Murashige and Skoog media",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM2516751",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "organism part": "Plant Roots",
+          "Seed Source": "Arabidopsis Biological Resource Center #CS70000"
+        },
+        "factors": {
+          "Genotype": "Col-0",
+          "Spaceflight": "Ground Control",
+          "Time": "8"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Light Intensity": "100-135",
+          "Growth Time": "8",
+          "light source": "Light Emitting Diode Device",
+          "growth environment": "ISS-Columbus",
+          "Growth Medium": "0.5% Phytagel/0.5× Murashige and Skoog media",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM2516752",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "organism part": "Plant Roots",
+          "Seed Source": "Arabidopsis Biological Resource Center #CS70000"
+        },
+        "factors": {
+          "Genotype": "Col-0",
+          "Spaceflight": "Ground Control",
+          "Time": "8"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Light Intensity": "100-135",
+          "Growth Time": "8",
+          "light source": "Light Emitting Diode Device",
+          "growth environment": "ISS-Columbus",
+          "Growth Medium": "0.5% Phytagel/0.5× Murashige and Skoog media",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM2516753",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "organism part": "Plant Roots",
+          "Seed Source": "Arabidopsis Biological Resource Center #CS70000"
+        },
+        "factors": {
+          "Genotype": "Col-0",
+          "Spaceflight": "Ground Control",
+          "Time": "8"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Light Intensity": "100-135",
+          "Growth Time": "8",
+          "light source": "Light Emitting Diode Device",
+          "growth environment": "ISS-Columbus",
+          "Growth Medium": "0.5% Phytagel/0.5× Murashige and Skoog media",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM2516754",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "organism part": "Plant Roots",
+          "Seed Source": "Arabidopsis Biological Resource Center #CS70000"
+        },
+        "factors": {
+          "Genotype": "Col-0",
+          "Spaceflight": "Ground Control",
+          "Time": "8"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Light Intensity": "100-135",
+          "Growth Time": "8",
+          "light source": "Light Emitting Diode Device",
+          "growth environment": "ISS-Columbus",
+          "Growth Medium": "0.5% Phytagel/0.5× Murashige and Skoog media",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM2516755",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "organism part": "Plant Roots",
+          "Seed Source": "Arabidopsis Biological Resource Center #CS70000"
+        },
+        "factors": {
+          "Genotype": "Col-0",
+          "Spaceflight": "Space Flight",
+          "Time": "8"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Light Intensity": "100-135",
+          "Growth Time": "8",
+          "light source": "Light Emitting Diode Device",
+          "growth environment": "ISS-Columbus",
+          "Growth Medium": "0.5% Phytagel/0.5× Murashige and Skoog media",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM2516756",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "organism part": "Plant Roots",
+          "Seed Source": "Arabidopsis Biological Resource Center #CS70000"
+        },
+        "factors": {
+          "Genotype": "Col-0",
+          "Spaceflight": "Space Flight",
+          "Time": "8"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Light Intensity": "100-135",
+          "Growth Time": "8",
+          "light source": "Light Emitting Diode Device",
+          "growth environment": "ISS-Columbus",
+          "Growth Medium": "0.5% Phytagel/0.5× Murashige and Skoog media",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM2516757",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "organism part": "Plant Roots",
+          "Seed Source": "Arabidopsis Biological Resource Center #CS70000"
+        },
+        "factors": {
+          "Genotype": "Col-0",
+          "Spaceflight": "Space Flight",
+          "Time": "8"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Light Intensity": "100-135",
+          "Growth Time": "8",
+          "light source": "Light Emitting Diode Device",
+          "growth environment": "ISS-Columbus",
+          "Growth Medium": "0.5% Phytagel/0.5× Murashige and Skoog media",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM2516758",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "organism part": "Plant Roots",
+          "Seed Source": "Arabidopsis Biological Resource Center #CS70000"
+        },
+        "factors": {
+          "Genotype": "Col-0",
+          "Spaceflight": "Space Flight",
+          "Time": "8"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Light Intensity": "100-135",
+          "Growth Time": "8",
+          "light source": "Light Emitting Diode Device",
+          "growth environment": "ISS-Columbus",
+          "Growth Medium": "0.5% Phytagel/0.5× Murashige and Skoog media",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM2516759",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "organism part": "Plant Roots",
+          "Seed Source": ""
+        },
+        "factors": {
+          "Genotype": "Sku6",
+          "Spaceflight": "Ground Control",
+          "Time": "8"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Light Intensity": "100-135",
+          "Growth Time": "8",
+          "light source": "Light Emitting Diode Device",
+          "growth environment": "International Space Station Environmental Simulator (ISSES)",
+          "Growth Medium": "0.5% Phytagel/0.5× Murashige and Skoog media",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM2516760",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "organism part": "Plant Roots",
+          "Seed Source": ""
+        },
+        "factors": {
+          "Genotype": "Sku6",
+          "Spaceflight": "Ground Control",
+          "Time": "8"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Light Intensity": "100-135",
+          "Growth Time": "8",
+          "light source": "Light Emitting Diode Device",
+          "growth environment": "International Space Station Environmental Simulator (ISSES)",
+          "Growth Medium": "0.5% Phytagel/0.5× Murashige and Skoog media",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM2516761",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "organism part": "Plant Roots",
+          "Seed Source": ""
+        },
+        "factors": {
+          "Genotype": "Sku6",
+          "Spaceflight": "Ground Control",
+          "Time": "8"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Light Intensity": "100-135",
+          "Growth Time": "8",
+          "light source": "Light Emitting Diode Device",
+          "growth environment": "International Space Station Environmental Simulator (ISSES)",
+          "Growth Medium": "0.5% Phytagel/0.5× Murashige and Skoog media",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM2516762",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "organism part": "Plant Roots",
+          "Seed Source": ""
+        },
+        "factors": {
+          "Genotype": "Sku6",
+          "Spaceflight": "Ground Control",
+          "Time": "8"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Light Intensity": "100-135",
+          "Growth Time": "8",
+          "light source": "Light Emitting Diode Device",
+          "growth environment": "International Space Station Environmental Simulator (ISSES)",
+          "Growth Medium": "0.5% Phytagel/0.5× Murashige and Skoog media",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM2516763",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "organism part": "Plant Roots",
+          "Seed Source": ""
+        },
+        "factors": {
+          "Genotype": "Sku6",
+          "Spaceflight": "Space Flight",
+          "Time": "8"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Light Intensity": "100-135",
+          "Growth Time": "8",
+          "light source": "Light Emitting Diode Device",
+          "growth environment": "ISS-Columbus",
+          "Growth Medium": "0.5% Phytagel/0.5× Murashige and Skoog media",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM2516764",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "organism part": "Plant Roots",
+          "Seed Source": ""
+        },
+        "factors": {
+          "Genotype": "Sku6",
+          "Spaceflight": "Space Flight",
+          "Time": "8"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Light Intensity": "100-135",
+          "Growth Time": "8",
+          "light source": "Light Emitting Diode Device",
+          "growth environment": "ISS-Columbus",
+          "Growth Medium": "0.5% Phytagel/0.5× Murashige and Skoog media",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM2516765",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "organism part": "Plant Roots",
+          "Seed Source": ""
+        },
+        "factors": {
+          "Genotype": "Sku6",
+          "Spaceflight": "Space Flight",
+          "Time": "8"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Light Intensity": "100-135",
+          "Growth Time": "8",
+          "light source": "Light Emitting Diode Device",
+          "growth environment": "ISS-Columbus",
+          "Growth Medium": "0.5% Phytagel/0.5× Murashige and Skoog media",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM2516766",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "organism part": "Plant Roots",
+          "Seed Source": ""
+        },
+        "factors": {
+          "Genotype": "Sku6",
+          "Spaceflight": "Space Flight",
+          "Time": "8"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Light Intensity": "100-135",
+          "Growth Time": "8",
+          "light source": "Light Emitting Diode Device",
+          "growth environment": "ISS-Columbus",
+          "Growth Medium": "0.5% Phytagel/0.5× Murashige and Skoog media",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina NextSeq500",
+      "qc": {
+        "QA Instrument": "Agilent 2100 Bioanalyzer",
+        "Read Depth": "23802924",
+        "rRNA Contamination": "3.35"
+      },
+      "library": {},
+      "files": {
+        "raw": [
+          "GLDS-193_rna-seq_SAMN06470115.tar.gz",
+          "GLDS-193_rna-seq_SAMN06470113.tar.gz",
+          "GLDS-193_rna-seq_SAMN06470111.tar.gz",
+          "GLDS-193_rna-seq_SAMN06470110.tar.gz",
+          "GLDS-193_rna-seq_SAMN06470108.tar.gz",
+          "GLDS-193_rna-seq_SAMN06470106.tar.gz",
+          "GLDS-193_rna-seq_SAMN06470105.tar.gz",
+          "GLDS-193_rna-seq_SAMN06470103.tar.gz",
+          "GLDS-193_rna-seq_SAMN06470101.tar.gz",
+          "GLDS-193_rna-seq_SAMN06470099.tar.gz",
+          "GLDS-193_rna-seq_SAMN06470097.tar.gz",
+          "GLDS-193_rna-seq_SAMN06470094.tar.gz",
+          "GLDS-193_rna-seq_SAMN06470093.tar.gz",
+          "GLDS-193_rna-seq_SAMN06470091.tar.gz",
+          "GLDS-193_rna-seq_SAMN06470089.tar.gz",
+          "GLDS-193_rna-seq_SAMN06470087.tar.gz",
+          "GLDS-193_rna-seq_SAMN06470085.tar.gz",
+          "GLDS-193_rna-seq_SAMN06470083.tar.gz",
+          "GLDS-193_rna-seq_SAMN06470081.tar.gz",
+          "GLDS-193_rna-seq_SAMN06470079.tar.gz",
+          "GLDS-193_rna-seq_SAMN06470077.tar.gz",
+          "GLDS-193_rna-seq_SAMN06470075.tar.gz",
+          "GLDS-193_rna-seq_SAMN06470071.tar.gz",
+          "GLDS-193_rna-seq_SAMN06470069.tar.gz",
+          "GLDS-193_rna-seq_SAMN06470067.tar.gz",
+          "GLDS-193_rna-seq_SAMN06470065.tar.gz",
+          "GLDS-193_rna-seq_SAMN06470063.tar.gz",
+          "GLDS-193_rna-seq_SAMN06468086.tar.gz",
+          "GLDS-193_rna-seq_SAMN06470073.tar.gz",
+          "GLDS-193_rna-seq_SAMN06470170.tar.gz",
+          "GLDS-193_rna-seq_SAMN06470168.tar.gz",
+          "GLDS-193_rna-seq_SAMN06470166.tar.gz",
+          "GLDS-193_rna_seq_GSM2516735_R1_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516735_R2_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516735_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516735_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516736_R1_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516736_R2_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516736_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516736_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516737_R1_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516737_R2_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516737_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516737_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516738_R1_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516738_R2_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516738_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516738_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516739_R1_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516739_R2_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516739_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516739_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516740_R1_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516740_R2_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516740_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516740_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516741_R1_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516741_R2_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516741_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516741_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516742_R1_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516742_R2_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516742_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516742_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516743_R1_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516743_R2_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516743_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516743_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516744_R1_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516744_R2_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516744_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516744_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516745_R1_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516745_R2_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516745_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516745_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516746_R1_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516746_R2_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516746_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516746_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516747_R1_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516747_R2_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516747_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516747_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516748_R1_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516748_R2_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516748_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516748_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516749_R1_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516749_R2_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516749_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516749_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516750_R1_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516750_R2_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516750_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516750_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516751_R1_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516751_R2_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516751_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516751_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516752_R1_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516752_R2_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516752_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516752_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516753_R1_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516753_R2_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516753_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516753_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516754_R1_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516754_R2_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516754_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516754_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516755_R1_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516755_R2_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516755_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516755_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516756_R1_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516756_R2_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516756_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516756_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516757_R1_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516757_R2_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516757_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516757_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516758_R1_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516758_R2_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516758_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516758_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516759_R1_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516759_R2_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516759_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516759_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516760_R1_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516760_R2_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516760_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516760_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516761_R1_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516761_R2_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516761_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516761_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516762_R1_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516762_R2_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516762_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516762_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516763_R1_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516763_R2_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516763_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516763_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516764_R1_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516764_R2_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516764_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516764_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516765_R1_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516765_R2_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516765_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516765_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516766_R1_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516766_R2_raw.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516766_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516766_R2_trimmed.fastq.gz"
+        ],
+        "processed": [
+          "GLDS-193_rna-seq_GSE95582_ProcessedData.zip",
+          "GLDS-193_rna_seq_GSM2516735_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516735_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516735_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-193_rna_seq_GSM2516735_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-193_rna_seq_GSM2516735_Aligned.toTranscriptome.out.bam",
+          "GLDS-193_rna_seq_GSM2516735_SJ.out.tab",
+          "GLDS-193_rna_seq_GSM2516736_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516736_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516736_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-193_rna_seq_GSM2516736_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-193_rna_seq_GSM2516736_Aligned.toTranscriptome.out.bam",
+          "GLDS-193_rna_seq_GSM2516736_SJ.out.tab",
+          "GLDS-193_rna_seq_GSM2516737_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516737_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516737_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-193_rna_seq_GSM2516737_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-193_rna_seq_GSM2516737_Aligned.toTranscriptome.out.bam",
+          "GLDS-193_rna_seq_GSM2516737_SJ.out.tab",
+          "GLDS-193_rna_seq_GSM2516738_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516738_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516738_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-193_rna_seq_GSM2516738_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-193_rna_seq_GSM2516738_Aligned.toTranscriptome.out.bam",
+          "GLDS-193_rna_seq_GSM2516738_SJ.out.tab",
+          "GLDS-193_rna_seq_GSM2516739_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516739_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516739_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-193_rna_seq_GSM2516739_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-193_rna_seq_GSM2516739_Aligned.toTranscriptome.out.bam",
+          "GLDS-193_rna_seq_GSM2516739_SJ.out.tab",
+          "GLDS-193_rna_seq_GSM2516740_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516740_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516740_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-193_rna_seq_GSM2516740_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-193_rna_seq_GSM2516740_Aligned.toTranscriptome.out.bam",
+          "GLDS-193_rna_seq_GSM2516740_SJ.out.tab",
+          "GLDS-193_rna_seq_GSM2516741_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516741_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516741_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-193_rna_seq_GSM2516741_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-193_rna_seq_GSM2516741_Aligned.toTranscriptome.out.bam",
+          "GLDS-193_rna_seq_GSM2516741_SJ.out.tab",
+          "GLDS-193_rna_seq_GSM2516742_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516742_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516742_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-193_rna_seq_GSM2516742_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-193_rna_seq_GSM2516742_Aligned.toTranscriptome.out.bam",
+          "GLDS-193_rna_seq_GSM2516742_SJ.out.tab",
+          "GLDS-193_rna_seq_GSM2516743_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516743_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516743_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-193_rna_seq_GSM2516743_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-193_rna_seq_GSM2516743_Aligned.toTranscriptome.out.bam",
+          "GLDS-193_rna_seq_GSM2516743_SJ.out.tab",
+          "GLDS-193_rna_seq_GSM2516744_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516744_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516744_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-193_rna_seq_GSM2516744_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-193_rna_seq_GSM2516744_Aligned.toTranscriptome.out.bam",
+          "GLDS-193_rna_seq_GSM2516744_SJ.out.tab",
+          "GLDS-193_rna_seq_GSM2516745_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516745_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516745_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-193_rna_seq_GSM2516745_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-193_rna_seq_GSM2516745_Aligned.toTranscriptome.out.bam",
+          "GLDS-193_rna_seq_GSM2516745_SJ.out.tab",
+          "GLDS-193_rna_seq_GSM2516746_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516746_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516746_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-193_rna_seq_GSM2516746_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-193_rna_seq_GSM2516746_Aligned.toTranscriptome.out.bam",
+          "GLDS-193_rna_seq_GSM2516746_SJ.out.tab",
+          "GLDS-193_rna_seq_GSM2516747_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516747_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516747_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-193_rna_seq_GSM2516747_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-193_rna_seq_GSM2516747_Aligned.toTranscriptome.out.bam",
+          "GLDS-193_rna_seq_GSM2516747_SJ.out.tab",
+          "GLDS-193_rna_seq_GSM2516748_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516748_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516748_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-193_rna_seq_GSM2516748_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-193_rna_seq_GSM2516748_Aligned.toTranscriptome.out.bam",
+          "GLDS-193_rna_seq_GSM2516748_SJ.out.tab",
+          "GLDS-193_rna_seq_GSM2516749_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516749_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516749_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-193_rna_seq_GSM2516749_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-193_rna_seq_GSM2516749_Aligned.toTranscriptome.out.bam",
+          "GLDS-193_rna_seq_GSM2516749_SJ.out.tab",
+          "GLDS-193_rna_seq_GSM2516750_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516750_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516750_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-193_rna_seq_GSM2516750_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-193_rna_seq_GSM2516750_Aligned.toTranscriptome.out.bam",
+          "GLDS-193_rna_seq_GSM2516750_SJ.out.tab",
+          "GLDS-193_rna_seq_GSM2516751_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516751_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516751_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-193_rna_seq_GSM2516751_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-193_rna_seq_GSM2516751_Aligned.toTranscriptome.out.bam",
+          "GLDS-193_rna_seq_GSM2516751_SJ.out.tab",
+          "GLDS-193_rna_seq_GSM2516752_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516752_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516752_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-193_rna_seq_GSM2516752_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-193_rna_seq_GSM2516752_Aligned.toTranscriptome.out.bam",
+          "GLDS-193_rna_seq_GSM2516752_SJ.out.tab",
+          "GLDS-193_rna_seq_GSM2516753_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516753_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516753_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-193_rna_seq_GSM2516753_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-193_rna_seq_GSM2516753_Aligned.toTranscriptome.out.bam",
+          "GLDS-193_rna_seq_GSM2516753_SJ.out.tab",
+          "GLDS-193_rna_seq_GSM2516754_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516754_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516754_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-193_rna_seq_GSM2516754_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-193_rna_seq_GSM2516754_Aligned.toTranscriptome.out.bam",
+          "GLDS-193_rna_seq_GSM2516754_SJ.out.tab",
+          "GLDS-193_rna_seq_GSM2516755_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516755_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516755_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-193_rna_seq_GSM2516755_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-193_rna_seq_GSM2516755_Aligned.toTranscriptome.out.bam",
+          "GLDS-193_rna_seq_GSM2516755_SJ.out.tab",
+          "GLDS-193_rna_seq_GSM2516756_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516756_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516756_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-193_rna_seq_GSM2516756_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-193_rna_seq_GSM2516756_Aligned.toTranscriptome.out.bam",
+          "GLDS-193_rna_seq_GSM2516756_SJ.out.tab",
+          "GLDS-193_rna_seq_GSM2516757_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516757_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516757_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-193_rna_seq_GSM2516757_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-193_rna_seq_GSM2516757_Aligned.toTranscriptome.out.bam",
+          "GLDS-193_rna_seq_GSM2516757_SJ.out.tab",
+          "GLDS-193_rna_seq_GSM2516758_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516758_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516758_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-193_rna_seq_GSM2516758_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-193_rna_seq_GSM2516758_Aligned.toTranscriptome.out.bam",
+          "GLDS-193_rna_seq_GSM2516758_SJ.out.tab",
+          "GLDS-193_rna_seq_GSM2516759_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516759_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516759_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-193_rna_seq_GSM2516759_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-193_rna_seq_GSM2516759_Aligned.toTranscriptome.out.bam",
+          "GLDS-193_rna_seq_GSM2516759_SJ.out.tab",
+          "GLDS-193_rna_seq_GSM2516760_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516760_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516760_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-193_rna_seq_GSM2516760_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-193_rna_seq_GSM2516760_Aligned.toTranscriptome.out.bam",
+          "GLDS-193_rna_seq_GSM2516760_SJ.out.tab",
+          "GLDS-193_rna_seq_GSM2516761_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516761_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516761_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-193_rna_seq_GSM2516761_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-193_rna_seq_GSM2516761_Aligned.toTranscriptome.out.bam",
+          "GLDS-193_rna_seq_GSM2516761_SJ.out.tab",
+          "GLDS-193_rna_seq_GSM2516762_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516762_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516762_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-193_rna_seq_GSM2516762_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-193_rna_seq_GSM2516762_Aligned.toTranscriptome.out.bam",
+          "GLDS-193_rna_seq_GSM2516762_SJ.out.tab",
+          "GLDS-193_rna_seq_GSM2516763_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516763_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516763_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-193_rna_seq_GSM2516763_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-193_rna_seq_GSM2516763_Aligned.toTranscriptome.out.bam",
+          "GLDS-193_rna_seq_GSM2516763_SJ.out.tab",
+          "GLDS-193_rna_seq_GSM2516764_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516764_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516764_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-193_rna_seq_GSM2516764_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-193_rna_seq_GSM2516764_Aligned.toTranscriptome.out.bam",
+          "GLDS-193_rna_seq_GSM2516764_SJ.out.tab",
+          "GLDS-193_rna_seq_GSM2516765_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516765_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516765_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-193_rna_seq_GSM2516765_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-193_rna_seq_GSM2516765_Aligned.toTranscriptome.out.bam",
+          "GLDS-193_rna_seq_GSM2516765_SJ.out.tab",
+          "GLDS-193_rna_seq_GSM2516766_R1_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516766_R2_trimmed.fastq.gz",
+          "GLDS-193_rna_seq_GSM2516766_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-193_rna_seq_GSM2516766_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-193_rna_seq_GSM2516766_Aligned.toTranscriptome.out.bam",
+          "GLDS-193_rna_seq_GSM2516766_SJ.out.tab",
+          "GSM2516735",
+          "GeneLab RNAseq data processing protocol",
+          "Agilent 2100 Bioanalyzer",
+          "PAIRED",
+          "ribo-depletion",
+          "Illumina NextSeq500",
+          "75",
+          "percent",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000187",
+          "RNA-seq",
+          "23802924",
+          "3.35",
+          "GLDS-193_rna_seq_GSM2516735.genes.results",
+          "GLDS-193_rna_seq_GSM2516735.isoforms.results",
+          "GLDS-193_rna_seq_RSEM_Unnormalized_Counts.csv",
+          "GLDS-193_rna_seq_STAR_Unnormalized_Counts.csv",
+          "GLDS-193_rna_seq_Normalized_Counts.csv",
+          "GLDS-193_rna_seq_SampleTable.csv",
+          "GLDS-193_rna_seq_contrasts.csv",
+          "GLDS-193_rna_seq_differential_expression.csv",
+          "GSM2516736",
+          "25125119",
+          "2.08",
+          "GLDS-193_rna_seq_GSM2516736.genes.results",
+          "GLDS-193_rna_seq_GSM2516736.isoforms.results",
+          "GSM2516737",
+          "28420510",
+          "4.91",
+          "GLDS-193_rna_seq_GSM2516737.genes.results",
+          "GLDS-193_rna_seq_GSM2516737.isoforms.results",
+          "GSM2516738",
+          "25805310",
+          "3.36",
+          "GLDS-193_rna_seq_GSM2516738.genes.results",
+          "GLDS-193_rna_seq_GSM2516738.isoforms.results",
+          "GSM2516739",
+          "21311787",
+          "4.16",
+          "GLDS-193_rna_seq_GSM2516739.genes.results",
+          "GLDS-193_rna_seq_GSM2516739.isoforms.results",
+          "GSM2516740",
+          "28598356",
+          "3.26",
+          "GLDS-193_rna_seq_GSM2516740.genes.results",
+          "GLDS-193_rna_seq_GSM2516740.isoforms.results",
+          "GSM2516741",
+          "21747992",
+          "5.43",
+          "GLDS-193_rna_seq_GSM2516741.genes.results",
+          "GLDS-193_rna_seq_GSM2516741.isoforms.results",
+          "GSM2516742",
+          "21190865",
+          "4.41",
+          "GLDS-193_rna_seq_GSM2516742.genes.results",
+          "GLDS-193_rna_seq_GSM2516742.isoforms.results",
+          "GSM2516743",
+          "25906233",
+          "3.07",
+          "GLDS-193_rna_seq_GSM2516743.genes.results",
+          "GLDS-193_rna_seq_GSM2516743.isoforms.results",
+          "GSM2516744",
+          "24295649",
+          "2.96",
+          "GLDS-193_rna_seq_GSM2516744.genes.results",
+          "GLDS-193_rna_seq_GSM2516744.isoforms.results",
+          "GSM2516745",
+          "23388575",
+          "5",
+          "GLDS-193_rna_seq_GSM2516745.genes.results",
+          "GLDS-193_rna_seq_GSM2516745.isoforms.results",
+          "GSM2516746",
+          "23481729",
+          "2.71",
+          "GLDS-193_rna_seq_GSM2516746.genes.results",
+          "GLDS-193_rna_seq_GSM2516746.isoforms.results",
+          "GSM2516747",
+          "24233743",
+          "3.23",
+          "GLDS-193_rna_seq_GSM2516747.genes.results",
+          "GLDS-193_rna_seq_GSM2516747.isoforms.results",
+          "GSM2516748",
+          "24184957",
+          "3.99",
+          "GLDS-193_rna_seq_GSM2516748.genes.results",
+          "GLDS-193_rna_seq_GSM2516748.isoforms.results",
+          "GSM2516749",
+          "26175943",
+          "3.69",
+          "GLDS-193_rna_seq_GSM2516749.genes.results",
+          "GLDS-193_rna_seq_GSM2516749.isoforms.results",
+          "GSM2516750",
+          "27621754",
+          "4.1",
+          "GLDS-193_rna_seq_GSM2516750.genes.results",
+          "GLDS-193_rna_seq_GSM2516750.isoforms.results",
+          "GSM2516751",
+          "22365282",
+          "4.93",
+          "GLDS-193_rna_seq_GSM2516751.genes.results",
+          "GLDS-193_rna_seq_GSM2516751.isoforms.results",
+          "GSM2516752",
+          "22906062",
+          "GLDS-193_rna_seq_GSM2516752.genes.results",
+          "GLDS-193_rna_seq_GSM2516752.isoforms.results",
+          "GSM2516753",
+          "32139800",
+          "5.74",
+          "GLDS-193_rna_seq_GSM2516753.genes.results",
+          "GLDS-193_rna_seq_GSM2516753.isoforms.results",
+          "GSM2516754",
+          "24950419",
+          "5.28",
+          "GLDS-193_rna_seq_GSM2516754.genes.results",
+          "GLDS-193_rna_seq_GSM2516754.isoforms.results",
+          "GSM2516755",
+          "27774053",
+          "GLDS-193_rna_seq_GSM2516755.genes.results",
+          "GLDS-193_rna_seq_GSM2516755.isoforms.results",
+          "GSM2516756",
+          "27032743",
+          "2.73",
+          "GLDS-193_rna_seq_GSM2516756.genes.results",
+          "GLDS-193_rna_seq_GSM2516756.isoforms.results",
+          "GSM2516757",
+          "23812786",
+          "4.76",
+          "GLDS-193_rna_seq_GSM2516757.genes.results",
+          "GLDS-193_rna_seq_GSM2516757.isoforms.results",
+          "GSM2516758",
+          "23673364",
+          "4.72",
+          "GLDS-193_rna_seq_GSM2516758.genes.results",
+          "GLDS-193_rna_seq_GSM2516758.isoforms.results",
+          "GSM2516759",
+          "24185316",
+          "4.58",
+          "GLDS-193_rna_seq_GSM2516759.genes.results",
+          "GLDS-193_rna_seq_GSM2516759.isoforms.results",
+          "GSM2516760",
+          "23049132",
+          "4.46",
+          "GLDS-193_rna_seq_GSM2516760.genes.results",
+          "GLDS-193_rna_seq_GSM2516760.isoforms.results",
+          "GSM2516761",
+          "22949083",
+          "4.75",
+          "GLDS-193_rna_seq_GSM2516761.genes.results",
+          "GLDS-193_rna_seq_GSM2516761.isoforms.results",
+          "GSM2516762",
+          "22984629",
+          "0.85",
+          "GLDS-193_rna_seq_GSM2516762.genes.results",
+          "GLDS-193_rna_seq_GSM2516762.isoforms.results",
+          "GSM2516763",
+          "23387483",
+          "GLDS-193_rna_seq_GSM2516763.genes.results",
+          "GLDS-193_rna_seq_GSM2516763.isoforms.results",
+          "GSM2516764",
+          "23621870",
+          "GLDS-193_rna_seq_GSM2516764.genes.results",
+          "GLDS-193_rna_seq_GSM2516764.isoforms.results",
+          "GSM2516765",
+          "25635640",
+          "5.51",
+          "GLDS-193_rna_seq_GSM2516765.genes.results",
+          "GLDS-193_rna_seq_GSM2516765.isoforms.results",
+          "GSM2516766",
+          "26067393",
+          "3.66",
+          "GLDS-193_rna_seq_GSM2516766.genes.results",
+          "GLDS-193_rna_seq_GSM2516766.isoforms.results"
+        ],
+        "reports": [
+          "GLDS-193_rna_seq_raw_multiqc_report.zip",
+          "GLDS-193_rna_seq_trimmed_multiqc_report.zip",
+          "GLDS-193_rna_seq_GSM2516735_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516735_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516735_Log.final.out",
+          "GLDS-193_rna_seq_align_multiqc_report.zip",
+          "GLDS-193_rna_seq_geneBody_cov_multiqc_report.zip",
+          "GLDS-193_rna_seq_infer_exp_multiqc_report.zip",
+          "GLDS-193_rna_seq_inner_dist_multiqc_report.zip",
+          "GLDS-193_rna_seq_read_dist_multiqc_report.zip",
+          "GLDS-193_rna_seq_RSEM_count_multiqc_report.zip",
+          "GLDS-193_rna_seq_GSM2516736_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516736_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516736_Log.final.out",
+          "GLDS-193_rna_seq_GSM2516737_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516737_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516737_Log.final.out",
+          "GLDS-193_rna_seq_GSM2516738_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516738_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516738_Log.final.out",
+          "GLDS-193_rna_seq_GSM2516739_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516739_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516739_Log.final.out",
+          "GLDS-193_rna_seq_GSM2516740_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516740_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516740_Log.final.out",
+          "GLDS-193_rna_seq_GSM2516741_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516741_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516741_Log.final.out",
+          "GLDS-193_rna_seq_GSM2516742_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516742_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516742_Log.final.out",
+          "GLDS-193_rna_seq_GSM2516743_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516743_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516743_Log.final.out",
+          "GLDS-193_rna_seq_GSM2516744_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516744_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516744_Log.final.out",
+          "GLDS-193_rna_seq_GSM2516745_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516745_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516745_Log.final.out",
+          "GLDS-193_rna_seq_GSM2516746_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516746_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516746_Log.final.out",
+          "GLDS-193_rna_seq_GSM2516747_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516747_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516747_Log.final.out",
+          "GLDS-193_rna_seq_GSM2516748_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516748_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516748_Log.final.out",
+          "GLDS-193_rna_seq_GSM2516749_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516749_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516749_Log.final.out",
+          "GLDS-193_rna_seq_GSM2516750_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516750_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516750_Log.final.out",
+          "GLDS-193_rna_seq_GSM2516751_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516751_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516751_Log.final.out",
+          "GLDS-193_rna_seq_GSM2516752_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516752_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516752_Log.final.out",
+          "GLDS-193_rna_seq_GSM2516753_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516753_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516753_Log.final.out",
+          "GLDS-193_rna_seq_GSM2516754_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516754_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516754_Log.final.out",
+          "GLDS-193_rna_seq_GSM2516755_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516755_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516755_Log.final.out",
+          "GLDS-193_rna_seq_GSM2516756_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516756_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516756_Log.final.out",
+          "GLDS-193_rna_seq_GSM2516757_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516757_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516757_Log.final.out",
+          "GLDS-193_rna_seq_GSM2516758_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516758_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516758_Log.final.out",
+          "GLDS-193_rna_seq_GSM2516759_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516759_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516759_Log.final.out",
+          "GLDS-193_rna_seq_GSM2516760_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516760_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516760_Log.final.out",
+          "GLDS-193_rna_seq_GSM2516761_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516761_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516761_Log.final.out",
+          "GLDS-193_rna_seq_GSM2516762_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516762_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516762_Log.final.out",
+          "GLDS-193_rna_seq_GSM2516763_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516763_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516763_Log.final.out",
+          "GLDS-193_rna_seq_GSM2516764_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516764_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516764_Log.final.out",
+          "GLDS-193_rna_seq_GSM2516765_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516765_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516765_Log.final.out",
+          "GLDS-193_rna_seq_GSM2516766_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516766_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-193_rna_seq_GSM2516766_Log.final.out"
+        ]
+      }
+    }
+  ]
+}

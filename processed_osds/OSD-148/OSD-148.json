@@ -1,0 +1,1328 @@
+{
+  "investigation": {
+    "id": "OSD-148",
+    "title": "Expression profiling of murine lung 70 days following exposure to fractionated or acute dose of 1.0 Gy 56Fe- particle irradiation",
+    "description": "Irradiation of the K-rasLA1 mouse model with a fractionated dose of 1.0Gy 56Fe- particles increases the incidence of invasive carcinoma compared to unirradiated controls or those irradiated with an acute dose. Microarray profiling was perfromed on whole lungs from K-rasLA1 mice in order to determine global expression changes in the lung following radiation exposure.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "",
+      "title": "",
+      "type": "Ground Study",
+      "link": "",
+      "funding": "Financial Support: National Aeronautics and Space Administration (NSCOR NNJ05HD36GD), the National Cancer Institute (Lung SPORE P50CA70907, Cancer Center Support Grant 1P30CA142543, and CA-16672), and Department of Defense (W81XWH-07-1-0306).",
+      "managing_center": ""
+    },
+    "protocols": [
+      "P-GSE42233-3",
+      "irradiation protocol",
+      "P-GSE42233-4",
+      "P-GSE42233-5",
+      "P-GSE42233-6",
+      "P-GSE42233-7",
+      "P-GSE42233-1",
+      "library construction"
+    ],
+    "publications": [
+      {
+        "title": "Radiation-enhanced lung cancer progression in a transgenic mouse model of lung cancer is predictive of outcomes in human lung and breast cancer.",
+        "doi": "10.1158/1078-0432.CCR-13-2589",
+        "authors": [
+          "Delgado O",
+          "Batten KG",
+          "Richardson JA",
+          "Xie XJ",
+          "Gazdar AF",
+          "Kaisani AA",
+          "Girard L",
+          "Behrens C",
+          "Suraokar M",
+          "Fasciani G",
+          "Wright WE",
+          "Story MD",
+          "Wistuba II",
+          "Minna JD",
+          "Shay JW"
+        ],
+        "summary": "Radiation-enhanced lung cancer progression in a transgenic mouse model of lung cancer is predictive of outcomes in human lung and breast cancer. — 10.1158/1078-0432.CCR-13-2589"
+      }
+    ],
+    "factors": [
+      "Sex",
+      "Ionizing Radiation",
+      "Number of Radiation Doses"
+    ],
+    "contacts": [
+      {
+        "first_name": "Kimberly",
+        "last_name": "Batten",
+        "role": "submitter",
+        "email": "kimberly.batten@UTSouthwestern.edu"
+      },
+      {
+        "first_name": "Oliver",
+        "last_name": "Delgado",
+        "role": "",
+        "email": ""
+      },
+      {
+        "first_name": "Kimberly",
+        "last_name": "Batten",
+        "role": "",
+        "email": ""
+      },
+      {
+        "first_name": "Jerry",
+        "last_name": "Shay",
+        "role": "",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "GSM1035993 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Material Type": "Left Lung",
+          "Animal Source": "National Cancer Institute",
+          "strain": "129S2 K-rasLA1",
+          "genotype": "G12D mutant"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Ionizing Radiation": "non-irradiated",
+          "Number of Radiation Doses": "0"
+        },
+        "parameters": {
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "ionizing radiation energy": ""
+        },
+        "comments": {
+          "original sample name": "Unirradiated Control"
+        }
+      },
+      {
+        "sample_name": "GSM1035991 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Material Type": "Left Lung",
+          "Animal Source": "National Cancer Institute",
+          "strain": "129S2 K-rasLA1",
+          "genotype": "G12D mutant"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Number of Radiation Doses": "1"
+        },
+        "parameters": {
+          "absorbed radiation dose": "1",
+          "absorbed radiation dose rate": "0.2",
+          "exposure duration": "5",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "ionizing radiation energy": ""
+        },
+        "comments": {
+          "original sample name": "1.0Gy x 1 56Fe Irradiated"
+        }
+      },
+      {
+        "sample_name": "GSM1035977 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Material Type": "Left Lung",
+          "Animal Source": "National Cancer Institute",
+          "strain": "129S2 K-rasLA1",
+          "genotype": "G12D mutant"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Ionizing Radiation": "non-irradiated",
+          "Number of Radiation Doses": "0"
+        },
+        "parameters": {
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "ionizing radiation energy": ""
+        },
+        "comments": {
+          "original sample name": "Unirradiated Control"
+        }
+      },
+      {
+        "sample_name": "GSM1036006 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Material Type": "Left Lung",
+          "Animal Source": "National Cancer Institute",
+          "strain": "129S2 K-rasLA1",
+          "genotype": "G12D mutant"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Number of Radiation Doses": "1"
+        },
+        "parameters": {
+          "absorbed radiation dose": "1",
+          "absorbed radiation dose rate": "0.2",
+          "exposure duration": "5",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "ionizing radiation energy": ""
+        },
+        "comments": {
+          "original sample name": "1.0Gy x 1 56Fe Irradiated"
+        }
+      },
+      {
+        "sample_name": "GSM1035999 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Material Type": "Left Lung",
+          "Animal Source": "National Cancer Institute",
+          "strain": "129S2 K-rasLA1",
+          "genotype": "G12D mutant"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Ionizing Radiation": "non-irradiated",
+          "Number of Radiation Doses": "0"
+        },
+        "parameters": {
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "ionizing radiation energy": ""
+        },
+        "comments": {
+          "original sample name": "Unirradiated Control"
+        }
+      },
+      {
+        "sample_name": "GSM1035994 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Material Type": "Left Lung",
+          "Animal Source": "National Cancer Institute",
+          "strain": "129S2 K-rasLA1",
+          "genotype": "G12D mutant"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Ionizing Radiation": "non-irradiated",
+          "Number of Radiation Doses": "0"
+        },
+        "parameters": {
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "ionizing radiation energy": ""
+        },
+        "comments": {
+          "original sample name": "Unirradiated Control"
+        }
+      },
+      {
+        "sample_name": "GSM1035989 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Material Type": "Left Lung",
+          "Animal Source": "National Cancer Institute",
+          "strain": "129S2 K-rasLA1",
+          "genotype": "G12D mutant"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Number of Radiation Doses": "5"
+        },
+        "parameters": {
+          "absorbed radiation dose": "1",
+          "absorbed radiation dose rate": "0.2",
+          "exposure duration": "5",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "ionizing radiation energy": ""
+        },
+        "comments": {
+          "original sample name": "0.2Gy x 5 56Fe Irradiated"
+        }
+      },
+      {
+        "sample_name": "GSM1035978 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Material Type": "Left Lung",
+          "Animal Source": "National Cancer Institute",
+          "strain": "129S2 K-rasLA1",
+          "genotype": "G12D mutant"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Number of Radiation Doses": "1"
+        },
+        "parameters": {
+          "absorbed radiation dose": "1",
+          "absorbed radiation dose rate": "0.2",
+          "exposure duration": "5",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "ionizing radiation energy": ""
+        },
+        "comments": {
+          "original sample name": "1.0Gy x 1 56Fe Irradiated"
+        }
+      },
+      {
+        "sample_name": "GSM1035984 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Material Type": "Left Lung",
+          "Animal Source": "National Cancer Institute",
+          "strain": "129S2 K-rasLA1",
+          "genotype": "G12D mutant"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Number of Radiation Doses": "1"
+        },
+        "parameters": {
+          "absorbed radiation dose": "1",
+          "absorbed radiation dose rate": "0.2",
+          "exposure duration": "5",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "ionizing radiation energy": ""
+        },
+        "comments": {
+          "original sample name": "1.0Gy x 1 56Fe Irradiated"
+        }
+      },
+      {
+        "sample_name": "GSM1035983 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Material Type": "Left Lung",
+          "Animal Source": "National Cancer Institute",
+          "strain": "129S2 K-rasLA1",
+          "genotype": "G12D mutant"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Number of Radiation Doses": "5"
+        },
+        "parameters": {
+          "absorbed radiation dose": "1",
+          "absorbed radiation dose rate": "0.2",
+          "exposure duration": "5",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "ionizing radiation energy": ""
+        },
+        "comments": {
+          "original sample name": "0.2Gy x 5 56Fe Irradiated"
+        }
+      },
+      {
+        "sample_name": "GSM1036004 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Material Type": "Left Lung",
+          "Animal Source": "National Cancer Institute",
+          "strain": "129S2 K-rasLA1",
+          "genotype": "G12D mutant"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Number of Radiation Doses": "5"
+        },
+        "parameters": {
+          "absorbed radiation dose": "1",
+          "absorbed radiation dose rate": "0.2",
+          "exposure duration": "5",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "ionizing radiation energy": ""
+        },
+        "comments": {
+          "original sample name": "0.2Gy x 5 56Fe Irradiated"
+        }
+      },
+      {
+        "sample_name": "GSM1036001 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Material Type": "Left Lung",
+          "Animal Source": "National Cancer Institute",
+          "strain": "129S2 K-rasLA1",
+          "genotype": "G12D mutant"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Number of Radiation Doses": "1"
+        },
+        "parameters": {
+          "absorbed radiation dose": "1",
+          "absorbed radiation dose rate": "0.2",
+          "exposure duration": "5",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "ionizing radiation energy": ""
+        },
+        "comments": {
+          "original sample name": "1.0Gy x 1 56Fe Irradiated"
+        }
+      },
+      {
+        "sample_name": "GSM1036015 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Material Type": "Left Lung",
+          "Animal Source": "National Cancer Institute",
+          "strain": "129S2 K-rasLA1",
+          "genotype": "G12D mutant"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Number of Radiation Doses": "5"
+        },
+        "parameters": {
+          "absorbed radiation dose": "1",
+          "absorbed radiation dose rate": "0.2",
+          "exposure duration": "5",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "ionizing radiation energy": ""
+        },
+        "comments": {
+          "original sample name": "0.2Gy x 5 56Fe Irradiated"
+        }
+      },
+      {
+        "sample_name": "GSM1035990 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Material Type": "Left Lung",
+          "Animal Source": "National Cancer Institute",
+          "strain": "129S2 K-rasLA1",
+          "genotype": "G12D mutant"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Ionizing Radiation": "non-irradiated",
+          "Number of Radiation Doses": "0"
+        },
+        "parameters": {
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "ionizing radiation energy": ""
+        },
+        "comments": {
+          "original sample name": "Unirradiated Control"
+        }
+      },
+      {
+        "sample_name": "GSM1036002 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Material Type": "Left Lung",
+          "Animal Source": "National Cancer Institute",
+          "strain": "129S2 K-rasLA1",
+          "genotype": "G12D mutant"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Number of Radiation Doses": "1"
+        },
+        "parameters": {
+          "absorbed radiation dose": "1",
+          "absorbed radiation dose rate": "0.2",
+          "exposure duration": "5",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "ionizing radiation energy": ""
+        },
+        "comments": {
+          "original sample name": "1.0Gy x 1 56Fe Irradiated"
+        }
+      },
+      {
+        "sample_name": "GSM1036012 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Material Type": "Left Lung",
+          "Animal Source": "National Cancer Institute",
+          "strain": "129S2 K-rasLA1",
+          "genotype": "G12D mutant"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Number of Radiation Doses": "5"
+        },
+        "parameters": {
+          "absorbed radiation dose": "1",
+          "absorbed radiation dose rate": "0.2",
+          "exposure duration": "5",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "ionizing radiation energy": ""
+        },
+        "comments": {
+          "original sample name": "0.2Gy x 5 56Fe Irradiated"
+        }
+      },
+      {
+        "sample_name": "GSM1036000 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Material Type": "Left Lung",
+          "Animal Source": "National Cancer Institute",
+          "strain": "129S2 K-rasLA1",
+          "genotype": "G12D mutant"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Number of Radiation Doses": "1"
+        },
+        "parameters": {
+          "absorbed radiation dose": "1",
+          "absorbed radiation dose rate": "0.2",
+          "exposure duration": "5",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "ionizing radiation energy": ""
+        },
+        "comments": {
+          "original sample name": "1.0Gy x 1 56Fe Irradiated"
+        }
+      },
+      {
+        "sample_name": "GSM1036011 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Material Type": "Left Lung",
+          "Animal Source": "National Cancer Institute",
+          "strain": "129S2 K-rasLA1",
+          "genotype": "G12D mutant"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Number of Radiation Doses": "1"
+        },
+        "parameters": {
+          "absorbed radiation dose": "1",
+          "absorbed radiation dose rate": "0.2",
+          "exposure duration": "5",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "ionizing radiation energy": ""
+        },
+        "comments": {
+          "original sample name": "1.0Gy x 1 56Fe Irradiated"
+        }
+      },
+      {
+        "sample_name": "GSM1035986 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Material Type": "Left Lung",
+          "Animal Source": "National Cancer Institute",
+          "strain": "129S2 K-rasLA1",
+          "genotype": "G12D mutant"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Number of Radiation Doses": "1"
+        },
+        "parameters": {
+          "absorbed radiation dose": "1",
+          "absorbed radiation dose rate": "0.2",
+          "exposure duration": "5",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "ionizing radiation energy": ""
+        },
+        "comments": {
+          "original sample name": "1.0Gy x 1 56Fe Irradiated"
+        }
+      },
+      {
+        "sample_name": "GSM1035975 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Material Type": "Left Lung",
+          "Animal Source": "National Cancer Institute",
+          "strain": "129S2 K-rasLA1",
+          "genotype": "G12D mutant"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Ionizing Radiation": "non-irradiated",
+          "Number of Radiation Doses": "0"
+        },
+        "parameters": {
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "ionizing radiation energy": ""
+        },
+        "comments": {
+          "original sample name": "Unirradiated Control"
+        }
+      },
+      {
+        "sample_name": "GSM1035980 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Material Type": "Left Lung",
+          "Animal Source": "National Cancer Institute",
+          "strain": "129S2 K-rasLA1",
+          "genotype": "G12D mutant"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Ionizing Radiation": "non-irradiated",
+          "Number of Radiation Doses": "0"
+        },
+        "parameters": {
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "ionizing radiation energy": ""
+        },
+        "comments": {
+          "original sample name": "Unirradiated Control"
+        }
+      },
+      {
+        "sample_name": "GSM1036009 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Material Type": "Left Lung",
+          "Animal Source": "National Cancer Institute",
+          "strain": "129S2 K-rasLA1",
+          "genotype": "G12D mutant"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Number of Radiation Doses": "5"
+        },
+        "parameters": {
+          "absorbed radiation dose": "1",
+          "absorbed radiation dose rate": "0.2",
+          "exposure duration": "5",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "ionizing radiation energy": ""
+        },
+        "comments": {
+          "original sample name": "0.2Gy x 5 56Fe Irradiated"
+        }
+      },
+      {
+        "sample_name": "GSM1035997 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Material Type": "Left Lung",
+          "Animal Source": "National Cancer Institute",
+          "strain": "129S2 K-rasLA1",
+          "genotype": "G12D mutant"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Number of Radiation Doses": "1"
+        },
+        "parameters": {
+          "absorbed radiation dose": "1",
+          "absorbed radiation dose rate": "0.2",
+          "exposure duration": "5",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "ionizing radiation energy": ""
+        },
+        "comments": {
+          "original sample name": "1.0Gy x 1 56Fe Irradiated"
+        }
+      },
+      {
+        "sample_name": "GSM1035981 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Material Type": "Left Lung",
+          "Animal Source": "National Cancer Institute",
+          "strain": "129S2 K-rasLA1",
+          "genotype": "G12D mutant"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Number of Radiation Doses": "5"
+        },
+        "parameters": {
+          "absorbed radiation dose": "1",
+          "absorbed radiation dose rate": "0.2",
+          "exposure duration": "5",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "ionizing radiation energy": ""
+        },
+        "comments": {
+          "original sample name": "0.2Gy x 5 56Fe Irradiated"
+        }
+      },
+      {
+        "sample_name": "GSM1035985 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Material Type": "Left Lung",
+          "Animal Source": "National Cancer Institute",
+          "strain": "129S2 K-rasLA1",
+          "genotype": "G12D mutant"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Number of Radiation Doses": "1"
+        },
+        "parameters": {
+          "absorbed radiation dose": "1",
+          "absorbed radiation dose rate": "0.2",
+          "exposure duration": "5",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "ionizing radiation energy": ""
+        },
+        "comments": {
+          "original sample name": "1.0Gy x 1 56Fe Irradiated"
+        }
+      },
+      {
+        "sample_name": "GSM1036008 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Material Type": "Left Lung",
+          "Animal Source": "National Cancer Institute",
+          "strain": "129S2 K-rasLA1",
+          "genotype": "G12D mutant"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Ionizing Radiation": "non-irradiated",
+          "Number of Radiation Doses": "0"
+        },
+        "parameters": {
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "ionizing radiation energy": ""
+        },
+        "comments": {
+          "original sample name": "Unirradiated Control"
+        }
+      },
+      {
+        "sample_name": "GSM1035995 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Material Type": "Left Lung",
+          "Animal Source": "National Cancer Institute",
+          "strain": "129S2 K-rasLA1",
+          "genotype": "G12D mutant"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Number of Radiation Doses": "1"
+        },
+        "parameters": {
+          "absorbed radiation dose": "1",
+          "absorbed radiation dose rate": "0.2",
+          "exposure duration": "5",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "ionizing radiation energy": ""
+        },
+        "comments": {
+          "original sample name": "1.0Gy x 1 56Fe Irradiated"
+        }
+      },
+      {
+        "sample_name": "GSM1036014 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Material Type": "Left Lung",
+          "Animal Source": "National Cancer Institute",
+          "strain": "129S2 K-rasLA1",
+          "genotype": "G12D mutant"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Ionizing Radiation": "non-irradiated",
+          "Number of Radiation Doses": "0"
+        },
+        "parameters": {
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "ionizing radiation energy": ""
+        },
+        "comments": {
+          "original sample name": "Unirradiated Control"
+        }
+      },
+      {
+        "sample_name": "GSM1035987 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Material Type": "Left Lung",
+          "Animal Source": "National Cancer Institute",
+          "strain": "129S2 K-rasLA1",
+          "genotype": "G12D mutant"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Ionizing Radiation": "non-irradiated",
+          "Number of Radiation Doses": "0"
+        },
+        "parameters": {
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "ionizing radiation energy": ""
+        },
+        "comments": {
+          "original sample name": "Unirradiated Control"
+        }
+      },
+      {
+        "sample_name": "GSM1035992 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Material Type": "Left Lung",
+          "Animal Source": "National Cancer Institute",
+          "strain": "129S2 K-rasLA1",
+          "genotype": "G12D mutant"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Number of Radiation Doses": "5"
+        },
+        "parameters": {
+          "absorbed radiation dose": "1",
+          "absorbed radiation dose rate": "0.2",
+          "exposure duration": "5",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "ionizing radiation energy": ""
+        },
+        "comments": {
+          "original sample name": "0.2Gy x 5 56Fe Irradiated"
+        }
+      },
+      {
+        "sample_name": "GSM1036005 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Material Type": "Left Lung",
+          "Animal Source": "National Cancer Institute",
+          "strain": "129S2 K-rasLA1",
+          "genotype": "G12D mutant"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Number of Radiation Doses": "5"
+        },
+        "parameters": {
+          "absorbed radiation dose": "1",
+          "absorbed radiation dose rate": "0.2",
+          "exposure duration": "5",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "ionizing radiation energy": ""
+        },
+        "comments": {
+          "original sample name": "0.2Gy x 5 56Fe Irradiated"
+        }
+      },
+      {
+        "sample_name": "GSM1035988 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Material Type": "Left Lung",
+          "Animal Source": "National Cancer Institute",
+          "strain": "129S2 K-rasLA1",
+          "genotype": "G12D mutant"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Number of Radiation Doses": "5"
+        },
+        "parameters": {
+          "absorbed radiation dose": "1",
+          "absorbed radiation dose rate": "0.2",
+          "exposure duration": "5",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "ionizing radiation energy": ""
+        },
+        "comments": {
+          "original sample name": "0.2Gy x 5 56Fe Irradiated"
+        }
+      },
+      {
+        "sample_name": "GSM1035982 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Material Type": "Left Lung",
+          "Animal Source": "National Cancer Institute",
+          "strain": "129S2 K-rasLA1",
+          "genotype": "G12D mutant"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Ionizing Radiation": "non-irradiated",
+          "Number of Radiation Doses": "0"
+        },
+        "parameters": {
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "ionizing radiation energy": ""
+        },
+        "comments": {
+          "original sample name": "Unirradiated Control"
+        }
+      },
+      {
+        "sample_name": "GSM1035974 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Material Type": "Left Lung",
+          "Animal Source": "National Cancer Institute",
+          "strain": "129S2 K-rasLA1",
+          "genotype": "G12D mutant"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Number of Radiation Doses": "5"
+        },
+        "parameters": {
+          "absorbed radiation dose": "1",
+          "absorbed radiation dose rate": "0.2",
+          "exposure duration": "5",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "ionizing radiation energy": ""
+        },
+        "comments": {
+          "original sample name": "0.2Gy x 5 56Fe Irradiated"
+        }
+      },
+      {
+        "sample_name": "GSM1036007 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Material Type": "Left Lung",
+          "Animal Source": "National Cancer Institute",
+          "strain": "129S2 K-rasLA1",
+          "genotype": "G12D mutant"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Ionizing Radiation": "non-irradiated",
+          "Number of Radiation Doses": "0"
+        },
+        "parameters": {
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "ionizing radiation energy": ""
+        },
+        "comments": {
+          "original sample name": "Unirradiated Control"
+        }
+      },
+      {
+        "sample_name": "GSM1036013 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Material Type": "Left Lung",
+          "Animal Source": "National Cancer Institute",
+          "strain": "129S2 K-rasLA1",
+          "genotype": "G12D mutant"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Ionizing Radiation": "non-irradiated",
+          "Number of Radiation Doses": "0"
+        },
+        "parameters": {
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "ionizing radiation energy": ""
+        },
+        "comments": {
+          "original sample name": "Unirradiated Control"
+        }
+      },
+      {
+        "sample_name": "GSM1035998 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Material Type": "Left Lung",
+          "Animal Source": "National Cancer Institute",
+          "strain": "129S2 K-rasLA1",
+          "genotype": "G12D mutant"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Number of Radiation Doses": "5"
+        },
+        "parameters": {
+          "absorbed radiation dose": "1",
+          "absorbed radiation dose rate": "0.2",
+          "exposure duration": "5",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "ionizing radiation energy": ""
+        },
+        "comments": {
+          "original sample name": "0.2Gy x 5 56Fe Irradiated"
+        }
+      },
+      {
+        "sample_name": "GSM1035979 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Material Type": "Left Lung",
+          "Animal Source": "National Cancer Institute",
+          "strain": "129S2 K-rasLA1",
+          "genotype": "G12D mutant"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Number of Radiation Doses": "1"
+        },
+        "parameters": {
+          "absorbed radiation dose": "1",
+          "absorbed radiation dose rate": "0.2",
+          "exposure duration": "5",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "ionizing radiation energy": ""
+        },
+        "comments": {
+          "original sample name": "1.0Gy x 1 56Fe Irradiated"
+        }
+      },
+      {
+        "sample_name": "GSM1036010 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Material Type": "Left Lung",
+          "Animal Source": "National Cancer Institute",
+          "strain": "129S2 K-rasLA1",
+          "genotype": "G12D mutant"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Number of Radiation Doses": "1"
+        },
+        "parameters": {
+          "absorbed radiation dose": "1",
+          "absorbed radiation dose rate": "0.2",
+          "exposure duration": "5",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "ionizing radiation energy": ""
+        },
+        "comments": {
+          "original sample name": "1.0Gy x 1 56Fe Irradiated"
+        }
+      },
+      {
+        "sample_name": "GSM1035976 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Material Type": "Left Lung",
+          "Animal Source": "National Cancer Institute",
+          "strain": "129S2 K-rasLA1",
+          "genotype": "G12D mutant"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Number of Radiation Doses": "5"
+        },
+        "parameters": {
+          "absorbed radiation dose": "1",
+          "absorbed radiation dose rate": "0.2",
+          "exposure duration": "5",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "ionizing radiation energy": ""
+        },
+        "comments": {
+          "original sample name": "0.2Gy x 5 56Fe Irradiated"
+        }
+      },
+      {
+        "sample_name": "GSM1035996 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Material Type": "Left Lung",
+          "Animal Source": "National Cancer Institute",
+          "strain": "129S2 K-rasLA1",
+          "genotype": "G12D mutant"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Number of Radiation Doses": "5"
+        },
+        "parameters": {
+          "absorbed radiation dose": "1",
+          "absorbed radiation dose rate": "0.2",
+          "exposure duration": "5",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "ionizing radiation energy": ""
+        },
+        "comments": {
+          "original sample name": "0.2Gy x 5 56Fe Irradiated"
+        }
+      },
+      {
+        "sample_name": "GSM1036003 extract 1",
+        "characteristics": {
+          "organism": "Mus musculus",
+          "Material Type": "Left Lung",
+          "Animal Source": "National Cancer Institute",
+          "strain": "129S2 K-rasLA1",
+          "genotype": "G12D mutant"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Ionizing Radiation": "Fe-56 ion radiation",
+          "Number of Radiation Doses": "1"
+        },
+        "parameters": {
+          "absorbed radiation dose": "1",
+          "absorbed radiation dose rate": "0.2",
+          "exposure duration": "5",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "ionizing radiation energy": ""
+        },
+        "comments": {
+          "original sample name": "1.0Gy x 1 56Fe Irradiated"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina",
+      "qc": {},
+      "library": {},
+      "files": {
+        "raw": [],
+        "processed": [
+          "GSM1036015 extract 1",
+          "P-GSE42233-1",
+          "GSM1036015 LE 1",
+          "biotin",
+          "array assay",
+          "ILLUMINA MouseWG 6 V2",
+          "GLDS-148_micoarray_A-MEXP-1175.adf.txt",
+          "GSM1036015_sample_table.txt norm",
+          "GLDS-148_micoarray_E-GEOD-42233.processed.1.zip",
+          "GSM1036014 extract 1",
+          "GSM1036014 LE 1",
+          "GSM1036014_sample_table.txt norm",
+          "GSM1036013 extract 1",
+          "GSM1036013 LE 1",
+          "GSM1036013_sample_table.txt norm",
+          "GSM1036011 extract 1",
+          "GSM1036011 LE 1",
+          "GSM1036011_sample_table.txt norm",
+          "GSM1036010 extract 1",
+          "GSM1036010 LE 1",
+          "GSM1036010_sample_table.txt norm",
+          "GSM1036009 extract 1",
+          "GSM1036009 LE 1",
+          "GSM1036009_sample_table.txt norm",
+          "GSM1036008 extract 1",
+          "GSM1036008 LE 1",
+          "GSM1036008_sample_table.txt norm",
+          "GSM1036007 extract 1",
+          "GSM1036007 LE 1",
+          "GSM1036007_sample_table.txt norm",
+          "GSM1036006 extract 1",
+          "GSM1036006 LE 1",
+          "GSM1036006_sample_table.txt norm",
+          "GSM1036005 extract 1",
+          "GSM1036005 LE 1",
+          "GSM1036005_sample_table.txt norm",
+          "GSM1036004 extract 1",
+          "GSM1036004 LE 1",
+          "GSM1036004_sample_table.txt norm",
+          "GSM1036003 extract 1",
+          "GSM1036003 LE 1",
+          "GSM1036003_sample_table.txt norm",
+          "GSM1036002 extract 1",
+          "GSM1036002 LE 1",
+          "GSM1036002_sample_table.txt norm",
+          "GSM1036001 extract 1",
+          "GSM1036001 LE 1",
+          "GSM1036001_sample_table.txt norm",
+          "GSM1036000 extract 1",
+          "GSM1036000 LE 1",
+          "GSM1036000_sample_table.txt norm",
+          "GSM1035999 extract 1",
+          "GSM1035999 LE 1",
+          "GSM1035999_sample_table.txt norm",
+          "GSM1035998 extract 1",
+          "GSM1035998 LE 1",
+          "GSM1035998_sample_table.txt norm",
+          "GSM1035997 extract 1",
+          "GSM1035997 LE 1",
+          "GSM1035997_sample_table.txt norm",
+          "GSM1035996 extract 1",
+          "GSM1035996 LE 1",
+          "GSM1035996_sample_table.txt norm",
+          "GSM1035995 extract 1",
+          "GSM1035995 LE 1",
+          "GSM1035995_sample_table.txt norm",
+          "GSM1035994 extract 1",
+          "GSM1035994 LE 1",
+          "GSM1035994_sample_table.txt norm",
+          "GSM1035993 extract 1",
+          "GSM1035993 LE 1",
+          "GSM1035993_sample_table.txt norm",
+          "GSM1035992 extract 1",
+          "GSM1035992 LE 1",
+          "GSM1035992_sample_table.txt norm",
+          "GSM1035991 extract 1",
+          "GSM1035991 LE 1",
+          "GSM1035991_sample_table.txt norm",
+          "GSM1035990 extract 1",
+          "GSM1035990 LE 1",
+          "GSM1035990_sample_table.txt norm",
+          "GSM1035989 extract 1",
+          "GSM1035989 LE 1",
+          "GSM1035989_sample_table.txt norm",
+          "GSM1035988 extract 1",
+          "GSM1035988 LE 1",
+          "GSM1035988_sample_table.txt norm",
+          "GSM1035987 extract 1",
+          "GSM1035987 LE 1",
+          "GSM1035987_sample_table.txt norm",
+          "GSM1035986 extract 1",
+          "GSM1035986 LE 1",
+          "GSM1035986_sample_table.txt norm",
+          "GSM1035985 extract 1",
+          "GSM1035985 LE 1",
+          "GSM1035985_sample_table.txt norm",
+          "GSM1035984 extract 1",
+          "GSM1035984 LE 1",
+          "GSM1035984_sample_table.txt norm",
+          "GSM1035983 extract 1",
+          "GSM1035983 LE 1",
+          "GSM1035983_sample_table.txt norm",
+          "GSM1035982 extract 1",
+          "GSM1035982 LE 1",
+          "GSM1035982_sample_table.txt norm",
+          "GSM1035981 extract 1",
+          "GSM1035981 LE 1",
+          "GSM1035981_sample_table.txt norm",
+          "GSM1035980 extract 1",
+          "GSM1035980 LE 1",
+          "GSM1035980_sample_table.txt norm",
+          "GSM1035979 extract 1",
+          "GSM1035979 LE 1",
+          "GSM1035979_sample_table.txt norm",
+          "GSM1035978 extract 1",
+          "GSM1035978 LE 1",
+          "GSM1035978_sample_table.txt norm",
+          "GSM1035977 extract 1",
+          "GSM1035977 LE 1",
+          "GSM1035977_sample_table.txt norm",
+          "GSM1035976 extract 1",
+          "GSM1035976 LE 1",
+          "GSM1035976_sample_table.txt norm",
+          "GSM1035975 extract 1",
+          "GSM1035975 LE 1",
+          "GSM1035975_sample_table.txt norm",
+          "GSM1035974 extract 1",
+          "GSM1035974 LE 1",
+          "GSM1035974_sample_table.txt norm",
+          "GSM1036012 extract 1",
+          "GSM1036012 LE 1",
+          "GSM1036012_sample_table.txt norm"
+        ],
+        "reports": []
+      }
+    }
+  ]
+}

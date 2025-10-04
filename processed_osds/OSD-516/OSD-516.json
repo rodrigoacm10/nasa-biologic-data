@@ -1,0 +1,3203 @@
+{
+  "investigation": {
+    "id": "OSD-516",
+    "title": "Modeling cellular responses to serum and vitamin D in microgravity using a human kidney microphysiological system",
+    "description": "The microgravity environment aboard the International Space Station (ISS) provides a unique stressor that can help understand underlying cellular and molecular drivers of pathological changes observed in astronauts with the ultimate goals of developing strategies to enable long- term spaceflight and better treatment of diseases on Earth. We used this unique environment to evaluate the effects of microgravity on kidney proximal tubule epithelial cell (PTEC) response to serum exposure and vitaminD biotransformation capacity.",
+    "mission": {
+      "name": "SpaceX-17",
+      "start_date": "05/04/2019",
+      "end_date": "06/03/2019",
+      "link": "https://osdr.nasa.gov/bio/repo/data/missions/SpaceX-17"
+    },
+    "project": {
+      "identifier": "KIDNEY-CELLS",
+      "title": "",
+      "type": "Spaceflight Study",
+      "link": "",
+      "funding": "These studies were supported by funding from the National Center for Advancing Translational Sciences (UG3TR002178 and UG3TR002158), The International Space Station U.S. National Laboratory, and an unrestricted gift from the Northwest Kidney Centers to the Kidney Research Institute.",
+      "managing_center": ""
+    },
+    "protocols": [
+      "growth protocol",
+      "treatment protocol",
+      "sample collection",
+      "Nucleic Acid Extraction",
+      "Library Construction",
+      "Nucleic Acid Sequencing",
+      "Sequence Analysis Data Transformation",
+      "GeneLab raw data processing protocol",
+      "GeneLab RNAseq data processing protocol"
+    ],
+    "publications": [
+      {
+        "title": "Modeling cellular responses to serum and vitamin D in microgravity using a human kidney microphysiological system.",
+        "doi": "10.1038/s41526-024-00415-2",
+        "authors": [
+          "Lidberg KA",
+          "Jones-Isaac K",
+          "Yang J",
+          "Bain J",
+          "Wang L",
+          "MacDonald JW",
+          "Bammler TK",
+          "Calamia J",
+          "Thummel KE",
+          "Yeung CK",
+          "Countryman S",
+          "Koenig P",
+          "Himmelfarb J",
+          "Kelly EJ."
+        ],
+        "summary": "Modeling cellular responses to serum and vitamin D in microgravity using a human kidney microphysiological system. — 10.1038/s41526-024-00415-2"
+      }
+    ],
+    "factors": [
+      "Spaceflight",
+      "Treatment",
+      "Sex"
+    ],
+    "contacts": [
+      {
+        "first_name": "Cathy",
+        "last_name": "Yeung",
+        "role": "conceptualization role",
+        "email": "cathyy@uw.edu"
+      },
+      {
+        "first_name": "James",
+        "last_name": "MacDonald",
+        "role": "Submitter",
+        "email": "edkelly@uw.edu"
+      },
+      {
+        "first_name": "Edward",
+        "last_name": "Kelly",
+        "role": "conceptualization role",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "367402",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "M1"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Spaceflight": "Ground Control",
+          "Treatment": "Vitamin D"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367403",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "M1"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Spaceflight": "Ground Control",
+          "Treatment": "Vitamin D"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367404",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "M1"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Spaceflight": "Ground Control",
+          "Treatment": "Vitamin D"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367405",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "F1"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Spaceflight": "Ground Control",
+          "Treatment": "Vitamin D"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367406",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "F1"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Spaceflight": "Ground Control",
+          "Treatment": "Vitamin D"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367407",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "F1"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Spaceflight": "Ground Control",
+          "Treatment": "Vitamin D"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367408",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "M2"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Spaceflight": "Ground Control",
+          "Treatment": "Vitamin D"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367409",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "M2"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Spaceflight": "Ground Control",
+          "Treatment": "Vitamin D"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367410",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "M2"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Spaceflight": "Ground Control",
+          "Treatment": "Vitamin D"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367411",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "M1"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Spaceflight": "Ground Control",
+          "Treatment": "2% human serum"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367412",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "M1"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Spaceflight": "Ground Control",
+          "Treatment": "2% human serum"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367413",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "F1"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Spaceflight": "Ground Control",
+          "Treatment": "2% human serum"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367414",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "F1"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Spaceflight": "Ground Control",
+          "Treatment": "2% human serum"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367415",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "F1"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Spaceflight": "Ground Control",
+          "Treatment": "2% human serum"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367416",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "M2"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Spaceflight": "Ground Control",
+          "Treatment": "2% human serum"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367417",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "M2"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Spaceflight": "Ground Control",
+          "Treatment": "2% human serum"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367418",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "M1"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Spaceflight": "Ground Control",
+          "Treatment": "media"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367419",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "M1"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Spaceflight": "Ground Control",
+          "Treatment": "media"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367420",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "F1"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Spaceflight": "Ground Control",
+          "Treatment": "media"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367421",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "F1"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Spaceflight": "Ground Control",
+          "Treatment": "media"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367422",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "F1"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Spaceflight": "Ground Control",
+          "Treatment": "media"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367423",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "F2"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Spaceflight": "Ground Control",
+          "Treatment": "media"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367424",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "F2"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Spaceflight": "Ground Control",
+          "Treatment": "media"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367425",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "F2"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Spaceflight": "Ground Control",
+          "Treatment": "media"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367426",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "M1"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Spaceflight": "Ground Control",
+          "Treatment": "Vitamin D"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367427",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "M1"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Spaceflight": "Ground Control",
+          "Treatment": "Vitamin D"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367428",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "M1"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Spaceflight": "Ground Control",
+          "Treatment": "Vitamin D"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367429",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "F1"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Spaceflight": "Ground Control",
+          "Treatment": "Vitamin D"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367430",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "F1"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Spaceflight": "Ground Control",
+          "Treatment": "Vitamin D"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367431",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "F1"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Spaceflight": "Ground Control",
+          "Treatment": "Vitamin D"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367432",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "F2"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Spaceflight": "Ground Control",
+          "Treatment": "Vitamin D"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367433",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "F2"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Spaceflight": "Ground Control",
+          "Treatment": "Vitamin D"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367434",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "M1"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Spaceflight": "Ground Control",
+          "Treatment": "2% human serum"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367435",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "M1"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Spaceflight": "Ground Control",
+          "Treatment": "2% human serum"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367436",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "M1"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Spaceflight": "Ground Control",
+          "Treatment": "2% human serum"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367437",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "F1"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Spaceflight": "Ground Control",
+          "Treatment": "2% human serum"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367438",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "F1"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Spaceflight": "Ground Control",
+          "Treatment": "2% human serum"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367439",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "F1"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Spaceflight": "Ground Control",
+          "Treatment": "2% human serum"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367440",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "F2"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Spaceflight": "Ground Control",
+          "Treatment": "2% human serum"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367441",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "F2"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Spaceflight": "Ground Control",
+          "Treatment": "2% human serum"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367442",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "F2"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Spaceflight": "Ground Control",
+          "Treatment": "2% human serum"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367443",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "M1"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Spaceflight": "Space Flight",
+          "Treatment": "media"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367444",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "M1"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Spaceflight": "Space Flight",
+          "Treatment": "media"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367445",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "F1"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Spaceflight": "Space Flight",
+          "Treatment": "media"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367446",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "F1"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Spaceflight": "Space Flight",
+          "Treatment": "media"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367447",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "M2"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Spaceflight": "Space Flight",
+          "Treatment": "media"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367448",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "M2"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Spaceflight": "Space Flight",
+          "Treatment": "media"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367449",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "M2"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Spaceflight": "Space Flight",
+          "Treatment": "media"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367450",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "M1"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Spaceflight": "Space Flight",
+          "Treatment": "Vitamin D"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367451",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "M1"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Spaceflight": "Space Flight",
+          "Treatment": "Vitamin D"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367452",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "F1"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Spaceflight": "Space Flight",
+          "Treatment": "Vitamin D"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367453",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "F1"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Spaceflight": "Space Flight",
+          "Treatment": "Vitamin D"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367454",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "M1"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Spaceflight": "Space Flight",
+          "Treatment": "2% human serum"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367455",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "M1"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Spaceflight": "Space Flight",
+          "Treatment": "2% human serum"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367456",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "M1"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Spaceflight": "Space Flight",
+          "Treatment": "2% human serum"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367457",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "F1"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Spaceflight": "Space Flight",
+          "Treatment": "2% human serum"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367458",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "F1"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Spaceflight": "Space Flight",
+          "Treatment": "2% human serum"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367459",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "F1"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Spaceflight": "Space Flight",
+          "Treatment": "2% human serum"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367460",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "M2"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Spaceflight": "Space Flight",
+          "Treatment": "2% human serum"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367461",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "M2"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Spaceflight": "Space Flight",
+          "Treatment": "2% human serum"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367462",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "M1"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Spaceflight": "Space Flight",
+          "Treatment": "media"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367463",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "F1"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Spaceflight": "Space Flight",
+          "Treatment": "media"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367464",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "F1"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Spaceflight": "Space Flight",
+          "Treatment": "Vitamin D"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367465",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "M1"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Spaceflight": "Space Flight",
+          "Treatment": "Vitamin D"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367466",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "M1"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Spaceflight": "Space Flight",
+          "Treatment": "Vitamin D"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367467",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "M1"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Spaceflight": "Space Flight",
+          "Treatment": "Vitamin D"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367468",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "F2"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Spaceflight": "Space Flight",
+          "Treatment": "Vitamin D"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367469",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "F2"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Spaceflight": "Space Flight",
+          "Treatment": "Vitamin D"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367470",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "F2"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Spaceflight": "Space Flight",
+          "Treatment": "Vitamin D"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367471",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "M1"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Spaceflight": "Space Flight",
+          "Treatment": "2% human serum"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367472",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "M1"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Spaceflight": "Space Flight",
+          "Treatment": "2% human serum"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367473",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "M1"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Spaceflight": "Space Flight",
+          "Treatment": "2% human serum"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367474",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "F1"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Spaceflight": "Space Flight",
+          "Treatment": "2% human serum"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367475",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "F1"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Spaceflight": "Space Flight",
+          "Treatment": "2% human serum"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367476",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "F1"
+        },
+        "factors": {
+          "Sex": "Female",
+          "Spaceflight": "Space Flight",
+          "Treatment": "2% human serum"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367477",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "M2"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Spaceflight": "Space Flight",
+          "Treatment": "2% human serum"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "367478",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "cell type": "kidney proximal tubule epithelial cell",
+          "Material Type": "primary cell",
+          "Study Subject": "M2"
+        },
+        "factors": {
+          "Sex": "Male",
+          "Spaceflight": "Space Flight",
+          "Treatment": "2% human serum"
+        },
+        "parameters": {
+          "Treatment duration": "2",
+          "duration": "8",
+          "Sample Preservation Method": "RNALater"
+        },
+        "comments": {}
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina NovaSeq 6000",
+      "qc": {
+        "Read Depth": "10247416",
+        "rRNA Contamination": "1.83"
+      },
+      "library": {
+        "Library Selection": "polyA enrichment",
+        "Library Layout": "PAIRED",
+        "Stranded": "UNSTRANDED"
+      },
+      "files": {
+        "raw": [
+          "GLDS-516_rna-seq_367402_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367402_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367403_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367403_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367404_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367404_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367405_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367405_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367406_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367406_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367407_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367407_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367408_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367408_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367409_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367409_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367410_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367410_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367411_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367411_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367412_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367412_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367413_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367413_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367414_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367414_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367415_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367415_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367416_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367416_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367417_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367417_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367418_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367418_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367419_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367419_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367420_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367420_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367421_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367421_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367422_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367422_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367423_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367423_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367424_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367424_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367425_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367425_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367426_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367426_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367427_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367427_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367428_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367428_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367429_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367429_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367430_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367430_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367431_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367431_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367432_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367432_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367433_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367433_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367434_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367434_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367435_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367435_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367436_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367436_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367437_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367437_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367438_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367438_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367439_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367439_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367440_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367440_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367441_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367441_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367442_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367442_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367443_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367443_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367444_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367444_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367445_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367445_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367446_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367446_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367447_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367447_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367448_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367448_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367449_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367449_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367450_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367450_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367451_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367451_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367452_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367452_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367453_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367453_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367454_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367454_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367455_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367455_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367456_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367456_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367457_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367457_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367458_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367458_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367459_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367459_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367460_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367460_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367461_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367461_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367462_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367462_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367463_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367463_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367464_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367464_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367465_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367465_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367466_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367466_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367467_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367467_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367468_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367468_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367469_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367469_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367470_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367470_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367471_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367471_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367472_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367472_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367473_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367473_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367474_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367474_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367475_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367475_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367476_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367476_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367477_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367477_R2_raw.fastq.gz",
+          "GLDS-516_rna-seq_367478_R1_raw.fastq.gz",
+          "GLDS-516_rna-seq_367478_R2_raw.fastq.gz",
+          "GLDS-516_rna_seq_367402_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367402_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367403_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367403_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367404_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367404_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367405_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367405_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367406_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367406_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367407_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367407_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367408_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367408_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367409_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367409_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367410_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367410_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367411_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367411_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367412_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367412_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367413_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367413_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367414_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367414_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367415_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367415_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367416_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367416_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367417_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367417_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367418_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367418_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367419_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367419_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367420_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367420_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367421_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367421_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367422_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367422_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367423_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367423_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367424_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367424_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367425_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367425_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367426_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367426_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367427_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367427_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367428_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367428_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367429_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367429_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367430_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367430_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367431_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367431_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367432_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367432_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367433_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367433_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367434_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367434_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367435_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367435_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367436_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367436_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367437_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367437_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367438_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367438_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367439_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367439_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367440_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367440_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367441_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367441_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367442_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367442_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367443_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367443_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367444_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367444_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367445_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367445_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367446_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367446_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367447_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367447_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367448_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367448_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367449_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367449_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367450_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367450_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367451_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367451_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367452_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367452_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367453_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367453_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367454_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367454_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367455_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367455_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367456_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367456_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367457_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367457_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367458_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367458_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367459_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367459_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367460_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367460_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367461_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367461_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367462_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367462_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367463_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367463_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367464_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367464_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367465_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367465_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367466_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367466_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367467_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367467_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367468_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367468_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367469_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367469_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367470_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367470_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367471_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367471_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367472_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367472_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367473_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367473_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367474_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367474_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367475_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367475_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367476_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367476_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367477_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367477_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367478_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367478_R2_trimmed.fastq.gz"
+        ],
+        "processed": [
+          "GLDS-516_rna-seq_367402.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367402.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367402_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367402_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367402_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367402_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367402_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367402_SJ.out.tab",
+          "GLDS-516_rna-seq_367403.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367403.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367403_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367403_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367403_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367403_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367403_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367403_SJ.out.tab",
+          "GLDS-516_rna-seq_367404.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367404.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367404_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367404_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367404_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367404_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367404_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367404_SJ.out.tab",
+          "GLDS-516_rna-seq_367405.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367405.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367405_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367405_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367405_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367405_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367405_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367405_SJ.out.tab",
+          "GLDS-516_rna-seq_367406.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367406.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367406_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367406_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367406_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367406_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367406_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367406_SJ.out.tab",
+          "GLDS-516_rna-seq_367407.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367407.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367407_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367407_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367407_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367407_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367407_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367407_SJ.out.tab",
+          "GLDS-516_rna-seq_367408.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367408.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367408_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367408_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367408_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367408_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367408_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367408_SJ.out.tab",
+          "GLDS-516_rna-seq_367409.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367409.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367409_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367409_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367409_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367409_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367409_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367409_SJ.out.tab",
+          "GLDS-516_rna-seq_367410.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367410.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367410_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367410_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367410_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367410_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367410_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367410_SJ.out.tab",
+          "GLDS-516_rna-seq_367411.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367411.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367411_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367411_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367411_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367411_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367411_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367411_SJ.out.tab",
+          "GLDS-516_rna-seq_367412.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367412.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367412_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367412_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367412_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367412_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367412_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367412_SJ.out.tab",
+          "GLDS-516_rna-seq_367413.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367413.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367413_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367413_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367413_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367413_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367413_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367413_SJ.out.tab",
+          "GLDS-516_rna-seq_367414.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367414.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367414_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367414_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367414_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367414_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367414_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367414_SJ.out.tab",
+          "GLDS-516_rna-seq_367415.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367415.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367415_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367415_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367415_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367415_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367415_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367415_SJ.out.tab",
+          "GLDS-516_rna-seq_367416.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367416.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367416_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367416_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367416_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367416_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367416_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367416_SJ.out.tab",
+          "GLDS-516_rna-seq_367417.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367417.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367417_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367417_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367417_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367417_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367417_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367417_SJ.out.tab",
+          "GLDS-516_rna-seq_367418.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367418.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367418_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367418_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367418_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367418_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367418_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367418_SJ.out.tab",
+          "GLDS-516_rna-seq_367419.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367419.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367419_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367419_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367419_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367419_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367419_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367419_SJ.out.tab",
+          "GLDS-516_rna-seq_367420.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367420.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367420_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367420_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367420_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367420_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367420_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367420_SJ.out.tab",
+          "GLDS-516_rna-seq_367421.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367421.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367421_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367421_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367421_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367421_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367421_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367421_SJ.out.tab",
+          "GLDS-516_rna-seq_367422.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367422.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367422_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367422_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367422_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367422_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367422_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367422_SJ.out.tab",
+          "GLDS-516_rna-seq_367423.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367423.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367423_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367423_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367423_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367423_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367423_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367423_SJ.out.tab",
+          "GLDS-516_rna-seq_367424.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367424.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367424_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367424_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367424_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367424_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367424_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367424_SJ.out.tab",
+          "GLDS-516_rna-seq_367425.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367425.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367425_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367425_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367425_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367425_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367425_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367425_SJ.out.tab",
+          "GLDS-516_rna-seq_367426.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367426.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367426_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367426_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367426_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367426_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367426_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367426_SJ.out.tab",
+          "GLDS-516_rna-seq_367427.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367427.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367427_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367427_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367427_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367427_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367427_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367427_SJ.out.tab",
+          "GLDS-516_rna-seq_367428.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367428.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367428_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367428_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367428_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367428_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367428_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367428_SJ.out.tab",
+          "GLDS-516_rna-seq_367429.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367429.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367429_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367429_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367429_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367429_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367429_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367429_SJ.out.tab",
+          "GLDS-516_rna-seq_367430.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367430.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367430_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367430_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367430_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367430_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367430_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367430_SJ.out.tab",
+          "GLDS-516_rna-seq_367431.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367431.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367431_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367431_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367431_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367431_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367431_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367431_SJ.out.tab",
+          "GLDS-516_rna-seq_367432.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367432.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367432_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367432_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367432_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367432_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367432_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367432_SJ.out.tab",
+          "GLDS-516_rna-seq_367433.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367433.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367433_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367433_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367433_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367433_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367433_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367433_SJ.out.tab",
+          "GLDS-516_rna-seq_367434.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367434.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367434_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367434_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367434_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367434_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367434_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367434_SJ.out.tab",
+          "GLDS-516_rna-seq_367435.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367435.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367435_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367435_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367435_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367435_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367435_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367435_SJ.out.tab",
+          "GLDS-516_rna-seq_367436.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367436.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367436_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367436_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367436_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367436_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367436_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367436_SJ.out.tab",
+          "GLDS-516_rna-seq_367437.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367437.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367437_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367437_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367437_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367437_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367437_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367437_SJ.out.tab",
+          "GLDS-516_rna-seq_367438.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367438.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367438_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367438_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367438_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367438_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367438_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367438_SJ.out.tab",
+          "GLDS-516_rna-seq_367439.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367439.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367439_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367439_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367439_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367439_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367439_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367439_SJ.out.tab",
+          "GLDS-516_rna-seq_367440.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367440.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367440_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367440_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367440_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367440_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367440_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367440_SJ.out.tab",
+          "GLDS-516_rna-seq_367441.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367441.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367441_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367441_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367441_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367441_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367441_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367441_SJ.out.tab",
+          "GLDS-516_rna-seq_367442.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367442.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367442_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367442_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367442_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367442_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367442_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367442_SJ.out.tab",
+          "GLDS-516_rna-seq_367443.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367443.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367443_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367443_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367443_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367443_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367443_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367443_SJ.out.tab",
+          "GLDS-516_rna-seq_367444.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367444.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367444_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367444_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367444_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367444_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367444_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367444_SJ.out.tab",
+          "GLDS-516_rna-seq_367445.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367445.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367445_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367445_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367445_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367445_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367445_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367445_SJ.out.tab",
+          "GLDS-516_rna-seq_367446.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367446.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367446_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367446_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367446_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367446_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367446_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367446_SJ.out.tab",
+          "GLDS-516_rna-seq_367447.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367447.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367447_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367447_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367447_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367447_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367447_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367447_SJ.out.tab",
+          "GLDS-516_rna-seq_367448.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367448.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367448_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367448_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367448_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367448_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367448_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367448_SJ.out.tab",
+          "GLDS-516_rna-seq_367449.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367449.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367449_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367449_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367449_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367449_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367449_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367449_SJ.out.tab",
+          "GLDS-516_rna-seq_367450.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367450.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367450_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367450_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367450_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367450_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367450_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367450_SJ.out.tab",
+          "GLDS-516_rna-seq_367451.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367451.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367451_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367451_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367451_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367451_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367451_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367451_SJ.out.tab",
+          "GLDS-516_rna-seq_367452.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367452.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367452_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367452_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367452_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367452_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367452_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367452_SJ.out.tab",
+          "GLDS-516_rna-seq_367453.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367453.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367453_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367453_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367453_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367453_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367453_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367453_SJ.out.tab",
+          "GLDS-516_rna-seq_367454.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367454.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367454_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367454_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367454_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367454_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367454_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367454_SJ.out.tab",
+          "GLDS-516_rna-seq_367455.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367455.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367455_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367455_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367455_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367455_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367455_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367455_SJ.out.tab",
+          "GLDS-516_rna-seq_367456.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367456.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367456_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367456_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367456_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367456_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367456_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367456_SJ.out.tab",
+          "GLDS-516_rna-seq_367457.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367457.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367457_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367457_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367457_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367457_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367457_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367457_SJ.out.tab",
+          "GLDS-516_rna-seq_367458.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367458.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367458_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367458_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367458_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367458_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367458_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367458_SJ.out.tab",
+          "GLDS-516_rna-seq_367459.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367459.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367459_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367459_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367459_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367459_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367459_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367459_SJ.out.tab",
+          "GLDS-516_rna-seq_367460.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367460.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367460_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367460_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367460_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367460_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367460_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367460_SJ.out.tab",
+          "GLDS-516_rna-seq_367461.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367461.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367461_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367461_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367461_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367461_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367461_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367461_SJ.out.tab",
+          "GLDS-516_rna-seq_367462.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367462.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367462_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367462_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367462_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367462_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367462_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367462_SJ.out.tab",
+          "GLDS-516_rna-seq_367463.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367463.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367463_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367463_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367463_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367463_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367463_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367463_SJ.out.tab",
+          "GLDS-516_rna-seq_367464.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367464.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367464_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367464_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367464_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367464_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367464_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367464_SJ.out.tab",
+          "GLDS-516_rna-seq_367465.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367465.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367465_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367465_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367465_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367465_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367465_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367465_SJ.out.tab",
+          "GLDS-516_rna-seq_367466.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367466.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367466_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367466_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367466_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367466_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367466_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367466_SJ.out.tab",
+          "GLDS-516_rna-seq_367467.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367467.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367467_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367467_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367467_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367467_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367467_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367467_SJ.out.tab",
+          "GLDS-516_rna-seq_367468.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367468.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367468_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367468_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367468_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367468_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367468_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367468_SJ.out.tab",
+          "GLDS-516_rna-seq_367469.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367469.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367469_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367469_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367469_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367469_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367469_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367469_SJ.out.tab",
+          "GLDS-516_rna-seq_367470.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367470.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367470_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367470_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367470_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367470_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367470_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367470_SJ.out.tab",
+          "GLDS-516_rna-seq_367471.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367471.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367471_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367471_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367471_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367471_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367471_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367471_SJ.out.tab",
+          "GLDS-516_rna-seq_367472.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367472.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367472_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367472_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367472_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367472_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367472_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367472_SJ.out.tab",
+          "GLDS-516_rna-seq_367473.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367473.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367473_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367473_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367473_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367473_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367473_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367473_SJ.out.tab",
+          "GLDS-516_rna-seq_367474.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367474.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367474_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367474_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367474_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367474_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367474_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367474_SJ.out.tab",
+          "GLDS-516_rna-seq_367475.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367475.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367475_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367475_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367475_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367475_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367475_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367475_SJ.out.tab",
+          "GLDS-516_rna-seq_367476.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367476.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367476_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367476_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367476_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367476_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367476_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367476_SJ.out.tab",
+          "GLDS-516_rna-seq_367477.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367477.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367477_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367477_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367477_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367477_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367477_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367477_SJ.out.tab",
+          "GLDS-516_rna-seq_367478.accepted_hits.merged.markeddups.recal.bam",
+          "GLDS-516_rna-seq_367478.accepted_hits.merged.markeddups.recal.bai",
+          "GLDS-516_rna_seq_367478_R1_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367478_R2_trimmed.fastq.gz",
+          "GLDS-516_rna_seq_367478_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-516_rna_seq_367478_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-516_rna_seq_367478_Aligned.toTranscriptome.out.bam",
+          "GLDS-516_rna_seq_367478_SJ.out.tab",
+          "367402",
+          "GeneLab RNAseq data processing protocol",
+          "polyA enrichment",
+          "PAIRED",
+          "UNSTRANDED",
+          "Illumina NovaSeq 6000",
+          "bcl2fastq",
+          "151",
+          "percent",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000187",
+          "rna-seq",
+          "10247416",
+          "1.83",
+          "GLDS-516_rna_seq_367402.genes.results",
+          "GLDS-516_rna_seq_367402.isoforms.results",
+          "GLDS-516_rna_seq_RSEM_Unnormalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-516_rna_seq_STAR_Unnormalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-516_rna_seq_Normalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-516_rna_seq_SampleTable_GLbulkRNAseq.csv",
+          "GLDS-516_rna_seq_contrasts_GLbulkRNAseq.csv",
+          "GLDS-516_rna_seq_differential_expression_GLbulkRNAseq.csv",
+          "367403",
+          "12248016",
+          "2.77",
+          "GLDS-516_rna_seq_367403.genes.results",
+          "GLDS-516_rna_seq_367403.isoforms.results",
+          "367404",
+          "11137735",
+          "1.68",
+          "GLDS-516_rna_seq_367404.genes.results",
+          "GLDS-516_rna_seq_367404.isoforms.results",
+          "367405",
+          "13603560",
+          "1.96",
+          "GLDS-516_rna_seq_367405.genes.results",
+          "GLDS-516_rna_seq_367405.isoforms.results",
+          "367406",
+          "13550957",
+          "6.87",
+          "GLDS-516_rna_seq_367406.genes.results",
+          "GLDS-516_rna_seq_367406.isoforms.results",
+          "367407",
+          "13757254",
+          "1.82",
+          "GLDS-516_rna_seq_367407.genes.results",
+          "GLDS-516_rna_seq_367407.isoforms.results",
+          "367408",
+          "14777924",
+          "2.4",
+          "GLDS-516_rna_seq_367408.genes.results",
+          "GLDS-516_rna_seq_367408.isoforms.results",
+          "367409",
+          "12902019",
+          "2.05",
+          "GLDS-516_rna_seq_367409.genes.results",
+          "GLDS-516_rna_seq_367409.isoforms.results",
+          "367410",
+          "14941302",
+          "1.9",
+          "GLDS-516_rna_seq_367410.genes.results",
+          "GLDS-516_rna_seq_367410.isoforms.results",
+          "367411",
+          "15117477",
+          "2.59",
+          "GLDS-516_rna_seq_367411.genes.results",
+          "GLDS-516_rna_seq_367411.isoforms.results",
+          "367412",
+          "10281721",
+          "4.1",
+          "GLDS-516_rna_seq_367412.genes.results",
+          "GLDS-516_rna_seq_367412.isoforms.results",
+          "367413",
+          "15833253",
+          "2.68",
+          "GLDS-516_rna_seq_367413.genes.results",
+          "GLDS-516_rna_seq_367413.isoforms.results",
+          "367414",
+          "16498857",
+          "2.55",
+          "GLDS-516_rna_seq_367414.genes.results",
+          "GLDS-516_rna_seq_367414.isoforms.results",
+          "367415",
+          "6184167",
+          "1.4",
+          "GLDS-516_rna_seq_367415.genes.results",
+          "GLDS-516_rna_seq_367415.isoforms.results",
+          "367416",
+          "13739652",
+          "2.01",
+          "GLDS-516_rna_seq_367416.genes.results",
+          "GLDS-516_rna_seq_367416.isoforms.results",
+          "367417",
+          "14557982",
+          "1.54",
+          "GLDS-516_rna_seq_367417.genes.results",
+          "GLDS-516_rna_seq_367417.isoforms.results",
+          "367418",
+          "12687875",
+          "2.38",
+          "GLDS-516_rna_seq_367418.genes.results",
+          "GLDS-516_rna_seq_367418.isoforms.results",
+          "367419",
+          "11098194",
+          "1.58",
+          "GLDS-516_rna_seq_367419.genes.results",
+          "GLDS-516_rna_seq_367419.isoforms.results",
+          "367420",
+          "13901604",
+          "2.19",
+          "GLDS-516_rna_seq_367420.genes.results",
+          "GLDS-516_rna_seq_367420.isoforms.results",
+          "367421",
+          "16221720",
+          "1.77",
+          "GLDS-516_rna_seq_367421.genes.results",
+          "GLDS-516_rna_seq_367421.isoforms.results",
+          "367422",
+          "13763678",
+          "1.78",
+          "GLDS-516_rna_seq_367422.genes.results",
+          "GLDS-516_rna_seq_367422.isoforms.results",
+          "367423",
+          "13281591",
+          "2.04",
+          "GLDS-516_rna_seq_367423.genes.results",
+          "GLDS-516_rna_seq_367423.isoforms.results",
+          "367424",
+          "11273237",
+          "1.46",
+          "GLDS-516_rna_seq_367424.genes.results",
+          "GLDS-516_rna_seq_367424.isoforms.results",
+          "367425",
+          "13283215",
+          "2.14",
+          "GLDS-516_rna_seq_367425.genes.results",
+          "GLDS-516_rna_seq_367425.isoforms.results",
+          "367426",
+          "12413231",
+          "27.39",
+          "GLDS-516_rna_seq_367426.genes.results",
+          "GLDS-516_rna_seq_367426.isoforms.results",
+          "367427",
+          "14409422",
+          "1.49",
+          "GLDS-516_rna_seq_367427.genes.results",
+          "GLDS-516_rna_seq_367427.isoforms.results",
+          "367428",
+          "11492988",
+          "1.66",
+          "GLDS-516_rna_seq_367428.genes.results",
+          "GLDS-516_rna_seq_367428.isoforms.results",
+          "367429",
+          "15543862",
+          "1.84",
+          "GLDS-516_rna_seq_367429.genes.results",
+          "GLDS-516_rna_seq_367429.isoforms.results",
+          "367430",
+          "14206200",
+          "2.13",
+          "GLDS-516_rna_seq_367430.genes.results",
+          "GLDS-516_rna_seq_367430.isoforms.results",
+          "367431",
+          "15772476",
+          "2.25",
+          "GLDS-516_rna_seq_367431.genes.results",
+          "GLDS-516_rna_seq_367431.isoforms.results",
+          "367432",
+          "14513406",
+          "2.75",
+          "GLDS-516_rna_seq_367432.genes.results",
+          "GLDS-516_rna_seq_367432.isoforms.results",
+          "367433",
+          "11649100",
+          "2.32",
+          "GLDS-516_rna_seq_367433.genes.results",
+          "GLDS-516_rna_seq_367433.isoforms.results",
+          "367434",
+          "13629446",
+          "1.85",
+          "GLDS-516_rna_seq_367434.genes.results",
+          "GLDS-516_rna_seq_367434.isoforms.results",
+          "367435",
+          "10297208",
+          "1.64",
+          "GLDS-516_rna_seq_367435.genes.results",
+          "GLDS-516_rna_seq_367435.isoforms.results",
+          "367436",
+          "11484994",
+          "1.95",
+          "GLDS-516_rna_seq_367436.genes.results",
+          "GLDS-516_rna_seq_367436.isoforms.results",
+          "367437",
+          "15389241",
+          "2.02",
+          "GLDS-516_rna_seq_367437.genes.results",
+          "GLDS-516_rna_seq_367437.isoforms.results",
+          "367438",
+          "15148833",
+          "2.39",
+          "GLDS-516_rna_seq_367438.genes.results",
+          "GLDS-516_rna_seq_367438.isoforms.results",
+          "367439",
+          "12585173",
+          "2.43",
+          "GLDS-516_rna_seq_367439.genes.results",
+          "GLDS-516_rna_seq_367439.isoforms.results",
+          "367440",
+          "14753421",
+          "4.33",
+          "GLDS-516_rna_seq_367440.genes.results",
+          "GLDS-516_rna_seq_367440.isoforms.results",
+          "367441",
+          "10123181",
+          "2.06",
+          "GLDS-516_rna_seq_367441.genes.results",
+          "GLDS-516_rna_seq_367441.isoforms.results",
+          "367442",
+          "11141160",
+          "1.63",
+          "GLDS-516_rna_seq_367442.genes.results",
+          "GLDS-516_rna_seq_367442.isoforms.results",
+          "367443",
+          "11674826",
+          "1.47",
+          "GLDS-516_rna_seq_367443.genes.results",
+          "GLDS-516_rna_seq_367443.isoforms.results",
+          "367444",
+          "11783659",
+          "GLDS-516_rna_seq_367444.genes.results",
+          "GLDS-516_rna_seq_367444.isoforms.results",
+          "367445",
+          "10978232",
+          "3.92",
+          "GLDS-516_rna_seq_367445.genes.results",
+          "GLDS-516_rna_seq_367445.isoforms.results",
+          "367446",
+          "11846223",
+          "1.91",
+          "GLDS-516_rna_seq_367446.genes.results",
+          "GLDS-516_rna_seq_367446.isoforms.results",
+          "367447",
+          "11466214",
+          "GLDS-516_rna_seq_367447.genes.results",
+          "GLDS-516_rna_seq_367447.isoforms.results",
+          "367448",
+          "7564885",
+          "2.22",
+          "GLDS-516_rna_seq_367448.genes.results",
+          "GLDS-516_rna_seq_367448.isoforms.results",
+          "367449",
+          "7149393",
+          "3.54",
+          "GLDS-516_rna_seq_367449.genes.results",
+          "GLDS-516_rna_seq_367449.isoforms.results",
+          "367450",
+          "13691086",
+          "1.62",
+          "GLDS-516_rna_seq_367450.genes.results",
+          "GLDS-516_rna_seq_367450.isoforms.results",
+          "367451",
+          "10774200",
+          "GLDS-516_rna_seq_367451.genes.results",
+          "GLDS-516_rna_seq_367451.isoforms.results",
+          "367452",
+          "11266650",
+          "2.6",
+          "GLDS-516_rna_seq_367452.genes.results",
+          "GLDS-516_rna_seq_367452.isoforms.results",
+          "367453",
+          "13410257",
+          "1.67",
+          "GLDS-516_rna_seq_367453.genes.results",
+          "GLDS-516_rna_seq_367453.isoforms.results",
+          "367454",
+          "11869114",
+          "2.56",
+          "GLDS-516_rna_seq_367454.genes.results",
+          "GLDS-516_rna_seq_367454.isoforms.results",
+          "367455",
+          "12784511",
+          "3.33",
+          "GLDS-516_rna_seq_367455.genes.results",
+          "GLDS-516_rna_seq_367455.isoforms.results",
+          "367456",
+          "9698705",
+          "3.13",
+          "GLDS-516_rna_seq_367456.genes.results",
+          "GLDS-516_rna_seq_367456.isoforms.results",
+          "367457",
+          "8672257",
+          "GLDS-516_rna_seq_367457.genes.results",
+          "GLDS-516_rna_seq_367457.isoforms.results",
+          "367458",
+          "8301652",
+          "2.16",
+          "GLDS-516_rna_seq_367458.genes.results",
+          "GLDS-516_rna_seq_367458.isoforms.results",
+          "367459",
+          "7845885",
+          "1.76",
+          "GLDS-516_rna_seq_367459.genes.results",
+          "GLDS-516_rna_seq_367459.isoforms.results",
+          "367460",
+          "9902720",
+          "2.65",
+          "GLDS-516_rna_seq_367460.genes.results",
+          "GLDS-516_rna_seq_367460.isoforms.results",
+          "367461",
+          "8029876",
+          "GLDS-516_rna_seq_367461.genes.results",
+          "GLDS-516_rna_seq_367461.isoforms.results",
+          "367462",
+          "13104705",
+          "GLDS-516_rna_seq_367462.genes.results",
+          "GLDS-516_rna_seq_367462.isoforms.results",
+          "367463",
+          "14010876",
+          "1.69",
+          "GLDS-516_rna_seq_367463.genes.results",
+          "GLDS-516_rna_seq_367463.isoforms.results",
+          "367464",
+          "12406440",
+          "1.89",
+          "GLDS-516_rna_seq_367464.genes.results",
+          "GLDS-516_rna_seq_367464.isoforms.results",
+          "367465",
+          "11751412",
+          "4.68",
+          "GLDS-516_rna_seq_367465.genes.results",
+          "GLDS-516_rna_seq_367465.isoforms.results",
+          "367466",
+          "8924780",
+          "4.78",
+          "GLDS-516_rna_seq_367466.genes.results",
+          "GLDS-516_rna_seq_367466.isoforms.results",
+          "367467",
+          "15642131",
+          "GLDS-516_rna_seq_367467.genes.results",
+          "GLDS-516_rna_seq_367467.isoforms.results",
+          "367468",
+          "13234842",
+          "GLDS-516_rna_seq_367468.genes.results",
+          "GLDS-516_rna_seq_367468.isoforms.results",
+          "367469",
+          "15500502",
+          "8.45",
+          "GLDS-516_rna_seq_367469.genes.results",
+          "GLDS-516_rna_seq_367469.isoforms.results",
+          "367470",
+          "14933946",
+          "1.73",
+          "GLDS-516_rna_seq_367470.genes.results",
+          "GLDS-516_rna_seq_367470.isoforms.results",
+          "367471",
+          "12681794",
+          "1.39",
+          "GLDS-516_rna_seq_367471.genes.results",
+          "GLDS-516_rna_seq_367471.isoforms.results",
+          "367472",
+          "10655149",
+          "2.41",
+          "GLDS-516_rna_seq_367472.genes.results",
+          "GLDS-516_rna_seq_367472.isoforms.results",
+          "367473",
+          "11511324",
+          "4.57",
+          "GLDS-516_rna_seq_367473.genes.results",
+          "GLDS-516_rna_seq_367473.isoforms.results",
+          "367474",
+          "11720055",
+          "1.94",
+          "GLDS-516_rna_seq_367474.genes.results",
+          "GLDS-516_rna_seq_367474.isoforms.results",
+          "367475",
+          "14410141",
+          "1.45",
+          "GLDS-516_rna_seq_367475.genes.results",
+          "GLDS-516_rna_seq_367475.isoforms.results",
+          "367476",
+          "12860785",
+          "2.11",
+          "GLDS-516_rna_seq_367476.genes.results",
+          "GLDS-516_rna_seq_367476.isoforms.results",
+          "367477",
+          "14282492",
+          "3.09",
+          "GLDS-516_rna_seq_367477.genes.results",
+          "GLDS-516_rna_seq_367477.isoforms.results",
+          "367478",
+          "11351387",
+          "1.29",
+          "GLDS-516_rna_seq_367478.genes.results",
+          "GLDS-516_rna_seq_367478.isoforms.results"
+        ],
+        "reports": [
+          "GLDS-516_rna_seq_raw_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-516_rna_seq_367402_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367402_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367402_Log.final.out",
+          "GLDS-516_rna_seq_align_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-516_rna_seq_geneBody_cov_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-516_rna_seq_infer_exp_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-516_rna_seq_inner_dist_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-516_rna_seq_read_dist_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-516_rna_seq_RSEM_count_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-516_rna_seq_367403_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367403_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367403_Log.final.out",
+          "GLDS-516_rna_seq_367404_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367404_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367404_Log.final.out",
+          "GLDS-516_rna_seq_367405_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367405_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367405_Log.final.out",
+          "GLDS-516_rna_seq_367406_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367406_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367406_Log.final.out",
+          "GLDS-516_rna_seq_367407_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367407_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367407_Log.final.out",
+          "GLDS-516_rna_seq_367408_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367408_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367408_Log.final.out",
+          "GLDS-516_rna_seq_367409_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367409_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367409_Log.final.out",
+          "GLDS-516_rna_seq_367410_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367410_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367410_Log.final.out",
+          "GLDS-516_rna_seq_367411_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367411_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367411_Log.final.out",
+          "GLDS-516_rna_seq_367412_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367412_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367412_Log.final.out",
+          "GLDS-516_rna_seq_367413_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367413_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367413_Log.final.out",
+          "GLDS-516_rna_seq_367414_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367414_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367414_Log.final.out",
+          "GLDS-516_rna_seq_367415_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367415_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367415_Log.final.out",
+          "GLDS-516_rna_seq_367416_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367416_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367416_Log.final.out",
+          "GLDS-516_rna_seq_367417_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367417_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367417_Log.final.out",
+          "GLDS-516_rna_seq_367418_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367418_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367418_Log.final.out",
+          "GLDS-516_rna_seq_367419_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367419_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367419_Log.final.out",
+          "GLDS-516_rna_seq_367420_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367420_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367420_Log.final.out",
+          "GLDS-516_rna_seq_367421_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367421_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367421_Log.final.out",
+          "GLDS-516_rna_seq_367422_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367422_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367422_Log.final.out",
+          "GLDS-516_rna_seq_367423_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367423_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367423_Log.final.out",
+          "GLDS-516_rna_seq_367424_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367424_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367424_Log.final.out",
+          "GLDS-516_rna_seq_367425_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367425_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367425_Log.final.out",
+          "GLDS-516_rna_seq_367426_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367426_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367426_Log.final.out",
+          "GLDS-516_rna_seq_367427_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367427_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367427_Log.final.out",
+          "GLDS-516_rna_seq_367428_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367428_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367428_Log.final.out",
+          "GLDS-516_rna_seq_367429_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367429_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367429_Log.final.out",
+          "GLDS-516_rna_seq_367430_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367430_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367430_Log.final.out",
+          "GLDS-516_rna_seq_367431_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367431_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367431_Log.final.out",
+          "GLDS-516_rna_seq_367432_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367432_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367432_Log.final.out",
+          "GLDS-516_rna_seq_367433_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367433_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367433_Log.final.out",
+          "GLDS-516_rna_seq_367434_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367434_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367434_Log.final.out",
+          "GLDS-516_rna_seq_367435_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367435_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367435_Log.final.out",
+          "GLDS-516_rna_seq_367436_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367436_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367436_Log.final.out",
+          "GLDS-516_rna_seq_367437_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367437_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367437_Log.final.out",
+          "GLDS-516_rna_seq_367438_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367438_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367438_Log.final.out",
+          "GLDS-516_rna_seq_367439_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367439_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367439_Log.final.out",
+          "GLDS-516_rna_seq_367440_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367440_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367440_Log.final.out",
+          "GLDS-516_rna_seq_367441_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367441_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367441_Log.final.out",
+          "GLDS-516_rna_seq_367442_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367442_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367442_Log.final.out",
+          "GLDS-516_rna_seq_367443_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367443_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367443_Log.final.out",
+          "GLDS-516_rna_seq_367444_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367444_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367444_Log.final.out",
+          "GLDS-516_rna_seq_367445_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367445_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367445_Log.final.out",
+          "GLDS-516_rna_seq_367446_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367446_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367446_Log.final.out",
+          "GLDS-516_rna_seq_367447_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367447_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367447_Log.final.out",
+          "GLDS-516_rna_seq_367448_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367448_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367448_Log.final.out",
+          "GLDS-516_rna_seq_367449_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367449_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367449_Log.final.out",
+          "GLDS-516_rna_seq_367450_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367450_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367450_Log.final.out",
+          "GLDS-516_rna_seq_367451_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367451_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367451_Log.final.out",
+          "GLDS-516_rna_seq_367452_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367452_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367452_Log.final.out",
+          "GLDS-516_rna_seq_367453_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367453_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367453_Log.final.out",
+          "GLDS-516_rna_seq_367454_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367454_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367454_Log.final.out",
+          "GLDS-516_rna_seq_367455_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367455_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367455_Log.final.out",
+          "GLDS-516_rna_seq_367456_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367456_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367456_Log.final.out",
+          "GLDS-516_rna_seq_367457_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367457_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367457_Log.final.out",
+          "GLDS-516_rna_seq_367458_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367458_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367458_Log.final.out",
+          "GLDS-516_rna_seq_367459_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367459_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367459_Log.final.out",
+          "GLDS-516_rna_seq_367460_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367460_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367460_Log.final.out",
+          "GLDS-516_rna_seq_367461_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367461_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367461_Log.final.out",
+          "GLDS-516_rna_seq_367462_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367462_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367462_Log.final.out",
+          "GLDS-516_rna_seq_367463_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367463_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367463_Log.final.out",
+          "GLDS-516_rna_seq_367464_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367464_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367464_Log.final.out",
+          "GLDS-516_rna_seq_367465_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367465_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367465_Log.final.out",
+          "GLDS-516_rna_seq_367466_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367466_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367466_Log.final.out",
+          "GLDS-516_rna_seq_367467_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367467_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367467_Log.final.out",
+          "GLDS-516_rna_seq_367468_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367468_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367468_Log.final.out",
+          "GLDS-516_rna_seq_367469_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367469_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367469_Log.final.out",
+          "GLDS-516_rna_seq_367470_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367470_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367470_Log.final.out",
+          "GLDS-516_rna_seq_367471_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367471_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367471_Log.final.out",
+          "GLDS-516_rna_seq_367472_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367472_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367472_Log.final.out",
+          "GLDS-516_rna_seq_367473_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367473_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367473_Log.final.out",
+          "GLDS-516_rna_seq_367474_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367474_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367474_Log.final.out",
+          "GLDS-516_rna_seq_367475_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367475_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367475_Log.final.out",
+          "GLDS-516_rna_seq_367476_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367476_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367476_Log.final.out",
+          "GLDS-516_rna_seq_367477_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367477_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367477_Log.final.out",
+          "GLDS-516_rna_seq_367478_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367478_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-516_rna_seq_367478_Log.final.out"
+        ]
+      }
+    }
+  ]
+}

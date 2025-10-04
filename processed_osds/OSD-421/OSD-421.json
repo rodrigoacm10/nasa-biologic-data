@@ -1,0 +1,1173 @@
+{
+  "investigation": {
+    "id": "OSD-421",
+    "title": "Transcriptional profiling of thymus from mice flown on the RR-9 mission",
+    "description": "The objective of the Rodent Research-9 (RR-9) mission was to use mice to understand the molecular basis of phenomena that affect astronauts during long-duration spaceflight, particularly visual impairment, and joint tissue degradation. To this end, a flight group (FLT) of 10-week-old male C57BL/6J mice were launched from Kennedy Space Center (KSC) on 8/14/2017 and housed in Rodent Habitats on the ISS for 33 days before being returned alive to Earth.",
+    "mission": {
+      "name": "SpaceX-12",
+      "start_date": "08/14/2017",
+      "end_date": "09/17/2017",
+      "link": "https://osdr.nasa.gov/bio/repo/data/missions/SpaceX-12"
+    },
+    "project": {
+      "identifier": "RR-9",
+      "title": "Rodent Research 9",
+      "type": "Spaceflight Study",
+      "link": "https://lsda.jsc.nasa.gov/Experiment/exper/13964",
+      "funding": "The sequencing analysis was funded by the NASA Space Biology program within the NASA Science Mission Directorate's (SMD) Biological and Physical Sciences (BPS) Division.",
+      "managing_center": "Ames Research Center (ARC)"
+    },
+    "protocols": [
+      "Animal Husbandry",
+      "Sample Collection",
+      "Nucleic Acid Extraction",
+      "Spike-in Protocol",
+      "Library Construction",
+      "Nucleic Acid Sequencing",
+      "GeneLab raw data processing protocol",
+      "GeneLab RNAseq data processing protocol"
+    ],
+    "publications": [],
+    "factors": [
+      "Spaceflight"
+    ],
+    "contacts": [
+      {
+        "first_name": "Jonathan",
+        "last_name": "Galazka",
+        "role": "conceptualization role",
+        "email": "jonathan.m.galazka@nasa.gov"
+      },
+      {
+        "first_name": "Lovorka",
+        "last_name": "Degoricija",
+        "role": "conceptualization role",
+        "email": ""
+      },
+      {
+        "first_name": "San-Huei",
+        "last_name": "Lai Polo",
+        "role": "data curation role",
+        "email": ""
+      },
+      {
+        "first_name": "Amanda",
+        "last_name": "Saravia-Butler",
+        "role": "formal analysis role",
+        "email": ""
+      },
+      {
+        "first_name": "Lovorka",
+        "last_name": "Degoricija",
+        "role": "investigation role",
+        "email": ""
+      },
+      {
+        "first_name": "Valery",
+        "last_name": "Boyko",
+        "role": "investigation role",
+        "email": ""
+      },
+      {
+        "first_name": "Marie",
+        "last_name": "Dinh",
+        "role": "investigation role",
+        "email": ""
+      },
+      {
+        "first_name": "Charles",
+        "last_name": "Houseman",
+        "role": "investigation role",
+        "email": ""
+      },
+      {
+        "first_name": "Sylvain",
+        "last_name": "Costes",
+        "role": "project administration role",
+        "email": ""
+      },
+      {
+        "first_name": "Samrawit",
+        "last_name": "Gebre",
+        "role": "project administration role",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "RR9_TMS_FLT_F1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Age at Launch": "10",
+          "Sex": "Male",
+          "Material Type": "thymus"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "Enrichment material": "Hut",
+          "duration": "33",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "Carbon Dioxide",
+          "Carcass Weight": "23.6",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Launch Date": "14-Aug-2017",
+          "Euthanasia and Dissection Date": "18-Sep-2017",
+          "ALSDA Source Name": "Thymus - half (FLT)",
+          "ALSDA Biospecimen Subject ID": "584",
+          "ALSDA Biospecimen Source ID": "5776"
+        }
+      },
+      {
+        "sample_name": "RR9_TMS_FLT_F6",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Age at Launch": "10",
+          "Sex": "Male",
+          "Material Type": "thymus"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "Enrichment material": "Hut",
+          "duration": "33",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "Carbon Dioxide",
+          "Carcass Weight": "27",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Launch Date": "14-Aug-2017",
+          "Euthanasia and Dissection Date": "18-Sep-2017",
+          "ALSDA Source Name": "Thymus - half (FLT)",
+          "ALSDA Biospecimen Subject ID": "584",
+          "ALSDA Biospecimen Source ID": "5776"
+        }
+      },
+      {
+        "sample_name": "RR9_TMS_FLT_F7",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Age at Launch": "10",
+          "Sex": "Male",
+          "Material Type": "thymus"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "Enrichment material": "Hut",
+          "duration": "33",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "Carbon Dioxide",
+          "Carcass Weight": "29.5",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Launch Date": "14-Aug-2017",
+          "Euthanasia and Dissection Date": "18-Sep-2017",
+          "ALSDA Source Name": "Thymus - half (FLT)",
+          "ALSDA Biospecimen Subject ID": "584",
+          "ALSDA Biospecimen Source ID": "5776"
+        }
+      },
+      {
+        "sample_name": "RR9_TMS_FLT_F3",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Age at Launch": "10",
+          "Sex": "Male",
+          "Material Type": "thymus"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "Enrichment material": "Hut",
+          "duration": "33",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "Carbon Dioxide",
+          "Carcass Weight": "27.5",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Launch Date": "14-Aug-2017",
+          "Euthanasia and Dissection Date": "18-Sep-2017",
+          "ALSDA Source Name": "Thymus - half (FLT)",
+          "ALSDA Biospecimen Subject ID": "584",
+          "ALSDA Biospecimen Source ID": "5776"
+        }
+      },
+      {
+        "sample_name": "RR9_TMS_FLT_F5",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Age at Launch": "10",
+          "Sex": "Male",
+          "Material Type": "thymus"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "Enrichment material": "Hut",
+          "duration": "33",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "Carbon Dioxide",
+          "Carcass Weight": "26.5",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Launch Date": "14-Aug-2017",
+          "Euthanasia and Dissection Date": "18-Sep-2017",
+          "ALSDA Source Name": "Thymus - half (FLT)",
+          "ALSDA Biospecimen Subject ID": "584",
+          "ALSDA Biospecimen Source ID": "5776"
+        }
+      },
+      {
+        "sample_name": "RR9_TMS_FLT_F2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Age at Launch": "10",
+          "Sex": "Male",
+          "Material Type": "thymus"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "Enrichment material": "Hut",
+          "duration": "33",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "Carbon Dioxide",
+          "Carcass Weight": "25.1",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Launch Date": "14-Aug-2017",
+          "Euthanasia and Dissection Date": "18-Sep-2017",
+          "ALSDA Source Name": "Thymus - half (FLT)",
+          "ALSDA Biospecimen Subject ID": "584",
+          "ALSDA Biospecimen Source ID": "5776"
+        }
+      },
+      {
+        "sample_name": "RR9_TMS_FLT_F8",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Age at Launch": "10",
+          "Sex": "Male",
+          "Material Type": "thymus"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "Enrichment material": "Hut",
+          "duration": "33",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "Carbon Dioxide",
+          "Carcass Weight": "31.2",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Launch Date": "14-Aug-2017",
+          "Euthanasia and Dissection Date": "18-Sep-2017",
+          "ALSDA Source Name": "Thymus - half (FLT)",
+          "ALSDA Biospecimen Subject ID": "584",
+          "ALSDA Biospecimen Source ID": "5776"
+        }
+      },
+      {
+        "sample_name": "RR9_TMS_FLT_F4",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Age at Launch": "10",
+          "Sex": "Male",
+          "Material Type": "thymus"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "Enrichment material": "Hut",
+          "duration": "33",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "Carbon Dioxide",
+          "Carcass Weight": "24.2",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Launch Date": "14-Aug-2017",
+          "Euthanasia and Dissection Date": "18-Sep-2017",
+          "ALSDA Source Name": "Thymus - half (FLT)",
+          "ALSDA Biospecimen Subject ID": "584",
+          "ALSDA Biospecimen Source ID": "5776"
+        }
+      },
+      {
+        "sample_name": "RR9_TMS_FLT_F10",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Age at Launch": "10",
+          "Sex": "Male",
+          "Material Type": "thymus"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "Enrichment material": "Hut",
+          "duration": "33",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "Carbon Dioxide",
+          "Carcass Weight": "26.9",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Launch Date": "14-Aug-2017",
+          "Euthanasia and Dissection Date": "18-Sep-2017",
+          "ALSDA Source Name": "Thymus - half (FLT)",
+          "ALSDA Biospecimen Subject ID": "584",
+          "ALSDA Biospecimen Source ID": "5776"
+        }
+      },
+      {
+        "sample_name": "RR9_TMS_FLT_F9",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Age at Launch": "10",
+          "Sex": "Male",
+          "Material Type": "thymus"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "Enrichment material": "Hut",
+          "duration": "33",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "Carbon Dioxide",
+          "Carcass Weight": "25",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Launch Date": "14-Aug-2017",
+          "Euthanasia and Dissection Date": "18-Sep-2017",
+          "ALSDA Source Name": "Thymus - half (FLT)",
+          "ALSDA Biospecimen Subject ID": "584",
+          "ALSDA Biospecimen Source ID": "5776"
+        }
+      },
+      {
+        "sample_name": "RR9_TMS_GC_G4",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Age at Launch": "10",
+          "Sex": "Male",
+          "Material Type": "thymus"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "Enrichment material": "Hut",
+          "duration": "33",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "Carbon Dioxide",
+          "Carcass Weight": "30.17",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Launch Date": "14-May-2018",
+          "Euthanasia and Dissection Date": "18-Jun-2018",
+          "ALSDA Source Name": "Thymus - half (GC)",
+          "ALSDA Biospecimen Subject ID": "585",
+          "ALSDA Biospecimen Source ID": "6382"
+        }
+      },
+      {
+        "sample_name": "RR9_TMS_GC_G10",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Age at Launch": "10",
+          "Sex": "Male",
+          "Material Type": "thymus"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "Enrichment material": "Hut",
+          "duration": "33",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "Carbon Dioxide",
+          "Carcass Weight": "33.6",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Launch Date": "14-May-2018",
+          "Euthanasia and Dissection Date": "18-Jun-2018",
+          "ALSDA Source Name": "Thymus - half (GC)",
+          "ALSDA Biospecimen Subject ID": "585",
+          "ALSDA Biospecimen Source ID": "6382"
+        }
+      },
+      {
+        "sample_name": "RR9_TMS_GC_G1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Age at Launch": "10",
+          "Sex": "Male",
+          "Material Type": "thymus"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "Enrichment material": "Hut",
+          "duration": "33",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "Carbon Dioxide",
+          "Carcass Weight": "33.58",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Launch Date": "14-May-2018",
+          "Euthanasia and Dissection Date": "18-Jun-2018",
+          "ALSDA Source Name": "Thymus - half (GC)",
+          "ALSDA Biospecimen Subject ID": "585",
+          "ALSDA Biospecimen Source ID": "6382"
+        }
+      },
+      {
+        "sample_name": "RR9_TMS_GC_G7",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Age at Launch": "10",
+          "Sex": "Male",
+          "Material Type": "thymus"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "Enrichment material": "Hut",
+          "duration": "33",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "Carbon Dioxide",
+          "Carcass Weight": "27.89",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Launch Date": "14-May-2018",
+          "Euthanasia and Dissection Date": "18-Jun-2018",
+          "ALSDA Source Name": "Thymus - half (GC)",
+          "ALSDA Biospecimen Subject ID": "585",
+          "ALSDA Biospecimen Source ID": "6382"
+        }
+      },
+      {
+        "sample_name": "RR9_TMS_GC_G6",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Age at Launch": "10",
+          "Sex": "Male",
+          "Material Type": "thymus"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "Enrichment material": "Hut",
+          "duration": "33",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "Carbon Dioxide",
+          "Carcass Weight": "31.65",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Launch Date": "14-May-2018",
+          "Euthanasia and Dissection Date": "18-Jun-2018",
+          "ALSDA Source Name": "Thymus - half (GC)",
+          "ALSDA Biospecimen Subject ID": "585",
+          "ALSDA Biospecimen Source ID": "6382"
+        }
+      },
+      {
+        "sample_name": "RR9_TMS_GC_G9",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Age at Launch": "10",
+          "Sex": "Male",
+          "Material Type": "thymus"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "Enrichment material": "Hut",
+          "duration": "33",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "Carbon Dioxide",
+          "Carcass Weight": "32.58",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Launch Date": "14-May-2018",
+          "Euthanasia and Dissection Date": "18-Jun-2018",
+          "ALSDA Source Name": "Thymus - half (GC)",
+          "ALSDA Biospecimen Subject ID": "585",
+          "ALSDA Biospecimen Source ID": "6382"
+        }
+      },
+      {
+        "sample_name": "RR9_TMS_GC_G8",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Age at Launch": "10",
+          "Sex": "Male",
+          "Material Type": "thymus"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "Enrichment material": "Hut",
+          "duration": "33",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "Carbon Dioxide",
+          "Carcass Weight": "28.96",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Launch Date": "14-May-2018",
+          "Euthanasia and Dissection Date": "18-Jun-2018",
+          "ALSDA Source Name": "Thymus - half (GC)",
+          "ALSDA Biospecimen Subject ID": "585",
+          "ALSDA Biospecimen Source ID": "6382"
+        }
+      },
+      {
+        "sample_name": "RR9_TMS_GC_G3",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Age at Launch": "10",
+          "Sex": "Male",
+          "Material Type": "thymus"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "Enrichment material": "Hut",
+          "duration": "33",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "Carbon Dioxide",
+          "Carcass Weight": "30.77",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Launch Date": "14-May-2018",
+          "Euthanasia and Dissection Date": "18-Jun-2018",
+          "ALSDA Source Name": "Thymus - half (GC)",
+          "ALSDA Biospecimen Subject ID": "585",
+          "ALSDA Biospecimen Source ID": "6382"
+        }
+      },
+      {
+        "sample_name": "RR9_TMS_GC_G2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Age at Launch": "10",
+          "Sex": "Male",
+          "Material Type": "thymus"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "Enrichment material": "Hut",
+          "duration": "33",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "Carbon Dioxide",
+          "Carcass Weight": "34.68",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Launch Date": "14-May-2018",
+          "Euthanasia and Dissection Date": "18-Jun-2018",
+          "ALSDA Source Name": "Thymus - half (GC)",
+          "ALSDA Biospecimen Subject ID": "585",
+          "ALSDA Biospecimen Source ID": "6382"
+        }
+      },
+      {
+        "sample_name": "RR9_TMS_GC_G5",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Age at Launch": "10",
+          "Sex": "Male",
+          "Material Type": "thymus"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "habitat": "Rodent Habitat",
+          "Enrichment material": "Hut",
+          "duration": "33",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "Carbon Dioxide",
+          "Carcass Weight": "31.79",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Launch Date": "14-May-2018",
+          "Euthanasia and Dissection Date": "18-Jun-2018",
+          "ALSDA Source Name": "Thymus - half (GC)",
+          "ALSDA Biospecimen Subject ID": "585",
+          "ALSDA Biospecimen Source ID": "6382"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina NovaSeq 6000",
+      "qc": {
+        "QA Instrument": "Agilent 4200 TapeStation",
+        "QA Assay": "RNA ScreenTape",
+        "QA Score": "5.7",
+        "Read Depth": "13764513",
+        "rRNA Contamination": "8.48"
+      },
+      "library": {
+        "Library Selection": "polyA enrichment",
+        "Library Layout": "SINGLE",
+        "Stranded": "STRANDED",
+        "Library QA Instrument": "Agilent 4200 TapeStation",
+        "Library Kit": "QIAseq UPX 3' Transcriptome kit"
+      },
+      "files": {
+        "raw": [
+          "GLDS-421_rna-seq_RR9_TMS_FLT_F1_R1_raw.fastq.gz",
+          "GLDS-421_rna-seq_RR9_TMS_FLT_F6_R1_raw.fastq.gz",
+          "GLDS-421_rna-seq_RR9_TMS_FLT_F7_R1_raw.fastq.gz",
+          "GLDS-421_rna-seq_RR9_TMS_FLT_F3_R1_raw.fastq.gz",
+          "GLDS-421_rna-seq_RR9_TMS_FLT_F5_R1_raw.fastq.gz",
+          "GLDS-421_rna-seq_RR9_TMS_FLT_F2_R1_raw.fastq.gz",
+          "GLDS-421_rna-seq_RR9_TMS_FLT_F8_R1_raw.fastq.gz",
+          "GLDS-421_rna-seq_RR9_TMS_FLT_F4_R1_raw.fastq.gz",
+          "GLDS-421_rna-seq_RR9_TMS_FLT_F10_R1_raw.fastq.gz",
+          "GLDS-421_rna-seq_RR9_TMS_FLT_F9_R1_raw.fastq.gz",
+          "GLDS-421_rna-seq_RR9_TMS_GC_G4_R1_raw.fastq.gz",
+          "GLDS-421_rna-seq_RR9_TMS_GC_G10_R1_raw.fastq.gz",
+          "GLDS-421_rna-seq_RR9_TMS_GC_G1_R1_raw.fastq.gz",
+          "GLDS-421_rna-seq_RR9_TMS_GC_G7_R1_raw.fastq.gz",
+          "GLDS-421_rna-seq_RR9_TMS_GC_G6_R1_raw.fastq.gz",
+          "GLDS-421_rna-seq_RR9_TMS_GC_G9_R1_raw.fastq.gz",
+          "GLDS-421_rna-seq_RR9_TMS_GC_G8_R1_raw.fastq.gz",
+          "GLDS-421_rna-seq_RR9_TMS_GC_G3_R1_raw.fastq.gz",
+          "GLDS-421_rna-seq_RR9_TMS_GC_G2_R1_raw.fastq.gz",
+          "GLDS-421_rna-seq_RR9_TMS_GC_G5_R1_raw.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F1_raw.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F1_trimmed.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F1_unmapped.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F6_raw.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F6_trimmed.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F6_unmapped.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F7_raw.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F7_trimmed.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F7_unmapped.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F3_raw.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F3_trimmed.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F3_unmapped.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F5_raw.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F5_trimmed.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F5_unmapped.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F2_raw.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F2_trimmed.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F2_unmapped.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F8_raw.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F8_trimmed.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F8_unmapped.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F4_raw.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F4_trimmed.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F4_unmapped.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F10_raw.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F10_trimmed.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F10_unmapped.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F9_raw.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F9_trimmed.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F9_unmapped.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G4_raw.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G4_trimmed.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G4_unmapped.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G10_raw.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G10_trimmed.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G10_unmapped.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G1_raw.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G1_trimmed.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G1_unmapped.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G7_raw.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G7_trimmed.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G7_unmapped.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G6_raw.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G6_trimmed.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G6_unmapped.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G9_raw.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G9_trimmed.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G9_unmapped.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G8_raw.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G8_trimmed.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G8_unmapped.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G3_raw.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G3_trimmed.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G3_unmapped.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G2_raw.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G2_trimmed.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G2_unmapped.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G5_raw.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G5_trimmed.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G5_unmapped.fastq.gz"
+        ],
+        "processed": [
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F1_trimmed.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F1_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F1_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F1_Aligned.toTranscriptome.out.bam",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F1_SJ.out.tab",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F6_trimmed.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F6_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F6_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F6_Aligned.toTranscriptome.out.bam",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F6_SJ.out.tab",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F7_trimmed.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F7_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F7_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F7_Aligned.toTranscriptome.out.bam",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F7_SJ.out.tab",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F3_trimmed.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F3_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F3_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F3_Aligned.toTranscriptome.out.bam",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F3_SJ.out.tab",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F5_trimmed.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F5_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F5_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F5_Aligned.toTranscriptome.out.bam",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F5_SJ.out.tab",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F2_trimmed.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F2_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F2_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F2_Aligned.toTranscriptome.out.bam",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F2_SJ.out.tab",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F8_trimmed.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F8_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F8_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F8_Aligned.toTranscriptome.out.bam",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F8_SJ.out.tab",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F4_trimmed.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F4_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F4_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F4_Aligned.toTranscriptome.out.bam",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F4_SJ.out.tab",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F10_trimmed.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F10_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F10_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F10_Aligned.toTranscriptome.out.bam",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F10_SJ.out.tab",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F9_trimmed.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F9_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F9_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F9_Aligned.toTranscriptome.out.bam",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F9_SJ.out.tab",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G4_trimmed.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G4_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G4_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G4_Aligned.toTranscriptome.out.bam",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G4_SJ.out.tab",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G10_trimmed.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G10_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G10_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G10_Aligned.toTranscriptome.out.bam",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G10_SJ.out.tab",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G1_trimmed.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G1_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G1_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G1_Aligned.toTranscriptome.out.bam",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G1_SJ.out.tab",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G7_trimmed.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G7_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G7_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G7_Aligned.toTranscriptome.out.bam",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G7_SJ.out.tab",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G6_trimmed.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G6_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G6_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G6_Aligned.toTranscriptome.out.bam",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G6_SJ.out.tab",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G9_trimmed.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G9_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G9_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G9_Aligned.toTranscriptome.out.bam",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G9_SJ.out.tab",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G8_trimmed.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G8_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G8_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G8_Aligned.toTranscriptome.out.bam",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G8_SJ.out.tab",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G3_trimmed.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G3_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G3_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G3_Aligned.toTranscriptome.out.bam",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G3_SJ.out.tab",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G2_trimmed.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G2_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G2_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G2_Aligned.toTranscriptome.out.bam",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G2_SJ.out.tab",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G5_trimmed.fastq.gz",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G5_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G5_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G5_Aligned.toTranscriptome.out.bam",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G5_SJ.out.tab",
+          "RR9_TMS_FLT_F1",
+          "GeneLab RNAseq data processing protocol",
+          "Agilent 4200 TapeStation",
+          "RNA ScreenTape",
+          "5.7",
+          "percent",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000187",
+          "ERCC RNA spike-in",
+          "Mix 1",
+          "QIAseq UPX 3' Transcriptome kit",
+          "polyA enrichment",
+          "SINGLE",
+          "STRANDED",
+          "D1000 DNA ScreenTape",
+          "575",
+          "Illumina NovaSeq 6000",
+          "93",
+          "bcl2fastq",
+          "rna-seq",
+          "13764513",
+          "8.48",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F1.genes.results",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F1.isoforms.results",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F1_rRNArm.genes.results",
+          "GLDS-421_rna_seq_RSEM_Unnormalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-421_rna_seq_STAR_Unnormalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-421_rna_seq_RSEM_Unnormalized_Counts_rRNArm_GLbulkRNAseq.csv",
+          "GLDS-421_rna_seq_Normalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-421_rna_seq_VST_Counts_GLbulkRNAseq.csv",
+          "GLDS-421_rna_seq_Normalized_Counts_rRNArm_GLbulkRNAseq.csv",
+          "GLDS-421_rna_seq_VST_Counts_rRNArm_GLbulkRNAseq.csv",
+          "GLDS-421_rna_seq_SampleTable_GLbulkRNAseq.csv",
+          "GLDS-421_rna_seq_contrasts_GLbulkRNAseq.csv",
+          "GLDS-421_rna_seq_differential_expression_GLbulkRNAseq.csv",
+          "GLDS-421_rna_seq_differential_expression_rRNArm_GLbulkRNAseq.csv",
+          "GLDS-421_rna_seq_ERCC_analysis_GLbulkRNAseq.html",
+          "RR9_TMS_FLT_F6",
+          "5.9",
+          "11894196",
+          "9.62",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F6.genes.results",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F6.isoforms.results",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F6_rRNArm.genes.results",
+          "RR9_TMS_FLT_F7",
+          "6.3",
+          "26489225",
+          "10.81",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F7.genes.results",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F7.isoforms.results",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F7_rRNArm.genes.results",
+          "RR9_TMS_FLT_F3",
+          "6.6",
+          "18222742",
+          "14.56",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F3.genes.results",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F3.isoforms.results",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F3_rRNArm.genes.results",
+          "RR9_TMS_FLT_F5",
+          "4.9",
+          "12516919",
+          "8.68",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F5.genes.results",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F5.isoforms.results",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F5_rRNArm.genes.results",
+          "RR9_TMS_FLT_F2",
+          "3",
+          "13104911",
+          "11.62",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F2.genes.results",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F2.isoforms.results",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F2_rRNArm.genes.results",
+          "RR9_TMS_FLT_F8",
+          "3.5",
+          "14145051",
+          "6.04",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F8.genes.results",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F8.isoforms.results",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F8_rRNArm.genes.results",
+          "RR9_TMS_FLT_F4",
+          "3.3",
+          "13568345",
+          "9.12",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F4.genes.results",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F4.isoforms.results",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F4_rRNArm.genes.results",
+          "RR9_TMS_FLT_F10",
+          "5.5",
+          "12823426",
+          "13.99",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F10.genes.results",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F10.isoforms.results",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F10_rRNArm.genes.results",
+          "RR9_TMS_FLT_F9",
+          "4.8",
+          "20255680",
+          "17.55",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F9.genes.results",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F9.isoforms.results",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F9_rRNArm.genes.results",
+          "RR9_TMS_GC_G4",
+          "7.8",
+          "Mix 2",
+          "15116930",
+          "6.96",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G4.genes.results",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G4.isoforms.results",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G4_rRNArm.genes.results",
+          "RR9_TMS_GC_G10",
+          "7.1",
+          "18412325",
+          "12.43",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G10.genes.results",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G10.isoforms.results",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G10_rRNArm.genes.results",
+          "RR9_TMS_GC_G1",
+          "23614922",
+          "27.98",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G1.genes.results",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G1.isoforms.results",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G1_rRNArm.genes.results",
+          "RR9_TMS_GC_G7",
+          "8",
+          "22439359",
+          "8.27",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G7.genes.results",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G7.isoforms.results",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G7_rRNArm.genes.results",
+          "RR9_TMS_GC_G6",
+          "5.8",
+          "18320626",
+          "11.87",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G6.genes.results",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G6.isoforms.results",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G6_rRNArm.genes.results",
+          "RR9_TMS_GC_G9",
+          "7.2",
+          "12786842",
+          "5.72",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G9.genes.results",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G9.isoforms.results",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G9_rRNArm.genes.results",
+          "RR9_TMS_GC_G8",
+          "6.2",
+          "37060449",
+          "23.14",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G8.genes.results",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G8.isoforms.results",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G8_rRNArm.genes.results",
+          "RR9_TMS_GC_G3",
+          "7.4",
+          "33981026",
+          "9.28",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G3.genes.results",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G3.isoforms.results",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G3_rRNArm.genes.results",
+          "RR9_TMS_GC_G2",
+          "8.3",
+          "109621187",
+          "6.90",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G2.genes.results",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G2.isoforms.results",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G2_rRNArm.genes.results",
+          "RR9_TMS_GC_G5",
+          "7.6",
+          "64462333",
+          "7.41",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G5.genes.results",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G5.isoforms.results",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G5_rRNArm.genes.results"
+        ],
+        "reports": [
+          "GLDS-421_rna_seq_raw_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-421_rna_seq_raw_multiqc_GLbulkRNAseq.html",
+          "GLDS-421_rna_seq_trimmed_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-421_rna_seq_trimmed_multiqc_GLbulkRNAseq.html",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F1_Log.final.out",
+          "GLDS-421_rna_seq_align_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-421_rna_seq_align_multiqc_GLbulkRNAseq.html",
+          "GLDS-421_rna_seq_geneBody_cov_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-421_rna_seq_geneBody_cov_multiqc_GLbulkRNAseq.html",
+          "GLDS-421_rna_seq_infer_exp_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-421_rna_seq_infer_exp_multiqc_GLbulkRNAseq.html",
+          "GLDS-421_rna_seq_read_dist_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-421_rna_seq_read_dist_multiqc_GLbulkRNAseq.html",
+          "GLDS-421_rna_seq_RSEM_count_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-421_rna_seq_RSEM_count_multiqc_GLbulkRNAseq.html",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F6_raw.fastq.gz_trimming_report.txt",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F6_Log.final.out",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F7_raw.fastq.gz_trimming_report.txt",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F7_Log.final.out",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F3_raw.fastq.gz_trimming_report.txt",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F3_Log.final.out",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F5_raw.fastq.gz_trimming_report.txt",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F5_Log.final.out",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F2_Log.final.out",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F8_raw.fastq.gz_trimming_report.txt",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F8_Log.final.out",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F4_raw.fastq.gz_trimming_report.txt",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F4_Log.final.out",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F10_raw.fastq.gz_trimming_report.txt",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F10_Log.final.out",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F9_raw.fastq.gz_trimming_report.txt",
+          "GLDS-421_rna_seq_RR9_TMS_FLT_F9_Log.final.out",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G4_raw.fastq.gz_trimming_report.txt",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G4_Log.final.out",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G10_raw.fastq.gz_trimming_report.txt",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G10_Log.final.out",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G1_Log.final.out",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G7_raw.fastq.gz_trimming_report.txt",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G7_Log.final.out",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G6_raw.fastq.gz_trimming_report.txt",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G6_Log.final.out",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G9_raw.fastq.gz_trimming_report.txt",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G9_Log.final.out",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G8_raw.fastq.gz_trimming_report.txt",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G8_Log.final.out",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G3_raw.fastq.gz_trimming_report.txt",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G3_Log.final.out",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G2_Log.final.out",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G5_raw.fastq.gz_trimming_report.txt",
+          "GLDS-421_rna_seq_RR9_TMS_GC_G5_Log.final.out"
+        ]
+      }
+    }
+  ]
+}

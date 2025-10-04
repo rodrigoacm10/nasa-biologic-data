@@ -1,0 +1,993 @@
+{
+  "investigation": {
+    "id": "OSD-212",
+    "title": "Reproducible changes in gut microbiome reveal a shift in microbial and host metabolism during spaceflight",
+    "description": "Data were generated as part of a NASA-funded study (Turek F (PI) et al. Effects of Spaceflight on Gastrointestinal Microbiota in Mice: Mechanisms and Impact on Multi-System.",
+    "mission": {
+      "name": "SpaceX-4",
+      "start_date": "09/21/2014",
+      "end_date": "10/25/2014",
+      "link": "https://osdr.nasa.gov/bio/repo/data/missions/SpaceX-4"
+    },
+    "project": {
+      "identifier": "RR-1_BSP",
+      "title": "",
+      "type": "Spaceflight Study",
+      "link": "",
+      "funding": "NASA NRA NNH14ZTT002N",
+      "managing_center": "Ames Research Center (ARC)"
+    },
+    "protocols": [
+      "Animal Husbandry",
+      "sample collection",
+      "Nucleic Acid Extraction",
+      "Library Construction",
+      "Nucleic Acid Sequencing"
+    ],
+    "publications": [
+      {
+        "title": "Reproducible changes in the gut microbiome suggest a shift in microbial and host metabolism during spaceflight.",
+        "doi": "10.1186/s40168-019-0724-4",
+        "authors": [
+          "Jiang P",
+          "Green SJ",
+          "Chlipala GE",
+          "Turek FW",
+          "Vitaterna MH."
+        ],
+        "summary": "Reproducible changes in the gut microbiome suggest a shift in microbial and host metabolism during spaceflight. — 10.1186/s40168-019-0724-4"
+      }
+    ],
+    "factors": [
+      "Spaceflight"
+    ],
+    "contacts": [
+      {
+        "first_name": "Stefan",
+        "last_name": "Green",
+        "role": "conceptualization role",
+        "email": "greendna@uic.edu"
+      },
+      {
+        "first_name": "Peng",
+        "last_name": "Jiang",
+        "role": "formal analysis role",
+        "email": "peng.jiang@northwestern.edu"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "NASA01.M1.FEC1",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Host Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark cycle",
+          "habitat": "Standard Vivarium Cage",
+          "duration": "0",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "NASA02.M2.FEC2",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Host Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark cycle",
+          "habitat": "Standard Vivarium Cage",
+          "duration": "0",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "NASA03.M3.FEC2",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Host Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark cycle",
+          "habitat": "Standard Vivarium Cage",
+          "duration": "0",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "NASA04.M4.FEC2",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Host Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark cycle",
+          "habitat": "Standard Vivarium Cage",
+          "duration": "0",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "NASA05.M5.FEC1",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Host Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark cycle",
+          "habitat": "Standard Vivarium Cage",
+          "duration": "0",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "NASA06.M6.FEC3",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Host Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark cycle",
+          "habitat": "Standard Vivarium Cage",
+          "duration": "0",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "NASA07.M7.FEC2",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Host Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark cycle",
+          "habitat": "Standard Vivarium Cage",
+          "duration": "0",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "NASA08.M8.FEC2",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Host Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark cycle",
+          "habitat": "Standard Vivarium Cage",
+          "duration": "0",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "NASA09.M9.FEC1",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Host Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark cycle",
+          "habitat": "Standard Vivarium Cage",
+          "duration": "0",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "NASA10.M10.FEC2",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Host Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Spaceflight": "Basal Control"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark cycle",
+          "habitat": "Standard Vivarium Cage",
+          "duration": "0",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "NASA11.M12.FEC3",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Host Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark cycle",
+          "habitat": "Standard Vivarium Cage",
+          "duration": "37",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "NASA12.M13.FEC1",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Host Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark cycle",
+          "habitat": "Standard Vivarium Cage",
+          "duration": "37",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "NASA13.M14.FEC3",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Host Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark cycle",
+          "habitat": "Standard Vivarium Cage",
+          "duration": "37",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "NASA14.M15.FEC1",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Host Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark cycle",
+          "habitat": "Standard Vivarium Cage",
+          "duration": "37",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "NASA15.M16.FEC2",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Host Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark cycle",
+          "habitat": "Standard Vivarium Cage",
+          "duration": "37",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "NASA16.M18.FEC3",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Host Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark cycle",
+          "habitat": "Standard Vivarium Cage",
+          "duration": "37",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "NASA17.M19.FEC2",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Host Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark cycle",
+          "habitat": "Standard Vivarium Cage",
+          "duration": "37",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "NASA18.M20.FEC3",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Host Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Spaceflight": "Vivarium Control"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark cycle",
+          "habitat": "Standard Vivarium Cage",
+          "duration": "37",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "NASA19.M23.FEC2",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Host Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark cycle",
+          "habitat": "Rodent Habitat",
+          "duration": "37",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "NASA20.M24.FEC3",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Host Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark cycle",
+          "habitat": "Rodent Habitat",
+          "duration": "37",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "NASA21.M25.FEC2",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Host Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark cycle",
+          "habitat": "Rodent Habitat",
+          "duration": "37",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "NASA22.M26.FEC1",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Host Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark cycle",
+          "habitat": "Rodent Habitat",
+          "duration": "37",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "NASA32.M28.FEC4",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Host Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark cycle",
+          "habitat": "Rodent Habitat",
+          "duration": "37",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "NASA23.M29.FEC3",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Host Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark cycle",
+          "habitat": "Rodent Habitat",
+          "duration": "37",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "NASA24.M30.FEC3",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Host Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark cycle",
+          "habitat": "Rodent Habitat",
+          "duration": "37",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "NASA25.M32.FEC2",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Host Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark cycle",
+          "habitat": "Rodent Habitat",
+          "duration": "37",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "NASA26.M33.FEC2",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Host Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark cycle",
+          "habitat": "Rodent Habitat",
+          "duration": "37",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "NASA27.M34.FEC3",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Host Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark cycle",
+          "habitat": "Rodent Habitat",
+          "duration": "37",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "NASA28.M35.FEC3",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Host Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark cycle",
+          "habitat": "Rodent Habitat",
+          "duration": "37",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "NASA29.M36.FEC3",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Host Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark cycle",
+          "habitat": "Rodent Habitat",
+          "duration": "37",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "NASA30.M38",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Host Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark cycle",
+          "habitat": "Rodent Habitat",
+          "duration": "37",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "NASA31.M40",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Mus musculus",
+          "Host Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Feces"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark cycle",
+          "habitat": "Rodent Habitat",
+          "duration": "37",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "amplicon-sequencing",
+      "platform": "llumina MiSeq",
+      "qc": {},
+      "library": {
+        "Library Selection": "16S",
+        "Library Layout": "PAIRED"
+      },
+      "files": {
+        "raw": [
+          "GLDS-212_Amplicon_NASA1-M1-Fec1_S119_L001_R1_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA1-M1-Fec1_S119_L001_R2_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA2-M2-Fec2_S120_L001_R1_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA2-M2-Fec2_S120_L001_R2_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA3-M3-Fec2_S121_L001_R1_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA3-M3-Fec2_S121_L001_R2_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA4-M4-Fec2_S122_L001_R1_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA4-M4-Fec2_S122_L001_R2_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA5-M5-Fec1_S123_L001_R1_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA5-M5-Fec1_S123_L001_R2_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA6-M6-Fec3_S124_L001_R1_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA6-M6-Fec3_S124_L001_R2_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA7-M7-Fec2_S125_L001_R1_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA7-M7-Fec2_S125_L001_R2_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA8-M8-Fec2_S126_L001_R1_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA8-M8-Fec2_S126_L001_R2_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA9-M9-Fec1_S127_L001_R2_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA9-M9-Fec1_S127_L001_R1_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA10-M10-Fec2_S128_L001_R2_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA10-M10-Fec2_S128_L001_R1_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA11-M12-Fec3_S129_L001_R2_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA11-M12-Fec3_S129_L001_R1_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA12-M13-Fec1_S130_L001_R1_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA12-M13-Fec1_S130_L001_R2_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA13-M14-Fec3_S131_L001_R1_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA13-M14-Fec3_S131_L001_R2_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA14-M15-Fec1_S132_L001_R1_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA14-M15-Fec1_S132_L001_R2_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA15-M16-Fec2_S133_L001_R1_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA15-M16-Fec2_S133_L001_R2_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA16-M18-Fec3_S134_L001_R1_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA16-M18-Fec3_S134_L001_R2_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA17-M19-Fec2_S135_L001_R1_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA17-M19-Fec2_S135_L001_R2_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA18-M20-FEC3_S136_L001_R1_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA18-M20-FEC3_S136_L001_R2_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA19-M23-Fec2_S137_L001_R1_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA19-M23-Fec2_S137_L001_R2_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA18-M20-Fec3_S136_L001_R1_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA18-M20-Fec3_S136_L001_R2_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA20-M24-Fec3_S138_L001_R1_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA20-M24-Fec3_S138_L001_R2_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA21-M25-Fec2_S139_L001_R1_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA21-M25-Fec2_S139_L001_R2_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA22-M26-Fec1_S140_L001_R1_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA22-M26-Fec1_S140_L001_R2_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA32-M28-Fec4_S150_L001_R1_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA32-M28-Fec4_S150_L001_R2_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA23-M29-Fec3_S141_L001_R1_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA23-M29-Fec3_S141_L001_R2_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA24-M30-Fec3_S142_L001_R1_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA24-M30-Fec3_S142_L001_R2_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA25-M32-Fec2_S143_L001_R1_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA25-M32-Fec2_S143_L001_R2_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA26-M33-Fec2_S144_L001_R2_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA26-M33-Fec2_S144_L001_R1_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA27-M34-Fec3_S145_L001_R1_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA27-M34-Fec3_S145_L001_R2_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA28-M35-Fec3_S146_L001_R1_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA28-M35-Fec3_S146_L001_R2_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA29-M36-Fec3_S147_L001_R1_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA29-M36-Fec3_S147_L001_R2_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA30-M38_S148_L001_R1_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA30-M38_S148_L001_R2_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA31-M40_S149_L001_R1_001.fastq.gz",
+          "GLDS-212_Amplicon_NASA31-M40_S149_L001_R2_001.fastq.gz"
+        ],
+        "processed": [
+          "NASA01.M1.FEC1",
+          "Nucleic Acid Sequencing",
+          "16S",
+          "515F",
+          "5’-GTGCCAGCMGCCGCGGTA-3'",
+          "926R",
+          "5’-CGYCAATTYMTTTRAGTTT-3'",
+          "PAIRED",
+          "V4-V5",
+          "llumina MiSeq",
+          "300",
+          "base pair",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000244",
+          "amplicon sequencing",
+          "NASA02.M2.FEC2",
+          "NASA03.M3.FEC2",
+          "NASA04.M4.FEC2",
+          "NASA05.M5.FEC1",
+          "NASA06.M6.FEC3",
+          "NASA07.M7.FEC2",
+          "NASA08.M8.FEC2",
+          "NASA09.M9.FEC1",
+          "NASA10.M10.FEC2",
+          "NASA11.M12.FEC3",
+          "NASA12.M13.FEC1",
+          "NASA13.M14.FEC3",
+          "NASA14.M15.FEC1",
+          "NASA15.M16.FEC2",
+          "NASA16.M18.FEC3",
+          "NASA17.M19.FEC2",
+          "NASA18.M20.FEC3",
+          "NASA19.M23.FEC2",
+          "NASA20.M24.FEC3",
+          "NASA21.M25.FEC2",
+          "NASA22.M26.FEC1",
+          "NASA32.M28.FEC4",
+          "NASA23.M29.FEC3",
+          "NASA24.M30.FEC3",
+          "NASA25.M32.FEC2",
+          "NASA26.M33.FEC2",
+          "NASA27.M34.FEC3",
+          "NASA28.M35.FEC3",
+          "NASA29.M36.FEC3",
+          "NASA30.M38",
+          "NASA31.M40"
+        ],
+        "reports": []
+      }
+    }
+  ]
+}

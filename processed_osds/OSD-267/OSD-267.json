@@ -1,0 +1,830 @@
+{
+  "investigation": {
+    "id": "OSD-267",
+    "title": "Microbiological and nutritional analysis of lettuce crops grown on the International Space Station-VEG01A",
+    "description": "The ability to grow safe, fresh food to supplement packaged foods of astronauts in space has been an important goal for NASA. Food crops grown in space experience different environmental conditions than plants grown on Earth (e.g., reduced gravity, elevated radiation levels).",
+    "mission": {
+      "name": "SpaceX-3",
+      "start_date": "04/18/2014",
+      "end_date": "05/18/2014",
+      "link": ""
+    },
+    "project": {
+      "identifier": "VEG-01 A",
+      "title": "Veggie Hardware Validation Test (VEG-01)",
+      "type": "Spaceflight Study",
+      "link": "https://nlsp.nasa.gov/view/lsdapub/lsda_experiment/74fda291-d339-57ab-914a-77afaa942897",
+      "funding": "Funding was provided by NASA's Space Life and Physical Sciences (SLPS) Space Biology Program",
+      "managing_center": "Kennedy Space Center (KSC)"
+    },
+    "protocols": [
+      "sample collection",
+      "Library Construction",
+      "Nucleic Acid Sequencing",
+      "Nucleic Acid Extraction 1",
+      "Library Construction 1",
+      "Nucleic Acid Sequencing 1",
+      "growth protocol",
+      "GeneLab amplicon-seq data processing protocol"
+    ],
+    "publications": [
+      {
+        "title": "Microbiological and Nutritional Analysis of Lettuce Crops Grown on the International Space Station",
+        "doi": "10.3389/fpls.2020.00199",
+        "authors": [
+          "Khodadad Christina L. M.",
+          "Hummerick Mary E.",
+          "Spencer LaShelle E.",
+          "Dixit Anirudha R.",
+          "Richards Jeffrey T.",
+          "Romeyn Matthew W.",
+          "Smith Trent M.",
+          "Wheeler Raymond M.",
+          "Massa Gioia D."
+        ],
+        "summary": "Microbiological and Nutritional Analysis of Lettuce Crops Grown on the International Space Station — 10.3389/fpls.2020.00199"
+      }
+    ],
+    "factors": [
+      "Spaceflight",
+      "Organism Part"
+    ],
+    "contacts": [
+      {
+        "first_name": "Christina",
+        "last_name": "Khodadad",
+        "role": "Submitter",
+        "email": "christina.l.khodadad-1@nasa.gov"
+      },
+      {
+        "first_name": "Gioia",
+        "last_name": "Massa",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Raymond",
+        "last_name": "Wheeler",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Mary",
+        "last_name": "Hummerick",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "LaShelle",
+        "last_name": "Spencer",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Anirudha",
+        "last_name": "Dixit",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Jeffrey",
+        "last_name": "Richards",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Matthew",
+        "last_name": "Romeyn",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Trent",
+        "last_name": "Smith",
+        "role": "Author",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "Flight Plant Leaf A",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Host Strain": "Outredgeous",
+          "Experiment Start Date (MM/DD/YYYY)": "05/08/2014",
+          "Experiment End Date (MM/DD/YYYY)": "06/10/2014"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Organism Part": "leaf"
+        },
+        "parameters": {
+          "growth environment": "ISS-Columbus",
+          "Mean Growth Temperature": "23.25",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "200",
+          "Light Color": "12 red (630 nm): 3 Blue (455 nm): 1 green (530 nm)",
+          "Growth Medium": "Blend 2",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "container": "plant pillow",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "33"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Flight Plant Leaf C",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Host Strain": "Outredgeous",
+          "Experiment Start Date (MM/DD/YYYY)": "05/08/2014",
+          "Experiment End Date (MM/DD/YYYY)": "06/10/2014"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Organism Part": "leaf"
+        },
+        "parameters": {
+          "growth environment": "ISS-Columbus",
+          "Mean Growth Temperature": "23.25",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "200",
+          "Light Color": "12 red (630 nm): 3 Blue (455 nm): 1 green (530 nm)",
+          "Growth Medium": "Blend 1",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "container": "plant pillow",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "33"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Flight Plant Leaf D",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Host Strain": "Outredgeous",
+          "Experiment Start Date (MM/DD/YYYY)": "05/08/2014",
+          "Experiment End Date (MM/DD/YYYY)": "06/10/2014"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Organism Part": "leaf"
+        },
+        "parameters": {
+          "growth environment": "ISS-Columbus",
+          "Mean Growth Temperature": "23.25",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "200",
+          "Light Color": "12 red (630 nm): 3 Blue (455 nm): 1 green (530 nm)",
+          "Growth Medium": "Blend 2",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "container": "plant pillow",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "33"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Flight Plant Root A",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Host Strain": "Outredgeous",
+          "Experiment Start Date (MM/DD/YYYY)": "05/08/2014",
+          "Experiment End Date (MM/DD/YYYY)": "06/10/2014"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Organism Part": "root"
+        },
+        "parameters": {
+          "growth environment": "ISS-Columbus",
+          "Mean Growth Temperature": "23.25",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "200",
+          "Light Color": "12 red (630 nm): 3 Blue (455 nm): 1 green (530 nm)",
+          "Growth Medium": "Blend 2",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "container": "plant pillow",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "33"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Flight Plant Root C",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Host Strain": "Outredgeous",
+          "Experiment Start Date (MM/DD/YYYY)": "05/08/2014",
+          "Experiment End Date (MM/DD/YYYY)": "06/10/2014"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Organism Part": "root"
+        },
+        "parameters": {
+          "growth environment": "ISS-Columbus",
+          "Mean Growth Temperature": "23.25",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "200",
+          "Light Color": "12 red (630 nm): 3 Blue (455 nm): 1 green (530 nm)",
+          "Growth Medium": "Blend 1",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "container": "plant pillow",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "33"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Ground Plant Leaf A",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Host Strain": "Outredgeous",
+          "Experiment Start Date (MM/DD/YYYY)": "05/09/2014",
+          "Experiment End Date (MM/DD/YYYY)": "06/11/2014"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Organism Part": "leaf"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Mean Growth Temperature": "23.25",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "200",
+          "Light Color": "12 red (630 nm): 3 Blue (455 nm): 1 green (530 nm)",
+          "Growth Medium": "Blend 2",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "container": "plant pillow",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "33"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Ground Plant Leaf B",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Host Strain": "Outredgeous",
+          "Experiment Start Date (MM/DD/YYYY)": "05/09/2014",
+          "Experiment End Date (MM/DD/YYYY)": "06/11/2014"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Organism Part": "leaf"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Mean Growth Temperature": "23.25",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "200",
+          "Light Color": "12 red (630 nm): 3 Blue (455 nm): 1 green (530 nm)",
+          "Growth Medium": "Blend 1",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "container": "plant pillow",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "33"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Ground Plant Leaf C",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Host Strain": "Outredgeous",
+          "Experiment Start Date (MM/DD/YYYY)": "05/09/2014",
+          "Experiment End Date (MM/DD/YYYY)": "06/11/2014"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Organism Part": "leaf"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Mean Growth Temperature": "23.25",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "200",
+          "Light Color": "12 red (630 nm): 3 Blue (455 nm): 1 green (530 nm)",
+          "Growth Medium": "Blend 1",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "container": "plant pillow",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "33"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Ground Plant Leaf E",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Host Strain": "Outredgeous",
+          "Experiment Start Date (MM/DD/YYYY)": "05/09/2014",
+          "Experiment End Date (MM/DD/YYYY)": "06/11/2014"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Organism Part": "leaf"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Mean Growth Temperature": "23.25",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "200",
+          "Light Color": "12 red (630 nm): 3 Blue (455 nm): 1 green (530 nm)",
+          "Growth Medium": "Blend 2",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "container": "plant pillow",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "33"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Ground Plant Leaf F",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Host Strain": "Outredgeous",
+          "Experiment Start Date (MM/DD/YYYY)": "05/09/2014",
+          "Experiment End Date (MM/DD/YYYY)": "06/11/2014"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Organism Part": "leaf"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Mean Growth Temperature": "23.25",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "200",
+          "Light Color": "12 red (630 nm): 3 Blue (455 nm): 1 green (530 nm)",
+          "Growth Medium": "Blend 1",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "container": "plant pillow",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "33"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Ground Plant Root A",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Host Strain": "Outredgeous",
+          "Experiment Start Date (MM/DD/YYYY)": "05/09/2014",
+          "Experiment End Date (MM/DD/YYYY)": "06/11/2014"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Organism Part": "root"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Mean Growth Temperature": "23.25",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "200",
+          "Light Color": "12 red (630 nm): 3 Blue (455 nm): 1 green (530 nm)",
+          "Growth Medium": "Blend 2",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "container": "plant pillow",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "33"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Ground Plant Root C",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Host Strain": "Outredgeous",
+          "Experiment Start Date (MM/DD/YYYY)": "05/09/2014",
+          "Experiment End Date (MM/DD/YYYY)": "06/11/2014"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Organism Part": "root"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "Mean Growth Temperature": "23.25",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "200",
+          "Light Color": "12 red (630 nm): 3 Blue (455 nm): 1 green (530 nm)",
+          "Growth Medium": "Blend 1",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "container": "plant pillow",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "33"
+        },
+        "comments": {}
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "amplicon-sequencing",
+      "platform": "Illumina MiSeq",
+      "qc": {
+        "QA Instrument": "Bioanalyzer or Qubit",
+        "QA Assay": "DNA 1000 or Qubit HS dsDNA assay",
+        "Read Depth": "113525"
+      },
+      "library": {
+        "Library Layout": "PAIRED"
+      },
+      "files": {
+        "raw": [
+          "GLDS-267_Amplicon_FltPlantA_S1_L001_R1_001.fastq.gz",
+          "GLDS-267_Amplicon_FltPlantA_S1_L001_R2_001.fastq.gz",
+          "GLDS-267_Amplicon_FltPlantC_S2_L001_R1_001.fastq.gz",
+          "GLDS-267_Amplicon_FltPlantC_S2_L001_R2_001.fastq.gz",
+          "GLDS-267_Amplicon_FlightRootA_S19_L001_R1_001.fastq.gz",
+          "GLDS-267_Amplicon_FlightRootA_S19_L001_R2_001.fastq.gz",
+          "GLDS-267_Amplicon_FlightRootC_S20_L001_R1_001.fastq.gz",
+          "GLDS-267_Amplicon_FlightRootC_S20_L001_R2_001.fastq.gz",
+          "GLDS-267_Amplicon_GroundPlantA_S4_L001_R1_001.fastq.gz",
+          "GLDS-267_Amplicon_GroundPlantA_S4_L001_R2_001.fastq.gz",
+          "GLDS-267_Amplicon_GroundPlantB_S5_L001_R1_001.fastq.gz",
+          "GLDS-267_Amplicon_GroundPlantB_S5_L001_R2_001.fastq.gz",
+          "GLDS-267_Amplicon_GroundPlantC_S6_L001_R1_001.fastq.gz",
+          "GLDS-267_Amplicon_GroundPlantC_S6_L001_R2_001.fastq.gz",
+          "GLDS-267_Amplicon_GroundPlantE_S7_L001_R1_001.fastq.gz",
+          "GLDS-267_Amplicon_GroundPlantE_S7_L001_R2_001.fastq.gz",
+          "GLDS-267_Amplicon_GroundPlantF_S8_L001_R1_001.fastq.gz",
+          "GLDS-267_Amplicon_GroundPlantF_S8_L001_R2_001.fastq.gz",
+          "GLDS-267_Amplicon_GroundRootA_S17_L001_R1_001.fastq.gz",
+          "GLDS-267_Amplicon_GroundRootA_S17_L001_R2_001.fastq.gz",
+          "GLDS-267_Amplicon_GroundRootC_S18_L001_R1_001.fastq.gz",
+          "GLDS-267_Amplicon_GroundRootC_S18_L001_R2_001.fastq.gz",
+          "GLDS-267_GAmplicon_FltPlantA_S1_L001_R1_raw.fastq.gz",
+          "GLDS-267_GAmplicon_FltPlantA_S1_L001_R2_raw.fastq.gz",
+          "GLDS-267_GAmplicon_FltPlantA_S1_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_FltPlantA_S1_L001_R2_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_FltPlantA_S1_L001_R1_filtered.fastq.gz",
+          "GLDS-267_GAmplicon_FltPlantA_S1_L001_R2_filtered.fastq.gz",
+          "GLDS-267_GAmplicon_FltPlantC_S2_L001_R1_raw.fastq.gz",
+          "GLDS-267_GAmplicon_FltPlantC_S2_L001_R2_raw.fastq.gz",
+          "GLDS-267_GAmplicon_FltPlantC_S2_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_FltPlantC_S2_L001_R2_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_FltPlantC_S2_L001_R1_filtered.fastq.gz",
+          "GLDS-267_GAmplicon_FltPlantC_S2_L001_R2_filtered.fastq.gz",
+          "GLDS-267_GAmplicon_FlightRootA_S19_L001_R1_raw.fastq.gz",
+          "GLDS-267_GAmplicon_FlightRootA_S19_L001_R2_raw.fastq.gz",
+          "GLDS-267_GAmplicon_FlightRootA_S19_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_FlightRootA_S19_L001_R2_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_FlightRootA_S19_L001_R1_filtered.fastq.gz",
+          "GLDS-267_GAmplicon_FlightRootA_S19_L001_R2_filtered.fastq.gz",
+          "GLDS-267_GAmplicon_FlightRootC_S20_L001_R1_raw.fastq.gz",
+          "GLDS-267_GAmplicon_FlightRootC_S20_L001_R2_raw.fastq.gz",
+          "GLDS-267_GAmplicon_FlightRootC_S20_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_FlightRootC_S20_L001_R2_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_FlightRootC_S20_L001_R1_filtered.fastq.gz",
+          "GLDS-267_GAmplicon_FlightRootC_S20_L001_R2_filtered.fastq.gz",
+          "GLDS-267_GAmplicon_GroundPlantA_S4_L001_R1_raw.fastq.gz",
+          "GLDS-267_GAmplicon_GroundPlantA_S4_L001_R2_raw.fastq.gz",
+          "GLDS-267_GAmplicon_GroundPlantA_S4_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_GroundPlantA_S4_L001_R2_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_GroundPlantA_S4_L001_R1_filtered.fastq.gz",
+          "GLDS-267_GAmplicon_GroundPlantA_S4_L001_R2_filtered.fastq.gz",
+          "GLDS-267_GAmplicon_GroundPlantB_S5_L001_R1_raw.fastq.gz",
+          "GLDS-267_GAmplicon_GroundPlantB_S5_L001_R2_raw.fastq.gz",
+          "GLDS-267_GAmplicon_GroundPlantB_S5_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_GroundPlantB_S5_L001_R2_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_GroundPlantB_S5_L001_R1_filtered.fastq.gz",
+          "GLDS-267_GAmplicon_GroundPlantB_S5_L001_R2_filtered.fastq.gz",
+          "GLDS-267_GAmplicon_GroundPlantC_S6_L001_R1_raw.fastq.gz",
+          "GLDS-267_GAmplicon_GroundPlantC_S6_L001_R2_raw.fastq.gz",
+          "GLDS-267_GAmplicon_GroundPlantC_S6_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_GroundPlantC_S6_L001_R2_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_GroundPlantC_S6_L001_R1_filtered.fastq.gz",
+          "GLDS-267_GAmplicon_GroundPlantC_S6_L001_R2_filtered.fastq.gz",
+          "GLDS-267_GAmplicon_GroundPlantE_S7_L001_R1_raw.fastq.gz",
+          "GLDS-267_GAmplicon_GroundPlantE_S7_L001_R2_raw.fastq.gz",
+          "GLDS-267_GAmplicon_GroundPlantE_S7_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_GroundPlantE_S7_L001_R2_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_GroundPlantE_S7_L001_R1_filtered.fastq.gz",
+          "GLDS-267_GAmplicon_GroundPlantE_S7_L001_R2_filtered.fastq.gz",
+          "GLDS-267_GAmplicon_GroundPlantF_S8_L001_R1_raw.fastq.gz",
+          "GLDS-267_GAmplicon_GroundPlantF_S8_L001_R2_raw.fastq.gz",
+          "GLDS-267_GAmplicon_GroundPlantF_S8_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_GroundPlantF_S8_L001_R2_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_GroundPlantF_S8_L001_R1_filtered.fastq.gz",
+          "GLDS-267_GAmplicon_GroundPlantF_S8_L001_R2_filtered.fastq.gz",
+          "GLDS-267_GAmplicon_GroundRootA_S17_L001_R1_raw.fastq.gz",
+          "GLDS-267_GAmplicon_GroundRootA_S17_L001_R2_raw.fastq.gz",
+          "GLDS-267_GAmplicon_GroundRootA_S17_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_GroundRootA_S17_L001_R2_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_GroundRootA_S17_L001_R1_filtered.fastq.gz",
+          "GLDS-267_GAmplicon_GroundRootA_S17_L001_R2_filtered.fastq.gz",
+          "GLDS-267_GAmplicon_GroundRootC_S18_L001_R1_raw.fastq.gz",
+          "GLDS-267_GAmplicon_GroundRootC_S18_L001_R2_raw.fastq.gz",
+          "GLDS-267_GAmplicon_GroundRootC_S18_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_GroundRootC_S18_L001_R2_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_GroundRootC_S18_L001_R1_filtered.fastq.gz",
+          "GLDS-267_GAmplicon_GroundRootC_S18_L001_R2_filtered.fastq.gz"
+        ],
+        "processed": [
+          "GLDS-267_GAmplicon_FltPlantA_S1_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_FltPlantA_S1_L001_R2_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_16S-trimmed-read-counts.tsv",
+          "GLDS-267_GAmplicon_16S-cutadapt.log",
+          "GLDS-267_GAmplicon_FltPlantC_S2_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_FltPlantC_S2_L001_R2_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_FlightRootA_S19_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_FlightRootA_S19_L001_R2_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_FlightRootC_S20_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_FlightRootC_S20_L001_R2_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_GroundPlantA_S4_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_GroundPlantA_S4_L001_R2_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_GroundPlantB_S5_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_GroundPlantB_S5_L001_R2_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_GroundPlantC_S6_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_GroundPlantC_S6_L001_R2_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_GroundPlantE_S7_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_GroundPlantE_S7_L001_R2_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_GroundPlantF_S8_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_GroundPlantF_S8_L001_R2_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_GroundRootA_S17_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_GroundRootA_S17_L001_R2_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_GroundRootC_S18_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_GroundRootC_S18_L001_R2_trimmed.fastq.gz",
+          "Flight Plant Leaf A",
+          "GeneLab amplicon-seq data processing protocol",
+          "Bioanalyzer or Qubit",
+          "DNA 1000 or Qubit HS dsDNA assay",
+          "F",
+          "5’-GTGCCAGCMGCCGCGGTAA-3’",
+          "R",
+          "5’-GGACTACHVGGGTWTCTAAT-3’",
+          "PAIRED",
+          "Amplicon",
+          "16S",
+          "Illumina MiSeq",
+          "amplicon sequencing",
+          "291",
+          "read",
+          "SO",
+          "http://purl.obolibrary.org/obo/SO_0000150",
+          "GLDS-267_GAmplicon_16S-README.txt",
+          "113525",
+          "GLDS-267_GAmplicon_16S-filtered-read-counts.tsv",
+          "GLDS-267_GAmplicon_16S-ASVs.fasta",
+          "GLDS-267_GAmplicon_16S-counts.tsv",
+          "GLDS-267_GAmplicon_16S-read-count-tracking.tsv",
+          "GLDS-267_GAmplicon_16S-taxonomy-and-counts.biom.zip",
+          "GLDS-267_GAmplicon_16S-taxonomy-and-counts.tsv",
+          "GLDS-267_GAmplicon_16S-taxonomy.tsv",
+          "GLDS-267_GAmplicon_16S-processing_info.zip",
+          "Flight Plant Leaf C",
+          "101929",
+          "Flight Plant Root A",
+          "497415",
+          "Flight Plant Root C",
+          "447730",
+          "Ground Plant Leaf A",
+          "101393",
+          "Ground Plant Leaf B",
+          "111478",
+          "Ground Plant Leaf C",
+          "101985",
+          "Ground Plant Leaf E",
+          "106865",
+          "Ground Plant Leaf F",
+          "106566",
+          "Ground Plant Root A",
+          "285",
+          "Ground Plant Root C",
+          "382"
+        ],
+        "reports": [
+          "GLDS-267_GAmplicon_16S-raw_multiqc_data.zip",
+          "GLDS-267_GAmplicon_16S-raw_multiqc_report.html",
+          "GLDS-267_GAmplicon_16S-filtered_multiqc_data.zip",
+          "GLDS-267_GAmplicon_16S-filtered_multiqc_report.html",
+          "GLDS-267_GAmplicon_16S-cutadapt.log"
+        ]
+      }
+    },
+    {
+      "type": "amplicon-sequencing",
+      "platform": "Illumina MiSeq",
+      "qc": {
+        "QA Instrument": "Bioanalyzer or Qubit",
+        "QA Assay": "DNA 1000 or Qubit HS dsDNA assay",
+        "Read Depth": "6461"
+      },
+      "library": {
+        "Library Layout": "PAIRED"
+      },
+      "files": {
+        "raw": [
+          "GLDS-267_Amplicon_V01A_ITS_FltPlantA_Leaf_S1_L001_R1_001.fastq.gz",
+          "GLDS-267_Amplicon_V01A_ITS_FltPlantA_Leaf_S1_L001_R2_001.fastq.gz",
+          "GLDS-267_Amplicon_V01A_ITS_FltPlantC_Leaf_S2_L001_R1_001.fastq.gz",
+          "GLDS-267_Amplicon_V01A_ITS_FltPlantC_Leaf_S2_L001_R2_001.fastq.gz",
+          "GLDS-267_Amplicon_V01A_ITS_FltPlantD_Leaf_S3_L001_R1_001.fastq.gz",
+          "GLDS-267_Amplicon_V01A_ITS_FltPlantD_Leaf_S3_L001_R2_001.fastq.gz",
+          "GLDS-267_Amplicon_FlightRootA_S19_L001_R1_001.fastq.gz",
+          "GLDS-267_Amplicon_FlightRootA_S19_L001_R2_001.fastq.gz",
+          "GLDS-267_Amplicon_V01A_ITS_Flt-C-Root_S9_L001_R1_001.fastq.gz",
+          "GLDS-267_Amplicon_V01A_ITS_Flt-C-Root_S9_L001_R2_001.fastq.gz",
+          "GLDS-267_Amplicon_V01A_ITS_GroundPlantA_Leaf_S10_L001_R1_001.fastq.gz",
+          "GLDS-267_Amplicon_V01A_ITS_GroundPlantA_Leaf_S10_L001_R2_001.fastq.gz",
+          "GLDS-267_Amplicon_V01A_ITS_GroundPlantB_Leaf_S11_L001_R1_001.fastq.gz",
+          "GLDS-267_Amplicon_V01A_ITS_GroundPlantB_Leaf_S11_L001_R2_001.fastq.gz",
+          "GLDS-267_Amplicon_V01A_ITS_GroundPlantC_Leaf_S12_L001_R1_001.fastq.gz",
+          "GLDS-267_Amplicon_V01A_ITS_GroundPlantC_Leaf_S12_L001_R2_001.fastq.gz",
+          "GLDS-267_Amplicon_V01A_ITS_GroundPlantE_Leaf_S13_L001_R2_001.fastq.gz",
+          "GLDS-267_Amplicon_V01S_ITS_GroundPlantE_Leaf_S13_L001_R1_001.fastq.gz",
+          "GLDS-267_Amplicon_V01A_ITS_GrounPlantF_Leaf_S14_L001_R1_001.fastq.gz",
+          "GLDS-267_Amplicon_V01A_ITS_GrounPlantF_Leaf_S14_L001_R2_001.fastq.gz",
+          "GLDS-267_Amplicon_V01A_ITS_Ground-A-Root_S19_L001_R1_001.fastq.gz",
+          "GLDS-267_Amplicon_V01A_ITS_Ground-A-Root_S19_L001_R2_001.fastq.gz",
+          "GLDS-267_Amplicon_V01A_ITS_Ground-C-Root_S20_L001_R1_001.fastq.gz",
+          "GLDS-267_Amplicon_V01A_ITS_Ground-C-Root_S20_L001_R2_001.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_FltPlantA_Leaf_S1_L001_R1_raw.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_FltPlantA_Leaf_S1_L001_R2_raw.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_FltPlantA_Leaf_S1_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_FltPlantA_Leaf_S1_L001_R2_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_FltPlantA_Leaf_S1_L001_R1_filtered.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_FltPlantA_Leaf_S1_L001_R2_filtered.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_FltPlantC_Leaf_S2_L001_R1_raw.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_FltPlantC_Leaf_S2_L001_R2_raw.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_FltPlantC_Leaf_S2_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_FltPlantC_Leaf_S2_L001_R2_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_FltPlantC_Leaf_S2_L001_R1_filtered.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_FltPlantC_Leaf_S2_L001_R2_filtered.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_FltPlantD_Leaf_S3_L001_R1_raw.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_FltPlantD_Leaf_S3_L001_R2_raw.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_FltPlantD_Leaf_S3_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_FltPlantD_Leaf_S3_L001_R2_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_FltPlantD_Leaf_S3_L001_R1_filtered.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_FltPlantD_Leaf_S3_L001_R2_filtered.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_Flt-A-Root_S8_L001_R1_raw.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_Flt-A-Root_S8_L001_R2_raw.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_Flt-A-Root_S8_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_Flt-A-Root_S8_L001_R2_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_Flt-A-Root_S8_L001_R1_filtered.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_Flt-A-Root_S8_L001_R2_filtered.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_Flt-C-Root_S9_L001_R1_raw.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_Flt-C-Root_S9_L001_R2_raw.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_Flt-C-Root_S9_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_Flt-C-Root_S9_L001_R2_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_Flt-C-Root_S9_L001_R1_filtered.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_Flt-C-Root_S9_L001_R2_filtered.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_GroundPlantA_Leaf_S10_L001_R1_raw.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_GroundPlantA_Leaf_S10_L001_R2_raw.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_GroundPlantA_Leaf_S10_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_GroundPlantA_Leaf_S10_L001_R2_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_GroundPlantA_Leaf_S10_L001_R1_filtered.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_GroundPlantA_Leaf_S10_L001_R2_filtered.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_GroundPlantB_Leaf_S11_L001_R1_raw.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_GroundPlantB_Leaf_S11_L001_R2_raw.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_GroundPlantB_Leaf_S11_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_GroundPlantB_Leaf_S11_L001_R2_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_GroundPlantB_Leaf_S11_L001_R1_filtered.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_GroundPlantB_Leaf_S11_L001_R2_filtered.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_GroundPlantC_Leaf_S12_L001_R1_raw.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_GroundPlantC_Leaf_S12_L001_R2_raw.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_GroundPlantC_Leaf_S12_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_GroundPlantC_Leaf_S12_L001_R2_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_GroundPlantC_Leaf_S12_L001_R1_filtered.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_GroundPlantC_Leaf_S12_L001_R2_filtered.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_GroundPlantE_Leaf_S13_L001_R1_raw.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_GroundPlantE_Leaf_S13_L001_R2_raw.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_GroundPlantE_Leaf_S13_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_GroundPlantE_Leaf_S13_L001_R2_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_GroundPlantE_Leaf_S13_L001_R1_filtered.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_GroundPlantE_Leaf_S13_L001_R2_filtered.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_GrounPlantF_Leaf_S14_L001_R1_raw.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_GrounPlantF_Leaf_S14_L001_R2_raw.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_GrounPlantF_Leaf_S14_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_GrounPlantF_Leaf_S14_L001_R2_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_GrounPlantF_Leaf_S14_L001_R1_filtered.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_GrounPlantF_Leaf_S14_L001_R2_filtered.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_Ground-A-Root_S19_L001_R1_raw.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_Ground-A-Root_S19_L001_R2_raw.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_Ground-A-Root_S19_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_Ground-A-Root_S19_L001_R2_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_Ground-A-Root_S19_L001_R1_filtered.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_Ground-A-Root_S19_L001_R2_filtered.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_Ground-C-Root_S20_L001_R1_raw.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_Ground-C-Root_S20_L001_R2_raw.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_Ground-C-Root_S20_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_Ground-C-Root_S20_L001_R2_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_Ground-C-Root_S20_L001_R1_filtered.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_Ground-C-Root_S20_L001_R2_filtered.fastq.gz"
+        ],
+        "processed": [
+          "GLDS-267_GAmplicon_V01A_ITS_FltPlantA_Leaf_S1_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_FltPlantA_Leaf_S1_L001_R2_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_ITS-trimmed-read-counts.tsv",
+          "GLDS-267_GAmplicon_ITS-cutadapt.log",
+          "GLDS-267_GAmplicon_V01A_ITS_FltPlantC_Leaf_S2_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_FltPlantC_Leaf_S2_L001_R2_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_FltPlantD_Leaf_S3_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_FltPlantD_Leaf_S3_L001_R2_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_Flt-A-Root_S8_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_Flt-A-Root_S8_L001_R2_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_Flt-C-Root_S9_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_Flt-C-Root_S9_L001_R2_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_GroundPlantA_Leaf_S10_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_GroundPlantA_Leaf_S10_L001_R2_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_GroundPlantB_Leaf_S11_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_GroundPlantB_Leaf_S11_L001_R2_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_GroundPlantC_Leaf_S12_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_GroundPlantC_Leaf_S12_L001_R2_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_GroundPlantE_Leaf_S13_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_GroundPlantE_Leaf_S13_L001_R2_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_GrounPlantF_Leaf_S14_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_GrounPlantF_Leaf_S14_L001_R2_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_Ground-A-Root_S19_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_Ground-A-Root_S19_L001_R2_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_Ground-C-Root_S20_L001_R1_trimmed.fastq.gz",
+          "GLDS-267_GAmplicon_V01A_ITS_Ground-C-Root_S20_L001_R2_trimmed.fastq.gz",
+          "Flight Plant Leaf A",
+          "GeneLab amplicon-seq data processing protocol",
+          "Bioanalyzer or Qubit",
+          "SO",
+          "http://purl.obolibrary.org/obo/SO_0000150",
+          "DNA 1000 or Qubit HS dsDNA assay",
+          "F",
+          "5’-TAGAGGAAGTAAAAGTCGTAA-3’",
+          "R",
+          "5’-TTYRCTRCGTTCTTCATC-3’",
+          "PAIRED",
+          "AMPLICON",
+          "354",
+          "read",
+          "ITS",
+          "Illumina MiSeq",
+          "amplicon sequencing",
+          "GLDS-267_GAmplicon_ITS-README.txt",
+          "6461",
+          "GLDS-267_GAmplicon_ITS-filtered-read-counts.tsv",
+          "GLDS-267_GAmplicon_ITS-ASVs.fasta",
+          "GLDS-267_GAmplicon_ITS-counts.tsv",
+          "GLDS-267_GAmplicon_ITS-read-count-tracking.tsv",
+          "GLDS-267_GAmplicon_ITS-taxonomy-and-counts.biom.zip",
+          "GLDS-267_GAmplicon_ITS-taxonomy-and-counts.tsv",
+          "GLDS-267_GAmplicon_ITS-taxonomy.tsv",
+          "GLDS-267_GAmplicon_ITS-processing_info.zip",
+          "Flight Plant Leaf C",
+          "12739",
+          "Flight Plant Leaf D",
+          "5125",
+          "Flight Plant Root A",
+          "Flight Plant Root C",
+          "37599",
+          "Ground Plant Leaf A",
+          "6308",
+          "Ground Plant Leaf B",
+          "9777",
+          "Ground Plant Leaf C",
+          "13312",
+          "Ground Plant Leaf E",
+          "5147",
+          "Ground Plant Leaf F",
+          "5175",
+          "Ground Plant Root A",
+          "52487",
+          "Ground Plant Root C",
+          "40380"
+        ],
+        "reports": [
+          "GLDS-267_GAmplicon_ITS-raw_multiqc_data.zip",
+          "GLDS-267_GAmplicon_ITS-raw_multiqc_report.html",
+          "GLDS-267_GAmplicon_ITS-filtered_multiqc_data.zip",
+          "GLDS-267_GAmplicon_ITS-filtered_multiqc_report.html",
+          "GLDS-267_GAmplicon_ITS-cutadapt.log"
+        ]
+      }
+    }
+  ]
+}

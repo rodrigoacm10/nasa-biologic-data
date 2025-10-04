@@ -1,0 +1,1888 @@
+{
+  "investigation": {
+    "id": "OSD-223",
+    "title": "The effect of spaceflight on transgenic Arabidopsis plants with compromised signaling",
+    "description": "Understanding the molecular mechanisms by which plants sense and adapt to changes in the space environment is essential for generating plants that are better adapted to withstand space flight, microgravity, and other adverse conditions encountered in space. The objective of our spaceflight experiment “Plant Signaling in Microgravity” (carried out on the International Space Station, ISS), was to compare transcript profiles of wild type and transgenic InsP 5-ptase plants with compromised InsP3 signaling.",
+    "mission": {
+      "name": "STS-135",
+      "start_date": "07/08/2011",
+      "end_date": "07/21/2011",
+      "link": "https://osdr.nasa.gov/bio/repo/data/missions/STS-135"
+    },
+    "project": {
+      "identifier": "ARC00XX48",
+      "title": "The Effect of Spaceflight on Transgenic Arabidopsis Plants With Compromised Signaling",
+      "type": "Spaceflight Study",
+      "link": "https://nlsp.nasa.gov/view/lsdapub/lsda_experiment/8bb8cb8a-d1ee-5806-bac3-a8c28d3e7fad",
+      "funding": "2012 Space Biology NNH12Z",
+      "managing_center": "Ames Research Center (ARC)"
+    },
+    "protocols": [
+      "growth protocol",
+      "sample collection",
+      "Nucleic Acid Extraction",
+      "Library Construction",
+      "Nucleic Acid Sequencing",
+      "GeneLab raw data processing protocol",
+      "GeneLab RNAseq data processing protocol"
+    ],
+    "publications": [
+      {
+        "title": "Uncovering Transcriptional Responses to Fractional Gravity in Arabidopsis Roots",
+        "doi": "10.3390/life11101010",
+        "authors": [
+          "Sheppard James",
+          "Land Eric S.",
+          "Toennisson Tiffany Aurora",
+          "Doherty Colleen J.",
+          "Perera Imara Y."
+        ],
+        "summary": "Uncovering Transcriptional Responses to Fractional Gravity in Arabidopsis Roots — 10.3390/life11101010"
+      },
+      {
+        "title": "Conserved plant transcriptional responses to microgravity from two consecutive spaceflight experiments",
+        "doi": "10.3389/fpls.2023.1308713",
+        "authors": [
+          "Land Eric S.",
+          "Sheppard James",
+          "Doherty Colleen J.",
+          "Perera Imara Y."
+        ],
+        "summary": "Conserved plant transcriptional responses to microgravity from two consecutive spaceflight experiments — 10.3389/fpls.2023.1308713"
+      }
+    ],
+    "factors": [
+      "Spaceflight",
+      "Genotype",
+      "Organism Part",
+      "Altered Gravity"
+    ],
+    "contacts": [
+      {
+        "first_name": "Imara",
+        "last_name": "Perera",
+        "role": "principal investigator role",
+        "email": "iperera@ncsu.edu"
+      },
+      {
+        "first_name": "James",
+        "last_name": "Sheppard",
+        "role": "formal analysis role",
+        "email": "jamesvsheppard@gmail.com"
+      },
+      {
+        "first_name": "Eric",
+        "last_name": "Land",
+        "role": "Researcher",
+        "email": "esland@ncsu.edu"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "F08",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "Wild Type",
+          "Organism Part": "root",
+          "Altered Gravity": "0.76G by centrifugation"
+        },
+        "parameters": {
+          "Growth Time": "5",
+          "growth environment": "ISS-Columbus",
+          "light cycle": "24 light",
+          "Mean Growth Temperature": "24",
+          "light regimen": "continuous light regimen",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "container": "TROPI-like seed cassettes",
+          "Growth Medium": "0.5X Murashige and Skoog (MS) media (without sucrose)",
+          "light source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "frozen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitter Factor": "0.76G In-flight Control"
+        }
+      },
+      {
+        "sample_name": "F18",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "Wild Type",
+          "Organism Part": "root",
+          "Altered Gravity": "0.76G by centrifugation"
+        },
+        "parameters": {
+          "Growth Time": "5",
+          "growth environment": "ISS-Columbus",
+          "light cycle": "24 light",
+          "Mean Growth Temperature": "24",
+          "light regimen": "continuous light regimen",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "container": "TROPI-like seed cassettes",
+          "Growth Medium": "0.5X Murashige and Skoog (MS) media (without sucrose)",
+          "light source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "frozen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitter Factor": "0.76G In-flight Control"
+        }
+      },
+      {
+        "sample_name": "F03",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "InsP 5-ptase Transgenic",
+          "Organism Part": "root",
+          "Altered Gravity": "0.76G by centrifugation"
+        },
+        "parameters": {
+          "Growth Time": "5",
+          "growth environment": "ISS-Columbus",
+          "light cycle": "24 light",
+          "Mean Growth Temperature": "24",
+          "light regimen": "continuous light regimen",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "container": "TROPI-like seed cassettes",
+          "Growth Medium": "0.5X Murashige and Skoog (MS) media (without sucrose)",
+          "light source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "frozen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitter Factor": "0.76G In-flight Control"
+        }
+      },
+      {
+        "sample_name": "F13",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "InsP 5-ptase Transgenic",
+          "Organism Part": "root",
+          "Altered Gravity": "0.76G by centrifugation"
+        },
+        "parameters": {
+          "Growth Time": "5",
+          "growth environment": "ISS-Columbus",
+          "light cycle": "24 light",
+          "Mean Growth Temperature": "24",
+          "light regimen": "continuous light regimen",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "container": "TROPI-like seed cassettes",
+          "Growth Medium": "0.5X Murashige and Skoog (MS) media (without sucrose)",
+          "light source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "frozen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitter Factor": "0.76G In-flight Control"
+        }
+      },
+      {
+        "sample_name": "F28",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "Wild Type",
+          "Organism Part": "root",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "Growth Time": "5",
+          "growth environment": "ISS-Columbus",
+          "light cycle": "24 light",
+          "Mean Growth Temperature": "24",
+          "light regimen": "continuous light regimen",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "container": "TROPI-like seed cassettes",
+          "Growth Medium": "0.5X Murashige and Skoog (MS) media (without sucrose)",
+          "light source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "frozen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitter Factor": "Space Flight"
+        }
+      },
+      {
+        "sample_name": "F38",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "Wild Type",
+          "Organism Part": "root",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "Growth Time": "5",
+          "growth environment": "ISS-Columbus",
+          "light cycle": "24 light",
+          "Mean Growth Temperature": "24",
+          "light regimen": "continuous light regimen",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "container": "TROPI-like seed cassettes",
+          "Growth Medium": "0.5X Murashige and Skoog (MS) media (without sucrose)",
+          "light source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "frozen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitter Factor": "Space Flight"
+        }
+      },
+      {
+        "sample_name": "F23",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "InsP 5-ptase Transgenic",
+          "Organism Part": "root",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "Growth Time": "5",
+          "growth environment": "ISS-Columbus",
+          "light cycle": "24 light",
+          "Mean Growth Temperature": "24",
+          "light regimen": "continuous light regimen",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "container": "TROPI-like seed cassettes",
+          "Growth Medium": "0.5X Murashige and Skoog (MS) media (without sucrose)",
+          "light source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "frozen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitter Factor": "Space Flight"
+        }
+      },
+      {
+        "sample_name": "F33",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "InsP 5-ptase Transgenic",
+          "Organism Part": "root",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "Growth Time": "5",
+          "growth environment": "ISS-Columbus",
+          "light cycle": "24 light",
+          "Mean Growth Temperature": "24",
+          "light regimen": "continuous light regimen",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "container": "TROPI-like seed cassettes",
+          "Growth Medium": "0.5X Murashige and Skoog (MS) media (without sucrose)",
+          "light source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "frozen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitter Factor": "Space Flight"
+        }
+      },
+      {
+        "sample_name": "F48",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "Wild Type",
+          "Organism Part": "root",
+          "Altered Gravity": "0.76G by centrifugation"
+        },
+        "parameters": {
+          "Growth Time": "5",
+          "growth environment": "ISS-Columbus",
+          "light cycle": "24 light",
+          "Mean Growth Temperature": "24",
+          "light regimen": "continuous light regimen",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "container": "TROPI-like seed cassettes",
+          "Growth Medium": "0.5X Murashige and Skoog (MS) media (without sucrose)",
+          "light source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "frozen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitter Factor": "0.76G In-flight Control"
+        }
+      },
+      {
+        "sample_name": "F58",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "Wild Type",
+          "Organism Part": "root",
+          "Altered Gravity": "0.76G by centrifugation"
+        },
+        "parameters": {
+          "Growth Time": "5",
+          "growth environment": "ISS-Columbus",
+          "light cycle": "24 light",
+          "Mean Growth Temperature": "24",
+          "light regimen": "continuous light regimen",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "container": "TROPI-like seed cassettes",
+          "Growth Medium": "0.5X Murashige and Skoog (MS) media (without sucrose)",
+          "light source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "frozen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitter Factor": "0.76G In-flight Control"
+        }
+      },
+      {
+        "sample_name": "F43",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "InsP 5-ptase Transgenic",
+          "Organism Part": "root",
+          "Altered Gravity": "0.76G by centrifugation"
+        },
+        "parameters": {
+          "Growth Time": "5",
+          "growth environment": "ISS-Columbus",
+          "light cycle": "24 light",
+          "Mean Growth Temperature": "24",
+          "light regimen": "continuous light regimen",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "container": "TROPI-like seed cassettes",
+          "Growth Medium": "0.5X Murashige and Skoog (MS) media (without sucrose)",
+          "light source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "frozen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitter Factor": "0.76G In-flight Control"
+        }
+      },
+      {
+        "sample_name": "F53",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "InsP 5-ptase Transgenic",
+          "Organism Part": "root",
+          "Altered Gravity": "0.76G by centrifugation"
+        },
+        "parameters": {
+          "Growth Time": "5",
+          "growth environment": "ISS-Columbus",
+          "light cycle": "24 light",
+          "Mean Growth Temperature": "24",
+          "light regimen": "continuous light regimen",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "container": "TROPI-like seed cassettes",
+          "Growth Medium": "0.5X Murashige and Skoog (MS) media (without sucrose)",
+          "light source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "frozen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitter Factor": "0.76G In-flight Control"
+        }
+      },
+      {
+        "sample_name": "F68",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "Wild Type",
+          "Organism Part": "root",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "Growth Time": "5",
+          "growth environment": "ISS-Columbus",
+          "light cycle": "24 light",
+          "Mean Growth Temperature": "24",
+          "light regimen": "continuous light regimen",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "container": "TROPI-like seed cassettes",
+          "Growth Medium": "0.5X Murashige and Skoog (MS) media (without sucrose)",
+          "light source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "frozen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitter Factor": "Space Flight"
+        }
+      },
+      {
+        "sample_name": "F78",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "Wild Type",
+          "Organism Part": "root",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "Growth Time": "5",
+          "growth environment": "ISS-Columbus",
+          "light cycle": "24 light",
+          "Mean Growth Temperature": "24",
+          "light regimen": "continuous light regimen",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "container": "TROPI-like seed cassettes",
+          "Growth Medium": "0.5X Murashige and Skoog (MS) media (without sucrose)",
+          "light source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "frozen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitter Factor": "Space Flight"
+        }
+      },
+      {
+        "sample_name": "F63",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "InsP 5-ptase Transgenic",
+          "Organism Part": "root",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "Growth Time": "5",
+          "growth environment": "ISS-Columbus",
+          "light cycle": "24 light",
+          "Mean Growth Temperature": "24",
+          "light regimen": "continuous light regimen",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "container": "TROPI-like seed cassettes",
+          "Growth Medium": "0.5X Murashige and Skoog (MS) media (without sucrose)",
+          "light source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "frozen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitter Factor": "Space Flight"
+        }
+      },
+      {
+        "sample_name": "F73",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "InsP 5-ptase Transgenic",
+          "Organism Part": "root",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "Growth Time": "5",
+          "growth environment": "ISS-Columbus",
+          "light cycle": "24 light",
+          "Mean Growth Temperature": "24",
+          "light regimen": "continuous light regimen",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "container": "TROPI-like seed cassettes",
+          "Growth Medium": "0.5X Murashige and Skoog (MS) media (without sucrose)",
+          "light source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "frozen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitter Factor": "Space Flight"
+        }
+      },
+      {
+        "sample_name": "GC14",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Genotype": "Wild Type",
+          "Organism Part": "root",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "Growth Time": "5",
+          "growth environment": "Earth surface",
+          "light cycle": "24 light",
+          "Mean Growth Temperature": "24",
+          "light regimen": "continuous light regimen",
+          "Hardware": "NASA Ames, Experimental Reference Module (ERM2)",
+          "container": "TROPI-like seed cassettes",
+          "Growth Medium": "0.5X Murashige and Skoog (MS) media (without sucrose)",
+          "light source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "frozen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitter Factor": "Ground Control"
+        }
+      },
+      {
+        "sample_name": "GC16",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Genotype": "Wild Type",
+          "Organism Part": "root",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "Growth Time": "5",
+          "growth environment": "Earth surface",
+          "light cycle": "24 light",
+          "Mean Growth Temperature": "24",
+          "light regimen": "continuous light regimen",
+          "Hardware": "NASA Ames, Experimental Reference Module (ERM2)",
+          "container": "TROPI-like seed cassettes",
+          "Growth Medium": "0.5X Murashige and Skoog (MS) media (without sucrose)",
+          "light source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "frozen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitter Factor": "Ground Control"
+        }
+      },
+      {
+        "sample_name": "GC01",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Genotype": "InsP 5-ptase Transgenic",
+          "Organism Part": "root",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "Growth Time": "5",
+          "growth environment": "Earth surface",
+          "light cycle": "24 light",
+          "Mean Growth Temperature": "24",
+          "light regimen": "continuous light regimen",
+          "Hardware": "NASA Ames, Experimental Reference Module (ERM2)",
+          "container": "TROPI-like seed cassettes",
+          "Growth Medium": "0.5X Murashige and Skoog (MS) media (without sucrose)",
+          "light source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "frozen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitter Factor": "Ground Control"
+        }
+      },
+      {
+        "sample_name": "GC13",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Genotype": "InsP 5-ptase Transgenic",
+          "Organism Part": "root",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "Growth Time": "5",
+          "growth environment": "Earth surface",
+          "light cycle": "24 light",
+          "Mean Growth Temperature": "24",
+          "light regimen": "continuous light regimen",
+          "Hardware": "NASA Ames, Experimental Reference Module (ERM2)",
+          "container": "TROPI-like seed cassettes",
+          "Growth Medium": "0.5X Murashige and Skoog (MS) media (without sucrose)",
+          "light source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "frozen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitter Factor": "Ground Control"
+        }
+      },
+      {
+        "sample_name": "FLS18",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "Wild Type",
+          "Organism Part": "shoot",
+          "Altered Gravity": "0.76G by centrifugation"
+        },
+        "parameters": {
+          "Growth Time": "5",
+          "growth environment": "ISS-Columbus",
+          "light cycle": "24 light",
+          "Mean Growth Temperature": "24",
+          "light regimen": "continuous light regimen",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "container": "TROPI-like seed cassettes",
+          "Growth Medium": "0.5X Murashige and Skoog (MS) media (without sucrose)",
+          "light source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "frozen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitter Factor": "0.76G In-flight Control"
+        }
+      },
+      {
+        "sample_name": "FLS13",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "InsP 5-ptase Transgenic",
+          "Organism Part": "shoot",
+          "Altered Gravity": "0.76G by centrifugation"
+        },
+        "parameters": {
+          "Growth Time": "5",
+          "growth environment": "ISS-Columbus",
+          "light cycle": "24 light",
+          "Mean Growth Temperature": "24",
+          "light regimen": "continuous light regimen",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "container": "TROPI-like seed cassettes",
+          "Growth Medium": "0.5X Murashige and Skoog (MS) media (without sucrose)",
+          "light source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "frozen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitter Factor": "0.76G In-flight Control"
+        }
+      },
+      {
+        "sample_name": "FLS28",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "Wild Type",
+          "Organism Part": "shoot",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "Growth Time": "5",
+          "growth environment": "ISS-Columbus",
+          "light cycle": "24 light",
+          "Mean Growth Temperature": "24",
+          "light regimen": "continuous light regimen",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "container": "TROPI-like seed cassettes",
+          "Growth Medium": "0.5X Murashige and Skoog (MS) media (without sucrose)",
+          "light source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "frozen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitter Factor": "Space Flight"
+        }
+      },
+      {
+        "sample_name": "FLS38",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "Wild Type",
+          "Organism Part": "shoot",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "Growth Time": "5",
+          "growth environment": "ISS-Columbus",
+          "light cycle": "24 light",
+          "Mean Growth Temperature": "24",
+          "light regimen": "continuous light regimen",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "container": "TROPI-like seed cassettes",
+          "Growth Medium": "0.5X Murashige and Skoog (MS) media (without sucrose)",
+          "light source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "frozen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitter Factor": "Space Flight"
+        }
+      },
+      {
+        "sample_name": "FLS23",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "InsP 5-ptase Transgenic",
+          "Organism Part": "shoot",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "Growth Time": "5",
+          "growth environment": "ISS-Columbus",
+          "light cycle": "24 light",
+          "Mean Growth Temperature": "24",
+          "light regimen": "continuous light regimen",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "container": "TROPI-like seed cassettes",
+          "Growth Medium": "0.5X Murashige and Skoog (MS) media (without sucrose)",
+          "light source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "frozen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitter Factor": "Space Flight"
+        }
+      },
+      {
+        "sample_name": "FLS33",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "InsP 5-ptase Transgenic",
+          "Organism Part": "shoot",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "Growth Time": "5",
+          "growth environment": "ISS-Columbus",
+          "light cycle": "24 light",
+          "Mean Growth Temperature": "24",
+          "light regimen": "continuous light regimen",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "container": "TROPI-like seed cassettes",
+          "Growth Medium": "0.5X Murashige and Skoog (MS) media (without sucrose)",
+          "light source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "frozen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitter Factor": "Space Flight"
+        }
+      },
+      {
+        "sample_name": "FLS48",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "Wild Type",
+          "Organism Part": "shoot",
+          "Altered Gravity": "0.76G by centrifugation"
+        },
+        "parameters": {
+          "Growth Time": "5",
+          "growth environment": "ISS-Columbus",
+          "light cycle": "24 light",
+          "Mean Growth Temperature": "24",
+          "light regimen": "continuous light regimen",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "container": "TROPI-like seed cassettes",
+          "Growth Medium": "0.5X Murashige and Skoog (MS) media (without sucrose)",
+          "light source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "frozen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitter Factor": "0.76G In-flight Control"
+        }
+      },
+      {
+        "sample_name": "FLS58",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "Wild Type",
+          "Organism Part": "shoot",
+          "Altered Gravity": "0.76G by centrifugation"
+        },
+        "parameters": {
+          "Growth Time": "5",
+          "growth environment": "ISS-Columbus",
+          "light cycle": "24 light",
+          "Mean Growth Temperature": "24",
+          "light regimen": "continuous light regimen",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "container": "TROPI-like seed cassettes",
+          "Growth Medium": "0.5X Murashige and Skoog (MS) media (without sucrose)",
+          "light source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "frozen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitter Factor": "0.76G In-flight Control"
+        }
+      },
+      {
+        "sample_name": "FLS43",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "InsP 5-ptase Transgenic",
+          "Organism Part": "shoot",
+          "Altered Gravity": "0.76G by centrifugation"
+        },
+        "parameters": {
+          "Growth Time": "5",
+          "growth environment": "ISS-Columbus",
+          "light cycle": "24 light",
+          "Mean Growth Temperature": "24",
+          "light regimen": "continuous light regimen",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "container": "TROPI-like seed cassettes",
+          "Growth Medium": "0.5X Murashige and Skoog (MS) media (without sucrose)",
+          "light source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "frozen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitter Factor": "0.76G In-flight Control"
+        }
+      },
+      {
+        "sample_name": "FLS53",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "InsP 5-ptase Transgenic",
+          "Organism Part": "shoot",
+          "Altered Gravity": "0.76G by centrifugation"
+        },
+        "parameters": {
+          "Growth Time": "5",
+          "growth environment": "ISS-Columbus",
+          "light cycle": "24 light",
+          "Mean Growth Temperature": "24",
+          "light regimen": "continuous light regimen",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "container": "TROPI-like seed cassettes",
+          "Growth Medium": "0.5X Murashige and Skoog (MS) media (without sucrose)",
+          "light source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "frozen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitter Factor": "0.76G In-flight Control"
+        }
+      },
+      {
+        "sample_name": "FLS68",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "Wild Type",
+          "Organism Part": "shoot",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "Growth Time": "5",
+          "growth environment": "ISS-Columbus",
+          "light cycle": "24 light",
+          "Mean Growth Temperature": "24",
+          "light regimen": "continuous light regimen",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "container": "TROPI-like seed cassettes",
+          "Growth Medium": "0.5X Murashige and Skoog (MS) media (without sucrose)",
+          "light source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "frozen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitter Factor": "Space Flight"
+        }
+      },
+      {
+        "sample_name": "FLS78",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "Wild Type",
+          "Organism Part": "shoot",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "Growth Time": "5",
+          "growth environment": "ISS-Columbus",
+          "light cycle": "24 light",
+          "Mean Growth Temperature": "24",
+          "light regimen": "continuous light regimen",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "container": "TROPI-like seed cassettes",
+          "Growth Medium": "0.5X Murashige and Skoog (MS) media (without sucrose)",
+          "light source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "frozen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitter Factor": "Space Flight"
+        }
+      },
+      {
+        "sample_name": "FLS63",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "InsP 5-ptase Transgenic",
+          "Organism Part": "shoot",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "Growth Time": "5",
+          "growth environment": "ISS-Columbus",
+          "light cycle": "24 light",
+          "Mean Growth Temperature": "24",
+          "light regimen": "continuous light regimen",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "container": "TROPI-like seed cassettes",
+          "Growth Medium": "0.5X Murashige and Skoog (MS) media (without sucrose)",
+          "light source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "frozen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitter Factor": "Space Flight"
+        }
+      },
+      {
+        "sample_name": "FLS73",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "InsP 5-ptase Transgenic",
+          "Organism Part": "shoot",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "Growth Time": "5",
+          "growth environment": "ISS-Columbus",
+          "light cycle": "24 light",
+          "Mean Growth Temperature": "24",
+          "light regimen": "continuous light regimen",
+          "Hardware": "European Modular Cultivation System (EMCS)",
+          "container": "TROPI-like seed cassettes",
+          "Growth Medium": "0.5X Murashige and Skoog (MS) media (without sucrose)",
+          "light source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "frozen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitter Factor": "Space Flight"
+        }
+      },
+      {
+        "sample_name": "GCS14",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Genotype": "Wild Type",
+          "Organism Part": "shoot",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "Growth Time": "5",
+          "growth environment": "Earth surface",
+          "light cycle": "24 light",
+          "Mean Growth Temperature": "24",
+          "light regimen": "continuous light regimen",
+          "Hardware": "NASA Ames, Experimental Reference Module (ERM2)",
+          "container": "TROPI-like seed cassettes",
+          "Growth Medium": "0.5X Murashige and Skoog (MS) media (without sucrose)",
+          "light source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "frozen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitter Factor": "Ground Control"
+        }
+      },
+      {
+        "sample_name": "GCS1",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Genotype": "Wild Type",
+          "Organism Part": "shoot",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "Growth Time": "5",
+          "growth environment": "Earth surface",
+          "light cycle": "24 light",
+          "Mean Growth Temperature": "24",
+          "light regimen": "continuous light regimen",
+          "Hardware": "NASA Ames, Experimental Reference Module (ERM2)",
+          "container": "TROPI-like seed cassettes",
+          "Growth Medium": "0.5X Murashige and Skoog (MS) media (without sucrose)",
+          "light source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "frozen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitter Factor": "Ground Control"
+        }
+      },
+      {
+        "sample_name": "GCS13",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Genotype": "InsP 5-ptase Transgenic",
+          "Organism Part": "shoot",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "Growth Time": "5",
+          "growth environment": "Earth surface",
+          "light cycle": "24 light",
+          "Mean Growth Temperature": "24",
+          "light regimen": "continuous light regimen",
+          "Hardware": "NASA Ames, Experimental Reference Module (ERM2)",
+          "container": "TROPI-like seed cassettes",
+          "Growth Medium": "0.5X Murashige and Skoog (MS) media (without sucrose)",
+          "light source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "frozen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitter Factor": "Ground Control"
+        }
+      },
+      {
+        "sample_name": "GCS2",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Genotype": "InsP 5-ptase Transgenic",
+          "Organism Part": "shoot",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "Growth Time": "5",
+          "growth environment": "Earth surface",
+          "light cycle": "24 light",
+          "Mean Growth Temperature": "24",
+          "light regimen": "continuous light regimen",
+          "Hardware": "NASA Ames, Experimental Reference Module (ERM2)",
+          "container": "TROPI-like seed cassettes",
+          "Growth Medium": "0.5X Murashige and Skoog (MS) media (without sucrose)",
+          "light source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "frozen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitter Factor": "Ground Control"
+        }
+      },
+      {
+        "sample_name": "GCS18",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Genotype": "Wild Type",
+          "Organism Part": "shoot",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "Growth Time": "5",
+          "growth environment": "Earth surface",
+          "light cycle": "24 light",
+          "Mean Growth Temperature": "24",
+          "light regimen": "continuous light regimen",
+          "Hardware": "NASA Ames, Experimental Reference Module (ERM2)",
+          "container": "TROPI-like seed cassettes",
+          "Growth Medium": "0.5X Murashige and Skoog (MS) media (without sucrose)",
+          "light source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "frozen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitter Factor": "Ground Control"
+        }
+      },
+      {
+        "sample_name": "GCS17",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Strain": "Col-0"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Genotype": "InsP 5-ptase Transgenic",
+          "Organism Part": "shoot",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "Growth Time": "5",
+          "growth environment": "Earth surface",
+          "light cycle": "24 light",
+          "Mean Growth Temperature": "24",
+          "light regimen": "continuous light regimen",
+          "Hardware": "NASA Ames, Experimental Reference Module (ERM2)",
+          "container": "TROPI-like seed cassettes",
+          "Growth Medium": "0.5X Murashige and Skoog (MS) media (without sucrose)",
+          "light source": "Light Emitting Diode Device",
+          "Sample Preservation Method": "frozen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitter Factor": "Ground Control"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina HiSeq2500",
+      "qc": {
+        "QA Instrument": "BioAnalyzer",
+        "Read Depth": "30100788",
+        "rRNA Contamination": "4.11"
+      },
+      "library": {
+        "Library Selection": "polyA enrichment",
+        "Library Layout": "SINGLE",
+        "Stranded": "STRANDED"
+      },
+      "files": {
+        "raw": [
+          "GLDS-223_rna-seq_F03.fastq.gz",
+          "GLDS-223_rna-seq_F08.fastq.gz",
+          "GLDS-223_rna-seq_F13.fastq.gz",
+          "GLDS-223_rna-seq_F18.fastq.gz",
+          "GLDS-223_rna-seq_F23.fastq.gz",
+          "GLDS-223_rna-seq_F28.fastq.gz",
+          "GLDS-223_rna-seq_F33.fastq.gz",
+          "GLDS-223_rna-seq_F38.fastq.gz",
+          "GLDS-223_rna-seq_F43.fastq.gz",
+          "GLDS-223_rna-seq_F48.fastq.gz",
+          "GLDS-223_rna-seq_F53.fastq.gz",
+          "GLDS-223_rna-seq_F58.fastq.gz",
+          "GLDS-223_rna-seq_F63.fastq.gz",
+          "GLDS-223_rna-seq_F68.fastq.gz",
+          "GLDS-223_rna-seq_F73.fastq.gz",
+          "GLDS-223_rna-seq_F78.fastq.gz",
+          "GLDS-223_rna-seq_FLS13.fastq.gz",
+          "GLDS-223_rna-seq_FLS18.fastq.gz",
+          "GLDS-223_rna-seq_FLS23.fastq.gz",
+          "GLDS-223_rna-seq_FLS28.fastq.gz",
+          "GLDS-223_rna-seq_FLS33.fastq.gz",
+          "GLDS-223_rna-seq_FLS38.fastq.gz",
+          "GLDS-223_rna-seq_FLS43.fastq.gz",
+          "GLDS-223_rna-seq_FLS48.fastq.gz",
+          "GLDS-223_rna-seq_FLS53.fastq.gz",
+          "GLDS-223_rna-seq_FLS58.fastq.gz",
+          "GLDS-223_rna-seq_FLS63.fastq.gz",
+          "GLDS-223_rna-seq_FLS68.fastq.gz",
+          "GLDS-223_rna-seq_FLS73.fastq.gz",
+          "GLDS-223_rna-seq_FLS78.fastq.gz",
+          "GLDS-223_rna-seq_GC01.fastq.gz",
+          "GLDS-223_rna-seq_GC13.fastq.gz",
+          "GLDS-223_rna-seq_GC14.fastq.gz",
+          "GLDS-223_rna-seq_GC16.fastq.gz",
+          "GLDS-223_rna-seq_GCS1.fastq.gz",
+          "GLDS-223_rna-seq_GCS13.fastq.gz",
+          "GLDS-223_rna-seq_GCS14.fastq.gz",
+          "GLDS-223_rna-seq_GCS17.fastq.gz",
+          "GLDS-223_rna-seq_GCS18.fastq.gz",
+          "GLDS-223_rna-seq_GCS2.fastq.gz",
+          "GLDS-223_rna_seq_F03_raw.fastq.gz",
+          "GLDS-223_rna_seq_F03_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_F08_raw.fastq.gz",
+          "GLDS-223_rna_seq_F08_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_F13_raw.fastq.gz",
+          "GLDS-223_rna_seq_F13_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_F18_raw.fastq.gz",
+          "GLDS-223_rna_seq_F18_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_F23_raw.fastq.gz",
+          "GLDS-223_rna_seq_F23_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_F28_raw.fastq.gz",
+          "GLDS-223_rna_seq_F28_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_F33_raw.fastq.gz",
+          "GLDS-223_rna_seq_F33_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_F38_raw.fastq.gz",
+          "GLDS-223_rna_seq_F38_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_F43_raw.fastq.gz",
+          "GLDS-223_rna_seq_F43_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_F48_raw.fastq.gz",
+          "GLDS-223_rna_seq_F48_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_F53_raw.fastq.gz",
+          "GLDS-223_rna_seq_F53_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_F58_raw.fastq.gz",
+          "GLDS-223_rna_seq_F58_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_F63_raw.fastq.gz",
+          "GLDS-223_rna_seq_F63_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_F68_raw.fastq.gz",
+          "GLDS-223_rna_seq_F68_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_F73_raw.fastq.gz",
+          "GLDS-223_rna_seq_F73_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_F78_raw.fastq.gz",
+          "GLDS-223_rna_seq_F78_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_FLS13_raw.fastq.gz",
+          "GLDS-223_rna_seq_FLS13_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_FLS18_raw.fastq.gz",
+          "GLDS-223_rna_seq_FLS18_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_FLS23_raw.fastq.gz",
+          "GLDS-223_rna_seq_FLS23_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_FLS28_raw.fastq.gz",
+          "GLDS-223_rna_seq_FLS28_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_FLS33_raw.fastq.gz",
+          "GLDS-223_rna_seq_FLS33_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_FLS38_raw.fastq.gz",
+          "GLDS-223_rna_seq_FLS38_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_FLS43_raw.fastq.gz",
+          "GLDS-223_rna_seq_FLS43_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_FLS48_raw.fastq.gz",
+          "GLDS-223_rna_seq_FLS48_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_FLS53_raw.fastq.gz",
+          "GLDS-223_rna_seq_FLS53_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_FLS58_raw.fastq.gz",
+          "GLDS-223_rna_seq_FLS58_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_FLS63_raw.fastq.gz",
+          "GLDS-223_rna_seq_FLS63_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_FLS68_raw.fastq.gz",
+          "GLDS-223_rna_seq_FLS68_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_FLS73_raw.fastq.gz",
+          "GLDS-223_rna_seq_FLS73_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_FLS78_raw.fastq.gz",
+          "GLDS-223_rna_seq_FLS78_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_GC01_raw.fastq.gz",
+          "GLDS-223_rna_seq_GC01_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_GC13_raw.fastq.gz",
+          "GLDS-223_rna_seq_GC13_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_GC14_raw.fastq.gz",
+          "GLDS-223_rna_seq_GC14_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_GC16_raw.fastq.gz",
+          "GLDS-223_rna_seq_GC16_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_GCS1_raw.fastq.gz",
+          "GLDS-223_rna_seq_GCS1_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_GCS13_raw.fastq.gz",
+          "GLDS-223_rna_seq_GCS13_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_GCS14_raw.fastq.gz",
+          "GLDS-223_rna_seq_GCS14_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_GCS17_raw.fastq.gz",
+          "GLDS-223_rna_seq_GCS17_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_GCS18_raw.fastq.gz",
+          "GLDS-223_rna_seq_GCS18_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_GCS2_raw.fastq.gz",
+          "GLDS-223_rna_seq_GCS2_trimmed.fastq.gz"
+        ],
+        "processed": [
+          "GLDS-223_rna_seq_F03_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_F03_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-223_rna_seq_F03_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-223_rna_seq_F03_Aligned.toTranscriptome.out.bam",
+          "GLDS-223_rna_seq_F03_SJ.out.tab",
+          "GLDS-223_rna_seq_F08_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_F08_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-223_rna_seq_F08_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-223_rna_seq_F08_Aligned.toTranscriptome.out.bam",
+          "GLDS-223_rna_seq_F08_SJ.out.tab",
+          "GLDS-223_rna_seq_F13_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_F13_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-223_rna_seq_F13_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-223_rna_seq_F13_Aligned.toTranscriptome.out.bam",
+          "GLDS-223_rna_seq_F13_SJ.out.tab",
+          "GLDS-223_rna_seq_F18_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_F18_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-223_rna_seq_F18_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-223_rna_seq_F18_Aligned.toTranscriptome.out.bam",
+          "GLDS-223_rna_seq_F18_SJ.out.tab",
+          "GLDS-223_rna_seq_F23_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_F23_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-223_rna_seq_F23_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-223_rna_seq_F23_Aligned.toTranscriptome.out.bam",
+          "GLDS-223_rna_seq_F23_SJ.out.tab",
+          "GLDS-223_rna_seq_F28_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_F28_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-223_rna_seq_F28_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-223_rna_seq_F28_Aligned.toTranscriptome.out.bam",
+          "GLDS-223_rna_seq_F28_SJ.out.tab",
+          "GLDS-223_rna_seq_F33_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_F33_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-223_rna_seq_F33_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-223_rna_seq_F33_Aligned.toTranscriptome.out.bam",
+          "GLDS-223_rna_seq_F33_SJ.out.tab",
+          "GLDS-223_rna_seq_F38_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_F38_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-223_rna_seq_F38_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-223_rna_seq_F38_Aligned.toTranscriptome.out.bam",
+          "GLDS-223_rna_seq_F38_SJ.out.tab",
+          "GLDS-223_rna_seq_F43_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_F43_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-223_rna_seq_F43_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-223_rna_seq_F43_Aligned.toTranscriptome.out.bam",
+          "GLDS-223_rna_seq_F43_SJ.out.tab",
+          "GLDS-223_rna_seq_F48_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_F48_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-223_rna_seq_F48_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-223_rna_seq_F48_Aligned.toTranscriptome.out.bam",
+          "GLDS-223_rna_seq_F48_SJ.out.tab",
+          "GLDS-223_rna_seq_F53_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_F53_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-223_rna_seq_F53_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-223_rna_seq_F53_Aligned.toTranscriptome.out.bam",
+          "GLDS-223_rna_seq_F53_SJ.out.tab",
+          "GLDS-223_rna_seq_F58_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_F58_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-223_rna_seq_F58_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-223_rna_seq_F58_Aligned.toTranscriptome.out.bam",
+          "GLDS-223_rna_seq_F58_SJ.out.tab",
+          "GLDS-223_rna_seq_F63_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_F63_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-223_rna_seq_F63_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-223_rna_seq_F63_Aligned.toTranscriptome.out.bam",
+          "GLDS-223_rna_seq_F63_SJ.out.tab",
+          "GLDS-223_rna_seq_F68_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_F68_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-223_rna_seq_F68_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-223_rna_seq_F68_Aligned.toTranscriptome.out.bam",
+          "GLDS-223_rna_seq_F68_SJ.out.tab",
+          "GLDS-223_rna_seq_F73_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_F73_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-223_rna_seq_F73_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-223_rna_seq_F73_Aligned.toTranscriptome.out.bam",
+          "GLDS-223_rna_seq_F73_SJ.out.tab",
+          "GLDS-223_rna_seq_F78_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_F78_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-223_rna_seq_F78_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-223_rna_seq_F78_Aligned.toTranscriptome.out.bam",
+          "GLDS-223_rna_seq_F78_SJ.out.tab",
+          "GLDS-223_rna_seq_FLS13_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_FLS13_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-223_rna_seq_FLS13_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-223_rna_seq_FLS13_Aligned.toTranscriptome.out.bam",
+          "GLDS-223_rna_seq_FLS13_SJ.out.tab",
+          "GLDS-223_rna_seq_FLS18_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_FLS18_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-223_rna_seq_FLS18_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-223_rna_seq_FLS18_Aligned.toTranscriptome.out.bam",
+          "GLDS-223_rna_seq_FLS18_SJ.out.tab",
+          "GLDS-223_rna_seq_FLS23_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_FLS23_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-223_rna_seq_FLS23_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-223_rna_seq_FLS23_Aligned.toTranscriptome.out.bam",
+          "GLDS-223_rna_seq_FLS23_SJ.out.tab",
+          "GLDS-223_rna_seq_FLS28_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_FLS28_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-223_rna_seq_FLS28_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-223_rna_seq_FLS28_Aligned.toTranscriptome.out.bam",
+          "GLDS-223_rna_seq_FLS28_SJ.out.tab",
+          "GLDS-223_rna_seq_FLS33_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_FLS33_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-223_rna_seq_FLS33_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-223_rna_seq_FLS33_Aligned.toTranscriptome.out.bam",
+          "GLDS-223_rna_seq_FLS33_SJ.out.tab",
+          "GLDS-223_rna_seq_FLS38_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_FLS38_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-223_rna_seq_FLS38_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-223_rna_seq_FLS38_Aligned.toTranscriptome.out.bam",
+          "GLDS-223_rna_seq_FLS38_SJ.out.tab",
+          "GLDS-223_rna_seq_FLS43_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_FLS43_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-223_rna_seq_FLS43_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-223_rna_seq_FLS43_Aligned.toTranscriptome.out.bam",
+          "GLDS-223_rna_seq_FLS43_SJ.out.tab",
+          "GLDS-223_rna_seq_FLS48_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_FLS48_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-223_rna_seq_FLS48_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-223_rna_seq_FLS48_Aligned.toTranscriptome.out.bam",
+          "GLDS-223_rna_seq_FLS48_SJ.out.tab",
+          "GLDS-223_rna_seq_FLS53_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_FLS53_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-223_rna_seq_FLS53_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-223_rna_seq_FLS53_Aligned.toTranscriptome.out.bam",
+          "GLDS-223_rna_seq_FLS53_SJ.out.tab",
+          "GLDS-223_rna_seq_FLS58_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_FLS58_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-223_rna_seq_FLS58_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-223_rna_seq_FLS58_Aligned.toTranscriptome.out.bam",
+          "GLDS-223_rna_seq_FLS58_SJ.out.tab",
+          "GLDS-223_rna_seq_FLS63_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_FLS63_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-223_rna_seq_FLS63_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-223_rna_seq_FLS63_Aligned.toTranscriptome.out.bam",
+          "GLDS-223_rna_seq_FLS63_SJ.out.tab",
+          "GLDS-223_rna_seq_FLS68_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_FLS68_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-223_rna_seq_FLS68_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-223_rna_seq_FLS68_Aligned.toTranscriptome.out.bam",
+          "GLDS-223_rna_seq_FLS68_SJ.out.tab",
+          "GLDS-223_rna_seq_FLS73_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_FLS73_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-223_rna_seq_FLS73_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-223_rna_seq_FLS73_Aligned.toTranscriptome.out.bam",
+          "GLDS-223_rna_seq_FLS73_SJ.out.tab",
+          "GLDS-223_rna_seq_FLS78_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_FLS78_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-223_rna_seq_FLS78_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-223_rna_seq_FLS78_Aligned.toTranscriptome.out.bam",
+          "GLDS-223_rna_seq_FLS78_SJ.out.tab",
+          "GLDS-223_rna_seq_GC01_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_GC01_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-223_rna_seq_GC01_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-223_rna_seq_GC01_Aligned.toTranscriptome.out.bam",
+          "GLDS-223_rna_seq_GC01_SJ.out.tab",
+          "GLDS-223_rna_seq_GC13_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_GC13_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-223_rna_seq_GC13_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-223_rna_seq_GC13_Aligned.toTranscriptome.out.bam",
+          "GLDS-223_rna_seq_GC13_SJ.out.tab",
+          "GLDS-223_rna_seq_GC14_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_GC14_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-223_rna_seq_GC14_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-223_rna_seq_GC14_Aligned.toTranscriptome.out.bam",
+          "GLDS-223_rna_seq_GC14_SJ.out.tab",
+          "GLDS-223_rna_seq_GC16_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_GC16_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-223_rna_seq_GC16_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-223_rna_seq_GC16_Aligned.toTranscriptome.out.bam",
+          "GLDS-223_rna_seq_GC16_SJ.out.tab",
+          "GLDS-223_rna_seq_GCS1_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_GCS1_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-223_rna_seq_GCS1_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-223_rna_seq_GCS1_Aligned.toTranscriptome.out.bam",
+          "GLDS-223_rna_seq_GCS1_SJ.out.tab",
+          "GLDS-223_rna_seq_GCS13_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_GCS13_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-223_rna_seq_GCS13_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-223_rna_seq_GCS13_Aligned.toTranscriptome.out.bam",
+          "GLDS-223_rna_seq_GCS13_SJ.out.tab",
+          "GLDS-223_rna_seq_GCS14_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_GCS14_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-223_rna_seq_GCS14_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-223_rna_seq_GCS14_Aligned.toTranscriptome.out.bam",
+          "GLDS-223_rna_seq_GCS14_SJ.out.tab",
+          "GLDS-223_rna_seq_GCS17_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_GCS17_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-223_rna_seq_GCS17_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-223_rna_seq_GCS17_Aligned.toTranscriptome.out.bam",
+          "GLDS-223_rna_seq_GCS17_SJ.out.tab",
+          "GLDS-223_rna_seq_GCS18_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_GCS18_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-223_rna_seq_GCS18_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-223_rna_seq_GCS18_Aligned.toTranscriptome.out.bam",
+          "GLDS-223_rna_seq_GCS18_SJ.out.tab",
+          "GLDS-223_rna_seq_GCS2_trimmed.fastq.gz",
+          "GLDS-223_rna_seq_GCS2_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-223_rna_seq_GCS2_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-223_rna_seq_GCS2_Aligned.toTranscriptome.out.bam",
+          "GLDS-223_rna_seq_GCS2_SJ.out.tab",
+          "F03",
+          "GeneLab RNAseq data processing protocol",
+          "BioAnalyzer",
+          "polyA enrichment",
+          "SINGLE",
+          "STRANDED",
+          "Illumina HiSeq2500",
+          "rna-seq",
+          "125",
+          "percent",
+          "OSD",
+          "https://osdr.nasa.gov/",
+          "30100788",
+          "4.11",
+          "GLDS-223_rna_seq_F03.genes.results",
+          "GLDS-223_rna_seq_F03.isoforms.results",
+          "GLDS-223_rna_seq_RSEM_Unnormalized_Counts.csv",
+          "GLDS-223_rna_seq_STAR_Unnormalized_Counts.csv",
+          "F08",
+          "30623919",
+          "3.68",
+          "GLDS-223_rna_seq_F08.genes.results",
+          "GLDS-223_rna_seq_F08.isoforms.results",
+          "F13",
+          "32729133",
+          "3",
+          "GLDS-223_rna_seq_F13.genes.results",
+          "GLDS-223_rna_seq_F13.isoforms.results",
+          "F18",
+          "31820171",
+          "3.56",
+          "GLDS-223_rna_seq_F18.genes.results",
+          "GLDS-223_rna_seq_F18.isoforms.results",
+          "F23",
+          "32663929",
+          "2.7",
+          "GLDS-223_rna_seq_F23.genes.results",
+          "GLDS-223_rna_seq_F23.isoforms.results",
+          "F28",
+          "29800051",
+          "2.96",
+          "GLDS-223_rna_seq_F28.genes.results",
+          "GLDS-223_rna_seq_F28.isoforms.results",
+          "F33",
+          "31089341",
+          "2.48",
+          "GLDS-223_rna_seq_F33.genes.results",
+          "GLDS-223_rna_seq_F33.isoforms.results",
+          "F38",
+          "29890504",
+          "2.57",
+          "GLDS-223_rna_seq_F38.genes.results",
+          "GLDS-223_rna_seq_F38.isoforms.results",
+          "F43",
+          "35434702",
+          "2.62",
+          "GLDS-223_rna_seq_F43.genes.results",
+          "GLDS-223_rna_seq_F43.isoforms.results",
+          "F48",
+          "29843398",
+          "3.55",
+          "GLDS-223_rna_seq_F48.genes.results",
+          "GLDS-223_rna_seq_F48.isoforms.results",
+          "F53",
+          "31496898",
+          "3.69",
+          "GLDS-223_rna_seq_F53.genes.results",
+          "GLDS-223_rna_seq_F53.isoforms.results",
+          "F58",
+          "32545755",
+          "3.84",
+          "GLDS-223_rna_seq_F58.genes.results",
+          "GLDS-223_rna_seq_F58.isoforms.results",
+          "F63",
+          "31463352",
+          "3.77",
+          "GLDS-223_rna_seq_F63.genes.results",
+          "GLDS-223_rna_seq_F63.isoforms.results",
+          "F68",
+          "30650595",
+          "3.64",
+          "GLDS-223_rna_seq_F68.genes.results",
+          "GLDS-223_rna_seq_F68.isoforms.results",
+          "F73",
+          "30803370",
+          "4.3",
+          "GLDS-223_rna_seq_F73.genes.results",
+          "GLDS-223_rna_seq_F73.isoforms.results",
+          "F78",
+          "29358283",
+          "4.13",
+          "GLDS-223_rna_seq_F78.genes.results",
+          "GLDS-223_rna_seq_F78.isoforms.results",
+          "FLS13",
+          "34215255",
+          "2.47",
+          "GLDS-223_rna_seq_FLS13.genes.results",
+          "GLDS-223_rna_seq_FLS13.isoforms.results",
+          "FLS18",
+          "33779251",
+          "3.26",
+          "GLDS-223_rna_seq_FLS18.genes.results",
+          "GLDS-223_rna_seq_FLS18.isoforms.results",
+          "FLS23",
+          "34457901",
+          "3.34",
+          "GLDS-223_rna_seq_FLS23.genes.results",
+          "GLDS-223_rna_seq_FLS23.isoforms.results",
+          "FLS28",
+          "36449641",
+          "3.1",
+          "GLDS-223_rna_seq_FLS28.genes.results",
+          "GLDS-223_rna_seq_FLS28.isoforms.results",
+          "FLS33",
+          "38371117",
+          "GLDS-223_rna_seq_FLS33.genes.results",
+          "GLDS-223_rna_seq_FLS33.isoforms.results",
+          "FLS38",
+          "34088375",
+          "2.84",
+          "GLDS-223_rna_seq_FLS38.genes.results",
+          "GLDS-223_rna_seq_FLS38.isoforms.results",
+          "FLS43",
+          "34557652",
+          "3.62",
+          "GLDS-223_rna_seq_FLS43.genes.results",
+          "GLDS-223_rna_seq_FLS43.isoforms.results",
+          "FLS48",
+          "34257221",
+          "2.99",
+          "GLDS-223_rna_seq_FLS48.genes.results",
+          "GLDS-223_rna_seq_FLS48.isoforms.results",
+          "FLS53",
+          "36006082",
+          "3.18",
+          "GLDS-223_rna_seq_FLS53.genes.results",
+          "GLDS-223_rna_seq_FLS53.isoforms.results",
+          "FLS58",
+          "34499241",
+          "3.03",
+          "GLDS-223_rna_seq_FLS58.genes.results",
+          "GLDS-223_rna_seq_FLS58.isoforms.results",
+          "FLS63",
+          "32031571",
+          "2.97",
+          "GLDS-223_rna_seq_FLS63.genes.results",
+          "GLDS-223_rna_seq_FLS63.isoforms.results",
+          "FLS68",
+          "37242972",
+          "2.44",
+          "GLDS-223_rna_seq_FLS68.genes.results",
+          "GLDS-223_rna_seq_FLS68.isoforms.results",
+          "FLS73",
+          "36584391",
+          "3.73",
+          "GLDS-223_rna_seq_FLS73.genes.results",
+          "GLDS-223_rna_seq_FLS73.isoforms.results",
+          "FLS78",
+          "36152231",
+          "2.68",
+          "GLDS-223_rna_seq_FLS78.genes.results",
+          "GLDS-223_rna_seq_FLS78.isoforms.results",
+          "GC01",
+          "33834207",
+          "2.64",
+          "GLDS-223_rna_seq_GC01.genes.results",
+          "GLDS-223_rna_seq_GC01.isoforms.results",
+          "GC13",
+          "33140132",
+          "2.65",
+          "GLDS-223_rna_seq_GC13.genes.results",
+          "GLDS-223_rna_seq_GC13.isoforms.results",
+          "GC14",
+          "35890463",
+          "2.8",
+          "GLDS-223_rna_seq_GC14.genes.results",
+          "GLDS-223_rna_seq_GC14.isoforms.results",
+          "GC16",
+          "30715633",
+          "5.91",
+          "GLDS-223_rna_seq_GC16.genes.results",
+          "GLDS-223_rna_seq_GC16.isoforms.results",
+          "GCS1",
+          "32759390",
+          "2.69",
+          "GLDS-223_rna_seq_GCS1.genes.results",
+          "GLDS-223_rna_seq_GCS1.isoforms.results",
+          "GCS13",
+          "32462950",
+          "3.37",
+          "GLDS-223_rna_seq_GCS13.genes.results",
+          "GLDS-223_rna_seq_GCS13.isoforms.results",
+          "GCS14",
+          "32411001",
+          "2.08",
+          "GLDS-223_rna_seq_GCS14.genes.results",
+          "GLDS-223_rna_seq_GCS14.isoforms.results",
+          "GCS17",
+          "30384189",
+          "3.05",
+          "GLDS-223_rna_seq_GCS17.genes.results",
+          "GLDS-223_rna_seq_GCS17.isoforms.results",
+          "GCS18",
+          "31302706",
+          "2.17",
+          "GLDS-223_rna_seq_GCS18.genes.results",
+          "GLDS-223_rna_seq_GCS18.isoforms.results",
+          "GCS2",
+          "34713108",
+          "1.77",
+          "GLDS-223_rna_seq_GCS2.genes.results",
+          "GLDS-223_rna_seq_GCS2.isoforms.results"
+        ],
+        "reports": [
+          "GLDS-223_rna_seq_raw_multiqc_report.zip",
+          "GLDS-223_rna_seq_trimmed_multiqc_report.zip",
+          "GLDS-223_rna_seq_F03_raw.fastq.gz_trimming_report.txt",
+          "GLDS-223_rna_seq_F03_Log.final.out",
+          "GLDS-223_rna_seq_align_multiqc_report.zip",
+          "GLDS-223_rna_seq_geneBody_cov_multiqc_report.zip",
+          "GLDS-223_rna_seq_infer_exp_multiqc_report.zip",
+          "GLDS-223_rna_seq_read_dist_multiqc_report.zip",
+          "GLDS-223_rna_seq_RSEM_count_multiqc_report.zip",
+          "GLDS-223_rna_seq_F08_raw.fastq.gz_trimming_report.txt",
+          "GLDS-223_rna_seq_F08_Log.final.out",
+          "GLDS-223_rna_seq_F13_raw.fastq.gz_trimming_report.txt",
+          "GLDS-223_rna_seq_F13_Log.final.out",
+          "GLDS-223_rna_seq_F18_raw.fastq.gz_trimming_report.txt",
+          "GLDS-223_rna_seq_F18_Log.final.out",
+          "GLDS-223_rna_seq_F23_raw.fastq.gz_trimming_report.txt",
+          "GLDS-223_rna_seq_F23_Log.final.out",
+          "GLDS-223_rna_seq_F28_raw.fastq.gz_trimming_report.txt",
+          "GLDS-223_rna_seq_F28_Log.final.out",
+          "GLDS-223_rna_seq_F33_raw.fastq.gz_trimming_report.txt",
+          "GLDS-223_rna_seq_F33_Log.final.out",
+          "GLDS-223_rna_seq_F38_raw.fastq.gz_trimming_report.txt",
+          "GLDS-223_rna_seq_F38_Log.final.out",
+          "GLDS-223_rna_seq_F43_raw.fastq.gz_trimming_report.txt",
+          "GLDS-223_rna_seq_F43_Log.final.out",
+          "GLDS-223_rna_seq_F48_raw.fastq.gz_trimming_report.txt",
+          "GLDS-223_rna_seq_F48_Log.final.out",
+          "GLDS-223_rna_seq_F53_raw.fastq.gz_trimming_report.txt",
+          "GLDS-223_rna_seq_F53_Log.final.out",
+          "GLDS-223_rna_seq_F58_raw.fastq.gz_trimming_report.txt",
+          "GLDS-223_rna_seq_F58_Log.final.out",
+          "GLDS-223_rna_seq_F63_raw.fastq.gz_trimming_report.txt",
+          "GLDS-223_rna_seq_F63_Log.final.out",
+          "GLDS-223_rna_seq_F68_raw.fastq.gz_trimming_report.txt",
+          "GLDS-223_rna_seq_F68_Log.final.out",
+          "GLDS-223_rna_seq_F73_raw.fastq.gz_trimming_report.txt",
+          "GLDS-223_rna_seq_F73_Log.final.out",
+          "GLDS-223_rna_seq_F78_raw.fastq.gz_trimming_report.txt",
+          "GLDS-223_rna_seq_F78_Log.final.out",
+          "GLDS-223_rna_seq_FLS13_raw.fastq.gz_trimming_report.txt",
+          "GLDS-223_rna_seq_FLS13_Log.final.out",
+          "GLDS-223_rna_seq_FLS18_raw.fastq.gz_trimming_report.txt",
+          "GLDS-223_rna_seq_FLS18_Log.final.out",
+          "GLDS-223_rna_seq_FLS23_raw.fastq.gz_trimming_report.txt",
+          "GLDS-223_rna_seq_FLS23_Log.final.out",
+          "GLDS-223_rna_seq_FLS28_raw.fastq.gz_trimming_report.txt",
+          "GLDS-223_rna_seq_FLS28_Log.final.out",
+          "GLDS-223_rna_seq_FLS33_raw.fastq.gz_trimming_report.txt",
+          "GLDS-223_rna_seq_FLS33_Log.final.out",
+          "GLDS-223_rna_seq_FLS38_raw.fastq.gz_trimming_report.txt",
+          "GLDS-223_rna_seq_FLS38_Log.final.out",
+          "GLDS-223_rna_seq_FLS43_raw.fastq.gz_trimming_report.txt",
+          "GLDS-223_rna_seq_FLS43_Log.final.out",
+          "GLDS-223_rna_seq_FLS48_raw.fastq.gz_trimming_report.txt",
+          "GLDS-223_rna_seq_FLS48_Log.final.out",
+          "GLDS-223_rna_seq_FLS53_raw.fastq.gz_trimming_report.txt",
+          "GLDS-223_rna_seq_FLS53_Log.final.out",
+          "GLDS-223_rna_seq_FLS58_raw.fastq.gz_trimming_report.txt",
+          "GLDS-223_rna_seq_FLS58_Log.final.out",
+          "GLDS-223_rna_seq_FLS63_raw.fastq.gz_trimming_report.txt",
+          "GLDS-223_rna_seq_FLS63_Log.final.out",
+          "GLDS-223_rna_seq_FLS68_raw.fastq.gz_trimming_report.txt",
+          "GLDS-223_rna_seq_FLS68_Log.final.out",
+          "GLDS-223_rna_seq_FLS73_raw.fastq.gz_trimming_report.txt",
+          "GLDS-223_rna_seq_FLS73_Log.final.out",
+          "GLDS-223_rna_seq_FLS78_raw.fastq.gz_trimming_report.txt",
+          "GLDS-223_rna_seq_FLS78_Log.final.out",
+          "GLDS-223_rna_seq_GC01_raw.fastq.gz_trimming_report.txt",
+          "GLDS-223_rna_seq_GC01_Log.final.out",
+          "GLDS-223_rna_seq_GC13_raw.fastq.gz_trimming_report.txt",
+          "GLDS-223_rna_seq_GC13_Log.final.out",
+          "GLDS-223_rna_seq_GC14_raw.fastq.gz_trimming_report.txt",
+          "GLDS-223_rna_seq_GC14_Log.final.out",
+          "GLDS-223_rna_seq_GC16_raw.fastq.gz_trimming_report.txt",
+          "GLDS-223_rna_seq_GC16_Log.final.out",
+          "GLDS-223_rna_seq_GCS1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-223_rna_seq_GCS1_Log.final.out",
+          "GLDS-223_rna_seq_GCS13_raw.fastq.gz_trimming_report.txt",
+          "GLDS-223_rna_seq_GCS13_Log.final.out",
+          "GLDS-223_rna_seq_GCS14_raw.fastq.gz_trimming_report.txt",
+          "GLDS-223_rna_seq_GCS14_Log.final.out",
+          "GLDS-223_rna_seq_GCS17_raw.fastq.gz_trimming_report.txt",
+          "GLDS-223_rna_seq_GCS17_Log.final.out",
+          "GLDS-223_rna_seq_GCS18_raw.fastq.gz_trimming_report.txt",
+          "GLDS-223_rna_seq_GCS18_Log.final.out",
+          "GLDS-223_rna_seq_GCS2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-223_rna_seq_GCS2_Log.final.out"
+        ]
+      }
+    }
+  ]
+}

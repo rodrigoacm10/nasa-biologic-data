@@ -1,0 +1,1026 @@
+{
+  "investigation": {
+    "id": "OSD-402",
+    "title": "Single cell transcriptional profiling of femur bone marrow from mice flown on Rodent Research Reference Mission-2 (RRRM-2)",
+    "description": "In the Rodent Research Reference Mission (RRRM-2), forty female C57BL/6NTac mice were flown on the International Space Station. To assess differences in outcomes due to age, twenty 12 week-old and twenty 29 week-old mice were flown, respectively.",
+    "mission": {
+      "name": "SpaceX-18",
+      "start_date": "07/25/2019",
+      "end_date": "08/27/2019",
+      "link": "https://osdr.nasa.gov/bio/repo/data/missions/SpaceX-18"
+    },
+    "project": {
+      "identifier": "RR-17",
+      "title": "Rodent Research Reference Mission-2",
+      "type": "Spaceflight Study",
+      "link": "https://lsda.jsc.nasa.gov/Experiment/exper/27129",
+      "funding": "This sequencing analysis was funded by the NASA Space Biology program within the NASA Science Mission Directorate's (SMD) Biological and Physical Sciences (BPS) Division.",
+      "managing_center": "NASA Ames Research Center (ARC)"
+    },
+    "protocols": [
+      "Animal Husbandry",
+      "Sample Collection",
+      "Cell Isolation",
+      "Library Construction",
+      "Nucleic Acid Sequencing",
+      "GeneLab raw data processing protocol",
+      "GeneLab scRNAseq data processing protocol",
+      "radiation dosimetry"
+    ],
+    "publications": [],
+    "factors": [
+      "Spaceflight",
+      "Age"
+    ],
+    "contacts": [
+      {
+        "first_name": "Jonathan",
+        "last_name": "Galazka",
+        "role": "conceptualization role",
+        "email": "jonathan.m.galazka@nasa.gov"
+      },
+      {
+        "first_name": "Cassie",
+        "last_name": "Juran",
+        "role": "conceptualization role",
+        "email": ""
+      },
+      {
+        "first_name": "Egle",
+        "last_name": "Cekanaviciute",
+        "role": "conceptualization role",
+        "email": ""
+      },
+      {
+        "first_name": "Louis",
+        "last_name": "Stodieck",
+        "role": "project administration role",
+        "email": ""
+      },
+      {
+        "first_name": "Michael",
+        "last_name": "Roberts",
+        "role": "project administration role",
+        "email": ""
+      },
+      {
+        "first_name": "Sylvain",
+        "last_name": "Costes",
+        "role": "project administration role",
+        "email": ""
+      },
+      {
+        "first_name": "Samrawit",
+        "last_name": "Gebre",
+        "role": "project administration role",
+        "email": ""
+      },
+      {
+        "first_name": "Virginia",
+        "last_name": "Ferguson",
+        "role": "project administration role",
+        "email": ""
+      },
+      {
+        "first_name": "Valery",
+        "last_name": "Boyko",
+        "role": "investigation role",
+        "email": ""
+      },
+      {
+        "first_name": "Cassie",
+        "last_name": "Juran",
+        "role": "investigation role",
+        "email": ""
+      },
+      {
+        "first_name": "San-Huei",
+        "last_name": "Lai Polo",
+        "role": "data curation role",
+        "email": ""
+      },
+      {
+        "first_name": "Kristen",
+        "last_name": "Peach",
+        "role": "data curation role",
+        "email": ""
+      },
+      {
+        "first_name": "Amanda",
+        "last_name": "Saravia-Butler",
+        "role": "formal analysis role",
+        "email": ""
+      },
+      {
+        "first_name": "Lauren",
+        "last_name": "Sanders",
+        "role": "formal analysis role",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "RRRM2_Femur_BM_FLT_LAR_OLD_FO1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NTac",
+          "Animal Source": "Taconic Biosciences",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "Material Type": "Bone marrow of femur"
+        },
+        "factors": {
+          "Age": "29",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Habitat": "Rodent Habitat",
+          "Enrichment material": "Hut",
+          "Duration": "32",
+          "Light Cycle": "12 h light/dark cycle",
+          "Recovery Duration on Earth": "24",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "gas anesthesia, cardiac puncture blood draw (exsanguination) and double thoracotomy",
+          "Sample Preservation Method": "slow freezing 1C/min",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "space radiation",
+          "ionizing radiation categorized by source": "outer space",
+          "exposure duration": "33",
+          "absorbed radiation dose": "10.428",
+          "absorbed radiation dose rate": "0.316",
+          "vehicle": "ISS-US Laboratory"
+        },
+        "comments": {
+          "RFID": "6E291A666E",
+          "Date of Birth": "31-Dec-2018",
+          "LAR Animal Receipt Data at Scripps": "29-Aug-2019",
+          "Euthanasia Date": "19-Sep-2019",
+          "Dissection Date": "19-Sep-2019"
+        }
+      },
+      {
+        "sample_name": "RRRM2_Femur_BM_FLT_LAR_OLD_FO4",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NTac",
+          "Animal Source": "Taconic Biosciences",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "Material Type": "Bone marrow of femur"
+        },
+        "factors": {
+          "Age": "29",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Habitat": "Rodent Habitat",
+          "Enrichment material": "Hut",
+          "Duration": "32",
+          "Light Cycle": "12 h light/dark cycle",
+          "Recovery Duration on Earth": "24",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "gas anesthesia, cardiac puncture blood draw (exsanguination) and double thoracotomy",
+          "Sample Preservation Method": "slow freezing 1C/min",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "space radiation",
+          "ionizing radiation categorized by source": "outer space",
+          "exposure duration": "33",
+          "absorbed radiation dose": "10.428",
+          "absorbed radiation dose rate": "0.316",
+          "vehicle": "ISS-US Laboratory"
+        },
+        "comments": {
+          "RFID": "6E2932791B",
+          "Date of Birth": "31-Dec-2018",
+          "LAR Animal Receipt Data at Scripps": "29-Aug-2019",
+          "Euthanasia Date": "19-Sep-2019",
+          "Dissection Date": "19-Sep-2019"
+        }
+      },
+      {
+        "sample_name": "RRRM2_Femur_BM_FLT_LAR_OLD_FO16",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NTac",
+          "Animal Source": "Taconic Biosciences",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "Material Type": "Bone marrow of femur"
+        },
+        "factors": {
+          "Age": "29",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Habitat": "Rodent Habitat",
+          "Enrichment material": "Hut",
+          "Duration": "32",
+          "Light Cycle": "12 h light/dark cycle",
+          "Recovery Duration on Earth": "24",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "gas anesthesia, cardiac puncture blood draw (exsanguination) and double thoracotomy",
+          "Sample Preservation Method": "slow freezing 1C/min",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "space radiation",
+          "ionizing radiation categorized by source": "outer space",
+          "exposure duration": "33",
+          "absorbed radiation dose": "10.428",
+          "absorbed radiation dose rate": "0.316",
+          "vehicle": "ISS-US Laboratory"
+        },
+        "comments": {
+          "RFID": "6E274A563F",
+          "Date of Birth": "31-Dec-2018",
+          "LAR Animal Receipt Data at Scripps": "29-Aug-2019",
+          "Euthanasia Date": "19-Sep-2019",
+          "Dissection Date": "19-Sep-2019"
+        }
+      },
+      {
+        "sample_name": "RRRM2_Femur_BM_FLT_LAR_OLD_FO19",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NTac",
+          "Animal Source": "Taconic Biosciences",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "Material Type": "Bone marrow of femur"
+        },
+        "factors": {
+          "Age": "29",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Habitat": "Rodent Habitat",
+          "Enrichment material": "Hut",
+          "Duration": "32",
+          "Light Cycle": "12 h light/dark cycle",
+          "Recovery Duration on Earth": "24",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "gas anesthesia, cardiac puncture blood draw (exsanguination) and double thoracotomy",
+          "Sample Preservation Method": "slow freezing 1C/min",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "space radiation",
+          "ionizing radiation categorized by source": "outer space",
+          "exposure duration": "33",
+          "absorbed radiation dose": "10.428",
+          "absorbed radiation dose rate": "0.316",
+          "vehicle": "ISS-US Laboratory"
+        },
+        "comments": {
+          "RFID": "6E2B3E3431",
+          "Date of Birth": "31-Dec-2018",
+          "LAR Animal Receipt Data at Scripps": "29-Aug-2019",
+          "Euthanasia Date": "19-Sep-2019",
+          "Dissection Date": "19-Sep-2019"
+        }
+      },
+      {
+        "sample_name": "RRRM2_Femur_BM_FLT_LAR_YNG_FY6",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NTac",
+          "Animal Source": "Taconic Biosciences",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "Material Type": "Bone marrow of femur"
+        },
+        "factors": {
+          "Age": "12",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Habitat": "Rodent Habitat",
+          "Enrichment material": "Hut",
+          "Duration": "32",
+          "Light Cycle": "12 h light/dark cycle",
+          "Recovery Duration on Earth": "24",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "gas anesthesia, cardiac puncture blood draw (exsanguination) and double thoracotomy",
+          "Sample Preservation Method": "slow freezing 1C/min",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "space radiation",
+          "ionizing radiation categorized by source": "outer space",
+          "exposure duration": "33",
+          "absorbed radiation dose": "10.428",
+          "absorbed radiation dose rate": "0.316",
+          "vehicle": "ISS-US Laboratory"
+        },
+        "comments": {
+          "RFID": "6E2705017C",
+          "Date of Birth": "29-Apr-2019",
+          "LAR Animal Receipt Data at Scripps": "29-Aug-2019",
+          "Euthanasia Date": "19-Sep-2019",
+          "Dissection Date": "19-Sep-2019"
+        }
+      },
+      {
+        "sample_name": "RRRM2_Femur_BM_FLT_LAR_YNG_FY9",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NTac",
+          "Animal Source": "Taconic Biosciences",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "Material Type": "Bone marrow of femur"
+        },
+        "factors": {
+          "Age": "12",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Habitat": "Rodent Habitat",
+          "Enrichment material": "Hut",
+          "Duration": "32",
+          "Light Cycle": "12 h light/dark cycle",
+          "Recovery Duration on Earth": "24",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "gas anesthesia, cardiac puncture blood draw (exsanguination) and double thoracotomy",
+          "Sample Preservation Method": "slow freezing 1C/min",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "space radiation",
+          "ionizing radiation categorized by source": "outer space",
+          "exposure duration": "33",
+          "absorbed radiation dose": "10.428",
+          "absorbed radiation dose rate": "0.316",
+          "vehicle": "ISS-US Laboratory"
+        },
+        "comments": {
+          "RFID": "6E13645D4C",
+          "Date of Birth": "29-Apr-2019",
+          "LAR Animal Receipt Data at Scripps": "29-Aug-2019",
+          "Euthanasia Date": "19-Sep-2019",
+          "Dissection Date": "19-Sep-2019"
+        }
+      },
+      {
+        "sample_name": "RRRM2_Femur_BM_FLT_LAR_YNG_FY11",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NTac",
+          "Animal Source": "Taconic Biosciences",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "Material Type": "Bone marrow of femur"
+        },
+        "factors": {
+          "Age": "12",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Habitat": "Rodent Habitat",
+          "Enrichment material": "Hut",
+          "Duration": "32",
+          "Light Cycle": "12 h light/dark cycle",
+          "Recovery Duration on Earth": "24",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "gas anesthesia, cardiac puncture blood draw (exsanguination) and double thoracotomy",
+          "Sample Preservation Method": "slow freezing 1C/min",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "space radiation",
+          "ionizing radiation categorized by source": "outer space",
+          "exposure duration": "33",
+          "absorbed radiation dose": "10.428",
+          "absorbed radiation dose rate": "0.316",
+          "vehicle": "ISS-US Laboratory"
+        },
+        "comments": {
+          "RFID": "6E3E0B5C70",
+          "Date of Birth": "29-Apr-2019",
+          "LAR Animal Receipt Data at Scripps": "29-Aug-2019",
+          "Euthanasia Date": "19-Sep-2019",
+          "Dissection Date": "19-Sep-2019"
+        }
+      },
+      {
+        "sample_name": "RRRM2_Femur_BM_FLT_LAR_YNG_FY14",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NTac",
+          "Animal Source": "Taconic Biosciences",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "Material Type": "Bone marrow of femur"
+        },
+        "factors": {
+          "Age": "12",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Habitat": "Rodent Habitat",
+          "Enrichment material": "Hut",
+          "Duration": "32",
+          "Light Cycle": "12 h light/dark cycle",
+          "Recovery Duration on Earth": "24",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "gas anesthesia, cardiac puncture blood draw (exsanguination) and double thoracotomy",
+          "Sample Preservation Method": "slow freezing 1C/min",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "space radiation",
+          "ionizing radiation categorized by source": "outer space",
+          "exposure duration": "33",
+          "absorbed radiation dose": "10.428",
+          "absorbed radiation dose rate": "0.316",
+          "vehicle": "ISS-US Laboratory"
+        },
+        "comments": {
+          "RFID": "6E38180712",
+          "Date of Birth": "29-Apr-2019",
+          "LAR Animal Receipt Data at Scripps": "29-Aug-2019",
+          "Euthanasia Date": "19-Sep-2019",
+          "Dissection Date": "19-Sep-2019"
+        }
+      },
+      {
+        "sample_name": "RRRM2_Femur_BM_GC_LAR_OLD_GO11",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NTac",
+          "Animal Source": "Taconic Biosciences",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "Material Type": "Bone marrow of femur"
+        },
+        "factors": {
+          "Age": "29",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Habitat": "Rodent Habitat",
+          "Enrichment material": "Hut",
+          "Duration": "32",
+          "Light Cycle": "12 h light/dark cycle",
+          "Recovery Duration on Earth": "24",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "gas anesthesia, cardiac puncture blood draw (exsanguination) and double thoracotomy",
+          "Sample Preservation Method": "slow freezing 1C/min",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "non-irradiated",
+          "ionizing radiation categorized by source": "",
+          "exposure duration": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "vehicle": ""
+        },
+        "comments": {
+          "RFID": "6E381A4F4A",
+          "Date of Birth": "31-Dec-2018",
+          "LAR Animal Receipt Data at Scripps": "02-Sep-2019",
+          "Euthanasia Date": "18-Sep-2019",
+          "Dissection Date": "18-Sep-2019"
+        }
+      },
+      {
+        "sample_name": "RRRM2_Femur_BM_GC_LAR_OLD_GO14",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NTac",
+          "Animal Source": "Taconic Biosciences",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "Material Type": "Bone marrow of femur"
+        },
+        "factors": {
+          "Age": "29",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Habitat": "Rodent Habitat",
+          "Enrichment material": "Hut",
+          "Duration": "32",
+          "Light Cycle": "12 h light/dark cycle",
+          "Recovery Duration on Earth": "24",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "gas anesthesia, cardiac puncture blood draw (exsanguination) and double thoracotomy",
+          "Sample Preservation Method": "slow freezing 1C/min",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "non-irradiated",
+          "ionizing radiation categorized by source": "",
+          "exposure duration": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "vehicle": ""
+        },
+        "comments": {
+          "RFID": "6E3D3C7616",
+          "Date of Birth": "31-Dec-2018",
+          "LAR Animal Receipt Data at Scripps": "02-Sep-2019",
+          "Euthanasia Date": "18-Sep-2019",
+          "Dissection Date": "18-Sep-2019"
+        }
+      },
+      {
+        "sample_name": "RRRM2_Femur_BM_GC_LAR_OLD_GO16",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NTac",
+          "Animal Source": "Taconic Biosciences",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "Material Type": "Bone marrow of femur"
+        },
+        "factors": {
+          "Age": "29",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Habitat": "Rodent Habitat",
+          "Enrichment material": "Hut",
+          "Duration": "32",
+          "Light Cycle": "12 h light/dark cycle",
+          "Recovery Duration on Earth": "24",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "gas anesthesia, cardiac puncture blood draw (exsanguination) and double thoracotomy",
+          "Sample Preservation Method": "slow freezing 1C/min",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "non-irradiated",
+          "ionizing radiation categorized by source": "",
+          "exposure duration": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "vehicle": ""
+        },
+        "comments": {
+          "RFID": "6E39735D51",
+          "Date of Birth": "31-Dec-2018",
+          "LAR Animal Receipt Data at Scripps": "02-Sep-2019",
+          "Euthanasia Date": "18-Sep-2019",
+          "Dissection Date": "18-Sep-2019"
+        }
+      },
+      {
+        "sample_name": "RRRM2_Femur_BM_GC_LAR_OLD_GO19",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NTac",
+          "Animal Source": "Taconic Biosciences",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "Material Type": "Bone marrow of femur"
+        },
+        "factors": {
+          "Age": "29",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Habitat": "Rodent Habitat",
+          "Enrichment material": "Hut",
+          "Duration": "32",
+          "Light Cycle": "12 h light/dark cycle",
+          "Recovery Duration on Earth": "24",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "gas anesthesia, cardiac puncture blood draw (exsanguination) and double thoracotomy",
+          "Sample Preservation Method": "slow freezing 1C/min",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "non-irradiated",
+          "ionizing radiation categorized by source": "",
+          "exposure duration": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "vehicle": ""
+        },
+        "comments": {
+          "RFID": "6E383F4703",
+          "Date of Birth": "31-Dec-2018",
+          "LAR Animal Receipt Data at Scripps": "02-Sep-2019",
+          "Euthanasia Date": "18-Sep-2019",
+          "Dissection Date": "18-Sep-2019"
+        }
+      },
+      {
+        "sample_name": "RRRM2_Femur_BM_GC_LAR_YNG_GY1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NTac",
+          "Animal Source": "Taconic Biosciences",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "Material Type": "Bone marrow of femur"
+        },
+        "factors": {
+          "Age": "12",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Habitat": "Rodent Habitat",
+          "Enrichment material": "Hut",
+          "Duration": "32",
+          "Light Cycle": "12 h light/dark cycle",
+          "Recovery Duration on Earth": "24",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "gas anesthesia, cardiac puncture blood draw (exsanguination) and double thoracotomy",
+          "Sample Preservation Method": "slow freezing 1C/min",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "non-irradiated",
+          "ionizing radiation categorized by source": "",
+          "exposure duration": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "vehicle": ""
+        },
+        "comments": {
+          "RFID": "6E3E0D5801",
+          "Date of Birth": "29-Apr-2019",
+          "LAR Animal Receipt Data at Scripps": "02-Sep-2019",
+          "Euthanasia Date": "18-Sep-2019",
+          "Dissection Date": "18-Sep-2019"
+        }
+      },
+      {
+        "sample_name": "RRRM2_Femur_BM_GC_LAR_YNG_GY4",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NTac",
+          "Animal Source": "Taconic Biosciences",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "Material Type": "Bone marrow of femur"
+        },
+        "factors": {
+          "Age": "12",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Habitat": "Rodent Habitat",
+          "Enrichment material": "Hut",
+          "Duration": "32",
+          "Light Cycle": "12 h light/dark cycle",
+          "Recovery Duration on Earth": "24",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "gas anesthesia, cardiac puncture blood draw (exsanguination) and double thoracotomy",
+          "Sample Preservation Method": "slow freezing 1C/min",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "non-irradiated",
+          "ionizing radiation categorized by source": "",
+          "exposure duration": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "vehicle": ""
+        },
+        "comments": {
+          "RFID": "6E3A627351",
+          "Date of Birth": "29-Apr-2019",
+          "LAR Animal Receipt Data at Scripps": "02-Sep-2019",
+          "Euthanasia Date": "18-Sep-2019",
+          "Dissection Date": "18-Sep-2019"
+        }
+      },
+      {
+        "sample_name": "RRRM2_Femur_BM_GC_LAR_YNG_GY6",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NTac",
+          "Animal Source": "Taconic Biosciences",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "Material Type": "Bone marrow of femur"
+        },
+        "factors": {
+          "Age": "12",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Habitat": "Rodent Habitat",
+          "Enrichment material": "Hut",
+          "Duration": "32",
+          "Light Cycle": "12 h light/dark cycle",
+          "Recovery Duration on Earth": "24",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "gas anesthesia, cardiac puncture blood draw (exsanguination) and double thoracotomy",
+          "Sample Preservation Method": "slow freezing 1C/min",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "non-irradiated",
+          "ionizing radiation categorized by source": "",
+          "exposure duration": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "vehicle": ""
+        },
+        "comments": {
+          "RFID": "6E3A692251",
+          "Date of Birth": "29-Apr-2019",
+          "LAR Animal Receipt Data at Scripps": "02-Sep-2019",
+          "Euthanasia Date": "18-Sep-2019",
+          "Dissection Date": "18-Sep-2019"
+        }
+      },
+      {
+        "sample_name": "RRRM2_Femur_BM_GC_LAR_YNG_GY9",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NTac",
+          "Animal Source": "Taconic Biosciences",
+          "Genotype": "Wild Type",
+          "Sex": "Female",
+          "Material Type": "Bone marrow of femur"
+        },
+        "factors": {
+          "Age": "12",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Habitat": "Rodent Habitat",
+          "Enrichment material": "Hut",
+          "Duration": "32",
+          "Light Cycle": "12 h light/dark cycle",
+          "Recovery Duration on Earth": "24",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "Euthanasia Method": "gas anesthesia, cardiac puncture blood draw (exsanguination) and double thoracotomy",
+          "Sample Preservation Method": "slow freezing 1C/min",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "non-irradiated",
+          "ionizing radiation categorized by source": "",
+          "exposure duration": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "vehicle": ""
+        },
+        "comments": {
+          "RFID": "6E3E391C15",
+          "Date of Birth": "29-Apr-2019",
+          "LAR Animal Receipt Data at Scripps": "02-Sep-2019",
+          "Euthanasia Date": "18-Sep-2019",
+          "Dissection Date": "18-Sep-2019"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina Novaseq 6000",
+      "qc": {
+        "Read Depth": "602524962",
+        "rRNA Contamination": "6.46"
+      },
+      "library": {
+        "Library Selection": "PCR",
+        "Library Layout": "Paired",
+        "Stranded": "STRANDED",
+        "Library QA Instrument": "Agilent 4200 Tapestation"
+      },
+      "files": {
+        "raw": [
+          "GLDS-402_scRNA-Seq_RRRM2_Femur_BM_FLT_LAR_OLD_FO1_R1_raw.fastq.gz",
+          "GLDS-402_scRNA-Seq_RRRM2_Femur_BM_FLT_LAR_OLD_FO1_R2_raw.fastq.gz",
+          "GLDS-402_scRNA-Seq_RRRM2_Femur_BM_FLT_LAR_OLD_FO4_R1_raw.fastq.gz",
+          "GLDS-402_scRNA-Seq_RRRM2_Femur_BM_FLT_LAR_OLD_FO4_R2_raw.fastq.gz",
+          "GLDS-402_scRNA-Seq_RRRM2_Femur_BM_FLT_LAR_OLD_FO16_R1_raw.fastq.gz",
+          "GLDS-402_scRNA-Seq_RRRM2_Femur_BM_FLT_LAR_OLD_FO16_R2_raw.fastq.gz",
+          "GLDS-402_scRNA-Seq_RRRM2_Femur_BM_FLT_LAR_OLD_FO19_R1_raw.fastq.gz",
+          "GLDS-402_scRNA-Seq_RRRM2_Femur_BM_FLT_LAR_OLD_FO19_R2_raw.fastq.gz",
+          "GLDS-402_scRNA-Seq_RRRM2_Femur_BM_FLT_LAR_YNG_FY6_R1_raw.fastq.gz",
+          "GLDS-402_scRNA-Seq_RRRM2_Femur_BM_FLT_LAR_YNG_FY6_R2_raw.fastq.gz",
+          "GLDS-402_scRNA-Seq_RRRM2_Femur_BM_FLT_LAR_YNG_FY9_R1_raw.fastq.gz",
+          "GLDS-402_scRNA-Seq_RRRM2_Femur_BM_FLT_LAR_YNG_FY9_R2_raw.fastq.gz",
+          "GLDS-402_scRNA-Seq_RRRM2_Femur_BM_FLT_LAR_YNG_FY11_R1_raw.fastq.gz",
+          "GLDS-402_scRNA-Seq_RRRM2_Femur_BM_FLT_LAR_YNG_FY11_R2_raw.fastq.gz",
+          "GLDS-402_scRNA-Seq_RRRM2_Femur_BM_FLT_LAR_YNG_FY14_R1_raw.fastq.gz",
+          "GLDS-402_scRNA-Seq_RRRM2_Femur_BM_FLT_LAR_YNG_FY14_R2_raw.fastq.gz",
+          "GLDS-402_scRNA-Seq_RRRM2_Femur_BM_GC_LAR_OLD_GO11_R1_raw.fastq.gz",
+          "GLDS-402_scRNA-Seq_RRRM2_Femur_BM_GC_LAR_OLD_GO11_R2_raw.fastq.gz",
+          "GLDS-402_scRNA-Seq_RRRM2_Femur_BM_GC_LAR_OLD_GO14_R1_raw.fastq.gz",
+          "GLDS-402_scRNA-Seq_RRRM2_Femur_BM_GC_LAR_OLD_GO14_R2_raw.fastq.gz",
+          "GLDS-402_scRNA-Seq_RRRM2_Femur_BM_GC_LAR_OLD_GO16_R1_raw.fastq.gz",
+          "GLDS-402_scRNA-Seq_RRRM2_Femur_BM_GC_LAR_OLD_GO16_R2_raw.fastq.gz",
+          "GLDS-402_scRNA-Seq_RRRM2_Femur_BM_GC_LAR_OLD_GO19_R1_raw.fastq.gz",
+          "GLDS-402_scRNA-Seq_RRRM2_Femur_BM_GC_LAR_OLD_GO19_R2_raw.fastq.gz",
+          "GLDS-402_scRNA-Seq_RRRM2_Femur_BM_GC_LAR_YNG_GY1_R1_raw.fastq.gz",
+          "GLDS-402_scRNA-Seq_RRRM2_Femur_BM_GC_LAR_YNG_GY1_R2_raw.fastq.gz",
+          "GLDS-402_scRNA-Seq_RRRM2_Femur_BM_GC_LAR_YNG_GY4_R1_raw.fastq.gz",
+          "GLDS-402_scRNA-Seq_RRRM2_Femur_BM_GC_LAR_YNG_GY4_R2_raw.fastq.gz",
+          "GLDS-402_scRNA-Seq_RRRM2_Femur_BM_GC_LAR_YNG_GY6_R1_raw.fastq.gz",
+          "GLDS-402_scRNA-Seq_RRRM2_Femur_BM_GC_LAR_YNG_GY6_R2_raw.fastq.gz",
+          "GLDS-402_scRNA-Seq_RRRM2_Femur_BM_GC_LAR_YNG_GY9_R1_raw.fastq.gz",
+          "GLDS-402_scRNA-Seq_RRRM2_Femur_BM_GC_LAR_YNG_GY9_R2_raw.fastq.gz"
+        ],
+        "processed": [
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_OLD_FO1_Aligned.out.bam",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_OLD_FO1_SJ.out.tab",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_OLD_FO4_Aligned.out.bam",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_OLD_FO4_SJ.out.tab",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_OLD_FO16_Aligned.out.bam",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_OLD_FO16_SJ.out.tab",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_OLD_FO19_Aligned.out.bam",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_OLD_FO19_SJ.out.tab",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_YNG_FY6_Aligned.out.bam",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_YNG_FY6_SJ.out.tab",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_YNG_FY9_Aligned.out.bam",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_YNG_FY9_SJ.out.tab",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_YNG_FY11_Aligned.out.bam",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_YNG_FY11_SJ.out.tab",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_YNG_FY14_Aligned.out.bam",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_YNG_FY14_SJ.out.tab",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_OLD_GO11_Aligned.out.bam",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_OLD_GO11_SJ.out.tab",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_OLD_GO14_Aligned.out.bam",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_OLD_GO14_SJ.out.tab",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_OLD_GO16_Aligned.out.bam",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_OLD_GO16_SJ.out.tab",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_OLD_GO19_Aligned.out.bam",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_OLD_GO19_SJ.out.tab",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_YNG_GY1_Aligned.out.bam",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_YNG_GY1_SJ.out.tab",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_YNG_GY4_Aligned.out.bam",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_YNG_GY4_SJ.out.tab",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_YNG_GY6_Aligned.out.bam",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_YNG_GY6_SJ.out.tab",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_YNG_GY9_Aligned.out.bam",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_YNG_GY9_SJ.out.tab",
+          "RRRM2_Femur_BM_FLT_LAR_OLD_FO1",
+          "GeneLab scRNAseq data processing protocol",
+          "8000",
+          "PCR",
+          "Paired",
+          "STRANDED",
+          "Agilent 4200 Tapestation",
+          "Agilent D1000 ScreenTape Assay",
+          "413",
+          "percent",
+          "Illumina Novaseq 6000",
+          "bcl2fastq",
+          "91",
+          "scRNA-Seq",
+          "602524962",
+          "6.46",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_OLD_FO1_GeneFull.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_OLD_FO1_Gene.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_OLD_FO1_SJ.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_OLD_FO1_Velocyto.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_OLD_FO1_Barcodes.stats",
+          "RRRM2_Femur_BM_FLT_LAR_OLD_FO4",
+          "386",
+          "567121628",
+          "3.22",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_OLD_FO4_GeneFull.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_OLD_FO4_Gene.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_OLD_FO4_SJ.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_OLD_FO4_Velocyto.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_OLD_FO4_Barcodes.stats",
+          "RRRM2_Femur_BM_FLT_LAR_OLD_FO16",
+          "450",
+          "785602000",
+          "12.63",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_OLD_FO16_GeneFull.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_OLD_FO16_Gene.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_OLD_FO16_SJ.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_OLD_FO16_Velocyto.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_OLD_FO16_Barcodes.stats",
+          "RRRM2_Femur_BM_FLT_LAR_OLD_FO19",
+          "433",
+          "638210191",
+          "3.21",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_OLD_FO19_GeneFull.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_OLD_FO19_Gene.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_OLD_FO19_SJ.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_OLD_FO19_Velocyto.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_OLD_FO19_Barcodes.stats",
+          "RRRM2_Femur_BM_FLT_LAR_YNG_FY6",
+          "445",
+          "601956857",
+          "8.06",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_YNG_FY6_GeneFull.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_YNG_FY6_Gene.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_YNG_FY6_SJ.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_YNG_FY6_Velocyto.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_YNG_FY6_Barcodes.stats",
+          "RRRM2_Femur_BM_FLT_LAR_YNG_FY9",
+          "379",
+          "580896974",
+          "8.26",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_YNG_FY9_GeneFull.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_YNG_FY9_Gene.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_YNG_FY9_SJ.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_YNG_FY9_Velocyto.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_YNG_FY9_Barcodes.stats",
+          "RRRM2_Femur_BM_FLT_LAR_YNG_FY11",
+          "782224231",
+          "10.88",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_YNG_FY11_GeneFull.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_YNG_FY11_Gene.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_YNG_FY11_SJ.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_YNG_FY11_Velocyto.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_YNG_FY11_Barcodes.stats",
+          "RRRM2_Femur_BM_FLT_LAR_YNG_FY14",
+          "403",
+          "556859655",
+          "4.88",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_YNG_FY14_GeneFull.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_YNG_FY14_Gene.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_YNG_FY14_SJ.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_YNG_FY14_Velocyto.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_YNG_FY14_Barcodes.stats",
+          "RRRM2_Femur_BM_GC_LAR_OLD_GO11",
+          "448",
+          "647022761",
+          "2.16",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_OLD_GO11_GeneFull.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_OLD_GO11_Gene.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_OLD_GO11_SJ.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_OLD_GO11_Velocyto.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_OLD_GO11_Barcodes.stats",
+          "RRRM2_Femur_BM_GC_LAR_OLD_GO14",
+          "354",
+          "542519999",
+          "5.6",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_OLD_GO14_GeneFull.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_OLD_GO14_Gene.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_OLD_GO14_SJ.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_OLD_GO14_Velocyto.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_OLD_GO14_Barcodes.stats",
+          "RRRM2_Femur_BM_GC_LAR_OLD_GO16",
+          "488",
+          "743833953",
+          "6.75",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_OLD_GO16_GeneFull.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_OLD_GO16_Gene.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_OLD_GO16_SJ.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_OLD_GO16_Velocyto.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_OLD_GO16_Barcodes.stats",
+          "RRRM2_Femur_BM_GC_LAR_OLD_GO19",
+          "415",
+          "604876513",
+          "2.54",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_OLD_GO19_GeneFull.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_OLD_GO19_Gene.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_OLD_GO19_SJ.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_OLD_GO19_Velocyto.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_OLD_GO19_Barcodes.stats",
+          "RRRM2_Femur_BM_GC_LAR_YNG_GY1",
+          "491",
+          "772668843",
+          "1.85",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_YNG_GY1_GeneFull.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_YNG_GY1_Gene.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_YNG_GY1_SJ.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_YNG_GY1_Velocyto.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_YNG_GY1_Barcodes.stats",
+          "RRRM2_Femur_BM_GC_LAR_YNG_GY4",
+          "395",
+          "563574539",
+          "4.41",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_YNG_GY4_GeneFull.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_YNG_GY4_Gene.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_YNG_GY4_SJ.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_YNG_GY4_Velocyto.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_YNG_GY4_Barcodes.stats",
+          "RRRM2_Femur_BM_GC_LAR_YNG_GY6",
+          "577482763",
+          "19.32",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_YNG_GY6_GeneFull.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_YNG_GY6_Gene.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_YNG_GY6_SJ.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_YNG_GY6_Velocyto.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_YNG_GY6_Barcodes.stats",
+          "RRRM2_Femur_BM_GC_LAR_YNG_GY9",
+          "400",
+          "581018893",
+          "3.8",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_YNG_GY9_GeneFull.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_YNG_GY9_Gene.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_YNG_GY9_SJ.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_YNG_GY9_Velocyto.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_YNG_GY9_Barcodes.stats"
+        ],
+        "reports": [
+          "GLDS-402_scRNA_Seq_raw_multiqc_report.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_OLD_FO1_Log.final.out",
+          "GLDS-402_scRNA_Seq_align_multiqc_report.zip",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_OLD_FO4_Log.final.out",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_OLD_FO16_Log.final.out",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_OLD_FO19_Log.final.out",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_YNG_FY6_Log.final.out",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_YNG_FY9_Log.final.out",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_YNG_FY11_Log.final.out",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_FLT_LAR_YNG_FY14_Log.final.out",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_OLD_GO11_Log.final.out",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_OLD_GO14_Log.final.out",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_OLD_GO16_Log.final.out",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_OLD_GO19_Log.final.out",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_YNG_GY1_Log.final.out",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_YNG_GY4_Log.final.out",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_YNG_GY6_Log.final.out",
+          "GLDS-402_scRNA_Seq_RRRM2_Femur_BM_GC_LAR_YNG_GY9_Log.final.out"
+        ]
+      }
+    }
+  ]
+}

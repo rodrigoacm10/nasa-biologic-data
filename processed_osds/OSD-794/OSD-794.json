@@ -1,0 +1,2558 @@
+{
+  "investigation": {
+    "id": "OSD-794",
+    "title": "Characterization of Spacesuit Associated Microbial Communities and Their Implications for NASA Missions.",
+    "description": "Background: Crewed National Aeronautics and Space Administration (NASA) missions to other solar system bodies are currently being planned. One high-profile scientific focus during such expeditions would be life detection, specifically the discovery of past or present microbial life, if they exist.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "",
+      "title": "",
+      "type": "Ground Study",
+      "link": "",
+      "funding": "This research was supported by the JPL Advanced Concept Development fund awarded to KV that funded a fellowship for GM. DD was supported by the Tri-Institutional Training Program in Computational Biology and Medicine (CBM) funded by the NIH grant 1T32GM083937.",
+      "managing_center": "Jet Propulsion Laboratory (JPL)"
+    },
+    "protocols": [
+      "sample collection",
+      "Nucleic Acid Extraction",
+      "Library Construction",
+      "Nucleic Acid Sequencing",
+      "human read contaminant filtering",
+      "GeneLab raw data processing protocol"
+    ],
+    "publications": [
+      {
+        "title": "Characterization of Spacesuit Associated Microbial Communities and Their Implications for NASA Missions.",
+        "doi": "10.3389/fmicb.2021.608478",
+        "authors": [
+          "Danko D",
+          "Malli Mohan GB",
+          "Sierra MA",
+          "Rucker M",
+          "Singh NK",
+          "Regberg AB",
+          "Bell MS",
+          "O'Hara NB",
+          "Ounit R",
+          "Mason CE",
+          "Venkateswaran K."
+        ],
+        "summary": "Characterization of Spacesuit Associated Microbial Communities and Their Implications for NASA Missions. — 10.3389/fmicb.2021.608478"
+      }
+    ],
+    "factors": [
+      "Sample Location",
+      "Treatment"
+    ],
+    "contacts": [
+      {
+        "first_name": "David",
+        "last_name": "Danko",
+        "role": "Author",
+        "email": "chm2042@med.cornell.edu"
+      },
+      {
+        "first_name": "Ganesh Babu",
+        "last_name": "Malli Mohan",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Maria A",
+        "last_name": "Sierra",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Michelle",
+        "last_name": "Rucker",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Nitin K",
+        "last_name": "Singh",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Aaron B",
+        "last_name": "Regberg",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Mary S",
+        "last_name": "Bell",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Niamh B",
+        "last_name": "O'Hara",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Rachid",
+        "last_name": "Ounit",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Christopher E",
+        "last_name": "Mason",
+        "role": "conceptualization role",
+        "email": ""
+      },
+      {
+        "first_name": "Kasthuri",
+        "last_name": "Venkateswaran",
+        "role": "Author",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "SRX5952025",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "EMU - Right wrist joint",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952026",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "EMU - Right wrist joint",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952027",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Beta cloth"
+        },
+        "factors": {
+          "Sample Location": "EMU - Left outer glove gauntlet",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952028",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Beta cloth"
+        },
+        "factors": {
+          "Sample Location": "EMU - Left inner glove gauntlet",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952029",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Beta cloth"
+        },
+        "factors": {
+          "Sample Location": "EMU - Left inner glove gauntlet",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952030",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Beta cloth"
+        },
+        "factors": {
+          "Sample Location": "EMU - Left inner glove gauntlet",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952031",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Beta cloth"
+        },
+        "factors": {
+          "Sample Location": "EMU - Left inner glove gauntlet",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952032",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Beta cloth"
+        },
+        "factors": {
+          "Sample Location": "EMU - Left inner glove gauntlet",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952033",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "EMU - Left wrist joint",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952034",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "MACES - Left wrist joint",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952035",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Beta cloth"
+        },
+        "factors": {
+          "Sample Location": "EMU - Left outer glove gauntlet",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952036",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Beta cloth"
+        },
+        "factors": {
+          "Sample Location": "EMU - Left outer glove gauntlet",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952037",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": ""
+        },
+        "factors": {
+          "Sample Location": "MACES/OCCS - Control - Do not remove from canister",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952038",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": ""
+        },
+        "factors": {
+          "Sample Location": "EMU - Control - Do not remove from canister",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952039",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": ""
+        },
+        "factors": {
+          "Sample Location": "EMU - Control - Do not remove from canister",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952040",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": ""
+        },
+        "factors": {
+          "Sample Location": "EMU - Control - Do not remove from canister",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952041",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": ""
+        },
+        "factors": {
+          "Sample Location": "EMU - Control - Do not remove from canister",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952042",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Beta cloth"
+        },
+        "factors": {
+          "Sample Location": "EMU - Right outer glove gauntlet",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952043",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Beta cloth"
+        },
+        "factors": {
+          "Sample Location": "EMU - Right outer glove gauntlet",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952044",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Beta cloth"
+        },
+        "factors": {
+          "Sample Location": "EMU - Right outer glove gauntlet",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952045",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "EMU - Right wrist joint",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952046",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Beta cloth"
+        },
+        "factors": {
+          "Sample Location": "EMU - Right inner glove gauntlet",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952047",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Beta cloth"
+        },
+        "factors": {
+          "Sample Location": "EMU - Right inner glove gauntlet",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952048",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Beta cloth"
+        },
+        "factors": {
+          "Sample Location": "EMU - Right inner glove gauntlet",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952049",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Beta cloth"
+        },
+        "factors": {
+          "Sample Location": "EMU - Right inner glove gauntlet",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952050",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Beta cloth"
+        },
+        "factors": {
+          "Sample Location": "EMU - Right outer glove gauntlet",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952051",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Beta cloth"
+        },
+        "factors": {
+          "Sample Location": "EMU - Right outer glove gauntlet",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952052",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Beta cloth"
+        },
+        "factors": {
+          "Sample Location": "EMU - Right outer glove gauntlet",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952053",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "EMU - Left wrist joint",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952054",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "EMU - Left wrist joint",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952055",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "EMU - Left wrist joint",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952056",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "EMU - Left wrist joint",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952057",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "MACES - Left wrist joint",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952058",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "EMU - Left wrist joint",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952059",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "MACES - Left wrist joint",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952060",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "occs - Left wrist joint",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952061",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "occs - Left wrist joint",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952062",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "MACES - Left wrist joint",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952063",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "MACES - Right wrist joint",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952064",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "occs - Right wrist joint",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952065",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "MACES - Right wrist joint",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952066",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "EMU - Right wrist joint",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952067",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "EMU - Right wrist joint",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952068",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "EMU - Right wrist joint",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952069",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "EMU - Right wrist joint",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952070",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "EMU - Right wrist joint",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952071",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "MACES - Right wrist joint",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952072",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "occs - Right wrist joint",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952073",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Beta cloth"
+        },
+        "factors": {
+          "Sample Location": "EMU - Left outer glove gauntlet",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952074",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Beta cloth"
+        },
+        "factors": {
+          "Sample Location": "EMU - Left outer glove gauntlet",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952075",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Beta cloth"
+        },
+        "factors": {
+          "Sample Location": "EMU - Left inner glove gauntlet",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952076",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Beta cloth"
+        },
+        "factors": {
+          "Sample Location": "EMU - Left outer glove gauntlet",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952077",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Beta cloth"
+        },
+        "factors": {
+          "Sample Location": "EMU - Left inner glove gauntlet",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952078",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Beta cloth"
+        },
+        "factors": {
+          "Sample Location": "EMU - Left inner glove gauntlet",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952079",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Beta cloth"
+        },
+        "factors": {
+          "Sample Location": "EMU - Left inner glove gauntlet",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952080",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Beta cloth"
+        },
+        "factors": {
+          "Sample Location": "EMU - Left inner glove gauntlet",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952081",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Beta cloth"
+        },
+        "factors": {
+          "Sample Location": "EMU - Left outer glove gauntlet",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952082",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Beta cloth"
+        },
+        "factors": {
+          "Sample Location": "EMU - Left outer glove gauntlet",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952083",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "MACES - Left wrist joint",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952084",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "occs - Left wrist joint",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952085",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "EMU - Left wrist joint",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952086",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "EMU - Left wrist joint",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952087",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "occs - Left wrist joint",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952088",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "MACES - Left wrist joint",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952089",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "MACES - Left wrist joint",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952090",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "EMU - Left wrist joint",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952091",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "EMU - Left wrist joint",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952092",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "MACES - Left wrist joint",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952093",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "EMU - Left wrist joint",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952094",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "EMU - Left wrist joint",
+          "Treatment": "PMA-treated"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952095",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": ""
+        },
+        "factors": {
+          "Sample Location": "EMU - Control - Do not remove from canister",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952096",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": ""
+        },
+        "factors": {
+          "Sample Location": "EMU - Control - Do not remove from canister",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952097",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": ""
+        },
+        "factors": {
+          "Sample Location": "EMU - Control - Do not remove from canister",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952098",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": ""
+        },
+        "factors": {
+          "Sample Location": "MACES/OCCS - Control - Do not remove from canister",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952099",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Beta cloth"
+        },
+        "factors": {
+          "Sample Location": "EMU - Right outer glove gauntlet",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952100",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Beta cloth"
+        },
+        "factors": {
+          "Sample Location": "EMU - Right outer glove gauntlet",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952101",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Beta cloth"
+        },
+        "factors": {
+          "Sample Location": "EMU - Right outer glove gauntlet",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952102",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": ""
+        },
+        "factors": {
+          "Sample Location": "EMU - Control - Do not remove from canister",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952103",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Beta cloth"
+        },
+        "factors": {
+          "Sample Location": "EMU - Right outer glove gauntlet",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952104",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Beta cloth"
+        },
+        "factors": {
+          "Sample Location": "EMU - Right outer glove gauntlet",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952105",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "MACES - Right wrist joint",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952106",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "occs - Right wrist joint",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952107",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Beta cloth"
+        },
+        "factors": {
+          "Sample Location": "EMU - Right inner glove gauntlet",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952108",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "EMU - Right wrist joint",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952109",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Beta cloth"
+        },
+        "factors": {
+          "Sample Location": "EMU - Right inner glove gauntlet",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952110",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Beta cloth"
+        },
+        "factors": {
+          "Sample Location": "EMU - Right inner glove gauntlet",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952111",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Beta cloth"
+        },
+        "factors": {
+          "Sample Location": "EMU - Right outer glove gauntlet",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952112",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Beta cloth"
+        },
+        "factors": {
+          "Sample Location": "EMU - Right inner glove gauntlet",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952113",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "EMU - Right wrist joint",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952114",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "MACES - Right wrist joint",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952115",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "EMU - Right wrist joint",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952116",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "EMU - Right wrist joint",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952117",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Beta cloth"
+        },
+        "factors": {
+          "Sample Location": "EMU - Left outer glove gauntlet",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952118",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Beta cloth"
+        },
+        "factors": {
+          "Sample Location": "EMU - Left outer glove gauntlet",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952119",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "occs - Right wrist joint",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      },
+      {
+        "sample_name": "SRX5952120",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Swab",
+          "Host Organism": "Homo sapiens",
+          "Material Sampled": "Stainless Steel"
+        },
+        "factors": {
+          "Sample Location": "MACES - Right wrist joint",
+          "Treatment": "No treatment"
+        },
+        "parameters": {
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": ""
+        },
+        "comments": {
+          "Collection Date": "06-Feb-2017"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "metagenomic-sequencing",
+      "platform": "Illumina HiSeq4000",
+      "qc": {
+        "Read Depth": "4889111"
+      },
+      "library": {
+        "Library Selection": "DNA",
+        "Library Layout": "PAIRED"
+      },
+      "files": {
+        "raw": [
+          "GLDS-690_metagenomics_SRX5952025_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952025_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952026_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952026_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952027_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952027_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952028_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952028_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952029_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952029_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952030_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952030_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952031_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952031_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952032_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952032_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952033_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952033_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952034_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952034_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952035_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952035_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952036_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952036_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952037_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952037_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952038_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952038_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952039_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952039_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952040_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952040_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952041_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952041_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952042_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952042_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952043_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952043_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952044_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952044_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952045_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952045_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952046_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952046_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952047_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952047_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952048_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952048_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952049_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952049_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952050_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952050_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952051_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952051_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952052_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952052_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952053_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952053_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952054_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952054_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952055_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952055_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952056_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952056_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952057_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952057_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952058_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952058_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952059_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952059_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952060_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952060_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952061_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952061_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952062_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952062_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952063_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952063_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952064_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952064_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952065_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952065_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952066_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952066_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952067_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952067_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952068_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952068_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952069_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952069_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952070_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952070_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952071_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952071_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952072_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952072_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952073_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952073_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952074_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952074_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952075_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952075_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952076_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952076_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952077_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952077_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952078_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952078_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952079_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952079_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952080_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952080_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952081_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952081_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952082_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952082_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952083_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952083_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952084_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952084_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952085_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952085_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952086_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952086_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952087_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952087_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952088_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952088_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952089_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952089_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952090_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952090_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952091_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952091_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952092_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952092_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952093_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952093_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952094_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952094_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952095_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952095_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952096_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952096_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952097_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952097_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952098_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952098_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952099_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952099_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952100_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952100_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952101_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952101_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952102_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952102_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952103_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952103_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952104_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952104_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952105_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952105_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952106_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952106_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952107_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952107_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952108_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952108_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952109_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952109_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952110_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952110_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952111_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952111_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952112_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952112_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952113_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952113_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952114_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952114_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952115_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952115_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952116_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952116_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952117_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952117_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952118_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952118_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952119_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952119_R2_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952120_R1_HRremoved_raw.fastq.gz",
+          "GLDS-690_metagenomics_SRX5952120_R2_HRremoved_raw.fastq.gz"
+        ],
+        "processed": [
+          "SRX5952025",
+          "GeneLab raw data processing protocol",
+          "metagenomics",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000187",
+          "DNA",
+          "PAIRED",
+          "Nextera DNA Library Preparation Kit",
+          "Agilent Bioanalyzer 2100",
+          "Illumina HiSeq4000",
+          "100",
+          "percent",
+          "4889111",
+          "31.1",
+          "SRX5952026",
+          "1189773",
+          "82.96",
+          "SRX5952027",
+          "2407086",
+          "66.96",
+          "SRX5952028",
+          "5131868",
+          "35.49",
+          "SRX5952029",
+          "3706117",
+          "57.25",
+          "SRX5952030",
+          "1561819",
+          "78.79",
+          "SRX5952031",
+          "3232575",
+          "11.52",
+          "SRX5952032",
+          "3604551",
+          "52.51",
+          "SRX5952033",
+          "2951007",
+          "40.8",
+          "SRX5952034",
+          "3546582",
+          "15.84",
+          "SRX5952035",
+          "2281123",
+          "64.2",
+          "SRX5952036",
+          "3193993",
+          "55.83",
+          "SRX5952037",
+          "1832429",
+          "16.1",
+          "SRX5952038",
+          "1732468",
+          "7.78",
+          "SRX5952039",
+          "3186467",
+          "5.86",
+          "SRX5952040",
+          "2184986",
+          "16.54",
+          "SRX5952041",
+          "1556591",
+          "18.87",
+          "SRX5952042",
+          "5879261",
+          "19.94",
+          "SRX5952043",
+          "3313075",
+          "49.97",
+          "SRX5952044",
+          "2970478",
+          "50.73",
+          "SRX5952045",
+          "7332239",
+          "10.94",
+          "SRX5952046",
+          "1856141",
+          "27.5",
+          "SRX5952047",
+          "1875290",
+          "34.05",
+          "SRX5952048",
+          "4122240",
+          "27.22",
+          "SRX5952049",
+          "6227951",
+          "14.83",
+          "SRX5952050",
+          "3324120",
+          "56.77",
+          "SRX5952051",
+          "2039435",
+          "13.96",
+          "SRX5952052",
+          "4745848",
+          "17.53",
+          "SRX5952053",
+          "1074427",
+          "80.75",
+          "SRX5952054",
+          "3716875",
+          "28.72",
+          "SRX5952055",
+          "2956401",
+          "48.54",
+          "SRX5952056",
+          "2978561",
+          "40.57",
+          "SRX5952057",
+          "2695755",
+          "37.16",
+          "SRX5952058",
+          "2679325",
+          "38.27",
+          "SRX5952059",
+          "3569621",
+          "7.01",
+          "SRX5952060",
+          "5141354",
+          "14.07",
+          "SRX5952061",
+          "3617611",
+          "30.9",
+          "SRX5952062",
+          "3926252",
+          "27.08",
+          "SRX5952063",
+          "4335407",
+          "33.13",
+          "SRX5952064",
+          "3262630",
+          "26.84",
+          "SRX5952065",
+          "2980884",
+          "52.78",
+          "SRX5952066",
+          "3109229",
+          "54.64",
+          "SRX5952067",
+          "1212705",
+          "23.22",
+          "SRX5952068",
+          "3166010",
+          "9.98",
+          "SRX5952069",
+          "2882793",
+          "24.14",
+          "SRX5952070",
+          "3104008",
+          "13.05",
+          "SRX5952071",
+          "6346306",
+          "21.03",
+          "SRX5952072",
+          "4553356",
+          "33.19",
+          "SRX5952073",
+          "2968900",
+          "12.96",
+          "SRX5952074",
+          "1548934",
+          "21.16",
+          "SRX5952075",
+          "5217159",
+          "12.89",
+          "SRX5952076",
+          "2855093",
+          "20.76",
+          "SRX5952077",
+          "3190128",
+          "52.44",
+          "SRX5952078",
+          "3495479",
+          "48.88",
+          "SRX5952079",
+          "2272080",
+          "15.81",
+          "SRX5952080",
+          "3379214",
+          "14.8",
+          "SRX5952081",
+          "3217939",
+          "35.34",
+          "SRX5952082",
+          "2979111",
+          "37.51",
+          "SRX5952083",
+          "1834827",
+          "27.05",
+          "SRX5952084",
+          "5679411",
+          "16.23",
+          "SRX5952085",
+          "1070342",
+          "81.39",
+          "SRX5952086",
+          "3047291",
+          "41.62",
+          "SRX5952087",
+          "3476309",
+          "33.68",
+          "SRX5952088",
+          "3270228",
+          "22.83",
+          "SRX5952089",
+          "2235692",
+          "18.24",
+          "SRX5952090",
+          "2729617",
+          "16.99",
+          "SRX5952091",
+          "5181992",
+          "11.38",
+          "SRX5952092",
+          "2163071",
+          "55.35",
+          "SRX5952093",
+          "2248817",
+          "13.33",
+          "SRX5952094",
+          "3473467",
+          "19.29",
+          "SRX5952095",
+          "2721320",
+          "19.1",
+          "SRX5952096",
+          "1663950",
+          "13.82",
+          "SRX5952097",
+          "1349465",
+          "11.39",
+          "SRX5952098",
+          "2277858",
+          "35.96",
+          "SRX5952099",
+          "2224490",
+          "65.62",
+          "SRX5952100",
+          "4873171",
+          "6.52",
+          "SRX5952101",
+          "2106191",
+          "64.7",
+          "SRX5952102",
+          "4728965",
+          "13.71",
+          "SRX5952103",
+          "1544841",
+          "75.11",
+          "SRX5952104",
+          "2702481",
+          "53.4",
+          "SRX5952105",
+          "3831193",
+          "25.03",
+          "SRX5952106",
+          "4238847",
+          "35.6",
+          "SRX5952107",
+          "3961454",
+          "36.8",
+          "SRX5952108",
+          "3767411",
+          "47.07",
+          "SRX5952109",
+          "3326559",
+          "40.39",
+          "SRX5952110",
+          "1850170",
+          "69.49",
+          "SRX5952111",
+          "2484868",
+          "55.74",
+          "SRX5952112",
+          "4407145",
+          "35.85",
+          "SRX5952113",
+          "5877747",
+          "3.1",
+          "SRX5952114",
+          "4680940",
+          "23.1",
+          "SRX5952115",
+          "4150799",
+          "28.05",
+          "SRX5952116",
+          "3022505",
+          "59.96",
+          "SRX5952117",
+          "2823257",
+          "50.83",
+          "SRX5952118",
+          "3267531",
+          "51.77",
+          "SRX5952119",
+          "2915820",
+          "52.63",
+          "SRX5952120",
+          "3796646",
+          "37.87"
+        ],
+        "reports": [
+          "GLDS-690_GMetagenomics_raw_multiqc_GLmetagenomics_report.zip"
+        ]
+      }
+    }
+  ]
+}

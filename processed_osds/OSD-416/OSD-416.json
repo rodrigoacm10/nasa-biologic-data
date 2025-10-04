@@ -1,0 +1,1966 @@
+{
+  "investigation": {
+    "id": "OSD-416",
+    "title": "Characterizing Epigenetic Changes in Methylation Mutants (elp2-5 and met1-7) in Response to Spaceflight. [Bisulfite-Seq]",
+    "description": "Epigenetic changes in the DNA methylome are increasingly shown to play an integral role in regulating gene expression necessary for plants’ adaption to environmental stressors. Plants subjected to the novel environment of spaceflight onboard the International Space Station (ISS), show stress-related transcriptomic changes most notably associated with pathogen stress response.",
+    "mission": {
+      "name": "SpaceX-10",
+      "start_date": "02/19/2017",
+      "end_date": "03/19/2017",
+      "link": "https://osdr.nasa.gov/bio/repo/data/missions/SpaceX-10"
+    },
+    "project": {
+      "identifier": "APEX-04",
+      "title": "Characterizing Epigenetic Changes in Methylation Mutants (elp2-5 and met1-7) in Response to Spaceflight",
+      "type": "Spaceflight Study",
+      "link": "https://lsda.jsc.nasa.gov/Experiment/exper/13847",
+      "funding": "This work was supported by the National Aeronautics and Space Administration – Space Life and Physical Sciences (NNX14AT24G awarded to A-LP and RF).",
+      "managing_center": "Kennedy Space Center (KSC)"
+    },
+    "protocols": [
+      "Nucleic Acid Extraction",
+      "Library Construction",
+      "Nucleic Acid Sequencing",
+      "Growth protocol",
+      "sample collection"
+    ],
+    "publications": [
+      {
+        "title": "Epigenomic Regulators Elongator Complex Subunit 2 and Methyltransferase 1 Differentially Condition the Spaceflight Response in Arabidopsis.",
+        "doi": "10.3389/fpls.2021.691790",
+        "authors": [
+          "Paul AL",
+          "Haveman N",
+          "Califar B",
+          "Ferl RJ."
+        ],
+        "summary": "Epigenomic Regulators Elongator Complex Subunit 2 and Methyltransferase 1 Differentially Condition the Spaceflight Response in Arabidopsis. — 10.3389/fpls.2021.691790"
+      }
+    ],
+    "factors": [
+      "Spaceflight",
+      "Genotype",
+      "Organism Part"
+    ],
+    "contacts": [
+      {
+        "first_name": "Robert",
+        "last_name": "Ferl",
+        "role": "conceptualization role",
+        "email": "ferllabuf@gmail.com"
+      },
+      {
+        "first_name": "Paul",
+        "last_name": "Anna-Lisa",
+        "role": "supervision role",
+        "email": "alp@ufl.edu"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "GSM3330758",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "leaf",
+          "Seed Source": "TAIR CS70000",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "19.06",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "ISS-Columbus",
+          "Average Percent Humidity": "46.73",
+          "Temperature Range": "1.72-28.15",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330759",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "leaf",
+          "Seed Source": "TAIR CS70000",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "19.06",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "ISS-Columbus",
+          "Average Percent Humidity": "46.73",
+          "Temperature Range": "1.72-28.15",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330760",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "leaf",
+          "Seed Source": "TAIR CS70000",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "19.06",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "ISS-Columbus",
+          "Average Percent Humidity": "46.73",
+          "Temperature Range": "1.72-28.15",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330761",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "leaf",
+          "Seed Source": "TAIR CS70000",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "19.06",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "ISS-Columbus",
+          "Average Percent Humidity": "46.73",
+          "Temperature Range": "1.72-28.15",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330762",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Plant Roots",
+          "Seed Source": "TAIR CS70000",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "19.06",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "ISS-Columbus",
+          "Average Percent Humidity": "46.73",
+          "Temperature Range": "1.72-28.15",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330763",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Plant Roots",
+          "Seed Source": "TAIR CS70000",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "19.06",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "ISS-Columbus",
+          "Average Percent Humidity": "46.73",
+          "Temperature Range": "1.72-28.15",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330764",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Plant Roots",
+          "Seed Source": "TAIR CS70000",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "19.06",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "ISS-Columbus",
+          "Average Percent Humidity": "46.73",
+          "Temperature Range": "1.72-28.15",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330765",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Plant Roots",
+          "Seed Source": "TAIR CS70000",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "19.06",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "ISS-Columbus",
+          "Average Percent Humidity": "46.73",
+          "Temperature Range": "1.72-28.15",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330766",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "leaf",
+          "Seed Source": "TAIR CS70000",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "17.14",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "International Space Station Environmental Simulator (ISSES)",
+          "Average Percent Humidity": "34.92",
+          "Temperature Range": "2.88-24.20",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330767",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "leaf",
+          "Seed Source": "TAIR CS70000",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "17.14",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "International Space Station Environmental Simulator (ISSES)",
+          "Average Percent Humidity": "34.92",
+          "Temperature Range": "2.88-24.20",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330768",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "leaf",
+          "Seed Source": "TAIR CS70000",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "17.14",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "International Space Station Environmental Simulator (ISSES)",
+          "Average Percent Humidity": "34.92",
+          "Temperature Range": "2.88-24.20",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330769",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "leaf",
+          "Seed Source": "TAIR CS70000",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "17.14",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "International Space Station Environmental Simulator (ISSES)",
+          "Average Percent Humidity": "34.92",
+          "Temperature Range": "2.88-24.20",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330770",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "leaf",
+          "Seed Source": "TAIR CS70000",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "17.14",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "International Space Station Environmental Simulator (ISSES)",
+          "Average Percent Humidity": "34.92",
+          "Temperature Range": "2.88-24.20",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330771",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "leaf",
+          "Seed Source": "TAIR CS70000",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "17.14",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "International Space Station Environmental Simulator (ISSES)",
+          "Average Percent Humidity": "34.92",
+          "Temperature Range": "2.88-24.20",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330772",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "leaf",
+          "Seed Source": "TAIR CS70000",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "17.14",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "International Space Station Environmental Simulator (ISSES)",
+          "Average Percent Humidity": "34.92",
+          "Temperature Range": "2.88-24.20",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330773",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "leaf",
+          "Seed Source": "TAIR CS70000",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "17.14",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "International Space Station Environmental Simulator (ISSES)",
+          "Average Percent Humidity": "34.92",
+          "Temperature Range": "2.88-24.20",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330774",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "leaf",
+          "Seed Source": "Dr. Zhonglin Mou",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "elp2-5",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "19.06",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "ISS-Columbus",
+          "Average Percent Humidity": "46.73",
+          "Temperature Range": "1.72-28.15",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330775",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "leaf",
+          "Seed Source": "Dr. Zhonglin Mou",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "elp2-5",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "19.06",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "ISS-Columbus",
+          "Average Percent Humidity": "46.73",
+          "Temperature Range": "1.72-28.15",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330776",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "leaf",
+          "Seed Source": "Dr. Zhonglin Mou",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "elp2-5",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "19.06",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "ISS-Columbus",
+          "Average Percent Humidity": "46.73",
+          "Temperature Range": "1.72-28.15",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330777",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "leaf",
+          "Seed Source": "Dr. Zhonglin Mou",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "elp2-5",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "19.06",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "ISS-Columbus",
+          "Average Percent Humidity": "46.73",
+          "Temperature Range": "1.72-28.15",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330778",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Plant Roots",
+          "Seed Source": "Dr. Zhonglin Mou",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "elp2-5",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "19.06",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "ISS-Columbus",
+          "Average Percent Humidity": "46.73",
+          "Temperature Range": "1.72-28.15",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330779",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Plant Roots",
+          "Seed Source": "Dr. Zhonglin Mou",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "elp2-5",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "19.06",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "ISS-Columbus",
+          "Average Percent Humidity": "46.73",
+          "Temperature Range": "1.72-28.15",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330780",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Plant Roots",
+          "Seed Source": "Dr. Zhonglin Mou",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "elp2-5",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "19.06",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "ISS-Columbus",
+          "Average Percent Humidity": "46.73",
+          "Temperature Range": "1.72-28.15",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330781",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Plant Roots",
+          "Seed Source": "Dr. Zhonglin Mou",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "elp2-5",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "19.06",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "ISS-Columbus",
+          "Average Percent Humidity": "46.73",
+          "Temperature Range": "1.72-28.15",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330782",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "leaf",
+          "Seed Source": "Dr. Zhonglin Mou",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "elp2-5",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "17.14",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "International Space Station Environmental Simulator (ISSES)",
+          "Average Percent Humidity": "34.92",
+          "Temperature Range": "2.88-24.20",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330783",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "leaf",
+          "Seed Source": "Dr. Zhonglin Mou",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "elp2-5",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "17.14",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "International Space Station Environmental Simulator (ISSES)",
+          "Average Percent Humidity": "34.92",
+          "Temperature Range": "2.88-24.20",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330784",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "leaf",
+          "Seed Source": "Dr. Zhonglin Mou",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "elp2-5",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "17.14",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "International Space Station Environmental Simulator (ISSES)",
+          "Average Percent Humidity": "34.92",
+          "Temperature Range": "2.88-24.20",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330785",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "leaf",
+          "Seed Source": "Dr. Zhonglin Mou",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "elp2-5",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "17.14",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "International Space Station Environmental Simulator (ISSES)",
+          "Average Percent Humidity": "34.92",
+          "Temperature Range": "2.88-24.20",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330786",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Plant Roots",
+          "Seed Source": "Dr. Zhonglin Mou",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "elp2-5",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "17.14",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "International Space Station Environmental Simulator (ISSES)",
+          "Average Percent Humidity": "34.92",
+          "Temperature Range": "2.88-24.20",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330787",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Plant Roots",
+          "Seed Source": "Dr. Zhonglin Mou",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "elp2-5",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "17.14",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "International Space Station Environmental Simulator (ISSES)",
+          "Average Percent Humidity": "34.92",
+          "Temperature Range": "2.88-24.20",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330788",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Plant Roots",
+          "Seed Source": "Dr. Zhonglin Mou",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "elp2-5",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "17.14",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "International Space Station Environmental Simulator (ISSES)",
+          "Average Percent Humidity": "34.92",
+          "Temperature Range": "2.88-24.20",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330789",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Plant Roots",
+          "Seed Source": "Dr. Zhonglin Mou",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "elp2-5",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "17.14",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "International Space Station Environmental Simulator (ISSES)",
+          "Average Percent Humidity": "34.92",
+          "Temperature Range": "2.88-24.20",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330790",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "leaf",
+          "Seed Source": "Dr. Zhonglin Mou",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "met1-7",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "19.06",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "ISS-Columbus",
+          "Average Percent Humidity": "46.73",
+          "Temperature Range": "1.72-28.15",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330791",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "leaf",
+          "Seed Source": "Dr. Zhonglin Mou",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "met1-7",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "19.06",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "ISS-Columbus",
+          "Average Percent Humidity": "46.73",
+          "Temperature Range": "1.72-28.15",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330792",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "leaf",
+          "Seed Source": "Dr. Zhonglin Mou",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "met1-7",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "19.06",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "ISS-Columbus",
+          "Average Percent Humidity": "46.73",
+          "Temperature Range": "1.72-28.15",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330793",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "leaf",
+          "Seed Source": "Dr. Zhonglin Mou",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "met1-7",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "19.06",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "ISS-Columbus",
+          "Average Percent Humidity": "46.73",
+          "Temperature Range": "1.72-28.15",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330794",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Plant Roots",
+          "Seed Source": "Dr. Zhonglin Mou",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "met1-7",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "19.06",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "ISS-Columbus",
+          "Average Percent Humidity": "46.73",
+          "Temperature Range": "1.72-28.15",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330795",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Plant Roots",
+          "Seed Source": "Dr. Zhonglin Mou",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "met1-7",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "19.06",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "ISS-Columbus",
+          "Average Percent Humidity": "46.73",
+          "Temperature Range": "1.72-28.15",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330796",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Plant Roots",
+          "Seed Source": "Dr. Zhonglin Mou",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "met1-7",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "19.06",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "ISS-Columbus",
+          "Average Percent Humidity": "46.73",
+          "Temperature Range": "1.72-28.15",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330797",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Plant Roots",
+          "Seed Source": "Dr. Zhonglin Mou",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "met1-7",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "19.06",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "ISS-Columbus",
+          "Average Percent Humidity": "46.73",
+          "Temperature Range": "1.72-28.15",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330798",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "leaf",
+          "Seed Source": "Dr. Zhonglin Mou",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "met1-7",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "17.14",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "International Space Station Environmental Simulator (ISSES)",
+          "Average Percent Humidity": "34.92",
+          "Temperature Range": "2.88-24.20",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330799",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "leaf",
+          "Seed Source": "Dr. Zhonglin Mou",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "met1-7",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "17.14",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "International Space Station Environmental Simulator (ISSES)",
+          "Average Percent Humidity": "34.92",
+          "Temperature Range": "2.88-24.20",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330800",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "leaf",
+          "Seed Source": "Dr. Zhonglin Mou",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "met1-7",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "17.14",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "International Space Station Environmental Simulator (ISSES)",
+          "Average Percent Humidity": "34.92",
+          "Temperature Range": "2.88-24.20",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330801",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "leaf",
+          "Seed Source": "Dr. Zhonglin Mou",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "met1-7",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "17.14",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "International Space Station Environmental Simulator (ISSES)",
+          "Average Percent Humidity": "34.92",
+          "Temperature Range": "2.88-24.20",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330802",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Plant Roots",
+          "Seed Source": "Dr. Zhonglin Mou",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "met1-7",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "17.14",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "International Space Station Environmental Simulator (ISSES)",
+          "Average Percent Humidity": "34.92",
+          "Temperature Range": "2.88-24.20",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330803",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Plant Roots",
+          "Seed Source": "Dr. Zhonglin Mou",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "met1-7",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "17.14",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "International Space Station Environmental Simulator (ISSES)",
+          "Average Percent Humidity": "34.92",
+          "Temperature Range": "2.88-24.20",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330804",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Plant Roots",
+          "Seed Source": "Dr. Zhonglin Mou",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "met1-7",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "17.14",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "International Space Station Environmental Simulator (ISSES)",
+          "Average Percent Humidity": "34.92",
+          "Temperature Range": "2.88-24.20",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      },
+      {
+        "sample_name": "GSM3330805",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Plant Roots",
+          "Seed Source": "Dr. Zhonglin Mou",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "met1-7",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth temperature": "17.14",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "Container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100-135",
+          "Light quality": "red and blue",
+          "growth environment": "International Space Station Environmental Simulator (ISSES)",
+          "Average Percent Humidity": "34.92",
+          "Temperature Range": "2.88-24.20",
+          "Growth time": "11",
+          "Sample Preservation Method": "RNAlater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {
+          "Data File Note": "GeneLab concatenated the submitted raw data files to be one forward and one reverse read each sample"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "dna-methylation-profiling",
+      "platform": "HiSeq 3000",
+      "qc": {},
+      "library": {
+        "Library Strategy": "Bisulfite-Seq",
+        "Library Selection": "RANDOM-PCR",
+        "Library Layout": "PAIRED"
+      },
+      "files": {
+        "raw": [
+          "GLDS-416_epigenomics_GSM3330758_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330758_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330759_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330759_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330760_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330760_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330761_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330761_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330762_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330762_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330763_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330763_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330764_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330764_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330765_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330765_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330766_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330766_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330767_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330767_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330768_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330768_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330769_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330769_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330770_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330770_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330771_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330771_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330772_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330772_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330773_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330773_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330774_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330774_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330775_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330775_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330776_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330776_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330777_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330777_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330778_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330778_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330779_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330779_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330780_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330780_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330781_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330781_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330782_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330782_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330783_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330783_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330784_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330784_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330785_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330785_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330786_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330786_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330787_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330787_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330788_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330788_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330789_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330789_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330790_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330790_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330791_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330791_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330792_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330792_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330793_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330793_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330794_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330794_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330795_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330795_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330796_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330796_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330797_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330797_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330798_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330798_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330799_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330799_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330800_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330800_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330801_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330801_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330802_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330802_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330803_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330803_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330804_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330804_R1_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330805_R2_raw.fastq.gz",
+          "GLDS-416_epigenomics_GSM3330805_R1_raw.fastq.gz"
+        ],
+        "processed": [
+          "GSM3330758",
+          "Nucleic Acid Sequencing",
+          "deoxyribonuclease digestion",
+          "~400",
+          "base pair",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000244",
+          "genomic DNA",
+          "Bisulfite-Seq",
+          "RANDOM-PCR",
+          "PAIRED",
+          "HiSeq 3000",
+          "GSM3330759",
+          "GSM3330760",
+          "GSM3330761",
+          "GSM3330762",
+          "GSM3330763",
+          "GSM3330764",
+          "GSM3330765",
+          "GSM3330766",
+          "GSM3330767",
+          "GSM3330768",
+          "GSM3330769",
+          "GSM3330770",
+          "GSM3330771",
+          "GSM3330772",
+          "GSM3330773",
+          "GSM3330774",
+          "GSM3330775",
+          "GSM3330776",
+          "GSM3330777",
+          "GSM3330778",
+          "GSM3330779",
+          "GSM3330780",
+          "GSM3330781",
+          "GSM3330782",
+          "GSM3330783",
+          "GSM3330784",
+          "GSM3330785",
+          "GSM3330786",
+          "GSM3330787",
+          "GSM3330788",
+          "GSM3330789",
+          "GSM3330790",
+          "GSM3330791",
+          "GSM3330792",
+          "GSM3330793",
+          "GSM3330794",
+          "GSM3330795",
+          "GSM3330796",
+          "GSM3330797",
+          "GSM3330798",
+          "GSM3330799",
+          "GSM3330800",
+          "GSM3330801",
+          "GSM3330802",
+          "GSM3330803",
+          "GSM3330804",
+          "GSM3330805"
+        ],
+        "reports": []
+      }
+    }
+  ]
+}

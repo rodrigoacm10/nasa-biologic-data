@@ -1,0 +1,189 @@
+{
+  "investigation": {
+    "id": "OSD-166",
+    "title": "Synergistic effects of space radiation and microgravity (miRNA WT and ced-1 mutant)",
+    "description": "Space radiations and microgravity both could cause DNA damage in cells, but the effects of microgravity on DNA damage response to space radiations are still controversial. A mRNA microarray and microRNA microarray in dauer larvae of Caenorhabditis elegans (C.",
+    "mission": {
+      "name": "Shenzhou-8",
+      "start_date": "10/31/2011",
+      "end_date": "11/17/2011",
+      "link": "https://osdr.nasa.gov/bio/repo/data/missions/Shenzhou-8"
+    },
+    "project": {
+      "identifier": "SIBMOX-CELEGANS_SHENZHOU-8",
+      "title": "",
+      "type": "Spaceflight Study",
+      "link": "",
+      "funding": "This work is supported by “National Natural Science Foundation of China (31270903)” and “the Fundamental Research Funds for the Central Universities (3132016330)”.",
+      "managing_center": ""
+    },
+    "protocols": [
+      "sample collection",
+      "Nucleic Acid Extraction",
+      "Labeling",
+      "Nucleic Acid Hybridization",
+      "Data Collection",
+      "normalization data transformation"
+    ],
+    "publications": [],
+    "factors": [
+      "Altered Gravity",
+      "Spaceflight",
+      "Strain"
+    ],
+    "contacts": [
+      {
+        "first_name": "Ying",
+        "last_name": "Gao",
+        "role": "",
+        "email": "gy_dmu@163.com"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "GSM2416821",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Genotype": "Wild Type",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Strain": "N2",
+          "Altered Gravity": "uG",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "absorbed radiation dose": "1.92",
+          "duration": "16.5"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM2416822",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Genotype": "ced-1(n1995) I",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Strain": "MT4930",
+          "Altered Gravity": "uG",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "absorbed radiation dose": "1.92",
+          "duration": "16.5"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM2416823",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Genotype": "Wild Type",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Strain": "N2",
+          "Altered Gravity": "1G by centrifugation",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "absorbed radiation dose": "2.27",
+          "duration": "16.5"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM2416824",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Genotype": "ced-1(n1995) I",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Strain": "MT4930",
+          "Altered Gravity": "1G by centrifugation",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "absorbed radiation dose": "2.27",
+          "duration": "16.5"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM2416825",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Genotype": "Wild Type",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Strain": "N2",
+          "Altered Gravity": "1G on Earth",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "absorbed radiation dose": "0",
+          "duration": "16.5"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM2416826",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Genotype": "ced-1(n1995) I",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Strain": "MT4930",
+          "Altered Gravity": "1G on Earth",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "absorbed radiation dose": "0",
+          "duration": "16.5"
+        },
+        "comments": {}
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Exiqon",
+      "qc": {
+        "QA Instrument": "ND-1000, Nanodrop Technologies"
+      },
+      "library": {},
+      "files": {
+        "raw": [
+          "GLDS-166_miRNA-array_GSE90872_Raw_Intensity_File.csv.gz"
+        ],
+        "processed": [
+          "GSM2416821",
+          "normalization data transformation",
+          "ND-1000",
+          "gel electrophoresis",
+          "Hy3",
+          "GPL22737",
+          "mirna-microarray",
+          "GLDS-166_miRNA-array_GSE90872_Raw_Intensity_File.csv.gz",
+          "GLDS-166_miRNA-array_GSE90872_miRNA_Expression_Profiling_Data.csv.gz",
+          "GSM2416822",
+          "GSM2416823",
+          "GSM2416824",
+          "GSM2416825",
+          "GSM2416826"
+        ],
+        "reports": [
+          "Nanodrop Technologies"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,384 @@
+{
+  "investigation": {
+    "id": "OSD-286",
+    "title": "CRV vehicles meta-genome",
+    "description": "Metagenome analysis of ISS cargo resupply vehicles (CRV)",
+    "mission": {
+      "name": "SpaceX-5",
+      "start_date": "01/10/2015",
+      "end_date": "02/11/2015",
+      "link": "https://osdr.nasa.gov/bio/repo/data/missions/SpaceX-5"
+    },
+    "project": {
+      "identifier": "Microbial Tracking-1A",
+      "title": "ISS Microbial Observatory",
+      "type": "Spaceflight Study",
+      "link": "https://lsda.jsc.nasa.gov/Experiment/exper/13629",
+      "funding": "The research described in this manuscript was funded by a 2012 Space Biology NNH12ZTT001N grant no. 19-12829-26 under Task Order NNN13D111T award to KV, which also funded post-doctoral fellowship for AS, SM, NS, and JW. FK was supported through the KBRwyle/FILMSS subcontract with the Department of Pharmaceutical Chemistry at the University of California, San Francisco, # NNA14AB82C, at NASA Ames Research Center.",
+      "managing_center": "Jet Propulsion Laboratory (JPL)"
+    },
+    "protocols": [
+      "Nucleic Acid Extraction",
+      "Library Construction",
+      "Nucleic Acid Sequencing",
+      "Human read contaminant filtering",
+      "GeneLab raw data processing protocol",
+      "GeneLab metagenomics data processing protocol",
+      "sample collection"
+    ],
+    "publications": [
+      {
+        "title": "Assessing the Risk of Transfer of Microorganisms at the International Space Station Due to Cargo Delivery by Commercial Resupply Vehicles.",
+        "doi": "10.3389/fmicb.2020.566412",
+        "authors": [
+          "Mhatre S",
+          "Wood JM",
+          "Sielaff AC",
+          "Mora M",
+          "Duller S",
+          "Singh NK",
+          "Karouia F",
+          "Moissl-Eichinger C",
+          "Venkateswaran K."
+        ],
+        "summary": "Assessing the Risk of Transfer of Microorganisms at the International Space Station Due to Cargo Delivery by Commercial Resupply Vehicles. — 10.3389/fmicb.2020.566412"
+      }
+    ],
+    "factors": [
+      "Spaceflight",
+      "Treatment",
+      "Sample Location"
+    ],
+    "contacts": [
+      {
+        "first_name": "Kasthuri",
+        "last_name": "Venkateswaran",
+        "role": "principal investigator",
+        "email": "kjvenkat@jpl.nasa.gov"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "SRR11402514",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Treatment": "PMA treated",
+          "Sample Location": "CRV2"
+        },
+        "parameters": {
+          "Sampling Material": "wipes"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR11402515",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Treatment": "Untreated",
+          "Sample Location": "CRV2"
+        },
+        "parameters": {
+          "Sampling Material": "wipes"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR11402516",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Treatment": "PMA treated",
+          "Sample Location": "CRV2"
+        },
+        "parameters": {
+          "Sampling Material": "wipes"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR11402517",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Treatment": "Untreated",
+          "Sample Location": "CRV2"
+        },
+        "parameters": {
+          "Sampling Material": "wipes"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR11402518",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Treatment": "Untreated",
+          "Sample Location": "CRV1"
+        },
+        "parameters": {
+          "Sampling Material": "wipes"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR11402519",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Treatment": "PMA treated",
+          "Sample Location": "CRV1"
+        },
+        "parameters": {
+          "Sampling Material": "wipes"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR11402520",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Treatment": "Untreated",
+          "Sample Location": "CRV1"
+        },
+        "parameters": {
+          "Sampling Material": "wipes"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRR11402521",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Treatment": "PMA treated",
+          "Sample Location": "CRV1"
+        },
+        "parameters": {
+          "Sampling Material": "wipes"
+        },
+        "comments": {}
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "metagenomic-sequencing",
+      "platform": "Illumina HiSeq 2500",
+      "qc": {
+        "QA Instrument": "Qubit Fluorometric Quantification",
+        "QA Assay": "Quant-iT dsDNA High Sensitivity Kit",
+        "Read Depth": "5666"
+      },
+      "library": {
+        "Library Strategy": "PCR",
+        "Library Selection": "DNA",
+        "Library Layout": "PAIRED",
+        "Library QA Instrument": "Agilent 2100 Bioanalyzer",
+        "Library Kit": "Illumina Nextera Kit"
+      },
+      "files": {
+        "raw": [
+          "\"GLDS-286_metagenomics_5726_S10_L003_R1_001_HRremoved.fastq.gz",
+          "GLDS-286_metagenomics_5726_S10_L003_R2_001_HRremoved.fastq.gz\"",
+          "\"GLDS-286_metagenomics_5710_S7_L003_R1_001_HRremoved.fastq.gz",
+          "GLDS-286_metagenomics_5710_S7_L003_R2_001_HRremoved.fastq.gz\"",
+          "\"GLDS-286_metagenomics_5720_S9_L003_R1_001_HRremoved.fastq.gz",
+          "GLDS-286_metagenomics_5720_S9_L003_R2_001_HRremoved.fastq.gz\"",
+          "\"GLDS-286_metagenomics_5716_S8_L003_R1_001_HRremoved.fastq.gz",
+          "GLDS-286_metagenomics_5716_S8_L003_R2_001_HRremoved.fastq.gz\"",
+          "\"GLDS-286_metagenomics_5494_S4_L003_R1_001_HRremoved.fastq.gz",
+          "GLDS-286_metagenomics_5494_S4_L003_R2_001_HRremoved.fastq.gz\"",
+          "\"GLDS-286_metagenomics_5503_S6_L003_R1_001_HRremoved.fastq.gz",
+          "GLDS-286_metagenomics_5503_S6_L003_R2_001_HRremoved.fastq.gz\"",
+          "\"GLDS-286_metagenomics_5492_S3_L003_R1_001_HRremoved.fastq.gz",
+          "GLDS-286_metagenomics_5492_S3_L003_R2_001_HRremoved.fastq.gz\"",
+          "\"GLDS-286_metagenomics_5501_S5_L003_R1_001_HRremoved.fastq.gz",
+          "GLDS-286_metagenomics_5501_S5_L003_R2_001_HRremoved.fastq.gz\"",
+          "\"GLDS-286_GMetagenomics_5726_S10_L003_R1_filtered.fastq.gz",
+          "\"GLDS-286_GMetagenomics_5710_S7_L003_R1_filtered.fastq.gz",
+          "\"GLDS-286_GMetagenomics_5720_S9_L003_R1_filtered.fastq.gz",
+          "\"GLDS-286_GMetagenomics_5716_S8_L003_R1_filtered.fastq.gz",
+          "\"GLDS-286_GMetagenomics_5494_S4_L003_R1_filtered.fastq.gz",
+          "\"GLDS-286_GMetagenomics_5503_S6_L003_R1_filtered.fastq.gz",
+          "\"GLDS-286_GMetagenomics_5492_S3_L003_R1_filtered.fastq.gz",
+          "\"GLDS-286_GMetagenomics_5501_S5_L003_R1_filtered.fastq.gz"
+        ],
+        "processed": [
+          "SRR11402514",
+          "GeneLab metagenomics data processing protocol",
+          "Qubit Fluorometric Quantification",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000187",
+          "Quant-iT dsDNA High Sensitivity Kit",
+          "PAIRED",
+          "PCR",
+          "Agilent 2100 Bioanalyzer",
+          "DNA",
+          "Illumina Nextera Kit",
+          "Illumina HiSeq 2500",
+          "100",
+          "percent",
+          "Metagenomics",
+          "GLDS-286_metagenomics_5726_S10_L003_R2_001_HRremoved.fastq.gz\"",
+          "5666",
+          "26.5",
+          "GLDS-286_GMetagenomics_README.txt",
+          "GLDS-286_GMetagenomics_5726_S10_L003_R2_filtered.fastq.gz\"",
+          "GLDS-286_GMetagenomics_Assembly-based-processing-overview_GLmetagenomics.tsv",
+          "\"GLDS-286_GMetagenomics_5726_S10_L003-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-286_GMetagenomics_5726_S10_L003-contig-coverage-and-tax.tsv\"",
+          "GLDS-286_GMetagenomics_bins-overview_GLmetagenomics.tsv",
+          "\"GLDS-286_GMetagenomics_MAGs-overview_GLmetagenomics.tsv",
+          "GLDS-286_GMetagenomics_MAG-level-KO-annotations_GLmetagenomics.tsv",
+          "GLDS-286_GMetagenomics_MAG-KEGG-Decoder-out_GLmetagenomics.tsv",
+          "GLDS-286_GMetagenomics_MAG-KEGG-Decoder-out_GLmetagenomics.html\"",
+          "\"GLDS-286_GMetagenomics_Combined-gene-level-KO-function-coverages_GLmetagenomics.tsv",
+          "GLDS-286_GMetagenomics_Combined-gene-level-KO-function-coverages-CPM_GLmetagenomics.tsv",
+          "GLDS-286_GMetagenomics_Combined-gene-level-taxonomy-coverages_GLmetagenomics.tsv",
+          "GLDS-286_GMetagenomics_Combined-gene-level-taxonomy-coverages-CPM_GLmetagenomics.tsv",
+          "GLDS-286_GMetagenomics_Combined-contig-level-taxonomy-coverages_GLmetagenomics.tsv",
+          "GLDS-286_GMetagenomics_Combined-contig-level-taxonomy-coverages-CPM_GLmetagenomics.tsv\"",
+          "\"GLDS-286_GMetagenomics_Gene-families_GLmetagenomics.tsv",
+          "GLDS-286_GMetagenomics_Gene-families-grouped-by-taxa_GLmetagenomics.tsv",
+          "GLDS-286_GMetagenomics_Gene-families-cpm_GLmetagenomics.tsv",
+          "GLDS-286_GMetagenomics_Gene-families-KO-cpm_GLmetagenomics.tsv",
+          "GLDS-286_GMetagenomics_Pathway-abundances_GLmetagenomics.tsv",
+          "GLDS-286_GMetagenomics_Pathway-abundances-grouped-by-taxa_GLmetagenomics.tsv",
+          "GLDS-286_GMetagenomics_Pathway-abundances-cpm_GLmetagenomics.tsv",
+          "GLDS-286_GMetagenomics_Pathway-coverages_GLmetagenomics.tsv",
+          "GLDS-286_GMetagenomics_Pathway-coverages-grouped-by-taxa_GLmetagenomics.tsv",
+          "GLDS-286_GMetagenomics_Metaphlan-taxonomy_GLmetagenomics.tsv\"",
+          "SRR11402515",
+          "GLDS-286_metagenomics_5710_S7_L003_R2_001_HRremoved.fastq.gz\"",
+          "76929",
+          "9.28",
+          "GLDS-286_GMetagenomics_5710_S7_L003_R2_filtered.fastq.gz\"",
+          "\"GLDS-286_GMetagenomics_5710_S7_L003-assembly.fasta",
+          "GLDS-286_GMetagenomics_assembly-summaries_GLmetagenomics.tsv",
+          "GLDS-286_GMetagenomics_Failed-assemblies_GLmetagenomics.tsv\"",
+          "\"GLDS-286_GMetagenomics_5710_S7_L003-genes.faa",
+          "GLDS-286_GMetagenomics_5710_S7_L003-genes.fasta",
+          "GLDS-286_GMetagenomics_5710_S7_L003-genes.gff\"",
+          "\"GLDS-286_GMetagenomics_5710_S7_L003-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-286_GMetagenomics_5710_S7_L003-contig-coverage-and-tax.tsv\"",
+          "\"GLDS-286_GMetagenomics_5710_S7_L003.bam",
+          "GLDS-286_GMetagenomics_5710_S7_L003-mapping-info.txt",
+          "GLDS-286_GMetagenomics_5710_S7_L003-metabat-assembly-depth.tsv\"",
+          "SRR11402516",
+          "GLDS-286_metagenomics_5720_S9_L003_R2_001_HRremoved.fastq.gz\"",
+          "34667",
+          "9.36",
+          "GLDS-286_GMetagenomics_5720_S9_L003_R2_filtered.fastq.gz\"",
+          "\"GLDS-286_GMetagenomics_5720_S9_L003-assembly.fasta",
+          "\"GLDS-286_GMetagenomics_5720_S9_L003-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-286_GMetagenomics_5720_S9_L003-contig-coverage-and-tax.tsv\"",
+          "\"GLDS-286_GMetagenomics_5720_S9_L003.bam",
+          "GLDS-286_GMetagenomics_5720_S9_L003-mapping-info.txt",
+          "GLDS-286_GMetagenomics_5720_S9_L003-metabat-assembly-depth.tsv\"",
+          "SRR11402517",
+          "GLDS-286_metagenomics_5716_S8_L003_R2_001_HRremoved.fastq.gz\"",
+          "6401",
+          "18.7",
+          "GLDS-286_GMetagenomics_5716_S8_L003_R2_filtered.fastq.gz\"",
+          "\"GLDS-286_GMetagenomics_5716_S8_L003-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-286_GMetagenomics_5716_S8_L003-contig-coverage-and-tax.tsv\"",
+          "SRR11402518",
+          "GLDS-286_metagenomics_5494_S4_L003_R2_001_HRremoved.fastq.gz\"",
+          "180641",
+          "3.11",
+          "GLDS-286_GMetagenomics_5494_S4_L003_R2_filtered.fastq.gz\"",
+          "\"GLDS-286_GMetagenomics_5494_S4_L003-assembly.fasta",
+          "\"GLDS-286_GMetagenomics_5494_S4_L003-genes.faa",
+          "GLDS-286_GMetagenomics_5494_S4_L003-genes.fasta",
+          "GLDS-286_GMetagenomics_5494_S4_L003-genes.gff\"",
+          "\"GLDS-286_GMetagenomics_5494_S4_L003-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-286_GMetagenomics_5494_S4_L003-contig-coverage-and-tax.tsv\"",
+          "\"GLDS-286_GMetagenomics_5494_S4_L003.bam",
+          "GLDS-286_GMetagenomics_5494_S4_L003-mapping-info.txt",
+          "GLDS-286_GMetagenomics_5494_S4_L003-metabat-assembly-depth.tsv\"",
+          "SRR11402519",
+          "GLDS-286_metagenomics_5503_S6_L003_R2_001_HRremoved.fastq.gz\"",
+          "23444",
+          "14.9",
+          "GLDS-286_GMetagenomics_5503_S6_L003_R2_filtered.fastq.gz\"",
+          "\"GLDS-286_GMetagenomics_5503_S6_L003-assembly.fasta",
+          "\"GLDS-286_GMetagenomics_5503_S6_L003-genes.faa",
+          "GLDS-286_GMetagenomics_5503_S6_L003-genes.fasta",
+          "GLDS-286_GMetagenomics_5503_S6_L003-genes.gff\"",
+          "\"GLDS-286_GMetagenomics_5503_S6_L003-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-286_GMetagenomics_5503_S6_L003-contig-coverage-and-tax.tsv\"",
+          "\"GLDS-286_GMetagenomics_5503_S6_L003.bam",
+          "GLDS-286_GMetagenomics_5503_S6_L003-mapping-info.txt",
+          "GLDS-286_GMetagenomics_5503_S6_L003-metabat-assembly-depth.tsv\"",
+          "SRR11402520",
+          "GLDS-286_metagenomics_5492_S3_L003_R2_001_HRremoved.fastq.gz\"",
+          "34491820",
+          "0.684",
+          "GLDS-286_GMetagenomics_5492_S3_L003_R2_filtered.fastq.gz\"",
+          "\"GLDS-286_GMetagenomics_5492_S3_L003-assembly.fasta",
+          "\"GLDS-286_GMetagenomics_5492_S3_L003-genes.faa",
+          "GLDS-286_GMetagenomics_5492_S3_L003-genes.fasta",
+          "GLDS-286_GMetagenomics_5492_S3_L003-genes.gff\"",
+          "\"GLDS-286_GMetagenomics_5492_S3_L003-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-286_GMetagenomics_5492_S3_L003-contig-coverage-and-tax.tsv\"",
+          "\"GLDS-286_GMetagenomics_5492_S3_L003.bam",
+          "GLDS-286_GMetagenomics_5492_S3_L003-mapping-info.txt",
+          "GLDS-286_GMetagenomics_5492_S3_L003-metabat-assembly-depth.tsv\"",
+          "\"GLDS-286_GMetagenomics_bins-overview_GLmetagenomics.tsv",
+          "GLDS-286_GMetagenomics_5492_S3_L003-bins.zip\"",
+          "GLDS-286_GMetagenomics_5492_S3_L003-MAGs.zip",
+          "SRR11402521",
+          "GLDS-286_metagenomics_5501_S5_L003_R2_001_HRremoved.fastq.gz\"",
+          "33161025",
+          "0.068",
+          "GLDS-286_GMetagenomics_5501_S5_L003_R2_filtered.fastq.gz\"",
+          "\"GLDS-286_GMetagenomics_5501_S5_L003-assembly.fasta",
+          "\"GLDS-286_GMetagenomics_5501_S5_L003-genes.faa",
+          "GLDS-286_GMetagenomics_5501_S5_L003-genes.fasta",
+          "GLDS-286_GMetagenomics_5501_S5_L003-genes.gff\"",
+          "\"GLDS-286_GMetagenomics_5501_S5_L003-gene-coverage-annotation-and-tax.tsv",
+          "GLDS-286_GMetagenomics_5501_S5_L003-contig-coverage-and-tax.tsv\"",
+          "\"GLDS-286_GMetagenomics_5501_S5_L003.bam",
+          "GLDS-286_GMetagenomics_5501_S5_L003-mapping-info.txt",
+          "GLDS-286_GMetagenomics_5501_S5_L003-metabat-assembly-depth.tsv\"",
+          "GLDS-286_GMetagenomics_5501_S5_L003-bins.zip\"",
+          "GLDS-286_GMetagenomics_5501_S5_L003-MAGs.zip"
+        ],
+        "reports": [
+          "GLDS-286_GMetagenomics_raw_multiqc_GLmetagenomics_report.zip",
+          "GLDS-286_GMetagenomics_filtered_multiqc_GLmetagenomics_report.zip"
+        ]
+      }
+    }
+  ]
+}

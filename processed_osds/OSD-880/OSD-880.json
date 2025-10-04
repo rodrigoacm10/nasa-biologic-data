@@ -1,0 +1,775 @@
+{
+  "investigation": {
+    "id": "OSD-880",
+    "title": "Zfp697 is an RNA-binding protein that regulates skeletal muscle inflammation and remodeling - Zfp697 skeletal muscle knockout RNA-Seq of unloading-reloading protocol",
+    "description": "Muscle atrophy is a morbidity and mortality risk factor that happens with disuse, chronic disease, and ageing. Recovery from atrophy involves changes in protein synthesis and different cell types such as muscle fibers, and satellite and immune cells.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "Hindlimb_Unloading",
+      "title": "",
+      "type": "Ground Study",
+      "link": "",
+      "funding": "This work was supported by grants from The Swedish Research Council (2016-00785, 2019-01282, 2022-01650, and 80358701-03), The Novo Nordisk Foundation (NNF16OC0020804 and NNF22OC0075245), the NIH (HG009889, HG004569, HG011864, and CA273432), the Gösta Fraenckel Foundation for Medical Research, AFM-Tèlèthon, the European Association for the Study of Diabetes, the Åke Wibergs Foundation, the Olle Engqvist Foundation (207-0479).",
+      "managing_center": ""
+    },
+    "protocols": [
+      "Treatment Protocol",
+      "sample collection",
+      "Nucleic Acid Extraction",
+      "Library Construction",
+      "Nucleic Acid Sequencing",
+      "GeneLab raw data processing protocol"
+    ],
+    "publications": [
+      {
+        "title": "Zfp697 is an RNA-binding protein that regulates skeletal muscle inflammation and remodeling (Zfp697 skeletal muscle knockout RNA-Seq of unloading-reloading protocol)",
+        "doi": "10.1073/pnas.2319724121",
+        "authors": [
+          "Correia JC",
+          "Jannig PR",
+          "Gosztyla ML",
+          "Cervenka I",
+          "Ducommun S",
+          "Præstholm SM",
+          "Dias JM",
+          "Dumont KD",
+          "Liu Z",
+          "Liang Q",
+          "Edsgärd D",
+          "Emanuelsson O",
+          "Gregorevic P",
+          "Westerblad H",
+          "Venckunas T",
+          "Brazaitis M",
+          "Kamandulis S",
+          "Lanner JT",
+          "Teixeira AI",
+          "Yeo GW",
+          "Ruas JL."
+        ],
+        "summary": "Zfp697 is an RNA-binding protein that regulates skeletal muscle inflammation and remodeling (Zfp697 skeletal muscle knockout RNA-Seq of unloading-reloading protocol) — 10.1073/pnas.2319724121"
+      }
+    ],
+    "factors": [
+      "Hindlimb Unloading",
+      "Genotype"
+    ],
+    "contacts": [
+      {
+        "first_name": "Jorge C.",
+        "last_name": "Correia",
+        "role": "Author",
+        "email": "jlruas@med.umich.edu"
+      },
+      {
+        "first_name": "Paulo R.",
+        "last_name": "Jannig",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Maya L.",
+        "last_name": "Gosztyla",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Igor",
+        "last_name": "Cervenka",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Serge",
+        "last_name": "Ducommun",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Stine M.",
+        "last_name": "Præstholm",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "José M.",
+        "last_name": "Dias",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Kyle D.",
+        "last_name": "Dumont",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Zhengye",
+        "last_name": "Liu",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Qishan",
+        "last_name": "Liang",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Daniel",
+        "last_name": "Edsgärd",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Olof",
+        "last_name": "Emanuelsson",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Paul",
+        "last_name": "Gregorevic",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Håkan",
+        "last_name": "Westerblad",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Tomas",
+        "last_name": "Venckunas",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Marius",
+        "last_name": "Brazaitis",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Sigitas",
+        "last_name": "Kamandulis",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Johanna T.",
+        "last_name": "Lanner",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Ana I.",
+        "last_name": "Teixeira",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Gene W.",
+        "last_name": "Yeo",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Jorge",
+        "last_name": "Ruas",
+        "role": "conceptualization role",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "GSM8421714",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J and C57BL/6N",
+          "Animal Source": "generated in-house",
+          "Sex": "Female",
+          "age": "8",
+          "Material Type": "Gastrocnemius"
+        },
+        "factors": {
+          "Genotype": "Control",
+          "Hindlimb Unloading": "Normally Loaded Control"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "",
+          "Hindlimb Reloading Duration": "",
+          "Diet": "standard rodent chow diet (Special Diets Services CRM-P)",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12 h light/dark cycle",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM8421715",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J and C57BL/6N",
+          "Animal Source": "generated in-house",
+          "Sex": "Female",
+          "age": "8",
+          "Material Type": "Gastrocnemius"
+        },
+        "factors": {
+          "Genotype": "Control",
+          "Hindlimb Unloading": "Normally Loaded Control"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "",
+          "Hindlimb Reloading Duration": "",
+          "Diet": "standard rodent chow diet (Special Diets Services CRM-P)",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12 h light/dark cycle",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM8421716",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J and C57BL/6N",
+          "Animal Source": "generated in-house",
+          "Sex": "Female",
+          "age": "8",
+          "Material Type": "Gastrocnemius"
+        },
+        "factors": {
+          "Genotype": "Control",
+          "Hindlimb Unloading": "Normally Loaded Control"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "",
+          "Hindlimb Reloading Duration": "",
+          "Diet": "standard rodent chow diet (Special Diets Services CRM-P)",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12 h light/dark cycle",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM8421717",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J and C57BL/6N",
+          "Animal Source": "generated in-house",
+          "Sex": "Female",
+          "age": "8",
+          "Material Type": "Gastrocnemius"
+        },
+        "factors": {
+          "Genotype": "Zfp697 mKO",
+          "Hindlimb Unloading": "Normally Loaded Control"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "",
+          "Hindlimb Reloading Duration": "",
+          "Diet": "standard rodent chow diet (Special Diets Services CRM-P)",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12 h light/dark cycle",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM8421718",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J and C57BL/6N",
+          "Animal Source": "generated in-house",
+          "Sex": "Female",
+          "age": "8",
+          "Material Type": "Gastrocnemius"
+        },
+        "factors": {
+          "Genotype": "Zfp697 mKO",
+          "Hindlimb Unloading": "Normally Loaded Control"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "",
+          "Hindlimb Reloading Duration": "",
+          "Diet": "standard rodent chow diet (Special Diets Services CRM-P)",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12 h light/dark cycle",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM8421719",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J and C57BL/6N",
+          "Animal Source": "generated in-house",
+          "Sex": "Female",
+          "age": "8",
+          "Material Type": "Gastrocnemius"
+        },
+        "factors": {
+          "Genotype": "Zfp697 mKO",
+          "Hindlimb Unloading": "Normally Loaded Control"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "",
+          "Hindlimb Reloading Duration": "",
+          "Diet": "standard rodent chow diet (Special Diets Services CRM-P)",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12 h light/dark cycle",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM8421720",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J and C57BL/6N",
+          "Animal Source": "generated in-house",
+          "Sex": "Female",
+          "age": "8",
+          "Material Type": "Gastrocnemius"
+        },
+        "factors": {
+          "Genotype": "Control",
+          "Hindlimb Unloading": "Hindlimb Unloaded"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "10",
+          "Hindlimb Reloading Duration": "",
+          "Diet": "standard rodent chow diet (Special Diets Services CRM-P)",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12 h light/dark cycle",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM8421721",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J and C57BL/6N",
+          "Animal Source": "generated in-house",
+          "Sex": "Female",
+          "age": "8",
+          "Material Type": "Gastrocnemius"
+        },
+        "factors": {
+          "Genotype": "Control",
+          "Hindlimb Unloading": "Hindlimb Unloaded"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "10",
+          "Hindlimb Reloading Duration": "",
+          "Diet": "standard rodent chow diet (Special Diets Services CRM-P)",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12 h light/dark cycle",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM8421722",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J and C57BL/6N",
+          "Animal Source": "generated in-house",
+          "Sex": "Female",
+          "age": "8",
+          "Material Type": "Gastrocnemius"
+        },
+        "factors": {
+          "Genotype": "Control",
+          "Hindlimb Unloading": "Hindlimb Unloaded"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "10",
+          "Hindlimb Reloading Duration": "",
+          "Diet": "standard rodent chow diet (Special Diets Services CRM-P)",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12 h light/dark cycle",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM8421723",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J and C57BL/6N",
+          "Animal Source": "generated in-house",
+          "Sex": "Female",
+          "age": "8",
+          "Material Type": "Gastrocnemius"
+        },
+        "factors": {
+          "Genotype": "Zfp697 mKO",
+          "Hindlimb Unloading": "Hindlimb Unloaded"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "10",
+          "Hindlimb Reloading Duration": "",
+          "Diet": "standard rodent chow diet (Special Diets Services CRM-P)",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12 h light/dark cycle",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM8421724",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J and C57BL/6N",
+          "Animal Source": "generated in-house",
+          "Sex": "Female",
+          "age": "8",
+          "Material Type": "Gastrocnemius"
+        },
+        "factors": {
+          "Genotype": "Zfp697 mKO",
+          "Hindlimb Unloading": "Hindlimb Unloaded"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "10",
+          "Hindlimb Reloading Duration": "",
+          "Diet": "standard rodent chow diet (Special Diets Services CRM-P)",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12 h light/dark cycle",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM8421725",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J and C57BL/6N",
+          "Animal Source": "generated in-house",
+          "Sex": "Female",
+          "age": "8",
+          "Material Type": "Gastrocnemius"
+        },
+        "factors": {
+          "Genotype": "Zfp697 mKO",
+          "Hindlimb Unloading": "Hindlimb Unloaded"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "10",
+          "Hindlimb Reloading Duration": "",
+          "Diet": "standard rodent chow diet (Special Diets Services CRM-P)",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12 h light/dark cycle",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM8421726",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J and C57BL/6N",
+          "Animal Source": "generated in-house",
+          "Sex": "Female",
+          "age": "8",
+          "Material Type": "Gastrocnemius"
+        },
+        "factors": {
+          "Genotype": "Control",
+          "Hindlimb Unloading": "Hindlimb Unloaded and Reloaded"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "10",
+          "Hindlimb Reloading Duration": "3",
+          "Diet": "standard rodent chow diet (Special Diets Services CRM-P)",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12 h light/dark cycle",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM8421727",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J and C57BL/6N",
+          "Animal Source": "generated in-house",
+          "Sex": "Female",
+          "age": "8",
+          "Material Type": "Gastrocnemius"
+        },
+        "factors": {
+          "Genotype": "Control",
+          "Hindlimb Unloading": "Hindlimb Unloaded and Reloaded"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "10",
+          "Hindlimb Reloading Duration": "3",
+          "Diet": "standard rodent chow diet (Special Diets Services CRM-P)",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12 h light/dark cycle",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM8421728",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J and C57BL/6N",
+          "Animal Source": "generated in-house",
+          "Sex": "Female",
+          "age": "8",
+          "Material Type": "Gastrocnemius"
+        },
+        "factors": {
+          "Genotype": "Control",
+          "Hindlimb Unloading": "Hindlimb Unloaded and Reloaded"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "10",
+          "Hindlimb Reloading Duration": "3",
+          "Diet": "standard rodent chow diet (Special Diets Services CRM-P)",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12 h light/dark cycle",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM8421729",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J and C57BL/6N",
+          "Animal Source": "generated in-house",
+          "Sex": "Female",
+          "age": "8",
+          "Material Type": "Gastrocnemius"
+        },
+        "factors": {
+          "Genotype": "Zfp697 mKO",
+          "Hindlimb Unloading": "Hindlimb Unloaded and Reloaded"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "10",
+          "Hindlimb Reloading Duration": "3",
+          "Diet": "standard rodent chow diet (Special Diets Services CRM-P)",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12 h light/dark cycle",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM8421730",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J and C57BL/6N",
+          "Animal Source": "generated in-house",
+          "Sex": "Female",
+          "age": "8",
+          "Material Type": "Gastrocnemius"
+        },
+        "factors": {
+          "Genotype": "Zfp697 mKO",
+          "Hindlimb Unloading": "Hindlimb Unloaded and Reloaded"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "10",
+          "Hindlimb Reloading Duration": "3",
+          "Diet": "standard rodent chow diet (Special Diets Services CRM-P)",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12 h light/dark cycle",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM8421731",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J and C57BL/6N",
+          "Animal Source": "generated in-house",
+          "Sex": "Female",
+          "age": "8",
+          "Material Type": "Gastrocnemius"
+        },
+        "factors": {
+          "Genotype": "Zfp697 mKO",
+          "Hindlimb Unloading": "Hindlimb Unloaded and Reloaded"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "10",
+          "Hindlimb Reloading Duration": "3",
+          "Diet": "standard rodent chow diet (Special Diets Services CRM-P)",
+          "Feeding Schedule": "ad libitum",
+          "light cycle": "12 h light/dark cycle",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina NovaSeq 6000",
+      "qc": {
+        "QA Instrument": "Agilent Bioanalyzer",
+        "QA Score": "greater than 8",
+        "Read Depth": "31517362",
+        "rRNA Contamination": "2.42"
+      },
+      "library": {
+        "Library Selection": "polyA enrichment",
+        "Library Layout": "PAIRED",
+        "Stranded": "STRANDED",
+        "Library Kit": "Illumina Stranded mRNA Prep"
+      },
+      "files": {
+        "raw": [
+          "GLDS-724_rna-seq_GSM8421714_R1_raw.fastq.gz",
+          "GLDS-724_rna-seq_GSM8421714_R2_raw.fastq.gz",
+          "GLDS-724_rna-seq_GSM8421715_R1_raw.fastq.gz",
+          "GLDS-724_rna-seq_GSM8421715_R2_raw.fastq.gz",
+          "GLDS-724_rna-seq_GSM8421716_R2_raw.fastq.gz",
+          "GLDS-724_rna-seq_GSM8421716_R1_raw.fastq.gz",
+          "GLDS-724_rna-seq_GSM8421717_R1_raw.fastq.gz",
+          "GLDS-724_rna-seq_GSM8421717_R2_raw.fastq.gz",
+          "GLDS-724_rna-seq_GSM8421718_R1_raw.fastq.gz",
+          "GLDS-724_rna-seq_GSM8421718_R2_raw.fastq.gz",
+          "GLDS-724_rna-seq_GSM8421719_R1_raw.fastq.gz",
+          "GLDS-724_rna-seq_GSM8421719_R2_raw.fastq.gz",
+          "GLDS-724_rna-seq_GSM8421720_R1_raw.fastq.gz",
+          "GLDS-724_rna-seq_GSM8421720_R2_raw.fastq.gz",
+          "GLDS-724_rna-seq_GSM8421721_R1_raw.fastq.gz",
+          "GLDS-724_rna-seq_GSM8421721_R2_raw.fastq.gz",
+          "GLDS-724_rna-seq_GSM8421722_R1_raw.fastq.gz",
+          "GLDS-724_rna-seq_GSM8421722_R2_raw.fastq.gz",
+          "GLDS-724_rna-seq_GSM8421723_R1_raw.fastq.gz",
+          "GLDS-724_rna-seq_GSM8421723_R2_raw.fastq.gz",
+          "GLDS-724_rna-seq_GSM8421724_R1_raw.fastq.gz",
+          "GLDS-724_rna-seq_GSM8421724_R2_raw.fastq.gz",
+          "GLDS-724_rna-seq_GSM8421725_R1_raw.fastq.gz",
+          "GLDS-724_rna-seq_GSM8421725_R2_raw.fastq.gz",
+          "GLDS-724_rna-seq_GSM8421726_R1_raw.fastq.gz",
+          "GLDS-724_rna-seq_GSM8421726_R2_raw.fastq.gz",
+          "GLDS-724_rna-seq_GSM8421727_R1_raw.fastq.gz",
+          "GLDS-724_rna-seq_GSM8421727_R2_raw.fastq.gz",
+          "GLDS-724_rna-seq_GSM8421728_R1_raw.fastq.gz",
+          "GLDS-724_rna-seq_GSM8421728_R2_raw.fastq.gz",
+          "GLDS-724_rna-seq_GSM8421729_R1_raw.fastq.gz",
+          "GLDS-724_rna-seq_GSM8421729_R2_raw.fastq.gz",
+          "GLDS-724_rna-seq_GSM8421730_R1_raw.fastq.gz",
+          "GLDS-724_rna-seq_GSM8421730_R2_raw.fastq.gz",
+          "GLDS-724_rna-seq_GSM8421731_R2_raw.fastq.gz",
+          "GLDS-724_rna-seq_GSM8421731_R1_raw.fastq.gz"
+        ],
+        "processed": [
+          "GSM8421714",
+          "GeneLab raw data processing protocol",
+          "Agilent Bioanalyzer",
+          "greater than 8",
+          "percent",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000187",
+          "polyA enrichment",
+          "PAIRED",
+          "STRANDED",
+          "Illumina Stranded mRNA Prep",
+          "Illumina NovaSeq 6000",
+          "bcl2fastq",
+          "100",
+          "rna-seq",
+          "31517362",
+          "2.42",
+          "GSM8421715",
+          "29840357",
+          "0.5",
+          "GSM8421716",
+          "29151118",
+          "0.72",
+          "GSM8421717",
+          "30825729",
+          "2.89",
+          "GSM8421718",
+          "32735358",
+          "0.46",
+          "GSM8421719",
+          "31050720",
+          "0.64",
+          "GSM8421720",
+          "30999685",
+          "2.94",
+          "GSM8421721",
+          "30414361",
+          "0.53",
+          "GSM8421722",
+          "31980499",
+          "0.39",
+          "GSM8421723",
+          "29734661",
+          "2.78",
+          "GSM8421724",
+          "29007475",
+          "0.35",
+          "GSM8421725",
+          "31299738",
+          "0.54",
+          "GSM8421726",
+          "28971421",
+          "GSM8421727",
+          "30816996",
+          "0.36",
+          "GSM8421728",
+          "30844285",
+          "0.45",
+          "GSM8421729",
+          "29329854",
+          "2.12",
+          "GSM8421730",
+          "31677826",
+          "0.69",
+          "GSM8421731",
+          "32442075",
+          "0.47"
+        ],
+        "reports": [
+          "GLDS-724_rna_seq_raw_multiqc_GLbulkRNAseq_report.zip"
+        ]
+      }
+    }
+  ]
+}

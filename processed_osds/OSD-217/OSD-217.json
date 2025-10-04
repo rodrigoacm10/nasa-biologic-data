@@ -1,0 +1,1272 @@
+{
+  "investigation": {
+    "id": "OSD-217",
+    "title": "Characterization of Epigenetic Regulation in an Extraterrestrial Environment: The Arabidopsis Spaceflight Methylome",
+    "description": "When germinated and grown on-board the ISS (International Space Station), plant do not exhibit abnormal structures but they do have altered growth habits and this project aims to investigate the molecular mechanisms that provide the foundation for the altered growth habits observed in orbit. APEX03-2 (Advanced Plant Experiment 03-2), also known as TAGES-ISA (Transgenic Arabidopsis Gene Expression System-Intracellular Signaling Architecture) specifically addresses the growth and molecular changes that occur in Arabidopsis thaliana plants during spaceflight by using molecular and genetic tools, and by asking fundamental questions regarding root structure, growth and cell wall remodeling may be answered.",
+    "mission": {
+      "name": "SpaceX-5",
+      "start_date": "10-Jan-2015",
+      "end_date": "11-Feb-2015",
+      "link": "https://lsda.jsc.nasa.gov/Mission/miss/1370"
+    },
+    "project": {
+      "identifier": "",
+      "title": "Molecular Biology of Growth and Cell Remodeling within the Spaceflight Environment",
+      "type": "Spaceflight Study",
+      "link": "https://lsda.jsc.nasa.gov/Experiment/exper/13840",
+      "funding": "This work was funded by grants NNX12AN69G and NNX14AT24G to RF and AP from NASA Space Life and Physical Sciences, managed through Kennedy Space Center.",
+      "managing_center": "Kennedy Space Center (KSC)"
+    },
+    "protocols": [
+      "Bisulfite-Seq library construction",
+      "Bisulfite-Seq nucleic acid extraction",
+      "Bisulfite-Seq nucleic acid sequencing",
+      "Bisulfite-Seq sequence analysis data transformation",
+      "growth protocol",
+      "treatment protocol",
+      "sample collection protocol",
+      "RNA-Seq nucleic acid extraction",
+      "RNA-Seq library construction",
+      "RNA-Seq nucleic acid sequencing",
+      "Sequence Analysis Data Transformation",
+      "GeneLab RNAseq data processing protocol"
+    ],
+    "publications": [
+      {
+        "title": "Epigenomics in an extraterrestrial environment: organ-specific alteration of DNA methylation and gene expression elicited by spaceflight in Arabidopsis thaliana.",
+        "doi": "10.1186/s12864-019-5554-z",
+        "authors": [
+          "Zhou M",
+          "Sng NJ",
+          "LeFrois CE",
+          "Paul AL",
+          "Ferl RJ."
+        ],
+        "summary": "Epigenomics in an extraterrestrial environment: organ-specific alteration of DNA methylation and gene expression elicited by spaceflight in Arabidopsis thaliana. — 10.1186/s12864-019-5554-z"
+      }
+    ],
+    "factors": [
+      "Spaceflight",
+      "Organism Part"
+    ],
+    "contacts": [
+      {
+        "first_name": "Robert",
+        "last_name": "Ferl",
+        "role": "principal investigator",
+        "email": "ferllabuf@gmail.com"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "GSM2517002",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Wassilewskija ecotype",
+          "Material Type": "root"
+        },
+        "factors": {
+          "Organism Part": "root",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "light source": "light-emitting diode",
+          "Light intensity": "100-135",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "growth environment": "ISSES",
+          "growth time": "11",
+          "Age at harvest": "11",
+          "Sample preservation method": "RNAlater",
+          "Sample storage temperature": "-80"
+        },
+        "comments": {
+          "Seed source": "ABRC stock CS915 (www.arabidopsis.org)",
+          "Sample name notes": "Ground Control, Root Rep. 1 [BS]",
+          "Original Submitted Sample Name": ""
+        }
+      },
+      {
+        "sample_name": "GSM2517003",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Wassilewskija ecotype",
+          "Material Type": "root"
+        },
+        "factors": {
+          "Organism Part": "root",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "light source": "light-emitting diode",
+          "Light intensity": "100-135",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "growth environment": "ISSES",
+          "growth time": "11",
+          "Age at harvest": "11",
+          "Sample preservation method": "RNAlater",
+          "Sample storage temperature": "-80"
+        },
+        "comments": {
+          "Seed source": "ABRC stock CS915 (www.arabidopsis.org)",
+          "Sample name notes": "Ground Control, Root Rep. 2 [BS]",
+          "Original Submitted Sample Name": ""
+        }
+      },
+      {
+        "sample_name": "GSM2517004",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Wassilewskija ecotype",
+          "Material Type": "root"
+        },
+        "factors": {
+          "Organism Part": "root",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "light source": "light-emitting diode",
+          "Light intensity": "100-135",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "growth environment": "ISSES",
+          "growth time": "11",
+          "Age at harvest": "11",
+          "Sample preservation method": "RNAlater",
+          "Sample storage temperature": "-80"
+        },
+        "comments": {
+          "Seed source": "ABRC stock CS915 (www.arabidopsis.org)",
+          "Sample name notes": "Ground Control, Root Rep. 3 [BS]",
+          "Original Submitted Sample Name": ""
+        }
+      },
+      {
+        "sample_name": "GSM2517005",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Wassilewskija ecotype",
+          "Material Type": "root"
+        },
+        "factors": {
+          "Organism Part": "root",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "light source": "light-emitting diode",
+          "Light intensity": "100-135",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "growth environment": "ISS",
+          "growth time": "11",
+          "Age at harvest": "11",
+          "Sample preservation method": "RNAlater",
+          "Sample storage temperature": "-80"
+        },
+        "comments": {
+          "Seed source": "ABRC stock CS915 (www.arabidopsis.org)",
+          "Sample name notes": "Spaceflight, Root Rep. 1 [BS]",
+          "Original Submitted Sample Name": ""
+        }
+      },
+      {
+        "sample_name": "GSM2517006",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Wassilewskija ecotype",
+          "Material Type": "root"
+        },
+        "factors": {
+          "Organism Part": "root",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "light source": "light-emitting diode",
+          "Light intensity": "100-135",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "growth environment": "ISS",
+          "growth time": "11",
+          "Age at harvest": "11",
+          "Sample preservation method": "RNAlater",
+          "Sample storage temperature": "-80"
+        },
+        "comments": {
+          "Seed source": "ABRC stock CS915 (www.arabidopsis.org)",
+          "Sample name notes": "Spaceflight, Root Rep. 2 [BS]",
+          "Original Submitted Sample Name": ""
+        }
+      },
+      {
+        "sample_name": "GSM2517007",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Wassilewskija ecotype",
+          "Material Type": "root"
+        },
+        "factors": {
+          "Organism Part": "root",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "light source": "light-emitting diode",
+          "Light intensity": "100-135",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "growth environment": "ISS",
+          "growth time": "11",
+          "Age at harvest": "11",
+          "Sample preservation method": "RNAlater",
+          "Sample storage temperature": "-80"
+        },
+        "comments": {
+          "Seed source": "ABRC stock CS915 (www.arabidopsis.org)",
+          "Sample name notes": "Spaceflight, Root Rep. 3 [BS]",
+          "Original Submitted Sample Name": ""
+        }
+      },
+      {
+        "sample_name": "GSM2517008",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Wassilewskija ecotype",
+          "Material Type": "leaf"
+        },
+        "factors": {
+          "Organism Part": "leaf",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "light source": "light-emitting diode",
+          "Light intensity": "100-135",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "growth environment": "ISSES",
+          "growth time": "11",
+          "Age at harvest": "11",
+          "Sample preservation method": "RNAlater",
+          "Sample storage temperature": "-80"
+        },
+        "comments": {
+          "Seed source": "ABRC stock CS915 (www.arabidopsis.org)",
+          "Sample name notes": "Ground Control, Leaf Rep. 1 [BS]",
+          "Original Submitted Sample Name": ""
+        }
+      },
+      {
+        "sample_name": "GSM2517009",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Wassilewskija ecotype",
+          "Material Type": "leaf"
+        },
+        "factors": {
+          "Organism Part": "leaf",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "light source": "light-emitting diode",
+          "Light intensity": "100-135",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "growth environment": "ISSES",
+          "growth time": "11",
+          "Age at harvest": "11",
+          "Sample preservation method": "RNAlater",
+          "Sample storage temperature": "-80"
+        },
+        "comments": {
+          "Seed source": "ABRC stock CS915 (www.arabidopsis.org)",
+          "Sample name notes": "Ground Control, Leaf Rep. 2 [BS]",
+          "Original Submitted Sample Name": ""
+        }
+      },
+      {
+        "sample_name": "GSM2517010",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Wassilewskija ecotype",
+          "Material Type": "leaf"
+        },
+        "factors": {
+          "Organism Part": "leaf",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "light source": "light-emitting diode",
+          "Light intensity": "100-135",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "growth environment": "ISSES",
+          "growth time": "11",
+          "Age at harvest": "11",
+          "Sample preservation method": "RNAlater",
+          "Sample storage temperature": "-80"
+        },
+        "comments": {
+          "Seed source": "ABRC stock CS915 (www.arabidopsis.org)",
+          "Sample name notes": "Ground Control, Leaf Rep. 3 [BS]",
+          "Original Submitted Sample Name": ""
+        }
+      },
+      {
+        "sample_name": "GSM2517011",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Wassilewskija ecotype",
+          "Material Type": "leaf"
+        },
+        "factors": {
+          "Organism Part": "leaf",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "light source": "light-emitting diode",
+          "Light intensity": "100-135",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "growth environment": "ISS",
+          "growth time": "11",
+          "Age at harvest": "11",
+          "Sample preservation method": "RNAlater",
+          "Sample storage temperature": "-80"
+        },
+        "comments": {
+          "Seed source": "ABRC stock CS915 (www.arabidopsis.org)",
+          "Sample name notes": "Spaceflight, Leaf Rep. 1 [BS]",
+          "Original Submitted Sample Name": ""
+        }
+      },
+      {
+        "sample_name": "GSM2517012",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Wassilewskija ecotype",
+          "Material Type": "leaf"
+        },
+        "factors": {
+          "Organism Part": "leaf",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "light source": "light-emitting diode",
+          "Light intensity": "100-135",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "growth environment": "ISS",
+          "growth time": "11",
+          "Age at harvest": "11",
+          "Sample preservation method": "RNAlater",
+          "Sample storage temperature": "-80"
+        },
+        "comments": {
+          "Seed source": "ABRC stock CS915 (www.arabidopsis.org)",
+          "Sample name notes": "Spaceflight, Leaf Rep. 2 [BS]",
+          "Original Submitted Sample Name": ""
+        }
+      },
+      {
+        "sample_name": "GSM2517013",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Wassilewskija ecotype",
+          "Material Type": "leaf"
+        },
+        "factors": {
+          "Organism Part": "leaf",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "light source": "light-emitting diode",
+          "Light intensity": "100-135",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "growth environment": "ISS",
+          "growth time": "11",
+          "Age at harvest": "11",
+          "Sample preservation method": "RNAlater",
+          "Sample storage temperature": "-80"
+        },
+        "comments": {
+          "Seed source": "ABRC stock CS915 (www.arabidopsis.org)",
+          "Sample name notes": "Spaceflight, Leaf Rep. 3 [BS]",
+          "Original Submitted Sample Name": ""
+        }
+      },
+      {
+        "sample_name": "Atha_Ws_root_GC_Rep1",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Wassilewskija ecotype",
+          "Material Type": "root"
+        },
+        "factors": {
+          "Organism Part": "root",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "light source": "light-emitting diode",
+          "Light intensity": "100-135",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "growth environment": "ISSES",
+          "growth time": "11",
+          "Age at harvest": "11",
+          "Sample preservation method": "RNAlater",
+          "Sample storage temperature": "-80"
+        },
+        "comments": {
+          "Seed source": "ABRC stock CS915 (www.arabidopsis.org)",
+          "Sample name notes": "Ground Control, Root Rep. 1",
+          "Original Submitted Sample Name": "GSM2516794"
+        }
+      },
+      {
+        "sample_name": "Atha_Ws_root_GC_Rep2",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Wassilewskija ecotype",
+          "Material Type": "root"
+        },
+        "factors": {
+          "Organism Part": "root",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "light source": "light-emitting diode",
+          "Light intensity": "100-135",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "growth environment": "ISSES",
+          "growth time": "11",
+          "Age at harvest": "11",
+          "Sample preservation method": "RNAlater",
+          "Sample storage temperature": "-80"
+        },
+        "comments": {
+          "Seed source": "ABRC stock CS915 (www.arabidopsis.org)",
+          "Sample name notes": "Ground Control, Root Rep. 2",
+          "Original Submitted Sample Name": "GSM2516795"
+        }
+      },
+      {
+        "sample_name": "Atha_Ws_root_GC_Rep3",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Wassilewskija ecotype",
+          "Material Type": "root"
+        },
+        "factors": {
+          "Organism Part": "root",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "light source": "light-emitting diode",
+          "Light intensity": "100-135",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "growth environment": "ISSES",
+          "growth time": "11",
+          "Age at harvest": "11",
+          "Sample preservation method": "RNAlater",
+          "Sample storage temperature": "-80"
+        },
+        "comments": {
+          "Seed source": "ABRC stock CS915 (www.arabidopsis.org)",
+          "Sample name notes": "Ground Control, Root Rep. 3",
+          "Original Submitted Sample Name": "GSM2516796"
+        }
+      },
+      {
+        "sample_name": "Atha_Ws_root_FLT_Rep1",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Wassilewskija ecotype",
+          "Material Type": "root"
+        },
+        "factors": {
+          "Organism Part": "root",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "light source": "light-emitting diode",
+          "Light intensity": "100-135",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "growth environment": "ISS",
+          "growth time": "11",
+          "Age at harvest": "11",
+          "Sample preservation method": "RNAlater",
+          "Sample storage temperature": "-80"
+        },
+        "comments": {
+          "Seed source": "ABRC stock CS915 (www.arabidopsis.org)",
+          "Sample name notes": "Spaceflight, Root Rep. 1",
+          "Original Submitted Sample Name": "GSM2516797"
+        }
+      },
+      {
+        "sample_name": "Atha_Ws_root_FLT_Rep2",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Wassilewskija ecotype",
+          "Material Type": "root"
+        },
+        "factors": {
+          "Organism Part": "root",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "light source": "light-emitting diode",
+          "Light intensity": "100-135",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "growth environment": "ISS",
+          "growth time": "11",
+          "Age at harvest": "11",
+          "Sample preservation method": "RNAlater",
+          "Sample storage temperature": "-80"
+        },
+        "comments": {
+          "Seed source": "ABRC stock CS915 (www.arabidopsis.org)",
+          "Sample name notes": "Spaceflight, Root Rep. 2",
+          "Original Submitted Sample Name": "GSM2516798"
+        }
+      },
+      {
+        "sample_name": "Atha_Ws_root_FLT_Rep3",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Wassilewskija ecotype",
+          "Material Type": "root"
+        },
+        "factors": {
+          "Organism Part": "root",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "light source": "light-emitting diode",
+          "Light intensity": "100-135",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "growth environment": "ISS",
+          "growth time": "11",
+          "Age at harvest": "11",
+          "Sample preservation method": "RNAlater",
+          "Sample storage temperature": "-80"
+        },
+        "comments": {
+          "Seed source": "ABRC stock CS915 (www.arabidopsis.org)",
+          "Sample name notes": "Spaceflight, Root Rep. 3",
+          "Original Submitted Sample Name": "GSM2516799"
+        }
+      },
+      {
+        "sample_name": "Atha_Ws_leaf_GC_Rep1",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Wassilewskija ecotype",
+          "Material Type": "leaf"
+        },
+        "factors": {
+          "Organism Part": "leaf",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "light source": "light-emitting diode",
+          "Light intensity": "100-135",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "growth environment": "ISSES",
+          "growth time": "11",
+          "Age at harvest": "11",
+          "Sample preservation method": "RNAlater",
+          "Sample storage temperature": "-80"
+        },
+        "comments": {
+          "Seed source": "ABRC stock CS915 (www.arabidopsis.org)",
+          "Sample name notes": "Ground Control, Leaf Rep. 1",
+          "Original Submitted Sample Name": "GSM2516800"
+        }
+      },
+      {
+        "sample_name": "Atha_Ws_leaf_GC_Rep2",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Wassilewskija ecotype",
+          "Material Type": "leaf"
+        },
+        "factors": {
+          "Organism Part": "leaf",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "light source": "light-emitting diode",
+          "Light intensity": "100-135",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "growth environment": "ISSES",
+          "growth time": "11",
+          "Age at harvest": "11",
+          "Sample preservation method": "RNAlater",
+          "Sample storage temperature": "-80"
+        },
+        "comments": {
+          "Seed source": "ABRC stock CS915 (www.arabidopsis.org)",
+          "Sample name notes": "Ground Control, Leaf Rep. 2",
+          "Original Submitted Sample Name": "GSM2516801"
+        }
+      },
+      {
+        "sample_name": "Atha_Ws_leaf_GC_Rep3",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Wassilewskija ecotype",
+          "Material Type": "leaf"
+        },
+        "factors": {
+          "Organism Part": "leaf",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "light source": "light-emitting diode",
+          "Light intensity": "100-135",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "growth environment": "ISSES",
+          "growth time": "11",
+          "Age at harvest": "11",
+          "Sample preservation method": "RNAlater",
+          "Sample storage temperature": "-80"
+        },
+        "comments": {
+          "Seed source": "ABRC stock CS915 (www.arabidopsis.org)",
+          "Sample name notes": "Ground Control, Leaf Rep. 3",
+          "Original Submitted Sample Name": "GSM2516802"
+        }
+      },
+      {
+        "sample_name": "Atha_Ws_leaf_FLT_Rep1",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Wassilewskija ecotype",
+          "Material Type": "leaf"
+        },
+        "factors": {
+          "Organism Part": "leaf",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "light source": "light-emitting diode",
+          "Light intensity": "100-135",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "growth environment": "ISS",
+          "growth time": "11",
+          "Age at harvest": "11",
+          "Sample preservation method": "RNAlater",
+          "Sample storage temperature": "-80"
+        },
+        "comments": {
+          "Seed source": "ABRC stock CS915 (www.arabidopsis.org)",
+          "Sample name notes": "Spaceflight, Leaf Rep. 1",
+          "Original Submitted Sample Name": "GSM2516803"
+        }
+      },
+      {
+        "sample_name": "Atha_Ws_leaf_FLT_Rep2",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Wassilewskija ecotype",
+          "Material Type": "leaf"
+        },
+        "factors": {
+          "Organism Part": "leaf",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "light source": "light-emitting diode",
+          "Light intensity": "100-135",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "growth environment": "ISS",
+          "growth time": "11",
+          "Age at harvest": "11",
+          "Sample preservation method": "RNAlater",
+          "Sample storage temperature": "-80"
+        },
+        "comments": {
+          "Seed source": "ABRC stock CS915 (www.arabidopsis.org)",
+          "Sample name notes": "Spaceflight, Leaf Rep. 2",
+          "Original Submitted Sample Name": "GSM2516804"
+        }
+      },
+      {
+        "sample_name": "Atha_Ws_leaf_FLT_Rep3",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Wassilewskija ecotype",
+          "Material Type": "leaf"
+        },
+        "factors": {
+          "Organism Part": "leaf",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "light source": "light-emitting diode",
+          "Light intensity": "100-135",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "growth environment": "ISS",
+          "growth time": "11",
+          "Age at harvest": "11",
+          "Sample preservation method": "RNAlater",
+          "Sample storage temperature": "-80"
+        },
+        "comments": {
+          "Seed source": "ABRC stock CS915 (www.arabidopsis.org)",
+          "Sample name notes": "Spaceflight, Leaf Rep. 3",
+          "Original Submitted Sample Name": "GSM2516805"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "dna-methylation-profiling",
+      "platform": "HiSeq 3000",
+      "qc": {},
+      "library": {},
+      "files": {
+        "raw": [
+          "GLDS-217_wgbs_SRR5310738_1.fastq.gz",
+          "GLDS-217_wgbs_SRR5310738_2.fastq.gz",
+          "GLDS-217_wgbs_SRR5310739_1.fastq.gz",
+          "GLDS-217_wgbs_SRR5310739_2.fastq.gz",
+          "GLDS-217_wgbs_SRR5310740_1.fastq.gz",
+          "GLDS-217_wgbs_SRR5310740_2.fastq.gz",
+          "GLDS-217_wgbs_SRR5310741_1.fastq.gz",
+          "GLDS-217_wgbs_SRR5310741_2.fastq.gz",
+          "GLDS-217_wgbs_SRR5310742_1.fastq.gz",
+          "GLDS-217_wgbs_SRR5310742_2.fastq.gz",
+          "GLDS-217_wgbs_SRR5310743_1.fastq.gz",
+          "GLDS-217_wgbs_SRR5310743_2.fastq.gz",
+          "GLDS-217_wgbs_SRR5310744_1.fastq.gz",
+          "GLDS-217_wgbs_SRR5310744_2.fastq.gz",
+          "GLDS-217_wgbs_SRR5310745_1.fastq.gz",
+          "GLDS-217_wgbs_SRR5310745_2.fastq.gz",
+          "GLDS-217_wgbs_SRR5310746_1.fastq.gz",
+          "GLDS-217_wgbs_SRR5310746_2.fastq.gz",
+          "GLDS-217_wgbs_SRR5310747_1.fastq.gz",
+          "GLDS-217_wgbs_SRR5310747_2.fastq.gz",
+          "GLDS-217_wgbs_SRR5310748_1.fastq.gz",
+          "GLDS-217_wgbs_SRR5310748_2.fastq.gz",
+          "GLDS-217_wgbs_SRR5310749_1.fastq.gz",
+          "GLDS-217_wgbs_SRR5310749_2.fastq.gz",
+          "GLDS-217_wgbs_SRR5310750_1.fastq.gz",
+          "GLDS-217_wgbs_SRR5310750_2.fastq.gz",
+          "GLDS-217_wgbs_SRR5310751_1.fastq.gz",
+          "GLDS-217_wgbs_SRR5310751_2.fastq.gz",
+          "GLDS-217_wgbs_SRR5310752_1.fastq.gz",
+          "GLDS-217_wgbs_SRR5310752_2.fastq.gz",
+          "GLDS-217_wgbs_SRR5310753_1.fastq.gz",
+          "GLDS-217_wgbs_SRR5310753_2.fastq.gz",
+          "GLDS-217_wgbs_SRR5310754_1.fastq.gz",
+          "GLDS-217_wgbs_SRR5310754_2.fastq.gz",
+          "GLDS-217_wgbs_SRR5310755_1.fastq.gz",
+          "GLDS-217_wgbs_SRR5310755_2.fastq.gz",
+          "GLDS-217_wgbs_SRR5310756_1.fastq.gz",
+          "GLDS-217_wgbs_SRR5310756_2.fastq.gz",
+          "GLDS-217_wgbs_SRR5310757_1.fastq.gz",
+          "GLDS-217_wgbs_SRR5310757_2.fastq.gz",
+          "GLDS-217_wgbs_SRR5310758_1.fastq.gz",
+          "GLDS-217_wgbs_SRR5310758_2.fastq.gz",
+          "GLDS-217_wgbs_SRR5310759_1.fastq.gz",
+          "GLDS-217_wgbs_SRR5310759_2.fastq.gz",
+          "GLDS-217_wgbs_SRR5310760_1.fastq.gz",
+          "GLDS-217_wgbs_SRR5310760_2.fastq.gz",
+          "GLDS-217_wgbs_SRR5310761_1.fastq.gz",
+          "GLDS-217_wgbs_SRR5310761_2.fastq.gz",
+          "GLDS-217_wgbs_SRR5310762_1.fastq.gz",
+          "GLDS-217_wgbs_SRR5310762_2.fastq.gz",
+          "GLDS-217_wgbs_SRR5310763_1.fastq.gz",
+          "GLDS-217_wgbs_SRR5310763_2.fastq.gz",
+          "GLDS-217_wgbs_SRR5310764_1.fastq.gz",
+          "GLDS-217_wgbs_SRR5310764_2.fastq.gz",
+          "GLDS-217_wgbs_SRR5310765_1.fastq.gz",
+          "GLDS-217_wgbs_SRR5310765_2.fastq.gz",
+          "GLDS-217_wgbs_SRR5310766_1.fastq.gz",
+          "GLDS-217_wgbs_SRR5310766_2.fastq.gz",
+          "GLDS-217_wgbs_SRR5310767_1.fastq.gz",
+          "GLDS-217_wgbs_SRR5310767_2.fastq.gz",
+          "GLDS-217_wgbs_SRR5310768_1.fastq.gz",
+          "GLDS-217_wgbs_SRR5310768_2.fastq.gz",
+          "GLDS-217_wgbs_SRR5310769_1.fastq.gz",
+          "GLDS-217_wgbs_SRR5310769_2.fastq.gz",
+          "GLDS-217_wgbs_SRR5310770_1.fastq.gz",
+          "GLDS-217_wgbs_SRR5310770_2.fastq.gz",
+          "GLDS-217_wgbs_SRR5310771_1.fastq.gz",
+          "GLDS-217_wgbs_SRR5310771_2.fastq.gz",
+          "GLDS-217_wgbs_SRR5310772_1.fastq.gz",
+          "GLDS-217_wgbs_SRR5310772_2.fastq.gz",
+          "GLDS-217_wgbs_SRR5310773_1.fastq.gz",
+          "GLDS-217_wgbs_SRR5310773_2.fastq.gz"
+        ],
+        "processed": [
+          "GLDS-217_wgbs_GSE95594_ROOTFT-vs-ROOTGC.full_tar.gz",
+          "GLDS-217_wgbs_GSE95594_ROOTFT-vs-ROOTGC_genes01_full_tar.gz",
+          "GLDS-217_wgbs_GSE95594_ROOTFT-vs-ROOTGC_genes02_full_tar.gz",
+          "GLDS-217_wgbs_GSE95594_ROOTFT-vs-ROOTGC_genes03_full_tar.gz",
+          "GLDS-217_wgbs_GSE95594_ROOTFT-vs-ROOTGC_genes04_full_tar.gz",
+          "GLDS-217_wgbs_GSE95594_ROOTFT-vs-ROOTGC_genes05_full_tar.gz",
+          "GLDS-217_wgbs_GSE95594_ROOTGC-winavg_tar.gz",
+          "GLDS-217_wgbs_GSE95594_ROOTFT-winavg_tar.gz",
+          "GLDS-217_wgbs_GSE95594_LEAFFT-vs-LEAFGC.full_tar.gz",
+          "GLDS-217_wgbs_GSE95594_LEAFFT-vs-LEAFGC_genes01_full_tar.gz",
+          "GLDS-217_wgbs_GSE95594_LEAFFT-vs-LEAFGC_genes02_full_tar.gz",
+          "GLDS-217_wgbs_GSE95594_LEAFFT-vs-LEAFGC_genes03_full_tar.gz",
+          "GLDS-217_wgbs_GSE95594_LEAFFT-vs-LEAFGC_genes04_full_tar.gz",
+          "GLDS-217_wgbs_GSE95594_LEAFFT-vs-LEAFGC_genes05_full_tar.gz",
+          "GLDS-217_wgbs_GSE95594_LEAFGC-winavg_tar.gz",
+          "GLDS-217_wgbs_GSE95594_LEAFFT-winavg_tar.gz",
+          "GSM2517002",
+          "Bisulfite-Seq sequence analysis data transformation",
+          "sonication",
+          "400",
+          "base pair",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000244",
+          "Bisulfite-Seq",
+          "unspecified",
+          "PAIRED",
+          "HiSeq 3000",
+          "Bisulfite-seq",
+          "GSM2517003",
+          "GSM2517004",
+          "GSM2517005",
+          "GSM2517006",
+          "GSM2517007",
+          "GSM2517008",
+          "GSM2517009",
+          "GSM2517010",
+          "GSM2517011",
+          "GSM2517012",
+          "GSM2517013"
+        ],
+        "reports": []
+      }
+    },
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina HiSeq3000",
+      "qc": {
+        "QA Instrument": "Agilent 2100 Bioanalyzer",
+        "Read Depth": "44958645",
+        "rRNA Contamination": "1.26"
+      },
+      "library": {},
+      "files": {
+        "raw": [
+          "\"GLDS-217_rna-seq_SRR5305986_1.fastq.gz",
+          "GLDS-217_rna-seq_SRR5305986_2.fastq.gz",
+          "GLDS-217_rna-seq_SRR5305987_1.fastq.gz",
+          "GLDS-217_rna-seq_SRR5305987_2.fastq.gz",
+          "GLDS-217_rna-seq_SRR5305988_1.fastq.gz",
+          "GLDS-217_rna-seq_SRR5305988_2.fastq.gz\"",
+          "\"GLDS-217_rna-seq_SRR5305989_1.fastq.gz",
+          "GLDS-217_rna-seq_SRR5305989_2.fastq.gz",
+          "GLDS-217_rna-seq_SRR5305990_1.fastq.gz",
+          "GLDS-217_rna-seq_SRR5305990_2.fastq.gz",
+          "GLDS-217_rna-seq_SRR5305991_1.fastq.gz",
+          "GLDS-217_rna-seq_SRR5305991_2.fastq.gz\"",
+          "\"GLDS-217_rna-seq_SRR5305992_1.fastq.gz",
+          "GLDS-217_rna-seq_SRR5305992_2.fastq.gz",
+          "GLDS-217_rna-seq_SRR5305993_1.fastq.gz",
+          "GLDS-217_rna-seq_SRR5305993_2.fastq.gz",
+          "GLDS-217_rna-seq_SRR5305994_1.fastq.gz",
+          "GLDS-217_rna-seq_SRR5305994_2.fastq.gz\"",
+          "\"GLDS-217_rna-seq_SRR5305995_1.fastq.gz",
+          "GLDS-217_rna-seq_SRR5305995_2.fastq.gz",
+          "GLDS-217_rna-seq_SRR5305996_1.fastq.gz",
+          "GLDS-217_rna-seq_SRR5305996_2.fastq.gz",
+          "GLDS-217_rna-seq_SRR5305997_1.fastq.gz",
+          "GLDS-217_rna-seq_SRR5305997_2.fastq.gz\"",
+          "\"GLDS-217_rna-seq_SRR5305998_1.fastq.gz",
+          "GLDS-217_rna-seq_SRR5305998_2.fastq.gz",
+          "GLDS-217_rna-seq_SRR5305999_1.fastq.gz",
+          "GLDS-217_rna-seq_SRR5305999_2.fastq.gz",
+          "GLDS-217_rna-seq_SRR5306000_1.fastq.gz",
+          "GLDS-217_rna-seq_SRR5306000_2.fastq.gz\"",
+          "\"GLDS-217_rna-seq_SRR5306001_1.fastq.gz",
+          "GLDS-217_rna-seq_SRR5306001_2.fastq.gz",
+          "GLDS-217_rna-seq_SRR5306002_1.fastq.gz",
+          "GLDS-217_rna-seq_SRR5306002_2.fastq.gz",
+          "GLDS-217_rna-seq_SRR5306003_1.fastq.gz",
+          "GLDS-217_rna-seq_SRR5306003_2.fastq.gz\"",
+          "\"GLDS-217_rna-seq_SRR5306004_1.fastq.gz",
+          "GLDS-217_rna-seq_SRR5306004_2.fastq.gz",
+          "GLDS-217_rna-seq_SRR5306005_1.fastq.gz",
+          "GLDS-217_rna-seq_SRR5306005_2.fastq.gz",
+          "GLDS-217_rna-seq_SRR5306006_1.fastq.gz",
+          "GLDS-217_rna-seq_SRR5306006_2.fastq.gz\"",
+          "\"GLDS-217_rna-seq_SRR5306007_1.fastq.gz",
+          "GLDS-217_rna-seq_SRR5306007_2.fastq.gz",
+          "GLDS-217_rna-seq_SRR5306008_1.fastq.gz",
+          "GLDS-217_rna-seq_SRR5306008_2.fastq.gz",
+          "GLDS-217_rna-seq_SRR5306009_1.fastq.gz",
+          "GLDS-217_rna-seq_SRR5306009_2.fastq.gz\"",
+          "\"GLDS-217_rna-seq_SRR5306010_1.fastq.gz",
+          "GLDS-217_rna-seq_SRR5306010_2.fastq.gz",
+          "GLDS-217_rna-seq_SRR5306011_1.fastq.gz",
+          "GLDS-217_rna-seq_SRR5306011_2.fastq.gz",
+          "GLDS-217_rna-seq_SRR5306012_1.fastq.gz",
+          "GLDS-217_rna-seq_SRR5306012_2.fastq.gz\"",
+          "\"GLDS-217_rna-seq_SRR5306013_1.fastq.gz",
+          "GLDS-217_rna-seq_SRR5306013_2.fastq.gz",
+          "GLDS-217_rna-seq_SRR5306014_1.fastq.gz",
+          "GLDS-217_rna-seq_SRR5306014_2.fastq.gz",
+          "GLDS-217_rna-seq_SRR5306015_1.fastq.gz",
+          "GLDS-217_rna-seq_SRR5306015_2.fastq.gz\"",
+          "\"GLDS-217_rna-seq_SRR5306016_1.fastq.gz",
+          "GLDS-217_rna-seq_SRR5306016_2.fastq.gz",
+          "GLDS-217_rna-seq_SRR5306017_1.fastq.gz",
+          "GLDS-217_rna-seq_SRR5306017_2.fastq.gz",
+          "GLDS-217_rna-seq_SRR5306018_1.fastq.gz",
+          "GLDS-217_rna-seq_SRR5306018_2.fastq.gz\"",
+          "\"GLDS-217_rna-seq_SRR5306019_1.fastq.gz",
+          "GLDS-217_rna-seq_SRR5306019_2.fastq.gz",
+          "GLDS-217_rna-seq_SRR5306020_1.fastq.gz",
+          "GLDS-217_rna-seq_SRR5306020_2.fastq.gz",
+          "GLDS-217_rna-seq_SRR5306021_1.fastq.gz",
+          "GLDS-217_rna-seq_SRR5306021_2.fastq.gz\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_GC_Rep1_GSM2516794_R1_raw.fastq.gz",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_GC_Rep1_GSM2516794_R1_trimmed.fastq.gz",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_GC_Rep2_GSM2516795_R1_raw.fastq.gz",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_GC_Rep2_GSM2516795_R1_trimmed.fastq.gz",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_GC_Rep3_GSM2516796_R1_raw.fastq.gz",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_GC_Rep3_GSM2516796_R1_trimmed.fastq.gz",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep1_GSM2516797_R1_raw.fastq.gz",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep1_GSM2516797_R1_trimmed.fastq.gz",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep2_GSM2516798_R1_raw.fastq.gz",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep2_GSM2516798_R1_trimmed.fastq.gz",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep3_GSM2516799_R1_raw.fastq.gz",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep3_GSM2516799_R1_trimmed.fastq.gz",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep1_GSM2516800_R1_raw.fastq.gz",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep1_GSM2516800_R1_trimmed.fastq.gz",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep2_GSM2516801_R1_raw.fastq.gz",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep2_GSM2516801_R1_trimmed.fastq.gz",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep3_GSM2516802_R1_raw.fastq.gz",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep3_GSM2516802_R1_trimmed.fastq.gz",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep1_GSM2516803_R1_raw.fastq.gz",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep1_GSM2516803_R1_trimmed.fastq.gz",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep2_GSM2516804_R1_raw.fastq.gz",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep2_GSM2516804_R1_trimmed.fastq.gz",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep3_GSM2516805_R1_raw.fastq.gz",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep3_GSM2516805_R1_trimmed.fastq.gz"
+        ],
+        "processed": [
+          "GLDS-217_rna-seq_GSE95586_ROOTFT.vs.ROOTGC_diff_exp.xlsx",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_GC_Rep1_GSM2516794_R1_raw.fastq.gz",
+          "GLDS-217_rna_seq_Atha_Ws_root_GC_Rep1_GSM2516794_R2_raw.fastq.gz\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_GC_Rep1_GSM2516794_R1_trimmed.fastq.gz",
+          "GLDS-217_rna_seq_Atha_Ws_root_GC_Rep1_GSM2516794_R2_trimmed.fastq.gz\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_GC_Rep1_GSM2516794_Aligned.sortedByCoord.out.bam",
+          "GLDS-217_rna_seq_Atha_Ws_root_GC_Rep1_GSM2516794_Aligned.toTranscriptome.out.bam",
+          "GLDS-217_rna_seq_Atha_Ws_root_GC_Rep1_GSM2516794_SJ.out.tab\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_GC_Rep1_GSM2516794.genes.results",
+          "GLDS-217_rna_seq_Atha_Ws_root_GC_Rep1_GSM2516794.isoforms.results",
+          "GLDS-217_rna_seq_Unnormalized_Counts.csv\"",
+          "GLDS-217_rna_seq_Normalized_Counts.csv",
+          "\"GLDS-217_rna_seq_contrasts.csv",
+          "GLDS-217_rna_seq_differential_expression.csv",
+          "GLDS-217_rna_seq_SampleTable.csv\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_GC_Rep2_GSM2516795_R1_raw.fastq.gz",
+          "GLDS-217_rna_seq_Atha_Ws_root_GC_Rep2_GSM2516795_R2_raw.fastq.gz\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_GC_Rep2_GSM2516795_R1_trimmed.fastq.gz",
+          "GLDS-217_rna_seq_Atha_Ws_root_GC_Rep2_GSM2516795_R2_trimmed.fastq.gz\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_GC_Rep2_GSM2516795_Aligned.sortedByCoord.out.bam",
+          "GLDS-217_rna_seq_Atha_Ws_root_GC_Rep2_GSM2516795_Aligned.toTranscriptome.out.bam",
+          "GLDS-217_rna_seq_Atha_Ws_root_GC_Rep2_GSM2516795_SJ.out.tab\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_GC_Rep2_GSM2516795.genes.results",
+          "GLDS-217_rna_seq_Atha_Ws_root_GC_Rep2_GSM2516795.isoforms.results",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_GC_Rep3_GSM2516796_R1_raw.fastq.gz",
+          "GLDS-217_rna_seq_Atha_Ws_root_GC_Rep3_GSM2516796_R2_raw.fastq.gz\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_GC_Rep3_GSM2516796_R1_trimmed.fastq.gz",
+          "GLDS-217_rna_seq_Atha_Ws_root_GC_Rep3_GSM2516796_R2_trimmed.fastq.gz\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_GC_Rep3_GSM2516796_Aligned.sortedByCoord.out.bam",
+          "GLDS-217_rna_seq_Atha_Ws_root_GC_Rep3_GSM2516796_Aligned.toTranscriptome.out.bam",
+          "GLDS-217_rna_seq_Atha_Ws_root_GC_Rep3_GSM2516796_SJ.out.tab\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_GC_Rep3_GSM2516796.genes.results",
+          "GLDS-217_rna_seq_Atha_Ws_root_GC_Rep3_GSM2516796.isoforms.results",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep1_GSM2516797_R1_raw.fastq.gz",
+          "GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep1_GSM2516797_R2_raw.fastq.gz\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep1_GSM2516797_R1_trimmed.fastq.gz",
+          "GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep1_GSM2516797_R2_trimmed.fastq.gz\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep1_GSM2516797_Aligned.sortedByCoord.out.bam",
+          "GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep1_GSM2516797_Aligned.toTranscriptome.out.bam",
+          "GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep1_GSM2516797_SJ.out.tab\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep1_GSM2516797.genes.results",
+          "GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep1_GSM2516797.isoforms.results",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep2_GSM2516798_R1_raw.fastq.gz",
+          "GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep2_GSM2516798_R2_raw.fastq.gz\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep2_GSM2516798_R1_trimmed.fastq.gz",
+          "GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep2_GSM2516798_R2_trimmed.fastq.gz\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep2_GSM2516798_Aligned.sortedByCoord.out.bam",
+          "GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep2_GSM2516798_Aligned.toTranscriptome.out.bam",
+          "GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep2_GSM2516798_SJ.out.tab\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep2_GSM2516798.genes.results",
+          "GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep2_GSM2516798.isoforms.results",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep3_GSM2516799_R1_raw.fastq.gz",
+          "GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep3_GSM2516799_R2_raw.fastq.gz\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep3_GSM2516799_R1_trimmed.fastq.gz",
+          "GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep3_GSM2516799_R2_trimmed.fastq.gz\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep3_GSM2516799_Aligned.sortedByCoord.out.bam",
+          "GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep3_GSM2516799_Aligned.toTranscriptome.out.bam",
+          "GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep3_GSM2516799_SJ.out.tab\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep3_GSM2516799.genes.results",
+          "GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep3_GSM2516799.isoforms.results",
+          "GLDS-217_rna-seq_GSE95586_LEAFFT.vs.LEAFGC_diff_exp.xlsx",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep1_GSM2516800_R1_raw.fastq.gz",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep1_GSM2516800_R2_raw.fastq.gz\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep1_GSM2516800_R1_trimmed.fastq.gz",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep1_GSM2516800_R2_trimmed.fastq.gz\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep1_GSM2516800_Aligned.sortedByCoord.out.bam",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep1_GSM2516800_Aligned.toTranscriptome.out.bam",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep1_GSM2516800_SJ.out.tab\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep1_GSM2516800.genes.results",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep1_GSM2516800.isoforms.results",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep2_GSM2516801_R1_raw.fastq.gz",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep2_GSM2516801_R2_raw.fastq.gz\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep2_GSM2516801_R1_trimmed.fastq.gz",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep2_GSM2516801_R2_trimmed.fastq.gz\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep2_GSM2516801_Aligned.sortedByCoord.out.bam",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep2_GSM2516801_Aligned.toTranscriptome.out.bam",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep2_GSM2516801_SJ.out.tab\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep2_GSM2516801.genes.results",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep2_GSM2516801.isoforms.results",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep3_GSM2516802_R1_raw.fastq.gz",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep3_GSM2516802_R2_raw.fastq.gz\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep3_GSM2516802_R1_trimmed.fastq.gz",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep3_GSM2516802_R2_trimmed.fastq.gz\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep3_GSM2516802_Aligned.sortedByCoord.out.bam",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep3_GSM2516802_Aligned.toTranscriptome.out.bam",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep3_GSM2516802_SJ.out.tab\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep3_GSM2516802.genes.results",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep3_GSM2516802.isoforms.results",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep1_GSM2516803_R1_raw.fastq.gz",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep1_GSM2516803_R2_raw.fastq.gz\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep1_GSM2516803_R1_trimmed.fastq.gz",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep1_GSM2516803_R2_trimmed.fastq.gz\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep1_GSM2516803_Aligned.sortedByCoord.out.bam",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep1_GSM2516803_Aligned.toTranscriptome.out.bam",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep1_GSM2516803_SJ.out.tab\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep1_GSM2516803.genes.results",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep1_GSM2516803.isoforms.results",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep2_GSM2516804_R1_raw.fastq.gz",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep2_GSM2516804_R2_raw.fastq.gz\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep2_GSM2516804_R1_trimmed.fastq.gz",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep2_GSM2516804_R2_trimmed.fastq.gz\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep2_GSM2516804_Aligned.sortedByCoord.out.bam",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep2_GSM2516804_Aligned.toTranscriptome.out.bam",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep2_GSM2516804_SJ.out.tab\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep2_GSM2516804.genes.results",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep2_GSM2516804.isoforms.results",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep3_GSM2516805_R1_raw.fastq.gz",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep3_GSM2516805_R2_raw.fastq.gz\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep3_GSM2516805_R1_trimmed.fastq.gz",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep3_GSM2516805_R2_trimmed.fastq.gz\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep3_GSM2516805_Aligned.sortedByCoord.out.bam",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep3_GSM2516805_Aligned.toTranscriptome.out.bam",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep3_GSM2516805_SJ.out.tab\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep3_GSM2516805.genes.results",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep3_GSM2516805.isoforms.results",
+          "Atha_Ws_root_GC_Rep1",
+          "GeneLab RNAseq data processing protocol",
+          "Agilent 2100 Bioanalyzer",
+          "GSM2516794",
+          "cDNA",
+          "PAIRED",
+          "Illumina HiSeq3000",
+          "RNA-seq",
+          "GLDS-217_rna-seq_SRR5305988_2.fastq.gz\"",
+          "1.26",
+          "read",
+          "44958645",
+          "Atha_Ws_root_GC_Rep2",
+          "GSM2516795",
+          "GLDS-217_rna-seq_SRR5305991_2.fastq.gz\"",
+          "1.57",
+          "43713211",
+          "Atha_Ws_root_GC_Rep3",
+          "GSM2516796",
+          "GLDS-217_rna-seq_SRR5305994_2.fastq.gz\"",
+          "2.7",
+          "48581923",
+          "Atha_Ws_root_FLT_Rep1",
+          "GSM2516797",
+          "GLDS-217_rna-seq_SRR5305997_2.fastq.gz\"",
+          "0.97",
+          "52012574",
+          "Atha_Ws_root_FLT_Rep2",
+          "GSM2516798",
+          "GLDS-217_rna-seq_SRR5306000_2.fastq.gz\"",
+          "0.9",
+          "47971250",
+          "Atha_Ws_root_FLT_Rep3",
+          "GSM2516799",
+          "GLDS-217_rna-seq_SRR5306003_2.fastq.gz\"",
+          "0.82",
+          "50736418",
+          "Atha_Ws_leaf_GC_Rep1",
+          "GSM2516800",
+          "GLDS-217_rna-seq_SRR5306006_2.fastq.gz\"",
+          "1.91",
+          "43053176",
+          "Atha_Ws_leaf_GC_Rep2",
+          "GSM2516801",
+          "GLDS-217_rna-seq_SRR5306009_2.fastq.gz\"",
+          "1.11",
+          "44632850",
+          "Atha_Ws_leaf_GC_Rep3",
+          "GSM2516802",
+          "GLDS-217_rna-seq_SRR5306012_2.fastq.gz\"",
+          "0.93",
+          "57526889",
+          "Atha_Ws_leaf_FLT_Rep1",
+          "GSM2516803",
+          "GLDS-217_rna-seq_SRR5306015_2.fastq.gz\"",
+          "0.94",
+          "42664205",
+          "Atha_Ws_leaf_FLT_Rep2",
+          "GSM2516804",
+          "GLDS-217_rna-seq_SRR5306018_2.fastq.gz\"",
+          "0.46",
+          "52316974",
+          "Atha_Ws_leaf_FLT_Rep3",
+          "GSM2516805",
+          "GLDS-217_rna-seq_SRR5306021_2.fastq.gz\"",
+          "0.39",
+          "43635461"
+        ],
+        "reports": [
+          "\"GLDS-217_rna_seq_Atha_Ws_root_GC_Rep1_GSM2516794_R1_raw_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_root_GC_Rep1_GSM2516794_R1_raw_fastqc.zip",
+          "GLDS-217_rna_seq_Atha_Ws_root_GC_Rep1_GSM2516794_R2_raw_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_root_GC_Rep1_GSM2516794_R2_raw_fastqc.zip\"",
+          "\"GLDS-217_rna_seq_raw_multiqc_report.html",
+          "GLDS-217_rna_seq_raw_multiqc_data.zip\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_GC_Rep1_GSM2516794_R1_trimmed_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_root_GC_Rep1_GSM2516794_R1_trimmed_fastqc.zip",
+          "GLDS-217_rna_seq_Atha_Ws_root_GC_Rep1_GSM2516794_R2_trimmed_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_root_GC_Rep1_GSM2516794_R2_trimmed_fastqc.zip\"",
+          "\"GLDS-217_rna_seq_trimmed_multiqc_report.html",
+          "GLDS-217_rna_seq_trimmed_multiqc_data.zip\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_GC_Rep1_GSM2516794_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-217_rna_seq_Atha_Ws_root_GC_Rep1_GSM2516794_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-217_rna_seq_Atha_Ws_root_GC_Rep1_GSM2516794_Log.final.out",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_GC_Rep2_GSM2516795_R1_raw_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_root_GC_Rep2_GSM2516795_R1_raw_fastqc.zip",
+          "GLDS-217_rna_seq_Atha_Ws_root_GC_Rep2_GSM2516795_R2_raw_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_root_GC_Rep2_GSM2516795_R2_raw_fastqc.zip\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_GC_Rep2_GSM2516795_R1_trimmed_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_root_GC_Rep2_GSM2516795_R1_trimmed_fastqc.zip",
+          "GLDS-217_rna_seq_Atha_Ws_root_GC_Rep2_GSM2516795_R2_trimmed_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_root_GC_Rep2_GSM2516795_R2_trimmed_fastqc.zip\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_GC_Rep2_GSM2516795_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-217_rna_seq_Atha_Ws_root_GC_Rep2_GSM2516795_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-217_rna_seq_Atha_Ws_root_GC_Rep2_GSM2516795_Log.final.out",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_GC_Rep3_GSM2516796_R1_raw_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_root_GC_Rep3_GSM2516796_R1_raw_fastqc.zip",
+          "GLDS-217_rna_seq_Atha_Ws_root_GC_Rep3_GSM2516796_R2_raw_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_root_GC_Rep3_GSM2516796_R2_raw_fastqc.zip\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_GC_Rep3_GSM2516796_R1_trimmed_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_root_GC_Rep3_GSM2516796_R1_trimmed_fastqc.zip",
+          "GLDS-217_rna_seq_Atha_Ws_root_GC_Rep3_GSM2516796_R2_trimmed_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_root_GC_Rep3_GSM2516796_R2_trimmed_fastqc.zip\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_GC_Rep3_GSM2516796_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-217_rna_seq_Atha_Ws_root_GC_Rep3_GSM2516796_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-217_rna_seq_Atha_Ws_root_GC_Rep3_GSM2516796_Log.final.out",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep1_GSM2516797_R1_raw_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep1_GSM2516797_R1_raw_fastqc.zip",
+          "GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep1_GSM2516797_R2_raw_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep1_GSM2516797_R2_raw_fastqc.zip\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep1_GSM2516797_R1_trimmed_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep1_GSM2516797_R1_trimmed_fastqc.zip",
+          "GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep1_GSM2516797_R2_trimmed_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep1_GSM2516797_R2_trimmed_fastqc.zip\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep1_GSM2516797_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep1_GSM2516797_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep1_GSM2516797_Log.final.out",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep2_GSM2516798_R1_raw_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep2_GSM2516798_R1_raw_fastqc.zip",
+          "GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep2_GSM2516798_R2_raw_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep2_GSM2516798_R2_raw_fastqc.zip\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep2_GSM2516798_R1_trimmed_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep2_GSM2516798_R1_trimmed_fastqc.zip",
+          "GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep2_GSM2516798_R2_trimmed_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep2_GSM2516798_R2_trimmed_fastqc.zip\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep2_GSM2516798_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep2_GSM2516798_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep2_GSM2516798_Log.final.out",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep3_GSM2516799_R1_raw_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep3_GSM2516799_R1_raw_fastqc.zip",
+          "GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep3_GSM2516799_R2_raw_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep3_GSM2516799_R2_raw_fastqc.zip\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep3_GSM2516799_R1_trimmed_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep3_GSM2516799_R1_trimmed_fastqc.zip",
+          "GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep3_GSM2516799_R2_trimmed_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep3_GSM2516799_R2_trimmed_fastqc.zip\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep3_GSM2516799_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep3_GSM2516799_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-217_rna_seq_Atha_Ws_root_FLT_Rep3_GSM2516799_Log.final.out",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep1_GSM2516800_R1_raw_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep1_GSM2516800_R1_raw_fastqc.zip",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep1_GSM2516800_R2_raw_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep1_GSM2516800_R2_raw_fastqc.zip\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep1_GSM2516800_R1_trimmed_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep1_GSM2516800_R1_trimmed_fastqc.zip",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep1_GSM2516800_R2_trimmed_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep1_GSM2516800_R2_trimmed_fastqc.zip\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep1_GSM2516800_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep1_GSM2516800_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep1_GSM2516800_Log.final.out",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep2_GSM2516801_R1_raw_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep2_GSM2516801_R1_raw_fastqc.zip",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep2_GSM2516801_R2_raw_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep2_GSM2516801_R2_raw_fastqc.zip\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep2_GSM2516801_R1_trimmed_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep2_GSM2516801_R1_trimmed_fastqc.zip",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep2_GSM2516801_R2_trimmed_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep2_GSM2516801_R2_trimmed_fastqc.zip\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep2_GSM2516801_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep2_GSM2516801_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep2_GSM2516801_Log.final.out",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep3_GSM2516802_R1_raw_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep3_GSM2516802_R1_raw_fastqc.zip",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep3_GSM2516802_R2_raw_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep3_GSM2516802_R2_raw_fastqc.zip\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep3_GSM2516802_R1_trimmed_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep3_GSM2516802_R1_trimmed_fastqc.zip",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep3_GSM2516802_R2_trimmed_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep3_GSM2516802_R2_trimmed_fastqc.zip\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep3_GSM2516802_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep3_GSM2516802_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_GC_Rep3_GSM2516802_Log.final.out",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep1_GSM2516803_R1_raw_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep1_GSM2516803_R1_raw_fastqc.zip",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep1_GSM2516803_R2_raw_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep1_GSM2516803_R2_raw_fastqc.zip\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep1_GSM2516803_R1_trimmed_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep1_GSM2516803_R1_trimmed_fastqc.zip",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep1_GSM2516803_R2_trimmed_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep1_GSM2516803_R2_trimmed_fastqc.zip\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep1_GSM2516803_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep1_GSM2516803_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep1_GSM2516803_Log.final.out",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep2_GSM2516804_R1_raw_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep2_GSM2516804_R1_raw_fastqc.zip",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep2_GSM2516804_R2_raw_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep2_GSM2516804_R2_raw_fastqc.zip\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep2_GSM2516804_R1_trimmed_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep2_GSM2516804_R1_trimmed_fastqc.zip",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep2_GSM2516804_R2_trimmed_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep2_GSM2516804_R2_trimmed_fastqc.zip\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep2_GSM2516804_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep2_GSM2516804_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep2_GSM2516804_Log.final.out",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep3_GSM2516805_R1_raw_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep3_GSM2516805_R1_raw_fastqc.zip",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep3_GSM2516805_R2_raw_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep3_GSM2516805_R2_raw_fastqc.zip\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep3_GSM2516805_R1_trimmed_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep3_GSM2516805_R1_trimmed_fastqc.zip",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep3_GSM2516805_R2_trimmed_fastqc.html",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep3_GSM2516805_R2_trimmed_fastqc.zip\"",
+          "\"GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep3_GSM2516805_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep3_GSM2516805_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-217_rna_seq_Atha_Ws_leaf_FLT_Rep3_GSM2516805_Log.final.out",
+          "GLDS-217_rna_seq_infer_exp_multiqc_report.zip"
+        ]
+      }
+    }
+  ]
+}

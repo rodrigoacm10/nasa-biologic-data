@@ -1,0 +1,1650 @@
+{
+  "investigation": {
+    "id": "OSD-198",
+    "title": "Effects of bedrest and hypoxia on human skeletal muscle miRNA expression",
+    "description": "The present study concerns the effects of 21 days of sustained recumbence (bedrest) and hypoxia, alone and in combination, on skeletal muscle microRNA expression. 14 male subjects participated in 3 experimental campaigns in a counterbalanced fashion: normoxic bedrest (NBR), hypoxic bedrest (HBR) and hypoxic ambulatory confinement (HAMB), both hypoxic conditions with FO2 equals 0.141 and PIO2 equals 90 ± 0.4 mmHg, equivalent to an altitude of ≈ 4000 m).",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "Simulated_Microgravity, Simulated_Environmental_Factors",
+      "title": "",
+      "type": "Ground Study",
+      "link": "",
+      "funding": "European Union Programme FP7, the European Space Agency (ESA) Programme for European Cooperating States",
+      "managing_center": ""
+    },
+    "protocols": [
+      "treatment protocol",
+      "sample collection",
+      "RNA extraction",
+      "labeling",
+      "nucleic acid hybridization and data collection",
+      "scan protocol",
+      "normalization data transformation"
+    ],
+    "publications": [
+      {
+        "title": "PlanHab (Planetary Habitat Simulation): the combined and separate effects of 21 days bed rest and hypoxic confinement on human skeletal muscle miRNA expression",
+        "doi": "10.14814/phy2.12753",
+        "authors": [
+          "Eric Rullman",
+          "Igor B. Mekjavic",
+          "Helene Fischer",
+          "Ola Eiken"
+        ],
+        "summary": "PlanHab (Planetary Habitat Simulation): the combined and separate effects of 21 days bed rest and hypoxic confinement on human skeletal muscle miRNA expression — 10.14814/phy2.12753"
+      }
+    ],
+    "factors": [
+      "Experimental Campaign",
+      "Bed Rest",
+      "Time"
+    ],
+    "contacts": [
+      {
+        "first_name": "Eric",
+        "last_name": "Rullman",
+        "role": "submitter",
+        "email": "eric.rullman@gmail.com"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "GSM1921195",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "1"
+        },
+        "factors": {
+          "Experimental Campaign": "HAMB",
+          "Bed Rest": "Before Bed Rest",
+          "Time": "minus 6"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921196",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "1"
+        },
+        "factors": {
+          "Experimental Campaign": "HAMB",
+          "Bed Rest": "After Bed Rest",
+          "Time": "plus 21"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921197",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "1"
+        },
+        "factors": {
+          "Experimental Campaign": "HBR",
+          "Bed Rest": "Before Bed Rest",
+          "Time": "minus 6"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921198",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "1"
+        },
+        "factors": {
+          "Experimental Campaign": "HBR",
+          "Bed Rest": "After Bed Rest",
+          "Time": "plus 21"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921199",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "1"
+        },
+        "factors": {
+          "Experimental Campaign": "NBR",
+          "Bed Rest": "Before Bed Rest",
+          "Time": "minus 6"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921200",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "1"
+        },
+        "factors": {
+          "Experimental Campaign": "NBR",
+          "Bed Rest": "After Bed Rest",
+          "Time": "plus 21"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921201",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "2"
+        },
+        "factors": {
+          "Experimental Campaign": "HAMB",
+          "Bed Rest": "Before Bed Rest",
+          "Time": "minus 6"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921202",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "2"
+        },
+        "factors": {
+          "Experimental Campaign": "HAMB",
+          "Bed Rest": "After Bed Rest",
+          "Time": "plus 21"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921203",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "2"
+        },
+        "factors": {
+          "Experimental Campaign": "HBR",
+          "Bed Rest": "Before Bed Rest",
+          "Time": "minus 6"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921204",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "2"
+        },
+        "factors": {
+          "Experimental Campaign": "HBR",
+          "Bed Rest": "After Bed Rest",
+          "Time": "plus 21"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921205",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "2"
+        },
+        "factors": {
+          "Experimental Campaign": "NBR",
+          "Bed Rest": "Before Bed Rest",
+          "Time": "minus 6"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921206",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "2"
+        },
+        "factors": {
+          "Experimental Campaign": "NBR",
+          "Bed Rest": "After Bed Rest",
+          "Time": "plus 21"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921207",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "3"
+        },
+        "factors": {
+          "Experimental Campaign": "HBR",
+          "Bed Rest": "Before Bed Rest",
+          "Time": "minus 6"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921208",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "3"
+        },
+        "factors": {
+          "Experimental Campaign": "HBR",
+          "Bed Rest": "After Bed Rest",
+          "Time": "plus 21"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921209",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "3"
+        },
+        "factors": {
+          "Experimental Campaign": "NBR",
+          "Bed Rest": "Before Bed Rest",
+          "Time": "minus 6"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921210",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "3"
+        },
+        "factors": {
+          "Experimental Campaign": "NBR",
+          "Bed Rest": "After Bed Rest",
+          "Time": "plus 21"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921211",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "4"
+        },
+        "factors": {
+          "Experimental Campaign": "HAMB",
+          "Bed Rest": "Before Bed Rest",
+          "Time": "minus 6"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921212",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "4"
+        },
+        "factors": {
+          "Experimental Campaign": "HAMB",
+          "Bed Rest": "After Bed Rest",
+          "Time": "plus 21"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921213",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "4"
+        },
+        "factors": {
+          "Experimental Campaign": "HBR",
+          "Bed Rest": "Before Bed Rest",
+          "Time": "minus 6"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921214",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "4"
+        },
+        "factors": {
+          "Experimental Campaign": "HBR",
+          "Bed Rest": "After Bed Rest",
+          "Time": "plus 21"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921215",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "4"
+        },
+        "factors": {
+          "Experimental Campaign": "NBR",
+          "Bed Rest": "Before Bed Rest",
+          "Time": "minus 6"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921216",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "4"
+        },
+        "factors": {
+          "Experimental Campaign": "NBR",
+          "Bed Rest": "After Bed Rest",
+          "Time": "plus 21"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921217",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "5"
+        },
+        "factors": {
+          "Experimental Campaign": "HAMB",
+          "Bed Rest": "Before Bed Rest",
+          "Time": "minus 6"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921218",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "5"
+        },
+        "factors": {
+          "Experimental Campaign": "HAMB",
+          "Bed Rest": "After Bed Rest",
+          "Time": "plus 21"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921219",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "5"
+        },
+        "factors": {
+          "Experimental Campaign": "NBR",
+          "Bed Rest": "Before Bed Rest",
+          "Time": "minus 6"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921220",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "5"
+        },
+        "factors": {
+          "Experimental Campaign": "NBR",
+          "Bed Rest": "After Bed Rest",
+          "Time": "plus 21"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921221",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "6"
+        },
+        "factors": {
+          "Experimental Campaign": "HAMB",
+          "Bed Rest": "Before Bed Rest",
+          "Time": "minus 6"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921222",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "6"
+        },
+        "factors": {
+          "Experimental Campaign": "HAMB",
+          "Bed Rest": "After Bed Rest",
+          "Time": "plus 21"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921223",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "6"
+        },
+        "factors": {
+          "Experimental Campaign": "HBR",
+          "Bed Rest": "Before Bed Rest",
+          "Time": "minus 6"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921224",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "6"
+        },
+        "factors": {
+          "Experimental Campaign": "HBR",
+          "Bed Rest": "After Bed Rest",
+          "Time": "plus 21"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921225",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "6"
+        },
+        "factors": {
+          "Experimental Campaign": "NBR",
+          "Bed Rest": "Before Bed Rest",
+          "Time": "minus 6"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921226",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "6"
+        },
+        "factors": {
+          "Experimental Campaign": "NBR",
+          "Bed Rest": "After Bed Rest",
+          "Time": "plus 21"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921227",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "7"
+        },
+        "factors": {
+          "Experimental Campaign": "HAMB",
+          "Bed Rest": "Before Bed Rest",
+          "Time": "minus 6"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921228",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "7"
+        },
+        "factors": {
+          "Experimental Campaign": "HAMB",
+          "Bed Rest": "After Bed Rest",
+          "Time": "plus 21"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921229",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "7"
+        },
+        "factors": {
+          "Experimental Campaign": "HBR",
+          "Bed Rest": "Before Bed Rest",
+          "Time": "minus 6"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921230",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "7"
+        },
+        "factors": {
+          "Experimental Campaign": "HBR",
+          "Bed Rest": "After Bed Rest",
+          "Time": "plus 21"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921231",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "7"
+        },
+        "factors": {
+          "Experimental Campaign": "NBR",
+          "Bed Rest": "Before Bed Rest",
+          "Time": "minus 6"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921232",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "7"
+        },
+        "factors": {
+          "Experimental Campaign": "NBR",
+          "Bed Rest": "After Bed Rest",
+          "Time": "plus 21"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921233",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "8"
+        },
+        "factors": {
+          "Experimental Campaign": "HAMB",
+          "Bed Rest": "Before Bed Rest",
+          "Time": "minus 6"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921234",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "8"
+        },
+        "factors": {
+          "Experimental Campaign": "HAMB",
+          "Bed Rest": "After Bed Rest",
+          "Time": "plus 21"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921235",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "8"
+        },
+        "factors": {
+          "Experimental Campaign": "HBR",
+          "Bed Rest": "Before Bed Rest",
+          "Time": "minus 6"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921236",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "8"
+        },
+        "factors": {
+          "Experimental Campaign": "HBR",
+          "Bed Rest": "After Bed Rest",
+          "Time": "plus 21"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921237",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "9"
+        },
+        "factors": {
+          "Experimental Campaign": "HAMB",
+          "Bed Rest": "Before Bed Rest",
+          "Time": "minus 6"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921238",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "9"
+        },
+        "factors": {
+          "Experimental Campaign": "HAMB",
+          "Bed Rest": "After Bed Rest",
+          "Time": "plus 21"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921239",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "9"
+        },
+        "factors": {
+          "Experimental Campaign": "HBR",
+          "Bed Rest": "Before Bed Rest",
+          "Time": "minus 6"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921240",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "9"
+        },
+        "factors": {
+          "Experimental Campaign": "HBR",
+          "Bed Rest": "After Bed Rest",
+          "Time": "plus 21"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921241",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "9"
+        },
+        "factors": {
+          "Experimental Campaign": "NBR",
+          "Bed Rest": "Before Bed Rest",
+          "Time": "minus 6"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921242",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "9"
+        },
+        "factors": {
+          "Experimental Campaign": "NBR",
+          "Bed Rest": "After Bed Rest",
+          "Time": "plus 21"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921243",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "11"
+        },
+        "factors": {
+          "Experimental Campaign": "HBR",
+          "Bed Rest": "Before Bed Rest",
+          "Time": "minus 6"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921244",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "11"
+        },
+        "factors": {
+          "Experimental Campaign": "HBR",
+          "Bed Rest": "After Bed Rest",
+          "Time": "plus 21"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921245",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "11"
+        },
+        "factors": {
+          "Experimental Campaign": "NBR",
+          "Bed Rest": "Before Bed Rest",
+          "Time": "minus 6"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921246",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "11"
+        },
+        "factors": {
+          "Experimental Campaign": "NBR",
+          "Bed Rest": "After Bed Rest",
+          "Time": "plus 21"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921247",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "12"
+        },
+        "factors": {
+          "Experimental Campaign": "HBR",
+          "Bed Rest": "Before Bed Rest",
+          "Time": "minus 6"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921248",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "12"
+        },
+        "factors": {
+          "Experimental Campaign": "HBR",
+          "Bed Rest": "After Bed Rest",
+          "Time": "plus 21"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921249",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "12"
+        },
+        "factors": {
+          "Experimental Campaign": "NBR",
+          "Bed Rest": "Before Bed Rest",
+          "Time": "minus 6"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921250",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "12"
+        },
+        "factors": {
+          "Experimental Campaign": "NBR",
+          "Bed Rest": "After Bed Rest",
+          "Time": "plus 21"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921251",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "13"
+        },
+        "factors": {
+          "Experimental Campaign": "HAMB",
+          "Bed Rest": "Before Bed Rest",
+          "Time": "minus 6"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921252",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "13"
+        },
+        "factors": {
+          "Experimental Campaign": "HAMB",
+          "Bed Rest": "After Bed Rest",
+          "Time": "plus 21"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921253",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "13"
+        },
+        "factors": {
+          "Experimental Campaign": "HBR",
+          "Bed Rest": "Before Bed Rest",
+          "Time": "minus 6"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921254",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "13"
+        },
+        "factors": {
+          "Experimental Campaign": "HBR",
+          "Bed Rest": "After Bed Rest",
+          "Time": "plus 21"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921255",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "13"
+        },
+        "factors": {
+          "Experimental Campaign": "NBR",
+          "Bed Rest": "Before Bed Rest",
+          "Time": "minus 6"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921256",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "13"
+        },
+        "factors": {
+          "Experimental Campaign": "NBR",
+          "Bed Rest": "After Bed Rest",
+          "Time": "plus 21"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921257",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "14"
+        },
+        "factors": {
+          "Experimental Campaign": "HAMB",
+          "Bed Rest": "Before Bed Rest",
+          "Time": "minus 6"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921258",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "14"
+        },
+        "factors": {
+          "Experimental Campaign": "HAMB",
+          "Bed Rest": "After Bed Rest",
+          "Time": "plus 21"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921259",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "14"
+        },
+        "factors": {
+          "Experimental Campaign": "HBR",
+          "Bed Rest": "Before Bed Rest",
+          "Time": "minus 6"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921260",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "14"
+        },
+        "factors": {
+          "Experimental Campaign": "HBR",
+          "Bed Rest": "After Bed Rest",
+          "Time": "plus 21"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921261",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "14"
+        },
+        "factors": {
+          "Experimental Campaign": "NBR",
+          "Bed Rest": "Before Bed Rest",
+          "Time": "minus 6"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM1921262",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Sex": "Male",
+          "Material Type": "Vastus Lateralis",
+          "Study Subject": "14"
+        },
+        "factors": {
+          "Experimental Campaign": "NBR",
+          "Bed Rest": "After Bed Rest",
+          "Time": "plus 21"
+        },
+        "parameters": {
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Affymetrix",
+      "qc": {
+        "QA Instrument": "Agilent TapeStation",
+        "QA Assay": "Agilent RNA ScreenTape assay"
+      },
+      "library": {},
+      "files": {
+        "raw": [],
+        "processed": [
+          "GLDS-198_miRNA-array_GSE74469_series_matrix.txt",
+          "GSM1921195",
+          "normalization data transformation",
+          "Agilent TapeStation",
+          "Agilent RNA ScreenTape assay",
+          "GSM1921195 extract 1",
+          "GSM1921195 LE",
+          "biotin",
+          "OBI",
+          "http://purl.obolibrary.org/obo/CHEBI_15956",
+          "GPL19117",
+          "GLDS-198_miRNA-array_GSM1921195_HF_01_S1_HAMB_1_F09.CEL.gz",
+          "RMA",
+          "GSM1921196",
+          "GSM1921196 extract 1",
+          "GSM1921196 LE",
+          "GLDS-198_miRNA-array_GSM1921196_HF_02_S1_HAMB_2_C09.CEL.gz",
+          "GSM1921197",
+          "GSM1921197 extract 1",
+          "GSM1921197 LE",
+          "GLDS-198_miRNA-array_GSM1921197_HF_05_S1HBR_1_F05.CEL.gz",
+          "GSM1921198",
+          "GSM1921198 extract 1",
+          "GSM1921198 LE",
+          "GLDS-198_miRNA-array_GSM1921198_HF_06_S1_HBR_2_G07.CEL.gz",
+          "GSM1921199",
+          "GSM1921199 extract 1",
+          "GSM1921199 LE",
+          "GLDS-198_miRNA-array_GSM1921199_HF_03_S1_NBR_1_E05.CEL.gz",
+          "GSM1921200",
+          "GSM1921200 extract 1",
+          "GSM1921200 LE",
+          "GLDS-198_miRNA-array_GSM1921200_HF_04_S1_NBR_2_B09.CEL.gz",
+          "GSM1921201",
+          "GSM1921201 extract 1",
+          "GSM1921201 LE",
+          "GLDS-198_miRNA-array_GSM1921201_HF_07_S2_HAMB_1_D09.CEL.gz",
+          "GSM1921202",
+          "GSM1921202 extract 1",
+          "GSM1921202 LE",
+          "GLDS-198_miRNA-array_GSM1921202_HF_08_S2_HAMB_2_F09.CEL.gz",
+          "GSM1921203",
+          "GSM1921203 extract 1",
+          "GSM1921203 LE",
+          "GLDS-198_miRNA-array_GSM1921203_HF_11_S2_HBR_1_G09.CEL.gz",
+          "GSM1921204",
+          "GSM1921204 extract 1",
+          "GSM1921204 LE",
+          "GLDS-198_miRNA-array_GSM1921204_HF_12_S2_HBR_2_D05.CEL.gz",
+          "GSM1921205",
+          "GSM1921205 extract 1",
+          "GSM1921205 LE",
+          "GLDS-198_miRNA-array_GSM1921205_HF_09_S2_NBR_1_F05.CEL.gz",
+          "GSM1921206",
+          "GSM1921206 extract 1",
+          "GSM1921206 LE",
+          "GLDS-198_miRNA-array_GSM1921206_HF_10_S2_NBR_2_C09.CEL.gz",
+          "GSM1921207",
+          "GSM1921207 extract 1",
+          "GSM1921207 LE",
+          "GLDS-198_miRNA-array_GSM1921207_HF_17_S3_HBR_1_E09.CEL.gz",
+          "GSM1921208",
+          "GSM1921208 extract 1",
+          "GSM1921208 LE",
+          "GLDS-198_miRNA-array_GSM1921208_HF_18_S3_HBR_2_F07.CEL.gz",
+          "GSM1921209",
+          "GSM1921209 extract 1",
+          "GSM1921209 LE",
+          "GLDS-198_miRNA-array_GSM1921209_HF_15_S3_NBR_1_E07.CEL.gz",
+          "GSM1921210",
+          "GSM1921210 extract 1",
+          "GSM1921210 LE",
+          "GLDS-198_miRNA-array_GSM1921210_HF_16_S3_NBR_2_D05.CEL.gz",
+          "GSM1921211",
+          "GSM1921211 extract 1",
+          "GSM1921211 LE",
+          "GLDS-198_miRNA-array_GSM1921211_HF_19_S4_HAMB_1_H05.CEL.gz",
+          "GSM1921212",
+          "GSM1921212 extract 1",
+          "GSM1921212 LE",
+          "GLDS-198_miRNA-array_GSM1921212_HF_20_S4_HAMB_2_E05.CEL.gz",
+          "GSM1921213",
+          "GSM1921213 extract 1",
+          "GSM1921213 LE",
+          "GLDS-198_miRNA-array_GSM1921213_HF_23_S4_HBR_1_A09.CEL.gz",
+          "GSM1921214",
+          "GSM1921214 extract 1",
+          "GSM1921214 LE",
+          "GLDS-198_miRNA-array_GSM1921214_HF_24_S4_HBR_2_E09.CEL.gz",
+          "GSM1921215",
+          "GSM1921215 extract 1",
+          "GSM1921215 LE",
+          "GLDS-198_miRNA-array_GSM1921215_HF_21_S4_NBR_1_B09.CEL.gz",
+          "GSM1921216",
+          "GSM1921216 extract 1",
+          "GSM1921216 LE",
+          "GLDS-198_miRNA-array_GSM1921216_HF_22_S4_NBR_2_H09.CEL.gz",
+          "GSM1921217",
+          "GSM1921217 extract 1",
+          "GSM1921217 LE",
+          "GLDS-198_miRNA-array_GSM1921217_HF_25_S5_HAMB_1_2nd_C05.CEL.gz",
+          "GSM1921218",
+          "GSM1921218 extract 1",
+          "GSM1921218 LE",
+          "GLDS-198_miRNA-array_GSM1921218_HF_26_S5_HAMB_2_C07.CEL.gz",
+          "GSM1921219",
+          "GSM1921219 extract 1",
+          "GSM1921219 LE",
+          "GLDS-198_miRNA-array_GSM1921219_HF_27_S5_NBR_1_A05.CEL.gz",
+          "GSM1921220",
+          "GSM1921220 extract 1",
+          "GSM1921220 LE",
+          "GLDS-198_miRNA-array_GSM1921220_HF_28_S5_NBR_2_B05.CEL.gz",
+          "GSM1921221",
+          "GSM1921221 extract 1",
+          "GSM1921221 LE",
+          "GLDS-198_miRNA-array_GSM1921221_HF_31_S6_HAMB_1_H09.CEL.gz",
+          "GSM1921222",
+          "GSM1921222 extract 1",
+          "GSM1921222 LE",
+          "GLDS-198_miRNA-array_GSM1921222_HF_32_S6_HAMB_2_B07_2.CEL.gz",
+          "GSM1921223",
+          "GSM1921223 extract 1",
+          "GSM1921223 LE",
+          "GLDS-198_miRNA-array_GSM1921223_HF_35_S6_HBR_1_A09.CEL.gz",
+          "GSM1921224",
+          "GSM1921224 extract 1",
+          "GSM1921224 LE",
+          "GLDS-198_miRNA-array_GSM1921224_HF_36_S6_HBR_2_D09.CEL.gz",
+          "GSM1921225",
+          "GSM1921225 extract 1",
+          "GSM1921225 LE",
+          "GLDS-198_miRNA-array_GSM1921225_HF_33_S6_NBR_1_2nd_D07.CEL.gz",
+          "GSM1921226",
+          "GSM1921226 extract 1",
+          "GSM1921226 LE",
+          "GLDS-198_miRNA-array_GSM1921226_HF_34_S6_NBR_2_H07.CEL.gz",
+          "GSM1921227",
+          "GSM1921227 extract 1",
+          "GSM1921227 LE",
+          "GLDS-198_miRNA-array_GSM1921227_HF_39_S7_HAMB_1_F07.CEL.gz",
+          "GSM1921228",
+          "GSM1921228 extract 1",
+          "GSM1921228 LE",
+          "GLDS-198_miRNA-array_GSM1921228_HF_40_S7_HAMB_2_E07.CEL.gz",
+          "GSM1921229",
+          "GSM1921229 extract 1",
+          "GSM1921229 LE",
+          "GLDS-198_miRNA-array_GSM1921229_HF_37_S7_HBR_1_2nd_A07.CEL.gz",
+          "GSM1921230",
+          "GSM1921230 extract 1",
+          "GSM1921230 LE",
+          "GLDS-198_miRNA-array_GSM1921230_HF_38_S7_HBR_2_B05.CEL.gz",
+          "GSM1921231",
+          "GSM1921231 extract 1",
+          "GSM1921231 LE",
+          "GLDS-198_miRNA-array_GSM1921231_HF_41_S7NBR_1_C07_2.CEL.gz",
+          "GSM1921232",
+          "GSM1921232 extract 1",
+          "GSM1921232 LE",
+          "GLDS-198_miRNA-array_GSM1921232_HF_42_S7NBR_2_A05.CEL.gz",
+          "GSM1921233",
+          "GSM1921233 extract 1",
+          "GSM1921233 LE",
+          "GLDS-198_miRNA-array_GSM1921233_HF_45_S8_HAMB_1_D05.CEL.gz",
+          "GSM1921234",
+          "GSM1921234 extract 1",
+          "GSM1921234 LE",
+          "GLDS-198_miRNA-array_GSM1921234_HF_46_S8_HAMB_2_C07.CEL.gz",
+          "GSM1921235",
+          "GSM1921235 extract 1",
+          "GSM1921235 LE",
+          "GLDS-198_miRNA-array_GSM1921235_HF_43_S8_HBR_1_E05.CEL.gz",
+          "GSM1921236",
+          "GSM1921236 extract 1",
+          "GSM1921236 LE",
+          "GLDS-198_miRNA-array_GSM1921236_HF_44_S8_HBR_2_G07.CEL.gz",
+          "GSM1921237",
+          "GSM1921237 extract 1",
+          "GSM1921237 LE",
+          "GLDS-198_miRNA-array_GSM1921237_HF_49_S9_HAMB_1_G05.CEL.gz",
+          "GSM1921238",
+          "GSM1921238 extract 1",
+          "GSM1921238 LE",
+          "GLDS-198_miRNA-array_GSM1921238_HF_50_S9_HAMB_2_H07.CEL.gz",
+          "GSM1921239",
+          "GSM1921239 extract 1",
+          "GSM1921239 LE",
+          "GLDS-198_miRNA-array_GSM1921239_HF_47_S9_HBR_1_G07.CEL.gz",
+          "GSM1921240",
+          "GSM1921240 extract 1",
+          "GSM1921240 LE",
+          "GLDS-198_miRNA-array_GSM1921240_HF_48_S9_HBR_2_D07.CEL.gz",
+          "GSM1921241",
+          "GSM1921241 extract 1",
+          "GSM1921241 LE",
+          "GLDS-198_miRNA-array_GSM1921241_HF_51_S9_NBR_1_C05.CEL.gz",
+          "GSM1921242",
+          "GSM1921242 extract 1",
+          "GSM1921242 LE",
+          "GLDS-198_miRNA-array_GSM1921242_HF_52_S9_NBR_2_B07.CEL.gz",
+          "GSM1921243",
+          "GSM1921243 extract 1",
+          "GSM1921243 LE",
+          "GLDS-198_miRNA-array_GSM1921243_HF_55_S11_HBR_1_F07.CEL.gz",
+          "GSM1921244",
+          "GSM1921244 extract 1",
+          "GSM1921244 LE",
+          "GLDS-198_miRNA-array_GSM1921244_HF_56_S11_HBR_2_B05.CEL.gz",
+          "GSM1921245",
+          "GSM1921245 extract 1",
+          "GSM1921245 LE",
+          "GLDS-198_miRNA-array_GSM1921245_HF_53_S11_NBR_1_C09.CEL.gz",
+          "GSM1921246",
+          "GSM1921246 extract 1",
+          "GSM1921246 LE",
+          "GLDS-198_miRNA-array_GSM1921246_HF_54_S11_NBR_2_H09.CEL.gz",
+          "GSM1921247",
+          "GSM1921247 extract 1",
+          "GSM1921247 LE",
+          "GLDS-198_miRNA-array_GSM1921247_HF_60_S12_HBR_1_F09.CEL.gz",
+          "GSM1921248",
+          "GSM1921248 extract 1",
+          "GSM1921248 LE",
+          "GLDS-198_miRNA-array_GSM1921248_HF_61_S12_HBR_2_H05.CEL.gz",
+          "GSM1921249",
+          "GSM1921249 extract 1",
+          "GSM1921249 LE",
+          "GLDS-198_miRNA-array_GSM1921249_HF_58_S12_NBR_1_B07.CEL.gz",
+          "GSM1921250",
+          "GSM1921250 extract 1",
+          "GSM1921250 LE",
+          "GLDS-198_miRNA-array_GSM1921250_HF_59_S12_NBR_2_A07.CEL.gz",
+          "GSM1921251",
+          "GSM1921251 extract 1",
+          "GSM1921251 LE",
+          "GLDS-198_miRNA-array_GSM1921251_HF_66_S13_HAMB1_E09.CEL.gz",
+          "GSM1921252",
+          "GSM1921252 extract 1",
+          "GSM1921252 LE",
+          "GLDS-198_miRNA-array_GSM1921252_HF_67_S13_HAMB_2_F05.CEL.gz",
+          "GSM1921253",
+          "GSM1921253 extract 1",
+          "GSM1921253 LE",
+          "GLDS-198_miRNA-array_GSM1921253_HF_64_S13HBR_1_B09.CEL.gz",
+          "GSM1921254",
+          "GSM1921254 extract 1",
+          "GSM1921254 LE",
+          "GLDS-198_miRNA-array_GSM1921254_HF_65_S13_HBR_2_A09.CEL.gz",
+          "GSM1921255",
+          "GSM1921255 extract 1",
+          "GSM1921255 LE",
+          "GLDS-198_miRNA-array_GSM1921255_HF_62_S13_NBR_1_H07.CEL.gz",
+          "GSM1921256",
+          "GSM1921256 extract 1",
+          "GSM1921256 LE",
+          "GLDS-198_miRNA-array_GSM1921256_HF_63_S13_NBR_2_D09.CEL.gz",
+          "GSM1921257",
+          "GSM1921257 extract 1",
+          "GSM1921257 LE",
+          "GLDS-198_miRNA-array_GSM1921257_HF_72_S14_HAMB_1_D07.CEL.gz",
+          "GSM1921258",
+          "GSM1921258 extract 1",
+          "GSM1921258 LE",
+          "GLDS-198_miRNA-array_GSM1921258_HF73_S14_HAMB_2_2nd_E07_2.CEL.gz",
+          "GSM1921259",
+          "GSM1921259 extract 1",
+          "GSM1921259 LE",
+          "GLDS-198_miRNA-array_GSM1921259_HF_70_S14_HBR_1_C05.CEL.gz",
+          "GSM1921260",
+          "GSM1921260 extract 1",
+          "GSM1921260 LE",
+          "GLDS-198_miRNA-array_GSM1921260_HF_71_S14_HBR_2_A05.CEL.gz",
+          "GSM1921261",
+          "GSM1921261 extract 1",
+          "GSM1921261 LE",
+          "GLDS-198_miRNA-array_GSM1921261_HF_68_S14_NBR_1_G09.CEL.gz",
+          "GSM1921262",
+          "GSM1921262 extract 1",
+          "GSM1921262 LE",
+          "GLDS-198_miRNA-array_GSM1921262_HF_69_S14_NBR_2_G05.CEL.gz"
+        ],
+        "reports": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,831 @@
+{
+  "investigation": {
+    "id": "OSD-269",
+    "title": "Microbiological and nutritional analysis of lettuce crops grown on the International Space Station-VEG03A",
+    "description": "The ability to grow safe, fresh food to supplement packaged foods of astronauts in space has been an important goal for NASA. Food crops grown in space experience different environmental conditions than plants grown on Earth (e.g., reduced gravity, elevated radiation levels).",
+    "mission": {
+      "name": "SpaceX-8",
+      "start_date": "08-Apr-2016",
+      "end_date": "11-May-2016",
+      "link": "https://lsda.jsc.nasa.gov/Mission/miss/1391"
+    },
+    "project": {
+      "identifier": "VEG_03",
+      "title": "'Veggie' Vegetable Production System Proof of Concept Flight",
+      "type": "Spaceflight Study",
+      "link": "https://lsda.jsc.nasa.gov/Experiment/exper/13890",
+      "funding": "Funding was provided by NASA's Space Life and Physical Sciences (SLPS) Space Biology Program",
+      "managing_center": "Kennedy Space Center (KSC)"
+    },
+    "protocols": [
+      "sample collection",
+      "Nucleic Acid Extraction",
+      "Library Construction",
+      "Nucleic Acid Sequencing",
+      "GeneLab amplicon-seq data processing protocol",
+      "growth protocol",
+      "radiation dosimetry"
+    ],
+    "publications": [
+      {
+        "title": "Microbiological and nutritional analysis of lettuce crops grown on the International Space Station",
+        "doi": "10.3389/fpls.2020.00199",
+        "authors": [
+          "Khodadad CLM",
+          "Hummerick ME",
+          "Spencer LE",
+          "Dixit AR",
+          "Richards JT",
+          "Romeyn MW",
+          "Smith TM",
+          "Wheeler RM",
+          "Massa GD"
+        ],
+        "summary": "Microbiological and nutritional analysis of lettuce crops grown on the International Space Station — 10.3389/fpls.2020.00199"
+      },
+      {
+        "title": "Plant Pillow Preparation for the Veggie Plant Growth System on the International Space Station",
+        "doi": "10.2478/gsr-2017-0002",
+        "authors": [
+          "Massa Gioia D.",
+          "Newsham Gerard",
+          "Hummerick Mary E.",
+          "Morrow Robert C.",
+          "Wheeler Raymond M."
+        ],
+        "summary": "Plant Pillow Preparation for the Veggie Plant Growth System on the International Space Station — 10.2478/gsr-2017-0002"
+      }
+    ],
+    "factors": [
+      "Spaceflight",
+      "Organism Part"
+    ],
+    "contacts": [
+      {
+        "first_name": "Christina",
+        "last_name": "Khodadad",
+        "role": "Submitter",
+        "email": "christina.l.khodadad-1@nasa.gov"
+      },
+      {
+        "first_name": "Gioia",
+        "last_name": "Massa",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Raymond",
+        "last_name": "Wheeler",
+        "role": "Author",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "Flight Plant Leaf A",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Host Strain": "cv. Outredgeous"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Organism Part": "leaf"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "growth environment": "ISS-Columbus",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "200",
+          "Light Color": "12 red (630 nm): 3 Blue (455 nm): 1 green (530 nm)",
+          "Growth Medium": "Blend 2",
+          "Number of seeds per container": "2",
+          "Container": "plant pillow",
+          "Mean Growth Temperature": "23.25",
+          "Growth Time": "65",
+          "ionizing radiation": "space radiation",
+          "vehicle": "ISS-Columbus",
+          "exposure duration": "64",
+          "absorbed radiation dose": "18.829",
+          "absorbed radiation dose rate": "0.294",
+          "ionizing radiation categorized by source": "outer space",
+          "Experiment Start Date": "25-Oct-16",
+          "Harvest Date": "28-Dec-16",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "65"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Flight Plant Leaf B",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Host Strain": "cv. Outredgeous"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Organism Part": "leaf"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "growth environment": "ISS-Columbus",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "200",
+          "Light Color": "12 red (630 nm): 3 Blue (455 nm): 1 green (530 nm)",
+          "Growth Medium": "Blend 1",
+          "Number of seeds per container": "2",
+          "Container": "plant pillow",
+          "Mean Growth Temperature": "23.25",
+          "Growth Time": "65",
+          "ionizing radiation": "space radiation",
+          "vehicle": "ISS-Columbus",
+          "exposure duration": "64",
+          "absorbed radiation dose": "18.829",
+          "absorbed radiation dose rate": "0.294",
+          "ionizing radiation categorized by source": "outer space",
+          "Experiment Start Date": "25-Oct-16",
+          "Harvest Date": "28-Dec-16",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "65"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Flight Plant Leaf C",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Host Strain": "cv. Outredgeous"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Organism Part": "leaf"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "growth environment": "ISS-Columbus",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "200",
+          "Light Color": "12 red (630 nm): 3 Blue (455 nm): 1 green (530 nm)",
+          "Growth Medium": "Blend 1",
+          "Number of seeds per container": "2",
+          "Container": "plant pillow",
+          "Mean Growth Temperature": "23.25",
+          "Growth Time": "65",
+          "ionizing radiation": "space radiation",
+          "vehicle": "ISS-Columbus",
+          "exposure duration": "64",
+          "absorbed radiation dose": "18.829",
+          "absorbed radiation dose rate": "0.294",
+          "ionizing radiation categorized by source": "outer space",
+          "Experiment Start Date": "25-Oct-16",
+          "Harvest Date": "28-Dec-16",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "65"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Flight Plant Leaf D",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Host Strain": "cv. Outredgeous"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Organism Part": "leaf"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "growth environment": "ISS-Columbus",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "200",
+          "Light Color": "12 red (630 nm): 3 Blue (455 nm): 1 green (530 nm)",
+          "Growth Medium": "Blend 2",
+          "Number of seeds per container": "2",
+          "Container": "plant pillow",
+          "Mean Growth Temperature": "23.25",
+          "Growth Time": "65",
+          "ionizing radiation": "space radiation",
+          "vehicle": "ISS-Columbus",
+          "exposure duration": "64",
+          "absorbed radiation dose": "18.829",
+          "absorbed radiation dose rate": "0.294",
+          "ionizing radiation categorized by source": "outer space",
+          "Experiment Start Date": "25-Oct-16",
+          "Harvest Date": "28-Dec-16",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "65"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Flight Plant Leaf E",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Host Strain": "cv. Outredgeous"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Organism Part": "leaf"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "growth environment": "ISS-Columbus",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "200",
+          "Light Color": "12 red (630 nm): 3 Blue (455 nm): 1 green (530 nm)",
+          "Growth Medium": "Blend 2",
+          "Number of seeds per container": "2",
+          "Container": "plant pillow",
+          "Mean Growth Temperature": "23.25",
+          "Growth Time": "65",
+          "ionizing radiation": "space radiation",
+          "vehicle": "ISS-Columbus",
+          "exposure duration": "64",
+          "absorbed radiation dose": "18.829",
+          "absorbed radiation dose rate": "0.294",
+          "ionizing radiation categorized by source": "outer space",
+          "Experiment Start Date": "25-Oct-16",
+          "Harvest Date": "28-Dec-16",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "65"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Flight Plant Leaf F",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Host Strain": "cv. Outredgeous"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Organism Part": "leaf"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "growth environment": "ISS-Columbus",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "200",
+          "Light Color": "12 red (630 nm): 3 Blue (455 nm): 1 green (530 nm)",
+          "Growth Medium": "Blend 1",
+          "Number of seeds per container": "2",
+          "Container": "plant pillow",
+          "Mean Growth Temperature": "23.25",
+          "Growth Time": "65",
+          "ionizing radiation": "space radiation",
+          "vehicle": "ISS-Columbus",
+          "exposure duration": "64",
+          "absorbed radiation dose": "18.829",
+          "absorbed radiation dose rate": "0.294",
+          "ionizing radiation categorized by source": "outer space",
+          "Experiment Start Date": "25-Oct-16",
+          "Harvest Date": "28-Dec-16",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "65"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Flight Plant Root A",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Host Strain": "cv. Outredgeous"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Organism Part": "root"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "growth environment": "ISS-Columbus",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "200",
+          "Light Color": "12 red (630 nm): 3 Blue (455 nm): 1 green (530 nm)",
+          "Growth Medium": "Blend 2",
+          "Number of seeds per container": "2",
+          "Container": "plant pillow",
+          "Mean Growth Temperature": "23.25",
+          "Growth Time": "65",
+          "ionizing radiation": "space radiation",
+          "vehicle": "ISS-Columbus",
+          "exposure duration": "64",
+          "absorbed radiation dose": "18.829",
+          "absorbed radiation dose rate": "0.294",
+          "ionizing radiation categorized by source": "outer space",
+          "Experiment Start Date": "25-Oct-16",
+          "Harvest Date": "28-Dec-16",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "65"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Flight Plant Root B",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Host Strain": "cv. Outredgeous"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Organism Part": "root"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "growth environment": "ISS-Columbus",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "200",
+          "Light Color": "12 red (630 nm): 3 Blue (455 nm): 1 green (530 nm)",
+          "Growth Medium": "Blend 1",
+          "Number of seeds per container": "2",
+          "Container": "plant pillow",
+          "Mean Growth Temperature": "23.25",
+          "Growth Time": "65",
+          "ionizing radiation": "space radiation",
+          "vehicle": "ISS-Columbus",
+          "exposure duration": "64",
+          "absorbed radiation dose": "18.829",
+          "absorbed radiation dose rate": "0.294",
+          "ionizing radiation categorized by source": "outer space",
+          "Experiment Start Date": "25-Oct-16",
+          "Harvest Date": "28-Dec-16",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "65"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Ground Plant Leaf A",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Host Strain": "cv. Outredgeous"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Organism Part": "leaf"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "growth environment": "Earth surface",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "200",
+          "Light Color": "12 red (630 nm): 3 Blue (455 nm): 1 green (530 nm)",
+          "Growth Medium": "Blend 2",
+          "Number of seeds per container": "2",
+          "Container": "plant pillow",
+          "Mean Growth Temperature": "23.25",
+          "Growth Time": "65",
+          "ionizing radiation": "non-irradiated",
+          "vehicle": "",
+          "exposure duration": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "ionizing radiation categorized by source": "",
+          "Experiment Start Date": "25-Oct-16",
+          "Harvest Date": "28-Dec-16",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "65"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Ground Plant Leaf B",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Host Strain": "cv. Outredgeous"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Organism Part": "leaf"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "growth environment": "Earth surface",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "200",
+          "Light Color": "12 red (630 nm): 3 Blue (455 nm): 1 green (530 nm)",
+          "Growth Medium": "Blend 1",
+          "Number of seeds per container": "2",
+          "Container": "plant pillow",
+          "Mean Growth Temperature": "23.25",
+          "Growth Time": "65",
+          "ionizing radiation": "non-irradiated",
+          "vehicle": "",
+          "exposure duration": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "ionizing radiation categorized by source": "",
+          "Experiment Start Date": "25-Oct-16",
+          "Harvest Date": "28-Dec-16",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "65"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Ground Plant Leaf C",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Host Strain": "cv. Outredgeous"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Organism Part": "leaf"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "growth environment": "Earth surface",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "200",
+          "Light Color": "12 red (630 nm): 3 Blue (455 nm): 1 green (530 nm)",
+          "Growth Medium": "Blend 1",
+          "Number of seeds per container": "2",
+          "Container": "plant pillow",
+          "Mean Growth Temperature": "23.25",
+          "Growth Time": "65",
+          "ionizing radiation": "non-irradiated",
+          "vehicle": "",
+          "exposure duration": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "ionizing radiation categorized by source": "",
+          "Experiment Start Date": "25-Oct-16",
+          "Harvest Date": "28-Dec-16",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "65"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Ground Plant Leaf D",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Host Strain": "cv. Outredgeous"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Organism Part": "leaf"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "growth environment": "Earth surface",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "200",
+          "Light Color": "12 red (630 nm): 3 Blue (455 nm): 1 green (530 nm)",
+          "Growth Medium": "Blend 2",
+          "Number of seeds per container": "2",
+          "Container": "plant pillow",
+          "Mean Growth Temperature": "23.25",
+          "Growth Time": "65",
+          "ionizing radiation": "non-irradiated",
+          "vehicle": "",
+          "exposure duration": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "ionizing radiation categorized by source": "",
+          "Experiment Start Date": "25-Oct-16",
+          "Harvest Date": "28-Dec-16",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "65"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Ground Plant Leaf F",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Host Strain": "cv. Outredgeous"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Organism Part": "leaf"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "growth environment": "Earth surface",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "200",
+          "Light Color": "12 red (630 nm): 3 Blue (455 nm): 1 green (530 nm)",
+          "Growth Medium": "Blend 1",
+          "Number of seeds per container": "2",
+          "Container": "plant pillow",
+          "Mean Growth Temperature": "23.25",
+          "Growth Time": "65",
+          "ionizing radiation": "non-irradiated",
+          "vehicle": "",
+          "exposure duration": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "ionizing radiation categorized by source": "",
+          "Experiment Start Date": "25-Oct-16",
+          "Harvest Date": "28-Dec-16",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "65"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Ground Plant Root A",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Host Strain": "cv. Outredgeous"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Organism Part": "root"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "growth environment": "Earth surface",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "200",
+          "Light Color": "12 red (630 nm): 3 Blue (455 nm): 1 green (530 nm)",
+          "Growth Medium": "Blend 2",
+          "Number of seeds per container": "2",
+          "Container": "plant pillow",
+          "Mean Growth Temperature": "23.25",
+          "Growth Time": "65",
+          "ionizing radiation": "non-irradiated",
+          "vehicle": "",
+          "exposure duration": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "ionizing radiation categorized by source": "",
+          "Experiment Start Date": "25-Oct-16",
+          "Harvest Date": "28-Dec-16",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "65"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Ground Plant Root B",
+        "characteristics": {
+          "Organism": "Microbiota",
+          "Host Organism": "Lactuca sativa",
+          "Host Strain": "cv. Outredgeous"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Organism Part": "root"
+        },
+        "parameters": {
+          "Hardware": "Vegetable Production System (Veggie)",
+          "growth environment": "Earth surface",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "16:8 light:dark",
+          "Light Intensity": "200",
+          "Light Color": "12 red (630 nm): 3 Blue (455 nm): 1 green (530 nm)",
+          "Growth Medium": "Blend 1",
+          "Number of seeds per container": "2",
+          "Container": "plant pillow",
+          "Mean Growth Temperature": "23.25",
+          "Growth Time": "65",
+          "ionizing radiation": "non-irradiated",
+          "vehicle": "",
+          "exposure duration": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "ionizing radiation categorized by source": "",
+          "Experiment Start Date": "25-Oct-16",
+          "Harvest Date": "28-Dec-16",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "65"
+        },
+        "comments": {}
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "amplicon-sequencing",
+      "platform": "Illumina MiSeq",
+      "qc": {
+        "QA Instrument": "Bioanalyzer or Qubit",
+        "QA Assay": "DNA 1000 or Qubit HS dsDNA assay",
+        "Read Depth": "65022"
+      },
+      "library": {
+        "Library Strategy": "AMPLICON",
+        "Library Selection": "PCR",
+        "Library Layout": "PAIRED"
+      },
+      "files": {
+        "raw": [
+          "GLDS-269_Amplicon_V03A-Flt_Plant_A-4_S45_L001_R1_raw.fastq.gz",
+          "GLDS-269_Amplicon_V03A-Flt_Plant_A-4_S45_L001_R2_raw.fastq.gz",
+          "GLDS-269_Amplicon_V03A-Flt_Plant_B-4_S47_L001_R1_raw.fastq.gz",
+          "GLDS-269_Amplicon_V03A-Flt_Plant_B-4_S47_L001_R2_raw.fastq.gz",
+          "GLDS-269_Amplicon_V03A-Flt_Plant_C-4_S49_L001_R1_raw.fastq.gz",
+          "GLDS-269_Amplicon_V03A-Flt_Plant_C-4_S49_L001_R2_raw.fastq.gz",
+          "GLDS-269_Amplicon_V03A-Flt_Plant_D-4_S51_L001_R1_raw.fastq.gz",
+          "GLDS-269_Amplicon_V03A-Flt_Plant_D-4_S51_L001_R2_raw.fastq.gz",
+          "GLDS-269_Amplicon_V03A-Flt_Plant_E-4_S53_L001_R1_raw.fastq.gz",
+          "GLDS-269_Amplicon_V03A-Flt_Plant_E-4_S53_L001_R2_raw.fastq.gz",
+          "GLDS-269_Amplicon_V03A-Flt_Plant_F-4_S55_L001_R1_raw.fastq.gz",
+          "GLDS-269_Amplicon_V03A-Flt_Plant_F-4_S55_L001_R2_raw.fastq.gz",
+          "GLDS-269_Amplicon_V03A-Flt_Root_A_S29_L001_R1_raw.fastq.gz",
+          "GLDS-269_Amplicon_V03A-Flt_Root_A_S29_L001_R2_raw.fastq.gz",
+          "GLDS-269_Amplicon_V03A-Flt_Root_B_S32_L001_R1_raw.fastq.gz",
+          "GLDS-269_Amplicon_V03A-Flt_Root_B_S32_L001_R2_raw.fastq.gz",
+          "GLDS-269_Amplicon_V03A-Ground_Plant_A-4_S4_L001_R1_raw.fastq.gz",
+          "GLDS-269_Amplicon_V03A-Ground_Plant_A-4_S4_L001_R2_raw.fastq.gz",
+          "GLDS-269_Amplicon_V03A-Ground_Plant_B-4_S9_L001_R1_raw.fastq.gz",
+          "GLDS-269_Amplicon_V03A-Ground_Plant_B-4_S9_L001_R2_raw.fastq.gz",
+          "GLDS-269_Amplicon_V03A-Ground_Plant_C-4_S14_L001_R1_raw.fastq.gz",
+          "GLDS-269_Amplicon_V03A-Ground_Plant_C-4_S14_L001_R2_raw.fastq.gz",
+          "GLDS-269_Amplicon_V03A-Ground_Plant_D-4_S19_L001_R1_raw.fastq.gz",
+          "GLDS-269_Amplicon_V03A-Ground_Plant_D-4_S19_L001_R2_raw.fastq.gz",
+          "GLDS-269_Amplicon_V03A-Ground_Plant_F-4_S24_L001_R1_raw.fastq.gz",
+          "GLDS-269_Amplicon_V03A-Ground_Plant_F-4_S24_L001_R2_raw.fastq.gz",
+          "GLDS-269_Amplicon_V03A-Ground_Root_A_S37_L001_R1_raw.fastq.gz",
+          "GLDS-269_Amplicon_V03A-Ground_Root_A_S37_L001_R2_raw.fastq.gz",
+          "GLDS-269_Amplicon_V03A-Ground_Root_B_S40_L001_R1_raw.fastq.gz",
+          "GLDS-269_Amplicon_V03A-Ground_Root_B_S40_L001_R2_raw.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Plant_A-4_S45_L001_R1_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Plant_A-4_S45_L001_R2_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Plant_A-4_S45_L001_R1_filtered.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Plant_A-4_S45_L001_R2_filtered.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Plant_B-4_S47_L001_R1_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Plant_B-4_S47_L001_R2_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Plant_B-4_S47_L001_R1_filtered.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Plant_B-4_S47_L001_R2_filtered.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Plant_C-4_S49_L001_R1_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Plant_C-4_S49_L001_R2_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Plant_C-4_S49_L001_R1_filtered.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Plant_C-4_S49_L001_R2_filtered.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Plant_D-4_S51_L001_R1_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Plant_D-4_S51_L001_R2_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Plant_D-4_S51_L001_R1_filtered.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Plant_D-4_S51_L001_R2_filtered.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Plant_E-4_S53_L001_R1_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Plant_E-4_S53_L001_R2_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Plant_E-4_S53_L001_R1_filtered.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Plant_E-4_S53_L001_R2_filtered.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Plant_F-4_S55_L001_R1_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Plant_F-4_S55_L001_R2_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Plant_F-4_S55_L001_R1_filtered.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Plant_F-4_S55_L001_R2_filtered.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Root_A_S29_L001_R1_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Root_A_S29_L001_R2_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Root_A_S29_L001_R1_filtered.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Root_A_S29_L001_R2_filtered.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Root_B_S32_L001_R1_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Root_B_S32_L001_R2_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Root_B_S32_L001_R1_filtered.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Root_B_S32_L001_R2_filtered.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Ground_Plant_A-4_S4_L001_R1_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Ground_Plant_A-4_S4_L001_R2_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Ground_Plant_A-4_S4_L001_R1_filtered.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Ground_Plant_A-4_S4_L001_R2_filtered.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Ground_Plant_B-4_S9_L001_R1_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Ground_Plant_B-4_S9_L001_R2_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Ground_Plant_B-4_S9_L001_R1_filtered.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Ground_Plant_B-4_S9_L001_R2_filtered.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Ground_Plant_C-4_S14_L001_R1_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Ground_Plant_C-4_S14_L001_R2_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Ground_Plant_C-4_S14_L001_R1_filtered.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Ground_Plant_C-4_S14_L001_R2_filtered.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Ground_Plant_D-4_S19_L001_R1_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Ground_Plant_D-4_S19_L001_R2_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Ground_Plant_D-4_S19_L001_R1_filtered.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Ground_Plant_D-4_S19_L001_R2_filtered.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Ground_Plant_F-4_S24_L001_R1_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Ground_Plant_F-4_S24_L001_R2_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Ground_Plant_F-4_S24_L001_R1_filtered.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Ground_Plant_F-4_S24_L001_R2_filtered.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Ground_Root_A_S37_L001_R1_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Ground_Root_A_S37_L001_R2_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Ground_Root_A_S37_L001_R1_filtered.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Ground_Root_A_S37_L001_R2_filtered.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Ground_Root_B_S40_L001_R1_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Ground_Root_B_S40_L001_R2_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Ground_Root_B_S40_L001_R1_filtered.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Ground_Root_B_S40_L001_R2_filtered.fastq.gz"
+        ],
+        "processed": [
+          "GLDS-269_GAmplicon_V03A-Flt_Plant_A-4_S45_L001_R1_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Plant_A-4_S45_L001_R2_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Plant_B-4_S47_L001_R1_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Plant_B-4_S47_L001_R2_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Plant_C-4_S49_L001_R1_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Plant_C-4_S49_L001_R2_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Plant_D-4_S51_L001_R1_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Plant_D-4_S51_L001_R2_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Plant_E-4_S53_L001_R1_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Plant_E-4_S53_L001_R2_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Plant_F-4_S55_L001_R1_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Plant_F-4_S55_L001_R2_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Root_A_S29_L001_R1_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Root_A_S29_L001_R2_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Root_B_S32_L001_R1_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Flt_Root_B_S32_L001_R2_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Ground_Plant_A-4_S4_L001_R1_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Ground_Plant_A-4_S4_L001_R2_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Ground_Plant_B-4_S9_L001_R1_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Ground_Plant_B-4_S9_L001_R2_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Ground_Plant_C-4_S14_L001_R1_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Ground_Plant_C-4_S14_L001_R2_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Ground_Plant_D-4_S19_L001_R1_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Ground_Plant_D-4_S19_L001_R2_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Ground_Plant_F-4_S24_L001_R1_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Ground_Plant_F-4_S24_L001_R2_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Ground_Root_A_S37_L001_R1_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Ground_Root_A_S37_L001_R2_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Ground_Root_B_S40_L001_R1_trimmed.fastq.gz",
+          "GLDS-269_GAmplicon_V03A-Ground_Root_B_S40_L001_R2_trimmed.fastq.gz",
+          "Flight Plant Leaf A",
+          "GeneLab amplicon-seq data processing protocol",
+          "Bioanalyzer or Qubit",
+          "DNA 1000 or Qubit HS dsDNA assay",
+          "F",
+          "5’-GTGCCAGCMGCCGCGGTAA-3’",
+          "R",
+          "5’-GGACTACHVGGGTWTCTAAT-3’",
+          "PAIRED",
+          "AMPLICON",
+          "OSD",
+          "https://osdr.nasa.gov/",
+          "PCR",
+          "291",
+          "read",
+          "16s",
+          "Illumina MiSeq",
+          "amplicon sequencing",
+          "65022",
+          "GLDS-269_GAmplicon_README.txt",
+          "GLDS-269_GAmplicon_taxonomy.tsv",
+          "GLDS-269_GAmplicon_taxonomy-and-counts.tsv",
+          "GLDS-269_GAmplicon_taxonomy-and-counts.biom.zip",
+          "GLDS-269_GAmplicon_read-count-tracking.tsv",
+          "GLDS-269_GAmplicon_counts.tsv",
+          "GLDS-269_GAmplicon_ASVs.fasta",
+          "GLDS-269_GAmplicon_processing_info.zip",
+          "Flight Plant Leaf B",
+          "11328",
+          "Flight Plant Leaf C",
+          "230938",
+          "Flight Plant Leaf D",
+          "210893",
+          "Flight Plant Leaf E",
+          "191097",
+          "Flight Plant Leaf F",
+          "13195",
+          "Flight Plant Root A",
+          "205292",
+          "Flight Plant Root B",
+          "177715",
+          "Ground Plant Leaf A",
+          "159356",
+          "Ground Plant Leaf B",
+          "218455",
+          "Ground Plant Leaf C",
+          "156663",
+          "Ground Plant Leaf D",
+          "230916",
+          "Ground Plant Leaf F",
+          "178755",
+          "Ground Plant Root A",
+          "163196",
+          "Ground Plant Root B",
+          "179587"
+        ],
+        "reports": [
+          "GLDS-269_GAmplicon_raw_multiqc_report.html",
+          "GLDS-269_GAmplicon_raw_multiqc_data.zip",
+          "GLDS-269_GAmplicon_filtered_multiqc_report.html",
+          "GLDS-269_GAmplicon_filtered_multiqc_data.zip"
+        ]
+      }
+    }
+  ]
+}

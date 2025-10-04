@@ -1,0 +1,1172 @@
+{
+  "investigation": {
+    "id": "OSD-211",
+    "title": "Transcriptomic analysis of spleens from mice subjected to chronic low-dose radiation, hindlimb unloading or a combination of both",
+    "description": "The purpose of this study was to evaluate transcriptional changes in mouse spleens using a ground-based model for spaceflight. This model includes prolonged unloading and low-dose irradiation.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "Hindlimb_Unloading, Gamma_Irradiation, Low_LET_Irradiation, Low_Dose_Irradiation",
+      "title": "",
+      "type": "Ground Study",
+      "link": "https://lsda.jsc.nasa.gov/Experiment/exper/13471",
+      "funding": "This study was supported by NASA grant NNX13AL97G and 80NSSC17K0693 to Xiao W Mao, and the sequencing analysis was funded by NASA Space Biology Program Office, Space Life and Physical Sciences Research and Applications Division through a collaborative effort with GeneLab.",
+      "managing_center": ""
+    },
+    "protocols": [
+      "nucleic acid extraction",
+      "spike-in protocol",
+      "library construction",
+      "nucleic acid sequencing",
+      "GeneLab RNAseq data processing protocol",
+      "treatment protocol",
+      "sample collection"
+    ],
+    "publications": [],
+    "factors": [
+      "Ionizing Radiation",
+      "Hindlimb Unloading"
+    ],
+    "contacts": [
+      {
+        "first_name": "Jonathan",
+        "last_name": "Galazka",
+        "role": "Conceptualization",
+        "email": "jonathan.m.galazka@nasa.gov"
+      },
+      {
+        "first_name": "Xiao",
+        "last_name": "Mao",
+        "role": "Conceptualization",
+        "email": ""
+      },
+      {
+        "first_name": "San-Huei",
+        "last_name": "Lai Polo",
+        "role": "Data Curation",
+        "email": ""
+      },
+      {
+        "first_name": "Amanda",
+        "last_name": "Saravia-Butler",
+        "role": "Formal Analysis",
+        "email": ""
+      },
+      {
+        "first_name": "Homer",
+        "last_name": "Fogle",
+        "role": "Formal Analysis",
+        "email": ""
+      },
+      {
+        "first_name": "Nicholas",
+        "last_name": "Bense",
+        "role": "Formal Analysis",
+        "email": ""
+      },
+      {
+        "first_name": "Marie",
+        "last_name": "Dinh",
+        "role": "Investigation",
+        "email": ""
+      },
+      {
+        "first_name": "Valery",
+        "last_name": "Boyko",
+        "role": "Investigation",
+        "email": ""
+      },
+      {
+        "first_name": "Sylvain",
+        "last_name": "Costes",
+        "role": "Project Administration",
+        "email": ""
+      },
+      {
+        "first_name": "Samrawit",
+        "last_name": "Gebre",
+        "role": "Project Administration",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "Mmus_C57-6J_SPL_HLLC_IRC_Rep1_M18",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "Age": "6",
+          "Material Type": "Spleen"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "non-irradiated"
+        },
+        "parameters": {
+          "Exposure Duration": "21",
+          "Time of Sample Collection After Treatment": "7",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SPL_HLLC_IRC_Rep2_M21",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "Age": "6",
+          "Material Type": "Spleen"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "non-irradiated"
+        },
+        "parameters": {
+          "Exposure Duration": "21",
+          "Time of Sample Collection After Treatment": "7",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SPL_HLLC_IRC_Rep3_M22",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "Age": "6",
+          "Material Type": "Spleen"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "non-irradiated"
+        },
+        "parameters": {
+          "Exposure Duration": "21",
+          "Time of Sample Collection After Treatment": "7",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SPL_HLLC_IRC_Rep4_M25",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "Age": "6",
+          "Material Type": "Spleen"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "non-irradiated"
+        },
+        "parameters": {
+          "Exposure Duration": "21",
+          "Time of Sample Collection After Treatment": "7",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SPL_HLLC_IRC_Rep5_M2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "Age": "6",
+          "Material Type": "Spleen"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "non-irradiated"
+        },
+        "parameters": {
+          "Exposure Duration": "21",
+          "Time of Sample Collection After Treatment": "7",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SPL_HLLC_IRC_Rep6_M12",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "Age": "6",
+          "Material Type": "Spleen"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "non-irradiated"
+        },
+        "parameters": {
+          "Exposure Duration": "21",
+          "Time of Sample Collection After Treatment": "7",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SPL_HLLC_IR_Rep1_M7",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "Age": "6",
+          "Material Type": "Spleen"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "Irradiated with 0.04 Gy 57Co"
+        },
+        "parameters": {
+          "Exposure Duration": "21",
+          "Time of Sample Collection After Treatment": "7",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SPL_HLLC_IR_Rep2_M13",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "Age": "6",
+          "Material Type": "Spleen"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "Irradiated with 0.04 Gy 57Co"
+        },
+        "parameters": {
+          "Exposure Duration": "21",
+          "Time of Sample Collection After Treatment": "7",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SPL_HLLC_IR_Rep3_M14",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "Age": "6",
+          "Material Type": "Spleen"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "Irradiated with 0.04 Gy 57Co"
+        },
+        "parameters": {
+          "Exposure Duration": "21",
+          "Time of Sample Collection After Treatment": "7",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SPL_HLLC_IR_Rep4_M23",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "Age": "6",
+          "Material Type": "Spleen"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "Irradiated with 0.04 Gy 57Co"
+        },
+        "parameters": {
+          "Exposure Duration": "21",
+          "Time of Sample Collection After Treatment": "7",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SPL_HLLC_IR_Rep5_M24",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "Age": "6",
+          "Material Type": "Spleen"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "Irradiated with 0.04 Gy 57Co"
+        },
+        "parameters": {
+          "Exposure Duration": "21",
+          "Time of Sample Collection After Treatment": "7",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SPL_HLLC_IR_Rep6_M1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "Age": "6",
+          "Material Type": "Spleen"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Ionizing Radiation": "Irradiated with 0.04 Gy 57Co"
+        },
+        "parameters": {
+          "Exposure Duration": "21",
+          "Time of Sample Collection After Treatment": "7",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SPL_HLU_IRC_Rep1_M8",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "Age": "6",
+          "Material Type": "Spleen"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "non-irradiated"
+        },
+        "parameters": {
+          "Exposure Duration": "21",
+          "Time of Sample Collection After Treatment": "7",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SPL_HLU_IRC_Rep2_M10",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "Age": "6",
+          "Material Type": "Spleen"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "non-irradiated"
+        },
+        "parameters": {
+          "Exposure Duration": "21",
+          "Time of Sample Collection After Treatment": "7",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SPL_HLU_IRC_Rep3_M16",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "Age": "6",
+          "Material Type": "Spleen"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "non-irradiated"
+        },
+        "parameters": {
+          "Exposure Duration": "21",
+          "Time of Sample Collection After Treatment": "7",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SPL_HLU_IR_Rep1_M3",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "Age": "6",
+          "Material Type": "Spleen"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "Irradiated with 0.04 Gy 57Co"
+        },
+        "parameters": {
+          "Exposure Duration": "21",
+          "Time of Sample Collection After Treatment": "7",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SPL_HLU_IR_Rep2_M9",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "Age": "6",
+          "Material Type": "Spleen"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "Irradiated with 0.04 Gy 57Co"
+        },
+        "parameters": {
+          "Exposure Duration": "21",
+          "Time of Sample Collection After Treatment": "7",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SPL_HLU_IR_Rep3_M11",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "Age": "6",
+          "Material Type": "Spleen"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "Irradiated with 0.04 Gy 57Co"
+        },
+        "parameters": {
+          "Exposure Duration": "21",
+          "Time of Sample Collection After Treatment": "7",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SPL_HLU_IR_Rep4_M15",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "Age": "6",
+          "Material Type": "Spleen"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "Irradiated with 0.04 Gy 57Co"
+        },
+        "parameters": {
+          "Exposure Duration": "21",
+          "Time of Sample Collection After Treatment": "7",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SPL_HLU_IR_Rep5_M17",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "Age": "6",
+          "Material Type": "Spleen"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "Irradiated with 0.04 Gy 57Co"
+        },
+        "parameters": {
+          "Exposure Duration": "21",
+          "Time of Sample Collection After Treatment": "7",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SPL_HLU_IR_Rep6_M19",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "Age": "6",
+          "Material Type": "Spleen"
+        },
+        "factors": {
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Ionizing Radiation": "Irradiated with 0.04 Gy 57Co"
+        },
+        "parameters": {
+          "Exposure Duration": "21",
+          "Time of Sample Collection After Treatment": "7",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina NovaSeq 6000",
+      "qc": {
+        "QA Instrument": "Agilent 2100 Bioanalyzer",
+        "QA Assay": "RNA 6000 Nano Assay",
+        "QA Score": "7.1",
+        "Read Depth": "112571921",
+        "rRNA Contamination": "4.84"
+      },
+      "library": {
+        "Library QA Instrument": "Agilent 4200 TapeStation"
+      },
+      "files": {
+        "raw": [
+          "\"GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep1_M18_R1_raw.fastq.gz",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep1_M18_R2_raw.fastq.gz\"",
+          "\"GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep2_M21_R1_raw.fastq.gz",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep2_M21_R2_raw.fastq.gz\"",
+          "\"GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep3_M22_R1_raw.fastq.gz",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep3_M22_R2_raw.fastq.gz\"",
+          "\"GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep4_M25_R1_raw.fastq.gz",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep4_M25_R2_raw.fastq.gz\"",
+          "\"GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep5_M2_R1_raw.fastq.gz",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep5_M2_R2_raw.fastq.gz\"",
+          "\"GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep6_M12_R1_raw.fastq.gz",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep6_M12_R2_raw.fastq.gz\"",
+          "\"GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IR_Rep1_M7_R1_raw.fastq.gz",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IR_Rep1_M7_R2_raw.fastq.gz\"",
+          "\"GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IR_Rep2_M13_R1_raw.fastq.gz",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IR_Rep2_M13_R2_raw.fastq.gz\"",
+          "\"GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IR_Rep3_M14_R1_raw.fastq.gz",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IR_Rep3_M14_R2_raw.fastq.gz\"",
+          "\"GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IR_Rep4_M23_R1_raw.fastq.gz",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IR_Rep4_M23_R2_raw.fastq.gz\"",
+          "\"GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IR_Rep5_M24_R1_raw.fastq.gz",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IR_Rep5_M24_R2_raw.fastq.gz\"",
+          "\"GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IR_Rep6_M1_R1_raw.fastq.gz",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IR_Rep6_M1_R2_raw.fastq.gz\"",
+          "\"GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IRC_Rep1_M8_R1_raw.fastq.gz",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IRC_Rep1_M8_R2_raw.fastq.gz\"",
+          "\"GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IRC_Rep2_M10_R1_raw.fastq.gz",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IRC_Rep2_M10_R2_raw.fastq.gz\"",
+          "\"GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IRC_Rep3_M16_R1_raw.fastq.gz",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IRC_Rep3_M16_R2_raw.fastq.gz\"",
+          "\"GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IR_Rep1_M3_R1_raw.fastq.gz",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IR_Rep1_M3_R2_raw.fastq.gz\"",
+          "\"GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IR_Rep2_M9_R1_raw.fastq.gz",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IR_Rep2_M9_R2_raw.fastq.gz\"",
+          "\"GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IR_Rep3_M11_R1_raw.fastq.gz",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IR_Rep3_M11_R2_raw.fastq.gz\"",
+          "\"GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IR_Rep4_M15_R1_raw.fastq.gz",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IR_Rep4_M15_R2_raw.fastq.gz\"",
+          "\"GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IR_Rep5_M17_R1_raw.fastq.gz",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IR_Rep5_M17_R2_raw.fastq.gz\"",
+          "\"GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IR_Rep6_M19_R1_raw.fastq.gz",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IR_Rep6_M19_R2_raw.fastq.gz\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep1_M18_R1_trimmed.fastq.gz",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep2_M21_R1_trimmed.fastq.gz",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep3_M22_R1_trimmed.fastq.gz",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep4_M25_R1_trimmed.fastq.gz",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep5_M2_R1_trimmed.fastq.gz",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep6_M12_R1_trimmed.fastq.gz",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep1_M7_R1_trimmed.fastq.gz",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep2_M13_R1_trimmed.fastq.gz",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep3_M14_R1_trimmed.fastq.gz",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep4_M23_R1_trimmed.fastq.gz",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep5_M24_R1_trimmed.fastq.gz",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep6_M1_R1_trimmed.fastq.gz",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep1_M8_R1_trimmed.fastq.gz",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep2_M10_R1_trimmed.fastq.gz",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep3_M16_R1_trimmed.fastq.gz",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep1_M3_R1_trimmed.fastq.gz",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep2_M9_R1_trimmed.fastq.gz",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep3_M11_R1_trimmed.fastq.gz",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep4_M15_R1_trimmed.fastq.gz",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep5_M17_R1_trimmed.fastq.gz",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep6_M19_R1_trimmed.fastq.gz"
+        ],
+        "processed": [
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep1_M18_R1_trimmed.fastq.gz",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep1_M18_R2_trimmed.fastq.gz\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep1_M18_Aligned.sortedByCoord.out.bam",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep1_M18_Aligned.toTranscriptome.out.bam",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep1_M18_SJ.out.tab\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep1_M18.genes.results",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep1_M18.isoforms.results",
+          "GLDS-211_rna_seq_Unnormalized_Counts.csv\"",
+          "\"GLDS-211_rna_seq_Normalized_Counts.csv",
+          "GLDS-211_rna_seq_ERCC_Normalized_Counts.csv\"",
+          "\"GLDS-211_rna_seq_contrasts.csv",
+          "GLDS-211_rna_seq_differential_expression.csv",
+          "GLDS-211_rna_seq_ERCCnorm_contrasts.csv",
+          "GLDS-211_rna_seq_ERCCnorm_differential_expression.csv",
+          "GLDS-211_rna_seq_SampleTable.csv\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep2_M21_R1_trimmed.fastq.gz",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep2_M21_R2_trimmed.fastq.gz\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep2_M21_Aligned.sortedByCoord.out.bam",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep2_M21_Aligned.toTranscriptome.out.bam",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep2_M21_SJ.out.tab\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep2_M21.genes.results",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep2_M21.isoforms.results",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep3_M22_R1_trimmed.fastq.gz",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep3_M22_R2_trimmed.fastq.gz\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep3_M22_Aligned.sortedByCoord.out.bam",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep3_M22_Aligned.toTranscriptome.out.bam",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep3_M22_SJ.out.tab\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep3_M22.genes.results",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep3_M22.isoforms.results",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep4_M25_R1_trimmed.fastq.gz",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep4_M25_R2_trimmed.fastq.gz\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep4_M25_Aligned.sortedByCoord.out.bam",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep4_M25_Aligned.toTranscriptome.out.bam",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep4_M25_SJ.out.tab\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep4_M25.genes.results",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep4_M25.isoforms.results",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep5_M2_R1_trimmed.fastq.gz",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep5_M2_R2_trimmed.fastq.gz\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep5_M2_Aligned.sortedByCoord.out.bam",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep5_M2_Aligned.toTranscriptome.out.bam",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep5_M2_SJ.out.tab\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep5_M2.genes.results",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep5_M2.isoforms.results",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep6_M12_R1_trimmed.fastq.gz",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep6_M12_R2_trimmed.fastq.gz\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep6_M12_Aligned.sortedByCoord.out.bam",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep6_M12_Aligned.toTranscriptome.out.bam",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep6_M12_SJ.out.tab\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep6_M12.genes.results",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep6_M12.isoforms.results",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep1_M7_R1_trimmed.fastq.gz",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep1_M7_R2_trimmed.fastq.gz\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep1_M7_Aligned.sortedByCoord.out.bam",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep1_M7_Aligned.toTranscriptome.out.bam",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep1_M7_SJ.out.tab\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep1_M7.genes.results",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep1_M7.isoforms.results",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep2_M13_R1_trimmed.fastq.gz",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep2_M13_R2_trimmed.fastq.gz\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep2_M13_Aligned.sortedByCoord.out.bam",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep2_M13_Aligned.toTranscriptome.out.bam",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep2_M13_SJ.out.tab\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep2_M13.genes.results",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep2_M13.isoforms.results",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep3_M14_R1_trimmed.fastq.gz",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep3_M14_R2_trimmed.fastq.gz\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep3_M14_Aligned.sortedByCoord.out.bam",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep3_M14_Aligned.toTranscriptome.out.bam",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep3_M14_SJ.out.tab\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep3_M14.genes.results",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep3_M14.isoforms.results",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep4_M23_R1_trimmed.fastq.gz",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep4_M23_R2_trimmed.fastq.gz\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep4_M23_Aligned.sortedByCoord.out.bam",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep4_M23_Aligned.toTranscriptome.out.bam",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep4_M23_SJ.out.tab\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep4_M23.genes.results",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep4_M23.isoforms.results",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep5_M24_R1_trimmed.fastq.gz",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep5_M24_R2_trimmed.fastq.gz\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep5_M24_Aligned.sortedByCoord.out.bam",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep5_M24_Aligned.toTranscriptome.out.bam",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep5_M24_SJ.out.tab\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep5_M24.genes.results",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep5_M24.isoforms.results",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep6_M1_R1_trimmed.fastq.gz",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep6_M1_R2_trimmed.fastq.gz\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep6_M1_Aligned.sortedByCoord.out.bam",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep6_M1_Aligned.toTranscriptome.out.bam",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep6_M1_SJ.out.tab\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep6_M1.genes.results",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep6_M1.isoforms.results",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep1_M8_R1_trimmed.fastq.gz",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep1_M8_R2_trimmed.fastq.gz\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep1_M8_Aligned.sortedByCoord.out.bam",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep1_M8_Aligned.toTranscriptome.out.bam",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep1_M8_SJ.out.tab\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep1_M8.genes.results",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep1_M8.isoforms.results",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep2_M10_R1_trimmed.fastq.gz",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep2_M10_R2_trimmed.fastq.gz\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep2_M10_Aligned.sortedByCoord.out.bam",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep2_M10_Aligned.toTranscriptome.out.bam",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep2_M10_SJ.out.tab\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep2_M10.genes.results",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep2_M10.isoforms.results",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep3_M16_R1_trimmed.fastq.gz",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep3_M16_R2_trimmed.fastq.gz\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep3_M16_Aligned.sortedByCoord.out.bam",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep3_M16_Aligned.toTranscriptome.out.bam",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep3_M16_SJ.out.tab\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep3_M16.genes.results",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep3_M16.isoforms.results",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep1_M3_R1_trimmed.fastq.gz",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep1_M3_R2_trimmed.fastq.gz\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep1_M3_Aligned.sortedByCoord.out.bam",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep1_M3_Aligned.toTranscriptome.out.bam",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep1_M3_SJ.out.tab\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep1_M3.genes.results",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep1_M3.isoforms.results",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep2_M9_R1_trimmed.fastq.gz",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep2_M9_R2_trimmed.fastq.gz\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep2_M9_Aligned.sortedByCoord.out.bam",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep2_M9_Aligned.toTranscriptome.out.bam",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep2_M9_SJ.out.tab\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep2_M9.genes.results",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep2_M9.isoforms.results",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep3_M11_R1_trimmed.fastq.gz",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep3_M11_R2_trimmed.fastq.gz\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep3_M11_Aligned.sortedByCoord.out.bam",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep3_M11_Aligned.toTranscriptome.out.bam",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep3_M11_SJ.out.tab\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep3_M11.genes.results",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep3_M11.isoforms.results",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep4_M15_R1_trimmed.fastq.gz",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep4_M15_R2_trimmed.fastq.gz\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep4_M15_Aligned.sortedByCoord.out.bam",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep4_M15_Aligned.toTranscriptome.out.bam",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep4_M15_SJ.out.tab\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep4_M15.genes.results",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep4_M15.isoforms.results",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep5_M17_R1_trimmed.fastq.gz",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep5_M17_R2_trimmed.fastq.gz\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep5_M17_Aligned.sortedByCoord.out.bam",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep5_M17_Aligned.toTranscriptome.out.bam",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep5_M17_SJ.out.tab\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep5_M17.genes.results",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep5_M17.isoforms.results",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep6_M19_R1_trimmed.fastq.gz",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep6_M19_R2_trimmed.fastq.gz\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep6_M19_Aligned.sortedByCoord.out.bam",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep6_M19_Aligned.toTranscriptome.out.bam",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep6_M19_SJ.out.tab\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep6_M19.genes.results",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep6_M19.isoforms.results",
+          "Mmus_C57-6J_SPL_HLLC_IRC_Rep1_M18",
+          "GeneLab RNAseq data processing protocol",
+          "Agilent 2100 Bioanalyzer",
+          "RNA 6000 Nano Assay",
+          "7.1",
+          "read",
+          "ERCC ExFold RNA Spike-In Mix",
+          "Mix 2",
+          "Ribo-depletion",
+          "PAIRED",
+          "STRANDED",
+          "Agilent 4200 TapeStation",
+          "D1000 ScreenTape",
+          "278",
+          "Illumina NovaSeq 6000",
+          "98",
+          "bcl2fastq",
+          "rna-seq",
+          "4.84",
+          "112571921",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep1_M18_R2_raw.fastq.gz\"",
+          "GLDS-211_rna_seq_ERCC_analysis.html",
+          "Mmus_C57-6J_SPL_HLLC_IRC_Rep2_M21",
+          "8.5",
+          "Mix 1",
+          "283",
+          "2.61",
+          "99414837",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep2_M21_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SPL_HLLC_IRC_Rep3_M22",
+          "7.3",
+          "280",
+          "6.7",
+          "75291751",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep3_M22_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SPL_HLLC_IRC_Rep4_M25",
+          "6.2",
+          "2.44",
+          "96715897",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep4_M25_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SPL_HLLC_IRC_Rep5_M2",
+          "4.4",
+          "269",
+          "11.23",
+          "68984868",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep5_M2_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SPL_HLLC_IRC_Rep6_M12",
+          "8.9",
+          "266",
+          "3.49",
+          "83470973",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep6_M12_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SPL_HLLC_IR_Rep1_M7",
+          "7.8",
+          "2.08",
+          "95420349",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IR_Rep1_M7_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SPL_HLLC_IR_Rep2_M13",
+          "9.7",
+          "282",
+          "1.08",
+          "93487929",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IR_Rep2_M13_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SPL_HLLC_IR_Rep3_M14",
+          "7.4",
+          "3.17",
+          "95390310",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IR_Rep3_M14_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SPL_HLLC_IR_Rep4_M23",
+          "6",
+          "276",
+          "6.28",
+          "78295641",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IR_Rep4_M23_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SPL_HLLC_IR_Rep5_M24",
+          "8.3",
+          "1.55",
+          "107239484",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IR_Rep5_M24_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SPL_HLLC_IR_Rep6_M1",
+          "260",
+          "5.87",
+          "63218972",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IR_Rep6_M1_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SPL_HLU_IRC_Rep1_M8",
+          "4.9",
+          "8.52",
+          "47938198",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IRC_Rep1_M8_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SPL_HLU_IRC_Rep2_M10",
+          "4.57",
+          "61154472",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IRC_Rep2_M10_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SPL_HLU_IRC_Rep3_M16",
+          "7.7",
+          "274",
+          "4.75",
+          "82337455",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IRC_Rep3_M16_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SPL_HLU_IR_Rep1_M3",
+          "4.6",
+          "273",
+          "7.87",
+          "52851385",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IR_Rep1_M3_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SPL_HLU_IR_Rep2_M9",
+          "7.2",
+          "271",
+          "5.94",
+          "43892433",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IR_Rep2_M9_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SPL_HLU_IR_Rep3_M11",
+          "281",
+          "5.02",
+          "92411600",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IR_Rep3_M11_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SPL_HLU_IR_Rep4_M15",
+          "5.5",
+          "7.66",
+          "69989753",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IR_Rep4_M15_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SPL_HLU_IR_Rep5_M17",
+          "7.5",
+          "270",
+          "5.17",
+          "86849289",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IR_Rep5_M17_R2_raw.fastq.gz\"",
+          "Mmus_C57-6J_SPL_HLU_IR_Rep6_M19",
+          "4.14",
+          "93568973",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IR_Rep6_M19_R2_raw.fastq.gz\""
+        ],
+        "reports": [
+          "\"GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep1_M18_R1_raw_fastqc.html",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep1_M18_R1_raw_fastqc.zip",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep1_M18_R2_raw_fastqc.html",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep1_M18_R2_raw_fastqc.zip\"",
+          "\"GLDS-211_rna-seq_raw_multiqc_data.zip",
+          "GLDS-211_rna-seq_raw_multiqc_report.html\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep1_M18_R1_trimmed_fastqc.html",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep1_M18_R1_trimmed_fastqc.zip< GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep1_M18_R2_trimmed_fastqc.html",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep1_M18_R2_trimmed_fastqc.zip\"",
+          "\"GLDS-211_rna_seq_trimmed_multiqc_report.html",
+          "GLDS-211_rna_seq_trimmed_multiqc_data.zip\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep1_M18_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep1_M18_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep1_M18_Log.final.out",
+          "\"GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep2_M21_R1_raw_fastqc.html",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep2_M21_R1_raw_fastqc.zip",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep2_M21_R2_raw_fastqc.html",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep2_M21_R2_raw_fastqc.zip\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep2_M21_R1_trimmed_fastqc.html",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep2_M21_R1_trimmed_fastqc.zip< GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep2_M21_R2_trimmed_fastqc.html",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep2_M21_R2_trimmed_fastqc.zip\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep2_M21_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep2_M21_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep2_M21_Log.final.out",
+          "\"GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep3_M22_R1_raw_fastqc.html",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep3_M22_R1_raw_fastqc.zip",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep3_M22_R2_raw_fastqc.html",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep3_M22_R2_raw_fastqc.zip\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep3_M22_R1_trimmed_fastqc.html",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep3_M22_R1_trimmed_fastqc.zip< GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep3_M22_R2_trimmed_fastqc.html",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep3_M22_R2_trimmed_fastqc.zip\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep3_M22_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep3_M22_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep3_M22_Log.final.out",
+          "\"GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep4_M25_R1_raw_fastqc.html",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep4_M25_R1_raw_fastqc.zip",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep4_M25_R2_raw_fastqc.html",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep4_M25_R2_raw_fastqc.zip\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep4_M25_R1_trimmed_fastqc.html",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep4_M25_R1_trimmed_fastqc.zip< GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep4_M25_R2_trimmed_fastqc.html",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep4_M25_R2_trimmed_fastqc.zip\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep4_M25_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep4_M25_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep4_M25_Log.final.out",
+          "\"GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep5_M2_R1_raw_fastqc.html",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep5_M2_R1_raw_fastqc.zip",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep5_M2_R2_raw_fastqc.html",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep5_M2_R2_raw_fastqc.zip\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep5_M2_R1_trimmed_fastqc.html",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep5_M2_R1_trimmed_fastqc.zip< GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep5_M2_R2_trimmed_fastqc.html",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep5_M2_R2_trimmed_fastqc.zip\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep5_M2_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep5_M2_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep5_M2_Log.final.out",
+          "\"GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep6_M12_R1_raw_fastqc.html",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep6_M12_R1_raw_fastqc.zip",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep6_M12_R2_raw_fastqc.html",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep6_M12_R2_raw_fastqc.zip\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep6_M12_R1_trimmed_fastqc.html",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep6_M12_R1_trimmed_fastqc.zip< GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep6_M12_R2_trimmed_fastqc.html",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep6_M12_R2_trimmed_fastqc.zip\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep6_M12_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep6_M12_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IRC_Rep6_M12_Log.final.out",
+          "\"GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IR_Rep1_M7_R1_raw_fastqc.html",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IR_Rep1_M7_R1_raw_fastqc.zip",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IR_Rep1_M7_R2_raw_fastqc.html",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IR_Rep1_M7_R2_raw_fastqc.zip\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep1_M7_R1_trimmed_fastqc.html",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep1_M7_R1_trimmed_fastqc.zip< GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep1_M7_R2_trimmed_fastqc.html",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep1_M7_R2_trimmed_fastqc.zip\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep1_M7_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep1_M7_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep1_M7_Log.final.out",
+          "\"GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IR_Rep2_M13_R1_raw_fastqc.html",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IR_Rep2_M13_R1_raw_fastqc.zip",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IR_Rep2_M13_R2_raw_fastqc.html",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IR_Rep2_M13_R2_raw_fastqc.zip\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep2_M13_R1_trimmed_fastqc.html",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep2_M13_R1_trimmed_fastqc.zip< GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep2_M13_R2_trimmed_fastqc.html",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep2_M13_R2_trimmed_fastqc.zip\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep2_M13_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep2_M13_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep2_M13_Log.final.out",
+          "\"GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IR_Rep3_M14_R1_raw_fastqc.html",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IR_Rep3_M14_R1_raw_fastqc.zip",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IR_Rep3_M14_R2_raw_fastqc.html",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IR_Rep3_M14_R2_raw_fastqc.zip\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep3_M14_R1_trimmed_fastqc.html",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep3_M14_R1_trimmed_fastqc.zip< GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep3_M14_R2_trimmed_fastqc.html",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep3_M14_R2_trimmed_fastqc.zip\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep3_M14_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep3_M14_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep3_M14_Log.final.out",
+          "\"GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IR_Rep4_M23_R1_raw_fastqc.html",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IR_Rep4_M23_R1_raw_fastqc.zip",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IR_Rep4_M23_R2_raw_fastqc.html",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IR_Rep4_M23_R2_raw_fastqc.zip\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep4_M23_R1_trimmed_fastqc.html",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep4_M23_R1_trimmed_fastqc.zip< GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep4_M23_R2_trimmed_fastqc.html",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep4_M23_R2_trimmed_fastqc.zip\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep4_M23_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep4_M23_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep4_M23_Log.final.out",
+          "\"GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IR_Rep5_M24_R1_raw_fastqc.html",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IR_Rep5_M24_R1_raw_fastqc.zip",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IR_Rep5_M24_R2_raw_fastqc.html",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IR_Rep5_M24_R2_raw_fastqc.zip\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep5_M24_R1_trimmed_fastqc.html",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep5_M24_R1_trimmed_fastqc.zip< GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep5_M24_R2_trimmed_fastqc.html",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep5_M24_R2_trimmed_fastqc.zip\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep5_M24_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep5_M24_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep5_M24_Log.final.out",
+          "\"GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IR_Rep6_M1_R1_raw_fastqc.html",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IR_Rep6_M1_R1_raw_fastqc.zip",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IR_Rep6_M1_R2_raw_fastqc.html",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLLC_IR_Rep6_M1_R2_raw_fastqc.zip\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep6_M1_R1_trimmed_fastqc.html",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep6_M1_R1_trimmed_fastqc.zip< GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep6_M1_R2_trimmed_fastqc.html",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep6_M1_R2_trimmed_fastqc.zip\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep6_M1_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep6_M1_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLLC_IR_Rep6_M1_Log.final.out",
+          "\"GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IRC_Rep1_M8_R1_raw_fastqc.html",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IRC_Rep1_M8_R1_raw_fastqc.zip",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IRC_Rep1_M8_R2_raw_fastqc.html",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IRC_Rep1_M8_R2_raw_fastqc.zip\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep1_M8_R1_trimmed_fastqc.html",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep1_M8_R1_trimmed_fastqc.zip< GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep1_M8_R2_trimmed_fastqc.html",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep1_M8_R2_trimmed_fastqc.zip\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep1_M8_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep1_M8_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep1_M8_Log.final.out",
+          "\"GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IRC_Rep2_M10_R1_raw_fastqc.html",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IRC_Rep2_M10_R1_raw_fastqc.zip",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IRC_Rep2_M10_R2_raw_fastqc.html",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IRC_Rep2_M10_R2_raw_fastqc.zip\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep2_M10_R1_trimmed_fastqc.html",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep2_M10_R1_trimmed_fastqc.zip< GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep2_M10_R2_trimmed_fastqc.html",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep2_M10_R2_trimmed_fastqc.zip\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep2_M10_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep2_M10_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep2_M10_Log.final.out",
+          "\"GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IRC_Rep3_M16_R1_raw_fastqc.html",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IRC_Rep3_M16_R1_raw_fastqc.zip",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IRC_Rep3_M16_R2_raw_fastqc.html",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IRC_Rep3_M16_R2_raw_fastqc.zip\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep3_M16_R1_trimmed_fastqc.html",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep3_M16_R1_trimmed_fastqc.zip< GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep3_M16_R2_trimmed_fastqc.html",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep3_M16_R2_trimmed_fastqc.zip\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep3_M16_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep3_M16_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IRC_Rep3_M16_Log.final.out",
+          "\"GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IR_Rep1_M3_R1_raw_fastqc.html",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IR_Rep1_M3_R1_raw_fastqc.zip",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IR_Rep1_M3_R2_raw_fastqc.html",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IR_Rep1_M3_R2_raw_fastqc.zip\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep1_M3_R1_trimmed_fastqc.html",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep1_M3_R1_trimmed_fastqc.zip< GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep1_M3_R2_trimmed_fastqc.html",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep1_M3_R2_trimmed_fastqc.zip\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep1_M3_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep1_M3_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep1_M3_Log.final.out",
+          "\"GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IR_Rep2_M9_R1_raw_fastqc.html",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IR_Rep2_M9_R1_raw_fastqc.zip",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IR_Rep2_M9_R2_raw_fastqc.html",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IR_Rep2_M9_R2_raw_fastqc.zip\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep2_M9_R1_trimmed_fastqc.html",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep2_M9_R1_trimmed_fastqc.zip< GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep2_M9_R2_trimmed_fastqc.html",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep2_M9_R2_trimmed_fastqc.zip\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep2_M9_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep2_M9_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep2_M9_Log.final.out",
+          "\"GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IR_Rep3_M11_R1_raw_fastqc.html",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IR_Rep3_M11_R1_raw_fastqc.zip",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IR_Rep3_M11_R2_raw_fastqc.html",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IR_Rep3_M11_R2_raw_fastqc.zip\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep3_M11_R1_trimmed_fastqc.html",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep3_M11_R1_trimmed_fastqc.zip< GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep3_M11_R2_trimmed_fastqc.html",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep3_M11_R2_trimmed_fastqc.zip\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep3_M11_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep3_M11_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep3_M11_Log.final.out",
+          "\"GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IR_Rep4_M15_R1_raw_fastqc.html",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IR_Rep4_M15_R1_raw_fastqc.zip",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IR_Rep4_M15_R2_raw_fastqc.html",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IR_Rep4_M15_R2_raw_fastqc.zip\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep4_M15_R1_trimmed_fastqc.html",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep4_M15_R1_trimmed_fastqc.zip< GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep4_M15_R2_trimmed_fastqc.html",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep4_M15_R2_trimmed_fastqc.zip\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep4_M15_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep4_M15_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep4_M15_Log.final.out",
+          "\"GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IR_Rep5_M17_R1_raw_fastqc.html",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IR_Rep5_M17_R1_raw_fastqc.zip",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IR_Rep5_M17_R2_raw_fastqc.html",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IR_Rep5_M17_R2_raw_fastqc.zip\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep5_M17_R1_trimmed_fastqc.html",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep5_M17_R1_trimmed_fastqc.zip< GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep5_M17_R2_trimmed_fastqc.html",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep5_M17_R2_trimmed_fastqc.zip\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep5_M17_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep5_M17_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep5_M17_Log.final.out",
+          "\"GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IR_Rep6_M19_R1_raw_fastqc.html",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IR_Rep6_M19_R1_raw_fastqc.zip",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IR_Rep6_M19_R2_raw_fastqc.html",
+          "GLDS-211_rna-seq_Mmus_C57-6J_SPL_HLU_IR_Rep6_M19_R2_raw_fastqc.zip\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep6_M19_R1_trimmed_fastqc.html",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep6_M19_R1_trimmed_fastqc.zip< GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep6_M19_R2_trimmed_fastqc.html",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep6_M19_R2_trimmed_fastqc.zip\"",
+          "\"GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep6_M19_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep6_M19_R2_raw.fastq.gz_trimming_report.txt\"",
+          "GLDS-211_rna_seq_Mmus_C57-6J_SPL_HLU_IR_Rep6_M19_Log.final.out",
+          "GLDS-211_rna_seq_infer_exp_multiqc_report.zip"
+        ]
+      }
+    }
+  ]
+}

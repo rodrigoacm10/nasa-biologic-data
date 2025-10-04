@@ -1,0 +1,3890 @@
+{
+  "investigation": {
+    "id": "OSD-202",
+    "title": "Low dose (0.04 Gy) irradiation (LDR) and hindlimb unloading (HLU) microgravity in mice: brain transcriptomic and epigenomic data",
+    "description": "The purpose of the present study was to evaluate damage in brain and eye in a ground-based model for spaceflight which includes prolonged unloading and low-dose radiation. Low-dose/Low-dose-rate (LDR) gamma-radiation using 57Co plates (0.04 Gy) was delivered whole-body to mature, 6-month old female C57BL/6 mice to simulate the radiation component.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "Hindlimb_Unloading, Gamma_Irradiation, Low_LET_Irradiation, Low_Dose_Irradiation",
+      "title": "Low dose (0.04 Gy) irradiation (LDR) and hindlimb unloading (HLU) microgravity in mice",
+      "type": "Ground Study",
+      "link": "https://lsda.jsc.nasa.gov/Experiment/exper/13471",
+      "funding": "This study was supported by NASA grant NNX13AL97G and 80NSSC17K0693.",
+      "managing_center": ""
+    },
+    "protocols": [
+      "irradiation protocol",
+      "sample collection",
+      "nucleic acid extraction",
+      "spike-in protocol",
+      "RNA sequencing library construction",
+      "nucleic acid sequencing",
+      "GeneLab RNAseq data processing protocol",
+      "labeling",
+      "nucleic acid hybridization",
+      "data collection",
+      "DNA sequencing library construction"
+    ],
+    "publications": [
+      {
+        "title": "Mice Exposed to Combined Chronic Low-Dose Irradiation and Modeled Microgravity Develop Long-Term Neurological Sequelae",
+        "doi": "10.3390/ijms20174094",
+        "authors": [
+          "Overbey EG",
+          "Paul AM",
+          "da Silveira WA",
+          "Tahimic CGT",
+          "Reinsch SS",
+          "Szewczyk N",
+          "Stanbouly S",
+          "Wang C",
+          "Galazka JM",
+          "Mao XW"
+        ],
+        "summary": "Mice Exposed to Combined Chronic Low-Dose Irradiation and Modeled Microgravity Develop Long-Term Neurological Sequelae — 10.3390/ijms20174094"
+      }
+    ],
+    "factors": [
+      "Ionizing Radiation",
+      "Hindlimb Unloading",
+      "Time of Sample Collection After Treatment"
+    ],
+    "contacts": [
+      {
+        "first_name": "Xiao W",
+        "last_name": "Mao",
+        "role": "Principal Investigator",
+        "email": "xmao@llu.edu"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IRC_7d_Rep1_M2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "7"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_7day_Ctrl_2"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IRC_7d_Rep2_M12",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "7"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_7day_Ctrl_12"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IRC_7d_Rep3_M18",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "7"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_7day_Ctrl_18"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IRC_7d_Rep4_M21",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "7"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_7day_Ctrl_21"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IRC_7d_Rep5_M22",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "7"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_7day_Ctrl_22"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IRC_7d_Rep6_M25",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "7"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_7day_Ctrl_25"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IR_7d_Rep1_M1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "cobalt-57 gamma radiation",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "7"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0.04",
+          "absorbed radiation dose rate": "0.01",
+          "exposure duration": "21",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_7day_IR_1"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IR_7d_Rep2_M7",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "cobalt-57 gamma radiation",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "7"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0.04",
+          "absorbed radiation dose rate": "0.01",
+          "exposure duration": "21",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_7day_IR_7"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IR_7d_Rep3_M13",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "cobalt-57 gamma radiation",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "7"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0.04",
+          "absorbed radiation dose rate": "0.01",
+          "exposure duration": "21",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_7day_IR_13"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IR_7d_Rep4_M14",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "cobalt-57 gamma radiation",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "7"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0.04",
+          "absorbed radiation dose rate": "0.01",
+          "exposure duration": "21",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_7day_IR_14"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IR_7d_Rep5_M23",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "cobalt-57 gamma radiation",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "7"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0.04",
+          "absorbed radiation dose rate": "0.01",
+          "exposure duration": "21",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_7day_IR_23"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IR_7d_Rep6_M24",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "cobalt-57 gamma radiation",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "7"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0.04",
+          "absorbed radiation dose rate": "0.01",
+          "exposure duration": "21",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_7day_IR_24"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLU_IRC_7d_Rep1_M4",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Time of Sample Collection After Treatment": "7"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_7day_HLU_4"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLU_IRC_7d_Rep2_M8",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Time of Sample Collection After Treatment": "7"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_7day_HLU_8"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLU_IRC_7d_Rep3_M10",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Time of Sample Collection After Treatment": "7"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_7day_HLU_10"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLU_IRC_7d_Rep4_M16",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Time of Sample Collection After Treatment": "7"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_7day_HLU_16"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLU_IR_7d_Rep1_M3",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "cobalt-57 gamma radiation",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Time of Sample Collection After Treatment": "7"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0.04",
+          "absorbed radiation dose rate": "0.01",
+          "exposure duration": "21",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_7day_HLU_IR_3"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLU_IR_7d_Rep2_M9",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "cobalt-57 gamma radiation",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Time of Sample Collection After Treatment": "7"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0.04",
+          "absorbed radiation dose rate": "0.01",
+          "exposure duration": "21",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_7day_HLU_IR_9"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLU_IR_7d_Rep3_M11",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "cobalt-57 gamma radiation",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Time of Sample Collection After Treatment": "7"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0.04",
+          "absorbed radiation dose rate": "0.01",
+          "exposure duration": "21",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_7day_HLU_IR_11"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLU_IR_7d_Rep4_M15",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "cobalt-57 gamma radiation",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Time of Sample Collection After Treatment": "7"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0.04",
+          "absorbed radiation dose rate": "0.01",
+          "exposure duration": "21",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_7day_HLU_IR_15"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLU_IR_7d_Rep5_M17",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "cobalt-57 gamma radiation",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Time of Sample Collection After Treatment": "7"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0.04",
+          "absorbed radiation dose rate": "0.01",
+          "exposure duration": "21",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_7day_HLU_IR_17"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLU_IR_7d_Rep6_M19",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "cobalt-57 gamma radiation",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Time of Sample Collection After Treatment": "7"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0.04",
+          "absorbed radiation dose rate": "0.01",
+          "exposure duration": "21",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_7day_HLU_IR_19"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep1_M62",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "1"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_1month_Ctrl_62"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep2_M63",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "1"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_1month_Ctrl_63"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep3_M64",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "1"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_1month_Ctrl_64"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep4_M65",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "1"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_1month_Ctrl_65"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep5_M66",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "1"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_1month_Ctrl_66"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep6_M67",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "1"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_1month_Ctrl_67"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep1_M50",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "cobalt-57 gamma radiation",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "1"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0.04",
+          "absorbed radiation dose rate": "0.01",
+          "exposure duration": "21",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_1month_IR_50"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep2_M51",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "cobalt-57 gamma radiation",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "1"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0.04",
+          "absorbed radiation dose rate": "0.01",
+          "exposure duration": "21",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_1month_IR_51"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep3_M52",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "cobalt-57 gamma radiation",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "1"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0.04",
+          "absorbed radiation dose rate": "0.01",
+          "exposure duration": "21",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_1month_IR_52"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep4_M53",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "cobalt-57 gamma radiation",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "1"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0.04",
+          "absorbed radiation dose rate": "0.01",
+          "exposure duration": "21",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_1month_IR_53"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep5_M54",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "cobalt-57 gamma radiation",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "1"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0.04",
+          "absorbed radiation dose rate": "0.01",
+          "exposure duration": "21",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_1month_IR_54"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep6_M55",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "cobalt-57 gamma radiation",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "1"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0.04",
+          "absorbed radiation dose rate": "0.01",
+          "exposure duration": "21",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_1month_IR_55"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLU_IRC_1mon_Rep1_M68",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Time of Sample Collection After Treatment": "1"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_1month_HLU_68"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLU_IRC_1mon_Rep2_M73",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Time of Sample Collection After Treatment": "1"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_1month_HLU_73"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLU_IR_1mon_Rep1_M56",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "cobalt-57 gamma radiation",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Time of Sample Collection After Treatment": "1"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0.04",
+          "absorbed radiation dose rate": "0.01",
+          "exposure duration": "21",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_1month_HLU_IR_56"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLU_IR_1mon_Rep2_M57",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "cobalt-57 gamma radiation",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Time of Sample Collection After Treatment": "1"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0.04",
+          "absorbed radiation dose rate": "0.01",
+          "exposure duration": "21",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_1month_HLU_IR_57"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLU_IR_1mon_Rep3_M58",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "cobalt-57 gamma radiation",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Time of Sample Collection After Treatment": "1"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0.04",
+          "absorbed radiation dose rate": "0.01",
+          "exposure duration": "21",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_1month_HLU_IR_58"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLU_IR_1mon_Rep4_M59",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "cobalt-57 gamma radiation",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Time of Sample Collection After Treatment": "1"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0.04",
+          "absorbed radiation dose rate": "0.01",
+          "exposure duration": "21",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_1month_HLU_IR_59"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLU_IR_1mon_Rep5_M60",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "cobalt-57 gamma radiation",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Time of Sample Collection After Treatment": "1"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0.04",
+          "absorbed radiation dose rate": "0.01",
+          "exposure duration": "21",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_1month_HLU_IR_60"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLU_IR_1mon_Rep6_M61",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "cobalt-57 gamma radiation",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Time of Sample Collection After Treatment": "1"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0.04",
+          "absorbed radiation dose rate": "0.01",
+          "exposure duration": "21",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_1month_HLU_IR_61"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep1_M83",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "4"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_4 months_Ctrl_83"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep2_M85",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "4"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_4 months_Ctrl_85"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep3_M95",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "4"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_4 months_Ctrl_95"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep4_M97",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "4"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_4 months_Ctrl_97"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep1_M75",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "cobalt-57 gamma radiation",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "4"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0.04",
+          "absorbed radiation dose rate": "0.01",
+          "exposure duration": "21",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_4 months_IR_75"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep2_M80",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "cobalt-57 gamma radiation",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "4"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0.04",
+          "absorbed radiation dose rate": "0.01",
+          "exposure duration": "21",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_4 months_IR_80"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep3_M81",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "cobalt-57 gamma radiation",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "4"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0.04",
+          "absorbed radiation dose rate": "0.01",
+          "exposure duration": "21",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_4 months_IR_81"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep4_M82",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "cobalt-57 gamma radiation",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "4"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0.04",
+          "absorbed radiation dose rate": "0.01",
+          "exposure duration": "21",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_4 months_IR_82"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep5_M84",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "cobalt-57 gamma radiation",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "4"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0.04",
+          "absorbed radiation dose rate": "0.01",
+          "exposure duration": "21",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_4 months_IR_84"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep6_M89",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "cobalt-57 gamma radiation",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "4"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0.04",
+          "absorbed radiation dose rate": "0.01",
+          "exposure duration": "21",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_4 months_IR_89"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep1_M74",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Time of Sample Collection After Treatment": "4"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_4 months_HLU_74"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep2_M78",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Time of Sample Collection After Treatment": "4"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_4 months_HLU_78"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep3_M86",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Time of Sample Collection After Treatment": "4"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_4 months_HLU_86"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep4_M90",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Time of Sample Collection After Treatment": "4"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_4 months_HLU_90"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep5_M93",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Time of Sample Collection After Treatment": "4"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_4 months_HLU_93"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep6_M94",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Time of Sample Collection After Treatment": "4"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_4 months_HLU_94"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLU_IR_4mon_Rep1_M76",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "cobalt-57 gamma radiation",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Time of Sample Collection After Treatment": "4"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0.04",
+          "absorbed radiation dose rate": "0.01",
+          "exposure duration": "21",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_4 months_HLU_IR_76"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLU_IR_4mon_Rep2_M77",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "cobalt-57 gamma radiation",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Time of Sample Collection After Treatment": "4"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0.04",
+          "absorbed radiation dose rate": "0.01",
+          "exposure duration": "21",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_4 months_HLU_IR_77"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLU_IR_4mon_Rep3_M88",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "cobalt-57 gamma radiation",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Time of Sample Collection After Treatment": "4"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0.04",
+          "absorbed radiation dose rate": "0.01",
+          "exposure duration": "21",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_4 months_HLU_IR_88"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLU_IR_4mon_Rep4_M92",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "cobalt-57 gamma radiation",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Time of Sample Collection After Treatment": "4"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0.04",
+          "absorbed radiation dose rate": "0.01",
+          "exposure duration": "21",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_4 months_HLU_IR_92"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IRC_9mon_Rep1_M31",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "9"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_9month_Ctrl_31"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IRC_9mon_Rep2_M33",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "9"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_9month_Ctrl_33"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IRC_9mon_Rep3_M34",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "9"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_9month_Ctrl_34"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IRC_9mon_Rep4_M35",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "9"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_9month_Ctrl_35"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IRC_9mon_Rep5_M46",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "9"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_9month_Ctrl_46"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IRC_9mon_Rep6_M48",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "9"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_9month_Ctrl_48"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IR_9mon_Rep1_M36",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "cobalt-57 gamma radiation",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "9"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0.04",
+          "absorbed radiation dose rate": "0.01",
+          "exposure duration": "21",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_9month_IR_36"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IR_9mon_Rep2_M37",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "cobalt-57 gamma radiation",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "9"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0.04",
+          "absorbed radiation dose rate": "0.01",
+          "exposure duration": "21",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_9month_IR_37"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IR_9mon_Rep3_M42",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "cobalt-57 gamma radiation",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "9"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0.04",
+          "absorbed radiation dose rate": "0.01",
+          "exposure duration": "21",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_9month_IR_42"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IR_9mon_Rep4_M43",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "cobalt-57 gamma radiation",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "9"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0.04",
+          "absorbed radiation dose rate": "0.01",
+          "exposure duration": "21",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_9month_IR_43"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLLC_IR_9mon_Rep5_M49",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "cobalt-57 gamma radiation",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Time of Sample Collection After Treatment": "9"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0.04",
+          "absorbed radiation dose rate": "0.01",
+          "exposure duration": "21",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_9month_IR_49"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLU_IRC_9mon_Rep1_M26",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Time of Sample Collection After Treatment": "9"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_9month_HLU_26"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLU_IRC_9mon_Rep2_M27",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Time of Sample Collection After Treatment": "9"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_9month_HLU_27"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLU_IRC_9mon_Rep3_M30",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Time of Sample Collection After Treatment": "9"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_9month_HLU_30"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLU_IRC_9mon_Rep4_M32",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Time of Sample Collection After Treatment": "9"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_9month_HLU_32"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLU_IRC_9mon_Rep5_M38",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Time of Sample Collection After Treatment": "9"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_9month_HLU_38"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLU_IRC_9mon_Rep6_M39",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "non-irradiated",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Time of Sample Collection After Treatment": "9"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_9month_HLU_39"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLU_IR_9mon_Rep1_M28",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "cobalt-57 gamma radiation",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Time of Sample Collection After Treatment": "9"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0.04",
+          "absorbed radiation dose rate": "0.01",
+          "exposure duration": "21",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_9month_HLU_IR_28"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLU_IR_9mon_Rep2_M29",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "cobalt-57 gamma radiation",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Time of Sample Collection After Treatment": "9"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0.04",
+          "absorbed radiation dose rate": "0.01",
+          "exposure duration": "21",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_9month_HLU_IR_29"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLU_IR_9mon_Rep3_M40",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "cobalt-57 gamma radiation",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Time of Sample Collection After Treatment": "9"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0.04",
+          "absorbed radiation dose rate": "0.01",
+          "exposure duration": "21",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_9month_HLU_IR_40"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLU_IR_9mon_Rep4_M44",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "cobalt-57 gamma radiation",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Time of Sample Collection After Treatment": "9"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0.04",
+          "absorbed radiation dose rate": "0.01",
+          "exposure duration": "21",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_9month_HLU_IR_44"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_BRN_HLU_IR_9mon_Rep5_M45",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "age": "6",
+          "Material Type": "brain",
+          "Animal Source": "Jackson Laboratory"
+        },
+        "factors": {
+          "Ionizing Radiation": "cobalt-57 gamma radiation",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Time of Sample Collection After Treatment": "9"
+        },
+        "parameters": {
+          "ionizing radiation energy": "",
+          "absorbed radiation dose": "0.04",
+          "absorbed radiation dose rate": "0.01",
+          "exposure duration": "21",
+          "ionizing radiation categorized by source": "gamma irradiator",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Original Submitted Sample Name": "Brain_9month_HLU_IR_45"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "dna-methylation-profiling",
+      "platform": "Illumina NextSeq 550",
+      "qc": {
+        "QA Instrument": "Agilent 2200 TapeStation"
+      },
+      "library": {},
+      "files": {
+        "raw": [
+          "GLDS-202_RRBS_R1_CFG1473.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1474.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1475.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1476.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1477.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1478.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1423.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1424.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1425.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1426.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1427.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1428.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1479.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1480.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1429.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1468.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1469.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1470.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1471.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1472.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1778.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1780.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1788.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1789.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1771.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1775.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1776.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1777.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1779.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1783.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1770.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1774.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1781.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1784.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1786.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1787.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1772.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1773.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1782.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1785.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1477_Run2.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1480_Run2.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1468_Run2.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1471_Run2.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1788_Run2.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1779_Run2.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1783_Run2.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1781_Run2.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1786_Run2.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1782_Run2.fastq.gz",
+          "GLDS-202_RRBS_R1_CFG1785_Run2.fastq.gz"
+        ],
+        "processed": [
+          "Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep1_M62",
+          "nucleic acid sequencing",
+          "Brain_1month_Ctrl_62",
+          "Agilent 2200 TapeStation",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000244",
+          "100",
+          "base pair",
+          "CFG1473",
+          "RRBS",
+          "SINGLE",
+          "TCTAGGAG",
+          "Qubit 3.0",
+          "Agilent D1000 ScreenTape",
+          "Illumina NextSeq 550",
+          "70",
+          "DNA RRBS Methylation",
+          "Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep2_M63",
+          "Brain_1month_Ctrl_63",
+          "CFG1474",
+          "CTCGAACA",
+          "Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep3_M64",
+          "Brain_1month_Ctrl_64",
+          "CFG1475",
+          "ACGGACTT",
+          "Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep4_M65",
+          "Brain_1month_Ctrl_65",
+          "CFG1476",
+          "CTAAGACC",
+          "Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep5_M66",
+          "Brain_1month_Ctrl_66",
+          "CFG1477",
+          "AACCGAAC",
+          "Illumina HiSeq 4000",
+          "Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep6_M67",
+          "Brain_1month_Ctrl_67",
+          "CFG1478",
+          "CCTTAGGT",
+          "Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep1_M50",
+          "Brain_1month_IR_50",
+          "CFG1423",
+          "CTTCCTTC",
+          "Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep2_M51",
+          "Brain_1month_IR_51",
+          "CFG1424",
+          "CGCTACAT",
+          "Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep3_M52",
+          "Brain_1month_IR_52",
+          "CFG1425",
+          "ATGACAGG",
+          "Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep4_M53",
+          "Brain_1month_IR_53",
+          "CFG1426",
+          "ACCATCCT",
+          "Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep5_M54",
+          "Brain_1month_IR_54",
+          "CFG1427",
+          "AACTTGCC",
+          "Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep6_M55",
+          "Brain_1month_IR_55",
+          "CFG1428",
+          "ACAACAGC",
+          "Mmus_C57-6J_BRN_HLU_IRC_1mon_Rep1_M68",
+          "Brain_1month_HLU_68",
+          "CFG1479",
+          "CCTATACC",
+          "Mmus_C57-6J_BRN_HLU_IRC_1mon_Rep2_M73",
+          "Brain_1month_HLU_73",
+          "CFG1480",
+          "AACGCCTT",
+          "Mmus_C57-6J_BRN_HLU_IR_1mon_Rep1_M56",
+          "Brain_1month_HLU_IR_56",
+          "CFG1429",
+          "CTCCTAGT",
+          "Mmus_C57-6J_BRN_HLU_IR_1mon_Rep2_M57",
+          "Brain_1month_HLU_IR_57",
+          "CFG1468",
+          "ACTCCTAC",
+          "Mmus_C57-6J_BRN_HLU_IR_1mon_Rep3_M58",
+          "Brain_1month_HLU_IR_58",
+          "CFG1469",
+          "GTACACCT",
+          "Mmus_C57-6J_BRN_HLU_IR_1mon_Rep4_M59",
+          "Brain_1month_HLU_IR_59",
+          "CFG1470",
+          "ACGAGAAC",
+          "Mmus_C57-6J_BRN_HLU_IR_1mon_Rep5_M60",
+          "Brain_1month_HLU_IR_60",
+          "CFG1471",
+          "GTACCACA",
+          "Mmus_C57-6J_BRN_HLU_IR_1mon_Rep6_M61",
+          "Brain_1month_HLU_IR_61",
+          "CFG1472",
+          "TACATCGG",
+          "Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep1_M83",
+          "Brain_4 months_Ctrl_83",
+          "CFG1778",
+          "CGAACAAC",
+          "Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep2_M85",
+          "Brain_4 months_Ctrl_85",
+          "CFG1780",
+          "AGCCAACT",
+          "Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep3_M95",
+          "Brain_4 months_Ctrl_95",
+          "CFG1788",
+          "AATGACGC",
+          "Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep4_M97",
+          "Brain_4 months_Ctrl_97",
+          "CFG1789",
+          "CGACCTAA",
+          "Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep1_M75",
+          "Brain_4 months_IR_75",
+          "CFG1771",
+          "CTACATCC",
+          "Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep2_M80",
+          "Brain_4 months_IR_80",
+          "CFG1775",
+          "GAATGGCA",
+          "Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep3_M81",
+          "Brain_4 months_IR_81",
+          "CFG1776",
+          "AGGCAATG",
+          "Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep4_M82",
+          "Brain_4 months_IR_82",
+          "CFG1777",
+          "TAGGAGCT",
+          "Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep5_M84",
+          "Brain_4 months_IR_84",
+          "CFG1779",
+          "CATTCGTC",
+          "Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep6_M89",
+          "Brain_4 months_IR_89",
+          "CFG1783",
+          "GCTACAAC",
+          "Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep1_M74",
+          "Brain_4 months_HLU_74",
+          "CFG1770",
+          "TCGTGCAT",
+          "Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep2_M78",
+          "Brain_4 months_HLU_78",
+          "CFG1774",
+          "AGAACCAG",
+          "Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep3_M86",
+          "Brain_4 months_HLU_86",
+          "CFG1781",
+          "ATTCCGCT",
+          "Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep4_M90",
+          "Brain_4 months_HLU_90",
+          "CFG1784",
+          "TCTACGCA",
+          "Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep5_M93",
+          "Brain_4 months_HLU_93",
+          "CFG1786",
+          "ACTCTCCA",
+          "Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep6_M94",
+          "Brain_4 months_HLU_94",
+          "CFG1787",
+          "GTCTCATC",
+          "Mmus_C57-6J_BRN_HLU_IR_4mon_Rep1_M76",
+          "Brain_4 months_HLU_IR_76",
+          "CFG1772",
+          "CATACGGA",
+          "Mmus_C57-6J_BRN_HLU_IR_4mon_Rep2_M77",
+          "Brain_4 months_HLU_IR_77",
+          "CFG1773",
+          "TGCGTAAC",
+          "Mmus_C57-6J_BRN_HLU_IR_4mon_Rep3_M88",
+          "Brain_4 months_HLU_IR_88",
+          "CFG1782",
+          "ATCGTGGT",
+          "Mmus_C57-6J_BRN_HLU_IR_4mon_Rep4_M92",
+          "Brain_4 months_HLU_IR_92",
+          "CFG1785",
+          "CTCCAATC"
+        ],
+        "reports": []
+      }
+    },
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina",
+      "qc": {
+        "QA Instrument": "Agilent 2100 Bioanalyzer",
+        "QA Assay": "Eukaryote Total RNA Nano Kit",
+        "QA Score": "8.1"
+      },
+      "library": {},
+      "files": {
+        "raw": [
+          "GLDS-202_microarray_3998978025_A_Grn.jpg",
+          "GLDS-202_microarray_3998978059_B_Grn.jpg",
+          "GLDS-202_microarray_3998978059_C_Grn.jpg",
+          "GLDS-202_microarray_3998978013_C_Grn.jpg",
+          "GLDS-202_microarray_3998978069_D_Grn.jpg",
+          "GLDS-202_microarray_3998978059_D_Grn.jpg",
+          "GLDS-202_microarray_3998978069_A_Grn.jpg",
+          "GLDS-202_microarray_3998978004_A_Grn.jpg",
+          "GLDS-202_microarray_3998978004_B_Grn.jpg",
+          "GLDS-202_microarray_3998978013_B_Grn.jpg",
+          "GLDS-202_microarray_3998978025_D_Grn.jpg",
+          "GLDS-202_microarray_3998978030_D_Grn.jpg",
+          "GLDS-202_microarray_3998978059_A_Grn.jpg",
+          "GLDS-202_microarray_3998978013_A_Grn.jpg",
+          "GLDS-202_microarray_3998978025_B_Grn.jpg",
+          "GLDS-202_microarray_3998978025_C_Grn.jpg",
+          "GLDS-202_microarray_3998978030_A_Grn.jpg",
+          "GLDS-202_microarray_3998978069_B_Grn.jpg",
+          "GLDS-202_microarray_3998978030_B_Grn.jpg",
+          "GLDS-202_microarray_3998978069_C_Grn.jpg",
+          "GLDS-202_microarray_3998978030_C_Grn.jpg",
+          "GLDS-202_microarray_3998978004_C_Grn.jpg",
+          "GLDS-202_microarray_3998978030_H_Grn.jpg",
+          "GLDS-202_microarray_3998978059_H_Grn.jpg",
+          "GLDS-202_microarray_3998978004_H_Grn.jpg",
+          "GLDS-202_microarray_3998978013_H_Grn.jpg",
+          "GLDS-202_microarray_3998978059_E_Grn.jpg",
+          "GLDS-202_microarray_3998978013_E_Grn.jpg",
+          "GLDS-202_microarray_3998978069_F_Grn.jpg",
+          "GLDS-202_microarray_3998978025_F_Grn.jpg",
+          "GLDS-202_microarray_3998978013_G_Grn.jpg",
+          "GLDS-202_microarray_3998978069_H_Grn.jpg",
+          "GLDS-202_microarray_3998978030_F_Grn.jpg",
+          "GLDS-202_microarray_3998978059_F_Grn.jpg",
+          "GLDS-202_microarray_3998978025_G_Grn.jpg",
+          "GLDS-202_microarray_3998978030_G_Grn.jpg",
+          "GLDS-202_microarray_3998978025_H_Grn.jpg",
+          "GLDS-202_microarray_3998978004_D_Grn.jpg",
+          "GLDS-202_microarray_3998978013_D_Grn.jpg",
+          "GLDS-202_microarray_3998978030_E_Grn.jpg",
+          "GLDS-202_microarray_3998978004_E_Grn.jpg",
+          "GLDS-202_microarray_3998978004_F_Grn.jpg",
+          "GLDS-202_microarray_3998978013_F_Grn.jpg",
+          "GLDS-202_microarray_3998978069_E_Grn.jpg",
+          "GLDS-202_microarray_3998978025_E_Grn.jpg",
+          "GLDS-202_microarray_3998978069_G_Grn.jpg",
+          "GLDS-202_microarray_3998978059_G_Grn.jpg",
+          "GLDS-202_microarray_3998978004_G_Grn.jpg"
+        ],
+        "processed": [
+          "Mmus_C57-6J_BRN_HLLC_IRC_7d_Rep1_M2",
+          "data collection",
+          "Agilent 2100 Bioanalyzer",
+          "Eukaryote Total RNA Nano Kit",
+          "8.1",
+          "RNA Integrity Number",
+          "Brain_7day_Ctrl_2",
+          "biotin",
+          "GLDS-202_microarray_MouseRef-8_V2_0_R3_11278551_A.txt",
+          "GLDS-202_microarray_3998978025_A_Grn.idat",
+          "GLDS-202_microarray_3998978025_A_Grn.xml",
+          "GLDS-202_microarray_Supplemental_Materials.zip",
+          "Mmus_C57-6J_BRN_HLLC_IRC_7d_Rep2_M12",
+          "8.3",
+          "Brain_7day_Ctrl_12",
+          "GLDS-202_microarray_3998978059_B_Grn.idat",
+          "GLDS-202_microarray_3998978059_B_Grn.xml",
+          "Mmus_C57-6J_BRN_HLLC_IRC_7d_Rep3_M18",
+          "Brain_7day_Ctrl_18",
+          "GLDS-202_microarray_3998978059_C_Grn.idat",
+          "GLDS-202_microarray_3998978059_C_Grn.xml",
+          "Mmus_C57-6J_BRN_HLLC_IRC_7d_Rep4_M21",
+          "8.5",
+          "Brain_7day_Ctrl_21",
+          "GLDS-202_microarray_3998978013_C_Grn.idat",
+          "GLDS-202_microarray_3998978013_C_Grn.xml",
+          "Mmus_C57-6J_BRN_HLLC_IRC_7d_Rep5_M22",
+          "Brain_7day_Ctrl_22",
+          "GLDS-202_microarray_3998978069_D_Grn.idat",
+          "GLDS-202_microarray_3998978069_D_Grn.xml",
+          "Mmus_C57-6J_BRN_HLLC_IRC_7d_Rep6_M25",
+          "8.2",
+          "Brain_7day_Ctrl_25",
+          "GLDS-202_microarray_3998978059_D_Grn.idat",
+          "GLDS-202_microarray_3998978059_D_Grn.xml",
+          "Mmus_C57-6J_BRN_HLLC_IR_7d_Rep1_M1",
+          "8",
+          "Brain_7day_IR_1",
+          "GLDS-202_microarray_3998978069_A_Grn.idat",
+          "GLDS-202_microarray_3998978069_A_Grn.xml",
+          "Mmus_C57-6J_BRN_HLLC_IR_7d_Rep2_M7",
+          "Brain_7day_IR_7",
+          "GLDS-202_microarray_3998978004_A_Grn.idat",
+          "GLDS-202_microarray_3998978004_A_Grn.xml",
+          "Mmus_C57-6J_BRN_HLLC_IR_7d_Rep3_M13",
+          "8.4",
+          "Brain_7day_IR_13",
+          "GLDS-202_microarray_3998978004_B_Grn.idat",
+          "GLDS-202_microarray_3998978004_B_Grn.xml",
+          "Mmus_C57-6J_BRN_HLLC_IR_7d_Rep4_M14",
+          "Brain_7day_IR_14",
+          "GLDS-202_microarray_3998978013_B_Grn.idat",
+          "GLDS-202_microarray_3998978013_B_Grn.xml",
+          "Mmus_C57-6J_BRN_HLLC_IR_7d_Rep5_M23",
+          "Brain_7day_IR_23",
+          "GLDS-202_microarray_3998978025_D_Grn.idat",
+          "GLDS-202_microarray_3998978025_D_Grn.xml",
+          "Mmus_C57-6J_BRN_HLLC_IR_7d_Rep6_M24",
+          "Brain_7day_IR_24",
+          "GLDS-202_microarray_3998978030_D_Grn.idat",
+          "GLDS-202_microarray_3998978030_D_Grn.xml",
+          "Mmus_C57-6J_BRN_HLU_IRC_7d_Rep1_M4",
+          "Brain_7day_HLU_4",
+          "GLDS-202_microarray_3998978059_A_Grn.idat",
+          "GLDS-202_microarray_3998978059_A_Grn.xml",
+          "Mmus_C57-6J_BRN_HLU_IRC_7d_Rep2_M8",
+          "Brain_7day_HLU_8",
+          "GLDS-202_microarray_3998978013_A_Grn.idat",
+          "GLDS-202_microarray_3998978013_A_Grn.xml",
+          "Mmus_C57-6J_BRN_HLU_IRC_7d_Rep3_M10",
+          "Brain_7day_HLU_10",
+          "GLDS-202_microarray_3998978025_B_Grn.idat",
+          "GLDS-202_microarray_3998978025_B_Grn.xml",
+          "Mmus_C57-6J_BRN_HLU_IRC_7d_Rep4_M16",
+          "Brain_7day_HLU_16",
+          "GLDS-202_microarray_3998978025_C_Grn.idat",
+          "GLDS-202_microarray_3998978025_C_Grn.xml",
+          "Mmus_C57-6J_BRN_HLU_IR_7d_Rep1_M3",
+          "Brain_7day_HLU_IR_3",
+          "GLDS-202_microarray_3998978030_A_Grn.idat",
+          "GLDS-202_microarray_3998978030_A_Grn.xml",
+          "Mmus_C57-6J_BRN_HLU_IR_7d_Rep2_M9",
+          "8.6",
+          "Brain_7day_HLU_IR_9",
+          "GLDS-202_microarray_3998978069_B_Grn.idat",
+          "GLDS-202_microarray_3998978069_B_Grn.xml",
+          "Mmus_C57-6J_BRN_HLU_IR_7d_Rep3_M11",
+          "Brain_7day_HLU_IR_11",
+          "GLDS-202_microarray_3998978030_B_Grn.idat",
+          "GLDS-202_microarray_3998978030_B_Grn.xml",
+          "Mmus_C57-6J_BRN_HLU_IR_7d_Rep4_M15",
+          "Brain_7day_HLU_IR_15",
+          "GLDS-202_microarray_3998978069_C_Grn.idat",
+          "GLDS-202_microarray_3998978069_C_Grn.xml",
+          "Mmus_C57-6J_BRN_HLU_IR_7d_Rep5_M17",
+          "Brain_7day_HLU_IR_17",
+          "GLDS-202_microarray_3998978030_C_Grn.idat",
+          "GLDS-202_microarray_3998978030_C_Grn.xml",
+          "Mmus_C57-6J_BRN_HLU_IR_7d_Rep6_M19",
+          "Brain_7day_HLU_IR_19",
+          "GLDS-202_microarray_3998978004_C_Grn.idat",
+          "GLDS-202_microarray_3998978004_C_Grn.xml",
+          "Mmus_C57-6J_BRN_HLU_IR_1mon_Rep1_M56",
+          "Brain_1month_HLU_IR_56",
+          "GLDS-202_microarray_3998978030_H_Grn.idat",
+          "GLDS-202_microarray_3998978030_H_Grn.xml",
+          "Mmus_C57-6J_BRN_HLU_IR_1mon_Rep2_M57",
+          "Brain_1month_HLU_IR_57",
+          "GLDS-202_microarray_3998978059_H_Grn.idat",
+          "GLDS-202_microarray_3998978059_H_Grn.xml",
+          "Mmus_C57-6J_BRN_HLU_IR_1mon_Rep3_M58",
+          "Brain_1month_HLU_IR_58",
+          "GLDS-202_microarray_3998978004_H_Grn.idat",
+          "GLDS-202_microarray_3998978004_H_Grn.xml",
+          "Mmus_C57-6J_BRN_HLU_IR_1mon_Rep4_M59",
+          "Brain_1month_HLU_IR_59",
+          "GLDS-202_microarray_3998978013_H_Grn.idat",
+          "GLDS-202_microarray_3998978013_H_Grn.xml",
+          "Mmus_C57-6J_BRN_HLLC_IRC_9mon_Rep1_M31",
+          "Brain_9month_Ctrl_31",
+          "GLDS-202_microarray_3998978059_E_Grn.idat",
+          "GLDS-202_microarray_3998978059_E_Grn.xml",
+          "Mmus_C57-6J_BRN_HLLC_IRC_9mon_Rep2_M33",
+          "Brain_9month_Ctrl_33",
+          "GLDS-202_microarray_3998978013_E_Grn.idat",
+          "GLDS-202_microarray_3998978013_E_Grn.xml",
+          "Mmus_C57-6J_BRN_HLLC_IRC_9mon_Rep3_M34",
+          "8.7",
+          "Brain_9month_Ctrl_34",
+          "GLDS-202_microarray_3998978069_F_Grn.idat",
+          "GLDS-202_microarray_3998978069_F_Grn.xml",
+          "Mmus_C57-6J_BRN_HLLC_IRC_9mon_Rep4_M35",
+          "9",
+          "Brain_9month_Ctrl_35",
+          "GLDS-202_microarray_3998978025_F_Grn.idat",
+          "GLDS-202_microarray_3998978025_F_Grn.xml",
+          "Mmus_C57-6J_BRN_HLLC_IRC_9mon_Rep5_M46",
+          "5.7",
+          "Brain_9month_Ctrl_46",
+          "GLDS-202_microarray_3998978013_G_Grn.idat",
+          "GLDS-202_microarray_3998978013_G_Grn.xml",
+          "Mmus_C57-6J_BRN_HLLC_IRC_9mon_Rep6_M48",
+          "5.8",
+          "Brain_9month_Ctrl_48",
+          "GLDS-202_microarray_3998978069_H_Grn.idat",
+          "GLDS-202_microarray_3998978069_H_Grn.xml",
+          "Mmus_C57-6J_BRN_HLLC_IR_9mon_Rep1_M36",
+          "8.9",
+          "Brain_9month_IR_36",
+          "GLDS-202_microarray_3998978030_F_Grn.idat",
+          "GLDS-202_microarray_3998978030_F_Grn.xml",
+          "Mmus_C57-6J_BRN_HLLC_IR_9mon_Rep2_M37",
+          "Brain_9month_IR_37",
+          "GLDS-202_microarray_3998978059_F_Grn.idat",
+          "GLDS-202_microarray_3998978059_F_Grn.xml",
+          "Mmus_C57-6J_BRN_HLLC_IR_9mon_Rep3_M42",
+          "Brain_9month_IR_42",
+          "GLDS-202_microarray_3998978025_G_Grn.idat",
+          "GLDS-202_microarray_3998978025_G_Grn.xml",
+          "Mmus_C57-6J_BRN_HLLC_IR_9mon_Rep4_M43",
+          "Brain_9month_IR_43",
+          "GLDS-202_microarray_3998978030_G_Grn.idat",
+          "GLDS-202_microarray_3998978030_G_Grn.xml",
+          "Mmus_C57-6J_BRN_HLLC_IR_9mon_Rep5_M49",
+          "Brain_9month_IR_49",
+          "GLDS-202_microarray_3998978025_H_Grn.idat",
+          "GLDS-202_microarray_3998978025_H_Grn.xml",
+          "Mmus_C57-6J_BRN_HLU_IRC_9mon_Rep1_M26",
+          "Brain_9month_HLU_26",
+          "GLDS-202_microarray_3998978004_D_Grn.idat",
+          "GLDS-202_microarray_3998978004_D_Grn.xml",
+          "Mmus_C57-6J_BRN_HLU_IRC_9mon_Rep2_M27",
+          "Brain_9month_HLU_27",
+          "GLDS-202_microarray_3998978013_D_Grn.idat",
+          "GLDS-202_microarray_3998978013_D_Grn.xml",
+          "Mmus_C57-6J_BRN_HLU_IRC_9mon_Rep3_M30",
+          "Brain_9month_HLU_30",
+          "GLDS-202_microarray_3998978030_E_Grn.idat",
+          "GLDS-202_microarray_3998978030_E_Grn.xml",
+          "Mmus_C57-6J_BRN_HLU_IRC_9mon_Rep4_M32",
+          "Brain_9month_HLU_32",
+          "GLDS-202_microarray_3998978004_E_Grn.idat",
+          "GLDS-202_microarray_3998978004_E_Grn.xml",
+          "Mmus_C57-6J_BRN_HLU_IRC_9mon_Rep5_M38",
+          "Brain_9month_HLU_38",
+          "GLDS-202_microarray_3998978004_F_Grn.idat",
+          "GLDS-202_microarray_3998978004_F_Grn.xml",
+          "Mmus_C57-6J_BRN_HLU_IRC_9mon_Rep6_M39",
+          "Brain_9month_HLU_39",
+          "GLDS-202_microarray_3998978013_F_Grn.idat",
+          "GLDS-202_microarray_3998978013_F_Grn.xml",
+          "Mmus_C57-6J_BRN_HLU_IR_9mon_Rep1_M28",
+          "Brain_9month_HLU_IR_28",
+          "GLDS-202_microarray_3998978069_E_Grn.idat",
+          "GLDS-202_microarray_3998978069_E_Grn.xml",
+          "Mmus_C57-6J_BRN_HLU_IR_9mon_Rep2_M29",
+          "Brain_9month_HLU_IR_29",
+          "GLDS-202_microarray_3998978025_E_Grn.idat",
+          "GLDS-202_microarray_3998978025_E_Grn.xml",
+          "Mmus_C57-6J_BRN_HLU_IR_9mon_Rep3_M40",
+          "Brain_9month_HLU_IR_40",
+          "GLDS-202_microarray_3998978069_G_Grn.idat",
+          "GLDS-202_microarray_3998978069_G_Grn.xml",
+          "Mmus_C57-6J_BRN_HLU_IR_9mon_Rep4_M44",
+          "Brain_9month_HLU_IR_44",
+          "GLDS-202_microarray_3998978059_G_Grn.idat",
+          "GLDS-202_microarray_3998978059_G_Grn.xml",
+          "Mmus_C57-6J_BRN_HLU_IR_9mon_Rep5_M45",
+          "Brain_9month_HLU_IR_45",
+          "GLDS-202_microarray_3998978004_G_Grn.idat",
+          "GLDS-202_microarray_3998978004_G_Grn.xml"
+        ],
+        "reports": []
+      }
+    },
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina HiSeq 4000",
+      "qc": {
+        "QA Instrument": "Agilent 2200 TapeStation",
+        "QA Assay": "RNA Tapestation",
+        "QA Score": "8.7",
+        "Read Depth": "16584630",
+        "rRNA Contamination": "7.4"
+      },
+      "library": {},
+      "files": {
+        "raw": [
+          "GLDS-202_rna-seq_CFG2018_S13_L001_R1_001.fastq.gz",
+          "GLDS-202_rna-seq_CFG2019_S14_L001_R1_001.fastq.gz",
+          "GLDS-202_rna-seq_CFG2020_S15_L001_R1_001.fastq.gz",
+          "GLDS-202_rna-seq_CFG2021_S16_L001_R1_001.fastq.gz",
+          "GLDS-202_rna-seq_CFG2022_S17_L001_R1_001.fastq.gz",
+          "GLDS-202_rna-seq_CFG2023_S18_L002_R1_001.fastq.gz",
+          "GLDS-202_rna-seq_CFG2006_S1_L001_R1_001.fastq.gz",
+          "GLDS-202_rna-seq_CFG2007_S2_L001_R1_001.fastq.gz",
+          "GLDS-202_rna-seq_CFG2008_S3_L001_R1_001.fastq.gz",
+          "GLDS-202_rna-seq_CFG2009_S4_L001_R1_001.fastq.gz",
+          "GLDS-202_rna-seq_CFG2010_S5_L001_R1_001.fastq.gz",
+          "GLDS-202_rna-seq_CFG2011_S6_L001_R1_001.fastq.gz",
+          "GLDS-202_rna-seq_CFG2024_S19_L002_R1_001.fastq.gz",
+          "GLDS-202_rna-seq_CFG2025_S20_L002_R1_001.fastq.gz",
+          "GLDS-202_rna-seq_CFG2012_S7_L001_R1_001.fastq.gz",
+          "GLDS-202_rna-seq_CFG2013_S8_L001_R1_001.fastq.gz",
+          "GLDS-202_rna-seq_CFG2014_S9_L001_R1_001.fastq.gz",
+          "GLDS-202_rna-seq_CFG2015_S10_L001_R1_001.fastq.gz",
+          "GLDS-202_rna-seq_CFG2016_S11_L001_R1_001.fastq.gz",
+          "GLDS-202_rna-seq_CFG2017_S12_L001_R1_001.fastq.gz",
+          "GLDS-202_rna-seq_CFG2034_S29_L002_R1_001.fastq.gz",
+          "GLDS-202_rna-seq_CFG2036_S31_L002_R1_001.fastq.gz",
+          "GLDS-202_rna-seq_CFG2044_S39_L003_R1_001.fastq.gz",
+          "GLDS-202_rna-seq_CFG2045_S40_L003_R1_001.fastq.gz",
+          "GLDS-202_rna-seq_CFG2027_S22_L002_R1_001.fastq.gz",
+          "GLDS-202_rna-seq_CFG2031_S26_L002_R1_001.fastq.gz",
+          "GLDS-202_rna-seq_CFG2032_S27_L002_R1_001.fastq.gz",
+          "GLDS-202_rna-seq_CFG2033_S28_L002_R1_001.fastq.gz",
+          "GLDS-202_rna-seq_CFG2035_S30_L002_R1_001.fastq.gz",
+          "GLDS-202_rna-seq_CFG2039_S34_L002_R1_001.fastq.gz",
+          "GLDS-202_rna-seq_CFG2026_S21_L002_R1_001.fastq.gz",
+          "GLDS-202_rna-seq_CFG2030_S25_L002_R1_001.fastq.gz",
+          "GLDS-202_rna-seq_CFG2037_S32_L002_R1_001.fastq.gz",
+          "GLDS-202_rna-seq_CFG2040_S35_L003_R1_001.fastq.gz",
+          "GLDS-202_rna-seq_CFG2042_S37_L003_R1_001.fastq.gz",
+          "GLDS-202_rna-seq_CFG2043_S38_L003_R1_001.fastq.gz",
+          "GLDS-202_rna-seq_CFG2028_S23_L002_R1_001.fastq.gz",
+          "GLDS-202_rna-seq_CFG2029_S24_L002_R1_001.fastq.gz",
+          "GLDS-202_rna-seq_CFG2038_S33_L002_R1_001.fastq.gz",
+          "GLDS-202_rna-seq_CFG2041_S36_L003_R1_001.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep1_M62_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep1_M62_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep2_M63_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep2_M63_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep3_M64_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep3_M64_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep4_M65_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep4_M65_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep5_M66_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep5_M66_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep6_M67_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep6_M67_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep1_M50_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep1_M50_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep2_M51_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep2_M51_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep3_M52_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep3_M52_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep4_M53_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep4_M53_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep5_M54_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep5_M54_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep6_M55_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep6_M55_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_1mon_Rep1_M68_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_1mon_Rep1_M68_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_1mon_Rep2_M73_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_1mon_Rep2_M73_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep1_M56_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep1_M56_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep2_M57_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep2_M57_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep3_M58_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep3_M58_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep4_M59_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep4_M59_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep5_M60_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep5_M60_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep6_M61_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep6_M61_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep1_M83_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep1_M83_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep2_M85_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep2_M85_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep3_M95_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep3_M95_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep4_M97_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep4_M97_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep1_M75_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep1_M75_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep2_M80_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep2_M80_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep3_M81_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep3_M81_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep4_M82_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep4_M82_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep5_M84_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep5_M84_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep6_M89_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep6_M89_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep1_M74_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep1_M74_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep2_M78_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep2_M78_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep3_M86_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep3_M86_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep4_M90_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep4_M90_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep5_M93_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep5_M93_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep6_M94_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep6_M94_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep1_M76_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep1_M76_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep2_M77_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep2_M77_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep3_M88_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep3_M88_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep4_M92_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep4_M92_R1_trimmed.fastq.gz"
+        ],
+        "processed": [
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep1_M62_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep1_M62_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep1_M62_Aligned.sortedByCoord.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep1_M62_Aligned.toTranscriptome.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep1_M62_SJ.out.tab",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep1_M62.genes.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep1_M62.isoforms.results",
+          "GLDS-202_rna_seq_Unnormalized_Counts.csv",
+          "GLDS-202_rna_seq_Normalized_Counts.csv",
+          "GLDS-202_rna_seq_ERCC_Normalized_Counts.csv",
+          "GLDS-202_rna_seq_contrasts.csv",
+          "GLDS-202_rna_seq_differential_expression.csv",
+          "GLDS-202_rna_seq_ERCCnorm_contrasts.csv",
+          "GLDS-202_rna_seq_ERCCnorm_differential_expression.csv",
+          "GLDS-202_rna_seq_SampleTable.csv",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep2_M63_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep2_M63_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep2_M63_Aligned.sortedByCoord.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep2_M63_Aligned.toTranscriptome.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep2_M63_SJ.out.tab",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep2_M63.genes.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep2_M63.isoforms.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep3_M64_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep3_M64_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep3_M64_Aligned.sortedByCoord.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep3_M64_Aligned.toTranscriptome.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep3_M64_SJ.out.tab",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep3_M64.genes.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep3_M64.isoforms.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep4_M65_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep4_M65_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep4_M65_Aligned.sortedByCoord.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep4_M65_Aligned.toTranscriptome.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep4_M65_SJ.out.tab",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep4_M65.genes.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep4_M65.isoforms.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep5_M66_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep5_M66_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep5_M66_Aligned.sortedByCoord.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep5_M66_Aligned.toTranscriptome.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep5_M66_SJ.out.tab",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep5_M66.genes.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep5_M66.isoforms.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep6_M67_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep6_M67_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep6_M67_Aligned.sortedByCoord.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep6_M67_Aligned.toTranscriptome.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep6_M67_SJ.out.tab",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep6_M67.genes.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep6_M67.isoforms.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep1_M50_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep1_M50_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep1_M50_Aligned.sortedByCoord.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep1_M50_Aligned.toTranscriptome.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep1_M50_SJ.out.tab",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep1_M50.genes.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep1_M50.isoforms.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep2_M51_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep2_M51_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep2_M51_Aligned.sortedByCoord.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep2_M51_Aligned.toTranscriptome.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep2_M51_SJ.out.tab",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep2_M51.genes.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep2_M51.isoforms.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep3_M52_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep3_M52_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep3_M52_Aligned.sortedByCoord.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep3_M52_Aligned.toTranscriptome.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep3_M52_SJ.out.tab",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep3_M52.genes.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep3_M52.isoforms.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep4_M53_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep4_M53_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep4_M53_Aligned.sortedByCoord.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep4_M53_Aligned.toTranscriptome.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep4_M53_SJ.out.tab",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep4_M53.genes.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep4_M53.isoforms.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep5_M54_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep5_M54_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep5_M54_Aligned.sortedByCoord.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep5_M54_Aligned.toTranscriptome.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep5_M54_SJ.out.tab",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep5_M54.genes.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep5_M54.isoforms.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep6_M55_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep6_M55_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep6_M55_Aligned.sortedByCoord.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep6_M55_Aligned.toTranscriptome.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep6_M55_SJ.out.tab",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep6_M55.genes.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep6_M55.isoforms.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_1mon_Rep1_M68_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_1mon_Rep1_M68_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_1mon_Rep1_M68_Aligned.sortedByCoord.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_1mon_Rep1_M68_Aligned.toTranscriptome.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_1mon_Rep1_M68_SJ.out.tab",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_1mon_Rep1_M68.genes.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_1mon_Rep1_M68.isoforms.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_1mon_Rep2_M73_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_1mon_Rep2_M73_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_1mon_Rep2_M73_Aligned.sortedByCoord.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_1mon_Rep2_M73_Aligned.toTranscriptome.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_1mon_Rep2_M73_SJ.out.tab",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_1mon_Rep2_M73.genes.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_1mon_Rep2_M73.isoforms.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep1_M56_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep1_M56_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep1_M56_Aligned.sortedByCoord.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep1_M56_Aligned.toTranscriptome.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep1_M56_SJ.out.tab",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep1_M56.genes.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep1_M56.isoforms.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep2_M57_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep2_M57_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep2_M57_Aligned.sortedByCoord.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep2_M57_Aligned.toTranscriptome.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep2_M57_SJ.out.tab",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep2_M57.genes.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep2_M57.isoforms.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep3_M58_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep3_M58_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep3_M58_Aligned.sortedByCoord.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep3_M58_Aligned.toTranscriptome.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep3_M58_SJ.out.tab",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep3_M58.genes.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep3_M58.isoforms.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep4_M59_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep4_M59_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep4_M59_Aligned.sortedByCoord.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep4_M59_Aligned.toTranscriptome.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep4_M59_SJ.out.tab",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep4_M59.genes.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep4_M59.isoforms.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep5_M60_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep5_M60_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep5_M60_Aligned.sortedByCoord.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep5_M60_Aligned.toTranscriptome.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep5_M60_SJ.out.tab",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep5_M60.genes.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep5_M60.isoforms.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep6_M61_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep6_M61_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep6_M61_Aligned.sortedByCoord.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep6_M61_Aligned.toTranscriptome.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep6_M61_SJ.out.tab",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep6_M61.genes.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep6_M61.isoforms.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep1_M83_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep1_M83_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep1_M83_Aligned.sortedByCoord.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep1_M83_Aligned.toTranscriptome.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep1_M83_SJ.out.tab",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep1_M83.genes.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep1_M83.isoforms.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep2_M85_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep2_M85_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep2_M85_Aligned.sortedByCoord.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep2_M85_Aligned.toTranscriptome.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep2_M85_SJ.out.tab",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep2_M85.genes.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep2_M85.isoforms.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep3_M95_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep3_M95_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep3_M95_Aligned.sortedByCoord.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep3_M95_Aligned.toTranscriptome.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep3_M95_SJ.out.tab",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep3_M95.genes.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep3_M95.isoforms.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep4_M97_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep4_M97_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep4_M97_Aligned.sortedByCoord.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep4_M97_Aligned.toTranscriptome.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep4_M97_SJ.out.tab",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep4_M97.genes.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep4_M97.isoforms.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep1_M75_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep1_M75_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep1_M75_Aligned.sortedByCoord.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep1_M75_Aligned.toTranscriptome.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep1_M75_SJ.out.tab",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep1_M75.genes.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep1_M75.isoforms.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep2_M80_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep2_M80_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep2_M80_Aligned.sortedByCoord.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep2_M80_Aligned.toTranscriptome.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep2_M80_SJ.out.tab",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep2_M80.genes.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep2_M80.isoforms.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep3_M81_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep3_M81_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep3_M81_Aligned.sortedByCoord.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep3_M81_Aligned.toTranscriptome.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep3_M81_SJ.out.tab",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep3_M81.genes.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep3_M81.isoforms.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep4_M82_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep4_M82_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep4_M82_Aligned.sortedByCoord.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep4_M82_Aligned.toTranscriptome.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep4_M82_SJ.out.tab",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep4_M82.genes.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep4_M82.isoforms.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep5_M84_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep5_M84_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep5_M84_Aligned.sortedByCoord.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep5_M84_Aligned.toTranscriptome.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep5_M84_SJ.out.tab",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep5_M84.genes.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep5_M84.isoforms.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep6_M89_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep6_M89_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep6_M89_Aligned.sortedByCoord.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep6_M89_Aligned.toTranscriptome.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep6_M89_SJ.out.tab",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep6_M89.genes.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep6_M89.isoforms.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep1_M74_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep1_M74_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep1_M74_Aligned.sortedByCoord.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep1_M74_Aligned.toTranscriptome.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep1_M74_SJ.out.tab",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep1_M74.genes.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep1_M74.isoforms.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep2_M78_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep2_M78_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep2_M78_Aligned.sortedByCoord.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep2_M78_Aligned.toTranscriptome.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep2_M78_SJ.out.tab",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep2_M78.genes.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep2_M78.isoforms.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep3_M86_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep3_M86_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep3_M86_Aligned.sortedByCoord.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep3_M86_Aligned.toTranscriptome.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep3_M86_SJ.out.tab",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep3_M86.genes.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep3_M86.isoforms.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep4_M90_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep4_M90_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep4_M90_Aligned.sortedByCoord.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep4_M90_Aligned.toTranscriptome.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep4_M90_SJ.out.tab",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep4_M90.genes.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep4_M90.isoforms.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep5_M93_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep5_M93_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep5_M93_Aligned.sortedByCoord.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep5_M93_Aligned.toTranscriptome.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep5_M93_SJ.out.tab",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep5_M93.genes.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep5_M93.isoforms.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep6_M94_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep6_M94_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep6_M94_Aligned.sortedByCoord.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep6_M94_Aligned.toTranscriptome.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep6_M94_SJ.out.tab",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep6_M94.genes.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep6_M94.isoforms.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep1_M76_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep1_M76_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep1_M76_Aligned.sortedByCoord.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep1_M76_Aligned.toTranscriptome.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep1_M76_SJ.out.tab",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep1_M76.genes.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep1_M76.isoforms.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep2_M77_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep2_M77_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep2_M77_Aligned.sortedByCoord.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep2_M77_Aligned.toTranscriptome.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep2_M77_SJ.out.tab",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep2_M77.genes.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep2_M77.isoforms.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep3_M88_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep3_M88_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep3_M88_Aligned.sortedByCoord.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep3_M88_Aligned.toTranscriptome.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep3_M88_SJ.out.tab",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep3_M88.genes.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep3_M88.isoforms.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep4_M92_R1_raw.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep4_M92_R1_trimmed.fastq.gz",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep4_M92_Aligned.sortedByCoord.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep4_M92_Aligned.toTranscriptome.out.bam",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep4_M92_SJ.out.tab",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep4_M92.genes.results",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep4_M92.isoforms.results",
+          "Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep1_M62",
+          "GeneLab RNAseq data processing protocol",
+          "Agilent 2200 TapeStation",
+          "RNA Tapestation",
+          "read",
+          "Brain_1month_Ctrl_62",
+          "1%",
+          "CFG2018",
+          "Nugen Mouse Ovation RNA-Seq",
+          "SINGLE",
+          "STRANDED",
+          "ACTCTCCA",
+          "Qubit 3.0",
+          "283",
+          "Illumina HiSeq 4000",
+          "75",
+          "rna-seq",
+          "7.4",
+          "16584630",
+          "GLDS-202_rna_seq_ERCC_analysis.html",
+          "Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep2_M63",
+          "Brain_1month_Ctrl_63",
+          "CFG2019",
+          "CGTCCATT",
+          "282",
+          "6.65",
+          "16293928",
+          "Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep3_M64",
+          "Brain_1month_Ctrl_64",
+          "CFG2020",
+          "AGCCGTAA",
+          "281",
+          "7.15",
+          "15566032",
+          "Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep4_M65",
+          "Brain_1month_Ctrl_65",
+          "CFG2021",
+          "GAGTAGAG",
+          "280",
+          "9.07",
+          "18305194",
+          "Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep5_M66",
+          "Brain_1month_Ctrl_66",
+          "CFG2022",
+          "ACGTCGTT",
+          "286",
+          "7.44",
+          "26605461",
+          "Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep6_M67",
+          "8.7",
+          "Brain_1month_Ctrl_67",
+          "CFG2023",
+          "GTCCTGTT",
+          "8.65",
+          "19976792",
+          "Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep1_M50",
+          "7.7",
+          "Brain_1month_IR_50",
+          "CFG2006",
+          "AGTCAGGT",
+          "8.88",
+          "19912689",
+          "Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep2_M51",
+          "8.1",
+          "Brain_1month_IR_51",
+          "CFG2007",
+          "TATCGCGA",
+          "8.57",
+          "16680900",
+          "Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep3_M52",
+          "Brain_1month_IR_52",
+          "CFG2008",
+          "TAGCAGGA",
+          "10.03",
+          "20329702",
+          "Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep4_M53",
+          "Brain_1month_IR_53",
+          "CFG2009",
+          "AGAAGGAC",
+          "289",
+          "8.71",
+          "18951822",
+          "Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep5_M54",
+          "Brain_1month_IR_54",
+          "CFG2010",
+          "TGAGCTGT",
+          "284",
+          "7.21",
+          "20001053",
+          "Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep6_M55",
+          "8.3",
+          "Brain_1month_IR_55",
+          "CFG2011",
+          "CAGAGTGA",
+          "7.29",
+          "17993979",
+          "Mmus_C57-6J_BRN_HLU_IRC_1mon_Rep1_M68",
+          "Brain_1month_HLU_68",
+          "CFG2024",
+          "AGAAGCCT",
+          "8.31",
+          "21099094",
+          "Mmus_C57-6J_BRN_HLU_IRC_1mon_Rep2_M73",
+          "8.5",
+          "Brain_1month_HLU_73",
+          "CFG2025",
+          "GAAGATCC",
+          "7.68",
+          "20367484",
+          "Mmus_C57-6J_BRN_HLU_IR_1mon_Rep1_M56",
+          "Brain_1month_HLU_IR_56",
+          "CFG2012",
+          "AGGTTCCT",
+          "278",
+          "7.73",
+          "22946620",
+          "Mmus_C57-6J_BRN_HLU_IR_1mon_Rep2_M57",
+          "8.4",
+          "Brain_1month_HLU_IR_57",
+          "CFG2013",
+          "AGACCTTG",
+          "288",
+          "8.8",
+          "16979679",
+          "Mmus_C57-6J_BRN_HLU_IR_1mon_Rep3_M58",
+          "7.9",
+          "Brain_1month_HLU_IR_58",
+          "CFG2014",
+          "CACGTCTA",
+          "8.61",
+          "18283394",
+          "Mmus_C57-6J_BRN_HLU_IR_1mon_Rep4_M59",
+          "Brain_1month_HLU_IR_59",
+          "CFG2015",
+          "AGCTAGTG",
+          "285",
+          "8.09",
+          "17681753",
+          "Mmus_C57-6J_BRN_HLU_IR_1mon_Rep5_M60",
+          "Brain_1month_HLU_IR_60",
+          "CFG2016",
+          "ACTATCGC",
+          "6.52",
+          "17213698",
+          "Mmus_C57-6J_BRN_HLU_IR_1mon_Rep6_M61",
+          "Brain_1month_HLU_IR_61",
+          "CFG2017",
+          "GCGTATCA",
+          "7.63",
+          "17193672",
+          "Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep1_M83",
+          "7",
+          "Brain_4 months_Ctrl_83",
+          "CFG2034",
+          "ACTCTGAG",
+          "277",
+          "10.25",
+          "20894111",
+          "Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep2_M85",
+          "Brain_4 months_Ctrl_85",
+          "CFG2036",
+          "CTAGCTCA",
+          "10.15",
+          "18818040",
+          "Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep3_M95",
+          "8",
+          "Brain_4 months_Ctrl_95",
+          "CFG2044",
+          "310",
+          "27367226",
+          "Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep4_M97",
+          "Brain_4 months_Ctrl_97",
+          "CFG2045",
+          "ACCAAGCA",
+          "9.77",
+          "22175896",
+          "Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep1_M75",
+          "Brain_4 months_IR_75",
+          "CFG2027",
+          "CACAGGAA",
+          "10.18",
+          "20892482",
+          "Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep2_M80",
+          "Brain_4 months_IR_80",
+          "CFG2031",
+          "AACGCCTT",
+          "6.27",
+          "22028308",
+          "Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep3_M81",
+          "Brain_4 months_IR_81",
+          "CFG2032",
+          "GTAAGGTG",
+          "12.71",
+          "19822746",
+          "Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep4_M82",
+          "Brain_4 months_IR_82",
+          "CFG2033",
+          "TGTCGACT",
+          "6.19",
+          "21267242",
+          "Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep5_M84",
+          "Brain_4 months_IR_84",
+          "CFG2035",
+          "GATGGAGT",
+          "11.29",
+          "18989814",
+          "Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep6_M89",
+          "Brain_4 months_IR_89",
+          "CFG2039",
+          "GGTCGTAT",
+          "10.43",
+          "18564150",
+          "Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep1_M74",
+          "Brain_4 months_HLU_74",
+          "CFG2026",
+          "ACGCTTCT",
+          "11.67",
+          "19614767",
+          "Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep2_M78",
+          "8.2",
+          "Brain_4 months_HLU_78",
+          "CFG2030",
+          "ATGGCGAT",
+          "10.34",
+          "21234369",
+          "Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep3_M86",
+          "Brain_4 months_HLU_86",
+          "CFG2037",
+          "CTGTACCA",
+          "9.04",
+          "20146707",
+          "Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep4_M90",
+          "Brain_4 months_HLU_90",
+          "CFG2040",
+          "CGCTGATA",
+          "10.81",
+          "18907495",
+          "Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep5_M93",
+          "Brain_4 months_HLU_93",
+          "CFG2042",
+          "CAAGTCGT",
+          "276",
+          "10.41",
+          "25793580",
+          "Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep6_M94",
+          "Brain_4 months_HLU_94",
+          "CFG2043",
+          "GTCTCATC",
+          "9.57",
+          "22110104",
+          "Mmus_C57-6J_BRN_HLU_IR_4mon_Rep1_M76",
+          "7.8",
+          "Brain_4 months_HLU_IR_76",
+          "CFG2028",
+          "ACGAATCC",
+          "11.73",
+          "18377686",
+          "Mmus_C57-6J_BRN_HLU_IR_4mon_Rep2_M77",
+          "Brain_4 months_HLU_IR_77",
+          "CFG2029",
+          "CCTTCCAT",
+          "255",
+          "20.97",
+          "21438309",
+          "Mmus_C57-6J_BRN_HLU_IR_4mon_Rep3_M88",
+          "Brain_4 months_HLU_IR_88",
+          "CFG2038",
+          "CCTGTCAA",
+          "7.94",
+          "17692043",
+          "Mmus_C57-6J_BRN_HLU_IR_4mon_Rep4_M92",
+          "Brain_4 months_HLU_IR_92",
+          "CFG2041",
+          "TAGCTTCC",
+          "274",
+          "12.32",
+          "19078002"
+        ],
+        "reports": [
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep1_M62_R1_raw_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep1_M62_R1_raw_fastqc.zip",
+          "GLDS-202_rna_seq_raw_multiqc_report.html",
+          "GLDS-202_rna_seq_raw_multiqc_data.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep1_M62_R1_trimmed_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep1_M62_R1_trimmed_fastqc.zip",
+          "GLDS-202_rna_seq_trimmed_multiqc_report.html",
+          "GLDS-202_rna_seq_trimmed_multiqc_data.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep1_M62_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep1_M62_Log.final.out",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep2_M63_R1_raw_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep2_M63_R1_raw_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep2_M63_R1_trimmed_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep2_M63_R1_trimmed_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep2_M63_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep2_M63_Log.final.out",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep3_M64_R1_raw_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep3_M64_R1_raw_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep3_M64_R1_trimmed_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep3_M64_R1_trimmed_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep3_M64_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep3_M64_Log.final.out",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep4_M65_R1_raw_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep4_M65_R1_raw_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep4_M65_R1_trimmed_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep4_M65_R1_trimmed_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep4_M65_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep4_M65_Log.final.out",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep5_M66_R1_raw_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep5_M66_R1_raw_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep5_M66_R1_trimmed_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep5_M66_R1_trimmed_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep5_M66_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep5_M66_Log.final.out",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep6_M67_R1_raw_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep6_M67_R1_raw_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep6_M67_R1_trimmed_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep6_M67_R1_trimmed_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep6_M67_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_1mon_Rep6_M67_Log.final.out",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep1_M50_R1_raw_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep1_M50_R1_raw_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep1_M50_R1_trimmed_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep1_M50_R1_trimmed_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep1_M50_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep1_M50_Log.final.out",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep2_M51_R1_raw_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep2_M51_R1_raw_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep2_M51_R1_trimmed_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep2_M51_R1_trimmed_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep2_M51_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep2_M51_Log.final.out",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep3_M52_R1_raw_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep3_M52_R1_raw_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep3_M52_R1_trimmed_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep3_M52_R1_trimmed_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep3_M52_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep3_M52_Log.final.out",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep4_M53_R1_raw_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep4_M53_R1_raw_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep4_M53_R1_trimmed_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep4_M53_R1_trimmed_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep4_M53_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep4_M53_Log.final.out",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep5_M54_R1_raw_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep5_M54_R1_raw_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep5_M54_R1_trimmed_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep5_M54_R1_trimmed_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep5_M54_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep5_M54_Log.final.out",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep6_M55_R1_raw_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep6_M55_R1_raw_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep6_M55_R1_trimmed_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep6_M55_R1_trimmed_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep6_M55_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_1mon_Rep6_M55_Log.final.out",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_1mon_Rep1_M68_R1_raw_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_1mon_Rep1_M68_R1_raw_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_1mon_Rep1_M68_R1_trimmed_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_1mon_Rep1_M68_R1_trimmed_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_1mon_Rep1_M68_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_1mon_Rep1_M68_Log.final.out",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_1mon_Rep2_M73_R1_raw_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_1mon_Rep2_M73_R1_raw_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_1mon_Rep2_M73_R1_trimmed_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_1mon_Rep2_M73_R1_trimmed_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_1mon_Rep2_M73_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_1mon_Rep2_M73_Log.final.out",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep1_M56_R1_raw_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep1_M56_R1_raw_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep1_M56_R1_trimmed_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep1_M56_R1_trimmed_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep1_M56_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep1_M56_Log.final.out",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep2_M57_R1_raw_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep2_M57_R1_raw_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep2_M57_R1_trimmed_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep2_M57_R1_trimmed_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep2_M57_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep2_M57_Log.final.out",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep3_M58_R1_raw_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep3_M58_R1_raw_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep3_M58_R1_trimmed_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep3_M58_R1_trimmed_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep3_M58_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep3_M58_Log.final.out",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep4_M59_R1_raw_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep4_M59_R1_raw_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep4_M59_R1_trimmed_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep4_M59_R1_trimmed_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep4_M59_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep4_M59_Log.final.out",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep5_M60_R1_raw_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep5_M60_R1_raw_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep5_M60_R1_trimmed_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep5_M60_R1_trimmed_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep5_M60_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep5_M60_Log.final.out",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep6_M61_R1_raw_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep6_M61_R1_raw_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep6_M61_R1_trimmed_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep6_M61_R1_trimmed_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep6_M61_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_1mon_Rep6_M61_Log.final.out",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep1_M83_R1_raw_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep1_M83_R1_raw_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep1_M83_R1_trimmed_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep1_M83_R1_trimmed_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep1_M83_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep1_M83_Log.final.out",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep2_M85_R1_raw_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep2_M85_R1_raw_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep2_M85_R1_trimmed_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep2_M85_R1_trimmed_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep2_M85_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep2_M85_Log.final.out",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep3_M95_R1_raw_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep3_M95_R1_raw_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep3_M95_R1_trimmed_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep3_M95_R1_trimmed_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep3_M95_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep3_M95_Log.final.out",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep4_M97_R1_raw_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep4_M97_R1_raw_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep4_M97_R1_trimmed_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep4_M97_R1_trimmed_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep4_M97_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IRC_4mon_Rep4_M97_Log.final.out",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep1_M75_R1_raw_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep1_M75_R1_raw_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep1_M75_R1_trimmed_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep1_M75_R1_trimmed_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep1_M75_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep1_M75_Log.final.out",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep2_M80_R1_raw_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep2_M80_R1_raw_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep2_M80_R1_trimmed_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep2_M80_R1_trimmed_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep2_M80_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep2_M80_Log.final.out",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep3_M81_R1_raw_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep3_M81_R1_raw_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep3_M81_R1_trimmed_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep3_M81_R1_trimmed_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep3_M81_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep3_M81_Log.final.out",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep4_M82_R1_raw_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep4_M82_R1_raw_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep4_M82_R1_trimmed_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep4_M82_R1_trimmed_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep4_M82_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep4_M82_Log.final.out",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep5_M84_R1_raw_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep5_M84_R1_raw_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep5_M84_R1_trimmed_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep5_M84_R1_trimmed_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep5_M84_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep5_M84_Log.final.out",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep6_M89_R1_raw_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep6_M89_R1_raw_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep6_M89_R1_trimmed_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep6_M89_R1_trimmed_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep6_M89_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLLC_IR_4mon_Rep6_M89_Log.final.out",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep1_M74_R1_raw_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep1_M74_R1_raw_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep1_M74_R1_trimmed_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep1_M74_R1_trimmed_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep1_M74_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep1_M74_Log.final.out",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep2_M78_R1_raw_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep2_M78_R1_raw_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep2_M78_R1_trimmed_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep2_M78_R1_trimmed_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep2_M78_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep2_M78_Log.final.out",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep3_M86_R1_raw_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep3_M86_R1_raw_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep3_M86_R1_trimmed_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep3_M86_R1_trimmed_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep3_M86_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep3_M86_Log.final.out",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep4_M90_R1_raw_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep4_M90_R1_raw_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep4_M90_R1_trimmed_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep4_M90_R1_trimmed_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep4_M90_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep4_M90_Log.final.out",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep5_M93_R1_raw_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep5_M93_R1_raw_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep5_M93_R1_trimmed_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep5_M93_R1_trimmed_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep5_M93_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep5_M93_Log.final.out",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep6_M94_R1_raw_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep6_M94_R1_raw_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep6_M94_R1_trimmed_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep6_M94_R1_trimmed_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep6_M94_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IRC_4mon_Rep6_M94_Log.final.out",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep1_M76_R1_raw_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep1_M76_R1_raw_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep1_M76_R1_trimmed_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep1_M76_R1_trimmed_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep1_M76_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep1_M76_Log.final.out",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep2_M77_R1_raw_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep2_M77_R1_raw_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep2_M77_R1_trimmed_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep2_M77_R1_trimmed_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep2_M77_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep2_M77_Log.final.out",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep3_M88_R1_raw_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep3_M88_R1_raw_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep3_M88_R1_trimmed_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep3_M88_R1_trimmed_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep3_M88_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep3_M88_Log.final.out",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep4_M92_R1_raw_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep4_M92_R1_raw_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep4_M92_R1_trimmed_fastqc.html",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep4_M92_R1_trimmed_fastqc.zip",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep4_M92_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-202_rna_seq_Mmus_C57-6J_BRN_HLU_IR_4mon_Rep4_M92_Log.final.out",
+          "GLDS-202_rna_seq_infer_exp_multiqc_report.zip"
+        ]
+      }
+    }
+  ]
+}

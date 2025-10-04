@@ -1,0 +1,2356 @@
+{
+  "investigation": {
+    "id": "OSD-321",
+    "title": "Relevance of Unfolded Protein Response to Spaceflight-Induced Transcriptional Reprogramming in Arabidopsis",
+    "description": "Plants are primary producers of food and oxygen on Earth and will likewise be indispensable to the establishment of large-scale sustainable ecosystems and human survival in space. To contribute to the understanding of how plants respond to spaceflight stresses, we examined the relevance of the unfolded protein response (UPR), a conserved signaling cascade that responds to a number of unfavorable environmental stresses, in the model plant species Arabidopsis thaliana.",
+    "mission": {
+      "name": "SpaceX-12",
+      "start_date": "08/14/2017",
+      "end_date": "09/17/2017",
+      "link": "https://osdr.nasa.gov/bio/repo/data/missions/SpaceX-12"
+    },
+    "project": {
+      "identifier": "BRIC-22",
+      "title": "Mechanisms for Plant Adaptation to Space Environment",
+      "type": "Spaceflight Study",
+      "link": "https://nlsp.nasa.gov/view/lsdapub/lsda_experiment/03e20786-7b30-5d0d-9483-49d194686e8f",
+      "funding": "This work was supported primarily by NASA NNX12AN71G with contributing support from Training Program in Plant Biotechnology for Health and Sustainability (T32-GM110523), the DOE Great Lakes Bioenergy Research Center (DOE BER Office of Science DE-FC02-07ER64494 and DE-SC0018409), the Chemical Sciences, Geosciences, and Biosciences Division, Office of Basic Energy Sciences, Office of Science, US Department of Energy (award number DE-FG02-91ER20021), National Institutes of Health (GM101038), and AgBioResearch (MICL02598) to F.B",
+      "managing_center": "Kennedy Space Center (KSC)"
+    },
+    "protocols": [
+      "Nucleic Acid Extraction",
+      "Library Construction",
+      "Nucleic Acid Sequencing",
+      "GeneLab raw data processing protocol",
+      "GeneLab RNAseq data processing protocol",
+      "growth protocol",
+      "treatment protocol",
+      "sample collection",
+      "radiation dosimetry"
+    ],
+    "publications": [
+      {
+        "title": "Relevance of the Unfolded Protein Response to Spaceflight-Induced Transcriptional Reprogramming in Arabidopsis",
+        "doi": "10.1089/ast.2020.2313",
+        "authors": [
+          "Evan Angelos",
+          "Dae Kwan Ko",
+          "Starla Zemelis-Durfee",
+          "and Federica Brandizzi"
+        ],
+        "summary": "Relevance of the Unfolded Protein Response to Spaceflight-Induced Transcriptional Reprogramming in Arabidopsis — 10.1089/ast.2020.2313"
+      }
+    ],
+    "factors": [
+      "Spaceflight",
+      "Genotype"
+    ],
+    "contacts": [
+      {
+        "first_name": "Federica",
+        "last_name": "Brandizzi",
+        "role": "principal investigator",
+        "email": "fb@msu.edu"
+      },
+      {
+        "first_name": "Evan",
+        "last_name": "Angelos",
+        "role": "submitter",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "GSM4486031",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "Seed Source": "see growth protocol description",
+          "Material Type": "Seedlings",
+          "Launch Mission": "SpaceX-12"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "bzip28-2"
+        },
+        "parameters": {
+          "Hardware": "BRIC-PDFU (Petri Dish Fixation Unit)",
+          "light cycle": "24 dark",
+          "growth environment": "ISS-US Laboratory",
+          "Growth Medium": "\"1/2 Murashige and Skoog media supplemented with Gamborgs B5 Vitamins (PhytoTechnology Laboratories), 0.5% sucrose (Sigma-Aldrich), 0.4% Phytagel (Sigma-Aldrich), pH adjusted to 5.7\"",
+          "Growth Time": "14",
+          "Quantity of growth medium": "6.7",
+          "Number of seeds per container": "70-80",
+          "light regimen": "continuous dark (no light) regimen",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "space radiation",
+          "vehicle": "ISS-US Laboratory",
+          "absorbed radiation dose": "3.007",
+          "absorbed radiation dose rate": "0.231",
+          "exposure duration": "13",
+          "ionizing radiation categorized by source": "outer space"
+        },
+        "comments": {
+          "Sample Description": "bzip28-2_Space flight_whole seedlings"
+        }
+      },
+      {
+        "sample_name": "GSM4486032",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "Seed Source": "see growth protocol description",
+          "Material Type": "Seedlings",
+          "Launch Mission": "SpaceX-12"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "bzip28-2"
+        },
+        "parameters": {
+          "Hardware": "BRIC-PDFU (Petri Dish Fixation Unit)",
+          "light cycle": "24 dark",
+          "growth environment": "ISS-US Laboratory",
+          "Growth Medium": "\"1/2 Murashige and Skoog media supplemented with Gamborgs B5 Vitamins (PhytoTechnology Laboratories), 0.5% sucrose (Sigma-Aldrich), 0.4% Phytagel (Sigma-Aldrich), pH adjusted to 5.7\"",
+          "Growth Time": "14",
+          "Quantity of growth medium": "6.7",
+          "Number of seeds per container": "70-80",
+          "light regimen": "continuous dark (no light) regimen",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "space radiation",
+          "vehicle": "ISS-US Laboratory",
+          "absorbed radiation dose": "3.007",
+          "absorbed radiation dose rate": "0.231",
+          "exposure duration": "13",
+          "ionizing radiation categorized by source": "outer space"
+        },
+        "comments": {
+          "Sample Description": "bzip28-2_Space flight_whole seedlings"
+        }
+      },
+      {
+        "sample_name": "GSM4486033",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "Seed Source": "see growth protocol description",
+          "Material Type": "Seedlings",
+          "Launch Mission": "SpaceX-12"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "bzip28-2"
+        },
+        "parameters": {
+          "Hardware": "BRIC-PDFU (Petri Dish Fixation Unit)",
+          "light cycle": "24 dark",
+          "growth environment": "ISS-US Laboratory",
+          "Growth Medium": "\"1/2 Murashige and Skoog media supplemented with Gamborgs B5 Vitamins (PhytoTechnology Laboratories), 0.5% sucrose (Sigma-Aldrich), 0.4% Phytagel (Sigma-Aldrich), pH adjusted to 5.7\"",
+          "Growth Time": "14",
+          "Quantity of growth medium": "6.7",
+          "Number of seeds per container": "70-80",
+          "light regimen": "continuous dark (no light) regimen",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "space radiation",
+          "vehicle": "ISS-US Laboratory",
+          "absorbed radiation dose": "3.007",
+          "absorbed radiation dose rate": "0.231",
+          "exposure duration": "13",
+          "ionizing radiation categorized by source": "outer space"
+        },
+        "comments": {
+          "Sample Description": "bzip28-2_Space flight_whole seedlings"
+        }
+      },
+      {
+        "sample_name": "GSM4486034",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "Seed Source": "see growth protocol description",
+          "Material Type": "Seedlings",
+          "Launch Mission": "SpaceX-12"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "bzip28-2"
+        },
+        "parameters": {
+          "Hardware": "BRIC-PDFU (Petri Dish Fixation Unit)",
+          "light cycle": "24 dark",
+          "growth environment": "ISS-US Laboratory",
+          "Growth Medium": "\"1/2 Murashige and Skoog media supplemented with Gamborgs B5 Vitamins (PhytoTechnology Laboratories), 0.5% sucrose (Sigma-Aldrich), 0.4% Phytagel (Sigma-Aldrich), pH adjusted to 5.7\"",
+          "Growth Time": "14",
+          "Quantity of growth medium": "6.7",
+          "Number of seeds per container": "70-80",
+          "light regimen": "continuous dark (no light) regimen",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "space radiation",
+          "vehicle": "ISS-US Laboratory",
+          "absorbed radiation dose": "3.007",
+          "absorbed radiation dose rate": "0.231",
+          "exposure duration": "13",
+          "ionizing radiation categorized by source": "outer space"
+        },
+        "comments": {
+          "Sample Description": "bzip28-2_Space flight_whole seedlings"
+        }
+      },
+      {
+        "sample_name": "GSM4486035",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "Seed Source": "see growth protocol description",
+          "Material Type": "Seedlings",
+          "Launch Mission": ""
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Genotype": "bzip28-2"
+        },
+        "parameters": {
+          "Hardware": "BRIC-PDFU (Petri Dish Fixation Unit)",
+          "light cycle": "24 dark",
+          "growth environment": "ISS Environmental Simulator",
+          "Growth Medium": "\"1/2 Murashige and Skoog media supplemented with Gamborgs B5 Vitamins (PhytoTechnology Laboratories), 0.5% sucrose (Sigma-Aldrich), 0.4% Phytagel (Sigma-Aldrich), pH adjusted to 5.7\"",
+          "Growth Time": "14",
+          "Quantity of growth medium": "6.7",
+          "Number of seeds per container": "70-80",
+          "light regimen": "continuous dark (no light) regimen",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "non-irradiated",
+          "vehicle": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "bzip28-2_Ground_whole seedlings"
+        }
+      },
+      {
+        "sample_name": "GSM4486036",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "Seed Source": "see growth protocol description",
+          "Material Type": "Seedlings",
+          "Launch Mission": ""
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Genotype": "bzip28-2"
+        },
+        "parameters": {
+          "Hardware": "BRIC-PDFU (Petri Dish Fixation Unit)",
+          "light cycle": "24 dark",
+          "growth environment": "ISS Environmental Simulator",
+          "Growth Medium": "\"1/2 Murashige and Skoog media supplemented with Gamborgs B5 Vitamins (PhytoTechnology Laboratories), 0.5% sucrose (Sigma-Aldrich), 0.4% Phytagel (Sigma-Aldrich), pH adjusted to 5.7\"",
+          "Growth Time": "14",
+          "Quantity of growth medium": "6.7",
+          "Number of seeds per container": "70-80",
+          "light regimen": "continuous dark (no light) regimen",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "non-irradiated",
+          "vehicle": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "bzip28-2_Ground_whole seedlings"
+        }
+      },
+      {
+        "sample_name": "GSM4486037",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "Seed Source": "see growth protocol description",
+          "Material Type": "Seedlings",
+          "Launch Mission": ""
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Genotype": "bzip28-2"
+        },
+        "parameters": {
+          "Hardware": "BRIC-PDFU (Petri Dish Fixation Unit)",
+          "light cycle": "24 dark",
+          "growth environment": "ISS Environmental Simulator",
+          "Growth Medium": "\"1/2 Murashige and Skoog media supplemented with Gamborgs B5 Vitamins (PhytoTechnology Laboratories), 0.5% sucrose (Sigma-Aldrich), 0.4% Phytagel (Sigma-Aldrich), pH adjusted to 5.7\"",
+          "Growth Time": "14",
+          "Quantity of growth medium": "6.7",
+          "Number of seeds per container": "70-80",
+          "light regimen": "continuous dark (no light) regimen",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "non-irradiated",
+          "vehicle": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "bzip28-2_Ground_whole seedlings"
+        }
+      },
+      {
+        "sample_name": "GSM4486038",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "Seed Source": "see growth protocol description",
+          "Material Type": "Seedlings",
+          "Launch Mission": ""
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Genotype": "bzip28-2"
+        },
+        "parameters": {
+          "Hardware": "BRIC-PDFU (Petri Dish Fixation Unit)",
+          "light cycle": "24 dark",
+          "growth environment": "ISS Environmental Simulator",
+          "Growth Medium": "\"1/2 Murashige and Skoog media supplemented with Gamborgs B5 Vitamins (PhytoTechnology Laboratories), 0.5% sucrose (Sigma-Aldrich), 0.4% Phytagel (Sigma-Aldrich), pH adjusted to 5.7\"",
+          "Growth Time": "14",
+          "Quantity of growth medium": "6.7",
+          "Number of seeds per container": "70-80",
+          "light regimen": "continuous dark (no light) regimen",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "non-irradiated",
+          "vehicle": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "bzip28-2_Ground_whole seedlings"
+        }
+      },
+      {
+        "sample_name": "GSM4486039",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "Seed Source": "see growth protocol description",
+          "Material Type": "Seedlings",
+          "Launch Mission": "SpaceX-12"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "bzip60-2"
+        },
+        "parameters": {
+          "Hardware": "BRIC-PDFU (Petri Dish Fixation Unit)",
+          "light cycle": "24 dark",
+          "growth environment": "ISS-US Laboratory",
+          "Growth Medium": "\"1/2 Murashige and Skoog media supplemented with Gamborgs B5 Vitamins (PhytoTechnology Laboratories), 0.5% sucrose (Sigma-Aldrich), 0.4% Phytagel (Sigma-Aldrich), pH adjusted to 5.7\"",
+          "Growth Time": "14",
+          "Quantity of growth medium": "6.7",
+          "Number of seeds per container": "70-80",
+          "light regimen": "continuous dark (no light) regimen",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "space radiation",
+          "vehicle": "ISS-US Laboratory",
+          "absorbed radiation dose": "3.007",
+          "absorbed radiation dose rate": "0.231",
+          "exposure duration": "13",
+          "ionizing radiation categorized by source": "outer space"
+        },
+        "comments": {
+          "Sample Description": "bzip60-2_Space flight_whole seedlings"
+        }
+      },
+      {
+        "sample_name": "GSM4486040",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "Seed Source": "see growth protocol description",
+          "Material Type": "Seedlings",
+          "Launch Mission": "SpaceX-12"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "bzip60-2"
+        },
+        "parameters": {
+          "Hardware": "BRIC-PDFU (Petri Dish Fixation Unit)",
+          "light cycle": "24 dark",
+          "growth environment": "ISS-US Laboratory",
+          "Growth Medium": "\"1/2 Murashige and Skoog media supplemented with Gamborgs B5 Vitamins (PhytoTechnology Laboratories), 0.5% sucrose (Sigma-Aldrich), 0.4% Phytagel (Sigma-Aldrich), pH adjusted to 5.7\"",
+          "Growth Time": "14",
+          "Quantity of growth medium": "6.7",
+          "Number of seeds per container": "70-80",
+          "light regimen": "continuous dark (no light) regimen",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "space radiation",
+          "vehicle": "ISS-US Laboratory",
+          "absorbed radiation dose": "3.007",
+          "absorbed radiation dose rate": "0.231",
+          "exposure duration": "13",
+          "ionizing radiation categorized by source": "outer space"
+        },
+        "comments": {
+          "Sample Description": "bzip60-2_Space flight_whole seedlings"
+        }
+      },
+      {
+        "sample_name": "GSM4486041",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "Seed Source": "see growth protocol description",
+          "Material Type": "Seedlings",
+          "Launch Mission": "SpaceX-12"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "bzip60-2"
+        },
+        "parameters": {
+          "Hardware": "BRIC-PDFU (Petri Dish Fixation Unit)",
+          "light cycle": "24 dark",
+          "growth environment": "ISS-US Laboratory",
+          "Growth Medium": "\"1/2 Murashige and Skoog media supplemented with Gamborgs B5 Vitamins (PhytoTechnology Laboratories), 0.5% sucrose (Sigma-Aldrich), 0.4% Phytagel (Sigma-Aldrich), pH adjusted to 5.7\"",
+          "Growth Time": "14",
+          "Quantity of growth medium": "6.7",
+          "Number of seeds per container": "70-80",
+          "light regimen": "continuous dark (no light) regimen",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "space radiation",
+          "vehicle": "ISS-US Laboratory",
+          "absorbed radiation dose": "3.007",
+          "absorbed radiation dose rate": "0.231",
+          "exposure duration": "13",
+          "ionizing radiation categorized by source": "outer space"
+        },
+        "comments": {
+          "Sample Description": "bzip60-2_Space flight_whole seedlings"
+        }
+      },
+      {
+        "sample_name": "GSM4486042",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "Seed Source": "see growth protocol description",
+          "Material Type": "Seedlings",
+          "Launch Mission": "SpaceX-12"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "bzip60-2"
+        },
+        "parameters": {
+          "Hardware": "BRIC-PDFU (Petri Dish Fixation Unit)",
+          "light cycle": "24 dark",
+          "growth environment": "ISS-US Laboratory",
+          "Growth Medium": "\"1/2 Murashige and Skoog media supplemented with Gamborgs B5 Vitamins (PhytoTechnology Laboratories), 0.5% sucrose (Sigma-Aldrich), 0.4% Phytagel (Sigma-Aldrich), pH adjusted to 5.7\"",
+          "Growth Time": "14",
+          "Quantity of growth medium": "6.7",
+          "Number of seeds per container": "70-80",
+          "light regimen": "continuous dark (no light) regimen",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "space radiation",
+          "vehicle": "ISS-US Laboratory",
+          "absorbed radiation dose": "3.007",
+          "absorbed radiation dose rate": "0.231",
+          "exposure duration": "13",
+          "ionizing radiation categorized by source": "outer space"
+        },
+        "comments": {
+          "Sample Description": "bzip60-2_Space flight_whole seedlings"
+        }
+      },
+      {
+        "sample_name": "GSM4486043",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "Seed Source": "see growth protocol description",
+          "Material Type": "Seedlings",
+          "Launch Mission": ""
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Genotype": "bzip60-2"
+        },
+        "parameters": {
+          "Hardware": "BRIC-PDFU (Petri Dish Fixation Unit)",
+          "light cycle": "24 dark",
+          "growth environment": "ISS Environmental Simulator",
+          "Growth Medium": "\"1/2 Murashige and Skoog media supplemented with Gamborgs B5 Vitamins (PhytoTechnology Laboratories), 0.5% sucrose (Sigma-Aldrich), 0.4% Phytagel (Sigma-Aldrich), pH adjusted to 5.7\"",
+          "Growth Time": "14",
+          "Quantity of growth medium": "6.7",
+          "Number of seeds per container": "70-80",
+          "light regimen": "continuous dark (no light) regimen",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "non-irradiated",
+          "vehicle": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "bzip60-2_Ground_whole seedlings"
+        }
+      },
+      {
+        "sample_name": "GSM4486044",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "Seed Source": "see growth protocol description",
+          "Material Type": "Seedlings",
+          "Launch Mission": ""
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Genotype": "bzip60-2"
+        },
+        "parameters": {
+          "Hardware": "BRIC-PDFU (Petri Dish Fixation Unit)",
+          "light cycle": "24 dark",
+          "growth environment": "ISS Environmental Simulator",
+          "Growth Medium": "\"1/2 Murashige and Skoog media supplemented with Gamborgs B5 Vitamins (PhytoTechnology Laboratories), 0.5% sucrose (Sigma-Aldrich), 0.4% Phytagel (Sigma-Aldrich), pH adjusted to 5.7\"",
+          "Growth Time": "14",
+          "Quantity of growth medium": "6.7",
+          "Number of seeds per container": "70-80",
+          "light regimen": "continuous dark (no light) regimen",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "non-irradiated",
+          "vehicle": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "bzip60-2_Ground_whole seedlings"
+        }
+      },
+      {
+        "sample_name": "GSM4486045",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "Seed Source": "see growth protocol description",
+          "Material Type": "Seedlings",
+          "Launch Mission": ""
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Genotype": "bzip60-2"
+        },
+        "parameters": {
+          "Hardware": "BRIC-PDFU (Petri Dish Fixation Unit)",
+          "light cycle": "24 dark",
+          "growth environment": "ISS Environmental Simulator",
+          "Growth Medium": "\"1/2 Murashige and Skoog media supplemented with Gamborgs B5 Vitamins (PhytoTechnology Laboratories), 0.5% sucrose (Sigma-Aldrich), 0.4% Phytagel (Sigma-Aldrich), pH adjusted to 5.7\"",
+          "Growth Time": "14",
+          "Quantity of growth medium": "6.7",
+          "Number of seeds per container": "70-80",
+          "light regimen": "continuous dark (no light) regimen",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "non-irradiated",
+          "vehicle": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "bzip60-2_Ground_whole seedlings"
+        }
+      },
+      {
+        "sample_name": "GSM4486046",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "Seed Source": "see growth protocol description",
+          "Material Type": "Seedlings",
+          "Launch Mission": ""
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Genotype": "bzip60-2"
+        },
+        "parameters": {
+          "Hardware": "BRIC-PDFU (Petri Dish Fixation Unit)",
+          "light cycle": "24 dark",
+          "growth environment": "ISS Environmental Simulator",
+          "Growth Medium": "\"1/2 Murashige and Skoog media supplemented with Gamborgs B5 Vitamins (PhytoTechnology Laboratories), 0.5% sucrose (Sigma-Aldrich), 0.4% Phytagel (Sigma-Aldrich), pH adjusted to 5.7\"",
+          "Growth Time": "14",
+          "Quantity of growth medium": "6.7",
+          "Number of seeds per container": "70-80",
+          "light regimen": "continuous dark (no light) regimen",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "non-irradiated",
+          "vehicle": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "bzip60-2_Ground_whole seedlings"
+        }
+      },
+      {
+        "sample_name": "GSM4486047",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "Seed Source": "see growth protocol description",
+          "Material Type": "Seedlings",
+          "Launch Mission": "SpaceX-12"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "bzip28-2 bzip60-1"
+        },
+        "parameters": {
+          "Hardware": "BRIC-PDFU (Petri Dish Fixation Unit)",
+          "light cycle": "24 dark",
+          "growth environment": "ISS-US Laboratory",
+          "Growth Medium": "\"1/2 Murashige and Skoog media supplemented with Gamborgs B5 Vitamins (PhytoTechnology Laboratories), 0.5% sucrose (Sigma-Aldrich), 0.4% Phytagel (Sigma-Aldrich), pH adjusted to 5.7\"",
+          "Growth Time": "14",
+          "Quantity of growth medium": "6.7",
+          "Number of seeds per container": "70-80",
+          "light regimen": "continuous dark (no light) regimen",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "space radiation",
+          "vehicle": "ISS-US Laboratory",
+          "absorbed radiation dose": "3.007",
+          "absorbed radiation dose rate": "0.231",
+          "exposure duration": "13",
+          "ionizing radiation categorized by source": "outer space"
+        },
+        "comments": {
+          "Sample Description": "bzip28-2 bzip60-1_Space flight_whole seedlings"
+        }
+      },
+      {
+        "sample_name": "GSM4486048",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "Seed Source": "see growth protocol description",
+          "Material Type": "Seedlings",
+          "Launch Mission": "SpaceX-12"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "bzip28-2 bzip60-1"
+        },
+        "parameters": {
+          "Hardware": "BRIC-PDFU (Petri Dish Fixation Unit)",
+          "light cycle": "24 dark",
+          "growth environment": "ISS-US Laboratory",
+          "Growth Medium": "\"1/2 Murashige and Skoog media supplemented with Gamborgs B5 Vitamins (PhytoTechnology Laboratories), 0.5% sucrose (Sigma-Aldrich), 0.4% Phytagel (Sigma-Aldrich), pH adjusted to 5.7\"",
+          "Growth Time": "14",
+          "Quantity of growth medium": "6.7",
+          "Number of seeds per container": "70-80",
+          "light regimen": "continuous dark (no light) regimen",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "space radiation",
+          "vehicle": "ISS-US Laboratory",
+          "absorbed radiation dose": "3.007",
+          "absorbed radiation dose rate": "0.231",
+          "exposure duration": "13",
+          "ionizing radiation categorized by source": "outer space"
+        },
+        "comments": {
+          "Sample Description": "bzip28-2 bzip60-1_Space flight_whole seedlings"
+        }
+      },
+      {
+        "sample_name": "GSM4486049",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "Seed Source": "see growth protocol description",
+          "Material Type": "Seedlings",
+          "Launch Mission": "SpaceX-12"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "bzip28-2 bzip60-1"
+        },
+        "parameters": {
+          "Hardware": "BRIC-PDFU (Petri Dish Fixation Unit)",
+          "light cycle": "24 dark",
+          "growth environment": "ISS-US Laboratory",
+          "Growth Medium": "\"1/2 Murashige and Skoog media supplemented with Gamborgs B5 Vitamins (PhytoTechnology Laboratories), 0.5% sucrose (Sigma-Aldrich), 0.4% Phytagel (Sigma-Aldrich), pH adjusted to 5.7\"",
+          "Growth Time": "14",
+          "Quantity of growth medium": "6.7",
+          "Number of seeds per container": "70-80",
+          "light regimen": "continuous dark (no light) regimen",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "space radiation",
+          "vehicle": "ISS-US Laboratory",
+          "absorbed radiation dose": "3.007",
+          "absorbed radiation dose rate": "0.231",
+          "exposure duration": "13",
+          "ionizing radiation categorized by source": "outer space"
+        },
+        "comments": {
+          "Sample Description": "bzip28-2 bzip60-1_Space flight_whole seedlings"
+        }
+      },
+      {
+        "sample_name": "GSM4486050",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "Seed Source": "see growth protocol description",
+          "Material Type": "Seedlings",
+          "Launch Mission": "SpaceX-12"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "bzip28-2 bzip60-1"
+        },
+        "parameters": {
+          "Hardware": "BRIC-PDFU (Petri Dish Fixation Unit)",
+          "light cycle": "24 dark",
+          "growth environment": "ISS-US Laboratory",
+          "Growth Medium": "\"1/2 Murashige and Skoog media supplemented with Gamborgs B5 Vitamins (PhytoTechnology Laboratories), 0.5% sucrose (Sigma-Aldrich), 0.4% Phytagel (Sigma-Aldrich), pH adjusted to 5.7\"",
+          "Growth Time": "14",
+          "Quantity of growth medium": "6.7",
+          "Number of seeds per container": "70-80",
+          "light regimen": "continuous dark (no light) regimen",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "space radiation",
+          "vehicle": "ISS-US Laboratory",
+          "absorbed radiation dose": "3.007",
+          "absorbed radiation dose rate": "0.231",
+          "exposure duration": "13",
+          "ionizing radiation categorized by source": "outer space"
+        },
+        "comments": {
+          "Sample Description": "bzip28-2 bzip60-1_Space flight_whole seedlings"
+        }
+      },
+      {
+        "sample_name": "GSM4486051",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "Seed Source": "see growth protocol description",
+          "Material Type": "Seedlings",
+          "Launch Mission": "SpaceX-12"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "bzip28-2 bzip60-1"
+        },
+        "parameters": {
+          "Hardware": "BRIC-PDFU (Petri Dish Fixation Unit)",
+          "light cycle": "24 dark",
+          "growth environment": "ISS-US Laboratory",
+          "Growth Medium": "\"1/2 Murashige and Skoog media supplemented with Gamborgs B5 Vitamins (PhytoTechnology Laboratories), 0.5% sucrose (Sigma-Aldrich), 0.4% Phytagel (Sigma-Aldrich), pH adjusted to 5.7\"",
+          "Growth Time": "14",
+          "Quantity of growth medium": "6.7",
+          "Number of seeds per container": "70-80",
+          "light regimen": "continuous dark (no light) regimen",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "space radiation",
+          "vehicle": "ISS-US Laboratory",
+          "absorbed radiation dose": "3.007",
+          "absorbed radiation dose rate": "0.231",
+          "exposure duration": "13",
+          "ionizing radiation categorized by source": "outer space"
+        },
+        "comments": {
+          "Sample Description": "bzip28-2 bzip60-1_Space flight_whole seedlings"
+        }
+      },
+      {
+        "sample_name": "GSM4486052",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "Seed Source": "see growth protocol description",
+          "Material Type": "Seedlings",
+          "Launch Mission": ""
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Genotype": "bzip28-2 bzip60-1"
+        },
+        "parameters": {
+          "Hardware": "BRIC-PDFU (Petri Dish Fixation Unit)",
+          "light cycle": "24 dark",
+          "growth environment": "ISS Environmental Simulator",
+          "Growth Medium": "\"1/2 Murashige and Skoog media supplemented with Gamborgs B5 Vitamins (PhytoTechnology Laboratories), 0.5% sucrose (Sigma-Aldrich), 0.4% Phytagel (Sigma-Aldrich), pH adjusted to 5.7\"",
+          "Growth Time": "14",
+          "Quantity of growth medium": "6.7",
+          "Number of seeds per container": "70-80",
+          "light regimen": "continuous dark (no light) regimen",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "non-irradiated",
+          "vehicle": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "bzip28-2 bzip60-1_Ground_whole seedlings"
+        }
+      },
+      {
+        "sample_name": "GSM4486053",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "Seed Source": "see growth protocol description",
+          "Material Type": "Seedlings",
+          "Launch Mission": ""
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Genotype": "bzip28-2 bzip60-1"
+        },
+        "parameters": {
+          "Hardware": "BRIC-PDFU (Petri Dish Fixation Unit)",
+          "light cycle": "24 dark",
+          "growth environment": "ISS Environmental Simulator",
+          "Growth Medium": "\"1/2 Murashige and Skoog media supplemented with Gamborgs B5 Vitamins (PhytoTechnology Laboratories), 0.5% sucrose (Sigma-Aldrich), 0.4% Phytagel (Sigma-Aldrich), pH adjusted to 5.7\"",
+          "Growth Time": "14",
+          "Quantity of growth medium": "6.7",
+          "Number of seeds per container": "70-80",
+          "light regimen": "continuous dark (no light) regimen",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "non-irradiated",
+          "vehicle": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "bzip28-2 bzip60-1_Ground_whole seedlings"
+        }
+      },
+      {
+        "sample_name": "GSM4486054",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "Seed Source": "see growth protocol description",
+          "Material Type": "Seedlings",
+          "Launch Mission": ""
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Genotype": "bzip28-2 bzip60-1"
+        },
+        "parameters": {
+          "Hardware": "BRIC-PDFU (Petri Dish Fixation Unit)",
+          "light cycle": "24 dark",
+          "growth environment": "ISS Environmental Simulator",
+          "Growth Medium": "\"1/2 Murashige and Skoog media supplemented with Gamborgs B5 Vitamins (PhytoTechnology Laboratories), 0.5% sucrose (Sigma-Aldrich), 0.4% Phytagel (Sigma-Aldrich), pH adjusted to 5.7\"",
+          "Growth Time": "14",
+          "Quantity of growth medium": "6.7",
+          "Number of seeds per container": "70-80",
+          "light regimen": "continuous dark (no light) regimen",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "non-irradiated",
+          "vehicle": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "bzip28-2 bzip60-1_Ground_whole seedlings"
+        }
+      },
+      {
+        "sample_name": "GSM4486055",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "Seed Source": "see growth protocol description",
+          "Material Type": "Seedlings",
+          "Launch Mission": ""
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Genotype": "bzip28-2 bzip60-1"
+        },
+        "parameters": {
+          "Hardware": "BRIC-PDFU (Petri Dish Fixation Unit)",
+          "light cycle": "24 dark",
+          "growth environment": "ISS Environmental Simulator",
+          "Growth Medium": "\"1/2 Murashige and Skoog media supplemented with Gamborgs B5 Vitamins (PhytoTechnology Laboratories), 0.5% sucrose (Sigma-Aldrich), 0.4% Phytagel (Sigma-Aldrich), pH adjusted to 5.7\"",
+          "Growth Time": "14",
+          "Quantity of growth medium": "6.7",
+          "Number of seeds per container": "70-80",
+          "light regimen": "continuous dark (no light) regimen",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "non-irradiated",
+          "vehicle": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "bzip28-2 bzip60-1_Ground_whole seedlings"
+        }
+      },
+      {
+        "sample_name": "GSM4486056",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "Seed Source": "see growth protocol description",
+          "Material Type": "Seedlings",
+          "Launch Mission": ""
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Genotype": "bzip28-2 bzip60-1"
+        },
+        "parameters": {
+          "Hardware": "BRIC-PDFU (Petri Dish Fixation Unit)",
+          "light cycle": "24 dark",
+          "growth environment": "ISS Environmental Simulator",
+          "Growth Medium": "\"1/2 Murashige and Skoog media supplemented with Gamborgs B5 Vitamins (PhytoTechnology Laboratories), 0.5% sucrose (Sigma-Aldrich), 0.4% Phytagel (Sigma-Aldrich), pH adjusted to 5.7\"",
+          "Growth Time": "14",
+          "Quantity of growth medium": "6.7",
+          "Number of seeds per container": "70-80",
+          "light regimen": "continuous dark (no light) regimen",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "non-irradiated",
+          "vehicle": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "bzip28-2 bzip60-1_Ground_whole seedlings"
+        }
+      },
+      {
+        "sample_name": "GSM4486057",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "Seed Source": "see growth protocol description",
+          "Material Type": "Seedlings",
+          "Launch Mission": "SpaceX-12"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "ire1a-4 ire1b-2"
+        },
+        "parameters": {
+          "Hardware": "BRIC-PDFU (Petri Dish Fixation Unit)",
+          "light cycle": "24 dark",
+          "growth environment": "ISS Environmental Simulator",
+          "Growth Medium": "\"1/2 Murashige and Skoog media supplemented with Gamborgs B5 Vitamins (PhytoTechnology Laboratories), 0.5% sucrose (Sigma-Aldrich), 0.4% Phytagel (Sigma-Aldrich), pH adjusted to 5.7\"",
+          "Growth Time": "14",
+          "Quantity of growth medium": "6.7",
+          "Number of seeds per container": "70-80",
+          "light regimen": "continuous dark (no light) regimen",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "space radiation",
+          "vehicle": "ISS-US Laboratory",
+          "absorbed radiation dose": "3.007",
+          "absorbed radiation dose rate": "0.231",
+          "exposure duration": "13",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "ire1a-4 ire1b-2_Space flight_whole seedlings"
+        }
+      },
+      {
+        "sample_name": "GSM4486058",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "Seed Source": "see growth protocol description",
+          "Material Type": "Seedlings",
+          "Launch Mission": "SpaceX-12"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "ire1a-4 ire1b-2"
+        },
+        "parameters": {
+          "Hardware": "BRIC-PDFU (Petri Dish Fixation Unit)",
+          "light cycle": "24 dark",
+          "growth environment": "ISS Environmental Simulator",
+          "Growth Medium": "\"1/2 Murashige and Skoog media supplemented with Gamborgs B5 Vitamins (PhytoTechnology Laboratories), 0.5% sucrose (Sigma-Aldrich), 0.4% Phytagel (Sigma-Aldrich), pH adjusted to 5.7\"",
+          "Growth Time": "14",
+          "Quantity of growth medium": "6.7",
+          "Number of seeds per container": "70-80",
+          "light regimen": "continuous dark (no light) regimen",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "space radiation",
+          "vehicle": "ISS-US Laboratory",
+          "absorbed radiation dose": "3.007",
+          "absorbed radiation dose rate": "0.231",
+          "exposure duration": "13",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "ire1a-4 ire1b-2_Space flight_whole seedlings"
+        }
+      },
+      {
+        "sample_name": "GSM4486059",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "Seed Source": "see growth protocol description",
+          "Material Type": "Seedlings",
+          "Launch Mission": "SpaceX-12"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "ire1a-4 ire1b-2"
+        },
+        "parameters": {
+          "Hardware": "BRIC-PDFU (Petri Dish Fixation Unit)",
+          "light cycle": "24 dark",
+          "growth environment": "ISS Environmental Simulator",
+          "Growth Medium": "\"1/2 Murashige and Skoog media supplemented with Gamborgs B5 Vitamins (PhytoTechnology Laboratories), 0.5% sucrose (Sigma-Aldrich), 0.4% Phytagel (Sigma-Aldrich), pH adjusted to 5.7\"",
+          "Growth Time": "14",
+          "Quantity of growth medium": "6.7",
+          "Number of seeds per container": "70-80",
+          "light regimen": "continuous dark (no light) regimen",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "space radiation",
+          "vehicle": "ISS-US Laboratory",
+          "absorbed radiation dose": "3.007",
+          "absorbed radiation dose rate": "0.231",
+          "exposure duration": "13",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "ire1a-4 ire1b-2_Space flight_whole seedlings"
+        }
+      },
+      {
+        "sample_name": "GSM4486060",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "Seed Source": "see growth protocol description",
+          "Material Type": "Seedlings",
+          "Launch Mission": "SpaceX-12"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "ire1a-4 ire1b-2"
+        },
+        "parameters": {
+          "Hardware": "BRIC-PDFU (Petri Dish Fixation Unit)",
+          "light cycle": "24 dark",
+          "growth environment": "ISS Environmental Simulator",
+          "Growth Medium": "\"1/2 Murashige and Skoog media supplemented with Gamborgs B5 Vitamins (PhytoTechnology Laboratories), 0.5% sucrose (Sigma-Aldrich), 0.4% Phytagel (Sigma-Aldrich), pH adjusted to 5.7\"",
+          "Growth Time": "14",
+          "Quantity of growth medium": "6.7",
+          "Number of seeds per container": "70-80",
+          "light regimen": "continuous dark (no light) regimen",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "space radiation",
+          "vehicle": "ISS-US Laboratory",
+          "absorbed radiation dose": "3.007",
+          "absorbed radiation dose rate": "0.231",
+          "exposure duration": "13",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "ire1a-4 ire1b-2_Space flight_whole seedlings"
+        }
+      },
+      {
+        "sample_name": "GSM4486061",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "Seed Source": "see growth protocol description",
+          "Material Type": "Seedlings",
+          "Launch Mission": ""
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Genotype": "ire1a-4 ire1b-2"
+        },
+        "parameters": {
+          "Hardware": "BRIC-PDFU (Petri Dish Fixation Unit)",
+          "light cycle": "24 dark",
+          "growth environment": "ISS Environmental Simulator",
+          "Growth Medium": "\"1/2 Murashige and Skoog media supplemented with Gamborgs B5 Vitamins (PhytoTechnology Laboratories), 0.5% sucrose (Sigma-Aldrich), 0.4% Phytagel (Sigma-Aldrich), pH adjusted to 5.7\"",
+          "Growth Time": "14",
+          "Quantity of growth medium": "6.7",
+          "Number of seeds per container": "70-80",
+          "light regimen": "continuous dark (no light) regimen",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "non-irradiated",
+          "vehicle": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "ire1a-4 ire1b-2_Ground_whole seedlings"
+        }
+      },
+      {
+        "sample_name": "GSM4486062",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "Seed Source": "see growth protocol description",
+          "Material Type": "Seedlings",
+          "Launch Mission": ""
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Genotype": "ire1a-4 ire1b-2"
+        },
+        "parameters": {
+          "Hardware": "BRIC-PDFU (Petri Dish Fixation Unit)",
+          "light cycle": "24 dark",
+          "growth environment": "ISS Environmental Simulator",
+          "Growth Medium": "\"1/2 Murashige and Skoog media supplemented with Gamborgs B5 Vitamins (PhytoTechnology Laboratories), 0.5% sucrose (Sigma-Aldrich), 0.4% Phytagel (Sigma-Aldrich), pH adjusted to 5.7\"",
+          "Growth Time": "14",
+          "Quantity of growth medium": "6.7",
+          "Number of seeds per container": "70-80",
+          "light regimen": "continuous dark (no light) regimen",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "non-irradiated",
+          "vehicle": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "ire1a-4 ire1b-2_Ground_whole seedlings"
+        }
+      },
+      {
+        "sample_name": "GSM4486063",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "Seed Source": "see growth protocol description",
+          "Material Type": "Seedlings",
+          "Launch Mission": ""
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Genotype": "ire1a-4 ire1b-2"
+        },
+        "parameters": {
+          "Hardware": "BRIC-PDFU (Petri Dish Fixation Unit)",
+          "light cycle": "24 dark",
+          "growth environment": "ISS Environmental Simulator",
+          "Growth Medium": "\"1/2 Murashige and Skoog media supplemented with Gamborgs B5 Vitamins (PhytoTechnology Laboratories), 0.5% sucrose (Sigma-Aldrich), 0.4% Phytagel (Sigma-Aldrich), pH adjusted to 5.7\"",
+          "Growth Time": "14",
+          "Quantity of growth medium": "6.7",
+          "Number of seeds per container": "70-80",
+          "light regimen": "continuous dark (no light) regimen",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "non-irradiated",
+          "vehicle": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "ire1a-4 ire1b-2_Ground_whole seedlings"
+        }
+      },
+      {
+        "sample_name": "GSM4486064",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "Seed Source": "see growth protocol description",
+          "Material Type": "Seedlings",
+          "Launch Mission": ""
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Genotype": "ire1a-4 ire1b-2"
+        },
+        "parameters": {
+          "Hardware": "BRIC-PDFU (Petri Dish Fixation Unit)",
+          "light cycle": "24 dark",
+          "growth environment": "ISS Environmental Simulator",
+          "Growth Medium": "\"1/2 Murashige and Skoog media supplemented with Gamborgs B5 Vitamins (PhytoTechnology Laboratories), 0.5% sucrose (Sigma-Aldrich), 0.4% Phytagel (Sigma-Aldrich), pH adjusted to 5.7\"",
+          "Growth Time": "14",
+          "Quantity of growth medium": "6.7",
+          "Number of seeds per container": "70-80",
+          "light regimen": "continuous dark (no light) regimen",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "non-irradiated",
+          "vehicle": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "ire1a-4 ire1b-2_Ground_whole seedlings"
+        }
+      },
+      {
+        "sample_name": "GSM4486065",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "Seed Source": "see growth protocol description",
+          "Material Type": "Seedlings",
+          "Launch Mission": "SpaceX-12"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "Wild Type"
+        },
+        "parameters": {
+          "Hardware": "BRIC-PDFU (Petri Dish Fixation Unit)",
+          "light cycle": "24 dark",
+          "growth environment": "ISS-US Laboratory",
+          "Growth Medium": "\"1/2 Murashige and Skoog media supplemented with Gamborgs B5 Vitamins (PhytoTechnology Laboratories), 0.5% sucrose (Sigma-Aldrich), 0.4% Phytagel (Sigma-Aldrich), pH adjusted to 5.7\"",
+          "Growth Time": "14",
+          "Quantity of growth medium": "6.7",
+          "Number of seeds per container": "70-80",
+          "light regimen": "continuous dark (no light) regimen",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "space radiation",
+          "vehicle": "ISS-US Laboratory",
+          "absorbed radiation dose": "3.007",
+          "absorbed radiation dose rate": "0.231",
+          "exposure duration": "13",
+          "ionizing radiation categorized by source": "outer space"
+        },
+        "comments": {
+          "Sample Description": "WT_Space flight_whole seedlings"
+        }
+      },
+      {
+        "sample_name": "GSM4486066",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "Seed Source": "see growth protocol description",
+          "Material Type": "Seedlings",
+          "Launch Mission": "SpaceX-12"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "Wild Type"
+        },
+        "parameters": {
+          "Hardware": "BRIC-PDFU (Petri Dish Fixation Unit)",
+          "light cycle": "24 dark",
+          "growth environment": "ISS-US Laboratory",
+          "Growth Medium": "\"1/2 Murashige and Skoog media supplemented with Gamborgs B5 Vitamins (PhytoTechnology Laboratories), 0.5% sucrose (Sigma-Aldrich), 0.4% Phytagel (Sigma-Aldrich), pH adjusted to 5.7\"",
+          "Growth Time": "14",
+          "Quantity of growth medium": "6.7",
+          "Number of seeds per container": "70-80",
+          "light regimen": "continuous dark (no light) regimen",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "space radiation",
+          "vehicle": "ISS-US Laboratory",
+          "absorbed radiation dose": "3.007",
+          "absorbed radiation dose rate": "0.231",
+          "exposure duration": "13",
+          "ionizing radiation categorized by source": "outer space"
+        },
+        "comments": {
+          "Sample Description": "WT_Space flight_whole seedlings"
+        }
+      },
+      {
+        "sample_name": "GSM4486067",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "Seed Source": "see growth protocol description",
+          "Material Type": "Seedlings",
+          "Launch Mission": "SpaceX-12"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "Wild Type"
+        },
+        "parameters": {
+          "Hardware": "BRIC-PDFU (Petri Dish Fixation Unit)",
+          "light cycle": "24 dark",
+          "growth environment": "ISS-US Laboratory",
+          "Growth Medium": "\"1/2 Murashige and Skoog media supplemented with Gamborgs B5 Vitamins (PhytoTechnology Laboratories), 0.5% sucrose (Sigma-Aldrich), 0.4% Phytagel (Sigma-Aldrich), pH adjusted to 5.7\"",
+          "Growth Time": "14",
+          "Quantity of growth medium": "6.7",
+          "Number of seeds per container": "70-80",
+          "light regimen": "continuous dark (no light) regimen",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "space radiation",
+          "vehicle": "ISS-US Laboratory",
+          "absorbed radiation dose": "3.007",
+          "absorbed radiation dose rate": "0.231",
+          "exposure duration": "13",
+          "ionizing radiation categorized by source": "outer space"
+        },
+        "comments": {
+          "Sample Description": "WT_Space flight_whole seedlings"
+        }
+      },
+      {
+        "sample_name": "GSM4486068",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "Seed Source": "see growth protocol description",
+          "Material Type": "Seedlings",
+          "Launch Mission": "SpaceX-12"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "Wild Type"
+        },
+        "parameters": {
+          "Hardware": "BRIC-PDFU (Petri Dish Fixation Unit)",
+          "light cycle": "24 dark",
+          "growth environment": "ISS-US Laboratory",
+          "Growth Medium": "\"1/2 Murashige and Skoog media supplemented with Gamborgs B5 Vitamins (PhytoTechnology Laboratories), 0.5% sucrose (Sigma-Aldrich), 0.4% Phytagel (Sigma-Aldrich), pH adjusted to 5.7\"",
+          "Growth Time": "14",
+          "Quantity of growth medium": "6.7",
+          "Number of seeds per container": "70-80",
+          "light regimen": "continuous dark (no light) regimen",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "space radiation",
+          "vehicle": "ISS-US Laboratory",
+          "absorbed radiation dose": "3.007",
+          "absorbed radiation dose rate": "0.231",
+          "exposure duration": "13",
+          "ionizing radiation categorized by source": "outer space"
+        },
+        "comments": {
+          "Sample Description": "WT_Space flight_whole seedlings"
+        }
+      },
+      {
+        "sample_name": "GSM4486069",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "Seed Source": "see growth protocol description",
+          "Material Type": "Seedlings",
+          "Launch Mission": "SpaceX-12"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Genotype": "Wild Type"
+        },
+        "parameters": {
+          "Hardware": "BRIC-PDFU (Petri Dish Fixation Unit)",
+          "light cycle": "24 dark",
+          "growth environment": "ISS-US Laboratory",
+          "Growth Medium": "\"1/2 Murashige and Skoog media supplemented with Gamborgs B5 Vitamins (PhytoTechnology Laboratories), 0.5% sucrose (Sigma-Aldrich), 0.4% Phytagel (Sigma-Aldrich), pH adjusted to 5.7\"",
+          "Growth Time": "14",
+          "Quantity of growth medium": "6.7",
+          "Number of seeds per container": "70-80",
+          "light regimen": "continuous dark (no light) regimen",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "space radiation",
+          "vehicle": "ISS-US Laboratory",
+          "absorbed radiation dose": "3.007",
+          "absorbed radiation dose rate": "0.231",
+          "exposure duration": "13",
+          "ionizing radiation categorized by source": "outer space"
+        },
+        "comments": {
+          "Sample Description": "WT_Space flight_whole seedlings"
+        }
+      },
+      {
+        "sample_name": "GSM4486070",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "Seed Source": "see growth protocol description",
+          "Material Type": "Seedlings",
+          "Launch Mission": ""
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Genotype": "Wild Type"
+        },
+        "parameters": {
+          "Hardware": "BRIC-PDFU (Petri Dish Fixation Unit)",
+          "light cycle": "24 dark",
+          "growth environment": "ISS Environmental Simulator",
+          "Growth Medium": "\"1/2 Murashige and Skoog media supplemented with Gamborgs B5 Vitamins (PhytoTechnology Laboratories), 0.5% sucrose (Sigma-Aldrich), 0.4% Phytagel (Sigma-Aldrich), pH adjusted to 5.7\"",
+          "Growth Time": "14",
+          "Quantity of growth medium": "6.7",
+          "Number of seeds per container": "70-80",
+          "light regimen": "continuous dark (no light) regimen",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "non-irradiated",
+          "vehicle": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "WT_Ground_whole seedlings"
+        }
+      },
+      {
+        "sample_name": "GSM4486071",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "Seed Source": "see growth protocol description",
+          "Material Type": "Seedlings",
+          "Launch Mission": ""
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Genotype": "Wild Type"
+        },
+        "parameters": {
+          "Hardware": "BRIC-PDFU (Petri Dish Fixation Unit)",
+          "light cycle": "24 dark",
+          "growth environment": "ISS Environmental Simulator",
+          "Growth Medium": "\"1/2 Murashige and Skoog media supplemented with Gamborgs B5 Vitamins (PhytoTechnology Laboratories), 0.5% sucrose (Sigma-Aldrich), 0.4% Phytagel (Sigma-Aldrich), pH adjusted to 5.7\"",
+          "Growth Time": "14",
+          "Quantity of growth medium": "6.7",
+          "Number of seeds per container": "70-80",
+          "light regimen": "continuous dark (no light) regimen",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "non-irradiated",
+          "vehicle": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "WT_Ground_whole seedlings"
+        }
+      },
+      {
+        "sample_name": "GSM4486072",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "Seed Source": "see growth protocol description",
+          "Material Type": "Seedlings",
+          "Launch Mission": ""
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Genotype": "Wild Type"
+        },
+        "parameters": {
+          "Hardware": "BRIC-PDFU (Petri Dish Fixation Unit)",
+          "light cycle": "24 dark",
+          "growth environment": "ISS Environmental Simulator",
+          "Growth Medium": "\"1/2 Murashige and Skoog media supplemented with Gamborgs B5 Vitamins (PhytoTechnology Laboratories), 0.5% sucrose (Sigma-Aldrich), 0.4% Phytagel (Sigma-Aldrich), pH adjusted to 5.7\"",
+          "Growth Time": "14",
+          "Quantity of growth medium": "6.7",
+          "Number of seeds per container": "70-80",
+          "light regimen": "continuous dark (no light) regimen",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "non-irradiated",
+          "vehicle": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "WT_Ground_whole seedlings"
+        }
+      },
+      {
+        "sample_name": "GSM4486073",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "Seed Source": "see growth protocol description",
+          "Material Type": "Seedlings",
+          "Launch Mission": ""
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Genotype": "Wild Type"
+        },
+        "parameters": {
+          "Hardware": "BRIC-PDFU (Petri Dish Fixation Unit)",
+          "light cycle": "24 dark",
+          "growth environment": "ISS Environmental Simulator",
+          "Growth Medium": "\"1/2 Murashige and Skoog media supplemented with Gamborgs B5 Vitamins (PhytoTechnology Laboratories), 0.5% sucrose (Sigma-Aldrich), 0.4% Phytagel (Sigma-Aldrich), pH adjusted to 5.7\"",
+          "Growth Time": "14",
+          "Quantity of growth medium": "6.7",
+          "Number of seeds per container": "70-80",
+          "light regimen": "continuous dark (no light) regimen",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "non-irradiated",
+          "vehicle": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "WT_Ground_whole seedlings"
+        }
+      },
+      {
+        "sample_name": "GSM4486074",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "Seed Source": "see growth protocol description",
+          "Material Type": "Seedlings",
+          "Launch Mission": ""
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Genotype": "Wild Type"
+        },
+        "parameters": {
+          "Hardware": "BRIC-PDFU (Petri Dish Fixation Unit)",
+          "light cycle": "24 dark",
+          "growth environment": "ISS Environmental Simulator",
+          "Growth Medium": "\"1/2 Murashige and Skoog media supplemented with Gamborgs B5 Vitamins (PhytoTechnology Laboratories), 0.5% sucrose (Sigma-Aldrich), 0.4% Phytagel (Sigma-Aldrich), pH adjusted to 5.7\"",
+          "Growth Time": "14",
+          "Quantity of growth medium": "6.7",
+          "Number of seeds per container": "70-80",
+          "light regimen": "continuous dark (no light) regimen",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "non-irradiated",
+          "vehicle": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Sample Description": "WT_Ground_whole seedlings"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina HiSeq 4000",
+      "qc": {
+        "QA Instrument": "Agilent Bioanalyzer 2100",
+        "Read Depth": "35570306",
+        "rRNA Contamination": "5.17"
+      },
+      "library": {
+        "Library Layout": "SINGLE",
+        "Stranded": "STRANDED"
+      },
+      "files": {
+        "raw": [
+          "GLDS-321_rna-seq_SRR11573264.fastq.gz",
+          "GLDS-321_rna-seq_SRR11573265.fastq.gz",
+          "GLDS-321_rna-seq_SRR11573266.fastq.gz",
+          "GLDS-321_rna-seq_SRR11573267.fastq.gz",
+          "GLDS-321_rna-seq_SRR11573268.fastq.gz",
+          "GLDS-321_rna-seq_SRR11573269.fastq.gz",
+          "GLDS-321_rna-seq_SRR11573270.fastq.gz",
+          "GLDS-321_rna-seq_SRR11573271.fastq.gz",
+          "GLDS-321_rna-seq_SRR11573272.fastq.gz",
+          "GLDS-321_rna-seq_SRR11573273.fastq.gz",
+          "GLDS-321_rna-seq_SRR11573274.fastq.gz",
+          "GLDS-321_rna-seq_SRR11573275.fastq.gz",
+          "GLDS-321_rna-seq_SRR11573276.fastq.gz",
+          "GLDS-321_rna-seq_SRR11573277.fastq.gz",
+          "GLDS-321_rna-seq_SRR11573278.fastq.gz",
+          "GLDS-321_rna-seq_SRR11573279.fastq.gz",
+          "GLDS-321_rna-seq_SRR11573280.fastq.gz",
+          "GLDS-321_rna-seq_SRR11573281.fastq.gz",
+          "GLDS-321_rna-seq_SRR11573282.fastq.gz",
+          "GLDS-321_rna-seq_SRR11573283.fastq.gz",
+          "GLDS-321_rna-seq_SRR11573284.fastq.gz",
+          "GLDS-321_rna-seq_SRR11573285.fastq.gz",
+          "GLDS-321_rna-seq_SRR11573286.fastq.gz",
+          "GLDS-321_rna-seq_SRR11573287.fastq.gz",
+          "GLDS-321_rna-seq_SRR11573288.fastq.gz",
+          "GLDS-321_rna-seq_SRR11573289.fastq.gz",
+          "GLDS-321_rna-seq_SRR11573290.fastq.gz",
+          "GLDS-321_rna-seq_SRR11573291.fastq.gz",
+          "GLDS-321_rna-seq_SRR11573292.fastq.gz",
+          "GLDS-321_rna-seq_SRR11573293.fastq.gz",
+          "GLDS-321_rna-seq_SRR11573294.fastq.gz",
+          "GLDS-321_rna-seq_SRR11573295.fastq.gz",
+          "GLDS-321_rna-seq_SRR11573296.fastq.gz",
+          "GLDS-321_rna-seq_SRR11573297.fastq.gz",
+          "GLDS-321_rna-seq_SRR11573298.fastq.gz",
+          "GLDS-321_rna-seq_SRR11573299.fastq.gz",
+          "GLDS-321_rna-seq_SRR11573300.fastq.gz",
+          "GLDS-321_rna-seq_SRR11573301.fastq.gz",
+          "GLDS-321_rna-seq_SRR11573302.fastq.gz",
+          "GLDS-321_rna-seq_SRR11573303.fastq.gz",
+          "GLDS-321_rna-seq_SRR11573304.fastq.gz",
+          "GLDS-321_rna-seq_SRR11573305.fastq.gz",
+          "GLDS-321_rna-seq_SRR11573306.fastq.gz",
+          "GLDS-321_rna-seq_SRR11573307.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486031_raw.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486031_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486032_raw.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486032_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486033_raw.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486033_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486034_raw.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486034_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486035_raw.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486035_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486036_raw.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486036_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486037_raw.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486037_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486038_raw.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486038_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486039_raw.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486039_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486040_raw.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486040_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486041_raw.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486041_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486042_raw.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486042_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486043_raw.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486043_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486044_raw.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486044_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486045_raw.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486045_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486046_raw.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486046_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486047_raw.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486047_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486048_raw.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486048_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486049_raw.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486049_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486050_raw.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486050_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486051_raw.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486051_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486052_raw.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486052_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486053_raw.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486053_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486054_raw.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486054_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486055_raw.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486055_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486056_raw.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486056_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486057_raw.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486057_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486058_raw.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486058_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486059_raw.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486059_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486060_raw.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486060_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486061_raw.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486061_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486062_raw.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486062_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486063_raw.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486063_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486064_raw.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486064_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486065_raw.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486065_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486066_raw.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486066_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486067_raw.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486067_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486068_raw.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486068_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486069_raw.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486069_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486070_raw.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486070_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486071_raw.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486071_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486072_raw.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486072_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486073_raw.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486073_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486074_raw.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486074_trimmed.fastq.gz"
+        ],
+        "processed": [
+          "GLDS-321_rna_seq_GSM4486031_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486032_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486033_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486034_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486035_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486036_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486037_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486038_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486039_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486040_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486041_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486042_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486043_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486044_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486045_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486046_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486047_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486048_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486049_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486050_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486051_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486052_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486053_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486054_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486055_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486056_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486057_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486058_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486059_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486060_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486061_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486062_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486063_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486064_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486065_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486066_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486067_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486068_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486069_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486070_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486071_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486072_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486073_trimmed.fastq.gz",
+          "GLDS-321_rna_seq_GSM4486074_trimmed.fastq.gz",
+          "GSM4486031",
+          "GeneLab RNAseq data processing protocol",
+          "Agilent Bioanalyzer 2100",
+          "SINGLE",
+          "SO",
+          "http://purl.obolibrary.org/obo/SO_0000150",
+          "STRANDED",
+          "Illumina HiSeq 4000",
+          "50",
+          "read",
+          "rna-seq",
+          "5.17",
+          "35570306",
+          "GLDS-321_rna_seq_GSM4486031_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-321_rna_seq_GSM4486031_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-321_rna_seq_GSM4486031_Aligned.toTranscriptome.out.bam",
+          "GLDS-321_rna_seq_GSM4486031_SJ.out.tab",
+          "GLDS-321_rna_seq_GSM4486031.genes.results",
+          "GLDS-321_rna_seq_GSM4486031.isoforms.results",
+          "GLDS-321_rna_seq_RSEM_Unnormalized_Counts.csv",
+          "GLDS-321_rna_seq_STAR_Unnormalized_Counts.csv",
+          "GLDS-321_rna_seq_Normalized_Counts.csv",
+          "GLDS-321_rna_seq_SampleTable.csv",
+          "GLDS-321_rna_seq_contrasts.csv",
+          "GLDS-321_rna_seq_differential_expression.csv",
+          "GSM4486032",
+          "Agilent Bioanalyzer 2101",
+          "10.29",
+          "29106692",
+          "GLDS-321_rna_seq_GSM4486032_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-321_rna_seq_GSM4486032_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-321_rna_seq_GSM4486032_Aligned.toTranscriptome.out.bam",
+          "GLDS-321_rna_seq_GSM4486032_SJ.out.tab",
+          "GLDS-321_rna_seq_GSM4486032.genes.results",
+          "GLDS-321_rna_seq_GSM4486032.isoforms.results",
+          "GSM4486033",
+          "Agilent Bioanalyzer 2102",
+          "8.17",
+          "34898800",
+          "GLDS-321_rna_seq_GSM4486033_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-321_rna_seq_GSM4486033_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-321_rna_seq_GSM4486033_Aligned.toTranscriptome.out.bam",
+          "GLDS-321_rna_seq_GSM4486033_SJ.out.tab",
+          "GLDS-321_rna_seq_GSM4486033.genes.results",
+          "GLDS-321_rna_seq_GSM4486033.isoforms.results",
+          "GSM4486034",
+          "Agilent Bioanalyzer 2103",
+          "7.88",
+          "35041073",
+          "GLDS-321_rna_seq_GSM4486034_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-321_rna_seq_GSM4486034_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-321_rna_seq_GSM4486034_Aligned.toTranscriptome.out.bam",
+          "GLDS-321_rna_seq_GSM4486034_SJ.out.tab",
+          "GLDS-321_rna_seq_GSM4486034.genes.results",
+          "GLDS-321_rna_seq_GSM4486034.isoforms.results",
+          "GSM4486035",
+          "Agilent Bioanalyzer 2104",
+          "18.93",
+          "30947216",
+          "GLDS-321_rna_seq_GSM4486035_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-321_rna_seq_GSM4486035_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-321_rna_seq_GSM4486035_Aligned.toTranscriptome.out.bam",
+          "GLDS-321_rna_seq_GSM4486035_SJ.out.tab",
+          "GLDS-321_rna_seq_GSM4486035.genes.results",
+          "GLDS-321_rna_seq_GSM4486035.isoforms.results",
+          "GSM4486036",
+          "Agilent Bioanalyzer 2105",
+          "18.21",
+          "31541272",
+          "GLDS-321_rna_seq_GSM4486036_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-321_rna_seq_GSM4486036_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-321_rna_seq_GSM4486036_Aligned.toTranscriptome.out.bam",
+          "GLDS-321_rna_seq_GSM4486036_SJ.out.tab",
+          "GLDS-321_rna_seq_GSM4486036.genes.results",
+          "GLDS-321_rna_seq_GSM4486036.isoforms.results",
+          "GSM4486037",
+          "Agilent Bioanalyzer 2106",
+          "16.33",
+          "26470548",
+          "GLDS-321_rna_seq_GSM4486037_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-321_rna_seq_GSM4486037_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-321_rna_seq_GSM4486037_Aligned.toTranscriptome.out.bam",
+          "GLDS-321_rna_seq_GSM4486037_SJ.out.tab",
+          "GLDS-321_rna_seq_GSM4486037.genes.results",
+          "GLDS-321_rna_seq_GSM4486037.isoforms.results",
+          "GSM4486038",
+          "Agilent Bioanalyzer 2107",
+          "14.16",
+          "34736361",
+          "GLDS-321_rna_seq_GSM4486038_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-321_rna_seq_GSM4486038_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-321_rna_seq_GSM4486038_Aligned.toTranscriptome.out.bam",
+          "GLDS-321_rna_seq_GSM4486038_SJ.out.tab",
+          "GLDS-321_rna_seq_GSM4486038.genes.results",
+          "GLDS-321_rna_seq_GSM4486038.isoforms.results",
+          "GSM4486039",
+          "Agilent Bioanalyzer 2108",
+          "3.14",
+          "33196483",
+          "GLDS-321_rna_seq_GSM4486039_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-321_rna_seq_GSM4486039_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-321_rna_seq_GSM4486039_Aligned.toTranscriptome.out.bam",
+          "GLDS-321_rna_seq_GSM4486039_SJ.out.tab",
+          "GLDS-321_rna_seq_GSM4486039.genes.results",
+          "GLDS-321_rna_seq_GSM4486039.isoforms.results",
+          "GSM4486040",
+          "Agilent Bioanalyzer 2109",
+          "4.37",
+          "29315709",
+          "GLDS-321_rna_seq_GSM4486040_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-321_rna_seq_GSM4486040_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-321_rna_seq_GSM4486040_Aligned.toTranscriptome.out.bam",
+          "GLDS-321_rna_seq_GSM4486040_SJ.out.tab",
+          "GLDS-321_rna_seq_GSM4486040.genes.results",
+          "GLDS-321_rna_seq_GSM4486040.isoforms.results",
+          "GSM4486041",
+          "Agilent Bioanalyzer 2110",
+          "5.4",
+          "32354004",
+          "GLDS-321_rna_seq_GSM4486041_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-321_rna_seq_GSM4486041_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-321_rna_seq_GSM4486041_Aligned.toTranscriptome.out.bam",
+          "GLDS-321_rna_seq_GSM4486041_SJ.out.tab",
+          "GLDS-321_rna_seq_GSM4486041.genes.results",
+          "GLDS-321_rna_seq_GSM4486041.isoforms.results",
+          "GSM4486042",
+          "Agilent Bioanalyzer 2111",
+          "8.74",
+          "34751154",
+          "GLDS-321_rna_seq_GSM4486042_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-321_rna_seq_GSM4486042_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-321_rna_seq_GSM4486042_Aligned.toTranscriptome.out.bam",
+          "GLDS-321_rna_seq_GSM4486042_SJ.out.tab",
+          "GLDS-321_rna_seq_GSM4486042.genes.results",
+          "GLDS-321_rna_seq_GSM4486042.isoforms.results",
+          "GSM4486043",
+          "Agilent Bioanalyzer 2112",
+          "6.95",
+          "30056222",
+          "GLDS-321_rna_seq_GSM4486043_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-321_rna_seq_GSM4486043_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-321_rna_seq_GSM4486043_Aligned.toTranscriptome.out.bam",
+          "GLDS-321_rna_seq_GSM4486043_SJ.out.tab",
+          "GLDS-321_rna_seq_GSM4486043.genes.results",
+          "GLDS-321_rna_seq_GSM4486043.isoforms.results",
+          "GSM4486044",
+          "Agilent Bioanalyzer 2113",
+          "7.29",
+          "33795326",
+          "GLDS-321_rna_seq_GSM4486044_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-321_rna_seq_GSM4486044_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-321_rna_seq_GSM4486044_Aligned.toTranscriptome.out.bam",
+          "GLDS-321_rna_seq_GSM4486044_SJ.out.tab",
+          "GLDS-321_rna_seq_GSM4486044.genes.results",
+          "GLDS-321_rna_seq_GSM4486044.isoforms.results",
+          "GSM4486045",
+          "Agilent Bioanalyzer 2114",
+          "11.28",
+          "31545003",
+          "GLDS-321_rna_seq_GSM4486045_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-321_rna_seq_GSM4486045_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-321_rna_seq_GSM4486045_Aligned.toTranscriptome.out.bam",
+          "GLDS-321_rna_seq_GSM4486045_SJ.out.tab",
+          "GLDS-321_rna_seq_GSM4486045.genes.results",
+          "GLDS-321_rna_seq_GSM4486045.isoforms.results",
+          "GSM4486046",
+          "Agilent Bioanalyzer 2115",
+          "13.22",
+          "31753313",
+          "GLDS-321_rna_seq_GSM4486046_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-321_rna_seq_GSM4486046_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-321_rna_seq_GSM4486046_Aligned.toTranscriptome.out.bam",
+          "GLDS-321_rna_seq_GSM4486046_SJ.out.tab",
+          "GLDS-321_rna_seq_GSM4486046.genes.results",
+          "GLDS-321_rna_seq_GSM4486046.isoforms.results",
+          "GSM4486047",
+          "Agilent Bioanalyzer 2116",
+          "10.21",
+          "35040647",
+          "GLDS-321_rna_seq_GSM4486047_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-321_rna_seq_GSM4486047_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-321_rna_seq_GSM4486047_Aligned.toTranscriptome.out.bam",
+          "GLDS-321_rna_seq_GSM4486047_SJ.out.tab",
+          "GLDS-321_rna_seq_GSM4486047.genes.results",
+          "GLDS-321_rna_seq_GSM4486047.isoforms.results",
+          "GSM4486048",
+          "Agilent Bioanalyzer 2117",
+          "3.05",
+          "35874103",
+          "GLDS-321_rna_seq_GSM4486048_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-321_rna_seq_GSM4486048_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-321_rna_seq_GSM4486048_Aligned.toTranscriptome.out.bam",
+          "GLDS-321_rna_seq_GSM4486048_SJ.out.tab",
+          "GLDS-321_rna_seq_GSM4486048.genes.results",
+          "GLDS-321_rna_seq_GSM4486048.isoforms.results",
+          "GSM4486049",
+          "Agilent Bioanalyzer 2118",
+          "2.51",
+          "30566766",
+          "GLDS-321_rna_seq_GSM4486049_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-321_rna_seq_GSM4486049_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-321_rna_seq_GSM4486049_Aligned.toTranscriptome.out.bam",
+          "GLDS-321_rna_seq_GSM4486049_SJ.out.tab",
+          "GLDS-321_rna_seq_GSM4486049.genes.results",
+          "GLDS-321_rna_seq_GSM4486049.isoforms.results",
+          "GSM4486050",
+          "Agilent Bioanalyzer 2119",
+          "8.99",
+          "33834480",
+          "GLDS-321_rna_seq_GSM4486050_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-321_rna_seq_GSM4486050_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-321_rna_seq_GSM4486050_Aligned.toTranscriptome.out.bam",
+          "GLDS-321_rna_seq_GSM4486050_SJ.out.tab",
+          "GLDS-321_rna_seq_GSM4486050.genes.results",
+          "GLDS-321_rna_seq_GSM4486050.isoforms.results",
+          "GSM4486051",
+          "Agilent Bioanalyzer 2120",
+          "10.3",
+          "34328879",
+          "GLDS-321_rna_seq_GSM4486051_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-321_rna_seq_GSM4486051_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-321_rna_seq_GSM4486051_Aligned.toTranscriptome.out.bam",
+          "GLDS-321_rna_seq_GSM4486051_SJ.out.tab",
+          "GLDS-321_rna_seq_GSM4486051.genes.results",
+          "GLDS-321_rna_seq_GSM4486051.isoforms.results",
+          "GSM4486052",
+          "Agilent Bioanalyzer 2121",
+          "15.44",
+          "28435377",
+          "GLDS-321_rna_seq_GSM4486052_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-321_rna_seq_GSM4486052_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-321_rna_seq_GSM4486052_Aligned.toTranscriptome.out.bam",
+          "GLDS-321_rna_seq_GSM4486052_SJ.out.tab",
+          "GLDS-321_rna_seq_GSM4486052.genes.results",
+          "GLDS-321_rna_seq_GSM4486052.isoforms.results",
+          "GSM4486053",
+          "Agilent Bioanalyzer 2122",
+          "16.19",
+          "29428809",
+          "GLDS-321_rna_seq_GSM4486053_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-321_rna_seq_GSM4486053_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-321_rna_seq_GSM4486053_Aligned.toTranscriptome.out.bam",
+          "GLDS-321_rna_seq_GSM4486053_SJ.out.tab",
+          "GLDS-321_rna_seq_GSM4486053.genes.results",
+          "GLDS-321_rna_seq_GSM4486053.isoforms.results",
+          "GSM4486054",
+          "Agilent Bioanalyzer 2123",
+          "15.66",
+          "36123059",
+          "GLDS-321_rna_seq_GSM4486054_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-321_rna_seq_GSM4486054_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-321_rna_seq_GSM4486054_Aligned.toTranscriptome.out.bam",
+          "GLDS-321_rna_seq_GSM4486054_SJ.out.tab",
+          "GLDS-321_rna_seq_GSM4486054.genes.results",
+          "GLDS-321_rna_seq_GSM4486054.isoforms.results",
+          "GSM4486055",
+          "Agilent Bioanalyzer 2124",
+          "16.41",
+          "30523236",
+          "GLDS-321_rna_seq_GSM4486055_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-321_rna_seq_GSM4486055_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-321_rna_seq_GSM4486055_Aligned.toTranscriptome.out.bam",
+          "GLDS-321_rna_seq_GSM4486055_SJ.out.tab",
+          "GLDS-321_rna_seq_GSM4486055.genes.results",
+          "GLDS-321_rna_seq_GSM4486055.isoforms.results",
+          "GSM4486056",
+          "Agilent Bioanalyzer 2125",
+          "9.27",
+          "28896092",
+          "GLDS-321_rna_seq_GSM4486056_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-321_rna_seq_GSM4486056_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-321_rna_seq_GSM4486056_Aligned.toTranscriptome.out.bam",
+          "GLDS-321_rna_seq_GSM4486056_SJ.out.tab",
+          "GLDS-321_rna_seq_GSM4486056.genes.results",
+          "GLDS-321_rna_seq_GSM4486056.isoforms.results",
+          "GSM4486057",
+          "Agilent Bioanalyzer 2126",
+          "4.03",
+          "32378990",
+          "GLDS-321_rna_seq_GSM4486057_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-321_rna_seq_GSM4486057_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-321_rna_seq_GSM4486057_Aligned.toTranscriptome.out.bam",
+          "GLDS-321_rna_seq_GSM4486057_SJ.out.tab",
+          "GLDS-321_rna_seq_GSM4486057.genes.results",
+          "GLDS-321_rna_seq_GSM4486057.isoforms.results",
+          "GSM4486058",
+          "Agilent Bioanalyzer 2127",
+          "4.54",
+          "32466030",
+          "GLDS-321_rna_seq_GSM4486058_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-321_rna_seq_GSM4486058_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-321_rna_seq_GSM4486058_Aligned.toTranscriptome.out.bam",
+          "GLDS-321_rna_seq_GSM4486058_SJ.out.tab",
+          "GLDS-321_rna_seq_GSM4486058.genes.results",
+          "GLDS-321_rna_seq_GSM4486058.isoforms.results",
+          "GSM4486059",
+          "Agilent Bioanalyzer 2128",
+          "7.71",
+          "36983215",
+          "GLDS-321_rna_seq_GSM4486059_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-321_rna_seq_GSM4486059_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-321_rna_seq_GSM4486059_Aligned.toTranscriptome.out.bam",
+          "GLDS-321_rna_seq_GSM4486059_SJ.out.tab",
+          "GLDS-321_rna_seq_GSM4486059.genes.results",
+          "GLDS-321_rna_seq_GSM4486059.isoforms.results",
+          "GSM4486060",
+          "Agilent Bioanalyzer 2129",
+          "7.56",
+          "28977317",
+          "GLDS-321_rna_seq_GSM4486060_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-321_rna_seq_GSM4486060_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-321_rna_seq_GSM4486060_Aligned.toTranscriptome.out.bam",
+          "GLDS-321_rna_seq_GSM4486060_SJ.out.tab",
+          "GLDS-321_rna_seq_GSM4486060.genes.results",
+          "GLDS-321_rna_seq_GSM4486060.isoforms.results",
+          "GSM4486061",
+          "Agilent Bioanalyzer 2130",
+          "18.6",
+          "31335430",
+          "GLDS-321_rna_seq_GSM4486061_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-321_rna_seq_GSM4486061_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-321_rna_seq_GSM4486061_Aligned.toTranscriptome.out.bam",
+          "GLDS-321_rna_seq_GSM4486061_SJ.out.tab",
+          "GLDS-321_rna_seq_GSM4486061.genes.results",
+          "GLDS-321_rna_seq_GSM4486061.isoforms.results",
+          "GSM4486062",
+          "Agilent Bioanalyzer 2131",
+          "15.23",
+          "26696367",
+          "GLDS-321_rna_seq_GSM4486062_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-321_rna_seq_GSM4486062_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-321_rna_seq_GSM4486062_Aligned.toTranscriptome.out.bam",
+          "GLDS-321_rna_seq_GSM4486062_SJ.out.tab",
+          "GLDS-321_rna_seq_GSM4486062.genes.results",
+          "GLDS-321_rna_seq_GSM4486062.isoforms.results",
+          "GSM4486063",
+          "Agilent Bioanalyzer 2132",
+          "17.71",
+          "33181949",
+          "GLDS-321_rna_seq_GSM4486063_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-321_rna_seq_GSM4486063_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-321_rna_seq_GSM4486063_Aligned.toTranscriptome.out.bam",
+          "GLDS-321_rna_seq_GSM4486063_SJ.out.tab",
+          "GLDS-321_rna_seq_GSM4486063.genes.results",
+          "GLDS-321_rna_seq_GSM4486063.isoforms.results",
+          "GSM4486064",
+          "Agilent Bioanalyzer 2133",
+          "15.12",
+          "34309778",
+          "GLDS-321_rna_seq_GSM4486064_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-321_rna_seq_GSM4486064_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-321_rna_seq_GSM4486064_Aligned.toTranscriptome.out.bam",
+          "GLDS-321_rna_seq_GSM4486064_SJ.out.tab",
+          "GLDS-321_rna_seq_GSM4486064.genes.results",
+          "GLDS-321_rna_seq_GSM4486064.isoforms.results",
+          "GSM4486065",
+          "Agilent Bioanalyzer 2134",
+          "2.57",
+          "25459323",
+          "GLDS-321_rna_seq_GSM4486065_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-321_rna_seq_GSM4486065_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-321_rna_seq_GSM4486065_Aligned.toTranscriptome.out.bam",
+          "GLDS-321_rna_seq_GSM4486065_SJ.out.tab",
+          "GLDS-321_rna_seq_GSM4486065.genes.results",
+          "GLDS-321_rna_seq_GSM4486065.isoforms.results",
+          "GSM4486066",
+          "Agilent Bioanalyzer 2135",
+          "3.42",
+          "30390496",
+          "GLDS-321_rna_seq_GSM4486066_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-321_rna_seq_GSM4486066_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-321_rna_seq_GSM4486066_Aligned.toTranscriptome.out.bam",
+          "GLDS-321_rna_seq_GSM4486066_SJ.out.tab",
+          "GLDS-321_rna_seq_GSM4486066.genes.results",
+          "GLDS-321_rna_seq_GSM4486066.isoforms.results",
+          "GSM4486067",
+          "Agilent Bioanalyzer 2136",
+          "12.08",
+          "33762950",
+          "GLDS-321_rna_seq_GSM4486067_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-321_rna_seq_GSM4486067_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-321_rna_seq_GSM4486067_Aligned.toTranscriptome.out.bam",
+          "GLDS-321_rna_seq_GSM4486067_SJ.out.tab",
+          "GLDS-321_rna_seq_GSM4486067.genes.results",
+          "GLDS-321_rna_seq_GSM4486067.isoforms.results",
+          "GSM4486068",
+          "Agilent Bioanalyzer 2137",
+          "4.78",
+          "28558992",
+          "GLDS-321_rna_seq_GSM4486068_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-321_rna_seq_GSM4486068_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-321_rna_seq_GSM4486068_Aligned.toTranscriptome.out.bam",
+          "GLDS-321_rna_seq_GSM4486068_SJ.out.tab",
+          "GLDS-321_rna_seq_GSM4486068.genes.results",
+          "GLDS-321_rna_seq_GSM4486068.isoforms.results",
+          "GSM4486069",
+          "Agilent Bioanalyzer 2138",
+          "13.56",
+          "28059615",
+          "GLDS-321_rna_seq_GSM4486069_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-321_rna_seq_GSM4486069_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-321_rna_seq_GSM4486069_Aligned.toTranscriptome.out.bam",
+          "GLDS-321_rna_seq_GSM4486069_SJ.out.tab",
+          "GLDS-321_rna_seq_GSM4486069.genes.results",
+          "GLDS-321_rna_seq_GSM4486069.isoforms.results",
+          "GSM4486070",
+          "Agilent Bioanalyzer 2139",
+          "15.48",
+          "31957349",
+          "GLDS-321_rna_seq_GSM4486070_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-321_rna_seq_GSM4486070_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-321_rna_seq_GSM4486070_Aligned.toTranscriptome.out.bam",
+          "GLDS-321_rna_seq_GSM4486070_SJ.out.tab",
+          "GLDS-321_rna_seq_GSM4486070.genes.results",
+          "GLDS-321_rna_seq_GSM4486070.isoforms.results",
+          "GSM4486071",
+          "Agilent Bioanalyzer 2140",
+          "15.35",
+          "26555151",
+          "GLDS-321_rna_seq_GSM4486071_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-321_rna_seq_GSM4486071_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-321_rna_seq_GSM4486071_Aligned.toTranscriptome.out.bam",
+          "GLDS-321_rna_seq_GSM4486071_SJ.out.tab",
+          "GLDS-321_rna_seq_GSM4486071.genes.results",
+          "GLDS-321_rna_seq_GSM4486071.isoforms.results",
+          "GSM4486072",
+          "Agilent Bioanalyzer 2141",
+          "13.4",
+          "30444370",
+          "GLDS-321_rna_seq_GSM4486072_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-321_rna_seq_GSM4486072_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-321_rna_seq_GSM4486072_Aligned.toTranscriptome.out.bam",
+          "GLDS-321_rna_seq_GSM4486072_SJ.out.tab",
+          "GLDS-321_rna_seq_GSM4486072.genes.results",
+          "GLDS-321_rna_seq_GSM4486072.isoforms.results",
+          "GSM4486073",
+          "Agilent Bioanalyzer 2142",
+          "15.81",
+          "34814471",
+          "GLDS-321_rna_seq_GSM4486073_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-321_rna_seq_GSM4486073_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-321_rna_seq_GSM4486073_Aligned.toTranscriptome.out.bam",
+          "GLDS-321_rna_seq_GSM4486073_SJ.out.tab",
+          "GLDS-321_rna_seq_GSM4486073.genes.results",
+          "GLDS-321_rna_seq_GSM4486073.isoforms.results",
+          "GSM4486074",
+          "Agilent Bioanalyzer 2143",
+          "14.64",
+          "34939540",
+          "GLDS-321_rna_seq_GSM4486074_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-321_rna_seq_GSM4486074_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-321_rna_seq_GSM4486074_Aligned.toTranscriptome.out.bam",
+          "GLDS-321_rna_seq_GSM4486074_SJ.out.tab",
+          "GLDS-321_rna_seq_GSM4486074.genes.results",
+          "GLDS-321_rna_seq_GSM4486074.isoforms.results"
+        ],
+        "reports": [
+          "GLDS-321_rna_seq_raw_multiqc_report.zip",
+          "GLDS-321_rna_seq_trimmed_multiqc_report.zip",
+          "GLDS-321_rna_seq_GSM4486031_raw.fastq.gz_trimming_report.txt",
+          "GLDS-321_rna_seq_GSM4486031_Log.final.out",
+          "GLDS-321_rna_seq_align_multiqc_report.zip",
+          "GLDS-321_rna_seq_geneBody_cov_multiqc_report.zip",
+          "GLDS-321_rna_seq_infer_exp_multiqc_report.zip",
+          "GLDS-321_rna_seq_read_dist_multiqc_report.zip",
+          "GLDS-321_rna_seq_RSEM_count_multiqc_report.zip",
+          "GLDS-321_rna_seq_GSM4486032_raw.fastq.gz_trimming_report.txt",
+          "GLDS-321_rna_seq_GSM4486032_Log.final.out",
+          "GLDS-321_rna_seq_GSM4486033_raw.fastq.gz_trimming_report.txt",
+          "GLDS-321_rna_seq_GSM4486033_Log.final.out",
+          "GLDS-321_rna_seq_GSM4486034_raw.fastq.gz_trimming_report.txt",
+          "GLDS-321_rna_seq_GSM4486034_Log.final.out",
+          "GLDS-321_rna_seq_GSM4486035_raw.fastq.gz_trimming_report.txt",
+          "GLDS-321_rna_seq_GSM4486035_Log.final.out",
+          "GLDS-321_rna_seq_GSM4486036_raw.fastq.gz_trimming_report.txt",
+          "GLDS-321_rna_seq_GSM4486036_Log.final.out",
+          "GLDS-321_rna_seq_GSM4486037_raw.fastq.gz_trimming_report.txt",
+          "GLDS-321_rna_seq_GSM4486037_Log.final.out",
+          "GLDS-321_rna_seq_GSM4486038_raw.fastq.gz_trimming_report.txt",
+          "GLDS-321_rna_seq_GSM4486038_Log.final.out",
+          "GLDS-321_rna_seq_GSM4486039_raw.fastq.gz_trimming_report.txt",
+          "GLDS-321_rna_seq_GSM4486039_Log.final.out",
+          "GLDS-321_rna_seq_GSM4486040_raw.fastq.gz_trimming_report.txt",
+          "GLDS-321_rna_seq_GSM4486040_Log.final.out",
+          "GLDS-321_rna_seq_GSM4486041_raw.fastq.gz_trimming_report.txt",
+          "GLDS-321_rna_seq_GSM4486041_Log.final.out",
+          "GLDS-321_rna_seq_GSM4486042_raw.fastq.gz_trimming_report.txt",
+          "GLDS-321_rna_seq_GSM4486042_Log.final.out",
+          "GLDS-321_rna_seq_GSM4486043_raw.fastq.gz_trimming_report.txt",
+          "GLDS-321_rna_seq_GSM4486043_Log.final.out",
+          "GLDS-321_rna_seq_GSM4486044_raw.fastq.gz_trimming_report.txt",
+          "GLDS-321_rna_seq_GSM4486044_Log.final.out",
+          "GLDS-321_rna_seq_GSM4486045_raw.fastq.gz_trimming_report.txt",
+          "GLDS-321_rna_seq_GSM4486045_Log.final.out",
+          "GLDS-321_rna_seq_GSM4486046_raw.fastq.gz_trimming_report.txt",
+          "GLDS-321_rna_seq_GSM4486046_Log.final.out",
+          "GLDS-321_rna_seq_GSM4486047_raw.fastq.gz_trimming_report.txt",
+          "GLDS-321_rna_seq_GSM4486047_Log.final.out",
+          "GLDS-321_rna_seq_GSM4486048_raw.fastq.gz_trimming_report.txt",
+          "GLDS-321_rna_seq_GSM4486048_Log.final.out",
+          "GLDS-321_rna_seq_GSM4486049_raw.fastq.gz_trimming_report.txt",
+          "GLDS-321_rna_seq_GSM4486049_Log.final.out",
+          "GLDS-321_rna_seq_GSM4486050_raw.fastq.gz_trimming_report.txt",
+          "GLDS-321_rna_seq_GSM4486050_Log.final.out",
+          "GLDS-321_rna_seq_GSM4486051_raw.fastq.gz_trimming_report.txt",
+          "GLDS-321_rna_seq_GSM4486051_Log.final.out",
+          "GLDS-321_rna_seq_GSM4486052_raw.fastq.gz_trimming_report.txt",
+          "GLDS-321_rna_seq_GSM4486052_Log.final.out",
+          "GLDS-321_rna_seq_GSM4486053_raw.fastq.gz_trimming_report.txt",
+          "GLDS-321_rna_seq_GSM4486053_Log.final.out",
+          "GLDS-321_rna_seq_GSM4486054_raw.fastq.gz_trimming_report.txt",
+          "GLDS-321_rna_seq_GSM4486054_Log.final.out",
+          "GLDS-321_rna_seq_GSM4486055_raw.fastq.gz_trimming_report.txt",
+          "GLDS-321_rna_seq_GSM4486055_Log.final.out",
+          "GLDS-321_rna_seq_GSM4486056_raw.fastq.gz_trimming_report.txt",
+          "GLDS-321_rna_seq_GSM4486056_Log.final.out",
+          "GLDS-321_rna_seq_GSM4486057_raw.fastq.gz_trimming_report.txt",
+          "GLDS-321_rna_seq_GSM4486057_Log.final.out",
+          "GLDS-321_rna_seq_GSM4486058_raw.fastq.gz_trimming_report.txt",
+          "GLDS-321_rna_seq_GSM4486058_Log.final.out",
+          "GLDS-321_rna_seq_GSM4486059_raw.fastq.gz_trimming_report.txt",
+          "GLDS-321_rna_seq_GSM4486059_Log.final.out",
+          "GLDS-321_rna_seq_GSM4486060_raw.fastq.gz_trimming_report.txt",
+          "GLDS-321_rna_seq_GSM4486060_Log.final.out",
+          "GLDS-321_rna_seq_GSM4486061_raw.fastq.gz_trimming_report.txt",
+          "GLDS-321_rna_seq_GSM4486061_Log.final.out",
+          "GLDS-321_rna_seq_GSM4486062_raw.fastq.gz_trimming_report.txt",
+          "GLDS-321_rna_seq_GSM4486062_Log.final.out",
+          "GLDS-321_rna_seq_GSM4486063_raw.fastq.gz_trimming_report.txt",
+          "GLDS-321_rna_seq_GSM4486063_Log.final.out",
+          "GLDS-321_rna_seq_GSM4486064_raw.fastq.gz_trimming_report.txt",
+          "GLDS-321_rna_seq_GSM4486064_Log.final.out",
+          "GLDS-321_rna_seq_GSM4486065_raw.fastq.gz_trimming_report.txt",
+          "GLDS-321_rna_seq_GSM4486065_Log.final.out",
+          "GLDS-321_rna_seq_GSM4486066_raw.fastq.gz_trimming_report.txt",
+          "GLDS-321_rna_seq_GSM4486066_Log.final.out",
+          "GLDS-321_rna_seq_GSM4486067_raw.fastq.gz_trimming_report.txt",
+          "GLDS-321_rna_seq_GSM4486067_Log.final.out",
+          "GLDS-321_rna_seq_GSM4486068_raw.fastq.gz_trimming_report.txt",
+          "GLDS-321_rna_seq_GSM4486068_Log.final.out",
+          "GLDS-321_rna_seq_GSM4486069_raw.fastq.gz_trimming_report.txt",
+          "GLDS-321_rna_seq_GSM4486069_Log.final.out",
+          "GLDS-321_rna_seq_GSM4486070_raw.fastq.gz_trimming_report.txt",
+          "GLDS-321_rna_seq_GSM4486070_Log.final.out",
+          "GLDS-321_rna_seq_GSM4486071_raw.fastq.gz_trimming_report.txt",
+          "GLDS-321_rna_seq_GSM4486071_Log.final.out",
+          "GLDS-321_rna_seq_GSM4486072_raw.fastq.gz_trimming_report.txt",
+          "GLDS-321_rna_seq_GSM4486072_Log.final.out",
+          "GLDS-321_rna_seq_GSM4486073_raw.fastq.gz_trimming_report.txt",
+          "GLDS-321_rna_seq_GSM4486073_Log.final.out",
+          "GLDS-321_rna_seq_GSM4486074_raw.fastq.gz_trimming_report.txt",
+          "GLDS-321_rna_seq_GSM4486074_Log.final.out"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,664 @@
+{
+  "investigation": {
+    "id": "OSD-625",
+    "title": "Single-molecule long-read methylation profiling reveals regional DNA methylation regulated by Elongator Complex Subunit 2 in Arabidopsis roots experiencing spaceflight",
+    "description": "The Advanced Plant Experiment-04 - Epigenetic Expression (APEX-04-EpEx) experiment onboard the International Space Station examined the spaceflight-altered cytosine methylation in two genetic lines of Arabidopsis thaliana, wild-type Col-0 and the mutant elp2-5, which is deficient in an epigenetic regulator Elongator Complex Subunit 2 (ELP2). Whole-genome bisulfite sequencing (WGBS) revealed distinct spaceflight associated methylation differences, presenting the need to explore specific space-altered methylation at single-molecule resolution to associate specific changes over large regions of spaceflight related genes.",
+    "mission": {
+      "name": "SpaceX-10",
+      "start_date": "2/19/17",
+      "end_date": "3/19/17",
+      "link": "https://osdr.nasa.gov/bio/repo/data/missions/SpaceX-10"
+    },
+    "project": {
+      "identifier": "APEX-04",
+      "title": "",
+      "type": "Spaceflight Study",
+      "link": "",
+      "funding": "2014 Space Biology Flight NNH14ZTT001N",
+      "managing_center": "Kennedy Space Center (KSC)"
+    },
+    "protocols": [
+      "Growth Protocol",
+      "sample collection",
+      "Nucleic Acid Extraction",
+      "Library Construction",
+      "Nucleic Acid Sequencing",
+      "GeneLab raw data processing protocol"
+    ],
+    "publications": [
+      {
+        "title": "Single-molecule long-read methylation profiling reveals regional DNA methylation regulated by Elongator Complex Subunit 2 in Arabidopsis roots experiencing spaceflight",
+        "doi": "10.1186/s13062-024-00476-z",
+        "authors": [
+          "Zhou Mingqi",
+          "Riva Alberto",
+          "Gauthier Marie-Pierre L.",
+          "Kladde Michael P.",
+          "Ferl Robert J.",
+          "Paul Anna-Lisa"
+        ],
+        "summary": "Single-molecule long-read methylation profiling reveals regional DNA methylation regulated by Elongator Complex Subunit 2 in Arabidopsis roots experiencing spaceflight — 10.1186/s13062-024-00476-z"
+      }
+    ],
+    "factors": [
+      "Spaceflight",
+      "Genotype"
+    ],
+    "contacts": [
+      {
+        "first_name": "Mingqi",
+        "last_name": "Zhou",
+        "role": "investigation role",
+        "email": "mqzhou@ufl.edu"
+      },
+      {
+        "first_name": "Alberto",
+        "last_name": "Riva",
+        "role": "formal analysis role",
+        "email": "m.gauthier@ufl.edu"
+      },
+      {
+        "first_name": "Marie-Pierre",
+        "last_name": "Gauthier",
+        "role": "investigation role",
+        "email": "kladde@ufl.edu"
+      },
+      {
+        "first_name": "Michael",
+        "last_name": "Kladde",
+        "role": "resources role",
+        "email": "alp@ufl.edu"
+      },
+      {
+        "first_name": "Anna-Lisa",
+        "last_name": "Paul",
+        "role": "conceptualization role",
+        "email": "robferl@ufl.edu"
+      },
+      {
+        "first_name": "Robert",
+        "last_name": "Ferl",
+        "role": "supervision role",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "SRS13753904",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Plant Roots",
+          "Seed Source": "TAIR CS70000",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth Temperature": "17.143",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100–135",
+          "light quality": "red and blue",
+          "growth environment": "International Space Station Environmental Simulator (ISSES)",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRS13753905",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Plant Roots",
+          "Seed Source": "TAIR CS70000",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth Temperature": "17.143",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100–135",
+          "light quality": "red and blue",
+          "growth environment": "International Space Station Environmental Simulator (ISSES)",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRS13753906",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Plant Roots",
+          "Seed Source": "Dr. Zhonglin Mou",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "elp2-5",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth Temperature": "17.143",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100–135",
+          "light quality": "red and blue",
+          "growth environment": "International Space Station Environmental Simulator (ISSES)",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRS13753908",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Plant Roots",
+          "Seed Source": "Dr. Zhonglin Mou",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "elp2-5",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth Temperature": "19.059",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100–135",
+          "light quality": "red and blue",
+          "growth environment": "ISS-Columbus",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRS13753907",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Plant Roots",
+          "Seed Source": "Dr. Zhonglin Mou",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "elp2-5",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth Temperature": "17.143",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100–135",
+          "light quality": "red and blue",
+          "growth environment": "International Space Station Environmental Simulator (ISSES)",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRS13753909",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Plant Roots",
+          "Seed Source": "Dr. Zhonglin Mou",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "elp2-5",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth Temperature": "19.059",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100–135",
+          "light quality": "red and blue",
+          "growth environment": "ISS-Columbus",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRS13753910",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Plant Roots",
+          "Seed Source": "Dr. Zhonglin Mou",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "elp2-5",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth Temperature": "19.059",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100–135",
+          "light quality": "red and blue",
+          "growth environment": "ISS-Columbus",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRS13753911",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Plant Roots",
+          "Seed Source": "Dr. Zhonglin Mou",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "elp2-5",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth Temperature": "19.059",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100–135",
+          "light quality": "red and blue",
+          "growth environment": "ISS-Columbus",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRS13753912",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Plant Roots",
+          "Seed Source": "TAIR CS70000",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth Temperature": "17.143",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100–135",
+          "light quality": "red and blue",
+          "growth environment": "International Space Station Environmental Simulator (ISSES)",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRS13753913",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Plant Roots",
+          "Seed Source": "TAIR CS70000",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "Col-0",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth Temperature": "17.143",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100–135",
+          "light quality": "red and blue",
+          "growth environment": "International Space Station Environmental Simulator (ISSES)",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRS13753914",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Plant Roots",
+          "Seed Source": "TAIR CS70000",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth Temperature": "19.059",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100–135",
+          "light quality": "red and blue",
+          "growth environment": "ISS-Columbus",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRS13753915",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Plant Roots",
+          "Seed Source": "TAIR CS70000",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth Temperature": "19.059",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100–135",
+          "light quality": "red and blue",
+          "growth environment": "ISS-Columbus",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRS13753916",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Plant Roots",
+          "Seed Source": "TAIR CS70000",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth Temperature": "19.059",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100–135",
+          "light quality": "red and blue",
+          "growth environment": "ISS-Columbus",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRS13753917",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Plant Roots",
+          "Seed Source": "TAIR CS70000",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth Temperature": "19.059",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100–135",
+          "light quality": "red and blue",
+          "growth environment": "ISS-Columbus",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRS13753918",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Plant Roots",
+          "Seed Source": "Dr. Zhonglin Mou",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "elp2-5",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth Temperature": "17.143",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100–135",
+          "light quality": "red and blue",
+          "growth environment": "ISS-Columbus",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "SRS13753919",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "ecotype": "Col-0",
+          "organism part": "Plant Roots",
+          "Seed Source": "Dr. Zhonglin Mou",
+          "age": "11",
+          "developmental stage": "Seedlings"
+        },
+        "factors": {
+          "Genotype": "elp2-5",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Growth Medium": "50 mL of a 0.5% Phytagel-based growth medium supplemented with: 0.5 x Murashige-Skoog salts, 0.5% (w/v) sucrose, and 1 x Gamborgs Vitamin Mixture",
+          "Mean Growth Temperature": "17.143",
+          "Hardware": "Vegetable Production System (Veggie)",
+          "container": "100 mm Petri dish",
+          "light source": "Light Emitting Diode Device",
+          "light cycle": "24",
+          "Light Intensity": "100–135",
+          "light quality": "red and blue",
+          "growth environment": "ISS-Columbus",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80",
+          "Age at sample harvest": "11",
+          "Developmental stage at time of sample collection": "Seedlings"
+        },
+        "comments": {}
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "dna-methylation-profiling",
+      "platform": "Pacific Biosciences (PacBio) Sequel IIe SMRT platform",
+      "qc": {
+        "Read Depth": "80336"
+      },
+      "library": {
+        "Library Selection": "flap-enabled next-generation capture (FENGC)",
+        "Library Layout": "Single"
+      },
+      "files": {
+        "raw": [
+          "GLDS-648_TargetCCSEM-seq_SRS13753904_raw.fastq.gz",
+          "GLDS-648_TargetCCSEM-seq_SRS13753905_raw.fastq.gz",
+          "GLDS-648_TargetCCSEM-seq_SRS13753906_raw.fastq.gz",
+          "GLDS-648_TargetCCSEM-seq_SRS13753907_raw.fastq.gz",
+          "GLDS-648_TargetCCSEM-seq_SRS13753908_raw.fastq.gz",
+          "GLDS-648_TargetCCSEM-seq_SRS13753909_raw.fastq.gz",
+          "GLDS-648_TargetCCSEM-seq_SRS13753910_raw.fastq.gz",
+          "GLDS-648_TargetCCSEM-seq_SRS13753911_raw.fastq.gz",
+          "GLDS-648_TargetCCSEM-seq_SRS13753912_raw.fastq.gz",
+          "GLDS-648_TargetCCSEM-seq_SRS13753913_raw.fastq.gz",
+          "GLDS-648_TargetCCSEM-seq_SRS13753914_raw.fastq.gz",
+          "GLDS-648_TargetCCSEM-seq_SRS13753915_raw.fastq.gz",
+          "GLDS-648_TargetCCSEM-seq_SRS13753916_raw.fastq.gz",
+          "GLDS-648_TargetCCSEM-seq_SRS13753917_raw.fastq.gz",
+          "GLDS-648_TargetCCSEM-seq_SRS13753918_raw.fastq.gz",
+          "GLDS-648_TargetCCSEM-seq_SRS13753919_raw.fastq.gz"
+        ],
+        "processed": [
+          "SRS13753904",
+          "GeneLab raw data processing protocol",
+          "flap-enabled next-generation capture (FENGC)",
+          "Single",
+          "Pacific Biosciences (PacBio) Sequel IIe SMRT platform",
+          "TargetCCSEM",
+          "80336",
+          "read",
+          "SO",
+          "http://purl.obolibrary.org/obo/SO_0000150",
+          "SRS13753905",
+          "89848",
+          "SRS13753906",
+          "24173",
+          "SRS13753907",
+          "30302",
+          "SRS13753908",
+          "89472",
+          "SRS13753909",
+          "121897",
+          "SRS13753910",
+          "40969",
+          "SRS13753911",
+          "36483",
+          "SRS13753912",
+          "35366",
+          "SRS13753913",
+          "25285",
+          "SRS13753914",
+          "77863",
+          "SRS13753915",
+          "87926",
+          "SRS13753916",
+          "29038",
+          "SRS13753917",
+          "40149",
+          "SRS13753918",
+          "40916",
+          "SRS13753919",
+          "49144"
+        ],
+        "reports": [
+          "GLDS-648_GTargetCCSEM-seq_raw_multiqc_GLMethylSeq_report.zip"
+        ]
+      }
+    }
+  ]
+}

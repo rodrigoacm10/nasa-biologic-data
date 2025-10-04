@@ -1,0 +1,2122 @@
+{
+  "investigation": {
+    "id": "OSD-681",
+    "title": "Head-Down Tilt As a Model for Intracranial and Intraocular Pressures, and Retinal Changes during Spaceflight (Subcutaneous Tissue and Subdural Space, Body Temperature and Intracranial Pressure Biotelemetry)",
+    "description": "This ground-based program was intended to address the etiology of visual system structural and functional changes observed in astronauts during both inflight and postflight periods. Using the well-documented rat hindlimb suspension (HLS) model, functionally equivalent to human head-down bedrest, we examined the relationship between cephalic fluid shifts resulting from long-duration G-unloading and the regulation of intracranial and intraocular pressures, as well as the effects these same cephalic fluid shifts have on visual system structure and function.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "Hindlimb_Unloading, Simulated_Environmental_Factors",
+      "title": "OS-136",
+      "type": "Ground Study",
+      "link": "https://osdr.nasa.gov/bio/repo/data/experiments/OS-136",
+      "funding": "NASA NNX13AD94G",
+      "managing_center": "Ames Research Center (ARC)"
+    },
+    "protocols": [
+      "Animal Husbandry",
+      "System And Platform",
+      "Experimental Factors And Application Specifics",
+      "Software And Image Analysis - Tb",
+      "ALSDA Transformed Data",
+      "Software And Image Analysis - ICP"
+    ],
+    "publications": [],
+    "factors": [
+      "Age",
+      "Sex",
+      "Hindlimb Unloading",
+      "Carbon Dioxide Treatment"
+    ],
+    "contacts": [
+      {
+        "first_name": "Charles",
+        "last_name": "Fuller",
+        "role": "conceptualization role",
+        "email": "cafuller@ucdavis.edu"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "MT299_SubduralSpace",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subdural Space",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "3",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "90",
+          "Hindlimb Reloading Duration": "90",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "1",
+          "Cohort Name": "Young Male"
+        }
+      },
+      {
+        "sample_name": "MT301_SubduralSpace",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subdural Space",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "3",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "90",
+          "Hindlimb Reloading Duration": "90",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "1",
+          "Cohort Name": "Young Male"
+        }
+      },
+      {
+        "sample_name": "FT108_SubduralSpace",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subdural Space",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "3",
+          "Sex": "Female",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "90",
+          "Hindlimb Reloading Duration": "90",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "2",
+          "Cohort Name": "Young Female"
+        }
+      },
+      {
+        "sample_name": "FT109_SubduralSpace",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subdural Space",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "3",
+          "Sex": "Female",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "90",
+          "Hindlimb Reloading Duration": "90",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "2",
+          "Cohort Name": "Young Female"
+        }
+      },
+      {
+        "sample_name": "FT121_SubduralSpace",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subdural Space",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "3",
+          "Sex": "Female",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "90",
+          "Hindlimb Reloading Duration": "90",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "2",
+          "Cohort Name": "Young Female"
+        }
+      },
+      {
+        "sample_name": "FT123_SubduralSpace",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subdural Space",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "3",
+          "Sex": "Female",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "90",
+          "Hindlimb Reloading Duration": "90",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "2",
+          "Cohort Name": "Young Female"
+        }
+      },
+      {
+        "sample_name": "FT130_SubduralSpace",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subdural Space",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "3",
+          "Sex": "Female",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "90",
+          "Hindlimb Reloading Duration": "90",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "2",
+          "Cohort Name": "Young Female"
+        }
+      },
+      {
+        "sample_name": "MT130_SubduralSpace",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subdural Space",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "9",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "90",
+          "Hindlimb Reloading Duration": "90",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "3",
+          "Cohort Name": "Older Male"
+        }
+      },
+      {
+        "sample_name": "MT131_SubduralSpace",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subdural Space",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "9",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "90",
+          "Hindlimb Reloading Duration": "90",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "3",
+          "Cohort Name": "Older Male"
+        }
+      },
+      {
+        "sample_name": "MT132_SubduralSpace",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subdural Space",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "9",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "90",
+          "Hindlimb Reloading Duration": "90",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "3",
+          "Cohort Name": "Older Male"
+        }
+      },
+      {
+        "sample_name": "MT135_SubduralSpace",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subdural Space",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "9",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "90",
+          "Hindlimb Reloading Duration": "90",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "3",
+          "Cohort Name": "Older Male"
+        }
+      },
+      {
+        "sample_name": "MT137_SubduralSpace",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subdural Space",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "9",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "90",
+          "Hindlimb Reloading Duration": "90",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "3",
+          "Cohort Name": "Older Male"
+        }
+      },
+      {
+        "sample_name": "MT138_SubduralSpace",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subdural Space",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "9",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "90",
+          "Hindlimb Reloading Duration": "90",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "3",
+          "Cohort Name": "Older Male"
+        }
+      },
+      {
+        "sample_name": "MT319_SubduralSpace",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subdural Space",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "1"
+        },
+        "factors": {
+          "Age": "9",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Carbon Dioxide Treatment": "elevated carbon dioxide treatment"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "90",
+          "Hindlimb Reloading Duration": "90",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "4",
+          "Cohort Name": "Older Male"
+        }
+      },
+      {
+        "sample_name": "MT324_SubduralSpace",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subdural Space",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "1"
+        },
+        "factors": {
+          "Age": "9",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Carbon Dioxide Treatment": "elevated carbon dioxide treatment"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "90",
+          "Hindlimb Reloading Duration": "90",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "4",
+          "Cohort Name": "Older Male"
+        }
+      },
+      {
+        "sample_name": "MT321_SubduralSpace",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subdural Space",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "1"
+        },
+        "factors": {
+          "Age": "9",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Carbon Dioxide Treatment": "elevated carbon dioxide treatment"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "90",
+          "Hindlimb Reloading Duration": "90",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "4",
+          "Cohort Name": "Older Male"
+        }
+      },
+      {
+        "sample_name": "MT335_SubduralSpace",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subdural Space",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "1"
+        },
+        "factors": {
+          "Age": "9",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Carbon Dioxide Treatment": "elevated carbon dioxide treatment"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "90",
+          "Hindlimb Reloading Duration": "90",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "4",
+          "Cohort Name": "Older Male"
+        }
+      },
+      {
+        "sample_name": "MT330_SubduralSpace",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subdural Space",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "1"
+        },
+        "factors": {
+          "Age": "9",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Carbon Dioxide Treatment": "elevated carbon dioxide treatment"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "90",
+          "Hindlimb Reloading Duration": "90",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "4",
+          "Cohort Name": "Older Male"
+        }
+      },
+      {
+        "sample_name": "MT334_SubduralSpace",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subdural Space",
+          "Experiment Duration": "90",
+          "Carbon Dioxide Concentration": "1"
+        },
+        "factors": {
+          "Age": "9",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Carbon Dioxide Treatment": "elevated carbon dioxide treatment"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "90",
+          "Hindlimb Reloading Duration": "",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "4",
+          "Cohort Name": "Older Male"
+        }
+      },
+      {
+        "sample_name": "MT329_SubduralSpace",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subdural Space",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "1"
+        },
+        "factors": {
+          "Age": "9",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Carbon Dioxide Treatment": "elevated carbon dioxide treatment"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "90",
+          "Hindlimb Reloading Duration": "90",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "4",
+          "Cohort Name": "Older Male"
+        }
+      },
+      {
+        "sample_name": "MT293_SubduralSpace",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subdural Space",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "3",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "",
+          "Hindlimb Reloading Duration": "",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "1",
+          "Cohort Name": "Young Male"
+        }
+      },
+      {
+        "sample_name": "MT294_SubduralSpace",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subdural Space",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "3",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "",
+          "Hindlimb Reloading Duration": "",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "1",
+          "Cohort Name": "Young Male"
+        }
+      },
+      {
+        "sample_name": "FT107_SubduralSpace",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subdural Space",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "3",
+          "Sex": "Female",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "",
+          "Hindlimb Reloading Duration": "",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "2",
+          "Cohort Name": "Young Female"
+        }
+      },
+      {
+        "sample_name": "FT127_SubduralSpace",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subdural Space",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "3",
+          "Sex": "Female",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "90",
+          "Hindlimb Reloading Duration": "90",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "2",
+          "Cohort Name": "Young Female"
+        }
+      },
+      {
+        "sample_name": "FT128_SubduralSpace",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subdural Space",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "3",
+          "Sex": "Female",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "",
+          "Hindlimb Reloading Duration": "",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "2",
+          "Cohort Name": "Young Female"
+        }
+      },
+      {
+        "sample_name": "MT139_SubduralSpace",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subdural Space",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "9",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "",
+          "Hindlimb Reloading Duration": "",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "3",
+          "Cohort Name": "Older Male"
+        }
+      },
+      {
+        "sample_name": "MT141_SubduralSpace",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subdural Space",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "9",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "",
+          "Hindlimb Reloading Duration": "",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "3",
+          "Cohort Name": "Older Male"
+        }
+      },
+      {
+        "sample_name": "MT142_SubduralSpace",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subdural Space",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "9",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "",
+          "Hindlimb Reloading Duration": "",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "3",
+          "Cohort Name": "Older Male"
+        }
+      },
+      {
+        "sample_name": "MT140_SubduralSpace",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subdural Space",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "9",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "",
+          "Hindlimb Reloading Duration": "",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "3",
+          "Cohort Name": "Older Male"
+        }
+      },
+      {
+        "sample_name": "MT144_SubduralSpace",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subdural Space",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "9",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "",
+          "Hindlimb Reloading Duration": "",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "3",
+          "Cohort Name": "Older Male"
+        }
+      },
+      {
+        "sample_name": "MT125_SubduralSpace",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subdural Space",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "9",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "",
+          "Hindlimb Reloading Duration": "",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "3",
+          "Cohort Name": "Older Male"
+        }
+      },
+      {
+        "sample_name": "MT328_SubduralSpace",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subdural Space",
+          "Experiment Duration": "90",
+          "Carbon Dioxide Concentration": "1"
+        },
+        "factors": {
+          "Age": "9",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Carbon Dioxide Treatment": "elevated carbon dioxide treatment"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "",
+          "Hindlimb Reloading Duration": "",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "4",
+          "Cohort Name": "Older Male"
+        }
+      },
+      {
+        "sample_name": "MT336_SubduralSpace",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subdural Space",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "1"
+        },
+        "factors": {
+          "Age": "9",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Carbon Dioxide Treatment": "elevated carbon dioxide treatment"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "",
+          "Hindlimb Reloading Duration": "",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "4",
+          "Cohort Name": "Older Male"
+        }
+      },
+      {
+        "sample_name": "MT293_SubcutaneousTissue",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subcutaneous Tissue",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "3",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "",
+          "Hindlimb Reloading Duration": "",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "1",
+          "Cohort Name": "Young Male"
+        }
+      },
+      {
+        "sample_name": "MT294_SubcutaneousTissue",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subcutaneous Tissue",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "3",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "",
+          "Hindlimb Reloading Duration": "",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "1",
+          "Cohort Name": "Young Male"
+        }
+      },
+      {
+        "sample_name": "FT108_SubcutaneousTissue",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subcutaneous Tissue",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "3",
+          "Sex": "Female",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "90",
+          "Hindlimb Reloading Duration": "90",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "2",
+          "Cohort Name": "Young Female"
+        }
+      },
+      {
+        "sample_name": "FT109_SubcutaneousTissue",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subcutaneous Tissue",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "3",
+          "Sex": "Female",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "90",
+          "Hindlimb Reloading Duration": "90",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "2",
+          "Cohort Name": "Young Female"
+        }
+      },
+      {
+        "sample_name": "FT121_SubcutaneousTissue",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subcutaneous Tissue",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "3",
+          "Sex": "Female",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "90",
+          "Hindlimb Reloading Duration": "90",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "2",
+          "Cohort Name": "Young Female"
+        }
+      },
+      {
+        "sample_name": "FT123_SubcutaneousTissue",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subcutaneous Tissue",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "3",
+          "Sex": "Female",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "90",
+          "Hindlimb Reloading Duration": "90",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "2",
+          "Cohort Name": "Young Female"
+        }
+      },
+      {
+        "sample_name": "FT127_SubcutaneousTissue",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subcutaneous Tissue",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "3",
+          "Sex": "Female",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "90",
+          "Hindlimb Reloading Duration": "90",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "2",
+          "Cohort Name": "Young Female"
+        }
+      },
+      {
+        "sample_name": "FT130_SubcutaneousTissue",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subcutaneous Tissue",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "3",
+          "Sex": "Female",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "90",
+          "Hindlimb Reloading Duration": "90",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "2",
+          "Cohort Name": "Young Female"
+        }
+      },
+      {
+        "sample_name": "FT107_SubcutaneousTissue",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subcutaneous Tissue",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "3",
+          "Sex": "Female",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "",
+          "Hindlimb Reloading Duration": "",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "2",
+          "Cohort Name": "Young Female"
+        }
+      },
+      {
+        "sample_name": "FT128_SubcutaneousTissue",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subcutaneous Tissue",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "3",
+          "Sex": "Female",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "",
+          "Hindlimb Reloading Duration": "",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "2",
+          "Cohort Name": "Young Female"
+        }
+      },
+      {
+        "sample_name": "MT130_SubcutaneousTissue",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subcutaneous Tissue",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "9",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "90",
+          "Hindlimb Reloading Duration": "90",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "3",
+          "Cohort Name": "Older Male"
+        }
+      },
+      {
+        "sample_name": "MT131_SubcutaneousTissue",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subcutaneous Tissue",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "9",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "90",
+          "Hindlimb Reloading Duration": "90",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "3",
+          "Cohort Name": "Older Male"
+        }
+      },
+      {
+        "sample_name": "MT132_SubcutaneousTissue",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subcutaneous Tissue",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "9",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "90",
+          "Hindlimb Reloading Duration": "90",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "3",
+          "Cohort Name": "Older Male"
+        }
+      },
+      {
+        "sample_name": "MT135_SubcutaneousTissue",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subcutaneous Tissue",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "9",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "90",
+          "Hindlimb Reloading Duration": "90",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "3",
+          "Cohort Name": "Older Male"
+        }
+      },
+      {
+        "sample_name": "MT137_SubcutaneousTissue",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subcutaneous Tissue",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "9",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "90",
+          "Hindlimb Reloading Duration": "90",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "3",
+          "Cohort Name": "Older Male"
+        }
+      },
+      {
+        "sample_name": "MT138_SubcutaneousTissue",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subcutaneous Tissue",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "9",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "90",
+          "Hindlimb Reloading Duration": "90",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "3",
+          "Cohort Name": "Older Male"
+        }
+      },
+      {
+        "sample_name": "MT139_SubcutaneousTissue",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subcutaneous Tissue",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "9",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "",
+          "Hindlimb Reloading Duration": "",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "3",
+          "Cohort Name": "Older Male"
+        }
+      },
+      {
+        "sample_name": "MT141_SubcutaneousTissue",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subcutaneous Tissue",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "9",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "",
+          "Hindlimb Reloading Duration": "",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "3",
+          "Cohort Name": "Older Male"
+        }
+      },
+      {
+        "sample_name": "MT142_SubcutaneousTissue",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subcutaneous Tissue",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "9",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "",
+          "Hindlimb Reloading Duration": "",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "3",
+          "Cohort Name": "Older Male"
+        }
+      },
+      {
+        "sample_name": "MT140_SubcutaneousTissue",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subcutaneous Tissue",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "9",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "",
+          "Hindlimb Reloading Duration": "",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "3",
+          "Cohort Name": "Older Male"
+        }
+      },
+      {
+        "sample_name": "MT144_SubcutaneousTissue",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subcutaneous Tissue",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "9",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "",
+          "Hindlimb Reloading Duration": "",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "3",
+          "Cohort Name": "Older Male"
+        }
+      },
+      {
+        "sample_name": "MT125_SubcutaneousTissue",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subcutaneous Tissue",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "Ambient"
+        },
+        "factors": {
+          "Age": "9",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Carbon Dioxide Treatment": "Ambient Air"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "",
+          "Hindlimb Reloading Duration": "",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "3",
+          "Cohort Name": "Older Male"
+        }
+      },
+      {
+        "sample_name": "MT319_SubcutaneousTissue",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subcutaneous Tissue",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "1"
+        },
+        "factors": {
+          "Age": "9",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Carbon Dioxide Treatment": "elevated carbon dioxide treatment"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "90",
+          "Hindlimb Reloading Duration": "90",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "4",
+          "Cohort Name": "Older Male"
+        }
+      },
+      {
+        "sample_name": "MT324_SubcutaneousTissue",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subcutaneous Tissue",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "1"
+        },
+        "factors": {
+          "Age": "9",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Carbon Dioxide Treatment": "elevated carbon dioxide treatment"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "90",
+          "Hindlimb Reloading Duration": "90",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "4",
+          "Cohort Name": "Older Male"
+        }
+      },
+      {
+        "sample_name": "MT321_SubcutaneousTissue",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subcutaneous Tissue",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "1"
+        },
+        "factors": {
+          "Age": "9",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Carbon Dioxide Treatment": "elevated carbon dioxide treatment"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "90",
+          "Hindlimb Reloading Duration": "90",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "4",
+          "Cohort Name": "Older Male"
+        }
+      },
+      {
+        "sample_name": "MT335_SubcutaneousTissue",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subcutaneous Tissue",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "1"
+        },
+        "factors": {
+          "Age": "9",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Carbon Dioxide Treatment": "elevated carbon dioxide treatment"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "90",
+          "Hindlimb Reloading Duration": "90",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "4",
+          "Cohort Name": "Older Male"
+        }
+      },
+      {
+        "sample_name": "MT330_SubcutaneousTissue",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subcutaneous Tissue",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "1"
+        },
+        "factors": {
+          "Age": "9",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Carbon Dioxide Treatment": "elevated carbon dioxide treatment"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "90",
+          "Hindlimb Reloading Duration": "90",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "4",
+          "Cohort Name": "Older Male"
+        }
+      },
+      {
+        "sample_name": "MT334_SubcutaneousTissue",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subcutaneous Tissue",
+          "Experiment Duration": "90",
+          "Carbon Dioxide Concentration": "1"
+        },
+        "factors": {
+          "Age": "9",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Carbon Dioxide Treatment": "elevated carbon dioxide treatment"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "90",
+          "Hindlimb Reloading Duration": "",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "4",
+          "Cohort Name": "Older Male"
+        }
+      },
+      {
+        "sample_name": "MT329_SubcutaneousTissue",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subcutaneous Tissue",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "1"
+        },
+        "factors": {
+          "Age": "9",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Hindlimb Unloaded",
+          "Carbon Dioxide Treatment": "elevated carbon dioxide treatment"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "90",
+          "Hindlimb Reloading Duration": "90",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "4",
+          "Cohort Name": "Older Male"
+        }
+      },
+      {
+        "sample_name": "MT320_SubcutaneousTissue",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subcutaneous Tissue",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "1"
+        },
+        "factors": {
+          "Age": "9",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Carbon Dioxide Treatment": "elevated carbon dioxide treatment"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "",
+          "Hindlimb Reloading Duration": "",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "4",
+          "Cohort Name": "Older Male"
+        }
+      },
+      {
+        "sample_name": "MT328_SubcutaneousTissue",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subcutaneous Tissue",
+          "Experiment Duration": "90",
+          "Carbon Dioxide Concentration": "1"
+        },
+        "factors": {
+          "Age": "9",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Carbon Dioxide Treatment": "elevated carbon dioxide treatment"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "",
+          "Hindlimb Reloading Duration": "",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "4",
+          "Cohort Name": "Older Male"
+        }
+      },
+      {
+        "sample_name": "MT322_SubcutaneousTissue",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subcutaneous Tissue",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "1"
+        },
+        "factors": {
+          "Age": "9",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Carbon Dioxide Treatment": "elevated carbon dioxide treatment"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "",
+          "Hindlimb Reloading Duration": "",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "4",
+          "Cohort Name": "Older Male"
+        }
+      },
+      {
+        "sample_name": "MT336_SubcutaneousTissue",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "Subcutaneous Tissue",
+          "Experiment Duration": "180",
+          "Carbon Dioxide Concentration": "1"
+        },
+        "factors": {
+          "Age": "9",
+          "Sex": "Male",
+          "Hindlimb Unloading": "Normally Loaded Control",
+          "Carbon Dioxide Treatment": "elevated carbon dioxide treatment"
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "",
+          "Hindlimb Reloading Duration": "",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "4",
+          "Cohort Name": "Older Male"
+        }
+      },
+      {
+        "sample_name": "Please Update",
+        "characteristics": {
+          "Organism": "Rattus norvegicus",
+          "Strain": "LE, Rat Strain",
+          "Animal Source": "Taconic Biosciences",
+          "Material Type": "",
+          "Experiment Duration": "",
+          "Carbon Dioxide Concentration": ""
+        },
+        "factors": {
+          "Age": "",
+          "Sex": "",
+          "Hindlimb Unloading": "",
+          "Carbon Dioxide Treatment": ""
+        },
+        "parameters": {
+          "Hindlimb Unloading Duration": "",
+          "Hindlimb Reloading Duration": "",
+          "light cycle": "12 h light/dark cycle",
+          "Diet": "Standard rodent laboratory chow, Purina",
+          "Feeding Schedule": "ad libitum",
+          "Housing Temperature": "20-26"
+        },
+        "comments": {
+          "Cohort Number": "",
+          "Cohort Name": ""
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "body-temperature",
+      "platform": "Data Sciences",
+      "qc": {},
+      "library": {},
+      "files": {
+        "raw": [],
+        "processed": [
+          "MT293_SubcutaneousTissue",
+          "ALSDA Transformed Data",
+          "Implantable Transmitter (Data Sciences)",
+          "Invasive",
+          "Core Body Temperature",
+          "Intracranial Pressure",
+          "Thermistor",
+          "Pressure Catheter",
+          "and Extradural EEG",
+          "Constant",
+          "Subcutaneous Tissue Between the Scapulae",
+          "Hindlimb suspension",
+          "5-6 days at baseline",
+          "and every subsequent 30 days",
+          "Data Sciences",
+          "LSDS-83_Telemetry_Fuller_BiotelemetryTb_TRANSFORMED.csv",
+          "MT294_SubcutaneousTissue",
+          "FT108_SubcutaneousTissue",
+          "FT109_SubcutaneousTissue",
+          "FT121_SubcutaneousTissue",
+          "FT123_SubcutaneousTissue",
+          "FT127_SubcutaneousTissue",
+          "FT130_SubcutaneousTissue",
+          "FT107_SubcutaneousTissue",
+          "FT128_SubcutaneousTissue",
+          "MT130_SubcutaneousTissue",
+          "MT131_SubcutaneousTissue",
+          "MT132_SubcutaneousTissue",
+          "MT135_SubcutaneousTissue",
+          "MT137_SubcutaneousTissue",
+          "MT138_SubcutaneousTissue",
+          "MT139_SubcutaneousTissue",
+          "MT141_SubcutaneousTissue",
+          "MT142_SubcutaneousTissue",
+          "MT140_SubcutaneousTissue",
+          "MT144_SubcutaneousTissue",
+          "MT125_SubcutaneousTissue",
+          "MT319_SubcutaneousTissue",
+          "elevated carbon dioxide",
+          "MT324_SubcutaneousTissue",
+          "MT321_SubcutaneousTissue",
+          "MT335_SubcutaneousTissue",
+          "MT330_SubcutaneousTissue",
+          "MT334_SubcutaneousTissue",
+          "MT329_SubcutaneousTissue",
+          "MT320_SubcutaneousTissue",
+          "MT328_SubcutaneousTissue",
+          "MT322_SubcutaneousTissue",
+          "MT336_SubcutaneousTissue"
+        ],
+        "reports": [
+          "and Electroencephalography",
+          "LSDS-83_Telemetry_Tb summary_SUBMITTED.xlsx"
+        ]
+      }
+    },
+    {
+      "type": "intracranial-pressure",
+      "platform": "Data Sciences",
+      "qc": {},
+      "library": {},
+      "files": {
+        "raw": [],
+        "processed": [
+          "MT299_SubduralSpace",
+          "ALSDA Transformed Data",
+          "Implantable Transmitter (Data Sciences)",
+          "Invasive",
+          "Core Body Temperature",
+          "Intracranial Pressure",
+          "Thermistor",
+          "Pressure Catheter",
+          "and Extradural EEG",
+          "Constant",
+          "Subdural Space",
+          "Hindlimb suspension",
+          "5-6 days at baseline",
+          "and every subsequent 30 days",
+          "Data Sciences",
+          "LSDS-83_Telemetry - Intracranial Pressure_Fuller_BiotelemetryICP_TRANSFORMED.csv",
+          "MT301_SubduralSpace",
+          "FT108_SubduralSpace",
+          "FT109_SubduralSpace",
+          "FT121_SubduralSpace",
+          "FT123_SubduralSpace",
+          "FT130_SubduralSpace",
+          "MT130_SubduralSpace",
+          "MT131_SubduralSpace",
+          "MT132_SubduralSpace",
+          "MT135_SubduralSpace",
+          "MT137_SubduralSpace",
+          "MT138_SubduralSpace",
+          "MT319_SubduralSpace",
+          "Hindlimb suspension and elevated carbon dioxide",
+          "MT324_SubduralSpace",
+          "MT321_SubduralSpace",
+          "MT335_SubduralSpace",
+          "MT330_SubduralSpace",
+          "MT334_SubduralSpace",
+          "MT329_SubduralSpace",
+          "MT293_SubduralSpace",
+          "MT294_SubduralSpace",
+          "FT107_SubduralSpace",
+          "elevated carbon dioxide",
+          "FT127_SubduralSpace",
+          "FT128_SubduralSpace",
+          "MT139_SubduralSpace",
+          "MT141_SubduralSpace",
+          "MT142_SubduralSpace",
+          "MT140_SubduralSpace",
+          "MT144_SubduralSpace",
+          "MT125_SubduralSpace",
+          "MT328_SubduralSpace",
+          "MT336_SubduralSpace"
+        ],
+        "reports": [
+          "and Electroencephalography",
+          "LSDS-83_Telemetry - Intracranial Pressure_ICP summary_SUBMITTED.xlsx"
+        ]
+      }
+    }
+  ]
+}

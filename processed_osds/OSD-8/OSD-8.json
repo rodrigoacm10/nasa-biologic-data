@@ -1,0 +1,1397 @@
+{
+  "investigation": {
+    "id": "OSD-8",
+    "title": "Gravitational and magnetic field variations synergize to cause subtle variations in the global transcriptional state of Arabidopsis in vitro callus cultures",
+    "description": "Using diamagnetic levitation, we have exposed A. thaliana in vitro callus cultures to five environments with different levels of effective gravity (from levitation i.e.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "Simulated_Hypergravity, Simulated_Microgravity",
+      "title": "",
+      "type": "Ground Study",
+      "link": "",
+      "funding": "This work was supported by grants from the Spanish Space Program in the Plan Nacional de Investigacion Cientifica y Desarrollo Tecnologico AYA2009-07952 to F. J.M. and AYA2009-07792-E to R.H. RPM/LDC access was possible due to the Dutch Space Research Organization NWO-ALW-SRON grant MG-057 to J.vL. and the SEGMGSPE_Ph1 access to ESA GBF project to R.H., F.J.M. and J.vL. Magnetic Levitation at the High Field Magnet Laboratory in Nijmegen was granted by EuroMagNET II under the EU contract number 228043 and by the Stichting voor Fundamenteel Onderzoek der Materie (FOM), financially supported by the Nederlandse Organisatie voor Wetenschappelijk Onderzoek (NWO).",
+      "managing_center": ""
+    },
+    "protocols": [
+      "growth protocol",
+      "treatment protocol",
+      "sample collection protocol",
+      "RNA Extraction",
+      "Labeling",
+      "Nucleic Acid Hybridization",
+      "Data Collection",
+      "Normalization Data Transformation"
+    ],
+    "publications": [
+      {
+        "title": "Gravitational and magnetic field variations synergize to cause subtle variations in the global transcriptional state of Arabidopsis in vitro callus cultures",
+        "doi": "10.1186/1471-2164-13-105",
+        "authors": [
+          "Manzano Ana I",
+          "van Loon Jack JWA",
+          "Christianen Peter CM",
+          "Gonzalez-Rubio Juana M",
+          "Medina F Javier",
+          "Herranz Raul"
+        ],
+        "summary": "Gravitational and magnetic field variations synergize to cause subtle variations in the global transcriptional state of Arabidopsis in vitro callus cultures — 10.1186/1471-2164-13-105"
+      }
+    ],
+    "factors": [
+      "Altered Gravity",
+      "Magnetic Field"
+    ],
+    "contacts": [
+      {
+        "first_name": "Raul",
+        "last_name": "Herranz",
+        "role": "Author",
+        "email": "r.herranz.csic.edu"
+      },
+      {
+        "first_name": "Ana",
+        "last_name": "Manzano",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Jack",
+        "last_name": "van Loon",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Peter",
+        "last_name": "Christianen",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Juana",
+        "last_name": "Gonzalez-Rubio",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Francisco",
+        "last_name": "Medina",
+        "role": "Author",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "Atha_MM2d_cls_oML_1G_0T_Rep3",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "cell line": "MM2d",
+          "Organism Part": "cell culture"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Magnetic Field": "0"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "24 dark",
+          "Mean Growth Temperature": "22",
+          "Hardware": "",
+          "container": "40.8 mm high by 25 mm diameter tubes",
+          "culture medium": "1% agar with Murashige and Skoog medium",
+          "Growth Time": "1",
+          "duration": "200",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Sample Description": "replica3 MM2d Mag1g control vs MM2d Mag mg*",
+          "Sample Type Description": "MM2D (Wild type culture) 1g control",
+          "Original Submitted Sample Name": "GSM738242 extract 1"
+        }
+      },
+      {
+        "sample_name": "Atha_MM2d_cls_LDC_1G_0T_Rep1",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "cell line": "MM2d",
+          "Organism Part": "cell culture"
+        },
+        "factors": {
+          "Altered Gravity": "1G by centrifugation",
+          "Magnetic Field": ""
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "24 dark",
+          "Mean Growth Temperature": "22",
+          "Hardware": "",
+          "container": "40.8 mm high by 25 mm diameter tubes",
+          "culture medium": "1% agar with Murashige and Skoog medium",
+          "Growth Time": "1",
+          "duration": "200",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Sample Description": "replica1 MM2d LDC1g control vs MM2d LDC 2g",
+          "Sample Type Description": "MM2D (Wild type culture) 1g control",
+          "Original Submitted Sample Name": "GSM738237 extract 1"
+        }
+      },
+      {
+        "sample_name": "Atha_MM2d_cls_oML_1G_0T_Rep5",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "cell line": "MM2d",
+          "Organism Part": "cell culture"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Magnetic Field": "0"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "24 dark",
+          "Mean Growth Temperature": "22",
+          "Hardware": "",
+          "container": "40.8 mm high by 25 mm diameter tubes",
+          "culture medium": "1% agar with Murashige and Skoog medium",
+          "Growth Time": "1",
+          "duration": "200",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Sample Description": "replica2 MM2d Mag1g control vs MM2d Mag 0.1g*",
+          "Sample Type Description": "MM2D (Wild type culture) 1g control",
+          "Original Submitted Sample Name": "GSM738244 extract 1"
+        }
+      },
+      {
+        "sample_name": "Atha_MM2d_cls_oML_1G_0T_Rep10",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "cell line": "MM2d",
+          "Organism Part": "cell culture"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Magnetic Field": "0"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "24 dark",
+          "Mean Growth Temperature": "22",
+          "Hardware": "",
+          "container": "40.8 mm high by 25 mm diameter tubes",
+          "culture medium": "1% agar with Murashige and Skoog medium",
+          "Growth Time": "1",
+          "duration": "200",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Sample Description": "replica1 MM2d Mag1g control vs MM2d Mag 1.9g*",
+          "Sample Type Description": "MM2D (Wild type culture) 1g control",
+          "Original Submitted Sample Name": "GSM738249 extract 1"
+        }
+      },
+      {
+        "sample_name": "Atha_MM2d_cls_RPoM_suG_0T_Rep2",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "cell line": "MM2d",
+          "Organism Part": "cell culture"
+        },
+        "factors": {
+          "Altered Gravity": "uG by random positioning machine",
+          "Magnetic Field": ""
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "24 dark",
+          "Mean Growth Temperature": "22",
+          "Hardware": "Random Positioning Machine (μg-RPM, real random mode)",
+          "container": "90mm diameter Petri dish",
+          "culture medium": "1% agar with Murashige and Skoog medium",
+          "Growth Time": "1",
+          "duration": "200",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Sample Description": "replica2 MM2d RPM1g control vs MM2d RPM mg*",
+          "Sample Type Description": "MM2D (Wild type culture) RPM simulated mg",
+          "Original Submitted Sample Name": "GSM738255 extract 2"
+        }
+      },
+      {
+        "sample_name": "Atha_MM2d_cls_RPoM_1G_0T_Rep3",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "cell line": "MM2d",
+          "Organism Part": "cell culture"
+        },
+        "factors": {
+          "Altered Gravity": "1G by random positioning machine",
+          "Magnetic Field": ""
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "24 dark",
+          "Mean Growth Temperature": "22",
+          "Hardware": "",
+          "container": "40.8 mm high by 25 mm diameter tubes",
+          "culture medium": "1% agar with Murashige and Skoog medium",
+          "Growth Time": "1",
+          "duration": "200",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Sample Description": "replica3 MM2d RPM1g control vs MM2d RPM mg*",
+          "Sample Type Description": "MM2D (Wild type culture) 1g control",
+          "Original Submitted Sample Name": "GSM738256 extract 1"
+        }
+      },
+      {
+        "sample_name": "Atha_MM2d_cls_ML_suG_10.1T_Rep2",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "cell line": "MM2d",
+          "Organism Part": "cell culture"
+        },
+        "factors": {
+          "Altered Gravity": "uG by Magnetic Levitation",
+          "Magnetic Field": "10.1"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "24 dark",
+          "Mean Growth Temperature": "22",
+          "Hardware": "MAG (magnetic)",
+          "container": "40.8 mm high by 25 mm diameter tubes",
+          "culture medium": "1% agar with Murashige and Skoog medium",
+          "Growth Time": "1",
+          "duration": "200",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Sample Description": "replica2 MM2d Mag1g control vs MM2d Mag mg*",
+          "Sample Type Description": "MM2D (Wild type culture) MAG mg*",
+          "Original Submitted Sample Name": "GSM738241 extract 2"
+        }
+      },
+      {
+        "sample_name": "Atha_MM2d_cls_RPoM_1G_0T_Rep2",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "cell line": "MM2d",
+          "Organism Part": "cell culture"
+        },
+        "factors": {
+          "Altered Gravity": "1G by random positioning machine",
+          "Magnetic Field": ""
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "24 dark",
+          "Mean Growth Temperature": "22",
+          "Hardware": "",
+          "container": "40.8 mm high by 25 mm diameter tubes",
+          "culture medium": "1% agar with Murashige and Skoog medium",
+          "Growth Time": "1",
+          "duration": "200",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Sample Description": "replica2 MM2d RPM1g control vs MM2d RPM mg*",
+          "Sample Type Description": "MM2D (Wild type culture) 1g control",
+          "Original Submitted Sample Name": "GSM738255 extract 1"
+        }
+      },
+      {
+        "sample_name": "Atha_MM2d_cls_RPoM_suG_0T_Rep3",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "cell line": "MM2d",
+          "Organism Part": "cell culture"
+        },
+        "factors": {
+          "Altered Gravity": "uG by random positioning machine",
+          "Magnetic Field": ""
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "24 dark",
+          "Mean Growth Temperature": "22",
+          "Hardware": "Random Positioning Machine (μg-RPM, real random mode)",
+          "container": "90mm diameter Petri dish",
+          "culture medium": "1% agar with Murashige and Skoog medium",
+          "Growth Time": "1",
+          "duration": "200",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Sample Description": "replica3 MM2d RPM1g control vs MM2d RPM mg*",
+          "Sample Type Description": "MM2D (Wild type culture) RPM simulated mg",
+          "Original Submitted Sample Name": "GSM738256 extract 2"
+        }
+      },
+      {
+        "sample_name": "Atha_MM2d_cls_RPoM_suG_0T_Rep1",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "cell line": "MM2d",
+          "Organism Part": "cell culture"
+        },
+        "factors": {
+          "Altered Gravity": "uG by random positioning machine",
+          "Magnetic Field": ""
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "24 dark",
+          "Mean Growth Temperature": "22",
+          "Hardware": "Random Positioning Machine (μg-RPM, real random mode)",
+          "container": "90mm diameter Petri dish",
+          "culture medium": "1% agar with Murashige and Skoog medium",
+          "Growth Time": "1",
+          "duration": "200",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Sample Description": "replica1 MM2d RPM1g control vs MM2d RPM mg*",
+          "Sample Type Description": "MM2D (Wild type culture) RPM simulated mg",
+          "Original Submitted Sample Name": "GSM738254 extract 2"
+        }
+      },
+      {
+        "sample_name": "Atha_MM2d_cls_LDC_1G_0T_Rep2",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "cell line": "MM2d",
+          "Organism Part": "cell culture"
+        },
+        "factors": {
+          "Altered Gravity": "1G by centrifugation",
+          "Magnetic Field": ""
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "24 dark",
+          "Mean Growth Temperature": "22",
+          "Hardware": "",
+          "container": "40.8 mm high by 25 mm diameter tubes",
+          "culture medium": "1% agar with Murashige and Skoog medium",
+          "Growth Time": "1",
+          "duration": "200",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Sample Description": "replica2 MM2d LDC1g control vs MM2d LDC 2g",
+          "Sample Type Description": "MM2D (Wild type culture) 1g control",
+          "Original Submitted Sample Name": "GSM738238 extract 1"
+        }
+      },
+      {
+        "sample_name": "Atha_MM2d_cls_oML_1G_0T_Rep4",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "cell line": "MM2d",
+          "Organism Part": "cell culture"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Magnetic Field": "0"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "24 dark",
+          "Mean Growth Temperature": "22",
+          "Hardware": "",
+          "container": "40.8 mm high by 25 mm diameter tubes",
+          "culture medium": "1% agar with Murashige and Skoog medium",
+          "Growth Time": "1",
+          "duration": "200",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Sample Description": "replica1 MM2d Mag1g control vs MM2d Mag 0.1g*",
+          "Sample Type Description": "MM2D (Wild type culture) 1g control",
+          "Original Submitted Sample Name": "GSM738243 extract 1"
+        }
+      },
+      {
+        "sample_name": "Atha_MM2d_cls_oML_1G_0T_Rep12",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "cell line": "MM2d",
+          "Organism Part": "cell culture"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Magnetic Field": "0"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "24 dark",
+          "Mean Growth Temperature": "22",
+          "Hardware": "",
+          "container": "40.8 mm high by 25 mm diameter tubes",
+          "culture medium": "1% agar with Murashige and Skoog medium",
+          "Growth Time": "1",
+          "duration": "200",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Sample Description": "replica1 MM2d Mag1g control vs MM2d Mag 2g*",
+          "Sample Type Description": "MM2D (Wild type culture) 1g control",
+          "Original Submitted Sample Name": "GSM738251 extract 1"
+        }
+      },
+      {
+        "sample_name": "Atha_MM2d_cls_ML_0.1G_14.7T_Rep3",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "cell line": "MM2d",
+          "Organism Part": "cell culture"
+        },
+        "factors": {
+          "Altered Gravity": "0.1G by Magnetic Levitation",
+          "Magnetic Field": "14.7"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "24 dark",
+          "Mean Growth Temperature": "22",
+          "Hardware": "MAG (magnetic)",
+          "container": "40.8 mm high by 25 mm diameter tubes",
+          "culture medium": "1% agar with Murashige and Skoog medium",
+          "Growth Time": "1",
+          "duration": "200",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Sample Description": "replica3 MM2d Mag1g control vs MM2d Mag 0.1g*",
+          "Sample Type Description": "MM2D (Wild type culture) MAG 0.1g*",
+          "Original Submitted Sample Name": "GSM738245 extract 2"
+        }
+      },
+      {
+        "sample_name": "Atha_MM2d_cls_LDC_2G_0T_Rep1",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "cell line": "MM2d",
+          "Organism Part": "cell culture"
+        },
+        "factors": {
+          "Altered Gravity": "2G by centrifugation",
+          "Magnetic Field": ""
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "24 dark",
+          "Mean Growth Temperature": "22",
+          "Hardware": "Large Diameter Centrifuge",
+          "container": "90mm diameter Petri dish",
+          "culture medium": "1% agar with Murashige and Skoog medium",
+          "Growth Time": "1",
+          "duration": "200",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Sample Description": "replica1 MM2d LDC1g control vs MM2d LDC 2g",
+          "Sample Type Description": "MM2D (Wild type culture) LDC 2g",
+          "Original Submitted Sample Name": "GSM738237 extract 2"
+        }
+      },
+      {
+        "sample_name": "Atha_MM2d_cls_ML_suG_10.1T_Rep1",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "cell line": "MM2d",
+          "Organism Part": "cell culture"
+        },
+        "factors": {
+          "Altered Gravity": "uG by Magnetic Levitation",
+          "Magnetic Field": "10.1"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "24 dark",
+          "Mean Growth Temperature": "22",
+          "Hardware": "MAG (magnetic)",
+          "container": "40.8 mm high by 25 mm diameter tubes",
+          "culture medium": "1% agar with Murashige and Skoog medium",
+          "Growth Time": "1",
+          "duration": "200",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Sample Description": "replica1 MM2d Mag1g control vs MM2d Mag mg*",
+          "Sample Type Description": "MM2D (Wild type culture) MAG mg*",
+          "Original Submitted Sample Name": "GSM738240 extract 2"
+        }
+      },
+      {
+        "sample_name": "Atha_MM2d_cls_ML_2G_10.1T_Rep3",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "cell line": "MM2d",
+          "Organism Part": "cell culture"
+        },
+        "factors": {
+          "Altered Gravity": "2G by Magnetic Levitation",
+          "Magnetic Field": "10.1"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "24 dark",
+          "Mean Growth Temperature": "22",
+          "Hardware": "MAG (magnetic)",
+          "container": "40.8 mm high by 25 mm diameter tubes",
+          "culture medium": "1% agar with Murashige and Skoog medium",
+          "Growth Time": "1",
+          "duration": "200",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Sample Description": "replica3 MM2d Mag1g control vs MM2d Mag 2g*",
+          "Sample Type Description": "MM2D (Wild type culture) MAG 2g*",
+          "Original Submitted Sample Name": "GSM738253 extract 2"
+        }
+      },
+      {
+        "sample_name": "Atha_MM2d_cls_ML_0.1G_14.7T_Rep1",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "cell line": "MM2d",
+          "Organism Part": "cell culture"
+        },
+        "factors": {
+          "Altered Gravity": "0.1G by Magnetic Levitation",
+          "Magnetic Field": "14.7"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "24 dark",
+          "Mean Growth Temperature": "22",
+          "Hardware": "MAG (magnetic)",
+          "container": "40.8 mm high by 25 mm diameter tubes",
+          "culture medium": "1% agar with Murashige and Skoog medium",
+          "Growth Time": "1",
+          "duration": "200",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Sample Description": "replica1 MM2d Mag1g control vs MM2d Mag 0.1g*",
+          "Sample Type Description": "MM2D (Wild type culture) MAG 0.1g*",
+          "Original Submitted Sample Name": "GSM738243 extract 2"
+        }
+      },
+      {
+        "sample_name": "Atha_MM2d_cls_oML_1G_0T_Rep1",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "cell line": "MM2d",
+          "Organism Part": "cell culture"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Magnetic Field": "0"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "24 dark",
+          "Mean Growth Temperature": "22",
+          "Hardware": "",
+          "container": "40.8 mm high by 25 mm diameter tubes",
+          "culture medium": "1% agar with Murashige and Skoog medium",
+          "Growth Time": "1",
+          "duration": "200",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Sample Description": "replica1 MM2d Mag1g control vs MM2d Mag mg*",
+          "Sample Type Description": "MM2D (Wild type culture) 1g control",
+          "Original Submitted Sample Name": "GSM738240 extract 1"
+        }
+      },
+      {
+        "sample_name": "Atha_MM2d_cls_ML_2G_10.1T_Rep1",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "cell line": "MM2d",
+          "Organism Part": "cell culture"
+        },
+        "factors": {
+          "Altered Gravity": "2G by Magnetic Levitation",
+          "Magnetic Field": "10.1"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "24 dark",
+          "Mean Growth Temperature": "22",
+          "Hardware": "MAG (magnetic)",
+          "container": "40.8 mm high by 25 mm diameter tubes",
+          "culture medium": "1% agar with Murashige and Skoog medium",
+          "Growth Time": "1",
+          "duration": "200",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Sample Description": "replica1 MM2d Mag1g control vs MM2d Mag 2g*",
+          "Sample Type Description": "MM2D (Wild type culture) MAG 2g*",
+          "Original Submitted Sample Name": "GSM738251 extract 2"
+        }
+      },
+      {
+        "sample_name": "Atha_MM2d_cls_oML_1G_0T_Rep9",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "cell line": "MM2d",
+          "Organism Part": "cell culture"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Magnetic Field": "0"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "24 dark",
+          "Mean Growth Temperature": "22",
+          "Hardware": "",
+          "container": "40.8 mm high by 25 mm diameter tubes",
+          "culture medium": "1% agar with Murashige and Skoog medium",
+          "Growth Time": "1",
+          "duration": "200",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Sample Description": "replica3 MM2d Mag1g control vs MM2d Mag 1g*",
+          "Sample Type Description": "MM2D (Wild type culture) 1g control",
+          "Original Submitted Sample Name": "GSM738248 extract 1"
+        }
+      },
+      {
+        "sample_name": "Atha_MM2d_cls_ML_1G_16.5T_Rep3",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "cell line": "MM2d",
+          "Organism Part": "cell culture"
+        },
+        "factors": {
+          "Altered Gravity": "1G by Magnetic Levitation",
+          "Magnetic Field": "16.5"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "24 dark",
+          "Mean Growth Temperature": "22",
+          "Hardware": "MAG (magnetic)",
+          "container": "40.8 mm high by 25 mm diameter tubes",
+          "culture medium": "1% agar with Murashige and Skoog medium",
+          "Growth Time": "1",
+          "duration": "200",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Sample Description": "replica3 MM2d Mag1g control vs MM2d Mag 1g*",
+          "Sample Type Description": "MM2D (Wild type culture) MAG 1g*",
+          "Original Submitted Sample Name": "GSM738248 extract 2"
+        }
+      },
+      {
+        "sample_name": "Atha_MM2d_cls_LDC_2G_0T_Rep3",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "cell line": "MM2d",
+          "Organism Part": "cell culture"
+        },
+        "factors": {
+          "Altered Gravity": "2G by centrifugation",
+          "Magnetic Field": ""
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "24 dark",
+          "Mean Growth Temperature": "22",
+          "Hardware": "Large Diameter Centrifuge",
+          "container": "90mm diameter Petri dish",
+          "culture medium": "1% agar with Murashige and Skoog medium",
+          "Growth Time": "1",
+          "duration": "200",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Sample Description": "replica3 MM2d LDC1g control vs MM2d LDC 2g",
+          "Sample Type Description": "MM2D (Wild type culture) LDC 2g",
+          "Original Submitted Sample Name": "GSM738239 extract 2"
+        }
+      },
+      {
+        "sample_name": "Atha_MM2d_cls_oML_1G_0T_Rep8",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "cell line": "MM2d",
+          "Organism Part": "cell culture"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Magnetic Field": "0"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "24 dark",
+          "Mean Growth Temperature": "22",
+          "Hardware": "",
+          "container": "40.8 mm high by 25 mm diameter tubes",
+          "culture medium": "1% agar with Murashige and Skoog medium",
+          "Growth Time": "1",
+          "duration": "200",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Sample Description": "replica2 MM2d Mag1g control vs MM2d Mag 1g*",
+          "Sample Type Description": "MM2D (Wild type culture) 1g control",
+          "Original Submitted Sample Name": "GSM738247 extract 1"
+        }
+      },
+      {
+        "sample_name": "Atha_MM2d_cls_ML_0.1G_14.7T_Rep2",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "cell line": "MM2d",
+          "Organism Part": "cell culture"
+        },
+        "factors": {
+          "Altered Gravity": "0.1G by Magnetic Levitation",
+          "Magnetic Field": "14.7"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "24 dark",
+          "Mean Growth Temperature": "22",
+          "Hardware": "MAG (magnetic)",
+          "container": "40.8 mm high by 25 mm diameter tubes",
+          "culture medium": "1% agar with Murashige and Skoog medium",
+          "Growth Time": "1",
+          "duration": "200",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Sample Description": "replica2 MM2d Mag1g control vs MM2d Mag 0.1g*",
+          "Sample Type Description": "MM2D (Wild type culture) MAG 0.1g*",
+          "Original Submitted Sample Name": "GSM738244 extract 2"
+        }
+      },
+      {
+        "sample_name": "Atha_MM2d_cls_oML_1G_0T_Rep13",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "cell line": "MM2d",
+          "Organism Part": "cell culture"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Magnetic Field": "0"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "24 dark",
+          "Mean Growth Temperature": "22",
+          "Hardware": "",
+          "container": "40.8 mm high by 25 mm diameter tubes",
+          "culture medium": "1% agar with Murashige and Skoog medium",
+          "Growth Time": "1",
+          "duration": "200",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Sample Description": "replica2 MM2d Mag1g control vs MM2d Mag 2g*",
+          "Sample Type Description": "MM2D (Wild type culture) 1g control",
+          "Original Submitted Sample Name": "GSM738252 extract 1"
+        }
+      },
+      {
+        "sample_name": "Atha_MM2d_cls_LDC_2G_0T_Rep2",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "cell line": "MM2d",
+          "Organism Part": "cell culture"
+        },
+        "factors": {
+          "Altered Gravity": "2G by centrifugation",
+          "Magnetic Field": ""
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "24 dark",
+          "Mean Growth Temperature": "22",
+          "Hardware": "Large Diameter Centrifuge",
+          "container": "90 mm diameter Petri dish",
+          "culture medium": "1% agar with Murashige and Skoog medium",
+          "Growth Time": "1",
+          "duration": "200",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Sample Description": "replica2 MM2d LDC1g control vs MM2d LDC 2g",
+          "Sample Type Description": "MM2D (Wild type culture) LDC 2g",
+          "Original Submitted Sample Name": "GSM738238 extract 2"
+        }
+      },
+      {
+        "sample_name": "Atha_MM2d_cls_oML_1G_0T_Rep7",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "cell line": "MM2d",
+          "Organism Part": "cell culture"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Magnetic Field": "0"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "24 dark",
+          "Mean Growth Temperature": "22",
+          "Hardware": "",
+          "container": "40.8 mm high by 25 mm diameter tubes",
+          "culture medium": "1% agar with Murashige and Skoog medium",
+          "Growth Time": "1",
+          "duration": "200",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Sample Description": "replica1 MM2d Mag1g control vs MM2d Mag 1g*",
+          "Sample Type Description": "MM2D (Wild type culture) 1g control",
+          "Original Submitted Sample Name": "GSM738246 extract 1"
+        }
+      },
+      {
+        "sample_name": "Atha_MM2d_cls_oML_1G_0T_Rep2",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "cell line": "MM2d",
+          "Organism Part": "cell culture"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Magnetic Field": "0"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "24 dark",
+          "Mean Growth Temperature": "22",
+          "Hardware": "",
+          "container": "40.8 mm high by 25 mm diameter tubes",
+          "culture medium": "1% agar with Murashige and Skoog medium",
+          "Growth Time": "1",
+          "duration": "200",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Sample Description": "replica2 MM2d Mag1g control vs MM2d Mag mg*",
+          "Sample Type Description": "MM2D (Wild type culture) 1g control",
+          "Original Submitted Sample Name": "GSM738241 extract 1"
+        }
+      },
+      {
+        "sample_name": "Atha_MM2d_cls_ML_1.9G_14.7T_Rep2",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "cell line": "MM2d",
+          "Organism Part": "cell culture"
+        },
+        "factors": {
+          "Altered Gravity": "1.9G by Magnetic Levitation",
+          "Magnetic Field": "14.7"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "24 dark",
+          "Mean Growth Temperature": "22",
+          "Hardware": "MAG (magnetic)",
+          "container": "40.8 mm high by 25 mm diameter tubes",
+          "culture medium": "1% agar with Murashige and Skoog medium",
+          "Growth Time": "1",
+          "duration": "200",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Sample Description": "replica2 MM2d Mag1g control vs MM2d Mag 1.9g*",
+          "Sample Type Description": "MM2D (Wild type culture) MAG 1.9g*",
+          "Original Submitted Sample Name": "GSM738250 extract 2"
+        }
+      },
+      {
+        "sample_name": "Atha_MM2d_cls_ML_1G_16.5T_Rep2",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "cell line": "MM2d",
+          "Organism Part": "cell culture"
+        },
+        "factors": {
+          "Altered Gravity": "1G by Magnetic Levitation",
+          "Magnetic Field": "16.5"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "24 dark",
+          "Mean Growth Temperature": "22",
+          "Hardware": "MAG (magnetic)",
+          "container": "40.8 mm high by 25 mm diameter tubes",
+          "culture medium": "1% agar with Murashige and Skoog medium",
+          "Growth Time": "1",
+          "duration": "200",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Sample Description": "replica2 MM2d Mag1g control vs MM2d Mag 1g*",
+          "Sample Type Description": "MM2D (Wild type culture) MAG 1g*",
+          "Original Submitted Sample Name": "GSM738247 extract 2"
+        }
+      },
+      {
+        "sample_name": "Atha_MM2d_cls_ML_1G_16.5T_Rep1",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "cell line": "MM2d",
+          "Organism Part": "cell culture"
+        },
+        "factors": {
+          "Altered Gravity": "1G by Magnetic Levitation",
+          "Magnetic Field": "16.5"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "24 dark",
+          "Mean Growth Temperature": "22",
+          "Hardware": "MAG (magnetic)",
+          "container": "40.8 mm high by 25 mm diameter tubes",
+          "culture medium": "1% agar with Murashige and Skoog medium",
+          "Growth Time": "1",
+          "duration": "200",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Sample Description": "replica1 MM2d Mag1g control vs MM2d Mag 1g*",
+          "Sample Type Description": "MM2D (Wild type culture) MAG 1g*",
+          "Original Submitted Sample Name": "GSM738246 extract 2"
+        }
+      },
+      {
+        "sample_name": "Atha_MM2d_cls_ML_2G_10.1T_Rep2",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "cell line": "MM2d",
+          "Organism Part": "cell culture"
+        },
+        "factors": {
+          "Altered Gravity": "2G by Magnetic Levitation",
+          "Magnetic Field": "10.1"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "24 dark",
+          "Mean Growth Temperature": "22",
+          "Hardware": "MAG (magnetic)",
+          "container": "40.8 mm high by 25 mm diameter tubes",
+          "culture medium": "1% agar with Murashige and Skoog medium",
+          "Growth Time": "1",
+          "duration": "200",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Sample Description": "replica2 MM2d Mag1g control vs MM2d Mag 2g*",
+          "Sample Type Description": "MM2D (Wild type culture) MAG 2g*",
+          "Original Submitted Sample Name": "GSM738252 extract 2"
+        }
+      },
+      {
+        "sample_name": "Atha_MM2d_cls_RPoM_1G_0T_Rep1",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "cell line": "MM2d",
+          "Organism Part": "cell culture"
+        },
+        "factors": {
+          "Altered Gravity": "1G by random positioning machine",
+          "Magnetic Field": ""
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "24 dark",
+          "Mean Growth Temperature": "22",
+          "Hardware": "",
+          "container": "40.8 mm high by 25 mm diameter tubes",
+          "culture medium": "1% agar with Murashige and Skoog medium",
+          "Growth Time": "1",
+          "duration": "200",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Sample Description": "replica1 MM2d RPM1g control vs MM2d RPM mg*",
+          "Sample Type Description": "MM2D (Wild type culture) 1g control",
+          "Original Submitted Sample Name": "GSM738254 extract 1"
+        }
+      },
+      {
+        "sample_name": "Atha_MM2d_cls_oML_1G_0T_Rep6",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "cell line": "MM2d",
+          "Organism Part": "cell culture"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Magnetic Field": "0"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "24 dark",
+          "Mean Growth Temperature": "22",
+          "Hardware": "",
+          "container": "40.8 mm high by 25 mm diameter tubes",
+          "culture medium": "1% agar with Murashige and Skoog medium",
+          "Growth Time": "1",
+          "duration": "200",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Sample Description": "replica3 MM2d Mag1g control vs MM2d Mag 0.1g*",
+          "Sample Type Description": "MM2D (Wild type culture) 1g control",
+          "Original Submitted Sample Name": "GSM738245 extract 1"
+        }
+      },
+      {
+        "sample_name": "Atha_MM2d_cls_LDC_1G_0T_Rep3",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "cell line": "MM2d",
+          "Organism Part": "cell culture"
+        },
+        "factors": {
+          "Altered Gravity": "1G by centrifugation",
+          "Magnetic Field": ""
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "24 dark",
+          "Mean Growth Temperature": "22",
+          "Hardware": "",
+          "container": "40.8 mm high by 25 mm diameter tubes",
+          "culture medium": "1% agar with Murashige and Skoog medium",
+          "Growth Time": "1",
+          "duration": "200",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Sample Description": "replica3 MM2d LDC1g control vs MM2d LDC 2g",
+          "Sample Type Description": "MM2D (Wild type culture) 1g control",
+          "Original Submitted Sample Name": "GSM738239 extract 1"
+        }
+      },
+      {
+        "sample_name": "Atha_MM2d_cls_oML_1G_0T_Rep11",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "cell line": "MM2d",
+          "Organism Part": "cell culture"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Magnetic Field": "0"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "24 dark",
+          "Mean Growth Temperature": "22",
+          "Hardware": "",
+          "container": "40.8 mm high by 25 mm diameter tubes",
+          "culture medium": "1% agar with Murashige and Skoog medium",
+          "Growth Time": "1",
+          "duration": "200",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Sample Description": "replica2 MM2d Mag1g control vs MM2d Mag 1.9g*",
+          "Sample Type Description": "MM2D (Wild type culture) 1g control",
+          "Original Submitted Sample Name": "GSM738250 extract 1"
+        }
+      },
+      {
+        "sample_name": "Atha_MM2d_cls_ML_1.9G_14.7T_Rep1",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "cell line": "MM2d",
+          "Organism Part": "cell culture"
+        },
+        "factors": {
+          "Altered Gravity": "1.9G by Magnetic Levitation",
+          "Magnetic Field": "14.7"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "24 dark",
+          "Mean Growth Temperature": "22",
+          "Hardware": "MAG (magnetic)",
+          "container": "40.8 mm high by 25 mm diameter tubes",
+          "culture medium": "1% agar with Murashige and Skoog medium",
+          "Growth Time": "1",
+          "duration": "200",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Sample Description": "replica1 MM2d Mag1g control vs MM2d Mag 1.9g*",
+          "Sample Type Description": "MM2D (Wild type culture) MAG 1.9g*",
+          "Original Submitted Sample Name": "GSM738249 extract 2"
+        }
+      },
+      {
+        "sample_name": "Atha_MM2d_cls_ML_suG_10.1T_Rep3",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "cell line": "MM2d",
+          "Organism Part": "cell culture"
+        },
+        "factors": {
+          "Altered Gravity": "uG by Magnetic Levitation",
+          "Magnetic Field": "10.1"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "24 dark",
+          "Mean Growth Temperature": "22",
+          "Hardware": "MAG (magnetic)",
+          "container": "40.8 mm high by 25 mm diameter tubes",
+          "culture medium": "1% agar with Murashige and Skoog medium",
+          "Growth Time": "1",
+          "duration": "200",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Sample Description": "replica3 MM2d Mag1g control vs MM2d Mag mg*",
+          "Sample Type Description": "MM2D (Wild type culture) MAG mg*",
+          "Original Submitted Sample Name": "GSM738242 extract 2"
+        }
+      },
+      {
+        "sample_name": "Atha_MM2d_cls_oML_1G_0T_Rep14",
+        "characteristics": {
+          "Organism": "Arabidopsis thaliana",
+          "Genotype": "Wild Type",
+          "cell line": "MM2d",
+          "Organism Part": "cell culture"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Magnetic Field": "0"
+        },
+        "parameters": {
+          "growth environment": "Earth surface",
+          "light cycle": "24 dark",
+          "Mean Growth Temperature": "22",
+          "Hardware": "",
+          "container": "40.8 mm high by 25 mm diameter tubes",
+          "culture medium": "1% agar with Murashige and Skoog medium",
+          "Growth Time": "1",
+          "duration": "200",
+          "Sample Preservation Method": "Liquid Nitrogen"
+        },
+        "comments": {
+          "Sample Description": "replica3 MM2d Mag1g control vs MM2d Mag 2g*",
+          "Sample Type Description": "MM2D (Wild type culture) 1g control",
+          "Original Submitted Sample Name": "GSM738253 extract 1"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Agilent",
+      "qc": {
+        "QA Instrument": "Bioanalyzer"
+      },
+      "library": {},
+      "files": {
+        "raw": [],
+        "processed": [
+          "Atha_MM2d_cls_RPoM_1G_0T_Rep3",
+          "Normalization Data Transformation",
+          "Bioanalyzer",
+          "GSM738256 extract 1",
+          "Hyper5",
+          "GSM738256",
+          "AGILENT G2519F 021169",
+          "GenePix 4000B (Axon)",
+          "GLDS-8_microarray_GSM738256_0923_RPM_replica3_113_10RHerranz_ct_HY5_exp-CY3_22-7-10_.gpr.gz",
+          "GLDS-8_microarray_E-GEOD-29787.processed.1.zip",
+          "Atha_MM2d_cls_RPoM_suG_0T_Rep3",
+          "GSM738256 extract 2",
+          "Cy3",
+          "Atha_MM2d_cls_RPoM_suG_0T_Rep2",
+          "GSM738255 extract 2",
+          "GSM738255",
+          "GLDS-8_microarray_GSM738255_252116910914_Arabidopsis_V4_Ct-Cy3_Exp-Hyper5_Cuadrante_2.gpr.gz",
+          "Atha_MM2d_cls_RPoM_1G_0T_Rep2",
+          "GSM738255 extract 1",
+          "Atha_MM2d_cls_RPoM_suG_0T_Rep1",
+          "GSM738254 extract 2",
+          "GSM738254",
+          "GLDS-8_microarray_GSM738254_252116910914_Arabidopsis_V4_Ct-Hyper5_Exp-Cy3_Cuadrante_1.gpr.gz",
+          "Atha_MM2d_cls_RPoM_1G_0T_Rep1",
+          "GSM738254 extract 1",
+          "Atha_MM2d_cls_oML_1G_0T_Rep14",
+          "GSM738253 extract 1",
+          "GSM738253",
+          "GLDS-8_microarray_GSM738253_0922_magneto_2g_replica3_113_10RHerranz_ct_HY5_exp-CY3_22-7-10_.gpr.gz",
+          "Atha_MM2d_cls_ML_2G_10.1T_Rep3",
+          "GSM738253 extract 2",
+          "Atha_MM2d_cls_ML_2G_10.1T_Rep2",
+          "GSM738252 extract 2",
+          "GSM738252",
+          "GLDS-8_microarray_GSM738252_Ara-V4-0901_C4_ct-CY3_Exp-Hy5_086_10RHerranz_18-6-10_.gpr.gz",
+          "Atha_MM2d_cls_oML_1G_0T_Rep13",
+          "GSM738252 extract 1",
+          "Atha_MM2d_cls_oML_1G_0T_Rep12",
+          "GSM738251 extract 1",
+          "GSM738251",
+          "GLDS-8_microarray_GSM738251_Ara-V4-0901_C3-BIS_ct-HY5_Exp-Cy3_086_10RHerranz_18-6-10_.gpr.gz",
+          "Atha_MM2d_cls_ML_2G_10.1T_Rep1",
+          "GSM738251 extract 2",
+          "Atha_MM2d_cls_ML_1.9G_14.7T_Rep2",
+          "GSM738250 extract 2",
+          "GSM738250",
+          "GLDS-8_microarray_GSM738250_0923_magneto_1.9g_replica2_113_10RHerranz_ct_CY3_exp-HY5_22-7-10_.gpr.gz",
+          "Atha_MM2d_cls_oML_1G_0T_Rep11",
+          "GSM738250 extract 1",
+          "Atha_MM2d_cls_oML_1G_0T_Rep10",
+          "GSM738249 extract 1",
+          "GSM738249",
+          "GLDS-8_microarray_GSM738249_0923_magneto_1.9g_replica1_113_10RHerranz_ct_HY5_exp-CY3_22-7-10_.gpr.gz",
+          "Atha_MM2d_cls_ML_1.9G_14.7T_Rep1",
+          "GSM738249 extract 2",
+          "Atha_MM2d_cls_oML_1G_0T_Rep9",
+          "GSM738248 extract 1",
+          "GSM738248",
+          "GLDS-8_microarray_GSM738248_0922_magneto_1g_replica3_113_10RHerranz_ct_HY5_exp-CY3_22-7-10_.gpr.gz",
+          "Atha_MM2d_cls_ML_1G_16.5T_Rep3",
+          "GSM738248 extract 2",
+          "Atha_MM2d_cls_oML_1G_0T_Rep8",
+          "GSM738247 extract 1",
+          "GSM738247",
+          "GLDS-8_microarray_GSM738247_Ara-V4-0915_C2_ct-CY3_Exp-HY5_086_10RHerranz_24-6-10_.gpr.gz",
+          "Atha_MM2d_cls_ML_1G_16.5T_Rep2",
+          "GSM738247 extract 2",
+          "Atha_MM2d_cls_oML_1G_0T_Rep7",
+          "GSM738246 extract 1",
+          "GSM738246",
+          "GLDS-8_microarray_GSM738246_Ara-V4-0915_C1_ct-HY5_Exp-Cy3_086_10RHerranz_24-6-10_.gpr.gz",
+          "Atha_MM2d_cls_ML_1G_16.5T_Rep1",
+          "GSM738246 extract 2",
+          "Atha_MM2d_cls_oML_1G_0T_Rep6",
+          "GSM738245 extract 1",
+          "GSM738245",
+          "GLDS-8_microarray_GSM738245_0922_magneto_o.1g_replica3_113_10RHerranz_ct_HY5_exp-CY3_22-7-10_.gpr.gz",
+          "Atha_MM2d_cls_ML_0.1G_14.7T_Rep3",
+          "GSM738245 extract 2",
+          "Atha_MM2d_cls_ML_0.1G_14.7T_Rep2",
+          "GSM738244 extract 2",
+          "GSM738244",
+          "GLDS-8_microarray_GSM738244_Ara-V4-0915_C4_ct-CY3_Exp-HY5_086_10RHerranz_24-6-10_.gpr.gz",
+          "Atha_MM2d_cls_oML_1G_0T_Rep5",
+          "GSM738244 extract 1",
+          "Atha_MM2d_cls_ML_0.1G_14.7T_Rep1",
+          "GSM738243 extract 2",
+          "GSM738243",
+          "GLDS-8_microarray_GSM738243_Ara-V4-0915_C3_ct-HY5_Exp-Cy3_086_10RHerranz_24-6-10_.gpr.gz",
+          "Atha_MM2d_cls_oML_1G_0T_Rep4",
+          "GSM738243 extract 1",
+          "Atha_MM2d_cls_ML_suG_10.1T_Rep3",
+          "GSM738242 extract 2",
+          "GSM738242",
+          "GLDS-8_microarray_GSM738242_0922_magneto_og_replica3_113_10RHerranz_ct_HY5_exp-CY3_22-7-10_.gpr.gz",
+          "Atha_MM2d_cls_oML_1G_0T_Rep3",
+          "GSM738242 extract 1",
+          "Atha_MM2d_cls_oML_1G_0T_Rep2",
+          "GSM738241 extract 1",
+          "GSM738241",
+          "GLDS-8_microarray_GSM738241_Ara-V4-0901_C2_ct-CY3_Exp-Hy5_086_10RHerranz_18-6-10_.gpr.gz",
+          "Atha_MM2d_cls_ML_suG_10.1T_Rep2",
+          "GSM738241 extract 2",
+          "Atha_MM2d_cls_oML_1G_0T_Rep1",
+          "GSM738240 extract 1",
+          "GSM738240",
+          "GLDS-8_microarray_GSM738240_Ara-V4-0901_C1_ct-HY5_Exp-Cy3_086_10RHerranz_18-6-10_.gpr.gz",
+          "Atha_MM2d_cls_ML_suG_10.1T_Rep1",
+          "GSM738240 extract 2",
+          "Atha_MM2d_cls_LDC_2G_0T_Rep3",
+          "GSM738239 extract 2",
+          "GSM738239",
+          "GLDS-8_microarray_GSM738239_0923_LDC_replica3_113_10RHerranz_ct_HY5_exp-CY3_22-7-10_.gpr.gz",
+          "Atha_MM2d_cls_LDC_1G_0T_Rep3",
+          "GSM738239 extract 1",
+          "Atha_MM2d_cls_LDC_1G_0T_Rep2",
+          "GSM738238 extract 1",
+          "GSM738238",
+          "GLDS-8_microarray_GSM738238_252116910914_Arabidopsis_V4_Ct-Hyper5_Exp-Cy3_Cuadrante_3.gpr.gz",
+          "Atha_MM2d_cls_LDC_2G_0T_Rep2",
+          "GSM738238 extract 2",
+          "Atha_MM2d_cls_LDC_2G_0T_Rep1",
+          "GSM738237 extract 2",
+          "GSM738237",
+          "GLDS-8_microarray_GSM738237_252116910914_Arabidopsis_V4_Ct-Cy3_Exp-Hyper5_Cuadrante_4.gpr.gz",
+          "Atha_MM2d_cls_LDC_1G_0T_Rep1",
+          "GSM738237 extract 1"
+        ],
+        "reports": [
+          "normalized log2 ratio"
+        ]
+      }
+    }
+  ]
+}

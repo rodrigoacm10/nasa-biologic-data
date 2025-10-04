@@ -1,0 +1,579 @@
+{
+  "investigation": {
+    "id": "OSD-686",
+    "title": "Impact of spaceflight and artificial gravity on sulfur metabolism in mouse liver: sulfur metabolomic and transcriptomic analysis",
+    "description": "Spaceflight induces hepatic damage, partially owing to oxidative stress caused by the space environment such as microgravity and space radiation. We examined the roles of anti-oxidative sulfur-containing compounds on hepatic damage after spaceflight.",
+    "mission": {
+      "name": "SpaceX-12",
+      "start_date": "08/14/2017",
+      "end_date": "09/17/2017",
+      "link": "https://osdr.nasa.gov/bio/repo/data/missions/SpaceX-12"
+    },
+    "project": {
+      "identifier": "MHU-2",
+      "title": "",
+      "type": "Spaceflight Study",
+      "link": "",
+      "funding": "I.O.’s work was supported by JSPS KAKENHI Grant Number JP19H05679, “Post-Koch Ecology” (Principal Investigator: N. Takaya, University of Tsukuba, Tsukuba, Japan); JP19H05687. His work was supported in part by JSPS KAKENHI Grant Number JP19K22327A. His work was supported in part by the Cabinet Office, Government of Japan, Cross-ministerial Strategic Innovation Promotion Program (SIP), “Technologies for Smart Bio-industry and Agriculture” (funding agency: Bio-oriented Technology Research Advancement Institution, NARO), and the Program on Open Innovation Platform with Enterprises, Research Institute and Academia from JST (JSTOPERA; Program Grant Number JPMJOP1832), Japan.",
+      "managing_center": "Kennedy Space Center (KSC)"
+    },
+    "protocols": [
+      "Animal Husbandry",
+      "sample collection",
+      "Nucleic Acid Extraction",
+      "Library Construction",
+      "Nucleic Acid Sequencing",
+      "GeneLab raw data processing protocol",
+      "GeneLab RNAseq data processing protocol"
+    ],
+    "publications": [
+      {
+        "title": "Impact of spaceflight and artificial gravity on sulfur metabolism in mouse liver: sulfur metabolomic and transcriptomic analysis.",
+        "doi": "10.1038/s41598-021-01129-1",
+        "authors": [
+          "Kurosawa R",
+          "Sugimoto R",
+          "Imai H",
+          "Atsuji K",
+          "Yamada K",
+          "Kawano Y",
+          "Ohtsu I",
+          "Suzuki K."
+        ],
+        "summary": "Impact of spaceflight and artificial gravity on sulfur metabolism in mouse liver: sulfur metabolomic and transcriptomic analysis. — 10.1038/s41598-021-01129-1"
+      }
+    ],
+    "factors": [
+      "Spaceflight",
+      "Altered Gravity"
+    ],
+    "contacts": [
+      {
+        "first_name": "Ryo",
+        "last_name": "Kurosawa",
+        "role": "Author",
+        "email": "suzuki@euglena.jp"
+      },
+      {
+        "first_name": "Ryota",
+        "last_name": "Sugimoto",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Hiroe",
+        "last_name": "Imai",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Kohei",
+        "last_name": "Atsuji",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Koji",
+        "last_name": "Yamada",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Yusuke",
+        "last_name": "Kawano",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Iwao",
+        "last_name": "Ohtsu",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Kengo",
+        "last_name": "Suzuki",
+        "role": "conceptualization role",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "GSM7708682",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Liver",
+          "Age at Launch": "9",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Male"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "Diet": "Charles River Formula 1 (CRF-1) with FOS",
+          "Housing Temperature": "23",
+          "Euthanasia Method": "Isoflurane/Exsanguination",
+          "duration": "30",
+          "CO2 Concentration": "0.04",
+          "humidity": "47.3",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM7708683",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Liver",
+          "Age at Launch": "9",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Male"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "Diet": "Charles River Formula 1 (CRF-1)",
+          "Housing Temperature": "23",
+          "Euthanasia Method": "Isoflurane/Exsanguination",
+          "duration": "30",
+          "CO2 Concentration": "0.04",
+          "humidity": "47.3",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM7708684",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Liver",
+          "Age at Launch": "9",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Male"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "Diet": "Charles River Formula 1 (CRF-1)",
+          "Housing Temperature": "23",
+          "Euthanasia Method": "Isoflurane/Exsanguination",
+          "duration": "30",
+          "CO2 Concentration": "0.04",
+          "humidity": "47.3",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM7708685",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Liver",
+          "Age at Launch": "9",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Male"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Altered Gravity": "1G by centrifugation"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "Diet": "Charles River Formula 1 (CRF-1) with FOS",
+          "Housing Temperature": "20-26",
+          "Euthanasia Method": "Isoflurane/Exsanguination",
+          "duration": "30",
+          "CO2 Concentration": "0.29",
+          "humidity": "25-55",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM7708686",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Liver",
+          "Age at Launch": "9",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Male"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Altered Gravity": "1G by centrifugation"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "Diet": "Charles River Formula 1 (CRF-1)",
+          "Housing Temperature": "20-26",
+          "Euthanasia Method": "Isoflurane/Exsanguination",
+          "duration": "30",
+          "CO2 Concentration": "0.29",
+          "humidity": "25-55",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM7708687",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Liver",
+          "Age at Launch": "9",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Male"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Altered Gravity": "1G by centrifugation"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "Diet": "Charles River Formula 1 (CRF-1)",
+          "Housing Temperature": "20-26",
+          "Euthanasia Method": "Isoflurane/Exsanguination",
+          "duration": "30",
+          "CO2 Concentration": "0.29",
+          "humidity": "25-55",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM7708688",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Liver",
+          "Age at Launch": "9",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Male"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "Diet": "Charles River Formula 1 (CRF-1) with FOS",
+          "Housing Temperature": "20-26",
+          "Euthanasia Method": "Isoflurane/Exsanguination",
+          "duration": "30",
+          "CO2 Concentration": "0.33",
+          "humidity": "25-55",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM7708689",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Liver",
+          "Age at Launch": "9",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Male"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "Diet": "Charles River Formula 1 (CRF-1)",
+          "Housing Temperature": "20-26",
+          "Euthanasia Method": "Isoflurane/Exsanguination",
+          "duration": "30",
+          "CO2 Concentration": "0.33",
+          "humidity": "25-55",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM7708690",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Material Type": "Liver",
+          "Age at Launch": "9",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Male"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "Diet": "Charles River Formula 1 (CRF-1) with FOS",
+          "Housing Temperature": "20-26",
+          "Euthanasia Method": "Isoflurane/Exsanguination",
+          "duration": "30",
+          "CO2 Concentration": "0.33",
+          "humidity": "25-55",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina NovaSeq 6000",
+      "qc": {
+        "QA Instrument": "NanoDrop 2000 spectrophotometer (Thermo Fisher Scientific, Waltham, MA, USA)",
+        "QA Assay": "Spectrophotometry",
+        "Read Depth": "25600351",
+        "rRNA Contamination": "2.27"
+      },
+      "library": {
+        "Library Selection": "polyA enrichment",
+        "Library Layout": "PAIRED"
+      },
+      "files": {
+        "raw": [
+          "GLDS-617_rna-seq_GSM7708682_R1_raw.fastq.gz",
+          "GLDS-617_rna-seq_GSM7708682_R2_raw.fastq.gz",
+          "GLDS-617_rna-seq_GSM7708683_R1_raw.fastq.gz",
+          "GLDS-617_rna-seq_GSM7708683_R2_raw.fastq.gz",
+          "GLDS-617_rna-seq_GSM7708684_R1_raw.fastq.gz",
+          "GLDS-617_rna-seq_GSM7708684_R2_raw.fastq.gz",
+          "GLDS-617_rna-seq_GSM7708685_R1_raw.fastq.gz",
+          "GLDS-617_rna-seq_GSM7708685_R2_raw.fastq.gz",
+          "GLDS-617_rna-seq_GSM7708686_R1_raw.fastq.gz",
+          "GLDS-617_rna-seq_GSM7708686_R2_raw.fastq.gz",
+          "GLDS-617_rna-seq_GSM7708687_R1_raw.fastq.gz",
+          "GLDS-617_rna-seq_GSM7708687_R2_raw.fastq.gz",
+          "GLDS-617_rna-seq_GSM7708688_R1_raw.fastq.gz",
+          "GLDS-617_rna-seq_GSM7708688_R2_raw.fastq.gz",
+          "GLDS-617_rna-seq_GSM7708689_R1_raw.fastq.gz",
+          "GLDS-617_rna-seq_GSM7708689_R2_raw.fastq.gz",
+          "GLDS-617_rna-seq_GSM7708690_R1_raw.fastq.gz",
+          "GLDS-617_rna-seq_GSM7708690_R2_raw.fastq.gz",
+          "GLDS-617_rna_seq_GSM7708682_R1_trimmed.fastq.gz",
+          "GLDS-617_rna_seq_GSM7708682_R2_trimmed.fastq.gz",
+          "GLDS-617_rna_seq_GSM7708683_R1_trimmed.fastq.gz",
+          "GLDS-617_rna_seq_GSM7708683_R2_trimmed.fastq.gz",
+          "GLDS-617_rna_seq_GSM7708684_R1_trimmed.fastq.gz",
+          "GLDS-617_rna_seq_GSM7708684_R2_trimmed.fastq.gz",
+          "GLDS-617_rna_seq_GSM7708685_R1_trimmed.fastq.gz",
+          "GLDS-617_rna_seq_GSM7708685_R2_trimmed.fastq.gz",
+          "GLDS-617_rna_seq_GSM7708686_R1_trimmed.fastq.gz",
+          "GLDS-617_rna_seq_GSM7708686_R2_trimmed.fastq.gz",
+          "GLDS-617_rna_seq_GSM7708687_R1_trimmed.fastq.gz",
+          "GLDS-617_rna_seq_GSM7708687_R2_trimmed.fastq.gz",
+          "GLDS-617_rna_seq_GSM7708688_R1_trimmed.fastq.gz",
+          "GLDS-617_rna_seq_GSM7708688_R2_trimmed.fastq.gz",
+          "GLDS-617_rna_seq_GSM7708689_R1_trimmed.fastq.gz",
+          "GLDS-617_rna_seq_GSM7708689_R2_trimmed.fastq.gz",
+          "GLDS-617_rna_seq_GSM7708690_R1_trimmed.fastq.gz",
+          "GLDS-617_rna_seq_GSM7708690_R2_trimmed.fastq.gz"
+        ],
+        "processed": [
+          "GLDS-617_rna_seq_GSM7708682_R1_trimmed.fastq.gz",
+          "GLDS-617_rna_seq_GSM7708682_R2_trimmed.fastq.gz",
+          "GLDS-617_rna_seq_GSM7708682_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-617_rna_seq_GSM7708682_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-617_rna_seq_GSM7708682_Aligned.toTranscriptome.out.bam",
+          "GLDS-617_rna_seq_GSM7708682_SJ.out.tab",
+          "GLDS-617_rna_seq_GSM7708683_R1_trimmed.fastq.gz",
+          "GLDS-617_rna_seq_GSM7708683_R2_trimmed.fastq.gz",
+          "GLDS-617_rna_seq_GSM7708683_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-617_rna_seq_GSM7708683_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-617_rna_seq_GSM7708683_Aligned.toTranscriptome.out.bam",
+          "GLDS-617_rna_seq_GSM7708683_SJ.out.tab",
+          "GLDS-617_rna_seq_GSM7708684_R1_trimmed.fastq.gz",
+          "GLDS-617_rna_seq_GSM7708684_R2_trimmed.fastq.gz",
+          "GLDS-617_rna_seq_GSM7708684_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-617_rna_seq_GSM7708684_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-617_rna_seq_GSM7708684_Aligned.toTranscriptome.out.bam",
+          "GLDS-617_rna_seq_GSM7708684_SJ.out.tab",
+          "GLDS-617_rna_seq_GSM7708685_R1_trimmed.fastq.gz",
+          "GLDS-617_rna_seq_GSM7708685_R2_trimmed.fastq.gz",
+          "GLDS-617_rna_seq_GSM7708685_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-617_rna_seq_GSM7708685_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-617_rna_seq_GSM7708685_Aligned.toTranscriptome.out.bam",
+          "GLDS-617_rna_seq_GSM7708685_SJ.out.tab",
+          "GLDS-617_rna_seq_GSM7708686_R1_trimmed.fastq.gz",
+          "GLDS-617_rna_seq_GSM7708686_R2_trimmed.fastq.gz",
+          "GLDS-617_rna_seq_GSM7708686_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-617_rna_seq_GSM7708686_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-617_rna_seq_GSM7708686_Aligned.toTranscriptome.out.bam",
+          "GLDS-617_rna_seq_GSM7708686_SJ.out.tab",
+          "GLDS-617_rna_seq_GSM7708687_R1_trimmed.fastq.gz",
+          "GLDS-617_rna_seq_GSM7708687_R2_trimmed.fastq.gz",
+          "GLDS-617_rna_seq_GSM7708687_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-617_rna_seq_GSM7708687_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-617_rna_seq_GSM7708687_Aligned.toTranscriptome.out.bam",
+          "GLDS-617_rna_seq_GSM7708687_SJ.out.tab",
+          "GLDS-617_rna_seq_GSM7708688_R1_trimmed.fastq.gz",
+          "GLDS-617_rna_seq_GSM7708688_R2_trimmed.fastq.gz",
+          "GLDS-617_rna_seq_GSM7708688_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-617_rna_seq_GSM7708688_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-617_rna_seq_GSM7708688_Aligned.toTranscriptome.out.bam",
+          "GLDS-617_rna_seq_GSM7708688_SJ.out.tab",
+          "GLDS-617_rna_seq_GSM7708689_R1_trimmed.fastq.gz",
+          "GLDS-617_rna_seq_GSM7708689_R2_trimmed.fastq.gz",
+          "GLDS-617_rna_seq_GSM7708689_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-617_rna_seq_GSM7708689_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-617_rna_seq_GSM7708689_Aligned.toTranscriptome.out.bam",
+          "GLDS-617_rna_seq_GSM7708689_SJ.out.tab",
+          "GLDS-617_rna_seq_GSM7708690_R1_trimmed.fastq.gz",
+          "GLDS-617_rna_seq_GSM7708690_R2_trimmed.fastq.gz",
+          "GLDS-617_rna_seq_GSM7708690_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-617_rna_seq_GSM7708690_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-617_rna_seq_GSM7708690_Aligned.toTranscriptome.out.bam",
+          "GLDS-617_rna_seq_GSM7708690_SJ.out.tab",
+          "GSM7708682",
+          "GeneLab RNAseq data processing protocol",
+          "NanoDrop 2000 spectrophotometer (Thermo Fisher Scientific",
+          "Waltham",
+          "MA",
+          "USA)",
+          "Spectrophotometry",
+          "liver of control mice on Earth",
+          "replicate 1",
+          "polyA enrichment",
+          "PAIRED",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000187",
+          "Stranded",
+          "Illumina NovaSeq 6000",
+          "150",
+          "percent",
+          "RNA-seq",
+          "bcl2fastq software application",
+          "25600351",
+          "2.27",
+          "GLDS-617_rna_seq_GSM7708682.genes.results",
+          "GLDS-617_rna_seq_GSM7708682.isoforms.results",
+          "GLDS-617_rna_seq_RSEM_Unnormalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-617_rna_seq_STAR_Unnormalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-617_rna_seq_Normalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-617_rna_seq_SampleTable_GLbulkRNAseq.csv",
+          "GLDS-617_rna_seq_contrasts_GLbulkRNAseq.csv",
+          "GLDS-617_rna_seq_differential_expression_GLbulkRNAseq.csv",
+          "GSM7708683",
+          "replicate 2",
+          "24970455",
+          "1.88",
+          "GLDS-617_rna_seq_GSM7708683.genes.results",
+          "GLDS-617_rna_seq_GSM7708683.isoforms.results",
+          "GSM7708684",
+          "replicate 3",
+          "18919386",
+          "1.98",
+          "GLDS-617_rna_seq_GSM7708684.genes.results",
+          "GLDS-617_rna_seq_GSM7708684.isoforms.results",
+          "GSM7708685",
+          "liver of mice under artificial earth gravity (1 g) in space for 30 days",
+          "22417076",
+          "1.68",
+          "GLDS-617_rna_seq_GSM7708685.genes.results",
+          "GLDS-617_rna_seq_GSM7708685.isoforms.results",
+          "GSM7708686",
+          "21383574",
+          "2.66",
+          "GLDS-617_rna_seq_GSM7708686.genes.results",
+          "GLDS-617_rna_seq_GSM7708686.isoforms.results",
+          "GSM7708687",
+          "25854223",
+          "2.10",
+          "GLDS-617_rna_seq_GSM7708687.genes.results",
+          "GLDS-617_rna_seq_GSM7708687.isoforms.results",
+          "GSM7708688",
+          "liver of mice under microgravity in space for 30 days",
+          "18562623",
+          "2.24",
+          "GLDS-617_rna_seq_GSM7708688.genes.results",
+          "GLDS-617_rna_seq_GSM7708688.isoforms.results",
+          "GSM7708689",
+          "22071009",
+          "2.16",
+          "GLDS-617_rna_seq_GSM7708689.genes.results",
+          "GLDS-617_rna_seq_GSM7708689.isoforms.results",
+          "GSM7708690",
+          "14405463",
+          "1.85",
+          "GLDS-617_rna_seq_GSM7708690.genes.results",
+          "GLDS-617_rna_seq_GSM7708690.isoforms.results"
+        ],
+        "reports": [
+          "GLDS-617_rna_seq_raw_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-617_rna_seq_trimmed_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-617_rna_seq_GSM7708682_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-617_rna_seq_GSM7708682_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-617_rna_seq_GSM7708682_Log.final.out",
+          "GLDS-617_rna_seq_align_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-617_rna_seq_geneBody_cov_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-617_rna_seq_infer_exp_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-617_rna_seq_inner_dist_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-617_rna_seq_read_dist_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-617_rna_seq_RSEM_count_multiqc_GLbulkRNAseq_report.zip",
+          "GLDS-617_rna_seq_GSM7708683_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-617_rna_seq_GSM7708683_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-617_rna_seq_GSM7708683_Log.final.out",
+          "GLDS-617_rna_seq_GSM7708684_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-617_rna_seq_GSM7708684_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-617_rna_seq_GSM7708684_Log.final.out",
+          "GLDS-617_rna_seq_GSM7708685_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-617_rna_seq_GSM7708685_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-617_rna_seq_GSM7708685_Log.final.out",
+          "GLDS-617_rna_seq_GSM7708686_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-617_rna_seq_GSM7708686_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-617_rna_seq_GSM7708686_Log.final.out",
+          "GLDS-617_rna_seq_GSM7708687_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-617_rna_seq_GSM7708687_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-617_rna_seq_GSM7708687_Log.final.out",
+          "GLDS-617_rna_seq_GSM7708688_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-617_rna_seq_GSM7708688_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-617_rna_seq_GSM7708688_Log.final.out",
+          "GLDS-617_rna_seq_GSM7708689_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-617_rna_seq_GSM7708689_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-617_rna_seq_GSM7708689_Log.final.out",
+          "GLDS-617_rna_seq_GSM7708690_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-617_rna_seq_GSM7708690_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-617_rna_seq_GSM7708690_Log.final.out"
+        ]
+      }
+    }
+  ]
+}

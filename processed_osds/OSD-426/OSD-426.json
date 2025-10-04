@@ -1,0 +1,962 @@
+{
+  "investigation": {
+    "id": "OSD-426",
+    "title": "Cerium oxide nanoparticle administration to skeletal muscle cells under different gravity and radiation conditions",
+    "description": "For their remarkable biomimetic properties implying strong modulation of the intracellular and extracellular redox state, cerium oxide nanoparticles (also termed 'nanoceria') were hypothesized to exert a protective role against oxidative stress associated to the harsh environmental conditions of spaceflight, characterized by microgravity and highly energetic radiations. Nanoparticles were supplied to proliferating C2C12 mouse skeletal muscle cells under different gravity and radiation levels (microgravity+cosmic radiations or Earth gravity+cosmic radiations on board the International Space Station; Earth gravity on ground).",
+    "mission": {
+      "name": "SpaceX-17",
+      "start_date": "04-May-2019",
+      "end_date": "03-Jun-2019",
+      "link": "https://osdr.nasa.gov/bio/repo/data/missions/SpaceX-17"
+    },
+    "project": {
+      "identifier": "",
+      "title": "",
+      "type": "Spaceflight Study",
+      "link": "",
+      "funding": "G.C. received funding from Fondazione CaRiPLo, grant no. 2018-0156, and by ESA, project no. ILSRA-2014-0012.",
+      "managing_center": ""
+    },
+    "protocols": [
+      "sample collection",
+      "Nucleic Acid Extraction",
+      "Library Construction",
+      "Nucleic Acid Sequencing",
+      "treatment protocol",
+      "GeneLab raw data processing protocol",
+      "GeneLab RNAseq data processing protocol"
+    ],
+    "publications": [
+      {
+        "title": "Cerium Oxide Nanoparticle Administration to Skeletal Muscle Cells under Different Gravity and Radiation Conditions",
+        "doi": "10.1021/acsami.1c14176",
+        "authors": [
+          "Genchi Giada Graziana",
+          "Degl’Innocenti Andrea",
+          "Martinelli Chiara",
+          "Battaglini Matteo",
+          "De Pasquale Daniele",
+          "Prato Mirko",
+          "Marras Sergio",
+          "Pugliese Giammarino",
+          "Drago Filippo",
+          "Mariani Alessandro",
+          "Balsamo Michele",
+          "Zolesi Valfredo",
+          "Ciofani Gianni"
+        ],
+        "summary": "Cerium Oxide Nanoparticle Administration to Skeletal Muscle Cells under Different Gravity and Radiation Conditions — 10.1021/acsami.1c14176"
+      }
+    ],
+    "factors": [
+      "Spaceflight",
+      "Altered Gravity",
+      "Treatment"
+    ],
+    "contacts": [
+      {
+        "first_name": "Gianni",
+        "last_name": "Ciofani",
+        "role": "submitter",
+        "email": "gianni.ciofani@iit.it"
+      },
+      {
+        "first_name": "Andrea",
+        "last_name": "Deglinnocenti",
+        "role": "submitter",
+        "email": "andrea.deglinnocenti@iit.it"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "EU181",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "cell line": "C2C12",
+          "cell type": "myoblast cell line",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Altered Gravity": "uG",
+          "Treatment": "without nanoceria"
+        },
+        "parameters": {
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "EU191",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "cell line": "C2C12",
+          "cell type": "myoblast cell line",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Altered Gravity": "uG",
+          "Treatment": "without nanoceria"
+        },
+        "parameters": {
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "EU192",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "cell line": "C2C12",
+          "cell type": "myoblast cell line",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Altered Gravity": "uG",
+          "Treatment": "without nanoceria"
+        },
+        "parameters": {
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "EU182",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "cell line": "C2C12",
+          "cell type": "myoblast cell line",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Altered Gravity": "uG",
+          "Treatment": "with nanoceria"
+        },
+        "parameters": {
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "EU183",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "cell line": "C2C12",
+          "cell type": "myoblast cell line",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Altered Gravity": "uG",
+          "Treatment": "with nanoceria"
+        },
+        "parameters": {
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "EU184",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "cell line": "C2C12",
+          "cell type": "myoblast cell line",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Altered Gravity": "uG",
+          "Treatment": "with nanoceria"
+        },
+        "parameters": {
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "EU185",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "cell line": "C2C12",
+          "cell type": "myoblast cell line",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Altered Gravity": "1G by centrifugation",
+          "Treatment": "without nanoceria"
+        },
+        "parameters": {
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "EU186",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "cell line": "C2C12",
+          "cell type": "myoblast cell line",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Altered Gravity": "1G by centrifugation",
+          "Treatment": "without nanoceria"
+        },
+        "parameters": {
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "EU187",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "cell line": "C2C12",
+          "cell type": "myoblast cell line",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Altered Gravity": "1G by centrifugation",
+          "Treatment": "without nanoceria"
+        },
+        "parameters": {
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "EU188",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "cell line": "C2C12",
+          "cell type": "myoblast cell line",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Altered Gravity": "1G by centrifugation",
+          "Treatment": "with nanoceria"
+        },
+        "parameters": {
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "EU189",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "cell line": "C2C12",
+          "cell type": "myoblast cell line",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Altered Gravity": "1G by centrifugation",
+          "Treatment": "with nanoceria"
+        },
+        "parameters": {
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "EU190",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "cell line": "C2C12",
+          "cell type": "myoblast cell line",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Altered Gravity": "1G by centrifugation",
+          "Treatment": "with nanoceria"
+        },
+        "parameters": {
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "EU229",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "cell line": "C2C12",
+          "cell type": "myoblast cell line",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Altered Gravity": "1G on Earth",
+          "Treatment": "without nanoceria"
+        },
+        "parameters": {
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "EU230",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "cell line": "C2C12",
+          "cell type": "myoblast cell line",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Altered Gravity": "1G on Earth",
+          "Treatment": "without nanoceria"
+        },
+        "parameters": {
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "EU231",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "cell line": "C2C12",
+          "cell type": "myoblast cell line",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Altered Gravity": "1G on Earth",
+          "Treatment": "without nanoceria"
+        },
+        "parameters": {
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "EU226",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "cell line": "C2C12",
+          "cell type": "myoblast cell line",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Altered Gravity": "1G on Earth",
+          "Treatment": "with nanoceria"
+        },
+        "parameters": {
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "EU228",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "cell line": "C2C12",
+          "cell type": "myoblast cell line",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Altered Gravity": "1G on Earth",
+          "Treatment": "with nanoceria"
+        },
+        "parameters": {
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "EU236",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "cell line": "C2C12",
+          "cell type": "myoblast cell line",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Altered Gravity": "1G on Earth",
+          "Treatment": "with nanoceria"
+        },
+        "parameters": {
+          "Growth Temperature": "37",
+          "Sample Preservation Method": "RNALater",
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina HiSeq 2500",
+      "qc": {
+        "QA Instrument": "NanoDrop 2000 spectrophotometer"
+      },
+      "library": {
+        "Library Selection": "polyA enrichment",
+        "Library Layout": "PAIRED",
+        "Stranded": "Stranded"
+      },
+      "files": {
+        "raw": [
+          "GLDS-426_miRNA-Seq_SRR13535277_1.fastq.gz",
+          "GLDS-426_miRNA-Seq_SRR13535277_2.fastq.gz",
+          "GLDS-426_miRNA-Seq_SRR13535279_1.fastq.gz",
+          "GLDS-426_miRNA-Seq_SRR13535279_2.fastq.gz",
+          "GLDS-426_miRNA-Seq_SRR13535281_1.fastq.gz",
+          "GLDS-426_miRNA-Seq_SRR13535281_2.fastq.gz",
+          "GLDS-426_miRNA-Seq_SRR13535283_1.fastq.gz",
+          "GLDS-426_miRNA-Seq_SRR13535283_2.fastq.gz",
+          "GLDS-426_miRNA-Seq_SRR13535285_1.fastq.gz",
+          "GLDS-426_miRNA-Seq_SRR13535285_2.fastq.gz",
+          "GLDS-426_miRNA-Seq_SRR13535287_1.fastq.gz",
+          "GLDS-426_miRNA-Seq_SRR13535287_2.fastq.gz",
+          "GLDS-426_miRNA-Seq_SRR13535289_1.fastq.gz",
+          "GLDS-426_miRNA-Seq_SRR13535289_2.fastq.gz",
+          "GLDS-426_miRNA-Seq_SRR13535291_1.fastq.gz",
+          "GLDS-426_miRNA-Seq_SRR13535291_2.fastq.gz",
+          "GLDS-426_miRNA-Seq_SRR13535293_1.fastq.gz",
+          "GLDS-426_miRNA-Seq_SRR13535293_2.fastq.gz",
+          "GLDS-426_miRNA-Seq_SRR13535295_1.fastq.gz",
+          "GLDS-426_miRNA-Seq_SRR13535295_2.fastq.gz",
+          "GLDS-426_miRNA-Seq_SRR13535297_1.fastq.gz",
+          "GLDS-426_miRNA-Seq_SRR13535297_2.fastq.gz",
+          "GLDS-426_miRNA-Seq_SRR13535299_1.fastq.gz",
+          "GLDS-426_miRNA-Seq_SRR13535299_2.fastq.gz",
+          "GLDS-426_miRNA-Seq_SRR13535301_1.fastq.gz",
+          "GLDS-426_miRNA-Seq_SRR13535301_2.fastq.gz",
+          "GLDS-426_miRNA-Seq_SRR13535303_1.fastq.gz",
+          "GLDS-426_miRNA-Seq_SRR13535303_2.fastq.gz",
+          "GLDS-426_miRNA-Seq_SRR13535305_1.fastq.gz",
+          "GLDS-426_miRNA-Seq_SRR13535305_2.fastq.gz",
+          "GLDS-426_miRNA-Seq_SRR13535307_1.fastq.gz",
+          "GLDS-426_miRNA-Seq_SRR13535307_2.fastq.gz",
+          "GLDS-426_miRNA-Seq_SRR13535309_1.fastq.gz",
+          "GLDS-426_miRNA-Seq_SRR13535309_2.fastq.gz",
+          "GLDS-426_miRNA-Seq_SRR13535311_1.fastq.gz",
+          "GLDS-426_miRNA-Seq_SRR13535311_2.fastq.gz"
+        ],
+        "processed": [
+          "EU181",
+          "Nucleic Acid Sequencing",
+          "NanoDrop 2000 spectrophotometer",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000244",
+          "GSM5043431",
+          "polyA enrichment",
+          "PAIRED",
+          "Stranded",
+          "Illumina HiSeq 2500",
+          "miRNA-Seq",
+          "250",
+          "base pair",
+          "EU191",
+          "GSM5043435",
+          "EU192",
+          "GSM5043438",
+          "EU182",
+          "GSM5043442",
+          "EU183",
+          "GSM5043445",
+          "EU184",
+          "GSM5043449",
+          "EU185",
+          "GSM5043452",
+          "EU186",
+          "GSM5043456",
+          "EU187",
+          "GSM5043459",
+          "EU188",
+          "GSM5043463",
+          "EU189",
+          "GSM5043466",
+          "EU190",
+          "GSM5043469",
+          "EU229",
+          "GSM5043473",
+          "EU230",
+          "GSM5043476",
+          "EU231",
+          "GSM5043480",
+          "EU226",
+          "GSM5043483",
+          "EU228",
+          "GSM5043487",
+          "EU236",
+          "GSM5043490"
+        ],
+        "reports": []
+      }
+    },
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina HiSeq 2500",
+      "qc": {
+        "QA Instrument": "NanoDrop 2000 spectrophotometer",
+        "Read Depth": "27418220",
+        "rRNA Contamination": "56.55"
+      },
+      "library": {
+        "Library Selection": "polyA enrichment",
+        "Library Layout": "PAIRED",
+        "Stranded": "UNSTRANDED"
+      },
+      "files": {
+        "raw": [
+          "GLDS-426_rna-seq_SRR13535276_1.fastq.gz",
+          "GLDS-426_rna-seq_SRR13535276_2.fastq.gz",
+          "GLDS-426_rna-seq_SRR13535278_1.fastq.gz",
+          "GLDS-426_rna-seq_SRR13535278_2.fastq.gz",
+          "GLDS-426_rna-seq_SRR13535280_1.fastq.gz",
+          "GLDS-426_rna-seq_SRR13535280_2.fastq.gz",
+          "GLDS-426_rna-seq_SRR13535282_1.fastq.gz",
+          "GLDS-426_rna-seq_SRR13535282_2.fastq.gz",
+          "GLDS-426_rna-seq_SRR13535284_1.fastq.gz",
+          "GLDS-426_rna-seq_SRR13535284_2.fastq.gz",
+          "GLDS-426_rna-seq_SRR13535286_1.fastq.gz",
+          "GLDS-426_rna-seq_SRR13535286_2.fastq.gz",
+          "GLDS-426_rna-seq_SRR13535288_1.fastq.gz",
+          "GLDS-426_rna-seq_SRR13535288_2.fastq.gz",
+          "GLDS-426_rna-seq_SRR13535290_1.fastq.gz",
+          "GLDS-426_rna-seq_SRR13535290_2.fastq.gz",
+          "GLDS-426_rna-seq_SRR13535292_1.fastq.gz",
+          "GLDS-426_rna-seq_SRR13535292_2.fastq.gz",
+          "GLDS-426_rna-seq_SRR13535294_1.fastq.gz",
+          "GLDS-426_rna-seq_SRR13535294_2.fastq.gz",
+          "GLDS-426_rna-seq_SRR13535296_1.fastq.gz",
+          "GLDS-426_rna-seq_SRR13535296_2.fastq.gz",
+          "GLDS-426_rna-seq_SRR13535298_1.fastq.gz",
+          "GLDS-426_rna-seq_SRR13535298_2.fastq.gz",
+          "GLDS-426_rna-seq_SRR13535300_1.fastq.gz",
+          "GLDS-426_rna-seq_SRR13535300_2.fastq.gz",
+          "GLDS-426_rna-seq_SRR13535302_1.fastq.gz",
+          "GLDS-426_rna-seq_SRR13535302_2.fastq.gz",
+          "GLDS-426_rna-seq_SRR13535304_1.fastq.gz",
+          "GLDS-426_rna-seq_SRR13535304_2.fastq.gz",
+          "GLDS-426_rna-seq_SRR13535306_1.fastq.gz",
+          "GLDS-426_rna-seq_SRR13535306_2.fastq.gz",
+          "GLDS-426_rna-seq_SRR13535308_1.fastq.gz",
+          "GLDS-426_rna-seq_SRR13535308_2.fastq.gz",
+          "GLDS-426_rna-seq_SRR13535310_1.fastq.gz",
+          "GLDS-426_rna-seq_SRR13535310_2.fastq.gz",
+          "GLDS-426_rna_seq_EU181_R1_raw.fastq.gz",
+          "GLDS-426_rna_seq_EU181_R2_raw.fastq.gz",
+          "GLDS-426_rna_seq_EU181_R1_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU181_R2_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU182_R1_raw.fastq.gz",
+          "GLDS-426_rna_seq_EU182_R2_raw.fastq.gz",
+          "GLDS-426_rna_seq_EU182_R1_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU182_R2_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU183_R1_raw.fastq.gz",
+          "GLDS-426_rna_seq_EU183_R2_raw.fastq.gz",
+          "GLDS-426_rna_seq_EU183_R1_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU183_R2_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU184_R1_raw.fastq.gz",
+          "GLDS-426_rna_seq_EU184_R2_raw.fastq.gz",
+          "GLDS-426_rna_seq_EU184_R1_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU184_R2_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU185_R1_raw.fastq.gz",
+          "GLDS-426_rna_seq_EU185_R2_raw.fastq.gz",
+          "GLDS-426_rna_seq_EU185_R1_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU185_R2_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU186_R1_raw.fastq.gz",
+          "GLDS-426_rna_seq_EU186_R2_raw.fastq.gz",
+          "GLDS-426_rna_seq_EU186_R1_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU186_R2_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU187_R1_raw.fastq.gz",
+          "GLDS-426_rna_seq_EU187_R2_raw.fastq.gz",
+          "GLDS-426_rna_seq_EU187_R1_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU187_R2_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU188_R1_raw.fastq.gz",
+          "GLDS-426_rna_seq_EU188_R2_raw.fastq.gz",
+          "GLDS-426_rna_seq_EU188_R1_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU188_R2_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU189_R1_raw.fastq.gz",
+          "GLDS-426_rna_seq_EU189_R2_raw.fastq.gz",
+          "GLDS-426_rna_seq_EU189_R1_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU189_R2_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU190_R1_raw.fastq.gz",
+          "GLDS-426_rna_seq_EU190_R2_raw.fastq.gz",
+          "GLDS-426_rna_seq_EU190_R1_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU190_R2_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU191_R1_raw.fastq.gz",
+          "GLDS-426_rna_seq_EU191_R2_raw.fastq.gz",
+          "GLDS-426_rna_seq_EU191_R1_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU191_R2_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU192_R1_raw.fastq.gz",
+          "GLDS-426_rna_seq_EU192_R2_raw.fastq.gz",
+          "GLDS-426_rna_seq_EU192_R1_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU192_R2_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU226_R1_raw.fastq.gz",
+          "GLDS-426_rna_seq_EU226_R2_raw.fastq.gz",
+          "GLDS-426_rna_seq_EU226_R1_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU226_R2_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU228_R1_raw.fastq.gz",
+          "GLDS-426_rna_seq_EU228_R2_raw.fastq.gz",
+          "GLDS-426_rna_seq_EU228_R1_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU228_R2_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU229_R1_raw.fastq.gz",
+          "GLDS-426_rna_seq_EU229_R2_raw.fastq.gz",
+          "GLDS-426_rna_seq_EU229_R1_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU229_R2_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU230_R1_raw.fastq.gz",
+          "GLDS-426_rna_seq_EU230_R2_raw.fastq.gz",
+          "GLDS-426_rna_seq_EU230_R1_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU230_R2_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU231_R1_raw.fastq.gz",
+          "GLDS-426_rna_seq_EU231_R2_raw.fastq.gz",
+          "GLDS-426_rna_seq_EU231_R1_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU231_R2_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU236_R1_raw.fastq.gz",
+          "GLDS-426_rna_seq_EU236_R2_raw.fastq.gz",
+          "GLDS-426_rna_seq_EU236_R1_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU236_R2_trimmed.fastq.gz"
+        ],
+        "processed": [
+          "GLDS-426_rna_seq_EU181_R1_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU181_R2_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU181_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-426_rna_seq_EU181_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-426_rna_seq_EU181_Aligned.toTranscriptome.out.bam",
+          "GLDS-426_rna_seq_EU181_SJ.out.tab",
+          "GLDS-426_rna_seq_EU182_R1_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU182_R2_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU182_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-426_rna_seq_EU182_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-426_rna_seq_EU182_Aligned.toTranscriptome.out.bam",
+          "GLDS-426_rna_seq_EU182_SJ.out.tab",
+          "GLDS-426_rna_seq_EU183_R1_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU183_R2_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU183_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-426_rna_seq_EU183_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-426_rna_seq_EU183_Aligned.toTranscriptome.out.bam",
+          "GLDS-426_rna_seq_EU183_SJ.out.tab",
+          "GLDS-426_rna_seq_EU184_R1_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU184_R2_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU184_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-426_rna_seq_EU184_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-426_rna_seq_EU184_Aligned.toTranscriptome.out.bam",
+          "GLDS-426_rna_seq_EU184_SJ.out.tab",
+          "GLDS-426_rna_seq_EU185_R1_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU185_R2_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU185_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-426_rna_seq_EU185_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-426_rna_seq_EU185_Aligned.toTranscriptome.out.bam",
+          "GLDS-426_rna_seq_EU185_SJ.out.tab",
+          "GLDS-426_rna_seq_EU186_R1_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU186_R2_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU186_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-426_rna_seq_EU186_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-426_rna_seq_EU186_Aligned.toTranscriptome.out.bam",
+          "GLDS-426_rna_seq_EU186_SJ.out.tab",
+          "GLDS-426_rna_seq_EU187_R1_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU187_R2_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU187_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-426_rna_seq_EU187_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-426_rna_seq_EU187_Aligned.toTranscriptome.out.bam",
+          "GLDS-426_rna_seq_EU187_SJ.out.tab",
+          "GLDS-426_rna_seq_EU188_R1_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU188_R2_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU188_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-426_rna_seq_EU188_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-426_rna_seq_EU188_Aligned.toTranscriptome.out.bam",
+          "GLDS-426_rna_seq_EU188_SJ.out.tab",
+          "GLDS-426_rna_seq_EU189_R1_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU189_R2_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU189_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-426_rna_seq_EU189_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-426_rna_seq_EU189_Aligned.toTranscriptome.out.bam",
+          "GLDS-426_rna_seq_EU189_SJ.out.tab",
+          "GLDS-426_rna_seq_EU190_R1_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU190_R2_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU190_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-426_rna_seq_EU190_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-426_rna_seq_EU190_Aligned.toTranscriptome.out.bam",
+          "GLDS-426_rna_seq_EU190_SJ.out.tab",
+          "GLDS-426_rna_seq_EU191_R1_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU191_R2_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU191_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-426_rna_seq_EU191_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-426_rna_seq_EU191_Aligned.toTranscriptome.out.bam",
+          "GLDS-426_rna_seq_EU191_SJ.out.tab",
+          "GLDS-426_rna_seq_EU192_R1_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU192_R2_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU192_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-426_rna_seq_EU192_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-426_rna_seq_EU192_Aligned.toTranscriptome.out.bam",
+          "GLDS-426_rna_seq_EU192_SJ.out.tab",
+          "GLDS-426_rna_seq_EU226_R1_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU226_R2_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU226_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-426_rna_seq_EU226_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-426_rna_seq_EU226_Aligned.toTranscriptome.out.bam",
+          "GLDS-426_rna_seq_EU226_SJ.out.tab",
+          "GLDS-426_rna_seq_EU228_R1_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU228_R2_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU228_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-426_rna_seq_EU228_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-426_rna_seq_EU228_Aligned.toTranscriptome.out.bam",
+          "GLDS-426_rna_seq_EU228_SJ.out.tab",
+          "GLDS-426_rna_seq_EU229_R1_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU229_R2_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU229_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-426_rna_seq_EU229_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-426_rna_seq_EU229_Aligned.toTranscriptome.out.bam",
+          "GLDS-426_rna_seq_EU229_SJ.out.tab",
+          "GLDS-426_rna_seq_EU230_R1_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU230_R2_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU230_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-426_rna_seq_EU230_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-426_rna_seq_EU230_Aligned.toTranscriptome.out.bam",
+          "GLDS-426_rna_seq_EU230_SJ.out.tab",
+          "GLDS-426_rna_seq_EU231_R1_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU231_R2_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU231_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-426_rna_seq_EU231_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-426_rna_seq_EU231_Aligned.toTranscriptome.out.bam",
+          "GLDS-426_rna_seq_EU231_SJ.out.tab",
+          "GLDS-426_rna_seq_EU236_R1_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU236_R2_trimmed.fastq.gz",
+          "GLDS-426_rna_seq_EU236_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-426_rna_seq_EU236_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-426_rna_seq_EU236_Aligned.toTranscriptome.out.bam",
+          "GLDS-426_rna_seq_EU236_SJ.out.tab",
+          "EU181",
+          "GeneLab RNAseq data processing protocol",
+          "NanoDrop 2000 spectrophotometer",
+          "GSM5043430",
+          "polyA enrichment",
+          "PAIRED",
+          "UNSTRANDED",
+          "Illumina HiSeq 2500",
+          "RNA-Seq",
+          "250",
+          "percent",
+          "27418220",
+          "56.55",
+          "GLDS-426_rna_seq_EU181.genes.results",
+          "GLDS-426_rna_seq_EU181.isoforms.results",
+          "GLDS-426_rna_seq_RSEM_Unnormalized_Counts.csv",
+          "GLDS-426_rna_seq_STAR_Unnormalized_Counts.csv",
+          "GLDS-426_rna_seq_Normalized_Counts.csv",
+          "GLDS-426_rna_seq_SampleTable.csv",
+          "GLDS-426_rna_seq_contrasts.csv",
+          "GLDS-426_rna_seq_differential_expression.csv",
+          "EU191",
+          "GSM5043433",
+          "27976989",
+          "52.01",
+          "GLDS-426_rna_seq_EU182.genes.results",
+          "GLDS-426_rna_seq_EU182.isoforms.results",
+          "EU192",
+          "GSM5043436",
+          "16636930",
+          "59.79",
+          "GLDS-426_rna_seq_EU183.genes.results",
+          "GLDS-426_rna_seq_EU183.isoforms.results",
+          "EU182",
+          "GSM5043440",
+          "30701142",
+          "50.87",
+          "GLDS-426_rna_seq_EU184.genes.results",
+          "GLDS-426_rna_seq_EU184.isoforms.results",
+          "EU183",
+          "GSM5043443",
+          "42879095",
+          "39.39",
+          "GLDS-426_rna_seq_EU185.genes.results",
+          "GLDS-426_rna_seq_EU185.isoforms.results",
+          "EU184",
+          "GSM5043447",
+          "42832751",
+          "54.91",
+          "GLDS-426_rna_seq_EU186.genes.results",
+          "GLDS-426_rna_seq_EU186.isoforms.results",
+          "EU185",
+          "GSM5043450",
+          "35230474",
+          "31.11",
+          "GLDS-426_rna_seq_EU187.genes.results",
+          "GLDS-426_rna_seq_EU187.isoforms.results",
+          "EU186",
+          "GSM5043454",
+          "38202972",
+          "51.86",
+          "GLDS-426_rna_seq_EU188.genes.results",
+          "GLDS-426_rna_seq_EU188.isoforms.results",
+          "EU187",
+          "GSM5043457",
+          "40951446",
+          "70.4",
+          "GLDS-426_rna_seq_EU189.genes.results",
+          "GLDS-426_rna_seq_EU189.isoforms.results",
+          "EU188",
+          "GSM5043461",
+          "36148049",
+          "0.19",
+          "GLDS-426_rna_seq_EU190.genes.results",
+          "GLDS-426_rna_seq_EU190.isoforms.results",
+          "EU189",
+          "GSM5043464",
+          "30678089",
+          "73.74",
+          "GLDS-426_rna_seq_EU191.genes.results",
+          "GLDS-426_rna_seq_EU191.isoforms.results",
+          "EU190",
+          "GSM5043468",
+          "31079799",
+          "59.26",
+          "GLDS-426_rna_seq_EU192.genes.results",
+          "GLDS-426_rna_seq_EU192.isoforms.results",
+          "EU229",
+          "GSM5043471",
+          "39915177",
+          "78.38",
+          "GLDS-426_rna_seq_EU226.genes.results",
+          "GLDS-426_rna_seq_EU226.isoforms.results",
+          "EU230",
+          "GSM5043475",
+          "33559145",
+          "64.37",
+          "GLDS-426_rna_seq_EU228.genes.results",
+          "GLDS-426_rna_seq_EU228.isoforms.results",
+          "EU231",
+          "GSM5043478",
+          "42733384",
+          "60.24",
+          "GLDS-426_rna_seq_EU229.genes.results",
+          "GLDS-426_rna_seq_EU229.isoforms.results",
+          "EU226",
+          "GSM5043481",
+          "41666392",
+          "59.64",
+          "GLDS-426_rna_seq_EU230.genes.results",
+          "GLDS-426_rna_seq_EU230.isoforms.results",
+          "EU228",
+          "GSM5043485",
+          "23833621",
+          "36.44",
+          "GLDS-426_rna_seq_EU231.genes.results",
+          "GLDS-426_rna_seq_EU231.isoforms.results",
+          "EU236",
+          "GSM5043488",
+          "31083218",
+          "51.55",
+          "GLDS-426_rna_seq_EU236.genes.results",
+          "GLDS-426_rna_seq_EU236.isoforms.results"
+        ],
+        "reports": [
+          "GLDS-426_rna_seq_raw_multiqc_report.zip",
+          "GLDS-426_rna_seq_trimmed_multiqc_report.zip",
+          "GLDS-426_rna_seq_EU181_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-426_rna_seq_EU181_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-426_rna_seq_EU181_Log.final.out",
+          "GLDS-426_rna_seq_align_multiqc_report.zip",
+          "GLDS-426_rna_seq_geneBody_cov_multiqc_report.zip",
+          "GLDS-426_rna_seq_infer_exp_multiqc_report.zip",
+          "GLDS-426_rna_seq_inner_dist_multiqc_report.zip",
+          "GLDS-426_rna_seq_read_dist_multiqc_report.zip",
+          "GLDS-426_rna_seq_RSEM_count_multiqc_report.zip",
+          "GLDS-426_rna_seq_EU182_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-426_rna_seq_EU182_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-426_rna_seq_EU182_Log.final.out",
+          "GLDS-426_rna_seq_EU183_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-426_rna_seq_EU183_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-426_rna_seq_EU183_Log.final.out",
+          "GLDS-426_rna_seq_EU184_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-426_rna_seq_EU184_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-426_rna_seq_EU184_Log.final.out",
+          "GLDS-426_rna_seq_EU185_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-426_rna_seq_EU185_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-426_rna_seq_EU185_Log.final.out",
+          "GLDS-426_rna_seq_EU186_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-426_rna_seq_EU186_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-426_rna_seq_EU186_Log.final.out",
+          "GLDS-426_rna_seq_EU187_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-426_rna_seq_EU187_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-426_rna_seq_EU187_Log.final.out",
+          "GLDS-426_rna_seq_EU188_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-426_rna_seq_EU188_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-426_rna_seq_EU188_Log.final.out",
+          "GLDS-426_rna_seq_EU189_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-426_rna_seq_EU189_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-426_rna_seq_EU189_Log.final.out",
+          "GLDS-426_rna_seq_EU190_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-426_rna_seq_EU190_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-426_rna_seq_EU190_Log.final.out",
+          "GLDS-426_rna_seq_EU191_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-426_rna_seq_EU191_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-426_rna_seq_EU191_Log.final.out",
+          "GLDS-426_rna_seq_EU192_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-426_rna_seq_EU192_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-426_rna_seq_EU192_Log.final.out",
+          "GLDS-426_rna_seq_EU226_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-426_rna_seq_EU226_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-426_rna_seq_EU226_Log.final.out",
+          "GLDS-426_rna_seq_EU228_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-426_rna_seq_EU228_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-426_rna_seq_EU228_Log.final.out",
+          "GLDS-426_rna_seq_EU229_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-426_rna_seq_EU229_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-426_rna_seq_EU229_Log.final.out",
+          "GLDS-426_rna_seq_EU230_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-426_rna_seq_EU230_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-426_rna_seq_EU230_Log.final.out",
+          "GLDS-426_rna_seq_EU231_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-426_rna_seq_EU231_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-426_rna_seq_EU231_Log.final.out",
+          "GLDS-426_rna_seq_EU236_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-426_rna_seq_EU236_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-426_rna_seq_EU236_Log.final.out"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,358 @@
+{
+  "investigation": {
+    "id": "OSD-141",
+    "title": "Validation of Methods to Assess the Immunoglobulin Gene Repertoire in Tissues Obtained from Mice on the International Space Station",
+    "description": "Spaceflight is known to affect immune cell populations. In particular, splenic B-cell numbers decrease during spaceflight and in ground-based physiological models.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "",
+      "title": "",
+      "type": "Ground Study",
+      "link": "https://lsda.jsc.nasa.gov/Experiment/exper/13568",
+      "funding": "This work was supported by NASA grants NNX13AN34G and NNX15AB45G, NIH grant GM103418, the Molecular Biology Core supported by the College of Veterinary Medicine at Kansas State University, and the Kansas State University Johnson Cancer Center.",
+      "managing_center": ""
+    },
+    "protocols": [
+      "sample collection",
+      "nucleic acid extraction",
+      "library construction",
+      "nucleic acid sequencing",
+      "GeneLab RNAseq data processing protocol"
+    ],
+    "publications": [
+      {
+        "title": "Validation of methods to assess the immunoglobulin gene repertoire in tissues obtained from mice on the International Space Station",
+        "doi": "10.1371/journal.pone.0190982",
+        "authors": [
+          "Rettig TA",
+          "Ward C",
+          "Pecaut MJ",
+          "Chapes SK"
+        ],
+        "summary": "Validation of methods to assess the immunoglobulin gene repertoire in tissues obtained from mice on the International Space Station — 10.1371/journal.pone.0190982"
+      },
+      {
+        "title": "Characterization of the naive murine antibody repertoire using unamplified high-throughput sequencing.",
+        "doi": "PMID:29320559",
+        "authors": [
+          "Rettig TA",
+          "Ward C",
+          "Bye BA",
+          "Pecaut MJ",
+          "Chapes SK"
+        ],
+        "summary": "Characterization of the naive murine antibody repertoire using unamplified high-throughput sequencing. — PMID:29320559"
+      }
+    ],
+    "factors": [
+      "Sample Collection Protocol",
+      "Library Construction Protocol"
+    ],
+    "contacts": [
+      {
+        "first_name": "Stephen",
+        "last_name": "Chapes",
+        "role": "principal investigator",
+        "email": "skcbiol@ksu.edu"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "Mmus_C57-6J_SPL_cells_Rep1_SP1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "Age": "11",
+          "Animal Source": "Jackson Laboratory",
+          "Tissue Type": "Spleen",
+          "Material Type": "Cells"
+        },
+        "factors": {
+          "Sample Collection Protocol": "Spleen Cells"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "Spleen 1 Cells"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SPL_tissues_Rep1_SP1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "Age": "11",
+          "Animal Source": "Jackson Laboratory",
+          "Tissue Type": "Spleen",
+          "Material Type": "Tissue"
+        },
+        "factors": {
+          "Sample Collection Protocol": "Spleen Tissue"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "Spleen 1 Tissues"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SPL_ss-tissues_Rep1_SP1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "Age": "11",
+          "Animal Source": "Jackson Laboratory",
+          "Tissue Type": "Spleen",
+          "Material Type": "Whole Spleen"
+        },
+        "factors": {
+          "Sample Collection Protocol": "Whole Spleen"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "Spleen 1 (tissue) Size Selected"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SPL_ss-tissues_Rep2_SP2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "Age": "9 to 11",
+          "Animal Source": "Jackson Laboratory",
+          "Tissue Type": "Spleen",
+          "Material Type": "Whole Spleen"
+        },
+        "factors": {
+          "Sample Collection Protocol": "Whole Spleen"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "Spleen 2 tissue (Pool 2)"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_SPL_ss-tissues_Rep3_SP3",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Sex": "Female",
+          "Age": "9 to 11",
+          "Animal Source": "Jackson Laboratory",
+          "Tissue Type": "Spleen",
+          "Material Type": "Whole Spleen"
+        },
+        "factors": {
+          "Sample Collection Protocol": "Whole Spleen"
+        },
+        "parameters": {},
+        "comments": {
+          "Original Submitted Sample Name": "Spleen 3 tissue (Pool 3)"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina MiSeq",
+      "qc": {
+        "QA Instrument": "Agilent 2100 Bioanalyzer",
+        "Read Depth": "11846969",
+        "rRNA Contamination": "0.42"
+      },
+      "library": {},
+      "files": {
+        "raw": [
+          "GLDS-141_transcriptomics_LibspleenC_S1_L001_R1_001.fastq.gz",
+          "GLDS-141_transcriptomics_LibspleenC_S1_L001_R2_001.fastq.gz",
+          "GLDS-141_transcriptomics_lib-WholeSpleen_S1_L001_R1_001.fastq.gz",
+          "GLDS-141_transcriptomics_lib-WholeSpleen_S1_L001_R2_001.fastq.gz",
+          "GLDS-141_transcriptomics_Trisha-RNA-lib-1-Normal-mouse-2_S1_L001_R1_001.fastq.gz",
+          "GLDS-141_transcriptomics_Trisha-RNA-lib-1-Normal-mouse-2_S1_L001_R2_001.fastq.gz",
+          "GLDS-141_transcriptomics_Normal-mouse-3_S1_L001_R1_001.fastq.gz",
+          "GLDS-141_transcriptomics_Normal-mouse-3_S1_L001_R2_001.fastq.gz",
+          "GLDS-141_transcriptomics_LibWspleen_S2_L001_R1_001.fastq.gz",
+          "GLDS-141_transcriptomics_LibWspleen_S2_L001_R2_001.fastq.gz",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_cells_Rep1_SP1_R1_raw.fastq.gz",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_cells_Rep1_SP1_R2_raw.fastq.gz",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_cells_Rep1_SP1_R1_trimmed.fastq.gz",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_cells_Rep1_SP1_R2_trimmed.fastq.gz",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep1_SP1_R1_raw.fastq.gz",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep1_SP1_R2_raw.fastq.gz",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep1_SP1_R1_trimmed.fastq.gz",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep1_SP1_R2_trimmed.fastq.gz",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep2_SP2_R1_raw.fastq.gz",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep2_SP2_R2_raw.fastq.gz",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep2_SP2_R1_trimmed.fastq.gz",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep2_SP2_R2_trimmed.fastq.gz",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep3_SP3_R1_raw.fastq.gz",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep3_SP3_R2_raw.fastq.gz",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep3_SP3_R1_trimmed.fastq.gz",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep3_SP3_R2_trimmed.fastq.gz",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_tissues_Rep1_SP1_R1_raw.fastq.gz",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_tissues_Rep1_SP1_R2_raw.fastq.gz",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_tissues_Rep1_SP1_R1_trimmed.fastq.gz",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_tissues_Rep1_SP1_R2_trimmed.fastq.gz"
+        ],
+        "processed": [
+          "GLDS-141_transcriptomics_LibspleenC_S1_L001_R1_001_fastqc.html",
+          "GLDS-141_transcriptomics_LibspleenC_S1_L001_R2_001_fastqc.html",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_cells_Rep1_SP1_R1_raw.fastq.gz",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_cells_Rep1_SP1_R2_raw.fastq.gz",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_cells_Rep1_SP1_R1_trimmed.fastq.gz",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_cells_Rep1_SP1_R2_trimmed.fastq.gz",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_cells_Rep1_SP1_Aligned.sortedByCoord.out.bam",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_cells_Rep1_SP1_Aligned.toTranscriptome.out.bam",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_cells_Rep1_SP1_SJ.out.tab",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_cells_Rep1_SP1.genes.results",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_cells_Rep1_SP1.isoforms.results",
+          "GLDS-141_rna_seq_Unnormalized_Counts.csv",
+          "GLDS-141_rna_seq_Normalized_Counts.csv",
+          "GLDS-141_rna_seq_contrasts.csv",
+          "GLDS-141_rna_seq_differential_expression.csv",
+          "GLDS-141_rna_seq_SampleTable.csv",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep1_SP1_R1_raw.fastq.gz",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep1_SP1_R2_raw.fastq.gz",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep1_SP1_R1_trimmed.fastq.gz",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep1_SP1_R2_trimmed.fastq.gz",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep1_SP1_Aligned.sortedByCoord.out.bam",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep1_SP1_Aligned.toTranscriptome.out.bam",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep1_SP1_SJ.out.tab",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep1_SP1.genes.results",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep1_SP1.isoforms.results",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep2_SP2_R1_raw.fastq.gz",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep2_SP2_R2_raw.fastq.gz",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep2_SP2_R1_trimmed.fastq.gz",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep2_SP2_R2_trimmed.fastq.gz",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep2_SP2_Aligned.sortedByCoord.out.bam",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep2_SP2_Aligned.toTranscriptome.out.bam",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep2_SP2_SJ.out.tab",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep2_SP2.genes.results",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep2_SP2.isoforms.results",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep3_SP3_R1_raw.fastq.gz",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep3_SP3_R2_raw.fastq.gz",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep3_SP3_R1_trimmed.fastq.gz",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep3_SP3_R2_trimmed.fastq.gz",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep3_SP3_Aligned.sortedByCoord.out.bam",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep3_SP3_Aligned.toTranscriptome.out.bam",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep3_SP3_SJ.out.tab",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep3_SP3.genes.results",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep3_SP3.isoforms.results",
+          "GLDS-141_transcriptomics_LibWspleen_S2_L001_R1_001_fastqc.html",
+          "GLDS-141_transcriptomics_LibWspleen_S2_L001_R2_001_fastqc.html",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_tissues_Rep1_SP1_R1_raw.fastq.gz",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_tissues_Rep1_SP1_R2_raw.fastq.gz",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_tissues_Rep1_SP1_R1_trimmed.fastq.gz",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_tissues_Rep1_SP1_R2_trimmed.fastq.gz",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_tissues_Rep1_SP1_Aligned.sortedByCoord.out.bam",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_tissues_Rep1_SP1_Aligned.toTranscriptome.out.bam",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_tissues_Rep1_SP1_SJ.out.tab",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_tissues_Rep1_SP1.genes.results",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_tissues_Rep1_SP1.isoforms.results",
+          "Mmus_C57-6J_SPL_cells_Rep1_SP1",
+          "GeneLab RNAseq data processing protocol",
+          "-80C",
+          "Agilent 2100 Bioanalyzer",
+          "library construction 1",
+          "PAIRED",
+          "Illumina MiSeq",
+          "300",
+          "read",
+          "rna-seq",
+          "0.42",
+          "11846969",
+          "Mmus_C57-6J_SPL_ss-tissues_Rep1_SP1",
+          "9 months at -80 C",
+          "library construction 2",
+          "375-900 nt",
+          "12546236",
+          "Mmus_C57-6J_SPL_ss-tissues_Rep2_SP2",
+          "0.83",
+          "15679575",
+          "Mmus_C57-6J_SPL_ss-tissues_Rep3_SP3",
+          "0.5",
+          "16363218",
+          "Mmus_C57-6J_SPL_tissues_Rep1_SP1",
+          "0.43",
+          "12956082"
+        ],
+        "reports": [
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_cells_Rep1_SP1_R1_raw_fastqc.html",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_cells_Rep1_SP1_R1_raw_fastqc.zip",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_cells_Rep1_SP1_R2_raw_fastqc.html",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_cells_Rep1_SP1_R2_raw_fastqc.zip",
+          "GLDS-141_rna_seq_raw_multiqc_report.html",
+          "GLDS-141_rna_seq_raw_multiqc_data.zip",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_cells_Rep1_SP1_R1_trimmed_fastqc.html",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_cells_Rep1_SP1_R1_trimmed_fastqc.zip",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_cells_Rep1_SP1_R2_trimmed_fastqc.html",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_cells_Rep1_SP1_R2_trimmed_fastqc.zip",
+          "GLDS-141_rna_seq_trimmed_multiqc_report.html",
+          "GLDS-141_rna_seq_trimmed_multiqc_data.zip",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_cells_Rep1_SP1_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_cells_Rep1_SP1_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_cells_Rep1_SP1_Log.final.out",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep1_SP1_R1_raw_fastqc.html",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep1_SP1_R1_raw_fastqc.zip",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep1_SP1_R2_raw_fastqc.html",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep1_SP1_R2_raw_fastqc.zip",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep1_SP1_R1_trimmed_fastqc.html",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep1_SP1_R1_trimmed_fastqc.zip",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep1_SP1_R2_trimmed_fastqc.html",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep1_SP1_R2_trimmed_fastqc.zip",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep1_SP1_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep1_SP1_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep1_SP1_Log.final.out",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep2_SP2_R1_raw_fastqc.html",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep2_SP2_R1_raw_fastqc.zip",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep2_SP2_R2_raw_fastqc.html",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep2_SP2_R2_raw_fastqc.zip",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep2_SP2_R1_trimmed_fastqc.html",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep2_SP2_R1_trimmed_fastqc.zip",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep2_SP2_R2_trimmed_fastqc.html",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep2_SP2_R2_trimmed_fastqc.zip",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep2_SP2_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep2_SP2_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep2_SP2_Log.final.out",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep3_SP3_R1_raw_fastqc.html",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep3_SP3_R1_raw_fastqc.zip",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep3_SP3_R2_raw_fastqc.html",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep3_SP3_R2_raw_fastqc.zip",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep3_SP3_R1_trimmed_fastqc.html",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep3_SP3_R1_trimmed_fastqc.zip",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep3_SP3_R2_trimmed_fastqc.html",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep3_SP3_R2_trimmed_fastqc.zip",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep3_SP3_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep3_SP3_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_ss-tissues_Rep3_SP3_Log.final.out",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_tissues_Rep1_SP1_R1_raw_fastqc.html",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_tissues_Rep1_SP1_R1_raw_fastqc.zip",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_tissues_Rep1_SP1_R2_raw_fastqc.html",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_tissues_Rep1_SP1_R2_raw_fastqc.zip",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_tissues_Rep1_SP1_R1_trimmed_fastqc.html",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_tissues_Rep1_SP1_R1_trimmed_fastqc.zip",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_tissues_Rep1_SP1_R2_trimmed_fastqc.html",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_tissues_Rep1_SP1_R2_trimmed_fastqc.zip",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_tissues_Rep1_SP1_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_tissues_Rep1_SP1_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-141_rna_seq_Mmus_C57-6J_SPL_tissues_Rep1_SP1_Log.final.out",
+          "GLDS-141_transcriptomics_LibspleenC_S1_L001_R1_001_fastqc.html",
+          "GLDS-141_transcriptomics_LibspleenC_S1_L001_R2_001_fastqc.html",
+          "GLDS-141_rna_seq_infer_exp_multiqc_report.zip",
+          "GLDS-141_transcriptomics_LibWspleen_S2_L001_R1_001_fastqc.html",
+          "GLDS-141_transcriptomics_LibWspleen_S2_L001_R2_001_fastqc.html"
+        ]
+      }
+    }
+  ]
+}

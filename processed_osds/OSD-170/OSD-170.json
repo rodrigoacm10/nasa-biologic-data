@@ -1,0 +1,925 @@
+{
+  "investigation": {
+    "id": "OSD-170",
+    "title": "NASA Aircraft Bioaerosol Collector (ABC)",
+    "description": "Airborne microorganisms in the upper troposphere and lower stratosphere remain elusive due to a lack of reliable sample collection systems. To address this problem, we designed, installed, and flight-validated a novel Aircraft Bioaerosol Collector (ABC) for NASA's C-20A that can make collections for microbiological research investigations up to altitudes of 13.7 km.",
+    "mission": {
+      "name": "UAVSAR",
+      "start_date": "",
+      "end_date": "",
+      "link": "https://osdr.nasa.gov/bio/repo/data/missions/UAVSAR"
+    },
+    "project": {
+      "identifier": "ABC-1",
+      "title": "Survey of Airborne Microorganisms in Earth's Lower Stratosphere",
+      "type": "Flight Study",
+      "link": "https://airbornescience.nasa.gov/aircraft/C-20A_G-III_-_Armstrong",
+      "funding": "NASA Office of the Chief Scientist (FY17 Science Innovation Fund award), a FY17/18 Biodiversity grant from the NASA Earth Science Division, internal awards from NASA Ames Research Center and Lawrence Livermore National Laboratory in FY18",
+      "managing_center": "Ames Research Center (ARC)"
+    },
+    "protocols": [
+      "sample collection",
+      "nucleic acid extraction",
+      "nucleic acid library construction protocol",
+      "nucleic acid sequencing",
+      "GeneLab amplicon-seq data processing protocol"
+    ],
+    "publications": [
+      {
+        "title": "Airborne Bacteria in Earth's Lower Stratosphere Resemble Taxa Detected in the Troposphere: Results from a New NASA Aircraft Bioaerosol Collector (ABC)",
+        "doi": "10.3389/fmicb.2018.01752",
+        "authors": [
+          "Smith",
+          "Ravichandar",
+          "Jain",
+          "Griffin",
+          "Yu",
+          "Tan",
+          "Lusby",
+          "Nicoll",
+          "Shedler",
+          "Martinez",
+          "Osorio",
+          "Lechniak",
+          "Choi",
+          "Sabino",
+          "Iverson",
+          "Chan",
+          "Jaing",
+          "McGrath"
+        ],
+        "summary": "Airborne Bacteria in Earth's Lower Stratosphere Resemble Taxa Detected in the Troposphere: Results from a New NASA Aircraft Bioaerosol Collector (ABC) — 10.3389/fmicb.2018.01752"
+      }
+    ],
+    "factors": [
+      "Altitude",
+      "Sample Location",
+      "Time"
+    ],
+    "contacts": [
+      {
+        "first_name": "David",
+        "last_name": "Smith",
+        "role": "Principal Investigator",
+        "email": "david.j.smith-3@nasa.gov"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "L18002364",
+        "characteristics": {
+          "Organism": "cellular organisms",
+          "Material Type": "bioaerosol",
+          "Flight Name": "Eel River",
+          "Collection Date": "30-Oct-2017"
+        },
+        "factors": {
+          "Altitude": "Ground",
+          "Time": "Pre-flight",
+          "Sample Location": "Ground, side of aircraft"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Ground, pre-flight, side of aircraft"
+        }
+      },
+      {
+        "sample_name": "L18002365",
+        "characteristics": {
+          "Organism": "cellular organisms",
+          "Material Type": "bioaerosol",
+          "Flight Name": "Eel River",
+          "Collection Date": "30-Oct-2017"
+        },
+        "factors": {
+          "Altitude": "Ground",
+          "Time": "Post-flight",
+          "Sample Location": "Ground, side of aircraft"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Ground, post-flight, side of aircraft"
+        }
+      },
+      {
+        "sample_name": "L18002366",
+        "characteristics": {
+          "Organism": "cellular organisms",
+          "Material Type": "bioaerosol",
+          "Flight Name": "Eel River",
+          "Collection Date": "30-Oct-2017"
+        },
+        "factors": {
+          "Altitude": "Atmosphere",
+          "Time": "Ascent/Descent, in-flight",
+          "Sample Location": "Top stage of sampler"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Ascent/Descent, in-flight, top stage of sampler"
+        }
+      },
+      {
+        "sample_name": "L18002367",
+        "characteristics": {
+          "Organism": "cellular organisms",
+          "Material Type": "bioaerosol",
+          "Flight Name": "Eel River",
+          "Collection Date": "30-Oct-2017"
+        },
+        "factors": {
+          "Altitude": "Atmosphere",
+          "Time": "Ascent/Descent, in-flight",
+          "Sample Location": "Bottom stage of sampler"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Ascent/Descent, in-flight, bottom stage of sampler"
+        }
+      },
+      {
+        "sample_name": "L18002368",
+        "characteristics": {
+          "Organism": "cellular organisms",
+          "Material Type": "bioaerosol",
+          "Flight Name": "Eel River",
+          "Collection Date": "30-Oct-2017"
+        },
+        "factors": {
+          "Altitude": "Atmosphere",
+          "Time": "Cruise, in-flight",
+          "Sample Location": "Top stage of sampler"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Cruise, in-flight, top stage of sampler"
+        }
+      },
+      {
+        "sample_name": "L18002369",
+        "characteristics": {
+          "Organism": "cellular organisms",
+          "Material Type": "bioaerosol",
+          "Flight Name": "Eel River",
+          "Collection Date": "30-Oct-2017"
+        },
+        "factors": {
+          "Altitude": "Atmosphere",
+          "Time": "Cruise, in-flight",
+          "Sample Location": "Bottom stage of sampler"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Cruise, in-flight, bottom stage of sampler"
+        }
+      },
+      {
+        "sample_name": "L18002370",
+        "characteristics": {
+          "Organism": "cellular organisms",
+          "Material Type": "bioaerosol",
+          "Flight Name": "CSAF",
+          "Collection Date": "31-Oct-2017"
+        },
+        "factors": {
+          "Altitude": "Ground",
+          "Time": "Pre-flight",
+          "Sample Location": "Ground, side of aircraft"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Ground, pre-flight, side of aircraft"
+        }
+      },
+      {
+        "sample_name": "L18002371",
+        "characteristics": {
+          "Organism": "cellular organisms",
+          "Material Type": "bioaerosol",
+          "Flight Name": "CSAF",
+          "Collection Date": "31-Oct-2017"
+        },
+        "factors": {
+          "Altitude": "Ground",
+          "Time": "Post-flight",
+          "Sample Location": "Ground, side of aircraft"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Ground, post-flight, side of aircraft"
+        }
+      },
+      {
+        "sample_name": "L18002372",
+        "characteristics": {
+          "Organism": "cellular organisms",
+          "Material Type": "bioaerosol",
+          "Flight Name": "CSAF",
+          "Collection Date": "31-Oct-2017"
+        },
+        "factors": {
+          "Altitude": "Atmosphere",
+          "Time": "Ascent/Descent, in-flight",
+          "Sample Location": "Top stage of sampler"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Ascent/Descent, in-flight, top stage of sampler"
+        }
+      },
+      {
+        "sample_name": "L18002373",
+        "characteristics": {
+          "Organism": "cellular organisms",
+          "Material Type": "bioaerosol",
+          "Flight Name": "CSAF",
+          "Collection Date": "31-Oct-2017"
+        },
+        "factors": {
+          "Altitude": "Atmosphere",
+          "Time": "Ascent/Descent, in-flight",
+          "Sample Location": "Bottom stage of sampler"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Ascent/Descent, in-flight, bottom stage of sampler"
+        }
+      },
+      {
+        "sample_name": "L18002374",
+        "characteristics": {
+          "Organism": "cellular organisms",
+          "Material Type": "bioaerosol",
+          "Flight Name": "CSAF",
+          "Collection Date": "31-Oct-2017"
+        },
+        "factors": {
+          "Altitude": "Atmosphere",
+          "Time": "Cruise, in-flight",
+          "Sample Location": "Top stage of sampler"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Cruise, in-flight, top stage of sampler"
+        }
+      },
+      {
+        "sample_name": "L18002375",
+        "characteristics": {
+          "Organism": "cellular organisms",
+          "Material Type": "bioaerosol",
+          "Flight Name": "CSAF",
+          "Collection Date": "31-Oct-2017"
+        },
+        "factors": {
+          "Altitude": "Atmosphere",
+          "Time": "Cruise, in-flight",
+          "Sample Location": "Bottom stage of sampler"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Cruise, in-flight, bottom stage of sampler"
+        }
+      },
+      {
+        "sample_name": "L18002376",
+        "characteristics": {
+          "Organism": "cellular organisms",
+          "Material Type": "bioaerosol",
+          "Flight Name": "Slumgullion",
+          "Collection Date": "01-Nov-2017"
+        },
+        "factors": {
+          "Altitude": "Ground",
+          "Time": "Pre-flight",
+          "Sample Location": "Ground, side of aircraft"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Ground, pre-flight, side of aircraft"
+        }
+      },
+      {
+        "sample_name": "L18002377",
+        "characteristics": {
+          "Organism": "cellular organisms",
+          "Material Type": "bioaerosol",
+          "Flight Name": "Slumgullion",
+          "Collection Date": "01-Nov-2017"
+        },
+        "factors": {
+          "Altitude": "Ground",
+          "Time": "Post-flight",
+          "Sample Location": "Ground, post-flight, side of aircraft"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Ground, post-flight, side of aircraft"
+        }
+      },
+      {
+        "sample_name": "L18002378",
+        "characteristics": {
+          "Organism": "cellular organisms",
+          "Material Type": "bioaerosol",
+          "Flight Name": "Slumgullion",
+          "Collection Date": "01-Nov-2017"
+        },
+        "factors": {
+          "Altitude": "Atmosphere",
+          "Time": "Ascent/Descent, in-flight",
+          "Sample Location": "Top stage of sampler"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Ascent/Descent, in-flight, top stage of sampler"
+        }
+      },
+      {
+        "sample_name": "L18002379",
+        "characteristics": {
+          "Organism": "cellular organisms",
+          "Material Type": "bioaerosol",
+          "Flight Name": "Slumgullion",
+          "Collection Date": "01-Nov-2017"
+        },
+        "factors": {
+          "Altitude": "Atmosphere",
+          "Time": "Ascent/Descent, in-flight",
+          "Sample Location": "Bottom stage of sampler"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Ascent/Descent, in-flight, bottom stage of sampler"
+        }
+      },
+      {
+        "sample_name": "L18002380",
+        "characteristics": {
+          "Organism": "cellular organisms",
+          "Material Type": "bioaerosol",
+          "Flight Name": "Slumgullion",
+          "Collection Date": "01-Nov-2017"
+        },
+        "factors": {
+          "Altitude": "Atmosphere",
+          "Time": "Cruise, in-flight",
+          "Sample Location": "Top stage of sampler"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Cruise, in-flight, top stage of sampler"
+        }
+      },
+      {
+        "sample_name": "L18002381",
+        "characteristics": {
+          "Organism": "cellular organisms",
+          "Material Type": "bioaerosol",
+          "Flight Name": "Slumgullion",
+          "Collection Date": "01-Nov-2017"
+        },
+        "factors": {
+          "Altitude": "Atmosphere",
+          "Time": "Cruise, in-flight",
+          "Sample Location": "Bottom stage of sampler"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Cruise, in-flight, bottom stage of sampler"
+        }
+      },
+      {
+        "sample_name": "L18002382",
+        "characteristics": {
+          "Organism": "cellular organisms",
+          "Material Type": "bioaerosol",
+          "Flight Name": "LA Basin",
+          "Collection Date": "02-Nov-2017"
+        },
+        "factors": {
+          "Altitude": "Ground",
+          "Time": "Pre-flight",
+          "Sample Location": "Ground, side of aircraft"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Ground, pre-flight, side of aircraft"
+        }
+      },
+      {
+        "sample_name": "L18002383",
+        "characteristics": {
+          "Organism": "cellular organisms",
+          "Material Type": "bioaerosol",
+          "Flight Name": "LA Basin",
+          "Collection Date": "02-Nov-2017"
+        },
+        "factors": {
+          "Altitude": "Ground",
+          "Time": "Post-flight",
+          "Sample Location": "Ground, side of aircraft"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Ground, post-flight, side of aircraft"
+        }
+      },
+      {
+        "sample_name": "L18002384",
+        "characteristics": {
+          "Organism": "cellular organisms",
+          "Material Type": "bioaerosol",
+          "Flight Name": "LA Basin",
+          "Collection Date": "02-Nov-2017"
+        },
+        "factors": {
+          "Altitude": "Atmosphere",
+          "Time": "Ascent/Descent, in-flight",
+          "Sample Location": "Top stage of sampler"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Ascent/Descent, in-flight, top stage of sampler"
+        }
+      },
+      {
+        "sample_name": "L18002385",
+        "characteristics": {
+          "Organism": "cellular organisms",
+          "Material Type": "bioaerosol",
+          "Flight Name": "LA Basin",
+          "Collection Date": "02-Nov-2017"
+        },
+        "factors": {
+          "Altitude": "Atmosphere",
+          "Time": "Ascent/Descent, in-flight",
+          "Sample Location": "Bottom stage of sampler"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Ascent/Descent, in-flight, bottom stage of sampler"
+        }
+      },
+      {
+        "sample_name": "L18002386",
+        "characteristics": {
+          "Organism": "cellular organisms",
+          "Material Type": "bioaerosol",
+          "Flight Name": "LA Basin",
+          "Collection Date": "02-Nov-2017"
+        },
+        "factors": {
+          "Altitude": "Atmosphere",
+          "Time": "Cruise, in-flight",
+          "Sample Location": "Top stage of sampler"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Cruise, in-flight, top stage of sampler"
+        }
+      },
+      {
+        "sample_name": "L18002387",
+        "characteristics": {
+          "Organism": "cellular organisms",
+          "Material Type": "bioaerosol",
+          "Flight Name": "LA Basin",
+          "Collection Date": "02-Nov-2017"
+        },
+        "factors": {
+          "Altitude": "Atmosphere",
+          "Time": "Cruise, in-flight",
+          "Sample Location": "Bottom stage of sampler"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Cruise, in-flight, bottom stage of sampler"
+        }
+      },
+      {
+        "sample_name": "L18002388",
+        "characteristics": {
+          "Organism": "cellular organisms",
+          "Material Type": "bioaerosol",
+          "Flight Name": "LA Basin",
+          "Collection Date": "02-Nov-2017"
+        },
+        "factors": {
+          "Altitude": "Ground",
+          "Time": "Negative control",
+          "Sample Location": "Blank filter loaded into upper stage of sampler"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Negative control, blank filter loaded into upper stage of sampler"
+        }
+      },
+      {
+        "sample_name": "L18002389",
+        "characteristics": {
+          "Organism": "cellular organisms",
+          "Material Type": "bioaerosol",
+          "Flight Name": "LA Basin",
+          "Collection Date": "02-Nov-2017"
+        },
+        "factors": {
+          "Altitude": "Ground",
+          "Time": "Negative control",
+          "Sample Location": "Blank filter loaded into upper stage of sampler"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Negative control, blank filter loaded into lower stage of sampler"
+        }
+      },
+      {
+        "sample_name": "L18002390",
+        "characteristics": {
+          "Organism": "cellular organisms",
+          "Material Type": "bioaerosol",
+          "Flight Name": "Eel River",
+          "Collection Date": "30-Oct-2017"
+        },
+        "factors": {
+          "Altitude": "Ground",
+          "Time": "Pre-flight",
+          "Sample Location": "Hardware, probe sample"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Hardware, pre-flight, probe sample"
+        }
+      },
+      {
+        "sample_name": "L18002391",
+        "characteristics": {
+          "Organism": "cellular organisms",
+          "Material Type": "bioaerosol",
+          "Flight Name": "Eel River",
+          "Collection Date": "30-Oct-2017"
+        },
+        "factors": {
+          "Altitude": "Ground",
+          "Time": "Pre-flight",
+          "Sample Location": "Hardware, window plate sample"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Hardware, pre-flight, window plate sample"
+        }
+      },
+      {
+        "sample_name": "L18002392",
+        "characteristics": {
+          "Organism": "cellular organisms",
+          "Material Type": "bioaerosol",
+          "Flight Name": "Eel River",
+          "Collection Date": "30-Oct-2017"
+        },
+        "factors": {
+          "Altitude": "Ground",
+          "Time": "Post-flight",
+          "Sample Location": "Hardware, probe sample"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Hardware, post-flight, probe sample"
+        }
+      },
+      {
+        "sample_name": "L18002393",
+        "characteristics": {
+          "Organism": "cellular organisms",
+          "Material Type": "bioaerosol",
+          "Flight Name": "Eel River",
+          "Collection Date": "30-Oct-2017"
+        },
+        "factors": {
+          "Altitude": "Ground",
+          "Time": "Post-flight",
+          "Sample Location": "Hardware, window plate sample"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {
+          "Sample Description": "Hardware, post-flight, window plate sample"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "amplicon-sequencing",
+      "platform": "Illumina MiSeq v2",
+      "qc": {
+        "Read Depth": "180506"
+      },
+      "library": {},
+      "files": {
+        "raw": [
+          "GLDS-170_Amplicon_L18002364_S1_L001_R1_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002364_S1_L001_R2_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002365_S2_L001_R1_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002365_S2_L001_R2_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002366_S3_L001_R1_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002366_S3_L001_R2_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002367_S4_L001_R1_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002367_S4_L001_R2_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002368_S5_L001_R1_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002368_S5_L001_R2_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002369_S6_L001_R1_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002369_S6_L001_R2_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002370_S7_L001_R1_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002370_S7_L001_R2_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002371_S8_L001_R1_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002371_S8_L001_R2_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002372_S9_L001_R1_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002372_S9_L001_R2_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002373_S10_L001_R1_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002373_S10_L001_R2_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002374_S11_L001_R1_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002374_S11_L001_R2_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002375_S12_L001_R1_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002375_S12_L001_R2_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002376_S13_L001_R1_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002376_S13_L001_R2_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002377_S14_L001_R1_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002377_S14_L001_R2_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002378_S15_L001_R1_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002378_S15_L001_R2_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002379_S16_L001_R1_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002379_S16_L001_R2_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002380_S17_L001_R1_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002380_S17_L001_R2_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002381_S18_L001_R1_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002381_S18_L001_R2_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002382_S19_L001_R1_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002382_S19_L001_R2_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002383_S20_L001_R1_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002383_S20_L001_R2_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002384_S21_L001_R1_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002384_S21_L001_R2_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002385_S22_L001_R1_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002385_S22_L001_R2_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002386_S23_L001_R1_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002386_S23_L001_R2_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002387_S24_L001_R1_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002387_S24_L001_R2_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002388_S25_L001_R1_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002388_S25_L001_R2_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002389_S26_L001_R1_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002389_S26_L001_R2_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002390_S27_L001_R1_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002390_S27_L001_R2_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002391_S28_L001_R1_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002391_S28_L001_R2_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002392_S29_L001_R1_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002392_S29_L001_R2_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002393_S30_L001_R1_001.fastq.gz",
+          "GLDS-170_Amplicon_L18002393_S30_L001_R2_001.fastq.gz",
+          "GLDS-170_GAmplicon_L18002364_S1_L001_R1_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002364_S1_L001_R2_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002364_S1_L001-R2-filtered.fastq.gz",
+          "GLDS-170_GAmplicon_L18002365_S2_L001_R1_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002365_S2_L001_R2_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002365_S2_L001-R2-filtered.fastq.gz",
+          "GLDS-170_GAmplicon_L18002366_S3_L001_R1_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002366_S3_L001_R2_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002366_S3_L001-R2-filtered.fastq.gz",
+          "GLDS-170_GAmplicon_L18002367_S4_L001_R1_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002367_S4_L001_R2_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002367_S4_L001-R2-filtered.fastq.gz",
+          "GLDS-170_GAmplicon_L18002368_S5_L001_R1_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002368_S5_L001_R2_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002368_S5_L001-R2-filtered.fastq.gz",
+          "GLDS-170_GAmplicon_L18002369_S6_L001_R1_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002369_S6_L001_R2_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002369_S6_L001-R2-filtered.fastq.gz",
+          "GLDS-170_GAmplicon_L18002370_S7_L001_R1_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002370_S7_L001_R2_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002370_S7_L001-R2-filtered.fastq.gz",
+          "GLDS-170_GAmplicon_L18002371_S8_L001_R1_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002371_S8_L001_R2_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002371_S8_L001-R2-filtered.fastq.gz",
+          "GLDS-170_GAmplicon_L18002372_S9_L001_R1_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002372_S9_L001_R2_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002372_S9_L001-R2-filtered.fastq.gz",
+          "GLDS-170_GAmplicon_L18002373_S10_L001_R1_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002373_S10_L001_R2_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002373_S10_L001-R2-filtered.fastq.gz",
+          "GLDS-170_GAmplicon_L18002374_S11_L001_R1_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002374_S11_L001_R2_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002374_S11_L001-R2-filtered.fastq.gz",
+          "GLDS-170_GAmplicon_L18002375_S12_L001_R1_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002375_S12_L001_R2_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002375_S12_L001-R2-filtered.fastq.gz",
+          "GLDS-170_GAmplicon_L18002376_S13_L001_R1_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002376_S13_L001_R2_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002376_S13_L001-R2-filtered.fastq.gz",
+          "GLDS-170_GAmplicon_L18002377_S14_L001_R1_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002377_S14_L001_R2_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002377_S14_L001-R2-filtered.fastq.gz",
+          "GLDS-170_GAmplicon_L18002378_S15_L001_R1_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002378_S15_L001_R2_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002378_S15_L001-R2-filtered.fastq.gz",
+          "GLDS-170_GAmplicon_L18002379_S16_L001_R1_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002379_S16_L001_R2_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002379_S16_L001-R2-filtered.fastq.gz",
+          "GLDS-170_GAmplicon_L18002380_S17_L001_R1_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002380_S17_L001_R2_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002380_S17_L001-R2-filtered.fastq.gz",
+          "GLDS-170_GAmplicon_L18002381_S18_L001_R1_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002381_S18_L001_R2_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002381_S18_L001-R2-filtered.fastq.gz",
+          "GLDS-170_GAmplicon_L18002382_S19_L001_R1_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002382_S19_L001_R2_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002382_S19_L001-R2-filtered.fastq.gz",
+          "GLDS-170_GAmplicon_L18002383_S20_L001_R1_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002383_S20_L001_R2_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002383_S20_L001-R2-filtered.fastq.gz",
+          "GLDS-170_GAmplicon_L18002384_S21_L001_R1_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002384_S21_L001_R2_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002384_S21_L001-R2-filtered.fastq.gz",
+          "GLDS-170_GAmplicon_L18002385_S22_L001_R1_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002385_S22_L001_R2_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002385_S22_L001-R2-filtered.fastq.gz",
+          "GLDS-170_GAmplicon_L18002386_S23_L001_R1_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002386_S23_L001_R2_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002386_S23_L001-R2-filtered.fastq.gz",
+          "GLDS-170_GAmplicon_L18002387_S24_L001_R1_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002387_S24_L001_R2_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002387_S24_L001-R2-filtered.fastq.gz",
+          "GLDS-170_GAmplicon_L18002388_S25_L001_R1_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002388_S25_L001_R2_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002388_S25_L001-R2-filtered.fastq.gz",
+          "GLDS-170_GAmplicon_L18002389_S26_L001_R1_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002389_S26_L001_R2_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002389_S26_L001-R2-filtered.fastq.gz",
+          "GLDS-170_GAmplicon_L18002390_S27_L001_R1_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002390_S27_L001_R2_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002390_S27_L001-R2-filtered.fastq.gz",
+          "GLDS-170_GAmplicon_L18002391_S28_L001_R1_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002391_S28_L001_R2_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002391_S28_L001-R2-filtered.fastq.gz",
+          "GLDS-170_GAmplicon_L18002392_S29_L001_R1_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002392_S29_L001_R2_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002392_S29_L001-R2-filtered.fastq.gz",
+          "GLDS-170_GAmplicon_L18002393_S30_L001_R1_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002393_S30_L001_R2_raw.fastq.gz",
+          "GLDS-170_GAmplicon_L18002393_S30_L001-R2-filtered.fastq.gz"
+        ],
+        "processed": [
+          "L18002364",
+          "GeneLab amplicon-seq data processing protocol",
+          "extracted DNA",
+          "F",
+          "5-TCCTACGGGAGGCAGCAGT-3",
+          "R",
+          "5-GGACTACCAGGGTATCTAATCCTGTT-3",
+          "16S",
+          "PAIRED",
+          "Illumina MiSeq v2",
+          "220",
+          "read",
+          "amplicon sequencing",
+          "GLDS-170_GAmplicon_README.txt",
+          "180506",
+          "GLDS-170_Gamplicon_filtered-read-counts.tsv",
+          "GLDS-170_GAmplicon_ASVs.fasta",
+          "GLDS-170_GAmplicon_counts.tsv",
+          "GLDS-170_GAmplicon_read-count-tracking.tsv",
+          "GLDS-170_GAmplicon_taxonomy-and-counts.biom.zip",
+          "GLDS-170_GAmplicon_taxonomy-and-counts.tsv",
+          "GLDS-170_GAmplicon_taxonomy.tsv",
+          "GLDS-170_GAmplicon_processing_info.tar",
+          "L18002365",
+          "251768",
+          "L18002366",
+          "138838",
+          "L18002367",
+          "169294",
+          "L18002368",
+          "178314",
+          "L18002369",
+          "282420",
+          "L18002370",
+          "287293",
+          "L18002371",
+          "136564",
+          "L18002372",
+          "92374",
+          "L18002373",
+          "2767",
+          "L18002374",
+          "13512",
+          "L18002375",
+          "31452",
+          "L18002376",
+          "108716",
+          "L18002377",
+          "124358",
+          "L18002378",
+          "112260",
+          "L18002379",
+          "123188",
+          "L18002380",
+          "183529",
+          "L18002381",
+          "146945",
+          "L18002382",
+          "127380",
+          "L18002383",
+          "131304",
+          "L18002384",
+          "139091",
+          "L18002385",
+          "239123",
+          "L18002386",
+          "2161055",
+          "L18002387",
+          "148571",
+          "L18002388",
+          "179815",
+          "L18002389",
+          "122970",
+          "L18002390",
+          "139957",
+          "L18002391",
+          "161230",
+          "L18002392",
+          "163844",
+          "L18002393",
+          "120715"
+        ],
+        "reports": [
+          "GLDS-170_GAmplicon_raw_multiqc_data.zip",
+          "GLDS-170_GAmplicon_raw_multiqc_report.html.zip",
+          "GLDS-170_GAmplicon_filtered_multiqc_data.zip",
+          "GLDS-170_GAmplicon_filtered_multiqc_report.html.zip"
+        ]
+      }
+    }
+  ]
+}

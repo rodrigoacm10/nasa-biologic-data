@@ -1,0 +1,198 @@
+{
+  "investigation": {
+    "id": "OSD-75",
+    "title": "MicroRNA expression of C. elegans in space environment",
+    "description": "Entire microRNA expression were analyzed using the Filgen Array miRNA Caenorhabditis elegans 232 probes (Filgen). In the microRNA expression analysis, we compared the expression data between two groups: micro-gravity samples (4 d and 8 d) and controls (4 d and 8 d ground control and 1 G centrifuge onboard ISS).",
+    "mission": {
+      "name": "STS-129",
+      "start_date": "11/16/2009",
+      "end_date": "11/27/2009",
+      "link": "https://osdr.nasa.gov/bio/repo/data/missions/STS-129"
+    },
+    "project": {
+      "identifier": "CERISE",
+      "title": "CERISE",
+      "type": "Spaceflight Study",
+      "link": "http://iss.jaxa.jp/en/kiboexp/news/cerise_start.html",
+      "funding": "This work was supported by a Grant-in-Aid for Scientific Research from the Ministry of Education, Culture, Sports, Science, and Technology of Japan, the Japan Society for the Promotion of Science, and Ground-Based Research Announcement for Space Utilization promoted by the Japan Space Forum. TE was supported by the Medical Research Council UK. NJS was supported by the National Institutes of Health.",
+      "managing_center": ""
+    },
+    "protocols": [
+      "growth protocol",
+      "RNA extraction",
+      "labeling",
+      "nucleic acid hybridization",
+      "scan protocol",
+      "sample treatment protocol"
+    ],
+    "publications": [
+      {
+        "title": "The effectiveness of RNAi in Caenorhabditis elegans is maintained during spaceflight.",
+        "doi": "10.1371/journal.pone.0020459",
+        "authors": [
+          "Etheridge T",
+          "Nemoto K",
+          "Hashizume T",
+          "Mori C",
+          "Sugimoto T",
+          "Suzuki H",
+          "Fukui K",
+          "Yamazaki T",
+          "Higashibata A",
+          "Szewczyk NJ",
+          "Higashitani A."
+        ],
+        "summary": "The effectiveness of RNAi in Caenorhabditis elegans is maintained during spaceflight. — 10.1371/journal.pone.0020459"
+      }
+    ],
+    "factors": [
+      "Altered Gravity",
+      "Duration",
+      "Spaceflight"
+    ],
+    "contacts": [
+      {
+        "first_name": "Atsushi",
+        "last_name": "Higashitani",
+        "role": "submitter",
+        "email": "ahigashi@ige.tohoku.ac.jp"
+      },
+      {
+        "first_name": "K",
+        "last_name": "Nemoto",
+        "role": "Contributor",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "GSM674751",
+        "characteristics": {
+          "organism": "Caenorhabditis elegans",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Altered Gravity": "uG",
+          "Duration": "4",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Sample Storage Method": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM674752",
+        "characteristics": {
+          "organism": "Caenorhabditis elegans",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Altered Gravity": "uG",
+          "Duration": "8",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Sample Storage Method": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM674753",
+        "characteristics": {
+          "organism": "Caenorhabditis elegans",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Altered Gravity": "1G by centrifugation",
+          "Duration": "4",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Sample Storage Method": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM674754",
+        "characteristics": {
+          "organism": "Caenorhabditis elegans",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Altered Gravity": "1G by centrifugation",
+          "Duration": "8",
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "Sample Storage Method": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM674755",
+        "characteristics": {
+          "organism": "Caenorhabditis elegans",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Duration": "4",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Sample Storage Method": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM674756",
+        "characteristics": {
+          "organism": "Caenorhabditis elegans",
+          "Material Type": "Whole Organism"
+        },
+        "factors": {
+          "Altered Gravity": "1G on Earth",
+          "Duration": "8",
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "Sample Storage Method": "-80"
+        },
+        "comments": {}
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "GenePix 4000B scanner",
+      "qc": {},
+      "library": {},
+      "files": {
+        "raw": [],
+        "processed": [
+          "GSM674751",
+          "scan protocol",
+          "Cy5",
+          "GPL13164",
+          "GenePix 4000B scanner",
+          "*GSM674751_micro_G#1_4d.txt.gz",
+          "GSM674752",
+          "*GSM674752_micro_G#2_8d.txt.gz",
+          "GSM674753",
+          "*GSM674753_1_G#1_4d.txt.gz",
+          "GSM674754",
+          "*GSM674754_1_G#2_8d.txt.gz",
+          "GSM674755",
+          "*GSM674755_GC_#1_4d.txt.gz",
+          "GSM674756",
+          "*GSM674756_GC_#2_8d.txt.gz"
+        ],
+        "reports": []
+      }
+    }
+  ]
+}

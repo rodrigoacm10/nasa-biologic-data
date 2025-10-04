@@ -1,0 +1,1180 @@
+{
+  "investigation": {
+    "id": "OSD-101",
+    "title": "Rodent Research-1 (RR1) NASA Validation Flight: Mouse left gastrocnemius muscle transcriptomic, proteomic, and epigenomic data",
+    "description": "NASA's Rodent Research (RR) project is playing a critical role in advancing biomedical research on the physiological effects of space environments. Due to the limited resources for conducting biological experiments aboard the International Space Station (ISS), it is imperative to use crew time efficiently while maximizing high-quality science return.",
+    "mission": {
+      "name": "SpaceX-4",
+      "start_date": "9/21/14",
+      "end_date": "10/25/14",
+      "link": "https://osdr.nasa.gov/bio/repo/data/missions/SpaceX-4"
+    },
+    "project": {
+      "identifier": "RR-1",
+      "title": "Rodent Research 1",
+      "type": "Spaceflight Study",
+      "link": "https://nlsp.nasa.gov/view/lsdapub/lsda_document/IDP-LSDA_DOCUMENT-0000000000002993",
+      "funding": "This investigation was funded by the NASA Space Biology Program Office, Space Life and Physical Sciences Research and Applications Division, and additional funding from the International Space Station Research Integration Office to the Space Biology GeneLab Project",
+      "managing_center": "Ames Research Center (ARC)"
+    },
+    "protocols": [
+      "Animal Husbandry",
+      "sample collection",
+      "Nucleic Acid Extraction",
+      "Library Construction",
+      "Nucleic Acid Sequencing",
+      "Sequence Analysis Data Transformation",
+      "Extraction",
+      "Labeling",
+      "Mass Spectrometry",
+      "Data Transformation",
+      "Nucleic Acid Extraction 1",
+      "Library Construction 1",
+      "Nucleic Acid Sequencing 1",
+      "GeneLab raw data processing protocol",
+      "GeneLab RNAseq data processing protocol",
+      "Nucleic Acid Extraction 2",
+      "Library Construction 2",
+      "Nucleic Acid Sequencing 2"
+    ],
+    "publications": [
+      {
+        "title": "A microRNA signature and TGF-β1 response were identified as the key master regulators for spaceflight response",
+        "doi": "10.1371/journal.pone.0199621",
+        "authors": [
+          "Beheshti Afshin",
+          "Ray Shayoni",
+          "Fogle Homer",
+          "Berrios Daniel",
+          "Costes Sylvain V."
+        ],
+        "summary": "A microRNA signature and TGF-β1 response were identified as the key master regulators for spaceflight response — 10.1371/journal.pone.0199621"
+      },
+      {
+        "title": "NASA GeneLab Platform Utilized for Biological Response to Space Radiation in Animal Models",
+        "doi": "10.3390/cancers12020381",
+        "authors": [
+          "McDonald JT",
+          "Stainforth R",
+          "Miller J",
+          "Cahill T",
+          "Silveira WAd",
+          "Rathi KS",
+          "Hardiman G",
+          "Taylor D",
+          "Costes SV",
+          "Chauhan V",
+          "Meller R",
+          "Beheshti A."
+        ],
+        "summary": "NASA GeneLab Platform Utilized for Biological Response to Space Radiation in Animal Models — 10.3390/cancers12020381"
+      }
+    ],
+    "factors": [
+      "Spaceflight"
+    ],
+    "contacts": [
+      {
+        "first_name": "Jonathan",
+        "last_name": "Galazka",
+        "role": "conceptualization role",
+        "email": "jonathan.m.galazka@nasa.gov"
+      },
+      {
+        "first_name": "Ruth",
+        "last_name": "Globus",
+        "role": "conceptualization role",
+        "email": "ruth.k.globus@nasa.gov"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "Mmus_C57-6J_GST_GC_Rep1_M33",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Left gastrocnemius"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark cycle",
+          "habitat": "Rodent Habitat",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "duration": "37",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Euthanasia Chemical": "Euthasol",
+          "Carcass Storage Method": "Mini Cold Bag to -80C freezer"
+        },
+        "comments": {
+          "Source Description": "intact carcass",
+          "LSDA Biospecimen ID": "5213",
+          "LSDA Biospecimen Subject ID": "445"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_GST_GC_Rep2_M34",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Left gastrocnemius"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark cycle",
+          "habitat": "Rodent Habitat",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "duration": "37",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Euthanasia Chemical": "Euthasol",
+          "Carcass Storage Method": "Mini Cold Bag to -80C freezer"
+        },
+        "comments": {
+          "Source Description": "intact carcass",
+          "LSDA Biospecimen ID": "5213",
+          "LSDA Biospecimen Subject ID": "445"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_GST_GC_Rep3_M35",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Left gastrocnemius"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark cycle",
+          "habitat": "Rodent Habitat",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "duration": "37",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Euthanasia Chemical": "Euthasol",
+          "Carcass Storage Method": "Mini Cold Bag to -80C freezer"
+        },
+        "comments": {
+          "Source Description": "intact carcass",
+          "LSDA Biospecimen ID": "5213",
+          "LSDA Biospecimen Subject ID": "445"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_GST_GC_Rep4_M36",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Left gastrocnemius"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark cycle",
+          "habitat": "Rodent Habitat",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "duration": "37",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Euthanasia Chemical": "Euthasol",
+          "Carcass Storage Method": "Mini Cold Bag to -80C freezer"
+        },
+        "comments": {
+          "Source Description": "intact carcass",
+          "LSDA Biospecimen ID": "5213",
+          "LSDA Biospecimen Subject ID": "445"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_GST_GC_Rep5_M37",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Left gastrocnemius"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark cycle",
+          "habitat": "Rodent Habitat",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "duration": "37",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Euthanasia Chemical": "Euthasol",
+          "Carcass Storage Method": "Mini Cold Bag to -80C freezer"
+        },
+        "comments": {
+          "Source Description": "intact carcass",
+          "LSDA Biospecimen ID": "5213",
+          "LSDA Biospecimen Subject ID": "445"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_GST_GC_Rep6_M38",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Left gastrocnemius"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark cycle",
+          "habitat": "Rodent Habitat",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "duration": "37",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Euthanasia Chemical": "Euthasol",
+          "Carcass Storage Method": "Mini Cold Bag to -80C freezer"
+        },
+        "comments": {
+          "Source Description": "intact carcass",
+          "LSDA Biospecimen ID": "5213",
+          "LSDA Biospecimen Subject ID": "445"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_GST_FLT_Rep1_M23",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Left gastrocnemius"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark cycle",
+          "habitat": "Rodent Habitat",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "duration": "37",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Euthanasia Chemical": "Euthasol",
+          "Carcass Storage Method": "Mini Cold Bag to -80C freezer"
+        },
+        "comments": {
+          "Source Description": "intact carcass",
+          "LSDA Biospecimen ID": "5211",
+          "LSDA Biospecimen Subject ID": "426"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_GST_FLT_Rep2_M24",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Left gastrocnemius"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark cycle",
+          "habitat": "Rodent Habitat",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "duration": "37",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Euthanasia Chemical": "Euthasol",
+          "Carcass Storage Method": "Mini Cold Bag to -80C freezer"
+        },
+        "comments": {
+          "Source Description": "intact carcass",
+          "LSDA Biospecimen ID": "5211",
+          "LSDA Biospecimen Subject ID": "426"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_GST_FLT_Rep3_M25",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Left gastrocnemius"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark cycle",
+          "habitat": "Rodent Habitat",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "duration": "37",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Euthanasia Chemical": "Euthasol",
+          "Carcass Storage Method": "Mini Cold Bag to -80C freezer"
+        },
+        "comments": {
+          "Source Description": "intact carcass",
+          "LSDA Biospecimen ID": "5211",
+          "LSDA Biospecimen Subject ID": "426"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_GST_FLT_Rep4_M26",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Left gastrocnemius"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark cycle",
+          "habitat": "Rodent Habitat",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "duration": "37",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Euthanasia Chemical": "Euthasol",
+          "Carcass Storage Method": "Mini Cold Bag to -80C freezer"
+        },
+        "comments": {
+          "Source Description": "intact carcass",
+          "LSDA Biospecimen ID": "5211",
+          "LSDA Biospecimen Subject ID": "426"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_GST_FLT_Rep5_M27",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Left gastrocnemius"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark cycle",
+          "habitat": "Rodent Habitat",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "duration": "37",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Euthanasia Chemical": "Euthasol",
+          "Carcass Storage Method": "Mini Cold Bag to -80C freezer"
+        },
+        "comments": {
+          "Source Description": "intact carcass",
+          "LSDA Biospecimen ID": "5211",
+          "LSDA Biospecimen Subject ID": "426"
+        }
+      },
+      {
+        "sample_name": "Mmus_C57-6J_GST_FLT_Rep6_M28",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Left gastrocnemius"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "light cycle": "12 h light/dark cycle",
+          "habitat": "Rodent Habitat",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "duration": "37",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Euthanasia Chemical": "Euthasol",
+          "Carcass Storage Method": "Mini Cold Bag to -80C freezer"
+        },
+        "comments": {
+          "Source Description": "intact carcass",
+          "LSDA Biospecimen ID": "5211",
+          "LSDA Biospecimen Subject ID": "426"
+        }
+      },
+      {
+        "sample_name": "Pool of all FLT samples",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Left gastrocnemius"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight"
+        },
+        "parameters": {
+          "light cycle": "",
+          "habitat": "Rodent Habitat",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "duration": "37",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Euthanasia Chemical": "Euthasol",
+          "Carcass Storage Method": "Mini Cold Bag to -80C freezer"
+        },
+        "comments": {
+          "Source Description": "",
+          "LSDA Biospecimen ID": "",
+          "LSDA Biospecimen Subject ID": ""
+        }
+      },
+      {
+        "sample_name": "Pool of all GC samples",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Left gastrocnemius"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control"
+        },
+        "parameters": {
+          "light cycle": "",
+          "habitat": "Rodent Habitat",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "duration": "37",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Euthanasia Chemical": "Euthasol",
+          "Carcass Storage Method": "Mini Cold Bag to -80C freezer"
+        },
+        "comments": {
+          "Source Description": "",
+          "LSDA Biospecimen ID": "",
+          "LSDA Biospecimen Subject ID": ""
+        }
+      },
+      {
+        "sample_name": "Pool of all FLT and GC samples",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Sex": "Female",
+          "Age at Launch": "16",
+          "Material Type": "Left gastrocnemius"
+        },
+        "factors": {
+          "Spaceflight": ""
+        },
+        "parameters": {
+          "light cycle": "",
+          "habitat": "Rodent Habitat",
+          "Diet": "Nutrient Upgraded Rodent Food Bar (NuRFB)",
+          "Feeding Schedule": "ad libitum",
+          "duration": "37",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-80",
+          "Euthanasia Chemical": "Euthasol",
+          "Carcass Storage Method": "Mini Cold Bag to -80C freezer"
+        },
+        "comments": {
+          "Source Description": "",
+          "LSDA Biospecimen ID": "",
+          "LSDA Biospecimen Subject ID": ""
+        }
+      },
+      {
+        "sample_name": "Empty Pool",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "",
+          "Animal Source": "",
+          "Sex": "",
+          "Age at Launch": "",
+          "Material Type": ""
+        },
+        "factors": {
+          "Spaceflight": ""
+        },
+        "parameters": {
+          "light cycle": "",
+          "habitat": "",
+          "Diet": "",
+          "Feeding Schedule": "",
+          "duration": "",
+          "Sample Preservation Method": "",
+          "Sample Storage Temperature": "",
+          "Euthanasia Chemical": "",
+          "Carcass Storage Method": ""
+        },
+        "comments": {
+          "Source Description": "",
+          "LSDA Biospecimen ID": "",
+          "LSDA Biospecimen Subject ID": ""
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "dna-methylation-profiling",
+      "platform": "Illumina HiSeq 4000",
+      "qc": {},
+      "library": {
+        "Library Selection": "PCR",
+        "Library Layout": "PAIRED",
+        "Library Kit": "EpiGnome"
+      },
+      "files": {
+        "raw": [
+          "GLDS-101_wgbs_M33-GST-wgbs.tar.gz",
+          "GLDS-101_wgbs_M34-GST-wgbs.tar.gz",
+          "GLDS-101_wgbs_M35-GST-wgbs.tar.gz",
+          "GLDS-101_wgbs_M36-GST-wgbs.tar.gz",
+          "GLDS-101_wgbs_M37-GST-wgbs.tar.gz",
+          "GLDS-101_wgbs_M38-GST-wgbs.tar.gz",
+          "GLDS-101_wgbs_M23-GST-wgbs.tar.gz",
+          "GLDS-101_wgbs_M24-GST-wgbs.tar.gz",
+          "GLDS-101_wgbs_M25-GST-wgbs.tar.gz",
+          "GLDS-101_wgbs_M26-GST-wgbs.tar.gz",
+          "GLDS-101_wgbs_M27-GST-wgbs.tar.gz",
+          "GLDS-101_wgbs_M28-GST-wgbs.tar.gz"
+        ],
+        "processed": [
+          "Mmus_C57-6J_GST_GC_Rep1_M33",
+          "Nucleic Acid Sequencing 2",
+          "33",
+          "base pair",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000244",
+          "PrepEase Genomic DNA Isolation Kit",
+          "RR1_GC_M33_GST_DNA",
+          "PCR",
+          "PAIRED",
+          "EpiGnome",
+          "Illumina HiSeq 4000",
+          "150",
+          "Whole Genome Bisulfite Sequencing",
+          "Mmus_C57-6J_GST_GC_Rep2_M34",
+          "29.8",
+          "RR1_GC_M34_GST_DNA",
+          "Mmus_C57-6J_GST_GC_Rep3_M35",
+          "27.6",
+          "RR1_GC_M35_GST_DNA",
+          "Mmus_C57-6J_GST_GC_Rep4_M36",
+          "27.3",
+          "RR1_GC_M36_GST_DNA",
+          "Mmus_C57-6J_GST_GC_Rep5_M37",
+          "32",
+          "RR1_GC_M37_GST_DNA",
+          "Mmus_C57-6J_GST_GC_Rep6_M38",
+          "19.8",
+          "RR1_GC_M38_GST_DNA",
+          "Mmus_C57-6J_GST_FLT_Rep1_M23",
+          "25",
+          "RR1_FLT_M23_GST_DNA",
+          "Mmus_C57-6J_GST_FLT_Rep2_M24",
+          "28.2",
+          "RR1_FLT_M24_GST_DNA",
+          "Mmus_C57-6J_GST_FLT_Rep3_M25",
+          "27.1",
+          "RR1_FLT_M25_GST_DNA",
+          "Mmus_C57-6J_GST_FLT_Rep4_M26",
+          "21.3",
+          "RR1_FLT_M26_GST_DNA",
+          "Mmus_C57-6J_GST_FLT_Rep5_M27",
+          "29.3",
+          "RR1_FLT_M27_GST_DNA",
+          "Mmus_C57-6J_GST_FLT_Rep6_M28",
+          "24.2",
+          "RR1_FLT_M28_GST_DNA"
+        ],
+        "reports": []
+      }
+    },
+    {
+      "type": "protein-expression-profiling",
+      "platform": "Orbitrap Fusion",
+      "qc": {},
+      "library": {},
+      "files": {
+        "raw": [
+          "GLDS-101_proteomics_TMT_raw.tar.gz",
+          "GLDS-101_proteomics_TMT_processed.tar.gz"
+        ],
+        "processed": [
+          "GLDS-101_proteomics_TMT_processed.tar.gz",
+          "Mmus_C57-6J_GST_GC_Rep1_M33",
+          "Data Transformation",
+          "RR1_GC_M33_GST_PRT",
+          "128N",
+          "Orbitrap Fusion",
+          "Reverse Phase Liquid Chromatography",
+          "Electrospray Ionization",
+          "Ion Trap and Orbitrap",
+          "TMT 10-plex",
+          "Byonic",
+          "28.1",
+          "RUN1",
+          "Mmus_C57-6J_GST_GC_Rep2_M34",
+          "RR1_GC_M34_GST_PRT",
+          "128C",
+          "28.4",
+          "Mmus_C57-6J_GST_GC_Rep3_M35",
+          "RR1_GC_M35_GST_PRT",
+          "129N",
+          "30.5",
+          "Mmus_C57-6J_GST_GC_Rep4_M36",
+          "RR1_GC_M36_GST_PRT",
+          "33.5",
+          "RUN2",
+          "Mmus_C57-6J_GST_GC_Rep5_M37",
+          "RR1_GC_M37_GST_PRT",
+          "33.1",
+          "Mmus_C57-6J_GST_GC_Rep6_M38",
+          "RR1_GC_M38_GST_PRT",
+          "Mmus_C57-6J_GST_FLT_Rep1_M23",
+          "RR1_FLT_M23_GST_PRT",
+          "126",
+          "24.2",
+          "Mmus_C57-6J_GST_FLT_Rep2_M24",
+          "RR1_FLT_M24_GST_PRT",
+          "127N",
+          "30.7",
+          "Mmus_C57-6J_GST_FLT_Rep3_M25",
+          "RR1_FLT_M25_GST_PRT",
+          "127C",
+          "34.3",
+          "Mmus_C57-6J_GST_FLT_Rep4_M26",
+          "RR1_FLT_M26_GST_PRT",
+          "Mmus_C57-6J_GST_FLT_Rep5_M27",
+          "RR1_FLT_M27_GST_PRT",
+          "26.6",
+          "Mmus_C57-6J_GST_FLT_Rep6_M28",
+          "RR1_FLT_M28_GST_PRT",
+          "34",
+          "Pool of all FLT samples",
+          "130N",
+          "equivalent aliquots of each sample as a function of mass",
+          "Run1 and 2",
+          "Pool of all GC samples",
+          "130C",
+          "Pool of all FLT and GC samples",
+          "131",
+          "Empty Pool",
+          "129C",
+          "no sample added"
+        ],
+        "reports": []
+      }
+    },
+    {
+      "type": "rna-methylation-profiling",
+      "platform": "Illumina HiSeq 2500",
+      "qc": {
+        "QA Instrument": "Agilent 2100 Bioanalyzer",
+        "QA Assay": "Agilent RNA 6000 Pico/Nano Kit",
+        "QA Score": "9.8"
+      },
+      "library": {
+        "Library Strategy": "Bisulfite-Seq",
+        "Library Selection": "PCR",
+        "Library Layout": "SINGLE"
+      },
+      "files": {
+        "raw": [
+          "GLDS-101_wtbs_N7_TAGCTT_L008_R1_001.fastq.gz",
+          "GLDS-101_wtbs_N8_CTTGTA_L008_R1_001.fastq.gz",
+          "GLDS-101_wtbs_N9_CGATGT_L007_R1_001.fastq.gz",
+          "GLDS-101_wtbs_N10_TGACCA_L007_R1_001.fastq.gz",
+          "GLDS-101_wtbs_N11_ACAGTG_L007_R1_001.fastq.gz",
+          "GLDS-101_wtbs_N12_GCCAAT_L007_R1_001.fastq.gz",
+          "GLDS-101_wtbs_N1_CGATGT_L008_R1_001.fastq.gz",
+          "GLDS-101_wtbs_N2_TGACCA_L008_R1_001.fastq.gz",
+          "GLDS-101_wtbs_N3_ACAGTG_L008_R1_001.fastq.gz",
+          "GLDS-101_wtbs_N4_GCCAAT_L008_R1_001.fastq.gz",
+          "GLDS-101_wtbs_N5_ACTTGA_L008_R1_001.fastq.gz",
+          "GLDS-101_wtbs_N6_GATCAG_L008_R1_001.fastq.gz",
+          "GLDS-101_wtbs_GST-Basic_Analysis.tar.gz",
+          "GLDS-101_wtbs_GST-Advanced_Analysis.tar.gz"
+        ],
+        "processed": [
+          "Mmus_C57-6J_GST_GC_Rep1_M33",
+          "Sequence Analysis Data Transformation",
+          "33.9",
+          "RNA Integrity Number",
+          "OSD",
+          "https://osdr.nasa.gov/",
+          "trizol",
+          "RR1_GC_M33_GST_RNA",
+          "Agilent 2100 Bioanalyzer",
+          "Agilent RNA 6000 Pico/Nano Kit",
+          "9.8",
+          "Bisulfite-Seq",
+          "PCR",
+          "SINGLE",
+          "Illumina HiSeq 2500",
+          "RNA-Bisulfite-Seq",
+          "Mmus_C57-6J_GST_GC_Rep2_M34",
+          "28.7",
+          "RR1_GC_M34_GST_RNA",
+          "Mmus_C57-6J_GST_GC_Rep3_M35",
+          "29",
+          "RR1_GC_M35_GST_RNA",
+          "Mmus_C57-6J_GST_GC_Rep4_M36",
+          "33",
+          "RR1_GC_M36_GST_RNA",
+          "9.5",
+          "Mmus_C57-6J_GST_GC_Rep5_M37",
+          "32.6",
+          "RR1_GC_M37_GST_RNA",
+          "9.6",
+          "Mmus_C57-6J_GST_GC_Rep6_M38",
+          "27.2",
+          "RR1_GC_M38_GST_RNA",
+          "Mmus_C57-6J_GST_FLT_Rep1_M23",
+          "26.5",
+          "RR1_FLT_M23_GST_RNA",
+          "10",
+          "Mmus_C57-6J_GST_FLT_Rep2_M24",
+          "30",
+          "RR1_FLT_M24_GST_RNA",
+          "9.7",
+          "Mmus_C57-6J_GST_FLT_Rep3_M25",
+          "30.5",
+          "RR1_FLT_M25_GST_RNA",
+          "9.9",
+          "Mmus_C57-6J_GST_FLT_Rep4_M26",
+          "31.6",
+          "RR1_FLT_M26_GST_RNA",
+          "Mmus_C57-6J_GST_FLT_Rep5_M27",
+          "25.8",
+          "RR1_FLT_M27_GST_RNA",
+          "Mmus_C57-6J_GST_FLT_Rep6_M28",
+          "33.8",
+          "RR1_FLT_M28_GST_RNA"
+        ],
+        "reports": [
+          "GLDS-101_wtbs_Q160526C_Service_Report.pdf"
+        ]
+      }
+    },
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina HiSeq 4000",
+      "qc": {
+        "QA Instrument": "Agilent 2100 Bioanalyzer",
+        "QA Assay": "Agilent RNA 6000 Pico/Nano Kit",
+        "QA Score": "9.8",
+        "Read Depth": "127354726",
+        "rRNA Contamination": "4.73"
+      },
+      "library": {
+        "Library Selection": "ribo-depletion",
+        "Library Layout": "PAIRED",
+        "Stranded": "STRANDED",
+        "Library QA Instrument": "Agilent 2100 Bioanalyzer",
+        "Library Kit": "Illumina TruSeq stranded RNA library prep kit"
+      },
+      "files": {
+        "raw": [
+          "GLDS-101_rna-seq_M33-GST.tar.gz",
+          "GLDS-101_rna-seq_M34-GST.tar.gz",
+          "GLDS-101_rna-seq_M35-GST.tar.gz",
+          "GLDS-101_rna-seq_M36-GST.tar.gz",
+          "GLDS-101_rna-seq_M37-GST.tar.gz",
+          "GLDS-101_rna-seq_M38-GST.tar.gz",
+          "GLDS-101_rna-seq_M23-GST.tar.gz",
+          "GLDS-101_rna-seq_M24-GST.tar.gz",
+          "GLDS-101_rna-seq_M25-GST.tar.gz",
+          "GLDS-101_rna-seq_M26-GST.tar.gz",
+          "GLDS-101_rna-seq_M27-GST.tar.gz",
+          "GLDS-101_rna-seq_M28-GST.tar.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep1_M33_R1_raw.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep1_M33_R2_raw.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep1_M33_R1_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep1_M33_R2_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep1_M33_R1_unmapped.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep1_M33_R2_unmapped.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep2_M34_R1_raw.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep2_M34_R2_raw.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep2_M34_R1_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep2_M34_R2_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep2_M34_R1_unmapped.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep2_M34_R2_unmapped.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep3_M35_R1_raw.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep3_M35_R2_raw.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep3_M35_R1_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep3_M35_R2_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep3_M35_R1_unmapped.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep3_M35_R2_unmapped.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep4_M36_R1_raw.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep4_M36_R2_raw.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep4_M36_R1_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep4_M36_R2_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep4_M36_R1_unmapped.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep4_M36_R2_unmapped.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep5_M37_R1_raw.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep5_M37_R2_raw.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep5_M37_R1_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep5_M37_R2_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep5_M37_R1_unmapped.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep5_M37_R2_unmapped.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep6_M38_R1_raw.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep6_M38_R2_raw.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep6_M38_R1_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep6_M38_R2_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep6_M38_R1_unmapped.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep6_M38_R2_unmapped.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep1_M23_R1_raw.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep1_M23_R2_raw.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep1_M23_R1_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep1_M23_R2_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep1_M23_R1_unmapped.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep1_M23_R2_unmapped.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep2_M24_R1_raw.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep2_M24_R2_raw.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep2_M24_R1_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep2_M24_R2_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep2_M24_R1_unmapped.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep2_M24_R2_unmapped.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep3_M25_R1_raw.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep3_M25_R2_raw.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep3_M25_R1_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep3_M25_R2_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep3_M25_R1_unmapped.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep3_M25_R2_unmapped.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep4_M26_R1_raw.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep4_M26_R2_raw.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep4_M26_R1_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep4_M26_R2_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep4_M26_R1_unmapped.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep4_M26_R2_unmapped.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep5_M27_R1_raw.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep5_M27_R2_raw.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep5_M27_R1_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep5_M27_R2_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep5_M27_R1_unmapped.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep5_M27_R2_unmapped.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep6_M28_R1_raw.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep6_M28_R2_raw.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep6_M28_R1_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep6_M28_R2_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep6_M28_R1_unmapped.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep6_M28_R2_unmapped.fastq.gz"
+        ],
+        "processed": [
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep1_M33_R1_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep1_M33_R2_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep1_M33_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep1_M33_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep1_M33_Aligned.toTranscriptome.out.bam",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep1_M33_SJ.out.tab",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep2_M34_R1_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep2_M34_R2_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep2_M34_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep2_M34_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep2_M34_Aligned.toTranscriptome.out.bam",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep2_M34_SJ.out.tab",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep3_M35_R1_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep3_M35_R2_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep3_M35_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep3_M35_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep3_M35_Aligned.toTranscriptome.out.bam",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep3_M35_SJ.out.tab",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep4_M36_R1_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep4_M36_R2_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep4_M36_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep4_M36_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep4_M36_Aligned.toTranscriptome.out.bam",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep4_M36_SJ.out.tab",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep5_M37_R1_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep5_M37_R2_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep5_M37_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep5_M37_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep5_M37_Aligned.toTranscriptome.out.bam",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep5_M37_SJ.out.tab",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep6_M38_R1_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep6_M38_R2_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep6_M38_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep6_M38_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep6_M38_Aligned.toTranscriptome.out.bam",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep6_M38_SJ.out.tab",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep1_M23_R1_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep1_M23_R2_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep1_M23_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep1_M23_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep1_M23_Aligned.toTranscriptome.out.bam",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep1_M23_SJ.out.tab",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep2_M24_R1_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep2_M24_R2_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep2_M24_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep2_M24_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep2_M24_Aligned.toTranscriptome.out.bam",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep2_M24_SJ.out.tab",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep3_M25_R1_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep3_M25_R2_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep3_M25_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep3_M25_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep3_M25_Aligned.toTranscriptome.out.bam",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep3_M25_SJ.out.tab",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep4_M26_R1_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep4_M26_R2_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep4_M26_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep4_M26_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep4_M26_Aligned.toTranscriptome.out.bam",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep4_M26_SJ.out.tab",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep5_M27_R1_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep5_M27_R2_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep5_M27_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep5_M27_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep5_M27_Aligned.toTranscriptome.out.bam",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep5_M27_SJ.out.tab",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep6_M28_R1_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep6_M28_R2_trimmed.fastq.gz",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep6_M28_Aligned.sortedByCoord_sorted.out.bam",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep6_M28_Aligned.sortedByCoord_sorted.out.bam.bai",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep6_M28_Aligned.toTranscriptome.out.bam",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep6_M28_SJ.out.tab",
+          "Mmus_C57-6J_GST_GC_Rep1_M33",
+          "GeneLab RNAseq data processing protocol",
+          "Agilent 2100 Bioanalyzer",
+          "Agilent RNA 6000 Pico/Nano Kit",
+          "9.8",
+          "percent",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000187",
+          "RR1_GC_M33_GST_RNA",
+          "ribo-depletion",
+          "PAIRED",
+          "STRANDED",
+          "Illumina TruSeq stranded RNA library prep kit",
+          "Illumina HiSeq 4000",
+          "100",
+          "150",
+          "rna-seq",
+          "33.9",
+          "127354726",
+          "4.73",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep1_M33.genes.results",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep1_M33.isoforms.results",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep1_M33_rRNArm.genes.results",
+          "GLDS-101_rna_seq_RSEM_Unnormalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-101_rna_seq_STAR_Unnormalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-101_rna_seq_RSEM_Unnormalized_Counts_rRNArm_GLbulkRNAseq.csv",
+          "GLDS-101_rna_seq_Normalized_Counts_GLbulkRNAseq.csv",
+          "GLDS-101_rna_seq_VST_Counts_GLbulkRNAseq.csv",
+          "GLDS-101_rna_seq_Normalized_Counts_rRNArm_GLbulkRNAseq.csv",
+          "GLDS-101_rna_seq_VST_Counts_rRNArm_GLbulkRNAseq.csv",
+          "GLDS-101_rna_seq_SampleTable_GLbulkRNAseq.csv",
+          "GLDS-101_rna_seq_contrasts_GLbulkRNAseq.csv",
+          "GLDS-101_rna_seq_differential_expression_GLbulkRNAseq.csv",
+          "GLDS-101_rna_seq_differential_expression_rRNArm_GLbulkRNAseq.csv",
+          "Mmus_C57-6J_GST_GC_Rep2_M34",
+          "RR1_GC_M34_GST_RNA",
+          "28.7",
+          "112110552",
+          "4.32",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep2_M34.genes.results",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep2_M34.isoforms.results",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep2_M34_rRNArm.genes.results",
+          "Mmus_C57-6J_GST_GC_Rep3_M35",
+          "RR1_GC_M35_GST_RNA",
+          "29",
+          "115749771",
+          "5.02",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep3_M35.genes.results",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep3_M35.isoforms.results",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep3_M35_rRNArm.genes.results",
+          "Mmus_C57-6J_GST_GC_Rep4_M36",
+          "9.5",
+          "RR1_GC_M36_GST_RNA",
+          "33",
+          "116723939",
+          "5.18",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep4_M36.genes.results",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep4_M36.isoforms.results",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep4_M36_rRNArm.genes.results",
+          "Mmus_C57-6J_GST_GC_Rep5_M37",
+          "9.6",
+          "RR1_GC_M37_GST_RNA",
+          "32.6",
+          "112976455",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep5_M37.genes.results",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep5_M37.isoforms.results",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep5_M37_rRNArm.genes.results",
+          "Mmus_C57-6J_GST_GC_Rep6_M38",
+          "RR1_GC_M38_GST_RNA",
+          "27.2",
+          "116143902",
+          "4.86",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep6_M38.genes.results",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep6_M38.isoforms.results",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep6_M38_rRNArm.genes.results",
+          "Mmus_C57-6J_GST_FLT_Rep1_M23",
+          "10",
+          "RR1_FLT_M23_GST_RNA",
+          "26.5",
+          "109734343",
+          "4.47",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep1_M23.genes.results",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep1_M23.isoforms.results",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep1_M23_rRNArm.genes.results",
+          "Mmus_C57-6J_GST_FLT_Rep2_M24",
+          "9.7",
+          "RR1_FLT_M24_GST_RNA",
+          "30",
+          "125550185",
+          "5.07",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep2_M24.genes.results",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep2_M24.isoforms.results",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep2_M24_rRNArm.genes.results",
+          "Mmus_C57-6J_GST_FLT_Rep3_M25",
+          "9.9",
+          "RR1_FLT_M25_GST_RNA",
+          "30.5",
+          "112616396",
+          "5.42",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep3_M25.genes.results",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep3_M25.isoforms.results",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep3_M25_rRNArm.genes.results",
+          "Mmus_C57-6J_GST_FLT_Rep4_M26",
+          "RR1_FLT_M26_GST_RNA",
+          "31.6",
+          "113035630",
+          "5.14",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep4_M26.genes.results",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep4_M26.isoforms.results",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep4_M26_rRNArm.genes.results",
+          "Mmus_C57-6J_GST_FLT_Rep5_M27",
+          "RR1_FLT_M27_GST_RNA",
+          "25.8",
+          "106076342",
+          "4.72",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep5_M27.genes.results",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep5_M27.isoforms.results",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep5_M27_rRNArm.genes.results",
+          "Mmus_C57-6J_GST_FLT_Rep6_M28",
+          "RR1_FLT_M28_GST_RNA",
+          "33.8",
+          "116684068",
+          "4.6",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep6_M28.genes.results",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep6_M28.isoforms.results",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep6_M28_rRNArm.genes.results"
+        ],
+        "reports": [
+          "GLDS-101_rna_seq_raw_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-101_rna_seq_raw_multiqc_GLbulkRNAseq.html",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep1_M33_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep1_M33_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-101_rna_seq_trimmed_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-101_rna_seq_trimmed_multiqc_GLbulkRNAseq.html",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep1_M33_Log.final.out",
+          "GLDS-101_rna_seq_align_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-101_rna_seq_align_multiqc_GLbulkRNAseq.html",
+          "GLDS-101_rna_seq_geneBody_cov_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-101_rna_seq_geneBody_cov_multiqc_GLbulkRNAseq.html",
+          "GLDS-101_rna_seq_infer_exp_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-101_rna_seq_infer_exp_multiqc_GLbulkRNAseq.html",
+          "GLDS-101_rna_seq_inner_dist_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-101_rna_seq_inner_dist_multiqc_GLbulkRNAseq.html",
+          "GLDS-101_rna_seq_read_dist_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-101_rna_seq_read_dist_multiqc_GLbulkRNAseq.html",
+          "GLDS-101_rna_seq_RSEM_count_multiqc_GLbulkRNAseq_data.zip",
+          "GLDS-101_rna_seq_RSEM_count_multiqc_GLbulkRNAseq.html",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep2_M34_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep2_M34_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep2_M34_Log.final.out",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep3_M35_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep3_M35_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep3_M35_Log.final.out",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep4_M36_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep4_M36_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep4_M36_Log.final.out",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep5_M37_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep5_M37_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep5_M37_Log.final.out",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep6_M38_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep6_M38_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_GC_Rep6_M38_Log.final.out",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep1_M23_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep1_M23_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep1_M23_Log.final.out",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep2_M24_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep2_M24_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep2_M24_Log.final.out",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep3_M25_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep3_M25_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep3_M25_Log.final.out",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep4_M26_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep4_M26_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep4_M26_Log.final.out",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep5_M27_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep5_M27_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep5_M27_Log.final.out",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep6_M28_R1_raw.fastq.gz_trimming_report.txt",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep6_M28_R2_raw.fastq.gz_trimming_report.txt",
+          "GLDS-101_rna_seq_Mmus_C57-6J_GST_FLT_Rep6_M28_Log.final.out"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,763 @@
+{
+  "investigation": {
+    "id": "OSD-532",
+    "title": "Space flight mouse plasma cell-free RNA sequencing in Mouse Habitat Unit-1 (MHU-1)",
+    "description": "Purpose: Sequencing analysis of plasma cell-free RNA was performed to study the effects of space flight and microgravity environment in mice. Methods: Plasma samples were collected during the JAXA MHU-1 mission as reported previously (Shiba et al., 2017, Scientific Reports).",
+    "mission": {
+      "name": "SpaceX-9",
+      "start_date": "07/18/2016",
+      "end_date": "09/26/2016",
+      "link": "https://osdr.nasa.gov/bio/repo/data/missions/SpaceX-9"
+    },
+    "project": {
+      "identifier": "MHU-1",
+      "title": "Mouse Habitat Unit-1",
+      "type": "Spaceflight Study",
+      "link": "https://iss.jaxa.jp/en/kiboexp/pm/mhu/",
+      "funding": "The MHU-1 experiment, which provided mouse plasma samples, was supported by JAXA and 14YPTK-005512.",
+      "managing_center": ""
+    },
+    "protocols": [
+      "Nucleic Acid Extraction",
+      "Library Construction",
+      "Nucleic Acid Sequencing",
+      "GeneLab raw data processing protocol",
+      "Sequence Analysis Data Transformation",
+      "Pre-launch animal acclimation",
+      "Animal Husbandry",
+      "sample collection",
+      "radiation dosimetry"
+    ],
+    "publications": [
+      {
+        "title": "Release of CD36-associated cell-free mitochondrial DNA and RNA as a hallmark of space environment response",
+        "doi": "10.1038/s41467-023-41995-z",
+        "authors": [
+          "Husna Nailil",
+          "Aiba Tatsuya",
+          "Fujita Shin-Ichiro",
+          "Saito Yoshika",
+          "Shiba Dai",
+          "Kudo Takashi",
+          "Takahashi Satoru",
+          "Furukawa Satoshi",
+          "Muratani Masafumi"
+        ],
+        "summary": "Release of CD36-associated cell-free mitochondrial DNA and RNA as a hallmark of space environment response — 10.1038/s41467-023-41995-z"
+      }
+    ],
+    "factors": [
+      "Spaceflight",
+      "Altered Gravity"
+    ],
+    "contacts": [
+      {
+        "first_name": "Masafumi",
+        "last_name": "Muratani",
+        "role": "data curation role",
+        "email": "muratani@md.tsukuba.ac.jp"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "GSM6594643",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Male",
+          "Age at Launch": "8",
+          "Material Type": "Plasma"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Altered Gravity": "1G by centrifugation"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "light cycle": "12:12-h light-dark cycle",
+          "diet": "JAXA chow",
+          "duration on ISS": "35",
+          "duration": "39",
+          "Euthanasia Method": "Isoflurane-anesthetised and euthanized by exsanguination",
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "space radiation",
+          "vehicle": "ISS-Japanese Experiment Module",
+          "absorbed radiation dose": "8.97",
+          "absorbed radiation dose rate": "0.23",
+          "exposure duration": "39",
+          "ionizing radiation categorized by source": "outer space"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory (USA)",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM6594644",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Male",
+          "Age at Launch": "8",
+          "Material Type": "Plasma"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Altered Gravity": "1G by centrifugation"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "light cycle": "12:12-h light-dark cycle",
+          "diet": "JAXA chow",
+          "duration on ISS": "35",
+          "duration": "39",
+          "Euthanasia Method": "Isoflurane-anesthetised and euthanized by exsanguination",
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "space radiation",
+          "vehicle": "ISS-Japanese Experiment Module",
+          "absorbed radiation dose": "8.97",
+          "absorbed radiation dose rate": "0.23",
+          "exposure duration": "39",
+          "ionizing radiation categorized by source": "outer space"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory (USA)",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM6594645",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Male",
+          "Age at Launch": "8",
+          "Material Type": "Plasma"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Altered Gravity": "1G by centrifugation"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "light cycle": "12:12-h light-dark cycle",
+          "diet": "JAXA chow",
+          "duration on ISS": "35",
+          "duration": "39",
+          "Euthanasia Method": "Isoflurane-anesthetised and euthanized by exsanguination",
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "space radiation",
+          "vehicle": "ISS-Japanese Experiment Module",
+          "absorbed radiation dose": "8.97",
+          "absorbed radiation dose rate": "0.23",
+          "exposure duration": "39",
+          "ionizing radiation categorized by source": "outer space"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory (USA)",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM6594646",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Male",
+          "Age at Launch": "8",
+          "Material Type": "Plasma"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Altered Gravity": "1G by centrifugation"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "light cycle": "12:12-h light-dark cycle",
+          "diet": "JAXA chow",
+          "duration on ISS": "35",
+          "duration": "39",
+          "Euthanasia Method": "Isoflurane-anesthetised and euthanized by exsanguination",
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "space radiation",
+          "vehicle": "ISS-Japanese Experiment Module",
+          "absorbed radiation dose": "8.97",
+          "absorbed radiation dose rate": "0.23",
+          "exposure duration": "39",
+          "ionizing radiation categorized by source": "outer space"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory (USA)",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM6594647",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Male",
+          "Age at Launch": "8",
+          "Material Type": "Plasma"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Altered Gravity": "1G by centrifugation"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "light cycle": "12:12-h light-dark cycle",
+          "diet": "JAXA chow",
+          "duration on ISS": "35",
+          "duration": "39",
+          "Euthanasia Method": "Isoflurane-anesthetised and euthanized by exsanguination",
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "space radiation",
+          "vehicle": "ISS-Japanese Experiment Module",
+          "absorbed radiation dose": "8.97",
+          "absorbed radiation dose rate": "0.23",
+          "exposure duration": "39",
+          "ionizing radiation categorized by source": "outer space"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory (USA)",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM6594648",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Male",
+          "Age at Launch": "8",
+          "Material Type": "Plasma"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Altered Gravity": "1G by centrifugation"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "light cycle": "12:12-h light-dark cycle",
+          "diet": "JAXA chow",
+          "duration on ISS": "35",
+          "duration": "39",
+          "Euthanasia Method": "Isoflurane-anesthetised and euthanized by exsanguination",
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "space radiation",
+          "vehicle": "ISS-Japanese Experiment Module",
+          "absorbed radiation dose": "8.97",
+          "absorbed radiation dose rate": "0.23",
+          "exposure duration": "39",
+          "ionizing radiation categorized by source": "outer space"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory (USA)",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM6594649",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Male",
+          "Age at Launch": "8",
+          "Material Type": "Plasma"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "light cycle": "12:12-h light-dark cycle",
+          "diet": "JAXA chow",
+          "duration on ISS": "35",
+          "duration": "39",
+          "Euthanasia Method": "Isoflurane-anesthetised and euthanized by exsanguination",
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "space radiation",
+          "vehicle": "ISS-Japanese Experiment Module",
+          "absorbed radiation dose": "8.97",
+          "absorbed radiation dose rate": "0.23",
+          "exposure duration": "39",
+          "ionizing radiation categorized by source": "outer space"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory (USA)",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM6594650",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Male",
+          "Age at Launch": "8",
+          "Material Type": "Plasma"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "light cycle": "12:12-h light-dark cycle",
+          "diet": "JAXA chow",
+          "duration on ISS": "35",
+          "duration": "39",
+          "Euthanasia Method": "Isoflurane-anesthetised and euthanized by exsanguination",
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "space radiation",
+          "vehicle": "ISS-Japanese Experiment Module",
+          "absorbed radiation dose": "8.97",
+          "absorbed radiation dose rate": "0.23",
+          "exposure duration": "39",
+          "ionizing radiation categorized by source": "outer space"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory (USA)",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM6594651",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Male",
+          "Age at Launch": "8",
+          "Material Type": "Plasma"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "light cycle": "12:12-h light-dark cycle",
+          "diet": "JAXA chow",
+          "duration on ISS": "35",
+          "duration": "39",
+          "Euthanasia Method": "Isoflurane-anesthetised and euthanized by exsanguination",
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "space radiation",
+          "vehicle": "ISS-Japanese Experiment Module",
+          "absorbed radiation dose": "8.97",
+          "absorbed radiation dose rate": "0.23",
+          "exposure duration": "39",
+          "ionizing radiation categorized by source": "outer space"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory (USA)",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM6594652",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Male",
+          "Age at Launch": "8",
+          "Material Type": "Plasma"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "light cycle": "12:12-h light-dark cycle",
+          "diet": "JAXA chow",
+          "duration on ISS": "35",
+          "duration": "39",
+          "Euthanasia Method": "Isoflurane-anesthetised and euthanized by exsanguination",
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "space radiation",
+          "vehicle": "ISS-Japanese Experiment Module",
+          "absorbed radiation dose": "8.97",
+          "absorbed radiation dose rate": "0.23",
+          "exposure duration": "39",
+          "ionizing radiation categorized by source": "outer space"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory (USA)",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM6594653",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Male",
+          "Age at Launch": "8",
+          "Material Type": "Plasma"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "light cycle": "12:12-h light-dark cycle",
+          "diet": "JAXA chow",
+          "duration on ISS": "35",
+          "duration": "39",
+          "Euthanasia Method": "Isoflurane-anesthetised and euthanized by exsanguination",
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "space radiation",
+          "vehicle": "ISS-Japanese Experiment Module",
+          "absorbed radiation dose": "8.97",
+          "absorbed radiation dose rate": "0.23",
+          "exposure duration": "39",
+          "ionizing radiation categorized by source": "outer space"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory (USA)",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM6594654",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Genotype": "Wild Type",
+          "Sex": "Male",
+          "Age at Launch": "8",
+          "Material Type": "Plasma"
+        },
+        "factors": {
+          "Spaceflight": "Space Flight",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "light cycle": "12:12-h light-dark cycle",
+          "diet": "JAXA chow",
+          "duration on ISS": "35",
+          "duration": "39",
+          "Euthanasia Method": "Isoflurane-anesthetised and euthanized by exsanguination",
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "space radiation",
+          "vehicle": "ISS-Japanese Experiment Module",
+          "absorbed radiation dose": "8.97",
+          "absorbed radiation dose rate": "0.23",
+          "exposure duration": "39",
+          "ionizing radiation categorized by source": "outer space"
+        },
+        "comments": {
+          "Animal Source": "Jackson Laboratory (USA)",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM6594655",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Genotype": "Wild Type",
+          "Sex": "Male",
+          "Age at Launch": "8",
+          "Material Type": "Plasma"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "light cycle": "12:12-h light-dark cycle",
+          "diet": "JAXA chow",
+          "duration on ISS": "35",
+          "duration": "39",
+          "Euthanasia Method": "Isoflurane-anesthetised and euthanized by exsanguination",
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "non-irradiated",
+          "vehicle": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories (Japan)",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM6594656",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Genotype": "Wild Type",
+          "Sex": "Male",
+          "Age at Launch": "8",
+          "Material Type": "Plasma"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "light cycle": "12:12-h light-dark cycle",
+          "diet": "JAXA chow",
+          "duration on ISS": "35",
+          "duration": "39",
+          "Euthanasia Method": "Isoflurane-anesthetised and euthanized by exsanguination",
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "non-irradiated",
+          "vehicle": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories (Japan)",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM6594657",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Genotype": "Wild Type",
+          "Sex": "Male",
+          "Age at Launch": "8",
+          "Material Type": "Plasma"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "light cycle": "12:12-h light-dark cycle",
+          "diet": "JAXA chow",
+          "duration on ISS": "35",
+          "duration": "39",
+          "Euthanasia Method": "Isoflurane-anesthetised and euthanized by exsanguination",
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "non-irradiated",
+          "vehicle": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories (Japan)",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM6594658",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Genotype": "Wild Type",
+          "Sex": "Male",
+          "Age at Launch": "8",
+          "Material Type": "Plasma"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "light cycle": "12:12-h light-dark cycle",
+          "diet": "JAXA chow",
+          "duration on ISS": "35",
+          "duration": "39",
+          "Euthanasia Method": "Isoflurane-anesthetised and euthanized by exsanguination",
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "non-irradiated",
+          "vehicle": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories (Japan)",
+          "Feeding Schedule": "ad libitum"
+        }
+      },
+      {
+        "sample_name": "GSM6594659",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6NCrl",
+          "Genotype": "Wild Type",
+          "Sex": "Male",
+          "Age at Launch": "8",
+          "Material Type": "Plasma"
+        },
+        "factors": {
+          "Spaceflight": "Ground Control",
+          "Altered Gravity": "1G on Earth"
+        },
+        "parameters": {
+          "habitat": "Habitat Cage Unit (HCU)",
+          "light cycle": "12:12-h light-dark cycle",
+          "diet": "JAXA chow",
+          "duration on ISS": "35",
+          "duration": "39",
+          "Euthanasia Method": "Isoflurane-anesthetised and euthanized by exsanguination",
+          "Sample Preservation Method": "EDTA-plasma separate gel collection tubes",
+          "Sample Storage Temperature": "-80",
+          "ionizing radiation": "non-irradiated",
+          "vehicle": "",
+          "absorbed radiation dose": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": ""
+        },
+        "comments": {
+          "Animal Source": "Charles River Laboratories (Japan)",
+          "Feeding Schedule": "ad libitum"
+        }
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina NextSeq 500",
+      "qc": {
+        "Read Depth": "20231183"
+      },
+      "library": {
+        "Library Selection": "cDNA",
+        "Library Layout": "PAIRED",
+        "Stranded": "STRANDED"
+      },
+      "files": {
+        "raw": [
+          "GLDS-532_rna-seq_GSM6594643_R1_raw.fastq.gz",
+          "GLDS-532_rna-seq_GSM6594643_R2_raw.fastq.gz",
+          "GLDS-532_rna-seq_GSM6594644_R1_raw.fastq.gz",
+          "GLDS-532_rna-seq_GSM6594644_R2_raw.fastq.gz",
+          "GLDS-532_rna-seq_GSM6594645_R1_raw.fastq.gz",
+          "GLDS-532_rna-seq_GSM6594645_R2_raw.fastq.gz",
+          "GLDS-532_rna-seq_GSM6594646_R1_raw.fastq.gz",
+          "GLDS-532_rna-seq_GSM6594646_R2_raw.fastq.gz",
+          "GLDS-532_rna-seq_GSM6594647_R1_raw.fastq.gz",
+          "GLDS-532_rna-seq_GSM6594647_R2_raw.fastq.gz",
+          "GLDS-532_rna-seq_GSM6594648_R1_raw.fastq.gz",
+          "GLDS-532_rna-seq_GSM6594648_R2_raw.fastq.gz",
+          "GLDS-532_rna-seq_GSM6594649_R1_raw.fastq.gz",
+          "GLDS-532_rna-seq_GSM6594649_R2_raw.fastq.gz",
+          "GLDS-532_rna-seq_GSM6594650_R1_raw.fastq.gz",
+          "GLDS-532_rna-seq_GSM6594650_R2_raw.fastq.gz",
+          "GLDS-532_rna-seq_GSM6594651_R1_raw.fastq.gz",
+          "GLDS-532_rna-seq_GSM6594651_R2_raw.fastq.gz",
+          "GLDS-532_rna-seq_GSM6594652_R1_raw.fastq.gz",
+          "GLDS-532_rna-seq_GSM6594652_R2_raw.fastq.gz",
+          "GLDS-532_rna-seq_GSM6594653_R1_raw.fastq.gz",
+          "GLDS-532_rna-seq_GSM6594653_R2_raw.fastq.gz",
+          "GLDS-532_rna-seq_GSM6594654_R1_raw.fastq.gz",
+          "GLDS-532_rna-seq_GSM6594654_R2_raw.fastq.gz",
+          "GLDS-532_rna-seq_GSM6594655_R1_raw.fastq.gz",
+          "GLDS-532_rna-seq_GSM6594655_R2_raw.fastq.gz",
+          "GLDS-532_rna-seq_GSM6594656_R1_raw.fastq.gz",
+          "GLDS-532_rna-seq_GSM6594656_R2_raw.fastq.gz",
+          "GLDS-532_rna-seq_GSM6594657_R1_raw.fastq.gz",
+          "GLDS-532_rna-seq_GSM6594657_R2_raw.fastq.gz",
+          "GLDS-532_rna-seq_GSM6594658_R1_raw.fastq.gz",
+          "GLDS-532_rna-seq_GSM6594658_R2_raw.fastq.gz",
+          "GLDS-532_rna-seq_GSM6594659_R1_raw.fastq.gz",
+          "GLDS-532_rna-seq_GSM6594659_R2_raw.fastq.gz"
+        ],
+        "processed": [
+          "GLDS-532_rna-seq_GSE213808_TGB_022_3group_N6_totalcount_quantilenormalized.xlsx",
+          "GSM6594643",
+          "Sequence Analysis Data Transformation",
+          "cDNA",
+          "PAIRED",
+          "STRANDED",
+          "Illumina NextSeq 500",
+          "rna-seq",
+          "36",
+          "read",
+          "SO",
+          "http://purl.obolibrary.org/obo/SO_0000150",
+          "20231183",
+          "GSM6594644",
+          "19409259",
+          "GSM6594645",
+          "24512789",
+          "GSM6594646",
+          "20622937",
+          "GSM6594647",
+          "14448817",
+          "GSM6594648",
+          "17537807",
+          "GSM6594649",
+          "16735412",
+          "GSM6594650",
+          "15599545",
+          "GSM6594651",
+          "14333536",
+          "GSM6594652",
+          "20683681",
+          "GSM6594653",
+          "16362737",
+          "GSM6594654",
+          "17916702",
+          "GSM6594655",
+          "13694128",
+          "GSM6594656",
+          "18495289",
+          "GSM6594657",
+          "13588819",
+          "GSM6594658",
+          "16651461",
+          "GSM6594659",
+          "14104756"
+        ],
+        "reports": [
+          "GLDS-532_rna_seq_raw_multiqc_report.zip"
+        ]
+      }
+    }
+  ]
+}

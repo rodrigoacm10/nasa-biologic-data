@@ -1,0 +1,1311 @@
+{
+  "investigation": {
+    "id": "OSD-425",
+    "title": "The effect of microgravity on the epigenetic modification in C. elegans - JAXA EPIGENETICS spaceflight experiment",
+    "description": "We compared the entire gene expression of wild-type and mutants under µG and artificial 1G conditions. Two independent culture samples were analyzed for each condition.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "",
+      "title": "",
+      "type": "Spaceflight Study",
+      "link": "",
+      "funding": "This work was supported by KIBO utilization program conducted by the Human Spaceflight Technology Directorate in JAXA, and was also supported by grants from the Ministry of Education, Culture, Sports, science and Technology, MEXT KAKENHI (15H05937 and 15K21745), and Advanced Research and Development Programs for Medical Innovation, AMED-CREST (16814305).",
+      "managing_center": ""
+    },
+    "protocols": [
+      "sample collection",
+      "RNA Extraction",
+      "Labeling",
+      "Nucleic Acid Hybridization",
+      "Data Collection",
+      "GeneLab microarray data processing protocol"
+    ],
+    "publications": [
+      {
+        "title": "Histone deacetylase HDA-4-mediated epigenetic regulation in space-flown C. elegans.",
+        "doi": "10.1038/s41526-021-00163-7",
+        "authors": [
+          "Higashitani A",
+          "Hashizume T",
+          "Takiura M",
+          "Higashitani N",
+          "Teranishi M",
+          "Oshima R",
+          "Yano S",
+          "Kuriyama K",
+          "Higashibata A."
+        ],
+        "summary": "Histone deacetylase HDA-4-mediated epigenetic regulation in space-flown C. elegans."
+      },
+      {
+        "title": "Loss of physical contact in space alters the dopamine system in C. elegans.",
+        "doi": "10.1016/j.isci.2022.103762",
+        "authors": [
+          "Sudevan S",
+          "Muto K",
+          "Higashitani N",
+          "Hashizume T",
+          "Higashibata A",
+          "Ellwood RA",
+          "Deane CS",
+          "Rahman M",
+          "Vanapalli SA",
+          "Etheridge T",
+          "Szewczyk NJ",
+          "Higashitani A."
+        ],
+        "summary": "Loss of physical contact in space alters the dopamine system in C. elegans."
+      }
+    ],
+    "factors": [
+      "Spaceflight",
+      "Genotype",
+      "Generation",
+      "Altered Gravity"
+    ],
+    "contacts": [
+      {
+        "first_name": "Akira",
+        "last_name": "Higashibata",
+        "role": "submitter",
+        "email": "higashibata.akira@jaxa.jp"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "GSM5284006",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "N2",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 1"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Space Flight",
+          "Generation": "1st generation",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284007",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "N2",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 2"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Space Flight",
+          "Generation": "1st generation",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284008",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "RB756",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 1"
+        },
+        "factors": {
+          "Genotype": "hda-4 (ok518) mutant",
+          "Spaceflight": "Space Flight",
+          "Generation": "1st generation",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284009",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "RB756",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 2"
+        },
+        "factors": {
+          "Genotype": "hda-4 (ok518) mutant",
+          "Spaceflight": "Space Flight",
+          "Generation": "1st generation",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284010",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "VC199",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 1"
+        },
+        "factors": {
+          "Genotype": "sir-2.1 (ok434) mutant",
+          "Spaceflight": "Space Flight",
+          "Generation": "1st generation",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284011",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "VC199",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 2"
+        },
+        "factors": {
+          "Genotype": "sir-2.1 (ok434) mutant",
+          "Spaceflight": "Space Flight",
+          "Generation": "1st generation",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284012",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "N2",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 1"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Space Flight",
+          "Generation": "1st generation",
+          "Altered Gravity": "1G by CBEF"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284013",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "N2",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 2"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Space Flight",
+          "Generation": "1st generation",
+          "Altered Gravity": "1G by CBEF"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284014",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "RB756",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 1"
+        },
+        "factors": {
+          "Genotype": "hda-4 (ok518) mutant",
+          "Spaceflight": "Space Flight",
+          "Generation": "1st generation",
+          "Altered Gravity": "1G by CBEF"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284015",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "RB756",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 2"
+        },
+        "factors": {
+          "Genotype": "hda-4 (ok518) mutant",
+          "Spaceflight": "Space Flight",
+          "Generation": "1st generation",
+          "Altered Gravity": "1G by CBEF"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284016",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "VC199",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 1"
+        },
+        "factors": {
+          "Genotype": "sir-2.1 (ok434) mutant",
+          "Spaceflight": "Space Flight",
+          "Generation": "1st generation",
+          "Altered Gravity": "1G by CBEF"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284017",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "VC199",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 2"
+        },
+        "factors": {
+          "Genotype": "sir-2.1 (ok434) mutant",
+          "Spaceflight": "Space Flight",
+          "Generation": "1st generation",
+          "Altered Gravity": "1G by CBEF"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284018",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "N2",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 1"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Space Flight",
+          "Generation": "2nd generation",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284019",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "N2",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 2"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Space Flight",
+          "Generation": "2nd generation",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284020",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "RB756",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 1"
+        },
+        "factors": {
+          "Genotype": "hda-4 (ok518) mutant",
+          "Spaceflight": "Space Flight",
+          "Generation": "2nd generation",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284021",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "RB756",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 2"
+        },
+        "factors": {
+          "Genotype": "hda-4 (ok518) mutant",
+          "Spaceflight": "Space Flight",
+          "Generation": "2nd generation",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284022",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "VC199",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 1"
+        },
+        "factors": {
+          "Genotype": "sir-2.1 (ok434) mutant",
+          "Spaceflight": "Space Flight",
+          "Generation": "2nd generation",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284023",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "VC199",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 2"
+        },
+        "factors": {
+          "Genotype": "sir-2.1 (ok434) mutant",
+          "Spaceflight": "Space Flight",
+          "Generation": "2nd generation",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284024",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "N2",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 1"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Space Flight",
+          "Generation": "2nd generation",
+          "Altered Gravity": "1G by CBEF"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284025",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "N2",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 2"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Space Flight",
+          "Generation": "2nd generation",
+          "Altered Gravity": "1G by CBEF"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284026",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "RB756",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 1"
+        },
+        "factors": {
+          "Genotype": "hda-4 (ok518) mutant",
+          "Spaceflight": "Space Flight",
+          "Generation": "2nd generation",
+          "Altered Gravity": "1G by CBEF"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284027",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "RB756",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 2"
+        },
+        "factors": {
+          "Genotype": "hda-4 (ok518) mutant",
+          "Spaceflight": "Space Flight",
+          "Generation": "2nd generation",
+          "Altered Gravity": "1G by CBEF"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284028",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "VC199",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 1"
+        },
+        "factors": {
+          "Genotype": "sir-2.1 (ok434) mutant",
+          "Spaceflight": "Space Flight",
+          "Generation": "2nd generation",
+          "Altered Gravity": "1G by CBEF"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284029",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "VC199",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 2"
+        },
+        "factors": {
+          "Genotype": "sir-2.1 (ok434) mutant",
+          "Spaceflight": "Space Flight",
+          "Generation": "2nd generation",
+          "Altered Gravity": "1G by CBEF"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284030",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "N2",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 1"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Space Flight",
+          "Generation": "3rd generation",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284031",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "N2",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 2"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Space Flight",
+          "Generation": "3rd generation",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284032",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "RB756",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 1"
+        },
+        "factors": {
+          "Genotype": "hda-4 (ok518) mutant",
+          "Spaceflight": "Space Flight",
+          "Generation": "3rd generation",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284033",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "RB756",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 2"
+        },
+        "factors": {
+          "Genotype": "hda-4 (ok518) mutant",
+          "Spaceflight": "Space Flight",
+          "Generation": "3rd generation",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284034",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "VC199",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 1"
+        },
+        "factors": {
+          "Genotype": "sir-2.1 (ok434) mutant",
+          "Spaceflight": "Space Flight",
+          "Generation": "3rd generation",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284035",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "VC199",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 2"
+        },
+        "factors": {
+          "Genotype": "sir-2.1 (ok434) mutant",
+          "Spaceflight": "Space Flight",
+          "Generation": "3rd generation",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284036",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "N2",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 1"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Space Flight",
+          "Generation": "3rd generation",
+          "Altered Gravity": "1G by CBEF"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284037",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "N2",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 2"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Space Flight",
+          "Generation": "3rd generation",
+          "Altered Gravity": "1G by CBEF"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284038",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "RB756",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 1"
+        },
+        "factors": {
+          "Genotype": "hda-4 (ok518) mutant",
+          "Spaceflight": "Space Flight",
+          "Generation": "3rd generation",
+          "Altered Gravity": "1G by CBEF"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284039",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "RB756",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 2"
+        },
+        "factors": {
+          "Genotype": "hda-4 (ok518) mutant",
+          "Spaceflight": "Space Flight",
+          "Generation": "3rd generation",
+          "Altered Gravity": "1G by CBEF"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284040",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "VC199",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 1"
+        },
+        "factors": {
+          "Genotype": "sir-2.1 (ok434) mutant",
+          "Spaceflight": "Space Flight",
+          "Generation": "3rd generation",
+          "Altered Gravity": "1G by CBEF"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284041",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "VC199",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 2"
+        },
+        "factors": {
+          "Genotype": "sir-2.1 (ok434) mutant",
+          "Spaceflight": "Space Flight",
+          "Generation": "3rd generation",
+          "Altered Gravity": "1G by CBEF"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284042",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "N2",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 1"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Space Flight",
+          "Generation": "4th generation",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284043",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "N2",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 2"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Space Flight",
+          "Generation": "4th generation",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284044",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "RB756",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 1"
+        },
+        "factors": {
+          "Genotype": "hda-4 (ok518) mutant",
+          "Spaceflight": "Space Flight",
+          "Generation": "4th generation",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284045",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "RB756",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 2"
+        },
+        "factors": {
+          "Genotype": "hda-4 (ok518) mutant",
+          "Spaceflight": "Space Flight",
+          "Generation": "4th generation",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284046",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "VC199",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 1"
+        },
+        "factors": {
+          "Genotype": "sir-2.1 (ok434) mutant",
+          "Spaceflight": "Space Flight",
+          "Generation": "4th generation",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284047",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "VC199",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 2"
+        },
+        "factors": {
+          "Genotype": "sir-2.1 (ok434) mutant",
+          "Spaceflight": "Space Flight",
+          "Generation": "4th generation",
+          "Altered Gravity": "uG"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284048",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "N2",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 1"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Space Flight",
+          "Generation": "4th generation",
+          "Altered Gravity": "1G by CBEF"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284049",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "N2",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 2"
+        },
+        "factors": {
+          "Genotype": "Wild Type",
+          "Spaceflight": "Space Flight",
+          "Generation": "4th generation",
+          "Altered Gravity": "1G by CBEF"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284050",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "RB756",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 1"
+        },
+        "factors": {
+          "Genotype": "hda-4 (ok518) mutant",
+          "Spaceflight": "Space Flight",
+          "Generation": "4th generation",
+          "Altered Gravity": "1G by CBEF"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284051",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "RB756",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 2"
+        },
+        "factors": {
+          "Genotype": "hda-4 (ok518) mutant",
+          "Spaceflight": "Space Flight",
+          "Generation": "4th generation",
+          "Altered Gravity": "1G by CBEF"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284052",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "VC199",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 1"
+        },
+        "factors": {
+          "Genotype": "sir-2.1 (ok434) mutant",
+          "Spaceflight": "Space Flight",
+          "Generation": "4th generation",
+          "Altered Gravity": "1G by CBEF"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5284053",
+        "characteristics": {
+          "Organism": "Caenorhabditis elegans",
+          "Strain": "VC199",
+          "developmental stage": "adult",
+          "Material Type": "Whole Organism",
+          "Experiment": "Experiment 2"
+        },
+        "factors": {
+          "Genotype": "sir-2.1 (ok434) mutant",
+          "Spaceflight": "Space Flight",
+          "Generation": "4th generation",
+          "Altered Gravity": "1G by CBEF"
+        },
+        "parameters": {
+          "duration": "4",
+          "Growth Temperature": "20",
+          "Sample Media Information": "E. coli OP50 in S-basal medium",
+          "Sample Storage Temperature": "-95"
+        },
+        "comments": {}
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Agilent",
+      "qc": {
+        "QA Instrument": "Agilent 2100 Bioanalyzer"
+      },
+      "library": {},
+      "files": {
+        "raw": [],
+        "processed": [
+          "GSM5284006",
+          "GeneLab microarray data processing protocol",
+          "Agilent 2100 Bioanalyzer",
+          "Cy3",
+          "SEP",
+          "http://purl.obolibrary.org/obo/sep_00184",
+          "AGILENT 020186",
+          "GLDS-425_microarray_GSM5284006_252018610887_1_1.txt.gz",
+          "GLDS-425_array_raw_intensities_GLmicroarray.csv",
+          "GLDS-425_array_normalized_expression_GLmicroarray.csv",
+          "GLDS-425_array_SampleTable_GLmicroarray.csv",
+          "GLDS-425_array_contrasts_GLmicroarray.csv",
+          "GLDS-425_array_differential_expression_GLmicroarray.csv",
+          "GSM5284007",
+          "GLDS-425_microarray_GSM5284007_252018610887_1_2.txt.gz",
+          "GSM5284008",
+          "GLDS-425_microarray_GSM5284008_252018610887_1_3.txt.gz",
+          "GSM5284009",
+          "GLDS-425_microarray_GSM5284009_252018610887_1_4.txt.gz",
+          "GSM5284010",
+          "GLDS-425_microarray_GSM5284010_252018610888_1_1.txt.gz",
+          "GSM5284011",
+          "GLDS-425_microarray_GSM5284011_252018610888_1_2.txt.gz",
+          "GSM5284012",
+          "GLDS-425_microarray_GSM5284012_252018610888_1_3.txt.gz",
+          "GSM5284013",
+          "GLDS-425_microarray_GSM5284013_252018610888_1_4.txt.gz",
+          "GSM5284014",
+          "GLDS-425_microarray_GSM5284014_252018610889_1_1.txt.gz",
+          "GSM5284015",
+          "GLDS-425_microarray_GSM5284015_252018610889_1_2.txt.gz",
+          "GSM5284016",
+          "GLDS-425_microarray_GSM5284016_252018610889_1_3.txt.gz",
+          "GSM5284017",
+          "GLDS-425_microarray_GSM5284017_252018610889_1_4.txt.gz",
+          "GSM5284018",
+          "GLDS-425_microarray_GSM5284018_252018610821_1_1.txt.gz",
+          "GSM5284019",
+          "GLDS-425_microarray_GSM5284019_252018610821_1_2.txt.gz",
+          "GSM5284020",
+          "GLDS-425_microarray_GSM5284020_252018610821_1_3.txt.gz",
+          "GSM5284021",
+          "GLDS-425_microarray_GSM5284021_252018610821_1_4.txt.gz",
+          "GSM5284022",
+          "GLDS-425_microarray_GSM5284022_252018610822_1_1.txt.gz",
+          "GSM5284023",
+          "GLDS-425_microarray_GSM5284023_252018610822_1_2.txt.gz",
+          "GSM5284024",
+          "GLDS-425_microarray_GSM5284024_252018610822_1_3.txt.gz",
+          "GSM5284025",
+          "GLDS-425_microarray_GSM5284025_252018610822_1_4.txt.gz",
+          "GSM5284026",
+          "GLDS-425_microarray_GSM5284026_252018610823_1_1.txt.gz",
+          "GSM5284027",
+          "GLDS-425_microarray_GSM5284027_252018610823_1_2.txt.gz",
+          "GSM5284028",
+          "GLDS-425_microarray_GSM5284028_252018610823_1_3.txt.gz",
+          "GSM5284029",
+          "GLDS-425_microarray_GSM5284029_252018610823_1_4.txt.gz",
+          "GSM5284030",
+          "GLDS-425_microarray_GSM5284030_252018610824_1_1.txt.gz",
+          "GSM5284031",
+          "GLDS-425_microarray_GSM5284031_252018610824_1_2.txt.gz",
+          "GSM5284032",
+          "GLDS-425_microarray_GSM5284032_252018610824_1_3.txt.gz",
+          "GSM5284033",
+          "GLDS-425_microarray_GSM5284033_252018610824_1_4.txt.gz",
+          "GSM5284034",
+          "GLDS-425_microarray_GSM5284034_252018610886_1_1.txt.gz",
+          "GSM5284035",
+          "GLDS-425_microarray_GSM5284035_252018610886_1_2.txt.gz",
+          "GSM5284036",
+          "GLDS-425_microarray_GSM5284036_252018610886_1_3.txt.gz",
+          "GSM5284037",
+          "GLDS-425_microarray_GSM5284037_252018610886_1_4.txt.gz",
+          "GSM5284038",
+          "GLDS-425_microarray_GSM5284038_252018610898_1_1.txt.gz",
+          "GSM5284039",
+          "GLDS-425_microarray_GSM5284039_252018610898_1_2.txt.gz",
+          "GSM5284040",
+          "GLDS-425_microarray_GSM5284040_252018610898_1_3.txt.gz",
+          "GSM5284041",
+          "GLDS-425_microarray_GSM5284041_252018610898_1_4.txt.gz",
+          "GSM5284042",
+          "GLDS-425_microarray_GSM5284042_252018610899_1_1.txt.gz",
+          "GSM5284043",
+          "GLDS-425_microarray_GSM5284043_252018610899_1_2.txt.gz",
+          "GSM5284044",
+          "GLDS-425_microarray_GSM5284044_252018610899_1_3.txt.gz",
+          "GSM5284045",
+          "GLDS-425_microarray_GSM5284045_252018610899_1_4.txt.gz",
+          "GSM5284046",
+          "GLDS-425_microarray_GSM5284046_252018610900_1_1.txt.gz",
+          "GSM5284047",
+          "GLDS-425_microarray_GSM5284047_252018610900_1_2.txt.gz",
+          "GSM5284048",
+          "GLDS-425_microarray_GSM5284048_252018610900_1_3.txt.gz",
+          "GSM5284049",
+          "GLDS-425_microarray_GSM5284049_252018610900_1_4.txt.gz",
+          "GSM5284050",
+          "GLDS-425_microarray_GSM5284050_252018610901_1_1.txt.gz",
+          "GSM5284051",
+          "GLDS-425_microarray_GSM5284051_252018610901_1_2.txt.gz",
+          "GSM5284052",
+          "GLDS-425_microarray_GSM5284052_252018610901_1_3.txt.gz",
+          "GSM5284053",
+          "GLDS-425_microarray_GSM5284053_252018610901_1_4.txt.gz"
+        ],
+        "reports": []
+      }
+    }
+  ]
+}

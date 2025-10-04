@@ -1,0 +1,731 @@
+{
+  "investigation": {
+    "id": "OSD-611",
+    "title": "Postsynaptic density radiation signature following space irradiation",
+    "description": "The response of the brain to space radiation is an important concern for astronauts during space missions. We assessed the response of the brain to 28Si ion irradiation (600 MeV/n), a heavy ion present in the space environment, on cognitive performance and whether the response is associated with altered DNA methylation in the hippocampus, a brain area important for cognitive performance.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "",
+      "title": "",
+      "type": "Ground Study",
+      "link": "",
+      "funding": "NASA grants NNJ12ZSA001N, 80NSSC19K0498 –P0",
+      "managing_center": ""
+    },
+    "protocols": [
+      "Nucleic Acid Extraction",
+      "Library Construction - DIPseq",
+      "Nucleic Acid Sequencing",
+      "GeneLab raw data processing protocol - DNAmethylation",
+      "Library Construction - bulkRNAseq",
+      "GeneLab raw data processing protocol - RNAseq",
+      "Irradiation Protocol",
+      "Sample Collection"
+    ],
+    "publications": [
+      {
+        "title": "Postsynaptic density radiation signature following space irradiation.",
+        "doi": "10.3389/fphys.2023.1215535",
+        "authors": [
+          "Impey S",
+          "Pelz C",
+          "Riparip LK",
+          "Tafessu A",
+          "Fareh F",
+          "Zuloaga DG",
+          "Marzulla T",
+          "Stewart B",
+          "Rosi S",
+          "Turker MS",
+          "Raber J."
+        ],
+        "summary": "Postsynaptic density radiation signature following space irradiation. — 10.3389/fphys.2023.1215535"
+      }
+    ],
+    "factors": [
+      "Ionizing Radiation",
+      "Absorbed Radiation Dose"
+    ],
+    "contacts": [
+      {
+        "first_name": "Soren",
+        "last_name": "Impey",
+        "role": "conceptualization role",
+        "email": "simpey@downeurobiology.org"
+      },
+      {
+        "first_name": "Carl",
+        "last_name": "Pelz",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Lara-Kirstie",
+        "last_name": "Riparip",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Amanuel",
+        "last_name": "Tafessu",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Fatema",
+        "last_name": "Fareh",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Damian",
+        "last_name": "Zuloaga",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Tessa",
+        "last_name": "Marzulla",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Blair",
+        "last_name": "Stewart",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Susanna",
+        "last_name": "Rosi",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Mitchell",
+        "last_name": "Turker",
+        "role": "Author",
+        "email": ""
+      },
+      {
+        "first_name": "Jacob",
+        "last_name": "Raber",
+        "role": "Author",
+        "email": ""
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "Mouse hippocampus 1",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Genotype": "Wild Type",
+          "Sex": "Male",
+          "age": "6",
+          "Material Type": "Hippocampus"
+        },
+        "factors": {
+          "Ionizing Radiation": "sham-irradiated",
+          "Absorbed Radiation Dose": "0"
+        },
+        "parameters": {
+          "particle charge": "",
+          "ionizing radiation energy": "",
+          "linear energy transfer": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Time of Sample Collection After Treatment": "2",
+          "Euthanasia Method": "cervical dislocation followed by decapitation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-70"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Mouse hippocampus 2",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Genotype": "Wild Type",
+          "Sex": "Male",
+          "age": "6",
+          "Material Type": "Hippocampus"
+        },
+        "factors": {
+          "Ionizing Radiation": "sham-irradiated",
+          "Absorbed Radiation Dose": "0"
+        },
+        "parameters": {
+          "particle charge": "",
+          "ionizing radiation energy": "",
+          "linear energy transfer": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Time of Sample Collection After Treatment": "2",
+          "Euthanasia Method": "cervical dislocation followed by decapitation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-70"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Mouse hippocampus 3",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Genotype": "Wild Type",
+          "Sex": "Male",
+          "age": "6",
+          "Material Type": "Hippocampus"
+        },
+        "factors": {
+          "Ionizing Radiation": "sham-irradiated",
+          "Absorbed Radiation Dose": "0"
+        },
+        "parameters": {
+          "particle charge": "",
+          "ionizing radiation energy": "",
+          "linear energy transfer": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Time of Sample Collection After Treatment": "2",
+          "Euthanasia Method": "cervical dislocation followed by decapitation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-70"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Mouse hippocampus 4",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Genotype": "Wild Type",
+          "Sex": "Male",
+          "age": "6",
+          "Material Type": "Hippocampus"
+        },
+        "factors": {
+          "Ionizing Radiation": "sham-irradiated",
+          "Absorbed Radiation Dose": "0"
+        },
+        "parameters": {
+          "particle charge": "",
+          "ionizing radiation energy": "",
+          "linear energy transfer": "",
+          "absorbed radiation dose rate": "",
+          "exposure duration": "",
+          "ionizing radiation categorized by source": "",
+          "ionizing radiation device": "",
+          "Time of Sample Collection After Treatment": "2",
+          "Euthanasia Method": "cervical dislocation followed by decapitation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-70"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Mouse hippocampus 5",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Genotype": "Wild Type",
+          "Sex": "Male",
+          "age": "6",
+          "Material Type": "Hippocampus"
+        },
+        "factors": {
+          "Ionizing Radiation": "Si-28 ion radiation",
+          "Absorbed Radiation Dose": "0.6"
+        },
+        "parameters": {
+          "particle charge": "14",
+          "ionizing radiation energy": "600",
+          "linear energy transfer": "51",
+          "absorbed radiation dose rate": "40.34 +/- 1.67",
+          "exposure duration": "1.53 +/-0.08",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Treatment": "2",
+          "Euthanasia Method": "cervical dislocation followed by decapitation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-70"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Mouse hippocampus 6",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Genotype": "Wild Type",
+          "Sex": "Male",
+          "age": "6",
+          "Material Type": "Hippocampus"
+        },
+        "factors": {
+          "Ionizing Radiation": "Si-28 ion radiation",
+          "Absorbed Radiation Dose": "0.6"
+        },
+        "parameters": {
+          "particle charge": "14",
+          "ionizing radiation energy": "600",
+          "linear energy transfer": "51",
+          "absorbed radiation dose rate": "40.34 +/- 1.67",
+          "exposure duration": "1.53 +/-0.08",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Treatment": "2",
+          "Euthanasia Method": "cervical dislocation followed by decapitation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-70"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Mouse hippocampus 7",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Genotype": "Wild Type",
+          "Sex": "Male",
+          "age": "6",
+          "Material Type": "Hippocampus"
+        },
+        "factors": {
+          "Ionizing Radiation": "Si-28 ion radiation",
+          "Absorbed Radiation Dose": "0.6"
+        },
+        "parameters": {
+          "particle charge": "14",
+          "ionizing radiation energy": "600",
+          "linear energy transfer": "51",
+          "absorbed radiation dose rate": "40.34 +/- 1.67",
+          "exposure duration": "1.53 +/-0.08",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Treatment": "2",
+          "Euthanasia Method": "cervical dislocation followed by decapitation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-70"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Mouse hippocampus 8",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Genotype": "Wild Type",
+          "Sex": "Male",
+          "age": "6",
+          "Material Type": "Hippocampus"
+        },
+        "factors": {
+          "Ionizing Radiation": "Si-28 ion radiation",
+          "Absorbed Radiation Dose": "0.3"
+        },
+        "parameters": {
+          "particle charge": "14",
+          "ionizing radiation energy": "600",
+          "linear energy transfer": "51",
+          "absorbed radiation dose rate": "40.34 +/- 1.67",
+          "exposure duration": "0.99 +/-0.08",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Treatment": "2",
+          "Euthanasia Method": "cervical dislocation followed by decapitation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-70"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Mouse hippocampus 9",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Genotype": "Wild Type",
+          "Sex": "Male",
+          "age": "6",
+          "Material Type": "Hippocampus"
+        },
+        "factors": {
+          "Ionizing Radiation": "Si-28 ion radiation",
+          "Absorbed Radiation Dose": "0.3"
+        },
+        "parameters": {
+          "particle charge": "14",
+          "ionizing radiation energy": "600",
+          "linear energy transfer": "51",
+          "absorbed radiation dose rate": "40.34 +/- 1.67",
+          "exposure duration": "0.99 +/-0.08",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Treatment": "2",
+          "Euthanasia Method": "cervical dislocation followed by decapitation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-70"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Mouse hippocampus 10",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Genotype": "Wild Type",
+          "Sex": "Male",
+          "age": "6",
+          "Material Type": "Hippocampus"
+        },
+        "factors": {
+          "Ionizing Radiation": "Si-28 ion radiation",
+          "Absorbed Radiation Dose": "0.3"
+        },
+        "parameters": {
+          "particle charge": "14",
+          "ionizing radiation energy": "600",
+          "linear energy transfer": "51",
+          "absorbed radiation dose rate": "40.34 +/- 1.67",
+          "exposure duration": "0.99 +/-0.08",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Treatment": "2",
+          "Euthanasia Method": "cervical dislocation followed by decapitation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-70"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Mouse hippocampus 11",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Genotype": "Wild Type",
+          "Sex": "Male",
+          "age": "6",
+          "Material Type": "Hippocampus"
+        },
+        "factors": {
+          "Ionizing Radiation": "Si-28 ion radiation",
+          "Absorbed Radiation Dose": "0.3"
+        },
+        "parameters": {
+          "particle charge": "14",
+          "ionizing radiation energy": "600",
+          "linear energy transfer": "51",
+          "absorbed radiation dose rate": "40.34 +/- 1.67",
+          "exposure duration": "0.99 +/-0.08",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Treatment": "2",
+          "Euthanasia Method": "cervical dislocation followed by decapitation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-70"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Mouse hippocampus 12",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Genotype": "Wild Type",
+          "Sex": "Male",
+          "age": "6",
+          "Material Type": "Hippocampus"
+        },
+        "factors": {
+          "Ionizing Radiation": "Si-28 ion radiation",
+          "Absorbed Radiation Dose": "0.3"
+        },
+        "parameters": {
+          "particle charge": "14",
+          "ionizing radiation energy": "600",
+          "linear energy transfer": "51",
+          "absorbed radiation dose rate": "40.34 +/- 1.67",
+          "exposure duration": "0.99 +/-0.08",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Treatment": "2",
+          "Euthanasia Method": "cervical dislocation followed by decapitation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-70"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "Mouse hippocampus 17",
+        "characteristics": {
+          "Organism": "Mus musculus",
+          "Strain": "C57BL/6J",
+          "Animal Source": "Jackson Laboratory",
+          "Genotype": "Wild Type",
+          "Sex": "Male",
+          "age": "6",
+          "Material Type": "Hippocampus"
+        },
+        "factors": {
+          "Ionizing Radiation": "Si-28 ion radiation",
+          "Absorbed Radiation Dose": "0.6"
+        },
+        "parameters": {
+          "particle charge": "14",
+          "ionizing radiation energy": "600",
+          "linear energy transfer": "51",
+          "absorbed radiation dose rate": "40.34 +/- 1.67",
+          "exposure duration": "1.53 +/-0.08",
+          "ionizing radiation categorized by source": "particle accelerator",
+          "ionizing radiation device": "NASA Space Radiation Laboratory",
+          "Time of Sample Collection After Treatment": "2",
+          "Euthanasia Method": "cervical dislocation followed by decapitation",
+          "Sample Preservation Method": "Liquid Nitrogen",
+          "Sample Storage Temperature": "-70"
+        },
+        "comments": {}
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "dna-methylation-profiling",
+      "platform": "Illumina HiSeq 2000",
+      "qc": {
+        "QA Instrument": "Nanodrop spectrometry",
+        "Read Depth": "12314679"
+      },
+      "library": {
+        "Library Selection": "5-methylcytidine antibody",
+        "Library Layout": "SINGLE"
+      },
+      "files": {
+        "raw": [
+          "GLDS-592_DIP-seq_Si_2wk_65_0Gy_b1t1_mcDIP_raw.fastq.gz",
+          "GLDS-592_DIP-seq_Si_2wk_66_0Gy_b1t1_mcDIP_raw.fastq.gz",
+          "GLDS-592_DIP-seq_Si_2wk_67_0Gy_b1t1_mcDIP_raw.fastq.gz",
+          "GLDS-592_DIP-seq_Si_2wk_68_0Gy_b1t1_mcDIP_raw.fastq.gz",
+          "GLDS-592_DIP-seq_Si_2wk_70_0_6Gy_b1t1_mcDIP_raw.fastq.gz",
+          "GLDS-592_DIP-seq_Si_2wk_71_0_6Gy_b1t1_mcDIP_raw.fastq.gz",
+          "GLDS-592_DIP-seq_Si_2wk_72_0_6Gy_b1t1_mcDIP_raw.fastq.gz",
+          "GLDS-592_DIP-seq_Si_2wk_74_0_3Gy_b1t1_mcDIP_raw.fastq.gz",
+          "GLDS-592_DIP-seq_Si_2wk_76_0_3Gy_b1t1_mcDIP_raw.fastq.gz",
+          "GLDS-592_DIP-seq_Si_2wk_77_0_3Gy_b1t1_mcDIP_raw.fastq.gz"
+        ],
+        "processed": [
+          "Mouse hippocampus 1",
+          "GeneLab raw data processing protocol - DNAmethylation",
+          "Nanodrop spectrometry",
+          "SO",
+          "http://purl.obolibrary.org/obo/SO_0000150",
+          "anti-5mC mouse mAb",
+          "5-methylcytidine antibody",
+          "SINGLE",
+          "Illumina HiSeq 2000",
+          "75",
+          "read",
+          "DIP-seq",
+          "12314679",
+          "Mouse hippocampus 2",
+          "14300894",
+          "Mouse hippocampus 3",
+          "8120607",
+          "Mouse hippocampus 4",
+          "17188487",
+          "Mouse hippocampus 5",
+          "14065965",
+          "Mouse hippocampus 6",
+          "12468433",
+          "Mouse hippocampus 8",
+          "13329597",
+          "Mouse hippocampus 10",
+          "8863438",
+          "Mouse hippocampus 11",
+          "10159491",
+          "Mouse hippocampus 17",
+          "11815892"
+        ],
+        "reports": [
+          "GLDS-592_GDIP-Seq_mcDIP_raw_multiqc_GLMethylSeq_report.zip"
+        ]
+      }
+    },
+    {
+      "type": "dna-methylation-profiling",
+      "platform": "Illumina HiSeq 2000",
+      "qc": {
+        "QA Instrument": "Nanodrop spectrometry",
+        "Read Depth": "16042897"
+      },
+      "library": {
+        "Library Selection": "5-hydroxymethylcytidine antibody",
+        "Library Layout": "SINGLE"
+      },
+      "files": {
+        "raw": [
+          "GLDS-592_DIP-seq_Si_2wk_65_0Gy_b1t1_hmcDIP_raw.fastq.gz",
+          "GLDS-592_DIP-seq_Si_2wk_66_0Gy_b1t1_hmcDIP_raw.fastq.gz",
+          "GLDS-592_DIP-seq_Si_2wk_67_0Gy_b1t1_hmcDIP_raw.fastq.gz",
+          "GLDS-592_DIP-seq_Si_2wk_68_0Gy_b1t1_hmcDIP_raw.fastq.gz",
+          "GLDS-592_DIP-seq_Si_2wk_70_0_6Gy_b1t1_hmcDIP_raw.fastq.gz",
+          "GLDS-592_DIP-seq_Si_2wk_71_0_6Gy_b1t1_hmcDIP_raw.fastq.gz",
+          "GLDS-592_DIP-seq_Si_2wk_72_0_6Gy_b1t1_hmcDIP_raw.fastq.gz",
+          "GLDS-592_DIP-seq_Si_2wk_73_0_6Gy_b1t1_hmcDIP_raw.fastq.gz",
+          "GLDS-592_DIP-seq_Si_2wk_74_0_3Gy_b1t1_hmcDIP_raw.fastq.gz",
+          "GLDS-592_DIP-seq_Si_2wk_75_0_3Gy_b1t1_hmcDIP_raw.fastq.gz",
+          "GLDS-592_DIP-seq_Si_2wk_76_0_3Gy_b1t1_hmcDIP_raw.fastq.gz",
+          "GLDS-592_DIP-seq_Si_2wk_77_0_3Gy_b1t1_hmcDIP_raw.fastq.gz"
+        ],
+        "processed": [
+          "Mouse hippocampus 1",
+          "GeneLab raw data processing protocol - DNAmethylation",
+          "Nanodrop spectrometry",
+          "anti-5hmC rabbit polyclonal",
+          "SO",
+          "http://purl.obolibrary.org/obo/SO_0000150",
+          "5-hydroxymethylcytidine antibody",
+          "SINGLE",
+          "Illumina HiSeq 2000",
+          "75",
+          "read",
+          "DIP-seq",
+          "16042897",
+          "Mouse hippocampus 2",
+          "11858583",
+          "Mouse hippocampus 3",
+          "16274507",
+          "Mouse hippocampus 4",
+          "21769146",
+          "Mouse hippocampus 5",
+          "17075883",
+          "Mouse hippocampus 6",
+          "14273530",
+          "Mouse hippocampus 7",
+          "13694352",
+          "Mouse hippocampus 8",
+          "13873507",
+          "Mouse hippocampus 9",
+          "16167783",
+          "Mouse hippocampus 10",
+          "13309423",
+          "Mouse hippocampus 11",
+          "18325243",
+          "Mouse hippocampus 17",
+          "17099625"
+        ],
+        "reports": [
+          "GLDS-592_GDIP-Seq_hmcDIP_raw_multiqc_GLMethylSeq_report.zip"
+        ]
+      }
+    },
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina HiSeq 2000",
+      "qc": {
+        "QA Instrument": "Nanodrop spectrometry",
+        "Read Depth": "25534932",
+        "rRNA Contamination": "10.97"
+      },
+      "library": {
+        "Library Selection": "polyA enrichment",
+        "Library Layout": "SINGLE",
+        "Library Kit": "NEBnext Ultra kit"
+      },
+      "files": {
+        "raw": [
+          "GLDS-592_rna-seq_Si_2wk_65_0Gy_b1t1_RNA_raw.fastq.gz",
+          "GLDS-592_rna-seq_Si_2wk_66_0Gy_b1t1_RNA_raw.fastq.gz",
+          "GLDS-592_rna-seq_Si_2wk_67_0Gy_b1t1_RNA_raw.fastq.gz",
+          "GLDS-592_rna-seq_Si_2wk_68_0Gy_b1t1_RNA_raw.fastq.gz",
+          "GLDS-592_rna-seq_Si_2wk_70_0_6Gy_b1t1_RNA_raw.fastq.gz",
+          "GLDS-592_rna-seq_Si_2wk_72_0_6Gy_b1t1_RNA_raw.fastq.gz",
+          "GLDS-592_rna-seq_Si_2wk_73_0_6Gy_b1t1_RNA_raw.fastq.gz",
+          "GLDS-592_rna-seq_Si_2wk_74_0_3Gy_b1t1_RNA_raw.fastq.gz",
+          "GLDS-592_rna-seq_Si_2wk_75_0_3Gy_b1t1_RNA_raw.fastq.gz",
+          "GLDS-592_rna-seq_Si_2wk_76_0_3Gy_b1t1_RNA_raw.fastq.gz",
+          "GLDS-592_rna-seq_Si_2wk_77_0_3Gy_b1t1_RNA_raw.fastq.gz",
+          "GLDS-592_rna-seq_Si_2wk_78_0_3Gy_b1t1_RNA_raw.fastq.gz"
+        ],
+        "processed": [
+          "Mouse hippocampus 1",
+          "GeneLab raw data processing protocol - RNAseq",
+          "Nanodrop spectrometry",
+          "polyA enrichment",
+          "SINGLE",
+          "NEBnext Ultra kit",
+          "Illumina HiSeq 2000",
+          "75",
+          "percent",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000187",
+          "rna-seq",
+          "25534932",
+          "10.97",
+          "Mouse hippocampus 2",
+          "12885929",
+          "1.09",
+          "Mouse hippocampus 3",
+          "16473549",
+          "27.56",
+          "Mouse hippocampus 4",
+          "16118105",
+          "1.17",
+          "Mouse hippocampus 5",
+          "95815",
+          "2.3",
+          "Mouse hippocampus 6",
+          "21604077",
+          "22.23",
+          "Mouse hippocampus 7",
+          "21129856",
+          "37.49",
+          "Mouse hippocampus 8",
+          "12241797",
+          "3.08",
+          "Mouse hippocampus 9",
+          "9159892",
+          "23.14",
+          "Mouse hippocampus 10",
+          "21959017",
+          "21.99",
+          "Mouse hippocampus 11",
+          "17016383",
+          "8.53",
+          "Mouse hippocampus 12",
+          "17894101",
+          "5.92"
+        ],
+        "reports": [
+          "GLDS-592_rna_seq_raw_multiqc_GLbulkRNAseq_report.zip"
+        ]
+      }
+    }
+  ]
+}

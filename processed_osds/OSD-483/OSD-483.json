@@ -1,0 +1,828 @@
+{
+  "investigation": {
+    "id": "GLDS-483",
+    "title": "small-RNA sequencing of sEV isolated from plasma of astronauts",
+    "description": "We sought to determine whether the spaceflight environment can induce alterations in small extracellular vesicles (sEV) smallRNA content and their utility as biomarkers. Using small RNA sequencing (sRNAseq), we evaluated the impact of the spaceflight environment on sEV miRNA content in peripheral blood (PB) plasma of 14 astronauts, who flew STS missions between 1998-2001.",
+    "mission": {
+      "name": "",
+      "start_date": "",
+      "end_date": "",
+      "link": ""
+    },
+    "project": {
+      "identifier": "",
+      "title": "",
+      "type": "Spaceflight Study",
+      "link": "",
+      "funding": "This work is supported by the Translational Research Institute through NASA Cooperative Agreement NNX16AO69A",
+      "managing_center": ""
+    },
+    "protocols": [
+      "sample collection",
+      "Nucleic Acid Extraction",
+      "Library Construction",
+      "Nucleic Acid Sequencing"
+    ],
+    "publications": [],
+    "factors": [
+      "Spaceflight",
+      "Time"
+    ],
+    "contacts": [
+      {
+        "first_name": "Arsen",
+        "last_name": "Arakelyan",
+        "role": "Submitter",
+        "email": "aarakelyan@sci.am"
+      }
+    ]
+  },
+  "study": {
+    "samples": [
+      {
+        "sample_name": "GSM5792297",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "Z14",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Spaceflight": "Pre-flight",
+          "Time": "Launch minus 10"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5792298",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "Z14",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Spaceflight": "In-flight",
+          "Time": "Return minus 0"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5792299",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "Z14",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Spaceflight": "Post-flight",
+          "Time": "Return plus 3"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5792300",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "Z13",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Spaceflight": "Pre-flight",
+          "Time": "Launch minus 10"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5792301",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "Z13",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Spaceflight": "In-flight",
+          "Time": "Return minus 0"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5792302",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "Z13",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Spaceflight": "Post-flight",
+          "Time": "Return plus 3"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5792303",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "Z12",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Spaceflight": "Pre-flight",
+          "Time": "Launch minus 10"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5792304",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "Z12",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Spaceflight": "In-flight",
+          "Time": "Return minus 0"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5792305",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "Z12",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Spaceflight": "Post-flight",
+          "Time": "Return plus 3"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5792306",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "Z11",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Spaceflight": "Pre-flight",
+          "Time": "Launch minus 10"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5792307",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "Z11",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Spaceflight": "In-flight",
+          "Time": "Return minus 0"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5792308",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "Z11",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Spaceflight": "Post-flight",
+          "Time": "Return plus 3"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5792309",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "Z10",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Spaceflight": "Pre-flight",
+          "Time": "Launch minus 10"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5792310",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "Z10",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Spaceflight": "In-flight",
+          "Time": "Return minus 0"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5792311",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "Z10",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Spaceflight": "Post-flight",
+          "Time": "Return plus 3"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5792312",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "Z9",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Spaceflight": "Pre-flight",
+          "Time": "Launch minus 10"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5792313",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "Z9",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Spaceflight": "In-flight",
+          "Time": "Return minus 0"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5792314",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "Z9",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Spaceflight": "Post-flight",
+          "Time": "Return plus 3"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5792315",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "Z8",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Spaceflight": "Pre-flight",
+          "Time": "Launch minus 10"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5792316",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "Z8",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Spaceflight": "In-flight",
+          "Time": "Return minus 0"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5792317",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "Z8",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Spaceflight": "Post-flight",
+          "Time": "Return plus 3"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5792318",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "Z7",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Spaceflight": "Pre-flight",
+          "Time": "Launch minus 10"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5792319",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "Z7",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Spaceflight": "In-flight",
+          "Time": "Return minus 0"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5792320",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "Z7",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Spaceflight": "Post-flight",
+          "Time": "Return plus 3"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5792321",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "Z6",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Spaceflight": "Pre-flight",
+          "Time": "Launch minus 10"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5792322",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "Z6",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Spaceflight": "In-flight",
+          "Time": "Return minus 0"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5792323",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "Z6",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Spaceflight": "Post-flight",
+          "Time": "Return plus 3"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5792324",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "Z5",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Spaceflight": "Pre-flight",
+          "Time": "Launch minus 10"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5792325",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "Z5",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Spaceflight": "In-flight",
+          "Time": "Return minus 0"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5792326",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "Z5",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Spaceflight": "Post-flight",
+          "Time": "Return plus 3"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5792327",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "Z4",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Spaceflight": "Pre-flight",
+          "Time": "Launch minus 10"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5792328",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "Z4",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Spaceflight": "In-flight",
+          "Time": "Return minus 0"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5792329",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "Z4",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Spaceflight": "Post-flight",
+          "Time": "Return plus 3"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5792330",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "Z3",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Spaceflight": "Pre-flight",
+          "Time": "Launch minus 10"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5792331",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "Z3",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Spaceflight": "In-flight",
+          "Time": "Return minus 0"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5792332",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "Z3",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Spaceflight": "Post-flight",
+          "Time": "Return plus 3"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5792333",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "Z2",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Spaceflight": "Pre-flight",
+          "Time": "Launch minus 10"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5792334",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "Z2",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Spaceflight": "In-flight",
+          "Time": "Return minus 0"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5792335",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "Z2",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Spaceflight": "Post-flight",
+          "Time": "Return plus 3"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5792336",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "Z1",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Spaceflight": "Pre-flight",
+          "Time": "Launch minus 10"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5792337",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "Z1",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Spaceflight": "In-flight",
+          "Time": "Return minus 0"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      },
+      {
+        "sample_name": "GSM5792338",
+        "characteristics": {
+          "Organism": "Homo sapiens",
+          "Study Subject": "Z1",
+          "Material Type": "Peripheral Blood"
+        },
+        "factors": {
+          "Spaceflight": "Post-flight",
+          "Time": "Return plus 3"
+        },
+        "parameters": {
+          "Sample Storage Temperature": "-80"
+        },
+        "comments": {}
+      }
+    ]
+  },
+  "assays": [
+    {
+      "type": "transcription-profiling",
+      "platform": "Illumina NextSeq 500",
+      "qc": {
+        "QA Instrument": "Agilent TapeStation"
+      },
+      "library": {
+        "Library Layout": "SINGLE"
+      },
+      "files": {
+        "raw": [
+          "GLDS-483_rna-seq_GSM5792297_raw.fastq.gz",
+          "GLDS-483_rna-seq_GSM5792298_raw.fastq.gz",
+          "GLDS-483_rna-seq_GSM5792299_raw.fastq.gz",
+          "GLDS-483_rna-seq_GSM5792300_raw.fastq.gz",
+          "GLDS-483_rna-seq_GSM5792301_raw.fastq.gz",
+          "GLDS-483_rna-seq_GSM5792302_raw.fastq.gz",
+          "GLDS-483_rna-seq_GSM5792303_raw.fastq.gz",
+          "GLDS-483_rna-seq_GSM5792304_raw.fastq.gz",
+          "GLDS-483_rna-seq_GSM5792305_raw.fastq.gz",
+          "GLDS-483_rna-seq_GSM5792306_raw.fastq.gz",
+          "GLDS-483_rna-seq_GSM5792307_raw.fastq.gz",
+          "GLDS-483_rna-seq_GSM5792308_raw.fastq.gz",
+          "GLDS-483_rna-seq_GSM5792309_raw.fastq.gz",
+          "GLDS-483_rna-seq_GSM5792310_raw.fastq.gz",
+          "GLDS-483_rna-seq_GSM5792311_raw.fastq.gz",
+          "GLDS-483_rna-seq_GSM5792312_raw.fastq.gz",
+          "GLDS-483_rna-seq_GSM5792313_raw.fastq.gz",
+          "GLDS-483_rna-seq_GSM5792314_raw.fastq.gz",
+          "GLDS-483_rna-seq_GSM5792315_raw.fastq.gz",
+          "GLDS-483_rna-seq_GSM5792316_raw.fastq.gz",
+          "GLDS-483_rna-seq_GSM5792317_raw.fastq.gz",
+          "GLDS-483_rna-seq_GSM5792318_raw.fastq.gz",
+          "GLDS-483_rna-seq_GSM5792319_raw.fastq.gz",
+          "GLDS-483_rna-seq_GSM5792320_raw.fastq.gz",
+          "GLDS-483_rna-seq_GSM5792321_raw.fastq.gz",
+          "GLDS-483_rna-seq_GSM5792322_raw.fastq.gz",
+          "GLDS-483_rna-seq_GSM5792323_raw.fastq.gz",
+          "GLDS-483_rna-seq_GSM5792324_raw.fastq.gz",
+          "GLDS-483_rna-seq_GSM5792325_raw.fastq.gz",
+          "GLDS-483_rna-seq_GSM5792326_raw.fastq.gz",
+          "GLDS-483_rna-seq_GSM5792327_raw.fastq.gz",
+          "GLDS-483_rna-seq_GSM5792328_raw.fastq.gz",
+          "GLDS-483_rna-seq_GSM5792329_raw.fastq.gz",
+          "GLDS-483_rna-seq_GSM5792330_raw.fastq.gz",
+          "GLDS-483_rna-seq_GSM5792331_raw.fastq.gz",
+          "GLDS-483_rna-seq_GSM5792332_raw.fastq.gz",
+          "GLDS-483_rna-seq_GSM5792333_raw.fastq.gz",
+          "GLDS-483_rna-seq_GSM5792334_raw.fastq.gz",
+          "GLDS-483_rna-seq_GSM5792335_raw.fastq.gz",
+          "GLDS-483_rna-seq_GSM5792336_raw.fastq.gz",
+          "GLDS-483_rna-seq_GSM5792337_raw.fastq.gz",
+          "GLDS-483_rna-seq_GSM5792338_raw.fastq.gz"
+        ],
+        "processed": [
+          "GSM5792297",
+          "Nucleic Acid Sequencing",
+          "Agilent TapeStation",
+          "SINGLE",
+          "Illumina NextSeq 500",
+          "75",
+          "base pair",
+          "UO",
+          "http://purl.obolibrary.org/obo/UO_0000244",
+          "RNA-seq",
+          "GSM5792298",
+          "GSM5792299",
+          "GSM5792300",
+          "GSM5792301",
+          "GSM5792302",
+          "GSM5792303",
+          "GSM5792304",
+          "GSM5792305",
+          "GSM5792306",
+          "GSM5792307",
+          "GSM5792308",
+          "GSM5792309",
+          "GSM5792310",
+          "GSM5792311",
+          "GSM5792312",
+          "GSM5792313",
+          "GSM5792314",
+          "GSM5792315",
+          "GSM5792316",
+          "GSM5792317",
+          "GSM5792318",
+          "GSM5792319",
+          "GSM5792320",
+          "GSM5792321",
+          "GSM5792322",
+          "GSM5792323",
+          "GSM5792324",
+          "GSM5792325",
+          "GSM5792326",
+          "GSM5792327",
+          "GSM5792328",
+          "GSM5792329",
+          "GSM5792330",
+          "GSM5792331",
+          "GSM5792332",
+          "GSM5792333",
+          "GSM5792334",
+          "GSM5792335",
+          "GSM5792336",
+          "GSM5792337",
+          "GSM5792338"
+        ],
+        "reports": []
+      }
+    }
+  ]
+}
