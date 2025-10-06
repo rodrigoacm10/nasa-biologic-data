@@ -1,0 +1,148 @@
+{
+  "article": {
+    "id": "",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6952069/",
+    "title": "MetaMiner: A Scalable Peptidogenomics Approach for Discovery of Ribosomal Peptide Natural Products with Blind Modifications from Microbial Communities",
+    "authors": [
+      "Liu Cao",
+      "Alexey Gurevich",
+      "Kelsey L Alexander",
+      "C Benjamin Naman",
+      "Tiago Leão",
+      "Evgenia Glukhov",
+      "Tal Luzzatto-Knaan",
+      "Fernando Vargas",
+      "Robby Quinn",
+      "Amina Bouslimani",
+      "Louis Felix Nothias",
+      "Nitin K Singh",
+      "Jon G Sanders",
+      "Rodolfo A S Benitez",
+      "Luke R Thompson",
+      "Md-Nafiz Hamid",
+      "James T Morton",
+      "Alla Mikheenko",
+      "Alexander Shlemov",
+      "Anton Korobeynikov",
+      "Iddo Friedberg",
+      "Rob Knight",
+      "Kasthuri Venkateswaran",
+      "William H Gerwick",
+      "Lena Gerwick",
+      "Pieter C Dorrestein",
+      "Pavel A Pevzner",
+      "Hosein Mohimani"
+    ],
+    "journal": "",
+    "year": "2019",
+    "keywords": [
+      "Ribosomally synthesized and post-translationally modified peptides",
+      "computational mass spectrometry",
+      "metagenomics",
+      "natural products discovery",
+      "microbial metabolites"
+    ],
+    "funding": [],
+    "abstract": "",
+    "sections": {
+      "introduction": "Natural products are back at the center of attention as pharmaceutical leads, as exemplified by the recent discoveries of bioactive natural product drugs (Fischbach and Walsh, 2009; Harvey et al., 2015; Li and Vederas, 2009; Ling et al., 2015). Recent advances in metagenomics are transforming the field of natural product discovery by enabling the recovery of microbial genomes directly from the environmental samples. This has revolutionized our understanding about the microbial composition of various communities and their biosynthetic gene clusters. Biosynthetic gene cluster are sets of genes that synthesize microbial small molecules from simple building blocks. The metagenomes of microbial communities contain thousands of biosynthetic gene clusters with unknown small molecule products, making them an untapped resource for the future antimicrobial drug discovery (Charlop-Powers et al., 2016; Donia et al., 2014; Hadjithomas et al., 2015).",
+      "methods": "MetaMiner pipeline analyzes the paired genome/metagenome assemblies and tandem mass spectra from isolated microbes or bacterial/fungal communities. Starting from the genome assemblies, MetaMiner (a) identifies putative Biosynthetic gene cluster and the corresponding precursor peptides, (b) constructs target and decoy putative RiPP structure databases (c) matches tandem mass spectra against the constructed post-translationally modified RiPP structures database using Dereplicator, and (d) enlarges the set of described RiPPs via spectral networking (Bandeira et al., 2007; Watrous et al., 2012).",
+      "results": "MetaMiner pipeline analyzes the paired genome/metagenome assemblies and tandem mass spectra from isolated microbes or bacterial/fungal communities. Starting from the genome assemblies, MetaMiner (a) identifies putative Biosynthetic gene cluster and the corresponding precursor peptides, (b) constructs target and decoy putative RiPP structure databases (c) matches tandem mass spectra against the constructed post-translationally modified RiPP structures database using Dereplicator, and (d) enlarges the set of described RiPPs via spectral networking (Bandeira et al., 2007; Watrous et al., 2012).",
+      "discussion": "While recent genome mining efforts have revealed over 20,000 hypothetical RiPP-encoding biosynthetic gene clusters (Hadjithomas et al., 2015), only 35 RiPPs matching these biosynthetic gene clusters have been identified so far. To keep pace with the speed of microbial genome sequencing, high-throughput methods for structure elucidation of RiPPs are needed that combine metagenomics, genome mining, and peptidomics. MetaMiner extends our previous RiPPquest tool (limited to lanthipeptides) to lassopeptides, LAPs, linaridins, glycocins, cyanobactins, and proteusins, and enables the blind search for RiPPs with unusual modifications."
+    },
+    "experimental_factors": {
+      "organism": "microbial communities",
+      "organism_raw": "microbial communities",
+      "cell_type": "",
+      "cell_type_raw": "",
+      "tissue": "",
+      "tissue_raw": "",
+      "tissue_list": [],
+      "tissue_detail": [],
+      "treatment": "microbial communities",
+      "treatment_raw": "microbial communities",
+      "treatment_list": [
+        "microbial communities"
+      ],
+      "treatment_detail": [
+        {
+          "text": "microbial communities",
+          "normalized": "microbial communities",
+          "ontology": {
+            "id": "",
+            "label": ""
+          }
+        }
+      ],
+      "duration": "",
+      "duration_raw": "",
+      "duration_detail": {
+        "raw": "",
+        "normalized": "",
+        "range": {
+          "min": "",
+          "max": ""
+        }
+      },
+      "sex": "",
+      "sex_raw": "",
+      "sex_list": [],
+      "genotype": "",
+      "genotype_raw": "",
+      "genotype_detail": {
+        "text": "",
+        "normalized": ""
+      },
+      "strain": "",
+      "strain_raw": "",
+      "line_name": "",
+      "line_name_raw": "",
+      "model_type": "",
+      "model_type_raw": "",
+      "age_at_sampling": "",
+      "age_at_sampling_detail": {
+        "raw": "",
+        "normalized": "",
+        "range": {
+          "min": "",
+          "max": ""
+        }
+      },
+      "cell_type_detail": {
+        "text": "",
+        "normalized": "",
+        "ontology": {
+          "id": "",
+          "label": ""
+        }
+      }
+    },
+    "technologies": [
+      "computational mass spectrometry",
+      "metagenomics",
+      "natural products discovery",
+      "microbial metabolites"
+    ],
+    "technologies_detail": [
+      {
+        "text": "computational mass spectrometry",
+        "normalized": "computational mass spectrometry"
+      },
+      {
+        "text": "metagenomics",
+        "normalized": "metagenomics"
+      },
+      {
+        "text": "natural products discovery",
+        "normalized": "natural products discovery"
+      },
+      {
+        "text": "microbial metabolites",
+        "normalized": "microbial metabolites"
+      }
+    ],
+    "insights_summary": "MetaMiner is a software tool for discovering ribosomally synthesized and post-translationally modified peptides with unknown post-translational modifications from microbial communities through the database search of mass spectra against peptides predicted by genome/metagenome mining.",
+    "acknowledgments": "The work of H.M. and L.C. was supported by a start-up fund from the Computational Biology Department, Carnegie Mellon University. The work of P.D. and P.A.P. was supported by NIH 2-P41-GM103484. P.D. is supported by GM097509. A.G., A.M. and P.A.P. were supported by St. Petersburg State University, Russia (grant ID PURE 28396291). A.S. and A.K. were supported by Russian Science Foundation (grant 19-14-00172). T.L.K., P.D., L.G. and W.H.G. were supported by NIH 2R01GM107550. L.G. and W.H.G. were supported by NIH R01GM118815. JTM was funded by NSF GRFP DGE-1144086.",
+    "references": []
+  }
+}
